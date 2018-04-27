@@ -1,3 +1,3 @@
 ### Canonchain Wallet
 
-标准器钱包
+标准链钱包
