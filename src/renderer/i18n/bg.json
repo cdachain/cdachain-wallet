@@ -1,0 +1,72 @@
+{
+    "lang":"език",
+    "confirm":"потвърждавам",
+    "cancel":"отменен",
+    "dialog_tit":"бърз",
+    "close":"близо",
+    "confirm_you_active":"Моля, потвърдете операцията си",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"у дома",
+        "transfer":"прехвърляне",
+        "contacts":"Адресна книга",
+        "setting":"Създаване",
+        "total":"общо"
+    },
+    "page_setting":{
+        "tit":"Създаване",
+        "select":"Моля, изберете"
+    },
+    "page_contacts":{
+        "tit":"Адресна книга",
+        "add_cont":{
+            "tri_dialog":"Добавяне на адрес",
+            "dialog_tit":"Въведете информация за адреса",
+            "dialog_tag":"свободен край",
+            "tag_placeholder":"Моля, въведете маркера на коментара за адреса",
+            "dialog_address":"адрес",
+            "address_placeholder":"Моля, въведете адреса"
+        },
+        "delete_dialog":{
+            "title":"Вие премахвате"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Прехвърлете",
+        "to_address":"в",
+        "amount":"пари",
+        "send_all":"Изпратете всички",
+        "remark":"забележка",
+        "fees":"Такси",
+        "expected_fees":"Оценени такси",
+        "total":"общо",
+        "select":"Моля, изберете",
+        "confirmDia":{
+            "title":"Моля, потвърдете",
+            "enter_passworld_tit":"Моля, въведете паролата си",
+            "enter_passworld_place":"Моля, въведете паролата си"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR код",
+        "go_transfer":"Започнете прехвърлянето",
+        "transfer_log":"История на транзакциите",
+        "transfer_log_null":"Няма история на транзакциите",
+        "copy_success":"Адресът е копиран",
+        "edit_dia":{
+            "tit":"Промяна на бележката",
+            "subtit":"Въведете бележка с дължина не повече от 8 цифри за профила си"
+        }
+    },
+    "page_home":{
+        "import_account":"Импортиращ профил",
+        "back_up_account":"Резервен акаунт",
+        "add_account":"Нов профил",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"парола",
+        "confirm_password":"Потвърдете паролата"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"Wika",
+    "confirm":"Kumpirmasyon",
+    "cancel":"Pagkansela",
+    "dialog_tit":"Prompt",
+    "close":"Isinara",
+    "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Bahay",
+        "transfer":"Maglipat",
+        "contacts":"Address book",
+        "setting":"Mga Setting",
+        "total":"Kabuuang"
+    },
+    "page_setting":{
+        "tit":"Mga Setting",
+        "select":"Mangyaring piliin"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Magdagdag ng address",
+            "dialog_tit":"Ipasok ang impormasyon ng address",
+            "dialog_tag":"Mga Tag",
+            "tag_placeholder":"Pakipasok ang tag ng komento para sa address",
+            "dialog_address":"Address",
+            "address_placeholder":"Mangyaring ipasok ang address"
+        },
+        "delete_dialog":{
+            "title":"Inaalis mo"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Maglipat ng out",
+        "to_address":"Sa",
+        "amount":"Halaga",
+        "send_all":"Ipadala lahat",
+        "remark":"Tandaan",
+        "fees":"Bayad",
+        "expected_fees":"Tinatayang mga bayarin",
+        "total":"Kabuuang",
+        "select":"Mangyaring piliin",
+        "confirmDia":{
+            "title":"Mangyaring kumpirmahin",
+            "enter_passworld_tit":"Pakipasok ang iyong password",
+            "enter_passworld_place":"Pakipasok ang iyong password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Magsimula ng paglipat",
+        "transfer_log":"Kasaysayan ng transaksyon",
+        "transfer_log_null":"Walang kasaysayan ng transaksyon",
+        "copy_success":"Nakopya ang address",
+        "edit_dia":{
+            "tit":"Baguhin ang tala",
+            "subtit":"Magpasok ng tala na may haba na hindi hihigit sa 8 na digit para sa iyong account"
+        }
+    },
+    "page_home":{
+        "import_account":"Mag-import ng account",
+        "back_up_account":"Backup account",
+        "add_account":"Bagong account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Kumpirmahin ang password"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"ቋንቋ",
+    "confirm":"ማረጋገጫ",
+    "cancel":"ስረዛ",
+    "dialog_tit":"አስገራሚ",
+    "close":"ተዘግቷል",
+    "confirm_you_active":"እባክዎ የእርስዎን ክወና ያረጋግጡ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ቤት",
+        "transfer":"ዝውውር",
+        "contacts":"የአድራሻ ደብተር",
+        "setting":"ቅንብሮች",
+        "total":"ጠቅላላ"
+    },
+    "page_setting":{
+        "tit":"ቅንብሮች",
+        "select":"እባክዎ ይምረጡ"
+    },
+    "page_contacts":{
+        "tit":"የአድራሻ ደብተር",
+        "add_cont":{
+            "tri_dialog":"አድራሻ አክል",
+            "dialog_tit":"የአድራሻ መረጃ ያስገቡ",
+            "dialog_tag":"መለያዎች",
+            "tag_placeholder":"ለአድራሻው የአስተያየት መለያውን ያስገቡ",
+            "dialog_address":"አድራሻ",
+            "address_placeholder":"እባክህ አድራሻውን አስገባ"
+        },
+        "delete_dialog":{
+            "title":"እያስወገድክ ነው"
+        }
+    },
+    "page_transfer":{
+        "from_address":"አስተላልፍ",
+        "to_address":"ወደ ውስጥ",
+        "amount":"መጠን",
+        "send_all":"ሁሉንም ላክ",
+        "remark":"ማስታወሻ",
+        "fees":"ክፍያዎች",
+        "expected_fees":"ግምታዊ ክፍያዎች",
+        "total":"ጠቅላላ",
+        "select":"እባክዎ ይምረጡ",
+        "confirmDia":{
+            "title":"እባክዎ ያረጋግጡ",
+            "enter_passworld_tit":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
+            "enter_passworld_place":"እባክዎ የይለፍ ቃልዎን ያስገቡ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR ኮድ",
+        "go_transfer":"ዝውውር ጀምር",
+        "transfer_log":"የግብይት ታሪክ",
+        "transfer_log_null":"ምንም የግብይት ታሪክ የለም",
+        "copy_success":"አድራሻው ተቀድቷል",
+        "edit_dia":{
+            "tit":"ማስታወሻን ያሻሽሉ",
+            "subtit":"ለመለያዎ ከ 8 በላይ ቁጥሮችን የያዘ ማስታወሻ ያስገቡ"
+        }
+    },
+    "page_home":{
+        "import_account":"መለያ አስገባ",
+        "back_up_account":"የመጠባበቂያ መለያ",
+        "add_account":"አዲስ መለያ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"የይለፍ ቃል",
+        "confirm_password":"የይለፍ ቃል አረጋግጥ"
+    }
+
+}

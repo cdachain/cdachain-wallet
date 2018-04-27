@@ -1,0 +1,72 @@
+{
+    "lang":"Chilankhulo",
+    "confirm":"Umboni",
+    "cancel":"Kuletsedwa",
+    "dialog_tit":"Mwamsanga",
+    "close":"Yatseka",
+    "confirm_you_active":"Chonde tsimikizani ntchito yanu",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Kunyumba",
+        "transfer":"Tumizani",
+        "contacts":"Bukhu la Maadiresi",
+        "setting":"Makhalidwe",
+        "total":"Chiwerengero"
+    },
+    "page_setting":{
+        "tit":"Makhalidwe",
+        "select":"Chonde sankhani"
+    },
+    "page_contacts":{
+        "tit":"Bukhu la Maadiresi",
+        "add_cont":{
+            "tri_dialog":"Onjezani adilesi",
+            "dialog_tit":"Lowani chidziwitso cha adresse",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Chonde lowetsani ndemanga ya ndemanga pa adilesi",
+            "dialog_address":"Adilesi",
+            "address_placeholder":"Chonde lowetsani adilesi"
+        },
+        "delete_dialog":{
+            "title":"Mukuchotsa"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Tumizani",
+        "to_address":"Kulowa",
+        "amount":"Zambiri",
+        "send_all":"Tumizani zonse",
+        "remark":"Zindikirani",
+        "fees":"Malipiro",
+        "expected_fees":"Malipiro owerengedwa",
+        "total":"Chiwerengero",
+        "select":"Chonde sankhani",
+        "confirmDia":{
+            "title":"Chonde tsimikizirani",
+            "enter_passworld_tit":"Chonde lowetsani mawu anu achinsinsi",
+            "enter_passworld_place":"Chonde lowetsani mawu anu achinsinsi"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Yambitsani kutumiza",
+        "transfer_log":"Mbiri yamagulu",
+        "transfer_log_null":"Palibe mbiri yakugulitsa",
+        "copy_success":"Adilesi yophimbidwa",
+        "edit_dia":{
+            "tit":"Sinthani mawu",
+            "subtit":"Lowani cholemba ndi kutalika kwa maulendo osaposa 8 a akaunti yanu"
+        }
+    },
+    "page_home":{
+        "import_account":"Lowani akaunti",
+        "back_up_account":"Kusunga akaunti",
+        "add_account":"Nkhani yatsopano",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Chinsinsi",
+        "confirm_password":"Tsimikizani mawu achinsinsi"
+    }
+
+}

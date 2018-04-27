@@ -1,0 +1,72 @@
+{
+    "lang":"Mutauro",
+    "confirm":"Chivimbiso",
+    "cancel":"Cancellation",
+    "dialog_tit":"Kukurumidza",
+    "close":"Yakavharwa",
+    "confirm_you_active":"Ndapota simbisa kushanda kwako",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Musha",
+        "transfer":"Dhinda",
+        "contacts":"Bhuku rebhuku",
+        "setting":"Zvirongwa",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Zvirongwa",
+        "select":"Ndapota sarudza"
+    },
+    "page_contacts":{
+        "tit":"Bhuku rebhuku",
+        "add_cont":{
+            "tri_dialog":"Wedzera kero",
+            "dialog_tit":"Pinda mukana wekero",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Ndapota nyora tereti yekutaura kwekero",
+            "dialog_address":"Address",
+            "address_placeholder":"Ndapota pinda kero"
+        },
+        "delete_dialog":{
+            "title":"Iwe uri kubvisa"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Shandura",
+        "to_address":"Into",
+        "amount":"Nhamba",
+        "send_all":"Tumira zvose",
+        "remark":"Cherechedza",
+        "fees":"Mari",
+        "expected_fees":"Inofanirwa mari",
+        "total":"Total",
+        "select":"Ndapota sarudza",
+        "confirmDia":{
+            "title":"Ndapota chengetedza",
+            "enter_passworld_tit":"Ndapota nyora password yako",
+            "enter_passworld_place":"Ndapota nyora password yako"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Tanga kutumira",
+        "transfer_log":"Transaction history",
+        "transfer_log_null":"Kwete nhoroondo yekutengesa",
+        "copy_success":"Tsamba yakanyorwa",
+        "edit_dia":{
+            "tit":"Shandura nyora",
+            "subtit":"Isa chinyorwa nehurefu hwepasina mairi 8 maverengi eakaunti yako"
+        }
+    },
+    "page_home":{
+        "import_account":"Tumira nhoroondo",
+        "back_up_account":"Backup account",
+        "add_account":"Nhoroondo itsva",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Tsimbisa password"
+    }
+
+}

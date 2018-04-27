@@ -1,0 +1,72 @@
+{
+    "lang":"Luuqadda",
+    "confirm":"Xaqiijinta",
+    "cancel":"Joojinta",
+    "dialog_tit":"Baahi",
+    "close":"Xiran",
+    "confirm_you_active":"Fadlan hubi qaliinkaaga",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Guriga",
+        "transfer":"Bedelka",
+        "contacts":"Buugga Cinwaanka",
+        "setting":"Goobaha",
+        "total":"Wadarta"
+    },
+    "page_setting":{
+        "tit":"Goobaha",
+        "select":"Fadlan dooro"
+    },
+    "page_contacts":{
+        "tit":"Buugga Cinwaanka",
+        "add_cont":{
+            "tri_dialog":"Ku dar cinwaanka",
+            "dialog_tit":"Gali macluumaadka cinwaanka",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Fadlan qor taariikhda faallooyinka cinwaanka",
+            "dialog_address":"Cinwaanka",
+            "address_placeholder":"Fadlan qor cinwaanka"
+        },
+        "delete_dialog":{
+            "title":"Adigu waad ka saartaa"
+        }
+    },
+    "page_transfer":{
+        "from_address":"U soo wareeji",
+        "to_address":"Into",
+        "amount":"Tirada",
+        "send_all":"Soo dir dhammaan",
+        "remark":"Ogow",
+        "fees":"Khidmadaha",
+        "expected_fees":"Qiimaha qiyaasta",
+        "total":"Wadarta",
+        "select":"Fadlan dooro",
+        "confirmDia":{
+            "title":"Fadlan cadee",
+            "enter_passworld_tit":"Fadlan gali sirtaada",
+            "enter_passworld_place":"Fadlan gali sirtaada"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Kala bedel wareejinta",
+        "transfer_log":"Taariikhda wax-gadashada",
+        "transfer_log_null":"Taariikhda isweydaarsiga",
+        "copy_success":"Cinwaanka ayaa la daabacay",
+        "edit_dia":{
+            "tit":"Bedel qoraalka",
+            "subtit":"Ku qor qori dhererka wax ka badan 8 lambar xisaabtaada"
+        }
+    },
+    "page_home":{
+        "import_account":"Koontada la soo galo",
+        "back_up_account":"Koontada keydka",
+        "add_account":"Koontada cusub",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Furaha",
+        "confirm_password":"Xaqiiji sirta"
+    }
+
+}

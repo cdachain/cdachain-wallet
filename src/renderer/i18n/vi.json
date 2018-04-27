@@ -1,0 +1,72 @@
+{
+    "lang":"Ngôn ngữ",
+    "confirm":"Xác nhận",
+    "cancel":"Hủy bỏ",
+    "dialog_tit":"Nhắc",
+    "close":"Đã đóng",
+    "confirm_you_active":"Vui lòng xác nhận hoạt động của bạn",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Trang chủ",
+        "transfer":"Chuyển khoản",
+        "contacts":"Sổ địa chỉ",
+        "setting":"Cài đặt",
+        "total":"Tổng số"
+    },
+    "page_setting":{
+        "tit":"Cài đặt",
+        "select":"Vui lòng chọn"
+    },
+    "page_contacts":{
+        "tit":"Sổ địa chỉ",
+        "add_cont":{
+            "tri_dialog":"Thêm địa chỉ",
+            "dialog_tit":"Nhập thông tin địa chỉ",
+            "dialog_tag":"Thẻ",
+            "tag_placeholder":"Vui lòng nhập thẻ nhận xét cho địa chỉ",
+            "dialog_address":"Địa chỉ",
+            "address_placeholder":"Vui lòng nhập địa chỉ"
+        },
+        "delete_dialog":{
+            "title":"Bạn đang xóa"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Chuyển ra",
+        "to_address":"Vào",
+        "amount":"Số tiền",
+        "send_all":"Gửi tất cả",
+        "remark":"Lưu ý",
+        "fees":"Phí",
+        "expected_fees":"Phí ước tính",
+        "total":"Tổng số",
+        "select":"Vui lòng chọn",
+        "confirmDia":{
+            "title":"Vui lòng xác nhận",
+            "enter_passworld_tit":"Vui lòng nhập mật khẩu của bạn",
+            "enter_passworld_place":"Vui lòng nhập mật khẩu của bạn"
+        }
+    },
+    "page_account":{
+        "qrcode":"Mã QR",
+        "go_transfer":"Bắt đầu chuyển",
+        "transfer_log":"Lịch sử giao dịch",
+        "transfer_log_null":"Không có lịch sử giao dịch",
+        "copy_success":"Địa chỉ đã được sao chép",
+        "edit_dia":{
+            "tit":"Sửa đổi ghi chú",
+            "subtit":"Nhập ghi chú có độ dài không quá 8 chữ số cho tài khoản của bạn"
+        }
+    },
+    "page_home":{
+        "import_account":"Nhập tài khoản",
+        "back_up_account":"Tài khoản sao lưu",
+        "add_account":"Tài khoản mới",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Mật khẩu",
+        "confirm_password":"Xác nhận mật khẩu"
+    }
+
+}

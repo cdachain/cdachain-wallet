@@ -1,0 +1,72 @@
+{
+    "lang":"Basa",
+    "confirm":"Konfirmasi",
+    "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
+    "close":"Ditutup",
+    "confirm_you_active":"Mangga konfirmasi operasi sampeyan",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ngarep",
+        "transfer":"Transfer",
+        "contacts":"Buku alamat",
+        "setting":"Setelan",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Setelan",
+        "select":"Mangga pilih"
+    },
+    "page_contacts":{
+        "tit":"Buku alamat",
+        "add_cont":{
+            "tri_dialog":"Tambah alamat",
+            "dialog_tit":"Ketik informasi alamat",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Mangga ketikake tag komentar kanggo alamat kasebut",
+            "dialog_address":"Alamat",
+            "address_placeholder":"Mangga mlebu alamat"
+        },
+        "delete_dialog":{
+            "title":"Sampeyan ngilangi"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Nransfer metu",
+        "to_address":"Into",
+        "amount":"Jumlah",
+        "send_all":"Kirim kabeh",
+        "remark":"Cathetan",
+        "fees":"Biaya",
+        "expected_fees":"Biaya ditrapake",
+        "total":"Total",
+        "select":"Mangga pilih",
+        "confirmDia":{
+            "title":"Mangga konfirmasi",
+            "enter_passworld_tit":"Mangga ketik sandhi",
+            "enter_passworld_place":"Mangga ketik sandhi"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Miwiti transfer",
+        "transfer_log":"Sajarah transaksi",
+        "transfer_log_null":"Ora ana riwayat transaksi",
+        "copy_success":"Alamat wis disalin",
+        "edit_dia":{
+            "tit":"Ngowahi cathetan",
+            "subtit":"Ketik cathetan kanthi dawane ora luwih saka 8 digit kanggo akun sampeyan"
+        }
+    },
+    "page_home":{
+        "import_account":"Impor akun",
+        "back_up_account":"Akun cadangan",
+        "add_account":"Akun anyar",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pangguna Sandi",
+        "confirm_password":"Konfirmasi tembung sandi"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"Keel",
+    "confirm":"Kinnitus",
+    "cancel":"Tühistamine",
+    "dialog_tit":"Küsi",
+    "close":"Suletud",
+    "confirm_you_active":"Palun kinnitage oma toiming",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Kodu",
+        "transfer":"Üleandmine",
+        "contacts":"Aadressiraamat",
+        "setting":"Seaded",
+        "total":"Kokku"
+    },
+    "page_setting":{
+        "tit":"Seaded",
+        "select":"Palun vali"
+    },
+    "page_contacts":{
+        "tit":"Aadressiraamat",
+        "add_cont":{
+            "tri_dialog":"Lisage aadress",
+            "dialog_tit":"Sisestage aadressi andmed",
+            "dialog_tag":"Sildid",
+            "tag_placeholder":"Sisestage aadressi kommentaarimärgend",
+            "dialog_address":"Aadress",
+            "address_placeholder":"Palun sisestage aadress"
+        },
+        "delete_dialog":{
+            "title":"Te eemaldate"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Üle kanda",
+        "to_address":"Into",
+        "amount":"Summa",
+        "send_all":"Saada kõik",
+        "remark":"Märkus",
+        "fees":"Tasud",
+        "expected_fees":"Hinnangulised tasud",
+        "total":"Kokku",
+        "select":"Palun vali",
+        "confirmDia":{
+            "title":"Palun kinnitage",
+            "enter_passworld_tit":"Palun sisesta oma parool",
+            "enter_passworld_place":"Palun sisesta oma parool"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kood",
+        "go_transfer":"Käivita üleandmine",
+        "transfer_log":"Tehinguajalugu",
+        "transfer_log_null":"Tehingute ajalugu pole",
+        "copy_success":"Aadress on kopeeritud",
+        "edit_dia":{
+            "tit":"Muuda märkmeid",
+            "subtit":"Sisestage kontole pikkusega kuni 8 numbrit"
+        }
+    },
+    "page_home":{
+        "import_account":"Impordi konto",
+        "back_up_account":"Varukoopia konto",
+        "add_account":"Uus konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parool",
+        "confirm_password":"Kinnitage parool"
+    }
+
+}

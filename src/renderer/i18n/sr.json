@@ -1,0 +1,72 @@
+{
+    "lang":"Језик",
+    "confirm":"Потврда",
+    "cancel":"Отказ",
+    "dialog_tit":"Промпт",
+    "close":"Затворено",
+    "confirm_you_active":"Потврдите своју операцију",
+    "unit":{
+        "czr":"ЦЗР"
+    },
+    "model_header":{
+        "home":"Хоме",
+        "transfer":"Трансфер",
+        "contacts":"Адресар",
+        "setting":"Подешавања",
+        "total":"Укупно"
+    },
+    "page_setting":{
+        "tit":"Подешавања",
+        "select":"Изаберите"
+    },
+    "page_contacts":{
+        "tit":"Адресар",
+        "add_cont":{
+            "tri_dialog":"Додај адресу",
+            "dialog_tit":"Унесите информације о адреси",
+            "dialog_tag":"Ознаке",
+            "tag_placeholder":"Молимо унесите ознаку за коментар за адресу",
+            "dialog_address":"Адреса",
+            "address_placeholder":"Унесите адресу"
+        },
+        "delete_dialog":{
+            "title":"Ви уклањате"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Пренеси",
+        "to_address":"Инто",
+        "amount":"Износ",
+        "send_all":"Пошаљите све",
+        "remark":"Напомена",
+        "fees":"Накнаде",
+        "expected_fees":"Процењене накнаде",
+        "total":"Укупно",
+        "select":"Изаберите",
+        "confirmDia":{
+            "title":"Потврдите",
+            "enter_passworld_tit":"Унесите своју лозинку",
+            "enter_passworld_place":"Унесите своју лозинку"
+        }
+    },
+    "page_account":{
+        "qrcode":"КР код",
+        "go_transfer":"Покрените трансфер",
+        "transfer_log":"Историја трансакција",
+        "transfer_log_null":"Нема историје трансакција",
+        "copy_success":"Адреса је копирана",
+        "edit_dia":{
+            "tit":"Измените белешку",
+            "subtit":"Унесите белешку са дужином од највише 8 цифара за ваш налог"
+        }
+    },
+    "page_home":{
+        "import_account":"Увоз налога",
+        "back_up_account":"Резервни налог",
+        "add_account":"Нови рачун",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Лозинка",
+        "confirm_password":"Потврдите лозинку"
+    }
+
+}

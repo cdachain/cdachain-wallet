@@ -1,0 +1,72 @@
+{
+    "lang":"Valoda",
+    "confirm":"Apstiprinājums",
+    "cancel":"Anulēšana",
+    "dialog_tit":"Uzvedne",
+    "close":"Slēgts",
+    "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Mājas",
+        "transfer":"Pārsūtīšana",
+        "contacts":"Adrešu grāmata",
+        "setting":"Iestatījumi",
+        "total":"Kopā"
+    },
+    "page_setting":{
+        "tit":"Iestatījumi",
+        "select":"Lūdzu, izvēlieties"
+    },
+    "page_contacts":{
+        "tit":"Adrešu grāmata",
+        "add_cont":{
+            "tri_dialog":"Pievienot adresi",
+            "dialog_tit":"Ievadiet adreses informāciju",
+            "dialog_tag":"Birkas",
+            "tag_placeholder":"Lūdzu, ievadiet komentāra tagu par adresi",
+            "dialog_address":"Adrese",
+            "address_placeholder":"Lūdzu, ievadiet adresi"
+        },
+        "delete_dialog":{
+            "title":"Jūs noņemat"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Pārskaitīt",
+        "to_address":"Into",
+        "amount":"Summa",
+        "send_all":"Sūtīt visus",
+        "remark":"Piezīme",
+        "fees":"Maksas",
+        "expected_fees":"Aprēķinātās maksas",
+        "total":"Kopā",
+        "select":"Lūdzu, izvēlieties",
+        "confirmDia":{
+            "title":"Lūdzu, apstipriniet",
+            "enter_passworld_tit":"Lūdzu, ievadiet savu paroli",
+            "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kods",
+        "go_transfer":"Uzsākt pārskaitījumu;",
+        "transfer_log":"Darījumu vēsture",
+        "transfer_log_null":"Nav darījumu vēstures",
+        "copy_success":"Adrese ir kopēta",
+        "edit_dia":{
+            "tit":"Mainīt piezīmi",
+            "subtit":"Ievadiet piezīmi ar sava konta garumu ne vairāk kā 8 ciparus"
+        }
+    },
+    "page_home":{
+        "import_account":"Importēt kontu",
+        "back_up_account":"Rezerves konts",
+        "add_account":"Jauns konts",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parole",
+        "confirm_password":"Apstipriniet paroli"
+    }
+
+}

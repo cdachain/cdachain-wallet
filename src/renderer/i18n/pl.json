@@ -1,0 +1,72 @@
+{
+    "lang":"Język",
+    "confirm":"Potwierdzenie",
+    "cancel":"Anulowanie",
+    "dialog_tit":"Pytaj",
+    "close":"Zamknięte",
+    "confirm_you_active":"Proszę potwierdzić swoją operację",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Strona główna",
+        "transfer":"Przenieś",
+        "contacts":"Książka adresowa",
+        "setting":"Ustawienia",
+        "total":"Razem"
+    },
+    "page_setting":{
+        "tit":"Ustawienia",
+        "select":"Proszę wybrać"
+    },
+    "page_contacts":{
+        "tit":"Książka adresowa",
+        "add_cont":{
+            "tri_dialog":"Dodaj adres",
+            "dialog_tit":"Wprowadź dane adresowe",
+            "dialog_tag":"Tagi",
+            "tag_placeholder":"Wprowadź tag komentarza dla adresu",
+            "dialog_address":"Adres",
+            "address_placeholder":"Proszę podać adres"
+        },
+        "delete_dialog":{
+            "title":"Usuwasz"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Przenieś",
+        "to_address":"Do",
+        "amount":"Kwota",
+        "send_all":"Wyślij wszystko",
+        "remark":"Uwaga",
+        "fees":"Opłaty",
+        "expected_fees":"Szacowane opłaty",
+        "total":"Razem",
+        "select":"Proszę wybrać",
+        "confirmDia":{
+            "title":"Proszę potwierdzić",
+            "enter_passworld_tit":"Wprowadź swoje hasło",
+            "enter_passworld_place":"Wprowadź swoje hasło"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kod QR",
+        "go_transfer":"Rozpocznij transfer",
+        "transfer_log":"Historia transakcji",
+        "transfer_log_null":"Brak historii transakcji",
+        "copy_success":"Adres został skopiowany",
+        "edit_dia":{
+            "tit":"Zmodyfikuj notatkę",
+            "subtit":"Wprowadź notatkę o długości nie większej niż 8 cyfr dla swojego konta"
+        }
+    },
+    "page_home":{
+        "import_account":"Importuj konto",
+        "back_up_account":"Konto zapasowe",
+        "add_account":"Nowe konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Hasło",
+        "confirm_password":"Potwierdź hasło"
+    }
+
+}

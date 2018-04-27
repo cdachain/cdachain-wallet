@@ -1,0 +1,72 @@
+{
+    "lang":"тил",
+    "confirm":"ырастоо",
+    "cancel":"жокко чыгарылды",
+    "dialog_tit":"тез",
+    "close":"жакын",
+    "confirm_you_active":"Сураныч, операция болушу керек",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"үй",
+        "transfer":"ташуу",
+        "contacts":"Дарек китеби",
+        "setting":"орнотуу",
+        "total":"Бардыгы болуп"
+    },
+    "page_setting":{
+        "tit":"орнотуу",
+        "select":"Сураныч, тандоо"
+    },
+    "page_contacts":{
+        "tit":"Дарек китеби",
+        "add_cont":{
+            "tri_dialog":"кошуу дарек",
+            "dialog_tit":"дарегин киргизүү",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Сураныч дарек этикеткасы Эскертүүлөр кирет",
+            "dialog_address":"дарек",
+            "address_placeholder":"Сураныч, дарегин киргизүү"
+        },
+        "delete_dialog":{
+            "title":"Сиз алып жатышат"
+        }
+    },
+    "page_transfer":{
+        "from_address":"күйгүзүү чыгып",
+        "to_address":"эске",
+        "amount":"акча",
+        "send_all":"бардык жөнөтүү",
+        "remark":"пикир",
+        "fees":"Алымдар",
+        "expected_fees":"болжолдуу алым",
+        "total":"Бардыгы болуп",
+        "select":"Сураныч, тандоо",
+        "confirmDia":{
+            "title":"Сураныч, ырастоо",
+            "enter_passworld_tit":"Сураныч, сөздү киргизип",
+            "enter_passworld_place":"Сураныч, сөздү киргизип"
+        }
+    },
+    "page_account":{
+        "qrcode":"Эки өлчөмдүү коду",
+        "go_transfer":"которууну демилгелөө",
+        "transfer_log":"бүтүмдүн Record",
+        "transfer_log_null":"эч кандай бүтүмдөр",
+        "copy_success":"Дареги көчүрүлдү",
+        "edit_dia":{
+            "tit":"Edit Note",
+            "subtit":"Эсепке 8 ашуун Эскертүүлөр эмес, узундугу кирүү үчүн"
+        }
+    },
+    "page_home":{
+        "import_account":"Import каттоо эсеби",
+        "back_up_account":"Көмөкчү каттоо эсеби",
+        "add_account":"жаңы каттоо эсеби",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"пароль",
+        "confirm_password":"Сырсөздү ырастоо"
+    }
+
+}

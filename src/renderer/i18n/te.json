@@ -1,0 +1,72 @@
+{
+    "lang":"భాషా",
+    "confirm":"నిర్ధారించండి",
+    "cancel":"రద్దు",
+    "dialog_tit":"ప్రాంప్ట్",
+    "close":"Close",
+    "confirm_you_active":"దయచేసి మీ ఆపరేషన్ను నిర్ధారించండి",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"హోమ్",
+        "transfer":"ట్రాన్స్ఫర్",
+        "contacts":"చిరునామా పుస్తకం",
+        "setting":"ఏర్పాటు",
+        "total":"మొత్తం"
+    },
+    "page_setting":{
+        "tit":"ఏర్పాటు",
+        "select":"దయచేసి ఎంచుకోండి"
+    },
+    "page_contacts":{
+        "tit":"చిరునామా పుస్తకం",
+        "add_cont":{
+            "tri_dialog":"చిరునామాను జోడించండి",
+            "dialog_tit":"చిరునామా సమాచారం నమోదు చేయండి",
+            "dialog_tag":"ట్యాగ్",
+            "tag_placeholder":"దయచేసి చిరునామా కోసం వ్యాఖ్య ట్యాగ్ను నమోదు చేయండి",
+            "dialog_address":"చిరునామా",
+            "address_placeholder":"దయచేసి చిరునామాను నమోదు చేయండి"
+        },
+        "delete_dialog":{
+            "title":"మీరు తీసివేస్తున్నారు"
+        }
+    },
+    "page_transfer":{
+        "from_address":"బదిలీ చేయండి",
+        "to_address":"ఇంటు",
+        "amount":"మనీ",
+        "send_all":"అన్నింటినీ పంపండి",
+        "remark":"వ్యాఖ్య",
+        "fees":"ఫీజు",
+        "expected_fees":"అంచనా వేసిన ఫీజులు",
+        "total":"మొత్తం",
+        "select":"దయచేసి ఎంచుకోండి",
+        "confirmDia":{
+            "title":"దయచేసి నిర్ధారించండి",
+            "enter_passworld_tit":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి",
+            "enter_passworld_place":"దయచేసి మీ పాస్వర్డ్ను నమోదు చేయండి"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR కోడ్",
+        "go_transfer":"బదిలీని ప్రారంభించండి",
+        "transfer_log":"ట్రాన్సాక్షన్ చరిత్ర",
+        "transfer_log_null":"లావాదేవీ చరిత్ర లేదు",
+        "copy_success":"చిరునామా కాపీ చేయబడింది",
+        "edit_dia":{
+            "tit":"గమనికను సవరించండి",
+            "subtit":"మీ ఖాతాకు 8 కంటే ఎక్కువ సంఖ్యల పొడవు గల గమనికను నమోదు చేయండి"
+        }
+    },
+    "page_home":{
+        "import_account":"ఖాతాను దిగుమతి చేయండి",
+        "back_up_account":"బ్యాకప్ ఖాతా",
+        "add_account":"క్రొత్త ఖాతా",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"పాస్వర్డ్",
+        "confirm_password":"పాస్వర్డ్ని నిర్ధారించండి"
+    }
+
+}

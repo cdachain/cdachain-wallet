@@ -1,0 +1,72 @@
+{
+    "lang":"Linguaxe",
+    "confirm":"Confirmación",
+    "cancel":"Cancelación",
+    "dialog_tit":"Preguntar",
+    "close":"Pechado",
+    "confirm_you_active":"Confirma a túa operación",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Inicio",
+        "transfer":"Transferencia",
+        "contacts":"Caderno de enderezos",
+        "setting":"Configuración",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Configuración",
+        "select":"Selecciona"
+    },
+    "page_contacts":{
+        "tit":"Caderno de enderezos",
+        "add_cont":{
+            "tri_dialog":"Engadir enderezo",
+            "dialog_tit":"Introduce a información do enderezo",
+            "dialog_tag":"Etiquetas",
+            "tag_placeholder":"Introduce a etiqueta de comentario para a dirección",
+            "dialog_address":"Enderezo",
+            "address_placeholder":"Introduce o enderezo"
+        },
+        "delete_dialog":{
+            "title":"Estás a eliminar"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transferir",
+        "to_address":"Into",
+        "amount":"Cantidade",
+        "send_all":"Enviar todo",
+        "remark":"Nota",
+        "fees":"Taxas",
+        "expected_fees":"Taxas estimadas",
+        "total":"Total",
+        "select":"Selecciona",
+        "confirmDia":{
+            "title":"Confirma",
+            "enter_passworld_tit":"Introduce o teu contrasinal",
+            "enter_passworld_place":"Introduce o teu contrasinal"
+        }
+    },
+    "page_account":{
+        "qrcode":"Código QR",
+        "go_transfer":"Iniciar transferencia",
+        "transfer_log":"Historial de transaccións",
+        "transfer_log_null":"Sen historial de transaccións",
+        "copy_success":"Copiouse a dirección",
+        "edit_dia":{
+            "tit":"Modificar nota",
+            "subtit":"Insira unha nota cunha lonxitude de non máis de 8 díxitos para a súa conta"
+        }
+    },
+    "page_home":{
+        "import_account":"Importar conta",
+        "back_up_account":"Conta de copia de seguridade",
+        "add_account":"Nova conta",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Contrasinal",
+        "confirm_password":"Confirmar o contrasinal"
+    }
+
+}

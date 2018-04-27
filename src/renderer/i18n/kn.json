@@ -1,0 +1,72 @@
+{
+    "lang":"ಭಾಷೆ",
+    "confirm":"ದೃಢೀಕರಣ",
+    "cancel":"ರದ್ದತಿ",
+    "dialog_tit":"ಪ್ರಾಂಪ್ಟ್",
+    "close":"ಮುಚ್ಚಲಾಗಿದೆ",
+    "confirm_you_active":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ದೃಢೀಕರಿಸಿ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ಮುಖಪುಟ",
+        "transfer":"ವರ್ಗಾವಣೆ",
+        "contacts":"ವಿಳಾಸ ಪುಸ್ತಕ",
+        "setting":"ಸೆಟ್ಟಿಂಗ್ಗಳು",
+        "total":"ಒಟ್ಟು"
+    },
+    "page_setting":{
+        "tit":"ಸೆಟ್ಟಿಂಗ್ಗಳು",
+        "select":"ದಯವಿಟ್ಟು ಆಯ್ಕೆ ಮಾಡಿ"
+    },
+    "page_contacts":{
+        "tit":"ವಿಳಾಸ ಪುಸ್ತಕ",
+        "add_cont":{
+            "tri_dialog":"ವಿಳಾಸವನ್ನು ಸೇರಿಸಿ",
+            "dialog_tit":"ವಿಳಾಸ ಮಾಹಿತಿಯನ್ನು ನಮೂದಿಸಿ",
+            "dialog_tag":"ಟ್ಯಾಗ್ಗಳು",
+            "tag_placeholder":"ದಯವಿಟ್ಟು ವಿಳಾಸಕ್ಕಾಗಿ ಕಾಮೆಂಟ್ ಟ್ಯಾಗ್ ಅನ್ನು ನಮೂದಿಸಿ",
+            "dialog_address":"ವಿಳಾಸ",
+            "address_placeholder":"ದಯವಿಟ್ಟು ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ"
+        },
+        "delete_dialog":{
+            "title":"ನೀವು ತೆಗೆದುಹಾಕುತ್ತಿರುವಿರಿ"
+        }
+    },
+    "page_transfer":{
+        "from_address":"ವರ್ಗಾಯಿಸಿ",
+        "to_address":"ಒಳಗೆ",
+        "amount":"ಮೊತ್ತ",
+        "send_all":"ಎಲ್ಲವನ್ನೂ ಕಳುಹಿಸಿ",
+        "remark":"ಗಮನಿಸಿ",
+        "fees":"ಶುಲ್ಕಗಳು",
+        "expected_fees":"ಅಂದಾಜು ಶುಲ್ಕ",
+        "total":"ಒಟ್ಟು",
+        "select":"ದಯವಿಟ್ಟು ಆಯ್ಕೆ ಮಾಡಿ",
+        "confirmDia":{
+            "title":"ದಯವಿಟ್ಟು ದೃಢೀಕರಿಸಿ",
+            "enter_passworld_tit":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ",
+            "enter_passworld_place":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR ಕೋಡ್",
+        "go_transfer":"ವರ್ಗಾವಣೆ ಪ್ರಾರಂಭಿಸಿ",
+        "transfer_log":"ವ್ಯವಹಾರ ಇತಿಹಾಸ",
+        "transfer_log_null":"ವ್ಯವಹಾರದ ಇತಿಹಾಸ ಇಲ್ಲ",
+        "copy_success":"ವಿಳಾಸವನ್ನು ನಕಲಿಸಲಾಗಿದೆ",
+        "edit_dia":{
+            "tit":"ಸೂಚನೆ ಮಾರ್ಪಡಿಸಿ",
+            "subtit":"ನಿಮ್ಮ ಖಾತೆಗೆ 8 ಅಂಕೆಗಳಿಗಿಂತ ಹೆಚ್ಚು ಉದ್ದವಿಲ್ಲದ ಟಿಪ್ಪಣಿಯನ್ನು ನಮೂದಿಸಿ"
+        }
+    },
+    "page_home":{
+        "import_account":"ಖಾತೆಯನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ",
+        "back_up_account":"ಬ್ಯಾಕಪ್ ಖಾತೆ",
+        "add_account":"ಹೊಸ ಖಾತೆ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"ಪಾಸ್ವರ್ಡ್",
+        "confirm_password":"ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"мова",
+    "confirm":"пацвердзіць",
+    "cancel":"адменены",
+    "dialog_tit":"падказка",
+    "close":"блізка",
+    "confirm_you_active":"Калі ласка, пераканайцеся, што ваша праца",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"дома",
+        "transfer":"перадача",
+        "contacts":"адрасная кніга",
+        "setting":"ўсталёўваць",
+        "total":"агульны"
+    },
+    "page_setting":{
+        "tit":"ўсталёўваць",
+        "select":"Калі ласка, абярыце"
+    },
+    "page_contacts":{
+        "tit":"адрасная кніга",
+        "add_cont":{
+            "tri_dialog":"дадаць адрас",
+            "dialog_tit":"Калі ласка, увядзіце інфармацыю пра адрас",
+            "dialog_tag":"тэг",
+            "tag_placeholder":"Калі ласка, увядзіце адрас этыкеткі Заўвагі",
+            "dialog_address":"адрас",
+            "address_placeholder":"Калі ласка, увядзіце адрас"
+        },
+        "delete_dialog":{
+            "title":"вы выдаляеце"
+        }
+    },
+    "page_transfer":{
+        "from_address":"выпускаць",
+        "to_address":"у",
+        "amount":"грошы",
+        "send_all":"адправіць ўсе",
+        "remark":"заўвагу",
+        "fees":"зборы",
+        "expected_fees":"ацэначны плата",
+        "total":"агульны",
+        "select":"Калі ласка, абярыце",
+        "confirmDia":{
+            "title":"Калі ласка, пацвердзіце",
+            "enter_passworld_tit":"Калі ласка, увядзіце ваш пароль",
+            "enter_passworld_place":"Калі ласка, увядзіце ваш пароль"
+        }
+    },
+    "page_account":{
+        "qrcode":"двухмерных код",
+        "go_transfer":"пачатак перадачы",
+        "transfer_log":"транзакцыя запісу",
+        "transfer_log_null":"няма транзакцый",
+        "copy_success":"Адрас быў скапіяваны",
+        "edit_dia":{
+            "tit":"рэдагаванне Заўвага",
+            "subtit":"Для вашага ўліковага запісу, каб увайсці ў даўжыню не больш за 8 Заўвагі"
+        }
+    },
+    "page_home":{
+        "import_account":"Імпарт ўліковага запісу",
+        "back_up_account":"Рэзервовае капіраванне ўліковага запісу",
+        "add_account":"Новы ўліковы запіс",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"пароль",
+        "confirm_password":"пацвердзіце пароль"
+    }
+
+}

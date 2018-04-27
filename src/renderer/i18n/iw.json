@@ -1,0 +1,72 @@
+{
+    "lang":"שפה",
+    "confirm":"אישור",
+    "cancel":"ביטול",
+    "dialog_tit":"הפקודה",
+    "close":"סגור",
+    "confirm_you_active":"אשר את הפעולה שלך",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"בית",
+        "transfer":"העברה",
+        "contacts":"פנקס כתובות",
+        "setting":"הגדרות",
+        "total":"סך הכל"
+    },
+    "page_setting":{
+        "tit":"הגדרות",
+        "select":"בחר"
+    },
+    "page_contacts":{
+        "tit":"פנקס כתובות",
+        "add_cont":{
+            "tri_dialog":"הוסף כתובת",
+            "dialog_tit":"הזן פרטי כתובת",
+            "dialog_tag":"תגים",
+            "tag_placeholder":"הזן את תג התגובה עבור הכתובת",
+            "dialog_address":"כתובת",
+            "address_placeholder":"הזן את הכתובת"
+        },
+        "delete_dialog":{
+            "title":"אתה מסיר"
+        }
+    },
+    "page_transfer":{
+        "from_address":"העברה החוצה",
+        "to_address":"לתוך",
+        "amount":"סכום",
+        "send_all":"שלח הכל",
+        "remark":"הערה",
+        "fees":"אגרות",
+        "expected_fees":"תשלומים משוערים",
+        "total":"סך הכל",
+        "select":"בחר",
+        "confirmDia":{
+            "title":"אשר",
+            "enter_passworld_tit":"הזן את הסיסמה שלך",
+            "enter_passworld_place":"הזן את הסיסמה שלך"
+        }
+    },
+    "page_account":{
+        "qrcode":"קוד QR",
+        "go_transfer":"התחל את ההעברה",
+        "transfer_log":"היסטוריית עסקאות",
+        "transfer_log_null":"אין היסטוריית עסקאות",
+        "copy_success":"הכתובת הועתקה",
+        "edit_dia":{
+            "tit":"שנה הערה",
+            "subtit":"הזן הערה עם אורך של לא יותר מ -8 ספרות עבור החשבון שלך"
+        }
+    },
+    "page_home":{
+        "import_account":"ייבא חשבון",
+        "back_up_account":"חשבון גיבוי",
+        "add_account":"חשבון חדש",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"סיסמה",
+        "confirm_password":"אשר סיסמה"
+    }
+
+}

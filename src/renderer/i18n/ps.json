@@ -1,0 +1,72 @@
+{
+    "lang":"ژبه",
+    "confirm":"تایید",
+    "cancel":"ردول",
+    "dialog_tit":"ژبړئ",
+    "close":"تړل شوی",
+    "confirm_you_active":"مهرباني وکړئ خپل عملیات تایید کړئ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"کور",
+        "transfer":"انتقال",
+        "contacts":"د پته کتاب",
+        "setting":"امستنې",
+        "total":"ټول"
+    },
+    "page_setting":{
+        "tit":"امستنې",
+        "select":"مهرباني وکړئ غوره کړه"
+    },
+    "page_contacts":{
+        "tit":"د پته کتاب",
+        "add_cont":{
+            "tri_dialog":"پته اضافه کړه",
+            "dialog_tit":"د ادرس معلومات ولیکئ",
+            "dialog_tag":"ټکي",
+            "tag_placeholder":"لطفا د پته لپاره د تبصره لیک وليکئ",
+            "dialog_address":"پته",
+            "address_placeholder":"لطفا پته ولیکئ"
+        },
+        "delete_dialog":{
+            "title":"تاسو لرې کول"
+        }
+    },
+    "page_transfer":{
+        "from_address":"لیږدول",
+        "to_address":"په",
+        "amount":"مقدار",
+        "send_all":"ټول ولېږل",
+        "remark":"یادونه",
+        "fees":"فیسونه",
+        "expected_fees":"اټکل شوی فيس",
+        "total":"ټول",
+        "select":"مهرباني وکړئ غوره کړه",
+        "confirmDia":{
+            "title":"مهرباني وکړئ تایید کړئ",
+            "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
+            "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
+        }
+    },
+    "page_account":{
+        "qrcode":"د QR کود",
+        "go_transfer":"د لیږد پیل",
+        "transfer_log":"د راکړې ورکړې تاریخ",
+        "transfer_log_null":"د لیږد تاریخ نه",
+        "copy_success":"پته نقل شوی",
+        "edit_dia":{
+            "tit":"تعدیل یادښت",
+            "subtit":"د خپل حساب لپاره د 8 ګوتو څخه زیات د اوږدې اندازې یادښت ولیکئ"
+        }
+    },
+    "page_home":{
+        "import_account":"حساب وارد کړئ",
+        "back_up_account":"د بیک اپ حساب",
+        "add_account":"نوی حساب",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"شفر",
+        "confirm_password":"پټنوم تایید کړه"
+    }
+
+}

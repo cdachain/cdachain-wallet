@@ -1,0 +1,72 @@
+{
+    "lang":"Lingua",
+    "confirm":"Cunfirmazione",
+    "cancel":"Annullazione",
+    "dialog_tit":"Avvirtendu",
+    "close":"Chjucu",
+    "confirm_you_active":"Cunfirmà a vostra operazione",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Home",
+        "transfer":"Trasferimentu",
+        "contacts":"Address book",
+        "setting":"Settings",
+        "total":"Tuttu"
+    },
+    "page_setting":{
+        "tit":"Settings",
+        "select":"Sceglite puru"
+    },
+    "page_contacts":{
+        "tit":"Address book",
+        "add_cont":{
+            "tri_dialog":"Aghjunghjenu indirizzu",
+            "dialog_tit":"Introduce l'indirizzu infurmazione",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Per piacè inserite u cumendariu à l'indirizzu",
+            "dialog_address":"Indirizzu",
+            "address_placeholder":"Per piacè entre in l'indirizzu"
+        },
+        "delete_dialog":{
+            "title":"Vulete sguassà"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Trasmissione",
+        "to_address":"Into",
+        "amount":"Amount",
+        "send_all":"Mandate tuttu",
+        "remark":"Nota",
+        "fees":"Puli",
+        "expected_fees":"Cumposti stimati",
+        "total":"Tuttu",
+        "select":"Sceglite puru",
+        "confirmDia":{
+            "title":"Cunfirmà",
+            "enter_passworld_tit":"Per piacè inserite u vostru password",
+            "enter_passworld_place":"Per piacè inserite u vostru password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Inizià trasferimentu",
+        "transfer_log":"Storia di a transacità",
+        "transfer_log_null":"Nisuna storia di transaczione",
+        "copy_success":"L'indirizzu hè statu copiatu",
+        "edit_dia":{
+            "tit":"Modifiche nota",
+            "subtit":"Ingressu una nota cun una durata di micca più di 8 ducumenti per u vostru contu"
+        }
+    },
+    "page_home":{
+        "import_account":"Impurtante u compte",
+        "back_up_account":"Backup account",
+        "add_account":"Novu contu",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Password",
+        "confirm_password":"Confirmate password"
+    }
+
+}

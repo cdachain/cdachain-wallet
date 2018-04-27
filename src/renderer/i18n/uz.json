@@ -1,0 +1,72 @@
+{
+    "lang":"Til",
+    "confirm":"Tasdiqlash",
+    "cancel":"Bekor qilish",
+    "dialog_tit":"Tez so'raladigan",
+    "close":"Yopiq",
+    "confirm_you_active":"Iltimos, amaliyotingizni tasdiqlang",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Bosh sahifa",
+        "transfer":"Transfer",
+        "contacts":"Manzillar kitobi",
+        "setting":"Sozlamalar",
+        "total":"Jami"
+    },
+    "page_setting":{
+        "tit":"Sozlamalar",
+        "select":"Iltimos, tanlang"
+    },
+    "page_contacts":{
+        "tit":"Manzillar kitobi",
+        "add_cont":{
+            "tri_dialog":"Manzilni qo'shish",
+            "dialog_tit":"Manzil ma'lumotlarini kiriting",
+            "dialog_tag":"Teglar",
+            "tag_placeholder":"Iltimos, manzil uchun izoh yorlig'ini kiriting",
+            "dialog_address":"Manzil",
+            "address_placeholder":"Iltimos, manzilingizni kiriting"
+        },
+        "delete_dialog":{
+            "title":"Siz olib tashlayapsiz"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Ko'chiring",
+        "to_address":"Into",
+        "amount":"Miqdori",
+        "send_all":"Barchasini jo'natish",
+        "remark":"Eslatma",
+        "fees":"Narxlar",
+        "expected_fees":"Bashoratli to'lovlar",
+        "total":"Jami",
+        "select":"Iltimos, tanlang",
+        "confirmDia":{
+            "title":"Iltimos, tasdiqlang",
+            "enter_passworld_tit":"Iltimos, parolingizni kiriting",
+            "enter_passworld_place":"Iltimos, parolingizni kiriting"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodi",
+        "go_transfer":"O'tkazishni boshlang",
+        "transfer_log":"Jurnal tarixi",
+        "transfer_log_null":"Jurnal tarixi yo'q",
+        "copy_success":"Manzil ko'chirildi",
+        "edit_dia":{
+            "tit":"Qaydni o'zgartiring",
+            "subtit":"Hisobingiz uchun eng ko'p 8 raqamdan iborat bo'lgan eslatma kiriting"
+        }
+    },
+    "page_home":{
+        "import_account":"Hisobni import qilish",
+        "back_up_account":"Zahira nusxasi",
+        "add_account":"Yangi hisob",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Parol",
+        "confirm_password":"Parolni tasdiqlang"
+    }
+
+}

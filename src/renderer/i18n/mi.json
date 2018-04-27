@@ -1,0 +1,72 @@
+{
+    "lang":"Reo",
+    "confirm":"Whakaaturanga",
+    "cancel":"Whakakore",
+    "dialog_tit":"Whakataka",
+    "close":"Kua kati",
+    "confirm_you_active":"Tena koa koa to mahi",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Home",
+        "transfer":"Whakawhiti",
+        "contacts":"Puka pukapuka",
+        "setting":"Tautuhinga",
+        "total":"Te tapeke"
+    },
+    "page_setting":{
+        "tit":"Tautuhinga",
+        "select":"Tono koa"
+    },
+    "page_contacts":{
+        "tit":"Puka pukapuka",
+        "add_cont":{
+            "tri_dialog":"Tāpirihia te wāhitau",
+            "dialog_tit":"Tāurutia ngā mōhiohio wāhitau",
+            "dialog_tag":"Ngā tūtohu",
+            "tag_placeholder":"Tēnā koa whakauruhia te tūtohu tūtohu mo te wāhitau",
+            "dialog_address":"Wāhitau",
+            "address_placeholder":"Tomo koa koa i te wāhitau"
+        },
+        "delete_dialog":{
+            "title":"Kei te tango koe"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Whakawhiti atu",
+        "to_address":"Haere ki roto",
+        "amount":"Te nui",
+        "send_all":"Tukua katoatia",
+        "remark":"Tuhipoka",
+        "fees":"Nga utu",
+        "expected_fees":"Te utu kua whakaritea",
+        "total":"Te tapeke",
+        "select":"Tono koa",
+        "confirmDia":{
+            "title":"Tena koa",
+            "enter_passworld_tit":"Tomohia koa to kupuhipa",
+            "enter_passworld_place":"Tomohia koa to kupuhipa"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Tīmatahia te whakawhitinga",
+        "transfer_log":"Te hītori mahi",
+        "transfer_log_null":"Kāore he hītori tukanga",
+        "copy_success":"Kua tohua te korero",
+        "edit_dia":{
+            "tit":"Whakakēhia te tuhinga",
+            "subtit":"Tāurutia he tuhipoka me te roa o te kore neke atu i te 8 nga tau mo to taakete"
+        }
+    },
+    "page_home":{
+        "import_account":"Kawemai i te kaute",
+        "back_up_account":"Pūkete Pūrua",
+        "add_account":"Pūkete hou",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kupuhipa",
+        "confirm_password":"Whakaae i te kupuhipa"
+    }
+
+}

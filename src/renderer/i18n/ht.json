@@ -1,0 +1,72 @@
+{
+    "lang":"Lang",
+    "confirm":"Konfimasyon",
+    "cancel":"Anilasyon",
+    "dialog_tit":"Èd memwa",
+    "close":"Fèmen",
+    "confirm_you_active":"Tanpri konfime operasyon ou",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Kay",
+        "transfer":"Transfè",
+        "contacts":"Adrès liv",
+        "setting":"Anviwònman",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Anviwònman",
+        "select":"Tanpri chwazi"
+    },
+    "page_contacts":{
+        "tit":"Adrès liv",
+        "add_cont":{
+            "tri_dialog":"Add adrès",
+            "dialog_tit":"Mete enfòmasyon sou adrès la",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Tanpri antre tag lan kòmantè pou adrès la",
+            "dialog_address":"Adrès",
+            "address_placeholder":"Tanpri antre adrès la"
+        },
+        "delete_dialog":{
+            "title":"Ou yo retire"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transfè soti",
+        "to_address":"Nan",
+        "amount":"Kantite lajan",
+        "send_all":"Voye tout",
+        "remark":"Remak",
+        "fees":"Frè",
+        "expected_fees":"Estimasyon frè",
+        "total":"Total",
+        "select":"Tanpri chwazi",
+        "confirmDia":{
+            "title":"Tanpri konfime",
+            "enter_passworld_tit":"Tanpri antre modpas ou",
+            "enter_passworld_place":"Tanpri antre modpas ou"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kòd",
+        "go_transfer":"Inisye transfè",
+        "transfer_log":"Istwa tranzaksyon",
+        "transfer_log_null":"Pa gen istwa tranzaksyon",
+        "copy_success":"Adrès ki te kopye",
+        "edit_dia":{
+            "tit":"Modifye nòt",
+            "subtit":"Mete yon nòt ki gen yon longè ki pa plis pase 8 chif pou kont ou"
+        }
+    },
+    "page_home":{
+        "import_account":"Enpòte kont",
+        "back_up_account":"Kont sovgad",
+        "add_account":"Nouvo kont",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Modpas",
+        "confirm_password":"Konfime modpas"
+    }
+
+}

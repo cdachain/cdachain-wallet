@@ -1,0 +1,72 @@
+{
+    "lang":"Lingvo",
+    "confirm":"Konfirmo",
+    "cancel":"Nuligo",
+    "dialog_tit":"Prompt",
+    "close":"Fermita",
+    "confirm_you_active":"Bonvolu konfirmi vian operacion",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Hejmo",
+        "transfer":"Translokigo",
+        "contacts":"Libro de adresoj",
+        "setting":"Agordoj",
+        "total":"Tuta"
+    },
+    "page_setting":{
+        "tit":"Agordoj",
+        "select":"Bonvolu elekti"
+    },
+    "page_contacts":{
+        "tit":"Libro de adresoj",
+        "add_cont":{
+            "tri_dialog":"Aldonu adreson",
+            "dialog_tit":"Eniri adreson-informojn",
+            "dialog_tag":"Etikedoj",
+            "tag_placeholder":"Bonvolu enmeti la komentan etikedon por la adreso",
+            "dialog_address":"Adreso",
+            "address_placeholder":"Bonvolu eniri la adreson"
+        },
+        "delete_dialog":{
+            "title":"Vi forigas"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Translokiĝi",
+        "to_address":"Into",
+        "amount":"Kvanto",
+        "send_all":"Sendu ĉion",
+        "remark":"Noto",
+        "fees":"Kotizoj",
+        "expected_fees":"Takso de taksoj",
+        "total":"Tuta",
+        "select":"Bonvolu elekti",
+        "confirmDia":{
+            "title":"Bonvolu konfirmi",
+            "enter_passworld_tit":"Bonvolu enmeti vian pasvorton",
+            "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-kodo",
+        "go_transfer":"Komenca translokigo",
+        "transfer_log":"Transakcio-historio",
+        "transfer_log_null":"Neniu transakcia historio",
+        "copy_success":"Direkto estis kopiita",
+        "edit_dia":{
+            "tit":"Modifi noton",
+            "subtit":"Enmetu noton kun pli ol 8 ciferoj por via konto"
+        }
+    },
+    "page_home":{
+        "import_account":"Importi konton",
+        "back_up_account":"Rezerva konton",
+        "add_account":"Nova konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasvorto",
+        "confirm_password":"Konfirmu pasvorton"
+    }
+
+}

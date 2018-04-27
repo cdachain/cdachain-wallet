@@ -1,0 +1,72 @@
+{
+    "lang":"ભાષા",
+    "confirm":"સમર્થન",
+    "cancel":"રદ",
+    "dialog_tit":"પ્રોમ્પ્ટ",
+    "close":"બંધ",
+    "confirm_you_active":"કૃપા કરીને તમારા ઑપરેશનની પુષ્ટિ કરો",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"હોમ",
+        "transfer":"પરિવહન",
+        "contacts":"સરનામું પુસ્તક",
+        "setting":"સેટિંગ્સ",
+        "total":"કુલ"
+    },
+    "page_setting":{
+        "tit":"સેટિંગ્સ",
+        "select":"કૃપા કરીને પસંદ કરો"
+    },
+    "page_contacts":{
+        "tit":"સરનામું પુસ્તક",
+        "add_cont":{
+            "tri_dialog":"સરનામું ઉમેરો",
+            "dialog_tit":"સરનામું માહિતી દાખલ કરો",
+            "dialog_tag":"ટૅગ્સ",
+            "tag_placeholder":"સરનામા માટે ટિપ્પણી ટેગ દાખલ કરો",
+            "dialog_address":"સરનામું",
+            "address_placeholder":"કૃપા કરીને સરનામું દાખલ કરો"
+        },
+        "delete_dialog":{
+            "title":"તમે દૂર કરી રહ્યાં છો"
+        }
+    },
+    "page_transfer":{
+        "from_address":"બહાર સ્થાનાંતરિત કરો",
+        "to_address":"ઇનટુ",
+        "amount":"રકમ",
+        "send_all":"બધા મોકલો",
+        "remark":"નોંધ",
+        "fees":"ફી",
+        "expected_fees":"અંદાજિત ફી",
+        "total":"કુલ",
+        "select":"કૃપા કરીને પસંદ કરો",
+        "confirmDia":{
+            "title":"કૃપા કરીને પુષ્ટિ કરો",
+            "enter_passworld_tit":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો",
+            "enter_passworld_place":"કૃપા કરીને તમારો પાસવર્ડ દાખલ કરો"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR કોડ",
+        "go_transfer":"ટ્રાન્સફર શરૂ કરો",
+        "transfer_log":"વ્યવહાર ઇતિહાસ",
+        "transfer_log_null":"કોઈ વ્યવહાર ઇતિહાસ નથી",
+        "copy_success":"સરનામું નકલ કરવામાં આવ્યું છે",
+        "edit_dia":{
+            "tit":"નોંધ સંશોધિત કરો",
+            "subtit":"તમારા એકાઉન્ટ માટે 8 થી વધુ આંકડાઓની લંબાઈ સાથે નોંધ દાખલ કરો"
+        }
+    },
+    "page_home":{
+        "import_account":"એકાઉન્ટ આયાત કરો",
+        "back_up_account":"બેકઅપ એકાઉન્ટ",
+        "add_account":"નવું એકાઉન્ટ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"પાસવર્ડ",
+        "confirm_password":"પાસવર્ડની પુષ્ટિ કરો"
+    }
+
+}

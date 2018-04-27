@@ -1,0 +1,72 @@
+{
+    "lang":"dil",
+    "confirm":"onaylamak",
+    "cancel":"iptal edildi",
+    "dialog_tit":"çabuk",
+    "close":"yakın",
+    "confirm_you_active":"Lütfen operasyonunuzu onaylayın",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ev",
+        "transfer":"transfer",
+        "contacts":"Adres defteri",
+        "setting":"kurmak",
+        "total":"toplam"
+    },
+    "page_setting":{
+        "tit":"kurmak",
+        "select":"Seçiniz"
+    },
+    "page_contacts":{
+        "tit":"Adres defteri",
+        "add_cont":{
+            "tri_dialog":"Adres ekle",
+            "dialog_tit":"Adres bilgilerini girin",
+            "dialog_tag":"etiket",
+            "tag_placeholder":"Lütfen adres için yorum etiketini girin",
+            "dialog_address":"adres",
+            "address_placeholder":"Lütfen adresi giriniz"
+        },
+        "delete_dialog":{
+            "title":"Sen kaldırıyorsun"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transfer",
+        "to_address":"içine",
+        "amount":"para",
+        "send_all":"Tümünü gönder",
+        "remark":"düşünce",
+        "fees":"harç",
+        "expected_fees":"Tahmini ücretler",
+        "total":"toplam",
+        "select":"Seçiniz",
+        "confirmDia":{
+            "title":"Lütfen onaylayın",
+            "enter_passworld_tit":"Lütfen şifrenizi giriniz",
+            "enter_passworld_place":"Lütfen şifrenizi giriniz"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodu",
+        "go_transfer":"Aktarımı başlat",
+        "transfer_log":"İşlem geçmişi",
+        "transfer_log_null":"İşlem geçmişi yok",
+        "copy_success":"Adres kopyalandı",
+        "edit_dia":{
+            "tit":"Notu değiştir",
+            "subtit":"Hesabınız için 8 haneden fazla olmayan bir not girin"
+        }
+    },
+    "page_home":{
+        "import_account":"İthalat hesabı",
+        "back_up_account":"Yedek hesap",
+        "add_account":"Yeni hesap",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"şifre",
+        "confirm_password":"Şifreyi onayla"
+    }
+
+}

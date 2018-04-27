@@ -1,0 +1,72 @@
+{
+    "lang":"ਭਾਸ਼ਾ",
+    "confirm":"ਪੁਸ਼ਟੀ",
+    "cancel":"ਰੱਦ ਕਰਨਾ",
+    "dialog_tit":"ਪੁੱਛੋ",
+    "close":"ਬੰਦ ਹੋਇਆ",
+    "confirm_you_active":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਅਪਰੇਸ਼ਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ਘਰ",
+        "transfer":"ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
+        "contacts":"ਐਡਰੈੱਸ ਬੁੱਕ",
+        "setting":"ਸੈਟਿੰਗਾਂ",
+        "total":"ਕੁੱਲ"
+    },
+    "page_setting":{
+        "tit":"ਸੈਟਿੰਗਾਂ",
+        "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
+    },
+    "page_contacts":{
+        "tit":"ਐਡਰੈੱਸ ਬੁੱਕ",
+        "add_cont":{
+            "tri_dialog":"ਐਡਰੈੱਸ ਜੋੜੋ",
+            "dialog_tit":"ਐਡਰੈੱਸ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
+            "dialog_tag":"ਟੈਗਸ",
+            "tag_placeholder":"ਐਡਰੈੱਸ ਲਈ ਟਿੱਪਣੀ ਟੈਗ ਦਿਓ ਜੀ",
+            "dialog_address":"ਪਤਾ",
+            "address_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਪਤਾ ਦਰਜ ਕਰੋ"
+        },
+        "delete_dialog":{
+            "title":"ਤੁਸੀਂ ਹਟਾ ਰਹੇ ਹੋ"
+        }
+    },
+    "page_transfer":{
+        "from_address":"ਬਾਹਰ ਤਬਦੀਲ ਕਰੋ",
+        "to_address":"ਵਿੱਚ",
+        "amount":"ਰਕਮ",
+        "send_all":"ਸਭ ਨੂੰ ਭੇਜੋ",
+        "remark":"ਨੋਟ",
+        "fees":"ਫੀਸ",
+        "expected_fees":"ਅੰਦਾਜ਼ਾ ਫੀਸ",
+        "total":"ਕੁੱਲ",
+        "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ",
+        "confirmDia":{
+            "title":"ਕਿਰਪਾ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "enter_passworld_tit":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+            "enter_passworld_place":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR ਕੋਡ",
+        "go_transfer":"ਟ੍ਰਾਂਸਫਰ ਸ਼ੁਰੂ ਕਰੋ",
+        "transfer_log":"ਲੈਣਦੇਣ ਦਾ ਇਤਿਹਾਸ",
+        "transfer_log_null":"ਕੋਈ ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਇਤਿਹਾਸ ਨਹੀਂ",
+        "copy_success":"ਪਤਾ ਨਕਲ ਕੀਤਾ ਗਿਆ ਹੈ",
+        "edit_dia":{
+            "tit":"ਨੋਟ ਸੰਸ਼ੋਧਿਤ ਕਰੋ",
+            "subtit":"ਆਪਣੇ ਖਾਤੇ ਲਈ 8 ਤੋਂ ਵੱਧ ਅੰਕ ਦੀ ਲੰਬਾਈ ਵਾਲੀ ਇੱਕ ਨੋਟ ਦਰਜ ਕਰੋ"
+        }
+    },
+    "page_home":{
+        "import_account":"ਅਕਾਊਂਟ ਇੰਪੋਰਟ ਕਰੋ",
+        "back_up_account":"ਬੈਕਅਪ ਖਾਤਾ",
+        "add_account":"ਨਵਾਂ ਖਾਤਾ",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"ਪਾਸਵਰਡ",
+        "confirm_password":"ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+    }
+
+}

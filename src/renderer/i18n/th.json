@@ -1,0 +1,72 @@
+{
+    "lang":"ภาษา",
+    "confirm":"ยืนยัน",
+    "cancel":"ยกเลิก",
+    "dialog_tit":"รวดเร็ว",
+    "close":"ใกล้",
+    "confirm_you_active":"โปรดยืนยันการดำเนินการของคุณ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"บ้าน",
+        "transfer":"โอน",
+        "contacts":"สมุดที่อยู่",
+        "setting":"จัดตั้งขึ้น",
+        "total":"ทั้งหมด"
+    },
+    "page_setting":{
+        "tit":"จัดตั้งขึ้น",
+        "select":"โปรดเลือก"
+    },
+    "page_contacts":{
+        "tit":"สมุดที่อยู่",
+        "add_cont":{
+            "tri_dialog":"เพิ่มที่อยู่",
+            "dialog_tit":"ป้อนข้อมูลที่อยู่",
+            "dialog_tag":"แท็ก",
+            "tag_placeholder":"โปรดป้อนแท็กความคิดเห็นสำหรับที่อยู่",
+            "dialog_address":"ที่อยู่",
+            "address_placeholder":"โปรดป้อนที่อยู่"
+        },
+        "delete_dialog":{
+            "title":"คุณกำลังนำออก"
+        }
+    },
+    "page_transfer":{
+        "from_address":"โอนออก",
+        "to_address":"เข้าไป",
+        "amount":"เงิน",
+        "send_all":"ส่งทั้งหมด",
+        "remark":"คำพูด",
+        "fees":"ค่าเล่าเรียน",
+        "expected_fees":"ค่าธรรมเนียมโดยประมาณ",
+        "total":"ทั้งหมด",
+        "select":"โปรดเลือก",
+        "confirmDia":{
+            "title":"โปรดยืนยัน",
+            "enter_passworld_tit":"โปรดป้อนรหัสผ่านของคุณ",
+            "enter_passworld_place":"โปรดป้อนรหัสผ่านของคุณ"
+        }
+    },
+    "page_account":{
+        "qrcode":"รหัส QR",
+        "go_transfer":"เริ่มการถ่ายโอน",
+        "transfer_log":"ประวัติการทำธุรกรรม",
+        "transfer_log_null":"ไม่มีประวัติการทำธุรกรรม",
+        "copy_success":"คัดลอกที่อยู่แล้ว",
+        "edit_dia":{
+            "tit":"แก้ไขบันทึก",
+            "subtit":"ป้อนโน้ตที่มีความยาวไม่เกิน 8 หลักสำหรับบัญชีของคุณ"
+        }
+    },
+    "page_home":{
+        "import_account":"นำเข้าบัญชี",
+        "back_up_account":"บัญชีสำรอง",
+        "add_account":"บัญชีใหม่",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"รหัสผ่าน",
+        "confirm_password":"ยืนยันรหัสผ่าน"
+    }
+
+}

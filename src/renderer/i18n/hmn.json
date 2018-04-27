@@ -1,0 +1,72 @@
+{
+    "lang":"Lus",
+    "confirm":"Kev lees paub",
+    "cancel":"Tshem tawm",
+    "dialog_tit":"Sij hawm",
+    "close":"Kaw",
+    "confirm_you_active":"Thov paub meej tias koj lub lag luam",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Tsev",
+        "transfer":"Hloov mus",
+        "contacts":"Chaw nyob",
+        "setting":"Chaw",
+        "total":"Tag nrho"
+    },
+    "page_setting":{
+        "tit":"Chaw",
+        "select":"Thov xaiv"
+    },
+    "page_contacts":{
+        "tit":"Chaw nyob",
+        "add_cont":{
+            "tri_dialog":"Ntxiv chaw nyob",
+            "dialog_tit":"Sau chaw nyob",
+            "dialog_tag":"Ntawv cim npe",
+            "tag_placeholder":"Thov sau tag saib rau qhov chaw nyob",
+            "dialog_address":"Chaw nyob",
+            "address_placeholder":"Thov sau chaw nyob"
+        },
+        "delete_dialog":{
+            "title":"Koj tshem tawm"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Tshem tawm",
+        "to_address":"Rau hauv",
+        "amount":"Tus nqi",
+        "send_all":"Xa tag nrho",
+        "remark":"Lus Cim",
+        "fees":"Tus Nqi",
+        "expected_fees":"Cov nqi kwv yees",
+        "total":"Tag nrho",
+        "select":"Thov xaiv",
+        "confirmDia":{
+            "title":"Thov paub meej",
+            "enter_passworld_tit":"Thov sau koj tus password",
+            "enter_passworld_place":"Thov sau koj tus password"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Pib hloov chaw",
+        "transfer_log":"Tuaj hauv keeb kwm",
+        "transfer_log_null":"Tsis muaj keeb kwm ua lag luam",
+        "copy_success":"Chaw nyob tau luam tawm",
+        "edit_dia":{
+            "tit":"Hloov ntawv",
+            "subtit":"Sau ib daim ntawv nrog ntev tsis pub tsawg tshaj 8 tus lej rau koj tus account"
+        }
+    },
+    "page_home":{
+        "import_account":"Ntshuam nyiaj",
+        "back_up_account":"Thaub qab thaub qab",
+        "add_account":"Tshiab tus account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Lo lus zais",
+        "confirm_password":"Confirm password"
+    }
+
+}

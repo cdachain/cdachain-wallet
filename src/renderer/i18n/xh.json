@@ -1,0 +1,72 @@
+{
+    "lang":"ULwimi",
+    "confirm":"Isiqinisekiso",
+    "cancel":"Ku rhoxiswa",
+    "dialog_tit":"Ukunyuswa",
+    "close":"Valiwe",
+    "confirm_you_active":"Nceda uqinisekise ukusebenza kwakho",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Ikhaya",
+        "transfer":"U tshintshelo",
+        "contacts":"Incwadi yee dilesi",
+        "setting":"Izicwangciso",
+        "total":"Iyonke"
+    },
+    "page_setting":{
+        "tit":"Izicwangciso",
+        "select":"Nceda ukhethe"
+    },
+    "page_contacts":{
+        "tit":"Incwadi yee dilesi",
+        "add_cont":{
+            "tri_dialog":"Yongeza idilesi",
+            "dialog_tit":"Faka idilesi yolwazi",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Nceda ufake itekiti yombono kwidilesi",
+            "dialog_address":"Idilesi",
+            "address_placeholder":"Nceda faka idilesi"
+        },
+        "delete_dialog":{
+            "title":"U kususa"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Dlulisa",
+        "to_address":"Ngaphakathi",
+        "amount":"Isixa",
+        "send_all":"Thumela konke",
+        "remark":"Qaphela",
+        "fees":"Imali",
+        "expected_fees":"Imali eqikelelweyo",
+        "total":"Iyonke",
+        "select":"Nceda ukhethe",
+        "confirmDia":{
+            "title":"Nceda uqinisekise",
+            "enter_passworld_tit":"Nceda faka iphasiwedi yakho",
+            "enter_passworld_place":"Nceda faka iphasiwedi yakho"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR ikhowudi",
+        "go_transfer":"Qalisa ukudluliselwa",
+        "transfer_log":"Imbali yomsebenzi",
+        "transfer_log_null":"Akukho mlando wokuthengiselana",
+        "copy_success":"Idilesi ikopishwe",
+        "edit_dia":{
+            "tit":"Shintsha ingqalelo",
+            "subtit":"Faka inqaku ngobude obungaphantsi kweenombolo eziyi-8 ze-akhawunti yakho"
+        }
+    },
+    "page_home":{
+        "import_account":"Ngenisa i-akhawunti",
+        "back_up_account":"Akhawunti yokugcina",
+        "add_account":"Akhawunti entsha",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Iphasiwedi",
+        "confirm_password":"Qinisekisa iphasiwedi"
+    }
+
+}

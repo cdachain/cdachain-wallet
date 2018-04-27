@@ -1,0 +1,72 @@
+{
+    "lang":"언어",
+    "confirm":"확인",
+    "cancel":"취소",
+    "dialog_tit":"프롬프트",
+    "close":"휴무일",
+    "confirm_you_active":"당신의 수술을 확인해주세요.",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"홈",
+        "transfer":"전송",
+        "contacts":"주소록",
+        "setting":"설정",
+        "total":"합계"
+    },
+    "page_setting":{
+        "tit":"설정",
+        "select":"선택하십시오"
+    },
+    "page_contacts":{
+        "tit":"주소록",
+        "add_cont":{
+            "tri_dialog":"주소 추가",
+            "dialog_tit":"주소 정보 입력",
+            "dialog_tag":"태그",
+            "tag_placeholder":"주소에 대한 설명 태그를 입력하십시오.",
+            "dialog_address":"주소",
+            "address_placeholder":"주소를 입력하십시오."
+        },
+        "delete_dialog":{
+            "title":"제거하고 있습니다."
+        }
+    },
+    "page_transfer":{
+        "from_address":"전송",
+        "to_address":"들어가기",
+        "amount":"금액",
+        "send_all":"모두 보내기",
+        "remark":"참고",
+        "fees":"수수료",
+        "expected_fees":"예상 비용",
+        "total":"합계",
+        "select":"선택하십시오",
+        "confirmDia":{
+            "title":"확인해주세요.",
+            "enter_passworld_tit":"비밀번호를 입력하십시오.",
+            "enter_passworld_place":"비밀번호를 입력하십시오."
+        }
+    },
+    "page_account":{
+        "qrcode":"QR 코드",
+        "go_transfer":"전송 시작",
+        "transfer_log":"거래 내역",
+        "transfer_log_null":"거래 내역 없음",
+        "copy_success":"주소가 복사되었습니다.",
+        "edit_dia":{
+            "tit":"메모 수정",
+            "subtit":"계정에 8 자리 이하의 길이로 메모를 입력하십시오."
+        }
+    },
+    "page_home":{
+        "import_account":"수입 계정",
+        "back_up_account":"백업 계정",
+        "add_account":"새 계정",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"비밀번호",
+        "confirm_password":"암호 확인"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"limbă",
+    "confirm":"confirma",
+    "cancel":"anulat",
+    "dialog_tit":"prompt",
+    "close":"închide",
+    "confirm_you_active":"Vă rugăm să confirmați funcționarea",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"acasă",
+        "transfer":"transfer",
+        "contacts":"Agendă de adrese",
+        "setting":"Configurarea",
+        "total":"total"
+    },
+    "page_setting":{
+        "tit":"Configurarea",
+        "select":"Selectați"
+    },
+    "page_contacts":{
+        "tit":"Agendă de adrese",
+        "add_cont":{
+            "tri_dialog":"Adăugați adresa",
+            "dialog_tit":"Introduceți informații despre adresă",
+            "dialog_tag":"etichetă",
+            "tag_placeholder":"Introduceți eticheta comentariu pentru adresă",
+            "dialog_address":"adresă",
+            "address_placeholder":"Introduceți adresa"
+        },
+        "delete_dialog":{
+            "title":"Înlăturați"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transferați-vă",
+        "to_address":"în",
+        "amount":"bani",
+        "send_all":"Trimiteți-le pe toate",
+        "remark":"remarcă",
+        "fees":"Taxe",
+        "expected_fees":"Taxele estimate",
+        "total":"total",
+        "select":"Selectați",
+        "confirmDia":{
+            "title":"Vă rugăm să confirmați",
+            "enter_passworld_tit":"Introduceți parola",
+            "enter_passworld_place":"Introduceți parola"
+        }
+    },
+    "page_account":{
+        "qrcode":"Codul QR",
+        "go_transfer":"Inițiați transferul",
+        "transfer_log":"Istoricul tranzacțiilor",
+        "transfer_log_null":"Nu există istoricul tranzacțiilor",
+        "copy_success":"Adresa a fost copiată",
+        "edit_dia":{
+            "tit":"Modificați nota",
+            "subtit":"Introduceți o notă cu o lungime de cel mult 8 cifre pentru contul dvs."
+        }
+    },
+    "page_home":{
+        "import_account":"Contul de import",
+        "back_up_account":"Contul de rezervă",
+        "add_account":"Cont nou",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"parolă",
+        "confirm_password":"Confirmați parola"
+    }
+
+}

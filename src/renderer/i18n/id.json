@@ -1,0 +1,72 @@
+{
+    "lang":"Bahasa",
+    "confirm":"Konfirmasi",
+    "cancel":"Pembatalan",
+    "dialog_tit":"Prompt",
+    "close":"Tertutup",
+    "confirm_you_active":"Harap konfirmasi operasi Anda",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Rumah",
+        "transfer":"Transfer",
+        "contacts":"Buku alamat",
+        "setting":"Pengaturan",
+        "total":"Total"
+    },
+    "page_setting":{
+        "tit":"Pengaturan",
+        "select":"Silakan pilih"
+    },
+    "page_contacts":{
+        "tit":"Buku alamat",
+        "add_cont":{
+            "tri_dialog":"Tambahkan alamat",
+            "dialog_tit":"Masukkan informasi alamat",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Silakan masukkan tag komentar untuk alamat tersebut",
+            "dialog_address":"Alamat",
+            "address_placeholder":"Silakan masukkan alamat"
+        },
+        "delete_dialog":{
+            "title":"Anda menghapus"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transfer keluar",
+        "to_address":"Ke",
+        "amount":"Jumlah",
+        "send_all":"Kirim semua",
+        "remark":"Catatan",
+        "fees":"Biaya",
+        "expected_fees":"Taksiran biaya",
+        "total":"Total",
+        "select":"Silakan pilih",
+        "confirmDia":{
+            "title":"Tolong konfirmasi",
+            "enter_passworld_tit":"Silakan masukkan kata sandi Anda",
+            "enter_passworld_place":"Silakan masukkan kata sandi Anda"
+        }
+    },
+    "page_account":{
+        "qrcode":"Kode QR",
+        "go_transfer":"Mulai transfer",
+        "transfer_log":"Riwayat transaksi",
+        "transfer_log_null":"Tidak ada riwayat transaksi",
+        "copy_success":"Alamat telah disalin",
+        "edit_dia":{
+            "tit":"Ubah catatan",
+            "subtit":"Masukkan catatan dengan panjang tidak lebih dari 8 digit untuk akun Anda"
+        }
+    },
+    "page_home":{
+        "import_account":"Impor akun",
+        "back_up_account":"Akun cadangan",
+        "add_account":"Akun baru",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Kata sandi",
+        "confirm_password":"Konfirmasi kata sandi"
+    }
+
+}

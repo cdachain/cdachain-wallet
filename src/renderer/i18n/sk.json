@@ -1,0 +1,72 @@
+{
+    "lang":"jazyk",
+    "confirm":"potvrdiť",
+    "cancel":"zrušený",
+    "dialog_tit":"prompt",
+    "close":"zavrieť",
+    "confirm_you_active":"Potvrďte svoju činnosť",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"domov",
+        "transfer":"prevod",
+        "contacts":"Adresár",
+        "setting":"založiť",
+        "total":"totálnej"
+    },
+    "page_setting":{
+        "tit":"založiť",
+        "select":"Vyberte prosím"
+    },
+    "page_contacts":{
+        "tit":"Adresár",
+        "add_cont":{
+            "tri_dialog":"Pridať adresu",
+            "dialog_tit":"Zadajte informácie o adrese",
+            "dialog_tag":"štítok",
+            "tag_placeholder":"Zadajte značku komentára pre adresu",
+            "dialog_address":"adresa",
+            "address_placeholder":"Zadajte adresu"
+        },
+        "delete_dialog":{
+            "title":"Odstraňujete"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Odstúpte",
+        "to_address":"do",
+        "amount":"peniaze",
+        "send_all":"Odoslať všetko",
+        "remark":"poznámka",
+        "fees":"poplatky",
+        "expected_fees":"Odhadované poplatky",
+        "total":"totálnej",
+        "select":"Vyberte prosím",
+        "confirmDia":{
+            "title":"Potvrďte prosím",
+            "enter_passworld_tit":"Zadajte svoje heslo",
+            "enter_passworld_place":"Zadajte svoje heslo"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kód",
+        "go_transfer":"Spustenie prenosu",
+        "transfer_log":"História transakcií",
+        "transfer_log_null":"Žiadna história transakcií",
+        "copy_success":"Adresa bola skopírovaná",
+        "edit_dia":{
+            "tit":"Upraviť poznámku",
+            "subtit":"Zadajte poznámku s dĺžkou maximálne 8 číslic pre váš účet"
+        }
+    },
+    "page_home":{
+        "import_account":"Importný účet",
+        "back_up_account":"Zálohovací účet",
+        "add_account":"Nový účet",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"heslo",
+        "confirm_password":"Potvrďte heslo"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"lingua",
+    "confirm":"confermare",
+    "cancel":"annullato",
+    "dialog_tit":"sollecito",
+    "close":"vicino",
+    "confirm_you_active":"Si prega di confermare l'operazione",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"casa",
+        "transfer":"trasferimento",
+        "contacts":"Rubrica",
+        "setting":"impostare",
+        "total":"totale"
+    },
+    "page_setting":{
+        "tit":"impostare",
+        "select":"Per favore seleziona"
+    },
+    "page_contacts":{
+        "tit":"Rubrica",
+        "add_cont":{
+            "tri_dialog":"Aggiungi indirizzo",
+            "dialog_tit":"Inserisci le informazioni sull'indirizzo",
+            "dialog_tag":"etichetta",
+            "tag_placeholder":"Si prega di inserire il tag commento per l'indirizzo",
+            "dialog_address":"indirizzo",
+            "address_placeholder":"Si prega di inserire l'indirizzo"
+        },
+        "delete_dialog":{
+            "title":"Stai rimuovendo"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Trasferire",
+        "to_address":"in",
+        "amount":"soldi",
+        "send_all":"Invia tutto",
+        "remark":"osservazione",
+        "fees":"tasse",
+        "expected_fees":"Tasse stimate",
+        "total":"totale",
+        "select":"Per favore seleziona",
+        "confirmDia":{
+            "title":"Per favore conferma",
+            "enter_passworld_tit":"Per favore inserisci la tua password",
+            "enter_passworld_place":"Per favore inserisci la tua password"
+        }
+    },
+    "page_account":{
+        "qrcode":"Codice QR",
+        "go_transfer":"Inizia trasferimento",
+        "transfer_log":"Cronologia delle transazioni",
+        "transfer_log_null":"Nessuna cronologia delle transazioni",
+        "copy_success":"L'indirizzo è stato copiato",
+        "edit_dia":{
+            "tit":"Modifica nota",
+            "subtit":"Inserisci una nota con una lunghezza di non più di 8 cifre per il tuo account"
+        }
+    },
+    "page_home":{
+        "import_account":"Importa account",
+        "back_up_account":"Account di backup",
+        "add_account":"Nuovo account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"password",
+        "confirm_password":"Conferma password"
+    }
+
+}

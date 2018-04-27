@@ -1,0 +1,72 @@
+{
+    "lang":"nyelv",
+    "confirm":"Erősítse",
+    "cancel":"törölve",
+    "dialog_tit":"azonnali",
+    "close":"közel",
+    "confirm_you_active":"Kérjük, erősítse meg működését",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"otthon",
+        "transfer":"átutalás",
+        "contacts":"Címjegyzék",
+        "setting":"beállítása",
+        "total":"teljes"
+    },
+    "page_setting":{
+        "tit":"beállítása",
+        "select":"Kérem válasszon"
+    },
+    "page_contacts":{
+        "tit":"Címjegyzék",
+        "add_cont":{
+            "tri_dialog":"Cím hozzáadása",
+            "dialog_tit":"Írja be a címadatokat",
+            "dialog_tag":"címke",
+            "tag_placeholder":"Adja meg a cím komment címkéjét",
+            "dialog_address":"cím",
+            "address_placeholder":"Kérjük, adja meg a címet"
+        },
+        "delete_dialog":{
+            "title":"Ön eltávolít"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Átutalás",
+        "to_address":"bele",
+        "amount":"pénz",
+        "send_all":"Küldj mindent",
+        "remark":"megjegyzés",
+        "fees":"díjak",
+        "expected_fees":"Becsült díjak",
+        "total":"teljes",
+        "select":"Kérem válasszon",
+        "confirmDia":{
+            "title":"Kérjük, erősítse meg",
+            "enter_passworld_tit":"Kérjük, adja meg jelszavát",
+            "enter_passworld_place":"Kérjük, adja meg jelszavát"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kód",
+        "go_transfer":"Átirányítás kezdeményezése",
+        "transfer_log":"Tranzakciók előzményei",
+        "transfer_log_null":"Nincs tranzakcióelőzmény",
+        "copy_success":"A cím át lett másolva",
+        "edit_dia":{
+            "tit":"Jegyzet módosítása",
+            "subtit":"Adjon meg egy, legfeljebb 8 számjegyű számot fiókjához"
+        }
+    },
+    "page_home":{
+        "import_account":"Számla importálása",
+        "back_up_account":"Biztonsági másolat",
+        "add_account":"Új fiók",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"jelszó",
+        "confirm_password":"Jelszó megerősítése"
+    }
+
+}

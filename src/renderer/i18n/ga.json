@@ -1,0 +1,72 @@
+{
+    "lang":"Teanga",
+    "confirm":"Dearbhú",
+    "cancel":"Cealú",
+    "dialog_tit":"Pras",
+    "close":"Dúnta",
+    "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Baile",
+        "transfer":"Aistriú",
+        "contacts":"Leabhar seoladh",
+        "setting":"Socruithe",
+        "total":"Iomlán"
+    },
+    "page_setting":{
+        "tit":"Socruithe",
+        "select":"Roghnaigh"
+    },
+    "page_contacts":{
+        "tit":"Leabhar seoladh",
+        "add_cont":{
+            "tri_dialog":"Cuir seoladh",
+            "dialog_tit":"Cuir isteach eolas seoladh",
+            "dialog_tag":"Clibeanna",
+            "tag_placeholder":"Cuir isteach an tag tráchta don seoladh",
+            "dialog_address":"Seoladh",
+            "address_placeholder":"Cuir isteach an seoladh"
+        },
+        "delete_dialog":{
+            "title":"Tá tú ag baint úsáide as"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Aistriú amach",
+        "to_address":"Isteach",
+        "amount":"Méid",
+        "send_all":"Seol go léir",
+        "remark":"Nóta",
+        "fees":"Táillí",
+        "expected_fees":"Táillí measta",
+        "total":"Iomlán",
+        "select":"Roghnaigh",
+        "confirmDia":{
+            "title":"Deimhnigh le do thoil",
+            "enter_passworld_tit":"Cuir isteach do phasfhocal",
+            "enter_passworld_place":"Cuir isteach do phasfhocal"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR cód",
+        "go_transfer":"Aistriú a thosú",
+        "transfer_log":"Stair na hidirbhearta",
+        "transfer_log_null":"Uimh stair idirbheart",
+        "copy_success":"Tá an seoladh cóipeáilte",
+        "edit_dia":{
+            "tit":"Nóta a mhodhnú",
+            "subtit":"Cuir nóta le fad nach mó ná 8 dhigit ar do chuntas"
+        }
+    },
+    "page_home":{
+        "import_account":"Cuntas iompórtála",
+        "back_up_account":"Cuntas Cúltaca",
+        "add_account":"Cuntas nua",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasfhocal",
+        "confirm_password":"Dearbhaigh focal faire"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"ენა",
+    "confirm":"დადასტურება",
+    "cancel":"გაუქმება",
+    "dialog_tit":"სასწრაფოდ",
+    "close":"დახურულია",
+    "confirm_you_active":"გთხოვთ დაადასტუროთ თქვენი ოპერაცია",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"მთავარი",
+        "transfer":"გადარიცხვა",
+        "contacts":"მისამართი წიგნი",
+        "setting":"პარამეტრები",
+        "total":"სულ"
+    },
+    "page_setting":{
+        "tit":"პარამეტრები",
+        "select":"გთხოვთ, აირჩიოთ"
+    },
+    "page_contacts":{
+        "tit":"მისამართი წიგნი",
+        "add_cont":{
+            "tri_dialog":"მისამართი",
+            "dialog_tit":"შეიყვანეთ მისამართი ინფორმაცია",
+            "dialog_tag":"წარწერები",
+            "tag_placeholder":"გთხოვთ, შეიყვანოთ მისამართი ტეგით მისამართი",
+            "dialog_address":"მისამართი",
+            "address_placeholder":"გთხოვთ შეიყვანოთ მისამართი"
+        },
+        "delete_dialog":{
+            "title":"თქვენ მოხსნით"
+        }
+    },
+    "page_transfer":{
+        "from_address":"გადარიცხვა",
+        "to_address":"Into",
+        "amount":"თანხა",
+        "send_all":"გააგზავნე ყველაფერი",
+        "remark":"შენიშვნა",
+        "fees":"მოსაკრებელი",
+        "expected_fees":"სავარაუდო საფასური",
+        "total":"სულ",
+        "select":"გთხოვთ, აირჩიოთ",
+        "confirmDia":{
+            "title":"გთხოვთ დაადასტუროთ",
+            "enter_passworld_tit":"გთხოვთ შეიყვანოთ პაროლი",
+            "enter_passworld_place":"გთხოვთ შეიყვანოთ პაროლი"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR კოდი",
+        "go_transfer":"გადაცემის ინიცირება",
+        "transfer_log":"გარიგების ისტორია",
+        "transfer_log_null":"არ არის გარიგების ისტორია",
+        "copy_success":"მისამართი გადაწერილია",
+        "edit_dia":{
+            "tit":"შენიშვნა შეცვალეთ",
+            "subtit":"შეიტანეთ შენიშვნა თქვენს ანგარიშზე არაუმეტეს 8 ციფრით"
+        }
+    },
+    "page_home":{
+        "import_account":"ანგარიშის იმპორტი",
+        "back_up_account":"სარეზერვო ანგარიში",
+        "add_account":"ახალი ანგარიში",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"პაროლი",
+        "confirm_password":"დაადასტურეთ პაროლი"
+    }
+
+}

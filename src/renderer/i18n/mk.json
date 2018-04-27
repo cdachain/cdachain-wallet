@@ -1,0 +1,72 @@
+{
+    "lang":"Јазик",
+    "confirm":"Потврда",
+    "cancel":"Поништување",
+    "dialog_tit":"Прашај",
+    "close":"Затворено",
+    "confirm_you_active":"Ве молиме потврдете ја вашата работа",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Дома",
+        "transfer":"Трансфер",
+        "contacts":"Адресар",
+        "setting":"Поставки",
+        "total":"Вкупно"
+    },
+    "page_setting":{
+        "tit":"Поставки",
+        "select":"Ве молиме изберете"
+    },
+    "page_contacts":{
+        "tit":"Адресар",
+        "add_cont":{
+            "tri_dialog":"Додај адреса",
+            "dialog_tit":"Внесете информации за адреса",
+            "dialog_tag":"Тагови",
+            "tag_placeholder":"Ве молиме внесете ја ознаката за коментар за адресата",
+            "dialog_address":"Адреса",
+            "address_placeholder":"Внесете ја адресата"
+        },
+        "delete_dialog":{
+            "title":"Вие се отстранувате"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Трансфер надвор",
+        "to_address":"Во",
+        "amount":"Износ",
+        "send_all":"Испрати сите",
+        "remark":"Забелешка",
+        "fees":"Такси",
+        "expected_fees":"Проценети такси",
+        "total":"Вкупно",
+        "select":"Ве молиме изберете",
+        "confirmDia":{
+            "title":"Ве молиме потврдете",
+            "enter_passworld_tit":"Ве молиме внесете ја вашата лозинка",
+            "enter_passworld_place":"Ве молиме внесете ја вашата лозинка"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"Иницијација на трансфер",
+        "transfer_log":"Историја на трансакции",
+        "transfer_log_null":"Нема историја на трансакции",
+        "copy_success":"Адресата е копирана",
+        "edit_dia":{
+            "tit":"Измени белешка",
+            "subtit":"Внесете белешка со должина од не повеќе од 8 цифри за вашата сметка"
+        }
+    },
+    "page_home":{
+        "import_account":"Увези ја сметката",
+        "back_up_account":"Резервна сметка",
+        "add_account":"Нова сметка",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Лозинка",
+        "confirm_password":"Потврди ја лозинката"
+    }
+
+}

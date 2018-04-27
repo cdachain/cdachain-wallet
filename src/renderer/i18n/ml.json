@@ -1,0 +1,72 @@
+{
+    "lang":"ഭാഷ",
+    "confirm":"സ്ഥിരീകരണം",
+    "cancel":"റദ്ദാക്കൽ",
+    "dialog_tit":"ആവശ്യപ്പെടുക",
+    "close":"അടച്ചു",
+    "confirm_you_active":"നിങ്ങളുടെ പ്രവർത്തനം സ്ഥിരീകരിക്കുക",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"വീട്",
+        "transfer":"കൈമാറ്റം ചെയ്യുക",
+        "contacts":"വിലാസ പുസ്തകം",
+        "setting":"ക്രമീകരണങ്ങൾ",
+        "total":"ആകെ"
+    },
+    "page_setting":{
+        "tit":"ക്രമീകരണങ്ങൾ",
+        "select":"ദയവായി തിരഞ്ഞെടുക്കുക"
+    },
+    "page_contacts":{
+        "tit":"വിലാസ പുസ്തകം",
+        "add_cont":{
+            "tri_dialog":"വിലാസം ചേർക്കുക",
+            "dialog_tit":"വിലാസ വിവരം നൽകുക",
+            "dialog_tag":"ടാഗുകൾ",
+            "tag_placeholder":"ദയവായി വിലാസത്തിനായുള്ള അഭിപ്രായ ടാഗ് നൽകുക",
+            "dialog_address":"വിലാസം",
+            "address_placeholder":"വിലാസം നൽകുക"
+        },
+        "delete_dialog":{
+            "title":"നിങ്ങൾ നീക്കംചെയ്യുന്നു"
+        }
+    },
+    "page_transfer":{
+        "from_address":"നീക്കുക",
+        "to_address":"ഇവിടേക്ക്",
+        "amount":"തുക",
+        "send_all":"എല്ലാം അയയ്ക്കുക",
+        "remark":"കുറിപ്പ്",
+        "fees":"ഫീസ്",
+        "expected_fees":"കണക്കാക്കപ്പെട്ട ഫീസ്",
+        "total":"ആകെ",
+        "select":"ദയവായി തിരഞ്ഞെടുക്കുക",
+        "confirmDia":{
+            "title":"ദയവായി സ്ഥിരീകരിക്കുക",
+            "enter_passworld_tit":"നിങ്ങളുടെ പാസ്വേഡ് നൽകുക",
+            "enter_passworld_place":"നിങ്ങളുടെ പാസ്വേഡ് നൽകുക"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR കോഡ്",
+        "go_transfer":"ട്രാൻസ്ഫർ ആരംഭിക്കുക",
+        "transfer_log":"ഇടപാട് ചരിത്രം",
+        "transfer_log_null":"ഇടപാട് ചരിത്രം ഇല്ല",
+        "copy_success":"വിലാസം പകർത്തി",
+        "edit_dia":{
+            "tit":"കുറിപ്പ് പരിഷ്ക്കരിക്കുക",
+            "subtit":"നിങ്ങളുടെ അക്കൗണ്ടിന് 8 അക്കങ്ങളിലേറെ ദൈർഘ്യമുള്ള ഒരു കുറിപ്പ് നൽകുക"
+        }
+    },
+    "page_home":{
+        "import_account":"അക്കൗണ്ട് ഇറക്കുമതി ചെയ്യുക",
+        "back_up_account":"ബാക്കപ്പ് അക്കൗണ്ട്",
+        "add_account":"പുതിയ അക്കൗണ്ട്",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"പാസ്വേഡ്",
+        "confirm_password":"പാസ്വേഡ് സ്ഥിരീകരിക്കുക"
+    }
+
+}

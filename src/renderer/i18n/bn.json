@@ -1,0 +1,72 @@
+{
+    "lang":"ভাষা",
+    "confirm":"নিশ্চিত করা",
+    "cancel":"বাতিল করা হয়েছে",
+    "dialog_tit":"প্রম্পট",
+    "close":"ঘনিষ্ঠ",
+    "confirm_you_active":"আপনার অপারেশন নিশ্চিত করুন",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"বাড়ি",
+        "transfer":"হস্তান্তর",
+        "contacts":"ঠিকানা বই",
+        "setting":"সেট আপ করুন",
+        "total":"মোট"
+    },
+    "page_setting":{
+        "tit":"সেট আপ করুন",
+        "select":"নির্বাচন করুন"
+    },
+    "page_contacts":{
+        "tit":"ঠিকানা বই",
+        "add_cont":{
+            "tri_dialog":"ঠিকানা জুড়ুন",
+            "dialog_tit":"ঠিকানা তথ্য লিখুন",
+            "dialog_tag":"ট্যাগ",
+            "tag_placeholder":"ঠিকানা জন্য মন্তব্য ট্যাগ লিখুন দয়া করে",
+            "dialog_address":"ঠিকানা",
+            "address_placeholder":"ঠিকানা লিখুন দয়া করে"
+        },
+        "delete_dialog":{
+            "title":"আপনি সরানো হয়"
+        }
+    },
+    "page_transfer":{
+        "from_address":"স্থানান্তর আউট",
+        "to_address":"মধ্যে",
+        "amount":"টাকা",
+        "send_all":"সব পাঠান",
+        "remark":"মন্তব্য",
+        "fees":"ফি",
+        "expected_fees":"আনুমানিক ফি",
+        "total":"মোট",
+        "select":"নির্বাচন করুন",
+        "confirmDia":{
+            "title":"দয়া করে নিশ্চিত করুন",
+            "enter_passworld_tit":"আপনার পাসওয়ার্ড লিখুন দয়া করে",
+            "enter_passworld_place":"আপনার পাসওয়ার্ড লিখুন দয়া করে"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR কোড",
+        "go_transfer":"স্থানান্তর আরম্ভ করুন",
+        "transfer_log":"লেনদেনের ইতিহাস",
+        "transfer_log_null":"কোনও লেনদেনের ইতিহাস",
+        "copy_success":"ঠিকানা কপি করা হয়েছে",
+        "edit_dia":{
+            "tit":"নোট সংশোধন করুন",
+            "subtit":"আপনার অ্যাকাউন্টের জন্য 8 টিরও বেশি নম্বরের দৈর্ঘ্যের একটি নোট লিখুন"
+        }
+    },
+    "page_home":{
+        "import_account":"অ্যাকাউন্ট আমদানি করুন",
+        "back_up_account":"ব্যাকআপ অ্যাকাউন্ট",
+        "add_account":"নতুন অ্যাকাউন্ট",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"পাসওয়ার্ড",
+        "confirm_password":"পাসওয়ার্ড নিশ্চিত করুন"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"Hizkuntza",
+    "confirm":"Berretsi",
+    "cancel":"Bertan behera",
+    "dialog_tit":"Galdetu",
+    "close":"Itxi",
+    "confirm_you_active":"Mesedez berretsi zure eragiketa",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Hasiera",
+        "transfer":"Transfer",
+        "contacts":"Helbide liburua",
+        "setting":"Ezarri",
+        "total":"Guztira"
+    },
+    "page_setting":{
+        "tit":"Ezarri",
+        "select":"Aukeratu ezazu"
+    },
+    "page_contacts":{
+        "tit":"Helbide liburua",
+        "add_cont":{
+            "tri_dialog":"Gehitu helbidea",
+            "dialog_tit":"Idatzi helbide informazioa",
+            "dialog_tag":"Tag",
+            "tag_placeholder":"Idatzi iruzkina egiteko etiketa helbidera",
+            "dialog_address":"Helbidea",
+            "address_placeholder":"Idatzi helbidea"
+        },
+        "delete_dialog":{
+            "title":"Kendu egiten ari zara"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Transferitu",
+        "to_address":"sartu",
+        "amount":"Dirua",
+        "send_all":"Bidali dena",
+        "remark":"Oharra",
+        "fees":"Tarifak",
+        "expected_fees":"Estimatutako tasak",
+        "total":"Guztira",
+        "select":"Aukeratu ezazu",
+        "confirmDia":{
+            "title":"Berretsi",
+            "enter_passworld_tit":"Idatzi zure pasahitza",
+            "enter_passworld_place":"Idatzi zure pasahitza"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodea",
+        "go_transfer":"Hasi transferentzia",
+        "transfer_log":"Transakzioaren historia",
+        "transfer_log_null":"Ez dago transakzioaren historia",
+        "copy_success":"Helbidea kopiatu da",
+        "edit_dia":{
+            "tit":"Aldatu oharra",
+            "subtit":"Idatzi ohar bat zure konturako 8 digitu baino gehiagoko luzerarekin"
+        }
+    },
+    "page_home":{
+        "import_account":"Inportatu kontua",
+        "back_up_account":"Babeskopiaren kontua",
+        "add_account":"Kontu berria",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Pasahitza",
+        "confirm_password":"Berretsi pasahitza"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"زبان",
+    "confirm":"تأیید",
+    "cancel":"لغو",
+    "dialog_tit":"درخواست",
+    "close":"بسته شده",
+    "confirm_you_active":"لطفا عملیات خود را تأیید کنید",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"خانه",
+        "transfer":"انتقال",
+        "contacts":"کتاب آدرس",
+        "setting":"تنظیمات",
+        "total":"کل"
+    },
+    "page_setting":{
+        "tit":"تنظیمات",
+        "select":"لطفا انتخاب کنید"
+    },
+    "page_contacts":{
+        "tit":"کتاب آدرس",
+        "add_cont":{
+            "tri_dialog":"آدرس را اضافه کنید",
+            "dialog_tit":"اطلاعات آدرس را وارد کنید",
+            "dialog_tag":"برچسب ها",
+            "tag_placeholder":"لطفا برچسب نظر را برای آدرس وارد کنید",
+            "dialog_address":"آدرس",
+            "address_placeholder":"لطفا آدرس را وارد کنید"
+        },
+        "delete_dialog":{
+            "title":"شما حذف می کنید"
+        }
+    },
+    "page_transfer":{
+        "from_address":"منتقل کن",
+        "to_address":"به داخل",
+        "amount":"مقدار",
+        "send_all":"ارسال همه",
+        "remark":"توجه داشته باشید",
+        "fees":"هزینه ها",
+        "expected_fees":"هزینه های تخمینی",
+        "total":"کل",
+        "select":"لطفا انتخاب کنید",
+        "confirmDia":{
+            "title":"لطفا تایید کنید",
+            "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
+            "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
+        }
+    },
+    "page_account":{
+        "qrcode":"کد QR",
+        "go_transfer":"شروع انتقال",
+        "transfer_log":"سابقه تراکنش",
+        "transfer_log_null":"بدون تاریخ معامله",
+        "copy_success":"آدرس کپی شده است",
+        "edit_dia":{
+            "tit":"تغییر یادداشت",
+            "subtit":"یک یادداشت با طول بیش از 8 رقم برای حساب خود وارد کنید"
+        }
+    },
+    "page_home":{
+        "import_account":"وارد کردن حساب",
+        "back_up_account":"حساب پشتیبان گیری",
+        "add_account":"حساب جدید",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"رمز عبور",
+        "confirm_password":"رمز عبور را تایید کنید"
+    }
+
+}

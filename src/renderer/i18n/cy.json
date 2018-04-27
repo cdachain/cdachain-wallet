@@ -1,0 +1,72 @@
+{
+    "lang":"Iaith",
+    "confirm":"Cadarnhad",
+    "cancel":"Canslo",
+    "dialog_tit":"Yn brydlon",
+    "close":"Ar gau",
+    "confirm_you_active":"Cadarnhewch eich gweithrediad",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Cartref",
+        "transfer":"Trosglwyddo",
+        "contacts":"Llyfr cyfeiriadau",
+        "setting":"Gosodiadau",
+        "total":"Cyfanswm"
+    },
+    "page_setting":{
+        "tit":"Gosodiadau",
+        "select":"Dewiswch"
+    },
+    "page_contacts":{
+        "tit":"Llyfr cyfeiriadau",
+        "add_cont":{
+            "tri_dialog":"Ychwanegu cyfeiriad",
+            "dialog_tit":"Rhowch wybodaeth gyfeiriad",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Rhowch y tag sylwadau ar gyfer y cyfeiriad",
+            "dialog_address":"Cyfeiriad",
+            "address_placeholder":"Rhowch y cyfeiriad"
+        },
+        "delete_dialog":{
+            "title":"Rydych chi'n cael gwared"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Trosglwyddo allan",
+        "to_address":"I mewn",
+        "amount":"Swm",
+        "send_all":"Anfonwch bawb",
+        "remark":"Nodyn",
+        "fees":"Ffioedd",
+        "expected_fees":"Ffioedd amcangyfrifedig",
+        "total":"Cyfanswm",
+        "select":"Dewiswch",
+        "confirmDia":{
+            "title":"Cadarnhewch",
+            "enter_passworld_tit":"Rhowch eich cyfrinair",
+            "enter_passworld_place":"Rhowch eich cyfrinair"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR cod",
+        "go_transfer":"Cychwyn trosglwyddo",
+        "transfer_log":"Hanes trafodion",
+        "transfer_log_null":"Dim hanes trafodion",
+        "copy_success":"Mae'r cyfeiriad wedi ei gopïo",
+        "edit_dia":{
+            "tit":"Addasu nodyn",
+            "subtit":"Nodwch nodyn gyda hyd o ddim mwy na 8 digid ar gyfer eich cyfrif"
+        }
+    },
+    "page_home":{
+        "import_account":"Cyfrif mewnforio",
+        "back_up_account":"Cyfrif wrth gefn",
+        "add_account":"Cyfrif newydd",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Cyfrinair",
+        "confirm_password":"Cadarnhau cyfrinair"
+    }
+
+}

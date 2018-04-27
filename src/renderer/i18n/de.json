@@ -1,0 +1,72 @@
+{
+    "lang":"Sprache",
+    "confirm":"Bestätigung",
+    "cancel":"Stornierung",
+    "dialog_tit":"Aufforderung",
+    "close":"Geschlossen",
+    "confirm_you_active":"Bitte bestätigen Sie Ihre Operation",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Zuhause",
+        "transfer":"Übertragung",
+        "contacts":"Adressbuch",
+        "setting":"Einstellungen",
+        "total":"Summe"
+    },
+    "page_setting":{
+        "tit":"Einstellungen",
+        "select":"Bitte auswählen"
+    },
+    "page_contacts":{
+        "tit":"Adressbuch",
+        "add_cont":{
+            "tri_dialog":"Adresse hinzufügen",
+            "dialog_tit":"Geben Sie die Adressinformationen ein",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"Bitte geben Sie das Kommentar-Tag für die Adresse ein",
+            "dialog_address":"Adresse",
+            "address_placeholder":"Bitte geben Sie die Adresse ein"
+        },
+        "delete_dialog":{
+            "title":"Sie entfernen"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Übertragen Sie aus",
+        "to_address":"In",
+        "amount":"Betrag",
+        "send_all":"Sende alles",
+        "remark":"Hinweis",
+        "fees":"Gebühren",
+        "expected_fees":"Geschätzte Gebühren",
+        "total":"Summe",
+        "select":"Bitte auswählen",
+        "confirmDia":{
+            "title":"Bitte bestätigen",
+            "enter_passworld_tit":"Bitte geben Sie Ihr Passwort ein",
+            "enter_passworld_place":"Bitte geben Sie Ihr Passwort ein"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-Code",
+        "go_transfer":"Übertragung einleiten",
+        "transfer_log":"Transaktionsverlauf",
+        "transfer_log_null":"Kein Transaktionsverlauf",
+        "copy_success":"Die Adresse wurde kopiert",
+        "edit_dia":{
+            "tit":"Notiz ändern",
+            "subtit":"Geben Sie eine Notiz mit einer Länge von nicht mehr als 8 Ziffern für Ihr Konto ein"
+        }
+    },
+    "page_home":{
+        "import_account":"Konto importieren",
+        "back_up_account":"Konto sichern",
+        "add_account":"Neues Konto",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Passwort",
+        "confirm_password":"Passwort bestätigen"
+    }
+
+}

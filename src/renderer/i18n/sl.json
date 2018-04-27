@@ -1,0 +1,72 @@
+{
+    "lang":"Jezik",
+    "confirm":"Potrditev",
+    "cancel":"Odpoved",
+    "dialog_tit":"Poziv",
+    "close":"Zaprto",
+    "confirm_you_active":"Potrdite svoje delovanje",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"Domov",
+        "transfer":"Prenos",
+        "contacts":"Imenik",
+        "setting":"Nastavitve",
+        "total":"Skupaj"
+    },
+    "page_setting":{
+        "tit":"Nastavitve",
+        "select":"Prosim izberite"
+    },
+    "page_contacts":{
+        "tit":"Imenik",
+        "add_cont":{
+            "tri_dialog":"Dodaj naslov",
+            "dialog_tit":"Vnesite podatke o naslovu",
+            "dialog_tag":"Oznake",
+            "tag_placeholder":"Prosimo, vnesite oznako za komentar za naslov",
+            "dialog_address":"Naslov",
+            "address_placeholder":"Vnesite naslov"
+        },
+        "delete_dialog":{
+            "title":"Odstranite"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Prenesi ven",
+        "to_address":"Into",
+        "amount":"Znesek",
+        "send_all":"Pošlji vse",
+        "remark":"Opomba",
+        "fees":"Pristojbine",
+        "expected_fees":"Ocenjene pristojbine",
+        "total":"Skupaj",
+        "select":"Prosim izberite",
+        "confirmDia":{
+            "title":"Prosimo, potrdite",
+            "enter_passworld_tit":"Vnesite geslo",
+            "enter_passworld_place":"Vnesite geslo"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR kodo",
+        "go_transfer":"Začnite prenos",
+        "transfer_log":"Zgodovina transakcij",
+        "transfer_log_null":"Brez zgodovine transakcij",
+        "copy_success":"Naslov je bil kopiran",
+        "edit_dia":{
+            "tit":"Spremeni beležko",
+            "subtit":"Vnesite beležko z dolžino največ 8 znakov za svoj račun"
+        }
+    },
+    "page_home":{
+        "import_account":"Uvoz računa",
+        "back_up_account":"Rezervni račun",
+        "add_account":"Nov račun",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"Geslo",
+        "confirm_password":"Potrdite geslo"
+    }
+
+}

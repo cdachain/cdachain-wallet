@@ -1,0 +1,72 @@
+{
+    "lang":"taal",
+    "confirm":"bevestigen",
+    "cancel":"geannuleerd",
+    "dialog_tit":"prompt",
+    "close":"dicht",
+    "confirm_you_active":"Bevestig uw werking",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"thuis",
+        "transfer":"overdracht",
+        "contacts":"Adresboek",
+        "setting":"oprichten",
+        "total":"totaal"
+    },
+    "page_setting":{
+        "tit":"oprichten",
+        "select":"Selecteer alstublieft"
+    },
+    "page_contacts":{
+        "tit":"Adresboek",
+        "add_cont":{
+            "tri_dialog":"Voeg adres toe",
+            "dialog_tit":"Voer adresinformatie in",
+            "dialog_tag":"label",
+            "tag_placeholder":"Voer de commentaartag in voor het adres",
+            "dialog_address":"adres",
+            "address_placeholder":"Voer het adres in"
+        },
+        "delete_dialog":{
+            "title":"Je verwijdert"
+        }
+    },
+    "page_transfer":{
+        "from_address":"Overdracht",
+        "to_address":"in",
+        "amount":"geld",
+        "send_all":"Stuur alles",
+        "remark":"opmerking",
+        "fees":"vergoedingen",
+        "expected_fees":"Geschatte vergoedingen",
+        "total":"totaal",
+        "select":"Selecteer alstublieft",
+        "confirmDia":{
+            "title":"Bevestig alstublieft",
+            "enter_passworld_tit":"Voer uw wachtwoord in",
+            "enter_passworld_place":"Voer uw wachtwoord in"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR-code",
+        "go_transfer":"Start overdracht",
+        "transfer_log":"Transactiegeschiedenis",
+        "transfer_log_null":"Geen transactiegeschiedenis",
+        "copy_success":"Adres is gekopieerd",
+        "edit_dia":{
+            "tit":"Wijzig opmerking",
+            "subtit":"Voer een notitie in met een lengte van niet meer dan 8 cijfers voor uw account"
+        }
+    },
+    "page_home":{
+        "import_account":"Account importeren",
+        "back_up_account":"Back-upaccount",
+        "add_account":"Nieuw account",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"wachtwoord",
+        "confirm_password":"Bevestig wachtwoord"
+    }
+
+}

@@ -1,0 +1,72 @@
+{
+    "lang":"भाषा",
+    "confirm":"की पुष्टि करें",
+    "cancel":"रद्द",
+    "dialog_tit":"शीघ्र",
+    "close":"पास",
+    "confirm_you_active":"कृपया अपने ऑपरेशन की पुष्टि करें",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"घर",
+        "transfer":"स्थानांतरण",
+        "contacts":"पता पुस्तिका",
+        "setting":"सेट करें",
+        "total":"संपूर्ण"
+    },
+    "page_setting":{
+        "tit":"सेट करें",
+        "select":"कृपया चुनें"
+    },
+    "page_contacts":{
+        "tit":"पता पुस्तिका",
+        "add_cont":{
+            "tri_dialog":"पता जोड़ें",
+            "dialog_tit":"पता जानकारी दर्ज करें",
+            "dialog_tag":"टैग",
+            "tag_placeholder":"पते के लिए टिप्पणी टैग दर्ज करें",
+            "dialog_address":"पता",
+            "address_placeholder":"कृपया पता दर्ज करें"
+        },
+        "delete_dialog":{
+            "title":"आप हटा रहे हैं"
+        }
+    },
+    "page_transfer":{
+        "from_address":"बाहर स्थानांतरण",
+        "to_address":"में",
+        "amount":"पैसा",
+        "send_all":"सभी भेजें",
+        "remark":"टिप्पणी",
+        "fees":"फीस",
+        "expected_fees":"अनुमानित शुल्क",
+        "total":"संपूर्ण",
+        "select":"कृपया चुनें",
+        "confirmDia":{
+            "title":"कृपया पुष्टि करें",
+            "enter_passworld_tit":"कृपया अपना पासवर्ड दर्ज करें",
+            "enter_passworld_place":"कृपया अपना पासवर्ड दर्ज करें"
+        }
+    },
+    "page_account":{
+        "qrcode":"क्यूआर कोड",
+        "go_transfer":"स्थानांतरण शुरू करें",
+        "transfer_log":"लेनदेन इतिहास",
+        "transfer_log_null":"कोई लेनदेन इतिहास नहीं",
+        "copy_success":"पता कॉपी किया गया है",
+        "edit_dia":{
+            "tit":"नोट संशोधित करें",
+            "subtit":"अपने खाते के लिए 8 अंकों से अधिक की लंबाई के साथ एक नोट दर्ज करें"
+        }
+    },
+    "page_home":{
+        "import_account":"खाता आयात करें",
+        "back_up_account":"बैकअप खाता",
+        "add_account":"नया खाता",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"पासवर्ड",
+        "confirm_password":"पासवर्ड की पुष्टि करें"
+    }
+
+}

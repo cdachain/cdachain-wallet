@@ -1,0 +1,72 @@
+{
+    "lang":"ພາສາ",
+    "confirm":"ການຢືນຢັນ",
+    "cancel":"ການຍົກເລີກ",
+    "dialog_tit":"Prompt",
+    "close":"ປິດ",
+    "confirm_you_active":"ກະລຸນາຢືນຢັນການເຮັດວຽກຂອງທ່ານ",
+    "unit":{
+        "czr":"CZR"
+    },
+    "model_header":{
+        "home":"ຫນ້າທໍາອິດ",
+        "transfer":"ການໂອນເງິນ",
+        "contacts":"ປື້ມທີ່ຢູ່",
+        "setting":"Settings",
+        "total":"ລວມ"
+    },
+    "page_setting":{
+        "tit":"Settings",
+        "select":"ກະລຸນາເລືອກ"
+    },
+    "page_contacts":{
+        "tit":"ປື້ມທີ່ຢູ່",
+        "add_cont":{
+            "tri_dialog":"ຕື່ມການທີ່ຢູ່",
+            "dialog_tit":"ໃສ່ຂໍ້ມູນທີ່ຢູ່",
+            "dialog_tag":"Tags",
+            "tag_placeholder":"ກະລຸນາໃສ່ແທັບຄໍາສໍາລັບທີ່ຢູ່",
+            "dialog_address":"ທີ່ຢູ່",
+            "address_placeholder":"ກະລຸນາໃສ່ທີ່ຢູ່"
+        },
+        "delete_dialog":{
+            "title":"ທ່ານກໍາລັງຖອນເອົາ"
+        }
+    },
+    "page_transfer":{
+        "from_address":"ໂອນອອກ",
+        "to_address":"Into",
+        "amount":"ຈໍານວນເງິນ",
+        "send_all":"ສົ່ງທັງຫມົດ",
+        "remark":"ຫມາຍເຫດ",
+        "fees":"ຄ່າທໍານຽມ",
+        "expected_fees":"ຄ່າທໍານຽມທີ່ຄາດຄະເນ",
+        "total":"ລວມ",
+        "select":"ກະລຸນາເລືອກ",
+        "confirmDia":{
+            "title":"ໂປດຍືນຍັນ",
+            "enter_passworld_tit":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
+            "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
+        }
+    },
+    "page_account":{
+        "qrcode":"QR code",
+        "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
+        "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
+        "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
+        "copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+        "edit_dia":{
+            "tit":"ແກ້ໄຂບັນທຶກ",
+            "subtit":"ໃສ່ປື້ມທີ່ມີຄວາມຍາວບໍ່ເກີນ 8 ໂຕເລກສໍາລັບບັນຊີຂອງທ່ານ"
+        }
+    },
+    "page_home":{
+        "import_account":"ບັນຊີນໍາເຂົ້າ",
+        "back_up_account":"ບັນຊີ Backup",
+        "add_account":"ບັນຊີໃຫມ່",
+        "add_prompt":"输入一个强密码（ 至少9位 ）",
+        "password":"ລະຫັດຜ່ານ",
+        "confirm_password":"ຢືນຢັນລະຫັດຜ່ານ"
+    }
+
+}
