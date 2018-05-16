@@ -7,10 +7,10 @@
       </div>
     <div class="setting-content">
             <div class="selected-wrap">
-              <span>{{ $t('lang') }} </span>
+              <span>{{ $t('page_setting.lang') }} </span>
               <el-select v-model="value" @change="selectVal">
                 <el-option
-                  v-for="item in options"
+                  v-for="item in langOptions"
                   :key="item.value"
                   :label="item.label"
                   :value="item.value">
@@ -26,14 +26,13 @@ export default {
   name: "Setting",
   data() {
     return {
-      selected: this.$db.get("czr_setting.lang").value(),
       value: this.$db.get("czr_setting.lang").value()
     };
   },
   computed: {
-    options: function() {
-      var langs = this.$db.get("czr_setting.lang_conf").value();
-      var tempOption = [];
+    langOptions: function() {
+      let langs = this.$db.get("czr_setting.lang_conf").value();
+      let tempOption = [];
       for (const lang in langs) {
         tempOption.push({
           value: lang,
@@ -69,6 +68,7 @@ export default {
 }
 .setting-banner .setting-tit {
   height: 175px;
+  text-align: center;
   line-height: 175px;
   font-weight: 400;
   font-size: 30px;
