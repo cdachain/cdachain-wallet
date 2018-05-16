@@ -1,5 +1,4 @@
 {
-    "lang": "语言",
     "confirm": "确认",
     "cancel": "取消",
     "dialog_tit":"提示",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"首页",
         "transfer":"转账",
-        "contacts":"地址薄",
+        "contacts":"联系人",
         "setting":"设置",
         "total":"合计"
     },
     "page_setting":{
         "tit":"设置",
+        "lang": "语言",
         "select":"请选择"
     },
     "page_contacts":{
-        "tit":"地址薄",
+        "tit":"联系人",
+        "add_dialog":"添加联系人",
+
         "add_cont":{
-            "tri_dialog":"添加地址",
-            "dialog_tit":"输入地址信息",
-            "dialog_tag":"标签",
-            "tag_placeholder":"请输入地址的备注标签",
-            "dialog_address":"地址",
-            "address_placeholder":"请输入地址"
+            "tit":"输入联系人信息",
+            "tag":"标签",
+            "address":"联系人",
+            "tag_placeholder":"请输入联系人的备注标签",
+            "address_placeholder":"请输入联系人账户"
         },
         "delete_dialog":{
             "title":"您正在移除"
+        },
+        "msg_info":{
+            "no_tag":"请输入账户名称",
+            "no_address":"请输入账户地址",
+            "exist":"联系人已经存在,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"发送全部",
         "remark":"备注",
         "fees":"手续费",
-        "expected_fees":"预估手续费",
         "total":"合计",
         "select":"请选择",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"请选择"
+        },
+        "confirm_dia":{
             "title":"请确认",
             "enter_passworld_tit":"请输入密码",
             "enter_passworld_place":"请输入密码"
+        },
+        "msg_info":{
+            "decrypt_err":"钱包解析失败，可能是密码错误",
+            "send_success":"发送成功",
+            "send_error":"交易失败：请检查是否有足量余额和矿工费"
         }
     },
     "page_account":{
-        "qrcode":"二维码",
-        "go_transfer":"发起转账",
         "transfer_log":"交易记录",
         "transfer_log_null":"暂无交易记录",
-        "copy_success":"地址已经复制",
+
+        "active_icon":{
+            "go_transfer":"发起转账",
+            "import_keystore":"Keystore",
+            "qrcode":"二维码"
+        },
         "edit_dia":{
             "tit":"修改备注",
-            "subtit":"为您的账户输入一个长度不大于8位的备注"
+            "subtit":"为您的账户标记一个备注"
+        },
+        "keystore":{
+            "tit":"备份keystore",
+            "copy":"复制",
+            "download":"下载keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"地址已经复制",
+            "key_copy_success":"复制成功"
         }
     },
     "page_home":{
         "import_account":"导入账号",
-        "back_up_account":"备份账号",
         "add_account":"新建账号",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"密码",
-        "confirm_password":"确认密码",
-        
-        "remove_prompt":"你确定要删除吗？",
-        "please_back_up":"请确定该账号已经备份，避免财产损失",
+        "acc":"账户",
+        "create_dia":{
+            "create_tit":"创建账户",
+            "backup_tit":"备份您的新账户",
 
-        "import_prompt":"您已经有CZR钱包了吗？",
-        "import_step":"将您的钱包文件拖入此处",
-        "import_or":"或者",
-        "import_click_up":"点击添加"
+            "create_tag":"账户名称",
+            "create_pwd":"设置密码",
+            "create_repwd":"确认密码",
+
+            "placeholder_tag":"请设置账户名称",
+            "placeholder_pwd":"请设置账户密码",
+            "placeholder_repwd":"请确认账户密码",
+            "strong_password":"输入一个强密码,至少8位",
+
+            "account_address":"账户",
+            "account_privateKey":"私钥",
+            "account_download_keystore":"下载keystore文件"
+        },
+        "import_dia":{
+            "tit":"导入账户",
+            "select_type":"请选择导入方式",
+            "type_private":"私钥",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"请将私钥粘贴在此处",
+            "placeholder_keystore":"请将keystore文件拖入此处",
+
+            "input_pwd":"输入密码",
+            "placeholder_pwd":"请输入账户密码"
+
+        },
+        "remove_dia":{
+            "tit":"你确定要移除吗？",
+            "remove_confrim":"我确定移除",
+            "backup":"请确定该账号已经备份，避免财产损失"
+        },
+        "msg_info":{
+            "exist":"此账户已经存在,名称是",
+            "enter_password":"请输入密码",
+            "incons_password":"两次输入的密码不一致",
+            "error":"错误：",
+            "imported_success":"导入文件成功",
+            "enter_private":"请输入密钥",
+            "error_private":"账户导入失败，可能是密钥错误",
+            "enter_keystore":"请先导入keystore文件",
+            "error_password":"账户导入失败，可能是密码错误",
+            "remove_success":"移除成功",
+            "create_success":"创建成功",
+            "save":"请保存你的keystore或者私钥，不要分享给任何人！"
+        }
     }
 
 }
