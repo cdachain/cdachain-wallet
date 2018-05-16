@@ -1,5 +1,4 @@
 {
-    "lang":"språk",
     "confirm":"bekrefte",
     "cancel":"avbrutt",
     "dialog_tit":"prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Hjem",
         "transfer":"Transfer",
-        "contacts":"Adressebok",
+        "contacts":"Kontakt",
         "setting":"Sett opp",
         "total":"total"
     },
     "page_setting":{
         "tit":"Sett opp",
+        "lang":"språk",
         "select":"Vennligst velg"
     },
     "page_contacts":{
-        "tit":"Adressebok",
+        "tit":"Kontakt",
+        "add_dialog":"Legg til en kontakt",
+
         "add_cont":{
-            "tri_dialog":"Legg til adresse",
-            "dialog_tit":"Skriv inn adresseinformasjon",
-            "dialog_tag":"tag",
-            "tag_placeholder":"Vennligst skriv inn kommentarmerket for adressen",
-            "dialog_address":"adresse",
-            "address_placeholder":"Vennligst skriv inn adressen"
+            "tit":"Skriv inn kontaktinformasjon",
+            "tag":"tag",
+            "address":"Kontakt",
+            "tag_placeholder":"Vennligst skriv inn kontaktens kommentarer-tagg",
+            "address_placeholder":"Vennligst skriv inn kontaktkontoen"
         },
         "delete_dialog":{
             "title":"Du fjerner"
+        },
+        "msg_info":{
+            "no_tag":"Vennligst skriv inn kontonavnet",
+            "no_address":"Vennligst skriv inn kontoadressen",
+            "exist":"Kontakten eksisterer allerede,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Send alle",
         "remark":"bemerkning",
         "fees":"avgifter",
-        "expected_fees":"Estimerte avgifter",
         "total":"total",
         "select":"Vennligst velg",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vennligst velg"
+        },
+        "confirm_dia":{
             "title":"Vennligst bekreft",
             "enter_passworld_tit":"Vennligst skriv inn passordet ditt",
             "enter_passworld_place":"Vennligst skriv inn passordet ditt"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet-parsing mislyktes, kan være en passordfeil",
+            "send_success":"Send suksess",
+            "send_error":"Transaksjonen feilet: Vennligst sjekk om det er tilstrekkelig balanse og minerens gebyr"
         }
     },
     "page_account":{
-        "qrcode":"QR-kode",
-        "go_transfer":"Start overføring",
         "transfer_log":"Transaksjonshistorikk",
         "transfer_log_null":"Ingen transaksjonshistorikk",
-        "copy_success":"Adressen er kopiert",
+
+        "active_icon":{
+            "go_transfer":"Start overføring",
+            "import_keystore":"keystore",
+            "qrcode":"QR-kode"
+        },
         "edit_dia":{
             "tit":"Endre notat",
-            "subtit":"Skriv inn et notat med en lengde på ikke mer enn 8 siffer for kontoen din"
+            "subtit":"Merk et notat for kontoen din"
+        },
+        "keystore":{
+            "tit":"Ta sikkerhetskopi av nøkkelbutikken",
+            "copy":"kopi",
+            "download":"Last ned nøkkelbutikk"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adressen er kopiert",
+            "key_copy_success":"Kopieres vellykket"
         }
     },
     "page_home":{
         "import_account":"Import konto",
-        "back_up_account":"Backup-konto",
         "add_account":"Ny konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"passord",
-        "confirm_password":"Bekreft passord",
-        
-        "remove_prompt":"Er du sikker på at du vil slette?",
-        "please_back_up":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom",
+        "acc":"konto",
+        "create_dia":{
+            "create_tit":"Opprett en konto",
+            "backup_tit":"Sikkerhetskopier din nye konto",
 
-        "import_prompt":"Har du allerede en CZR lommebok?",
-        "import_step":"Dra din lommebokfil her",
-        "import_or":"eller",
-        "import_click_up":"Klikk for å legge til"
+            "create_tag":"Kontonavn",
+            "create_pwd":"Angi passord",
+            "create_repwd":"Bekreft passord",
+
+            "placeholder_tag":"Vennligst sett inn kontonavn",
+            "placeholder_pwd":"Vennligst sett inn konto passord",
+            "placeholder_repwd":"Vennligst bekreft kontopassordet",
+            "strong_password":"Skriv inn et sterkt passord, minst 8 siffer",
+
+            "account_address":"konto",
+            "account_privateKey":"Privat nøkkel",
+            "account_download_keystore":"Last ned nøkkelbutikkfilen"
+        },
+        "import_dia":{
+            "tit":"Import konto",
+            "select_type":"Vennligst velg importmetode",
+            "type_private":"Privat nøkkel",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Vennligst lim privat nøkkel her",
+            "placeholder_keystore":"Vennligst dra nøkkelstore filen her",
+
+            "input_pwd":"Skriv inn passord",
+            "placeholder_pwd":"Vennligst skriv inn passordet ditt"
+
+        },
+        "remove_dia":{
+            "tit":"Er du sikker på at du vil fjerne den?",
+            "remove_confrim":"Jeg er sikker på å fjerne",
+            "backup":"Kontroller at kontoen er sikkerhetskopiert for å unngå skade på eiendom"
+        },
+        "msg_info":{
+            "exist":"Denne kontoen eksisterer allerede, navnet er",
+            "enter_password":"Vennligst skriv inn passordet ditt",
+            "incons_password":"Passordet som er skrevet inn to ganger, er inkonsekvent",
+            "error":"feil:",
+            "imported_success":"Importer filen vellykket",
+            "enter_private":"Vennligst skriv inn tasten",
+            "error_private":"Kunne ikke importere kontoen, det kan være feil nøkkel",
+            "enter_keystore":"Vennligst importer nøkkelbutikkfilen først",
+            "error_password":"Kan ikke importere konto, det kan være et feil passord",
+            "remove_success":"Fjernet vellykket",
+            "create_success":"Opprettet med hell",
+            "save":"Vennligst lagre nøkkelbutikken eller privatnøkkelen og ikke del den med noen!"
+        }
     }
 
 }

@@ -1,5 +1,4 @@
 {
-    "lang":"nyelv",
     "confirm":"Erősítse",
     "cancel":"törölve",
     "dialog_tit":"azonnali",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"otthon",
         "transfer":"átutalás",
-        "contacts":"Címjegyzék",
+        "contacts":"érintkezés",
         "setting":"beállítása",
         "total":"teljes"
     },
     "page_setting":{
         "tit":"beállítása",
+        "lang":"nyelv",
         "select":"Kérem válasszon"
     },
     "page_contacts":{
-        "tit":"Címjegyzék",
+        "tit":"érintkezés",
+        "add_dialog":"Adjon hozzá egy nevet",
+
         "add_cont":{
-            "tri_dialog":"Cím hozzáadása",
-            "dialog_tit":"Írja be a címadatokat",
-            "dialog_tag":"címke",
-            "tag_placeholder":"Adja meg a cím komment címkéjét",
-            "dialog_address":"cím",
-            "address_placeholder":"Kérjük, adja meg a címet"
+            "tit":"Adja meg az elérhetőségi adatokat",
+            "tag":"címke",
+            "address":"érintkezés",
+            "tag_placeholder":"Adja meg a partner kommentárcímkéjét",
+            "address_placeholder":"Kérjük, adja meg a kapcsolatfiókot"
         },
         "delete_dialog":{
             "title":"Ön eltávolít"
+        },
+        "msg_info":{
+            "no_tag":"Fióknév megadása",
+            "no_address":"Kérjük, adja meg a fiók címe",
+            "exist":"Kapcsolat már létezik,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Küldj mindent",
         "remark":"megjegyzés",
         "fees":"díjak",
-        "expected_fees":"Becsült díjak",
         "total":"teljes",
         "select":"Kérem válasszon",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Kérem válasszon"
+        },
+        "confirm_dia":{
             "title":"Kérjük, erősítse meg",
             "enter_passworld_tit":"Kérjük, adja meg jelszavát",
             "enter_passworld_place":"Kérjük, adja meg jelszavát"
+        },
+        "msg_info":{
+            "decrypt_err":"A Wallet-elemzés sikertelen, jelszóhiba lehet",
+            "send_success":"Küldje el sikerét",
+            "send_error":"A tranzakció sikertelen: Ellenőrizze, van-e elegendő egyensúly és bányász díja"
         }
     },
     "page_account":{
-        "qrcode":"QR kód",
-        "go_transfer":"Átirányítás kezdeményezése",
         "transfer_log":"Tranzakciók előzményei",
         "transfer_log_null":"Nincs tranzakcióelőzmény",
-        "copy_success":"A cím át lett másolva",
+
+        "active_icon":{
+            "go_transfer":"Átirányítás kezdeményezése",
+            "import_keystore":"kulcstárát",
+            "qrcode":"QR kód"
+        },
         "edit_dia":{
             "tit":"Jegyzet módosítása",
-            "subtit":"Adjon meg egy, legfeljebb 8 számjegyű számot fiókjához"
+            "subtit":"Jelöljön meg egy jegyzetet fiókjához"
+        },
+        "keystore":{
+            "tit":"Hozza vissza a kulcsstartót",
+            "copy":"másolat",
+            "download":"A kulcstartó letöltése"
+        },
+        "msg_info":{
+            "ads_copy_success":"A cím át lett másolva",
+            "key_copy_success":"Sikeresen másolt"
         }
     },
     "page_home":{
         "import_account":"Számla importálása",
-        "back_up_account":"Biztonsági másolat",
         "add_account":"Új fiók",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"jelszó",
-        "confirm_password":"Jelszó megerősítése",
-        
-        "remove_prompt":"Biztosan törölni akarja?",
-        "please_back_up":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta",
+        "acc":"számla",
+        "create_dia":{
+            "create_tit":"Hozzon létre egy fiókot",
+            "backup_tit":"Hozza létre az új fiókot",
 
-        "import_prompt":"Van már egy CZR pénztárcája?",
-        "import_step":"Húzza a pénztárca fájlját itt",
-        "import_or":"vagy",
-        "import_click_up":"Hozzáadás hozzáadásához"
+            "create_tag":"Fiók neve",
+            "create_pwd":"Jelszó beállítása",
+            "create_repwd":"Jelszó megerősítése",
+
+            "placeholder_tag":"Állítsa be a fiók nevét",
+            "placeholder_pwd":"Kérjük, állítsa be a fiók jelszavát",
+            "placeholder_repwd":"Kérjük, erősítse meg a fiók jelszavát",
+            "strong_password":"Adjon meg egy erős jelszót, legalább 8 számjegyből",
+
+            "account_address":"számla",
+            "account_privateKey":"Privát kulcs",
+            "account_download_keystore":"Töltse le a kulcstároló fájlt"
+        },
+        "import_dia":{
+            "tit":"Számla importálása",
+            "select_type":"Válassza ki az importálási módot",
+            "type_private":"Privát kulcs",
+            "type_keystore":"kulcstárát",
+
+            "placeholder_private":"Kérjük, illessze be a privát kulcsot itt",
+            "placeholder_keystore":"Kérem húzza a kulcsfontosságú fájlt itt",
+
+            "input_pwd":"Adja meg a jelszót",
+            "placeholder_pwd":"Kérjük, adja meg fiókja jelszavát"
+
+        },
+        "remove_dia":{
+            "tit":"Biztosan eltávolítja?",
+            "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
+            "backup":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
+        },
+        "msg_info":{
+            "exist":"Ez a fiók már létezik, a név",
+            "enter_password":"Kérjük, adja meg jelszavát",
+            "incons_password":"A kétszer beírt jelszó következetlen",
+            "error":"Hiba:",
+            "imported_success":"Fájl importálása sikeresen",
+            "enter_private":"Kérjük, adja meg a kulcsot",
+            "error_private":"Nem sikerült importálni a fiókot, lehet, hogy rossz kulcs",
+            "enter_keystore":"Kérjük, először importálja a kulcstároló fájlt",
+            "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
+            "remove_success":"Sikeresen eltávolítva",
+            "create_success":"Létrehozva sikeresen",
+            "save":"Kérem, mentse el a kulcstartót vagy a privát kulcsot, és ne ossza meg senkivel!"
+        }
     }
 
 }

@@ -1,5 +1,4 @@
 {
-    "lang":"språk",
     "confirm":"bekräfta",
     "cancel":"Inställd",
     "dialog_tit":"prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adressbok",
+        "contacts":"Kontakta",
         "setting":"Ställ in",
         "total":"total"
     },
     "page_setting":{
         "tit":"Ställ in",
+        "lang":"språk",
         "select":"Vänligen välj"
     },
     "page_contacts":{
-        "tit":"Adressbok",
+        "tit":"Kontakta",
+        "add_dialog":"Lägg till en kontakt",
+
         "add_cont":{
-            "tri_dialog":"Lägg till adress",
-            "dialog_tit":"Ange adressinformation",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Vänligen ange kommentarkoden för adressen",
-            "dialog_address":"adress",
-            "address_placeholder":"Vänligen ange adressen"
+            "tit":"Ange kontaktinformation",
+            "tag":"Tag",
+            "address":"Kontakta",
+            "tag_placeholder":"Vänligen ange kontaktens kommentarer tagg",
+            "address_placeholder":"Vänligen ange kontaktkontot"
         },
         "delete_dialog":{
             "title":"Du tar bort"
+        },
+        "msg_info":{
+            "no_tag":"Vänligen ange kontonamnet",
+            "no_address":"Ange kontoadressen",
+            "exist":"Kontakten existerar redan,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Skicka allt",
         "remark":"anmärkning",
         "fees":"avgifter",
-        "expected_fees":"Uppskattade avgifter",
         "total":"total",
         "select":"Vänligen välj",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vänligen välj"
+        },
+        "confirm_dia":{
             "title":"Vänligen bekräfta",
             "enter_passworld_tit":"Vänligen ange ditt lösenord",
             "enter_passworld_place":"Vänligen ange ditt lösenord"
+        },
+        "msg_info":{
+            "decrypt_err":"Pappersparsning misslyckades, kan vara ett lösenordsfel",
+            "send_success":"Skicka framgång",
+            "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och minimilön"
         }
     },
     "page_account":{
-        "qrcode":"QR-kod",
-        "go_transfer":"Inleda överföring",
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
-        "copy_success":"Adressen har kopierats",
+
+        "active_icon":{
+            "go_transfer":"Inleda överföring",
+            "import_keystore":"nyckel",
+            "qrcode":"QR-kod"
+        },
         "edit_dia":{
             "tit":"Ändra anteckning",
-            "subtit":"Ange en anteckning med en längd av högst 8 siffror för ditt konto"
+            "subtit":"Markera en anteckning för ditt konto"
+        },
+        "keystore":{
+            "tit":"Säkerhetskopiera nyckelbutiken",
+            "copy":"kopia",
+            "download":"Ladda ner nyckelbutiken"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adressen har kopierats",
+            "key_copy_success":"Kopieras framgångsrikt"
         }
     },
     "page_home":{
         "import_account":"Importera konto",
-        "back_up_account":"Backup-konto",
         "add_account":"Nytt konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"lösenord",
-        "confirm_password":"Bekräfta lösenordet",
-        
-        "remove_prompt":"Är du säker på att du vill radera?",
-        "please_back_up":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom",
+        "acc":"konto",
+        "create_dia":{
+            "create_tit":"Skapa ett konto",
+            "backup_tit":"Säkerhetskopiera ditt nya konto",
 
-        "import_prompt":"Har du redan en CZR plånbok?",
-        "import_step":"Dra din plånboksfil här",
-        "import_or":"eller",
-        "import_click_up":"Klicka för att lägga till"
+            "create_tag":"Kontonamn",
+            "create_pwd":"Ange lösenord",
+            "create_repwd":"Bekräfta lösenordet",
+
+            "placeholder_tag":"Vänligen ange kontonamn",
+            "placeholder_pwd":"Ange konto lösenord",
+            "placeholder_repwd":"Vänligen bekräfta lösenordet för kontot",
+            "strong_password":"Ange ett starkt lösenord, minst 8 siffror",
+
+            "account_address":"konto",
+            "account_privateKey":"Privat nyckel",
+            "account_download_keystore":"Ladda ner nyckelhanteringsfilen"
+        },
+        "import_dia":{
+            "tit":"Importera konto",
+            "select_type":"Var god välj importmetod",
+            "type_private":"Privat nyckel",
+            "type_keystore":"nyckellagret",
+
+            "placeholder_private":"Vänligen klistra in den privata nyckeln här",
+            "placeholder_keystore":"Vänligen dra nyckelhanteringsfilen här",
+
+            "input_pwd":"Ange lösenord",
+            "placeholder_pwd":"Vänligen ange ditt lösenord för ditt konto"
+
+        },
+        "remove_dia":{
+            "tit":"Är du säker på att du vill ta bort den?",
+            "remove_confrim":"Jag är säker på att ta bort",
+            "backup":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
+        },
+        "msg_info":{
+            "exist":"Detta konto finns redan och namnet är",
+            "enter_password":"Vänligen ange ditt lösenord",
+            "incons_password":"Lösenordet som anges två gånger är inkonsekvent",
+            "error":"fel:",
+            "imported_success":"Importera filen framgångsrikt",
+            "enter_private":"Vänligen ange nyckeln",
+            "error_private":"Det gick inte att importera kontot, det kan vara fel nyckel",
+            "enter_keystore":"Vänligen importera nyckelhanteringsfilen först",
+            "error_password":"Det gick inte att importera ett konto, det kan vara ett felaktigt lösenord",
+            "remove_success":"Avlägsnades framgångsrikt",
+            "create_success":"Skapades framgångsrikt",
+            "save":"Var god spara din nyckelbutik eller privat nyckel och dela den inte med någon!"
+        }
     }
 
 }

@@ -1,5 +1,4 @@
 {
-    "lang":"Język",
     "confirm":"Potwierdzenie",
     "cancel":"Anulowanie",
     "dialog_tit":"Pytaj",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Strona główna",
         "transfer":"Przenieś",
-        "contacts":"Książka adresowa",
+        "contacts":"Kontakty",
         "setting":"Ustawienia",
         "total":"Razem"
     },
     "page_setting":{
         "tit":"Ustawienia",
+        "lang":"Język",
         "select":"Proszę wybrać"
     },
     "page_contacts":{
-        "tit":"Książka adresowa",
+        "tit":"Kontakty",
+        "add_dialog":"Dodaj kontakt",
+
         "add_cont":{
-            "tri_dialog":"Dodaj adres",
-            "dialog_tit":"Wprowadź dane adresowe",
-            "dialog_tag":"Tagi",
-            "tag_placeholder":"Wprowadź tag komentarza dla adresu",
-            "dialog_address":"Adres",
-            "address_placeholder":"Proszę podać adres"
+            "tit":"Wprowadź informacje kontaktowe",
+            "tag":"Tagi",
+            "address":"Kontakty",
+            "tag_placeholder":"Wprowadź znacznik komentarza kontaktu",
+            "address_placeholder":"Proszę wprowadzić dane kontaktowe"
         },
         "delete_dialog":{
             "title":"Usuwasz"
+        },
+        "msg_info":{
+            "no_tag":"Wprowadź nazwę konta",
+            "no_address":"Proszę podać adres konta",
+            "exist":"Kontakt już istnieje,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Wyślij wszystko",
         "remark":"Uwaga",
         "fees":"Opłaty",
-        "expected_fees":"Szacowane opłaty",
         "total":"Razem",
         "select":"Proszę wybrać",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Proszę wybrać"
+        },
+        "confirm_dia":{
             "title":"Proszę potwierdzić",
             "enter_passworld_tit":"Wprowadź swoje hasło",
             "enter_passworld_place":"Wprowadź swoje hasło"
+        },
+        "msg_info":{
+            "decrypt_err":"Przetwarzanie portfela nie powiodło się, może to być błąd hasła",
+            "send_success":"Wyślij sukces",
+            "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy jest wystarczająca opłata bilansowa i górnicza"
         }
     },
     "page_account":{
-        "qrcode":"Kod QR",
-        "go_transfer":"Rozpocznij transfer",
         "transfer_log":"Historia transakcji",
         "transfer_log_null":"Brak historii transakcji",
-        "copy_success":"Adres został skopiowany",
+
+        "active_icon":{
+            "go_transfer":"Rozpocznij transfer",
+            "import_keystore":"Magazyn kluczy",
+            "qrcode":"Kod QR"
+        },
         "edit_dia":{
             "tit":"Zmodyfikuj notatkę",
-            "subtit":"Wprowadź notatkę o długości nie większej niż 8 cyfr dla swojego konta"
+            "subtit":"Zaznacz notatkę dla swojego konta"
+        },
+        "keystore":{
+            "tit":"Utwórz kopię zapasową magazynu kluczy",
+            "copy":"Duplikat",
+            "download":"Pobierz plik kluczy"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres został skopiowany",
+            "key_copy_success":"Z powodzeniem skopiowane"
         }
     },
     "page_home":{
         "import_account":"Importuj konto",
-        "back_up_account":"Konto zapasowe",
         "add_account":"Nowe konto",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Hasło",
-        "confirm_password":"Potwierdź hasło",
-        
-        "remove_prompt":"Czy na pewno chcesz usunąć?",
-        "please_back_up":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności",
+        "acc":"Konto",
+        "create_dia":{
+            "create_tit":"Utwórz konto",
+            "backup_tit":"Utwórz kopię zapasową nowego konta",
 
-        "import_prompt":"Czy masz już portfel CZR?",
-        "import_step":"Przeciągnij tutaj swój portfel",
-        "import_or":"Or",
-        "import_click_up":"Kliknij, aby dodać"
+            "create_tag":"Nazwa konta",
+            "create_pwd":"Ustaw hasło",
+            "create_repwd":"Potwierdź hasło",
+
+            "placeholder_tag":"Ustaw nazwę konta",
+            "placeholder_pwd":"Ustaw hasło do konta",
+            "placeholder_repwd":"Potwierdź hasło do konta",
+            "strong_password":"Wprowadź silne hasło, co najmniej 8 cyfr",
+
+            "account_address":"Konto",
+            "account_privateKey":"Klucz prywatny",
+            "account_download_keystore":"Pobierz plik magazynu kluczy"
+        },
+        "import_dia":{
+            "tit":"Importuj konto",
+            "select_type":"Wybierz metodę importu",
+            "type_private":"Klucz prywatny",
+            "type_keystore":"Magazyn kluczy",
+
+            "placeholder_private":"Wklej tutaj klucz prywatny",
+            "placeholder_keystore":"Przeciągnij tutaj plik magazynu kluczy",
+
+            "input_pwd":"Wprowadź hasło",
+            "placeholder_pwd":"Wprowadź swoje hasło do konta"
+
+        },
+        "remove_dia":{
+            "tit":"Czy na pewno chcesz go usunąć?",
+            "remove_confrim":"Jestem pewien, że usunę",
+            "backup":"Upewnij się, że konto zostało zarchiwizowane, aby uniknąć uszkodzenia własności"
+        },
+        "msg_info":{
+            "exist":"To konto już istnieje, a nazwa jest",
+            "enter_password":"Wprowadź swoje hasło",
+            "incons_password":"Wprowadzone dwukrotnie hasło jest niespójne",
+            "error":"Błąd:",
+            "imported_success":"Importuj plik pomyślnie",
+            "enter_private":"Wprowadź klucz",
+            "error_private":"Nie można zaimportować konta, może to być niewłaściwy klucz",
+            "enter_keystore":"Najpierw zaimportuj plik kluczy",
+            "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
+            "remove_success":"Usunięto pomyślnie",
+            "create_success":"Utworzono pomyślnie",
+            "save":"Zapisz swój magazyn kluczy lub klucz prywatny i nie udostępniaj go nikomu!"
+        }
     }
 
 }

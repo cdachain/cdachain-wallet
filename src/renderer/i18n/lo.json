@@ -1,5 +1,4 @@
 {
-    "lang":"ພາສາ",
     "confirm":"ການຢືນຢັນ",
     "cancel":"ການຍົກເລີກ",
     "dialog_tit":"Prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"ຫນ້າທໍາອິດ",
         "transfer":"ການໂອນເງິນ",
-        "contacts":"ປື້ມທີ່ຢູ່",
+        "contacts":"ຕິດຕໍ່ພົວພັນ",
         "setting":"Settings",
         "total":"ລວມ"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"ພາສາ",
         "select":"ກະລຸນາເລືອກ"
     },
     "page_contacts":{
-        "tit":"ປື້ມທີ່ຢູ່",
+        "tit":"ຕິດຕໍ່ພົວພັນ",
+        "add_dialog":"ຕື່ມການຕິດຕໍ່",
+
         "add_cont":{
-            "tri_dialog":"ຕື່ມການທີ່ຢູ່",
-            "dialog_tit":"ໃສ່ຂໍ້ມູນທີ່ຢູ່",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"ກະລຸນາໃສ່ແທັບຄໍາສໍາລັບທີ່ຢູ່",
-            "dialog_address":"ທີ່ຢູ່",
-            "address_placeholder":"ກະລຸນາໃສ່ທີ່ຢູ່"
+            "tit":"ກະລຸນາໃສ່ຂໍ້ມູນການຕິດຕໍ່",
+            "tag":"Tags",
+            "address":"ຕິດຕໍ່ພົວພັນ",
+            "tag_placeholder":"ກະລຸນາໃສ່ແທັກຄໍາຄິດເຫັນຂອງຜູ້ຕິດຕໍ່",
+            "address_placeholder":"ກະລຸນາໃສ່ບັນຊີຕິດຕໍ່"
         },
         "delete_dialog":{
             "title":"ທ່ານກໍາລັງຖອນເອົາ"
+        },
+        "msg_info":{
+            "no_tag":"ກະລຸນາໃສ່ຊື່ບັນຊີ",
+            "no_address":"ກະລຸນາໃສ່ທີ່ຢູ່ບັນຊີ",
+            "exist":"ຕິດຕໍ່ພົວພັນແລ້ວ,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"ສົ່ງທັງຫມົດ",
         "remark":"ຫມາຍເຫດ",
         "fees":"ຄ່າທໍານຽມ",
-        "expected_fees":"ຄ່າທໍານຽມທີ່ຄາດຄະເນ",
         "total":"ລວມ",
         "select":"ກະລຸນາເລືອກ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ກະລຸນາເລືອກ"
+        },
+        "confirm_dia":{
             "title":"ໂປດຍືນຍັນ",
             "enter_passworld_tit":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
             "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
+        },
+        "msg_info":{
+            "decrypt_err":"ການວິເຄາະຂອງ Wallet ລົ້ມເຫລວອາດຈະເປັນຂໍ້ຜິດພາດລະຫັດຜ່ານ",
+            "send_success":"ສົ່ງຜົນສໍາເລັດ",
+            "send_error":"ບັນຊີການເຮັດທຸລະກິດລົ້ມເຫລວ: ກະລຸນາກວດເບິ່ງວ່າມີຍອດເງິນສົມທົບແລະຄ່າທໍານຽມຂອງແຮ່ທາດຢ່າງພຽງພໍ"
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
         "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
         "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
-        "copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+
+        "active_icon":{
+            "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"ແກ້ໄຂບັນທຶກ",
-            "subtit":"ໃສ່ປື້ມທີ່ມີຄວາມຍາວບໍ່ເກີນ 8 ໂຕເລກສໍາລັບບັນຊີຂອງທ່ານ"
+            "subtit":"ຫມາຍຫມາຍສໍາລັບບັນຊີຂອງທ່ານ"
+        },
+        "keystore":{
+            "tit":"Back up keystore",
+            "copy":"Duplicate",
+            "download":"ດາວໂຫລດ keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
+            "key_copy_success":"ຄັດລອກສົບຜົນສໍາເລັດ"
         }
     },
     "page_home":{
         "import_account":"ບັນຊີນໍາເຂົ້າ",
-        "back_up_account":"ບັນຊີ Backup",
         "add_account":"ບັນຊີໃຫມ່",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"ລະຫັດຜ່ານ",
-        "confirm_password":"ຢືນຢັນລະຫັດຜ່ານ",
-        
-        "remove_prompt":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການລຶບ?",
-        "please_back_up":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ",
+        "acc":"ບັນຊີ",
+        "create_dia":{
+            "create_tit":"ສ້າງບັນຊີ",
+            "backup_tit":"ກັບຄືນໄປບ່ອນບັນຊີໃຫມ່ຂອງທ່ານ",
 
-        "import_prompt":"ທ່ານມີກະເປົາ CZR ແລ້ວບໍ?",
-        "import_step":"ລາກໄຟລ໌ wallet ຂອງທ່ານຢູ່ທີ່ນີ້",
-        "import_or":"Or",
-        "import_click_up":"ກົດເພື່ອເພີ່ມ"
+            "create_tag":"ຊື່ບັນຊີ",
+            "create_pwd":"ຕັ້ງຄ່າລະຫັດຜ່ານ",
+            "create_repwd":"ຢືນຢັນລະຫັດຜ່ານ",
+
+            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນຊີ",
+            "placeholder_pwd":"ກະລຸນາຕັ້ງລະຫັດຜ່ານບັນຊີ",
+            "placeholder_repwd":"ກະລຸນາຢືນຢັນລະຫັດຜ່ານບັນຊີ",
+            "strong_password":"ໃສ່ລະຫັດຜ່ານທີ່ມີຄວາມເຂັ້ມແຂງ, ຢ່າງຫນ້ອຍ 8 ເລກ",
+
+            "account_address":"ບັນຊີ",
+            "account_privateKey":"ຄີເອກກະຊົນ",
+            "account_download_keystore":"ດາວໂຫລດໄຟລ໌ keystore"
+        },
+        "import_dia":{
+            "tit":"ບັນຊີນໍາເຂົ້າ",
+            "select_type":"ກະລຸນາເລືອກວິທີການນໍາເຂົ້າ",
+            "type_private":"ຄີເອກກະຊົນ",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"ກະລຸນາວາງຄີສ່ວນຕົວທີ່ນີ້",
+            "placeholder_keystore":"ກະລຸນາ drag ໄຟລ໌ keystore ຢູ່ທີ່ນີ້",
+
+            "input_pwd":"ໃສ່ລະຫັດຜ່ານ",
+            "placeholder_pwd":"ກະລຸນາໃສ່ລະຫັດຜ່ານບັນຊີຂອງທ່ານ"
+
+        },
+        "remove_dia":{
+            "tit":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການເອົາມັນອອກ?",
+            "remove_confrim":"ຂ້າພະເຈົ້າແນ່ໃຈວ່າຈະເອົາອອກ",
+            "backup":"ກະລຸນາໃຫ້ແນ່ໃຈວ່າບັນຊີໄດ້ຖືກຮອງຮັບເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ"
+        },
+        "msg_info":{
+            "exist":"ບັນຊີນີ້ມີຢູ່ແລ້ວແລະຊື່ແມ່ນ",
+            "enter_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
+            "incons_password":"ລະຫັດຜ່ານເຂົ້າສອງເທື່ອແມ່ນບໍ່ສອດຄ່ອງ",
+            "error":"ຂໍ້ຜິດພາດ:",
+            "imported_success":"Import file successfully",
+            "enter_private":"ກະລຸນາໃສ່ຄີ",
+            "error_private":"ບໍ່ສາມາດນໍາເຂົ້າບັນຊີໄດ້, ມັນອາດຈະເປັນກຸນແຈທີ່ບໍ່ຖືກຕ້ອງ",
+            "enter_keystore":"ກະລຸນານໍາເຂົ້າໄຟລ໌ keystore ກ່ອນ",
+            "error_password":"ບໍ່ສາມາດເຂົ້າບັນຊີໄດ້, ມັນອາດເປັນລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ",
+            "remove_success":"ລຶບລ້າງຄວາມສໍາເລັດ",
+            "create_success":"ສ້າງສົບຜົນສໍາເລັດ",
+            "save":"ກະລຸນາບັນທຶກ keystore ຫຼືຄີສ່ວນຕົວຂອງທ່ານແລະຢ່າແບ່ງປັນມັນກັບຄົນອື່ນ!"
+        }
     }
 
 }

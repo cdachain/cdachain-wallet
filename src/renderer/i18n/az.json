@@ -1,5 +1,4 @@
 {
-    "lang":"Dil",
     "confirm":"Təsdiqləmə",
     "cancel":"Ləğv et",
     "dialog_tit":"Sövq et",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Ev",
         "transfer":"Transfer",
-        "contacts":"Ünvan kitab",
+        "contacts":"Əlaqə",
         "setting":"Ayarlar",
         "total":"Ümumi"
     },
     "page_setting":{
         "tit":"Ayarlar",
+        "lang":"Dil",
         "select":"Xahiş edirik seçin"
     },
     "page_contacts":{
-        "tit":"Ünvan kitab",
+        "tit":"Əlaqə",
+        "add_dialog":"Kontakt əlavə edin",
+
         "add_cont":{
-            "tri_dialog":"Ünvan əlavə edin",
-            "dialog_tit":"Ünvan məlumatını daxil edin",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Lütfən, ünvan üçün şərh etiketini daxil edin",
-            "dialog_address":"Ünvanı",
-            "address_placeholder":"Xahiş edirik ünvanı daxil edin"
+            "tit":"Əlaqə məlumatı daxil edin",
+            "tag":"Tags",
+            "address":"Əlaqə",
+            "tag_placeholder":"Xahiş edirik əlaqəin yazı etiketini daxil edin",
+            "address_placeholder":"Əlaqə hesabını daxil edin"
         },
         "delete_dialog":{
             "title":"Siz çıxarırsınız"
+        },
+        "msg_info":{
+            "no_tag":"Xahiş edirik hesab adını daxil edin",
+            "no_address":"Xahiş edirik hesab ünvanını daxil edin",
+            "exist":"Əlaqə artıq mövcuddur,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Hamısını göndər",
         "remark":"Qeyd",
         "fees":"Ücretler",
-        "expected_fees":"Tahmini haqlar",
         "total":"Ümumi",
         "select":"Xahiş edirik seçin",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Xahiş edirik seçin"
+        },
+        "confirm_dia":{
             "title":"Xahiş edirik təsdiq edin",
             "enter_passworld_tit":"Şifrənizi daxil edin",
             "enter_passworld_place":"Şifrənizi daxil edin"
+        },
+        "msg_info":{
+            "decrypt_err":"Cüzdan ayırma başarısız oldu, parol hatası ola bilər",
+            "send_success":"Uğur göndərin",
+            "send_error":"Əməliyyat başarısız: Xahiş edirik balansın və madencinin haqqını yoxlayın"
         }
     },
     "page_account":{
-        "qrcode":"QR kodu",
-        "go_transfer":"Transferin təşəbbüsü",
         "transfer_log":"Əməliyyat tarixi",
         "transfer_log_null":"Əməliyyat tarixi yoxdur",
-        "copy_success":"Ünvanı kopyalandı",
+
+        "active_icon":{
+            "go_transfer":"Transferin təşəbbüsü",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kodu"
+        },
         "edit_dia":{
             "tit":"Notu dəyişdirin",
-            "subtit":"Hesabınız üçün ən çox 8 rəqəmdən ibarət olan bir not daxil edin"
+            "subtit":"Hesabınız üçün qeyd yaz"
+        },
+        "keystore":{
+            "tit":"Klaviatura geri qayıt",
+            "copy":"Dublikat",
+            "download":"Keystore yükləyin"
+        },
+        "msg_info":{
+            "ads_copy_success":"Ünvanı kopyalandı",
+            "key_copy_success":"Müvəffəqiyyətlə kopyalanır"
         }
     },
     "page_home":{
         "import_account":"İdxal hesabı",
-        "back_up_account":"Backup hesabı",
         "add_account":"Yeni hesab",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Şifrə",
-        "confirm_password":"Şifrəni təsdiqləyin",
-        
-        "remove_prompt":"Silmək istədiyinizə əminsiniz?",
-        "please_back_up":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun",
+        "acc":"Hesab",
+        "create_dia":{
+            "create_tit":"Hesab yaratmaq",
+            "backup_tit":"Yeni hesabınızı zənginləşdirin",
 
-        "import_prompt":"Zaten CZR cüzdanınız var?",
-        "import_step":"Cüzdan dosyanızı burada çəkin",
-        "import_or":"Və ya",
-        "import_click_up":"Əlavə etmək üçün basın"
+            "create_tag":"Haqq-hesab adı",
+            "create_pwd":"Şifrəni seçin",
+            "create_repwd":"Şifrəni təsdiqləyin",
+
+            "placeholder_tag":"Hesabın adını təyin edin",
+            "placeholder_pwd":"Hesab parolunu təyin edin",
+            "placeholder_repwd":"Hesab parolunu təsdiqləyin",
+            "strong_password":"Güclü bir parol daxil edin, ən azı 8 rəqəm",
+
+            "account_address":"Hesab",
+            "account_privateKey":"Şəxsi açar",
+            "account_download_keystore":"Keystore faylını yükləyin"
+        },
+        "import_dia":{
+            "tit":"İdxal hesabı",
+            "select_type":"Xahiş edirik idxal üsulunu seçin",
+            "type_private":"Şəxsi açar",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Xahiş edirik burada xüsusi açarı yapışdırın",
+            "placeholder_keystore":"Xahiş edirik burada keystore faylını sürüşdürün",
+
+            "input_pwd":"Şifrəni daxil edin",
+            "placeholder_pwd":"Şifrənizi daxil edin"
+
+        },
+        "remove_dia":{
+            "tit":"Bunu aradan qaldırmaq istədiyinizə əminsiniz?",
+            "remove_confrim":"Çıxaracağınızdan əminəm",
+            "backup":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
+        },
+        "msg_info":{
+            "exist":"Bu hesab artıq mövcuddur və adıdır",
+            "enter_password":"Şifrənizi daxil edin",
+            "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
+            "error":"Hata:",
+            "imported_success":"Faylı uğurla gətir",
+            "enter_private":"Xahiş edirik düyməni daxil edin",
+            "error_private":"Hesabı idxal etmədikdə, səhv anla bilər",
+            "enter_keystore":"Öncə keystore faylını idxal edin",
+            "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
+            "remove_success":"Uğurla silindi",
+            "create_success":"Tərəqqi yaradılıb",
+            "save":"Xahiş edirik keystore və ya xüsusi anahtarı saxlayın və onu hər kəslə bölüşməyin!"
+        }
     }
 
 }

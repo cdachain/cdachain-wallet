@@ -1,5 +1,4 @@
 {
-    "lang":"語言",
     "confirm":"確認",
     "cancel":"取消",
     "dialog_tit":"提示",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"首頁",
         "transfer":"轉賬",
-        "contacts":"地址薄",
+        "contacts":"聯繫人",
         "setting":"設置",
         "total":"合計"
     },
     "page_setting":{
         "tit":"設置",
+        "lang":"語言",
         "select":"請選擇"
     },
     "page_contacts":{
-        "tit":"地址薄",
+        "tit":"聯繫人",
+        "add_dialog":"添加聯繫人",
+
         "add_cont":{
-            "tri_dialog":"添加地址",
-            "dialog_tit":"輸入地址信息",
-            "dialog_tag":"標籤",
-            "tag_placeholder":"請輸入地址的備註標籤",
-            "dialog_address":"地址",
-            "address_placeholder":"請輸入地址"
+            "tit":"輸入聯繫人信息",
+            "tag":"標籤",
+            "address":"聯繫人",
+            "tag_placeholder":"請輸入聯繫人的備註標籤",
+            "address_placeholder":"請輸入聯繫人賬戶"
         },
         "delete_dialog":{
             "title":"您正在移除"
+        },
+        "msg_info":{
+            "no_tag":"請輸入賬戶名稱",
+            "no_address":"請輸入賬戶地址",
+            "exist":"聯繫人已經存在,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"發送全部",
         "remark":"備註",
         "fees":"手續費",
-        "expected_fees":"預估手續費",
         "total":"合計",
         "select":"請選擇",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"請選擇"
+        },
+        "confirm_dia":{
             "title":"請確認",
             "enter_passworld_tit":"請輸入密碼",
             "enter_passworld_place":"請輸入密碼"
+        },
+        "msg_info":{
+            "decrypt_err":"錢包解析失敗，可能是密碼錯誤",
+            "send_success":"發送成功",
+            "send_error":"交易失敗：請檢查是否有足量餘額和礦工費"
         }
     },
     "page_account":{
-        "qrcode":"二維碼",
-        "go_transfer":"發起轉賬",
         "transfer_log":"交易記錄",
         "transfer_log_null":"暫無交易記錄",
-        "copy_success":"地址已經復制",
+
+        "active_icon":{
+            "go_transfer":"發起轉賬",
+            "import_keystore":"Keystore",
+            "qrcode":"二維碼"
+        },
         "edit_dia":{
             "tit":"修改備註",
-            "subtit":"為您的賬戶輸入一個長度不大於8位的備註"
+            "subtit":"為您的賬戶標記一個備註"
+        },
+        "keystore":{
+            "tit":"備份keystore",
+            "copy":"複製",
+            "download":"下載keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"地址已經復制",
+            "key_copy_success":"複製成功"
         }
     },
     "page_home":{
         "import_account":"導入賬號",
-        "back_up_account":"備份賬號",
         "add_account":"新建賬號",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"密碼",
-        "confirm_password":"確認密碼",
-        
-        "remove_prompt":"你確定要刪除嗎？",
-        "please_back_up":"請確定該賬號已經備份，避免財產損失",
+        "acc":"賬戶",
+        "create_dia":{
+            "create_tit":"創建賬戶",
+            "backup_tit":"備份您的新賬戶",
 
-        "import_prompt":"您已經有CZR錢包了嗎？",
-        "import_step":"將您的錢包文件拖入此處",
-        "import_or":"或者",
-        "import_click_up":"點擊添加"
+            "create_tag":"賬戶名稱",
+            "create_pwd":"設置密碼",
+            "create_repwd":"確認密碼",
+
+            "placeholder_tag":"請設置賬戶名稱",
+            "placeholder_pwd":"請設置賬戶密碼",
+            "placeholder_repwd":"請確認賬戶密碼",
+            "strong_password":"輸入一個強密碼,至少8位",
+
+            "account_address":"賬戶",
+            "account_privateKey":"私鑰",
+            "account_download_keystore":"下載keystore文件"
+        },
+        "import_dia":{
+            "tit":"導入賬戶",
+            "select_type":"請選擇導入方式",
+            "type_private":"私鑰",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"請將私鑰粘貼在此處",
+            "placeholder_keystore":"請將keystore文件拖入此處",
+
+            "input_pwd":"輸入密碼",
+            "placeholder_pwd":"請輸入賬戶密碼"
+
+        },
+        "remove_dia":{
+            "tit":"你確定要移除嗎？",
+            "remove_confrim":"我確定移除",
+            "backup":"請確定該賬號已經備份，避免財產損失"
+        },
+        "msg_info":{
+            "exist":"此賬戶已經存在,名稱是",
+            "enter_password":"請輸入密碼",
+            "incons_password":"兩次輸入的密碼不一致",
+            "error":"錯誤：",
+            "imported_success":"導入文件成功",
+            "enter_private":"請輸入密鑰",
+            "error_private":"賬戶導入失敗，可能是密鑰錯誤",
+            "enter_keystore":"請先導入keystore文件",
+            "error_password":"賬戶導入失敗，可能是密碼錯誤",
+            "remove_success":"移除成功",
+            "create_success":"創建成功",
+            "save":"請保存你的keystore或者私鑰，不要分享給任何人！"
+        }
     }
 
 }

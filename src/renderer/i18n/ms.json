@@ -1,5 +1,4 @@
 {
-    "lang":"Bahasa",
     "confirm":"Pengesahan",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Rumah",
         "transfer":"Pemindahan",
-        "contacts":"Buku alamat",
+        "contacts":"Kenalan",
         "setting":"Tetapan",
         "total":"Jumlah"
     },
     "page_setting":{
         "tit":"Tetapan",
+        "lang":"Bahasa",
         "select":"Sila pilih"
     },
     "page_contacts":{
-        "tit":"Buku alamat",
+        "tit":"Kenalan",
+        "add_dialog":"Tambah kenalan",
+
         "add_cont":{
-            "tri_dialog":"Tambah alamat",
-            "dialog_tit":"Masukkan maklumat alamat",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Sila masukkan teg komen untuk alamat",
-            "dialog_address":"Alamat",
-            "address_placeholder":"Sila masukkan alamat"
+            "tit":"Masukkan maklumat hubungan",
+            "tag":"Tags",
+            "address":"Kenalan",
+            "tag_placeholder":"Sila masukkan teg komen kenalan",
+            "address_placeholder":"Sila masukkan akaun kenalan"
         },
         "delete_dialog":{
             "title":"Anda membuang"
+        },
+        "msg_info":{
+            "no_tag":"Sila masukkan nama akaun",
+            "no_address":"Sila masukkan alamat akaun",
+            "exist":"Kenalan sudah wujud,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Hantar semua",
         "remark":"Nota",
         "fees":"Bayaran",
-        "expected_fees":"Anggaran yuran",
         "total":"Jumlah",
         "select":"Sila pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Sila pilih"
+        },
+        "confirm_dia":{
             "title":"Sila sahkan",
             "enter_passworld_tit":"Sila masukkan kata laluan anda",
             "enter_passworld_place":"Sila masukkan kata laluan anda"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
+            "send_success":"Hantar kejayaan",
+            "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"
         }
     },
     "page_account":{
-        "qrcode":"Kod QR",
-        "go_transfer":"Pindahan awal",
         "transfer_log":"Sejarah urus niaga",
         "transfer_log_null":"Tiada sejarah transaksi",
-        "copy_success":"Alamat telah disalin",
+
+        "active_icon":{
+            "go_transfer":"Pindahan awal",
+            "import_keystore":"Kedai kunci",
+            "qrcode":"Kod QR"
+        },
         "edit_dia":{
             "tit":"Ubah nota",
-            "subtit":"Masukkan nota dengan panjang tidak lebih daripada 8 digit untuk akaun anda"
+            "subtit":"Tandakan nota untuk akaun anda"
+        },
+        "keystore":{
+            "tit":"Back up the keystore",
+            "copy":"Duplikat",
+            "download":"Muat turun keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat telah disalin",
+            "key_copy_success":"Berjaya disalin"
         }
     },
     "page_home":{
         "import_account":"Import akaun",
-        "back_up_account":"Akaun sandaran",
         "add_account":"Akaun baru",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Kata laluan",
-        "confirm_password":"Sahkan kata laluan",
-        
-        "remove_prompt":"Adakah anda pasti mahu memadamkannya?",
-        "please_back_up":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda",
+        "acc":"Akaun",
+        "create_dia":{
+            "create_tit":"Buat akaun",
+            "backup_tit":"Sandarkan akaun baru anda",
 
-        "import_prompt":"Adakah anda sudah mempunyai dompet CZR?",
-        "import_step":"Seret fail dompet anda di sini",
-        "import_or":"Atau",
-        "import_click_up":"Klik untuk tambah"
+            "create_tag":"Nama akaun",
+            "create_pwd":"Tetapkan kata laluan",
+            "create_repwd":"Sahkan kata laluan",
+
+            "placeholder_tag":"Sila nyatakan nama akaun",
+            "placeholder_pwd":"Sila nyatakan kata laluan akaun",
+            "placeholder_repwd":"Sila sahkan kata laluan akaun",
+            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
+
+            "account_address":"Akaun",
+            "account_privateKey":"Kunci persendirian",
+            "account_download_keystore":"Muat turun fail utama kedai"
+        },
+        "import_dia":{
+            "tit":"Import akaun",
+            "select_type":"Sila pilih kaedah import",
+            "type_private":"Kunci persendirian",
+            "type_keystore":"Kedai kunci",
+
+            "placeholder_private":"Sila tampal kunci peribadi di sini",
+            "placeholder_keystore":"Sila seret fail utama di sini",
+
+            "input_pwd":"Masukkan kata laluan",
+            "placeholder_pwd":"Sila masukkan kata laluan akaun anda"
+
+        },
+        "remove_dia":{
+            "tit":"Adakah anda pasti mahu mengeluarkannya?",
+            "remove_confrim":"Saya pasti akan mengeluarkannya",
+            "backup":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
+        },
+        "msg_info":{
+            "exist":"Akaun ini sudah wujud dan nama itu ada",
+            "enter_password":"Sila masukkan kata laluan anda",
+            "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
+            "error":"Ralat:",
+            "imported_success":"Import fail berjaya",
+            "enter_private":"Sila masukkan kekunci",
+            "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
+            "enter_keystore":"Sila import fail utama utama dahulu",
+            "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
+            "remove_success":"Dihapuskan berjaya",
+            "create_success":"Dibuat berjaya",
+            "save":"Sila simpan kunci utama atau kunci peribadi anda dan jangan kongsi dengan sesiapa!"
+        }
     }
 
 }

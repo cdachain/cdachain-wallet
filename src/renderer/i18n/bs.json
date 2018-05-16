@@ -1,5 +1,4 @@
 {
-    "lang":"Jezik",
     "confirm":"Potvrda",
     "cancel":"Otkazivanje",
     "dialog_tit":"Prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Adresar",
+        "contacts":"Kontakti",
         "setting":"Postavke",
         "total":"Ukupno"
     },
     "page_setting":{
         "tit":"Postavke",
+        "lang":"Jezik",
         "select":"Molimo izaberite"
     },
     "page_contacts":{
-        "tit":"Adresar",
+        "tit":"Kontakti",
+        "add_dialog":"Dodajte kontakt",
+
         "add_cont":{
-            "tri_dialog":"Dodajte adresu",
-            "dialog_tit":"Unesite informacije o adresi",
-            "dialog_tag":"Oznake",
-            "tag_placeholder":"Molimo unesite oznaku za komentar za adresu",
-            "dialog_address":"Adresa",
-            "address_placeholder":"Molimo unesite adresu"
+            "tit":"Unesite informacije o kontaktu",
+            "tag":"Oznake",
+            "address":"Kontakti",
+            "tag_placeholder":"Molimo unesite oznaku za komentare",
+            "address_placeholder":"Molimo unesite kontaktni račun"
         },
         "delete_dialog":{
             "title":"Vi uklanjate"
+        },
+        "msg_info":{
+            "no_tag":"Molimo unesite ime računa",
+            "no_address":"Molimo unesite adresu računa",
+            "exist":"Kontakt već postoji,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Pošaljite sve",
         "remark":"Napomena",
         "fees":"Naknade",
-        "expected_fees":"Procenjene naknade",
         "total":"Ukupno",
         "select":"Molimo izaberite",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Molimo izaberite"
+        },
+        "confirm_dia":{
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite svoju lozinku",
             "enter_passworld_place":"Unesite svoju lozinku"
+        },
+        "msg_info":{
+            "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
+            "send_success":"Pošalji uspeh",
+            "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
         }
     },
     "page_account":{
-        "qrcode":"QR kod",
-        "go_transfer":"Pokrenite transfer",
         "transfer_log":"Istorija transakcija",
         "transfer_log_null":"Nema istorije transakcija",
-        "copy_success":"Adresa je kopirana",
+
+        "active_icon":{
+            "go_transfer":"Pokrenite transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR kod"
+        },
         "edit_dia":{
             "tit":"Izmenite belešku",
-            "subtit":"Unesite belešku sa dužinom od najviše 8 cifara za vaš nalog"
+            "subtit":"Označite napomenu za svoj račun"
+        },
+        "keystore":{
+            "tit":"Napravite rezervnu kopiju ključa",
+            "copy":"Duplikat",
+            "download":"Preuzmite keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa je kopirana",
+            "key_copy_success":"Uspešno kopiran"
         }
     },
     "page_home":{
         "import_account":"Uvoz naloga",
-        "back_up_account":"Rezervni račun",
         "add_account":"Novi račun",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Lozinka",
-        "confirm_password":"Potvrdite lozinku",
-        
-        "remove_prompt":"Da li ste sigurni da želite da izbrišete?",
-        "please_back_up":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu",
+        "acc":"Račun",
+        "create_dia":{
+            "create_tit":"Napravite nalog",
+            "backup_tit":"Napravite rezervnu kopiju novog naloga",
 
-        "import_prompt":"Da li već imate novčanik CZR?",
-        "import_step":"Prevucite datoteku novčanika ovde",
-        "import_or":"Or",
-        "import_click_up":"Kliknite za dodavanje"
+            "create_tag":"Ime naloga",
+            "create_pwd":"Postavite lozinku",
+            "create_repwd":"Potvrdite lozinku",
+
+            "placeholder_tag":"Molimo postavite ime naloga",
+            "placeholder_pwd":"Molimo postavite lozinku za račun",
+            "placeholder_repwd":"Potvrdite lozinku naloga",
+            "strong_password":"Unesite jaku lozinku, najmanje 8 cifara",
+
+            "account_address":"Račun",
+            "account_privateKey":"Privatni ključ",
+            "account_download_keystore":"Preuzmite datoteku keystore"
+        },
+        "import_dia":{
+            "tit":"Uvoz naloga",
+            "select_type":"Izaberite način uvoza",
+            "type_private":"Privatni ključ",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Molimo vas da prilepite privatni ključ ovdje",
+            "placeholder_keystore":"Molim vas prevucite datoteku keystore ovde",
+
+            "input_pwd":"Unesite lozinku",
+            "placeholder_pwd":"Molimo unesite lozinku vašeg računa"
+
+        },
+        "remove_dia":{
+            "tit":"Da li ste sigurni da ga želite ukloniti?",
+            "remove_confrim":"Siguran sam da ga uklonim",
+            "backup":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
+        },
+        "msg_info":{
+            "exist":"Ovaj nalog već postoji i ime je",
+            "enter_password":"Unesite svoju lozinku",
+            "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
+            "error":"Greška:",
+            "imported_success":"Uvezite datoteku uspešno",
+            "enter_private":"Molimo unesite ključ",
+            "error_private":"Neuspelo je uvesti račun, možda je pogrešan ključ",
+            "enter_keystore":"Prvo importirajte datoteku keystore",
+            "error_password":"Nije uspela uvoziti račun, možda je pogrešna lozinka",
+            "remove_success":"Uspešno uklonjeno",
+            "create_success":"Kreiran uspešno",
+            "save":"Molimo vas da sačuvate ključeve ili privatni ključ i ne delite nikome!"
+        }
     }
 
 }

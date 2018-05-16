@@ -1,5 +1,4 @@
 {
-    "lang":"زبان",
     "confirm":"تأیید",
     "cancel":"لغو",
     "dialog_tit":"درخواست",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"خانه",
         "transfer":"انتقال",
-        "contacts":"کتاب آدرس",
+        "contacts":"اطلاعات تماس",
         "setting":"تنظیمات",
         "total":"کل"
     },
     "page_setting":{
         "tit":"تنظیمات",
+        "lang":"زبان",
         "select":"لطفا انتخاب کنید"
     },
     "page_contacts":{
-        "tit":"کتاب آدرس",
+        "tit":"اطلاعات تماس",
+        "add_dialog":"یک مخاطب اضافه کنید",
+
         "add_cont":{
-            "tri_dialog":"آدرس را اضافه کنید",
-            "dialog_tit":"اطلاعات آدرس را وارد کنید",
-            "dialog_tag":"برچسب ها",
-            "tag_placeholder":"لطفا برچسب نظر را برای آدرس وارد کنید",
-            "dialog_address":"آدرس",
-            "address_placeholder":"لطفا آدرس را وارد کنید"
+            "tit":"اطلاعات تماس را وارد کنید",
+            "tag":"برچسب ها",
+            "address":"اطلاعات تماس",
+            "tag_placeholder":"لطفا برچسب نظر تماس را وارد کنید",
+            "address_placeholder":"لطفا حساب تماس را وارد کنید"
         },
         "delete_dialog":{
             "title":"شما حذف می کنید"
+        },
+        "msg_info":{
+            "no_tag":"لطفا نام حساب را وارد کنید",
+            "no_address":"لطفا آدرس حساب را وارد کنید",
+            "exist":"تماس از قبل وجود دارد"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"ارسال همه",
         "remark":"توجه داشته باشید",
         "fees":"هزینه ها",
-        "expected_fees":"هزینه های تخمینی",
         "total":"کل",
         "select":"لطفا انتخاب کنید",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"لطفا انتخاب کنید"
+        },
+        "confirm_dia":{
             "title":"لطفا تایید کنید",
             "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
             "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
+        },
+        "msg_info":{
+            "decrypt_err":"تجزیه پول نقد انجام نشد، ممکن است یک خطای رمز عبور باشد",
+            "send_success":"ارسال موفقیت",
+            "send_error":"معامله شکست خورد: لطفا بررسی کنید که آیا تعادل کافی و هزینه معدنچی وجود دارد"
         }
     },
     "page_account":{
-        "qrcode":"کد QR",
-        "go_transfer":"شروع انتقال",
         "transfer_log":"سابقه تراکنش",
         "transfer_log_null":"بدون تاریخ معامله",
-        "copy_success":"آدرس کپی شده است",
+
+        "active_icon":{
+            "go_transfer":"شروع انتقال",
+            "import_keystore":"Keystore",
+            "qrcode":"کد QR"
+        },
         "edit_dia":{
             "tit":"تغییر یادداشت",
-            "subtit":"یک یادداشت با طول بیش از 8 رقم برای حساب خود وارد کنید"
+            "subtit":"یک یادداشت برای حساب خود علامت بزنید"
+        },
+        "keystore":{
+            "tit":"پشتیبان گیری از حافظه اصلی",
+            "copy":"تکراری",
+            "download":"دانلود کلیدی"
+        },
+        "msg_info":{
+            "ads_copy_success":"آدرس کپی شده است",
+            "key_copy_success":"موفق به کپی شد"
         }
     },
     "page_home":{
         "import_account":"وارد کردن حساب",
-        "back_up_account":"حساب پشتیبان گیری",
         "add_account":"حساب جدید",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"رمز عبور",
-        "confirm_password":"رمز عبور را تایید کنید",
-        
-        "remove_prompt":"آیا مطمئن هستید که میخواهید حذف شود؟",
-        "please_back_up":"لطفا اطمینان حاصل کنید که حساب کاربری پشتیبان گرفته شده است تا از آسیب مالیتان جلوگیری شود",
+        "acc":"حساب",
+        "create_dia":{
+            "create_tit":"ایجاد یک حساب کاربری",
+            "backup_tit":"از حساب جدید خود پشتیبان بگیرید",
 
-        "import_prompt":"آیا شما قبلا یک کیف پول CZR دارید؟",
-        "import_step":"فایل کیف پول خود را در اینجا بکشید",
-        "import_or":"یا",
-        "import_click_up":"برای اضافه کردن کلیک کنید"
+            "create_tag":"نام حساب",
+            "create_pwd":"تنظیم رمز عبور",
+            "create_repwd":"رمز عبور را تایید کنید",
+
+            "placeholder_tag":"لطفا نام حساب را تنظیم کنید",
+            "placeholder_pwd":"لطفا رمز عبور حساب را تنظیم کنید",
+            "placeholder_repwd":"لطفا رمز عبور حساب را تایید کنید",
+            "strong_password":"رمز عبور قوی، حداقل 8 رقم را وارد کنید",
+
+            "account_address":"حساب",
+            "account_privateKey":"کلید خصوصی",
+            "account_download_keystore":"فایل پرونده کلیدی را دانلود کنید"
+        },
+        "import_dia":{
+            "tit":"وارد کردن حساب",
+            "select_type":"لطفا روش واردات را انتخاب کنید",
+            "type_private":"کلید خصوصی",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"لطفا کلید خصوصی را در اینجا وارد کنید",
+            "placeholder_keystore":"لطفا فایل پرونده کلیدی را در اینجا بکشید",
+
+            "input_pwd":"رمز عبور را وارد کنید",
+            "placeholder_pwd":"لطفا رمز عبور خود را وارد کنید"
+
+        },
+        "remove_dia":{
+            "tit":"آیا مطمئن هستید که میخواهید آن را حذف کنید؟",
+            "remove_confrim":"مطمئنم که حذف می شود",
+            "backup":"لطفا اطمینان حاصل کنید که حساب کاربری پشتیبان گرفته شده است تا از آسیب مالیتان جلوگیری شود"
+        },
+        "msg_info":{
+            "exist":"این حساب در حال حاضر وجود دارد و نام است",
+            "enter_password":"لطفا رمز عبور خود را وارد کنید",
+            "incons_password":"رمز عبور وارد شده دو بار متناقض است",
+            "error":"خطا:",
+            "imported_success":"وارد کردن فایل با موفقیت",
+            "enter_private":"لطفا کلید را وارد کنید",
+            "error_private":"وارد کردن حساب وارد نشد، ممکن است کلید اشتباه باشد",
+            "enter_keystore":"لطفا ابتدا وارد فایل keystore شوید",
+            "error_password":"حساب وارد نشد، ممکن است یک رمز عبور اشتباه باشد",
+            "remove_success":"با موفقیت حذف شد",
+            "create_success":"با موفقیت ساخته شد",
+            "save":"لطفا keystore یا کلید خصوصی خود را ذخیره کنید و آن را با هیچ کس به اشتراک نگذارید!"
+        }
     }
 
 }

@@ -1,5 +1,4 @@
 {
-    "lang":"basa",
     "confirm":"ngeceskeun",
     "cancel":"dibolaykeun",
     "dialog_tit":"pas",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"imah",
         "transfer":"mindahkeun",
-        "contacts":"alamat Book",
+        "contacts":"hubungan",
         "setting":"nyetél",
         "total":"total"
     },
     "page_setting":{
         "tit":"nyetél",
+        "lang":"basa",
         "select":"Mangga pilih"
     },
     "page_contacts":{
-        "tit":"alamat Book",
+        "tit":"hubungan",
+        "add_dialog":"Nambahkeun kontak",
+
         "add_cont":{
-            "tri_dialog":"tambahkeun Alamat",
-            "dialog_tit":"Asupkeun inpo nu alamatna",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Mangga lebetkeun dina Katerangan labél alamat",
-            "dialog_address":"alamat",
-            "address_placeholder":"Mangga lebetkeun alamat nu"
+            "tit":"Lebetkeun inpo kontak",
+            "tag":"Tag",
+            "address":"hubungan",
+            "tag_placeholder":"Mangga lebetkeun catetan labél kontak urang",
+            "address_placeholder":"Mangga lebetkeun dina Akun kontak"
         },
         "delete_dialog":{
             "title":"Anjeun nyoplokkeun"
+        },
+        "msg_info":{
+            "no_tag":"Tuliskeun ngaran akun",
+            "no_address":"Mangga lebetkeun alamat akun",
+            "exist":"Kontak geus aya,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Kirim sadaya",
         "remark":"nyarios",
         "fees":"waragad",
-        "expected_fees":"fee diperkirakeun",
         "total":"total",
         "select":"Mangga pilih",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Mangga pilih"
+        },
+        "confirm_dia":{
             "title":"Mangga mastikeun",
             "enter_passworld_tit":"Mangga lebetkeun sandi anjeun",
             "enter_passworld_place":"Mangga lebetkeun sandi anjeun"
+        },
+        "msg_info":{
+            "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
+            "send_success":"Kirim surélék ayaan",
+            "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"
         }
     },
     "page_account":{
-        "qrcode":"Kode dua diménsi",
-        "go_transfer":"initiate mindahkeun",
         "transfer_log":"Rékam urus",
         "transfer_log_null":"Taya transaksi",
-        "copy_success":"Alamat geus ditiron",
+
+        "active_icon":{
+            "go_transfer":"initiate mindahkeun",
+            "import_keystore":"Keystore",
+            "qrcode":"Kode dua diménsi"
+        },
         "edit_dia":{
             "tit":"Edit Catetan",
-            "subtit":"Pikeun akun anjeun ngasupkeun panjangna teu leuwih ti 8 Katerangan"
+            "subtit":"Pikeun akun Anjeun nandaan nyarios a"
+        },
+        "keystore":{
+            "tit":"Nyadangkeun keystore nu",
+            "copy":"salinan",
+            "download":"download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Alamat geus ditiron",
+            "key_copy_success":"ditiron hasil"
         }
     },
     "page_home":{
         "import_account":"rekening impor",
-        "back_up_account":"rekening cadangan",
         "add_account":"akun anyar",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"sandi",
-        "confirm_password":"Tegeskeun deui kecap akses",
-        
-        "remove_prompt":"Anjeun yakin rék ngahapus eta?",
-        "please_back_up":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat",
+        "acc":"rekening",
+        "create_dia":{
+            "create_tit":"Jieun akun",
+            "backup_tit":"Nyadangkeun akun anyar Anjeun",
 
-        "import_prompt":"Anjeun boga CZR dompét acan?",
-        "import_step":"Berkas kana dompét anjeun didieu",
-        "import_or":"atawa",
-        "import_click_up":"Klik Tambahkeun"
+            "create_tag":"rekening Ngaran",
+            "create_pwd":"sandi",
+            "create_repwd":"Tegeskeun deui kecap akses",
+
+            "placeholder_tag":"Set ngaran akun",
+            "placeholder_pwd":"Set sandi akun",
+            "placeholder_repwd":"Pastikeun sandi akun",
+            "strong_password":"Asupkeun sandi kuat, sahenteuna dalapan",
+
+            "account_address":"rekening",
+            "account_privateKey":"konci swasta",
+            "account_download_keystore":"Download keystore file"
+        },
+        "import_dia":{
+            "tit":"rekening impor",
+            "select_type":"Mangga pilih modeu Impor",
+            "type_private":"konci swasta",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Mangga nempelkeun tombol swasta didieu",
+            "placeholder_keystore":"Mangga keystore file kana dieu",
+
+            "input_pwd":"Asupkeun kecep akses",
+            "placeholder_pwd":"Mangga lebetkeun sandi akun"
+
+        },
+        "remove_dia":{
+            "tit":"Anjeun yakin rék ngaleupaskeun?",
+            "remove_confrim":"Kuring yakin ngaleupaskeun",
+            "backup":"Pastikeun akun nu geus dicadangkeun keur ngahindarkeun karuksakan sipat"
+        },
+        "msg_info":{
+            "exist":"Akun ieu geus aya, nami anu",
+            "enter_password":"Mangga lebetkeun sandi anjeun",
+            "incons_password":"Kecap akses teu cocog",
+            "error":"kasalahan:",
+            "imported_success":"Kasuksesan file Impor",
+            "enter_private":"Mangga lebetkeun konci",
+            "error_private":"Rekening impor gagal, kasalahan bisa jadi konci",
+            "enter_keystore":"Mangga ngimpor file keystore",
+            "error_password":"Rekening impor gagal, nya meureun sandi salah",
+            "remove_success":"dipupus junun",
+            "create_success":"nyieun ayaan",
+            "save":"Mangga ngahemat keystore Anjeun atawa swasta, teu babagi kalawan saha!"
+        }
     }
 
 }

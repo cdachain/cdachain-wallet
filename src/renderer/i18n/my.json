@@ -1,5 +1,4 @@
 {
-    "lang":"ဘာသာစကား",
     "confirm":"အတည်ပြု",
     "cancel":"ဖျက်သိမ်း",
     "dialog_tit":"လျင်မြန်စွာ",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"နေအိမ်",
         "transfer":"လွှဲပြောင်း",
-        "contacts":"စာအုပ်နေရပ်လိပ်စာ",
+        "contacts":"ထိတှေ့",
         "setting":"တက် Set",
         "total":"စုစုပေါငျး"
     },
     "page_setting":{
         "tit":"တက် Set",
+        "lang":"ဘာသာစကား",
         "select":"ကို select ပေးပါ"
     },
     "page_contacts":{
-        "tit":"စာအုပ်နေရပ်လိပ်စာ",
+        "tit":"ထိတှေ့",
+        "add_dialog":"အဆက်အသွယ် Add",
+
         "add_cont":{
-            "tri_dialog":"လိပ်စာ Add",
-            "dialog_tit":"လိပ်စာသတင်းအချက်အလက် Enter",
-            "dialog_tag":"tag ကို",
-            "tag_placeholder":"လိပ်စာတံဆိပ်မှတ်ချက်ရိုက်ထည့်ပေးပါ",
-            "dialog_address":"လိပ်စာ",
-            "address_placeholder":"လိပ်စာရိုက်ထည့်ပေးပါ"
+            "tit":"ဆက်သွယ်ရန်အချက်အလက် Enter",
+            "tag":"tag ကို",
+            "address":"ထိတှေ့",
+            "tag_placeholder":"ဆက်သွယ်ရဲ့တံဆိပ်မှတ်စုများကိုရိုက်ထည့်ပေးပါ",
+            "address_placeholder":"ဆက်သွယ်အကောင့်ရိုက်ထည့်ပေးပါ"
         },
         "delete_dialog":{
             "title":"သငျသညျမဖယ်ရှားကြသည်"
+        },
+        "msg_info":{
+            "no_tag":"အကောင့်နာမည်ရိုက်ထည့်ပါ",
+            "no_address":"အကောင့်လိပ်စာရိုက်ထည့်ပေးပါ",
+            "exist":"ဆက်သွယ်ပါရှိထားပြီးသား,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"အားလုံး Send",
         "remark":"ပွောဆို",
         "fees":"အဖိုးအခ",
-        "expected_fees":"ခန့်မှန်းခြေကြေး",
         "total":"စုစုပေါငျး",
         "select":"ကို select ပေးပါ",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"ကို select ပေးပါ"
+        },
+        "confirm_dia":{
             "title":"ကျေးဇူးပြု. အတည်ပြု",
             "enter_passworld_tit":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
             "enter_passworld_place":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ"
+        },
+        "msg_info":{
+            "decrypt_err":"ပိုက်ဆံအိတ် resolution ကိုပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
+            "send_success":"အောင်မြင်မှု Send",
+            "send_error":"အဆိုပါငွေပေးငွေယူပျက်ကွက်: အလုံအလောက်ချိန်ခွင်လျှာနှင့်မိုင်းလုပ်သားအခကြေးငွေရှိလျှင်ကြည့်ဖို့ Check"
         }
     },
     "page_account":{
-        "qrcode":"Two-ရှုထောင်ကုဒ်",
-        "go_transfer":"လွှဲပြောင်း Initiate",
         "transfer_log":"ငွေသွင်းငွေထုတ်မှတ်တမ်း",
         "transfer_log_null":"အဘယ်သူမျှမငွေကြေးလွှဲပြောင်းမှုမှာ",
-        "copy_success":"Address ကိုကူးယူခဲ့",
+
+        "active_icon":{
+            "go_transfer":"လွှဲပြောင်း Initiate",
+            "import_keystore":"keystore",
+            "qrcode":"Two-ရှုထောင်ကုဒ်"
+        },
         "edit_dia":{
             "tit":"Edit ကိုမှတ်ချက်",
-            "subtit":"သင့်အကောင့်များအတွက်မပို 8 ထက်မှတ်ချက်တစ်ခုအရှည်ရိုက်ထည့်ရန်"
+            "subtit":"သင့်အကောင့်တစ်ခုမှတ်ချက်ခြေတစ်လှမ်း"
+        },
+        "keystore":{
+            "tit":"အဆိုပါ keystore ကို Back up",
+            "copy":"မိတ္တူ",
+            "download":"ဒေါင်းလုပ် keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Address ကိုကူးယူခဲ့",
+            "key_copy_success":"အောင်မြင်စွာကူးယူ"
         }
     },
     "page_home":{
         "import_account":"သွင်းကုန်အကောင့်",
-        "back_up_account":"Backup ကိုအကောင့်",
         "add_account":"အကောင့်အသစ်",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Password ကို",
-        "confirm_password":"စကားဝှက်ကိုအတည်ပြုပါ",
-        
-        "remove_prompt":"သင်ကသင်ဖျက်ချင်တာသေချာလား?",
-        "please_back_up":"အကောင့်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးသေချာအောင်လုပ်ပါ",
+        "acc":"အကောင့်",
+        "create_dia":{
+            "create_tit":"အကောင့်တစ်ခု Create",
+            "backup_tit":"သင့်အကောင့်အသစ်ဖွင့် back",
 
-        "import_prompt":"သငျသညျသေး CZR ပိုက်ဆံအိတ်ရှိသည်?",
-        "import_step":"ဒီနေရာမှာသင့်ရဲ့ပိုက်ဆံအိတ်သို့ File",
-        "import_or":"သို့မဟုတ်",
-        "import_click_up":"Add ကိုကလစ်နှိပ်ပါ"
+            "create_tag":"Account Name ကို",
+            "create_pwd":"Password ကို",
+            "create_repwd":"စကားဝှက်ကိုအတည်ပြုပါ",
+
+            "placeholder_tag":"Set အကောင့်အမည်ကို",
+            "placeholder_pwd":"Set အကောင့် password ကို",
+            "placeholder_repwd":"သေချာအကောင့် password ကို Make",
+            "strong_password":"ကြံ့ခိုင်တဲ့စကားဝှက်ကိုရိုက်ထည့်အနည်းဆုံးရှစ်",
+
+            "account_address":"အကောင့်",
+            "account_privateKey":"private key ကို",
+            "account_download_keystore":"keystore file ကို Download လုပ်ပါ"
+        },
+        "import_dia":{
+            "tit":"သွင်းကုန်အကောင့်",
+            "select_type":"သွင်းကုန် mode ကို select လုပ်ပါ ကျေးဇူးပြု.",
+            "type_private":"private key ကို",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"ဒီမှာ private key ကို paste ပေးပါ",
+            "placeholder_keystore":"ဤနေရာတွင်သို့ဖိုင် keystore ကျေးဇူးပြု.",
+
+            "input_pwd":"စကားဝှက်ကိုရိုက်ထည့်ပါ",
+            "placeholder_pwd":"အကောင့် password ကိုရိုက်ထည့်ပေးပါ"
+
+        },
+        "remove_dia":{
+            "tit":"သင်ကသင်ဖယ်ရှားလိုတာသေချာလား?",
+            "remove_confrim":"ငါဖယ်ရှားပစ်ရန်သေချာပါတယ်",
+            "backup":"အကောင့်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးသေချာအောင်လုပ်ပါ"
+        },
+        "msg_info":{
+            "exist":"ဒီအကောင့်ကိုပြီးသားဘွဲ့နာမတော်သည်တည်ရှိ",
+            "enter_password":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
+            "incons_password":"Passwords များကိုမတိုက်ဆိုင်ကြဘူး",
+            "error":"အမှား:",
+            "imported_success":"သွင်းကုန် file ကိုအောင်မြင်",
+            "enter_private":"သော့ကိုရိုက်ထည့်ပေးပါ",
+            "error_private":"အကောင့်တင်သွင်းပျက်ကွက်တစ်ခုအမှား key ကိုဖြစ်စေခြင်းငှါ",
+            "enter_keystore":"အဆိုပါ keystore ဖိုင်ကို import ကျေးဇူးပြု.",
+            "error_password":"အကောင့်တင်သွင်းပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
+            "remove_success":"အောင်မြင်စွာဖယ်ရှား",
+            "create_success":"အောင်မြင်မှု Creating",
+            "save":"မည်သူမဆိုအတူမျှဝေမပေးပါဘူး, သင့် keystore သို့မဟုတ်ပုဂ္ဂလိကကယ်တင်ပါ"
+        }
     }
 
 }

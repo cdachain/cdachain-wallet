@@ -1,5 +1,4 @@
 {
-    "lang":"Language",
     "confirm":"confirm",
     "cancel":"cancel",
     "dialog_tit":"prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Address book",
+        "contacts":"Contacts",
         "setting":"Settings",
         "total":"total"
     },
     "page_setting":{
         "tit":"Settings",
+        "lang":"Language",
         "select":"please choose"
     },
     "page_contacts":{
-        "tit":"Address book",
+        "tit":"Contacts",
+        "add_dialog":"Add contacts",
+
         "add_cont":{
-            "tri_dialog":"Add address",
-            "dialog_tit":"Enter address information",
-            "dialog_tag":"label",
-            "tag_placeholder":"Please enter the comment tag for the address",
-            "dialog_address":"address",
-            "address_placeholder":"Please enter the address"
+            "tit":"Enter contact information",
+            "tag":"label",
+            "address":"Contacts",
+            "tag_placeholder":"Please enter the contact's comment tag",
+            "address_placeholder":"Please enter the contact account"
         },
         "delete_dialog":{
             "title":"You are removing"
+        },
+        "msg_info":{
+            "no_tag":"Please enter the account name",
+            "no_address":"Please enter the account address",
+            "exist":"The contact already exists,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Send all",
         "remark":"Note",
         "fees":"Fees",
-        "expected_fees":"Estimated fees",
         "total":"total",
         "select":"please choose",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"please choose"
+        },
+        "confirm_dia":{
             "title":"please confirm",
             "enter_passworld_tit":"Please enter your password",
             "enter_passworld_place":"Please enter your password"
+        },
+        "msg_info":{
+            "decrypt_err":"Wallet parsing failed, may be a password error",
+            "send_success":"Sent successfully",
+            "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Initiate transfer",
         "transfer_log":"Transaction Record",
         "transfer_log_null":"No transaction history",
-        "copy_success":"Address has been copied",
+
+        "active_icon":{
+            "go_transfer":"Initiate transfer",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Modify note",
-            "subtit":"Enter a note with a length of no more than 8 digits for your account"
+            "subtit":"Mark a note for your account"
+        },
+        "keystore":{
+            "tit":"Back up the keystore",
+            "copy":"copy",
+            "download":"Download keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Address has been copied",
+            "key_copy_success":"Successfully copied"
         }
     },
     "page_home":{
         "import_account":"Import account",
-        "back_up_account":"Backup account",
         "add_account":"New account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"password",
-        "confirm_password":"confirm password",
-        
-        "remove_prompt":"Are you sure you want to delete?",
-        "please_back_up":"Please make sure the account has been backed up to avoid property damage",
+        "acc":"Account",
+        "create_dia":{
+            "create_tit":"create Account",
+            "backup_tit":"Back up your new account",
 
-        "import_prompt":"Do you already have a CZR wallet?",
-        "import_step":"Drag your wallet file here",
-        "import_or":"or",
-        "import_click_up":"Click to add"
+            "create_tag":"account name",
+            "create_pwd":"set password",
+            "create_repwd":"confirm password",
+
+            "placeholder_tag":"Please set account name",
+            "placeholder_pwd":"Please set account password",
+            "placeholder_repwd":"Please confirm the account password",
+            "strong_password":"Enter a strong password, at least 8 digits",
+
+            "account_address":"Account",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Download the keystore file"
+        },
+        "import_dia":{
+            "tit":"Import account",
+            "select_type":"Please select import method",
+            "type_private":"Private key",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Please paste the private key here",
+            "placeholder_keystore":"Please drag the keystore file here",
+
+            "input_pwd":"enter password",
+            "placeholder_pwd":"Please enter your account password"
+
+        },
+        "remove_dia":{
+            "tit":"Are you sure you want to remove it?",
+            "remove_confrim":"I am sure to remove",
+            "backup":"Please make sure the account has been backed up to avoid property damage"
+        },
+        "msg_info":{
+            "exist":"This account already exists and the name is",
+            "enter_password":"Please enter your password",
+            "incons_password":"The password entered twice is inconsistent",
+            "error":"error:",
+            "imported_success":"Import file successfully",
+            "enter_private":"Please enter the key",
+            "error_private":"Failed to import the account, it may be the wrong key",
+            "enter_keystore":"Please import the keystore file first",
+            "error_password":"Failed to import account, it may be a wrong password",
+            "remove_success":"Removed successfully",
+            "create_success":"Created successfully",
+            "save":"Please save your keystore or private key and don't share it with anyone!"
+        }
     }
 
 }

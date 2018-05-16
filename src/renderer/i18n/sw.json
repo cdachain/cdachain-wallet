@@ -1,5 +1,4 @@
 {
-    "lang":"Lugha",
     "confirm":"Uthibitisho",
     "cancel":"Kuondolewa",
     "dialog_tit":"Fungua",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Nyumbani",
         "transfer":"Uhamisho",
-        "contacts":"Kitabu cha anwani",
+        "contacts":"Mawasiliano",
         "setting":"Mipangilio",
         "total":"Jumla"
     },
     "page_setting":{
         "tit":"Mipangilio",
+        "lang":"Lugha",
         "select":"Tafadhali chagua"
     },
     "page_contacts":{
-        "tit":"Kitabu cha anwani",
+        "tit":"Mawasiliano",
+        "add_dialog":"Ongeza anwani",
+
         "add_cont":{
-            "tri_dialog":"Ongeza anwani",
-            "dialog_tit":"Ingiza maelezo ya anwani",
-            "dialog_tag":"Vitambulisho",
-            "tag_placeholder":"Tafadhali ingiza lebo ya maoni kwa anwani",
-            "dialog_address":"Anwani",
-            "address_placeholder":"Tafadhali ingiza anwani"
+            "tit":"Ingiza maelezo ya mawasiliano",
+            "tag":"Vitambulisho",
+            "address":"Mawasiliano",
+            "tag_placeholder":"Tafadhali ingiza lebo ya maoni ya wasiliana",
+            "address_placeholder":"Tafadhali ingiza akaunti ya mawasiliano"
         },
         "delete_dialog":{
             "title":"Unaondoa"
+        },
+        "msg_info":{
+            "no_tag":"Tafadhali ingiza jina la akaunti",
+            "no_address":"Tafadhali ingiza anwani ya akaunti",
+            "exist":"Mawasiliano tayari iko,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Tuma yote",
         "remark":"Kumbuka",
         "fees":"Malipo",
-        "expected_fees":"Thamani zilizohesabiwa",
         "total":"Jumla",
         "select":"Tafadhali chagua",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Tafadhali chagua"
+        },
+        "confirm_dia":{
             "title":"Tafadhali thibitisha",
             "enter_passworld_tit":"Tafadhali ingiza nenosiri lako",
             "enter_passworld_place":"Tafadhali ingiza nenosiri lako"
+        },
+        "msg_info":{
+            "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
+            "send_success":"Tuma mafanikio",
+            "send_error":"Shughuli imeshindwa: Tafadhali angalia ikiwa kuna usawa wa kutosha na ada ya mchimbaji"
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Anza uhamisho",
         "transfer_log":"Historia ya shughuli",
         "transfer_log_null":"Hakuna historia ya shughuli",
-        "copy_success":"Anwani imechapishwa",
+
+        "active_icon":{
+            "go_transfer":"Anza uhamisho",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Badilisha maelezo",
-            "subtit":"Ingiza safu kwa urefu wa tarakimu zaidi ya 8 za akaunti yako"
+            "subtit":"Andika alama kwa akaunti yako"
+        },
+        "keystore":{
+            "tit":"Rudi nyuma kitufe cha ufunguo",
+            "copy":"Duplicate",
+            "download":"Pakua kituo cha keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Anwani imechapishwa",
+            "key_copy_success":"Ilikosa kwa ufanisi"
         }
     },
     "page_home":{
         "import_account":"Ingiza akaunti",
-        "back_up_account":"Backup akaunti",
         "add_account":"Akaunti mpya",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Nenosiri",
-        "confirm_password":"Thibitisha nenosiri",
-        
-        "remove_prompt":"Una uhakika unataka kufuta?",
-        "please_back_up":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali",
+        "acc":"Akaunti",
+        "create_dia":{
+            "create_tit":"Unda akaunti",
+            "backup_tit":"Rudirisha akaunti yako mpya",
 
-        "import_prompt":"Je, tayari una mkoba wa CZR?",
-        "import_step":"Drag faili yako ya mkoba hapa",
-        "import_or":"Au",
-        "import_click_up":"Bofya ili kuongeza"
+            "create_tag":"Jina la Akaunti",
+            "create_pwd":"Weka nenosiri",
+            "create_repwd":"Thibitisha nenosiri",
+
+            "placeholder_tag":"Tafadhali weka jina la akaunti",
+            "placeholder_pwd":"Tafadhali weka nenosiri la akaunti",
+            "placeholder_repwd":"Tafadhali thibitisha nenosiri la akaunti",
+            "strong_password":"Ingiza nenosiri kali, angalau tarakimu 8",
+
+            "account_address":"Akaunti",
+            "account_privateKey":"Kitufe cha faragha",
+            "account_download_keystore":"Pakua faili ya keystore"
+        },
+        "import_dia":{
+            "tit":"Ingiza akaunti",
+            "select_type":"Tafadhali chagua njia ya kuagiza",
+            "type_private":"Kitufe cha faragha",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Tafadhali weka kitufe cha faragha hapa",
+            "placeholder_keystore":"Tafadhali gusa faili ya keystore hapa",
+
+            "input_pwd":"Ingiza nenosiri",
+            "placeholder_pwd":"Tafadhali ingiza nenosiri lako la akaunti"
+
+        },
+        "remove_dia":{
+            "tit":"Una uhakika unataka kuiondoa?",
+            "remove_confrim":"Nina uhakika kuondoa",
+            "backup":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
+        },
+        "msg_info":{
+            "exist":"Akaunti hii tayari iko, jina ni",
+            "enter_password":"Tafadhali ingiza nenosiri lako",
+            "incons_password":"Nenosiri lililoingia mara mbili halilingani",
+            "error":"Hitilafu:",
+            "imported_success":"Ingiza faili kwa mafanikio",
+            "enter_private":"Tafadhali ingiza ufunguo",
+            "error_private":"Imeshindwa kuingiza akaunti, inaweza kuwa ni ufunguo usio sahihi",
+            "enter_keystore":"Tafadhali ingiza faili ya keystore kwanza",
+            "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
+            "remove_success":"Imeondolewa kwa mafanikio",
+            "create_success":"Imeundwa kwa ufanisi",
+            "save":"Tafadhali salama keystore yako au ufunguo wa kibinafsi na usishiriki na mtu yeyote!"
+        }
     }
 
 }

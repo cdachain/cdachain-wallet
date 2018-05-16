@@ -1,5 +1,4 @@
 {
-    "lang":"jezik",
     "confirm":"potvrditi",
     "cancel":"otkazan",
     "dialog_tit":"brz",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"dom",
         "transfer":"prijenos",
-        "contacts":"Adresar",
+        "contacts":"kontakt",
         "setting":"postaviti",
         "total":"ukupno"
     },
     "page_setting":{
         "tit":"postaviti",
+        "lang":"jezik",
         "select":"Molimo odaberite"
     },
     "page_contacts":{
-        "tit":"Adresar",
+        "tit":"kontakt",
+        "add_dialog":"Dodajte kontakt",
+
         "add_cont":{
-            "tri_dialog":"Dodajte adresu",
-            "dialog_tit":"Unesite adrese",
-            "dialog_tag":"oznaka",
-            "tag_placeholder":"Unesite oznaku komentara za adresu",
-            "dialog_address":"adresa",
-            "address_placeholder":"Unesite adresu"
+            "tit":"Unesite podatke o kontaktu",
+            "tag":"oznaka",
+            "address":"kontakt",
+            "tag_placeholder":"Unesite oznaku komentara kontakta",
+            "address_placeholder":"Unesite kontakt račun"
         },
         "delete_dialog":{
             "title":"Uklanjate"
+        },
+        "msg_info":{
+            "no_tag":"Unesite naziv računa",
+            "no_address":"Unesite adresu računa",
+            "exist":"Kontakt već postoji,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Pošalji sve",
         "remark":"primjedba",
         "fees":"naknade",
-        "expected_fees":"Procijenjene naknade",
         "total":"ukupno",
         "select":"Molimo odaberite",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Molimo odaberite"
+        },
+        "confirm_dia":{
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite zaporku",
             "enter_passworld_place":"Unesite zaporku"
+        },
+        "msg_info":{
+            "decrypt_err":"Analiza novčanika nije uspjela, može biti pogreška u zaporci",
+            "send_success":"Pošaljite uspjeh",
+            "send_error":"Transakcija nije uspjela: provjerite ima li dovoljno ravnoteže i naknadu rudara"
         }
     },
     "page_account":{
-        "qrcode":"QR kod",
-        "go_transfer":"Pokrenite prijenos",
         "transfer_log":"Povijest transakcija",
         "transfer_log_null":"Nema povijesti transakcija",
-        "copy_success":"Adresa je kopirana",
+
+        "active_icon":{
+            "go_transfer":"Pokrenite prijenos",
+            "import_keystore":"ključeva",
+            "qrcode":"QR kod"
+        },
         "edit_dia":{
             "tit":"Izmijenite bilješku",
-            "subtit":"Unesite bilješku s duljinom od najviše 8 znamenki za svoj račun"
+            "subtit":"Označite bilješku za svoj račun"
+        },
+        "keystore":{
+            "tit":"Izradite sigurnosnu kopiju ključeve",
+            "copy":"kopija",
+            "download":"Preuzmite ključnu poštu"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa je kopirana",
+            "key_copy_success":"Uspješno kopirano"
         }
     },
     "page_home":{
         "import_account":"Uvoz računa",
-        "back_up_account":"Sigurnosni račun",
         "add_account":"Novi račun",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"lozinka",
-        "confirm_password":"Potvrdite lozinku",
-        
-        "remove_prompt":"Jeste li sigurni da želite izbrisati?",
-        "please_back_up":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine",
+        "acc":"račun",
+        "create_dia":{
+            "create_tit":"Stvorite račun",
+            "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
 
-        "import_prompt":"Imate li već novčanik CZR?",
-        "import_step":"Ovdje povucite datoteku lisnice",
-        "import_or":"ili",
-        "import_click_up":"Kliknite da biste dodali"
+            "create_tag":"Naziv računa",
+            "create_pwd":"Postavi lozinku",
+            "create_repwd":"Potvrdite lozinku",
+
+            "placeholder_tag":"Postavite naziv računa",
+            "placeholder_pwd":"Postavite zaporku računa",
+            "placeholder_repwd":"Potvrdite zaporku računa",
+            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
+
+            "account_address":"račun",
+            "account_privateKey":"Privatni ključ",
+            "account_download_keystore":"Preuzmite datoteku ključa"
+        },
+        "import_dia":{
+            "tit":"Uvoz računa",
+            "select_type":"Odaberite način uvoza",
+            "type_private":"Privatni ključ",
+            "type_keystore":"ključeva",
+
+            "placeholder_private":"Ovdje zalijepite privatni ključ",
+            "placeholder_keystore":"Ovdje povucite datoteku ključa",
+
+            "input_pwd":"Unesite lozinku",
+            "placeholder_pwd":"Unesite zaporku svog računa"
+
+        },
+        "remove_dia":{
+            "tit":"Jeste li sigurni da ga želite ukloniti?",
+            "remove_confrim":"Sigurno ću ukloniti",
+            "backup":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
+        },
+        "msg_info":{
+            "exist":"Taj račun već postoji i naziv je",
+            "enter_password":"Unesite zaporku",
+            "incons_password":"Unosom lozinke dvaput nije konzistentan",
+            "error":"pogreška:",
+            "imported_success":"Uvezi datoteku uspješno",
+            "enter_private":"Unesite ključ",
+            "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
+            "enter_keystore":"Najprije uvezite datoteku za ključeve",
+            "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
+            "remove_success":"Uklonjeno je uspješno",
+            "create_success":"Izrađeno je uspješno",
+            "save":"Spremite ključnu poštu ili privatni ključ i nemojte ga dijeliti nikome!"
+        }
     }
 
 }

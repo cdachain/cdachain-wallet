@@ -1,5 +1,4 @@
 {
-    "lang":"Luuqadda",
     "confirm":"Xaqiijinta",
     "cancel":"Joojinta",
     "dialog_tit":"Baahi",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Guriga",
         "transfer":"Bedelka",
-        "contacts":"Buugga Cinwaanka",
+        "contacts":"Xiriirrada",
         "setting":"Goobaha",
         "total":"Wadarta"
     },
     "page_setting":{
         "tit":"Goobaha",
+        "lang":"Luuqadda",
         "select":"Fadlan dooro"
     },
     "page_contacts":{
-        "tit":"Buugga Cinwaanka",
+        "tit":"Xiriirrada",
+        "add_dialog":"Kala xiriir",
+
         "add_cont":{
-            "tri_dialog":"Ku dar cinwaanka",
-            "dialog_tit":"Gali macluumaadka cinwaanka",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Fadlan qor taariikhda faallooyinka cinwaanka",
-            "dialog_address":"Cinwaanka",
-            "address_placeholder":"Fadlan qor cinwaanka"
+            "tit":"Gali macluumaadka xiriirka",
+            "tag":"Tags",
+            "address":"Xiriirrada",
+            "tag_placeholder":"Fadlan qor qoraalka faallooyinka xidhiidhka",
+            "address_placeholder":"Fadlan gali koontada xiriirka"
         },
         "delete_dialog":{
             "title":"Adigu waad ka saartaa"
+        },
+        "msg_info":{
+            "no_tag":"Fadlan qor magaca koontada",
+            "no_address":"Fadlan qor cinwaanka koontada",
+            "exist":"Xiriirkii hore u jirey,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Soo dir dhammaan",
         "remark":"Ogow",
         "fees":"Khidmadaha",
-        "expected_fees":"Qiimaha qiyaasta",
         "total":"Wadarta",
         "select":"Fadlan dooro",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Fadlan dooro"
+        },
+        "confirm_dia":{
             "title":"Fadlan cadee",
             "enter_passworld_tit":"Fadlan gali sirtaada",
             "enter_passworld_place":"Fadlan gali sirtaada"
+        },
+        "msg_info":{
+            "decrypt_err":"Qashin khatarta ah ayaa ku fashilantay, waxay noqon kartaa qalad sir ah",
+            "send_success":"U soo dir guul",
+            "send_error":"Hawlgalku wuu ku fashilmay: Fadlan hubi haddii ay jirto dheelitir ku filan iyo kharashka macdanta"
         }
     },
     "page_account":{
-        "qrcode":"QR code",
-        "go_transfer":"Kala bedel wareejinta",
         "transfer_log":"Taariikhda wax-gadashada",
         "transfer_log_null":"Taariikhda isweydaarsiga",
-        "copy_success":"Cinwaanka ayaa la daabacay",
+
+        "active_icon":{
+            "go_transfer":"Kala bedel wareejinta",
+            "import_keystore":"Keystore",
+            "qrcode":"QR code"
+        },
         "edit_dia":{
             "tit":"Bedel qoraalka",
-            "subtit":"Ku qor qori dhererka aan ka badnayn 8 lambar xisaabtaada"
+            "subtit":"Calaamad ku qor xisaabtaada"
+        },
+        "keystore":{
+            "tit":"Dib ugu soo celi furaha",
+            "copy":"Duub",
+            "download":"Soo daji furaha furaha"
+        },
+        "msg_info":{
+            "ads_copy_success":"Cinwaanka ayaa la daabacay",
+            "key_copy_success":"Ku guulaystay koobi"
         }
     },
     "page_home":{
         "import_account":"Koontada la soo galo",
-        "back_up_account":"Koontada keydka",
         "add_account":"Koontada cusub",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Furaha",
-        "confirm_password":"Xaqiiji sirta",
-        
-        "remove_prompt":"Ma hubtaa inaad rabto inaad tirtirto?",
-        "please_back_up":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida",
+        "acc":"Koontada",
+        "create_dia":{
+            "create_tit":"Sameyso koonto",
+            "backup_tit":"Dib u soo celi xisaabtaada cusub",
 
-        "import_prompt":"Miyaad horey u leedahay jeebka CZR?",
-        "import_step":"Fadhi jadwalkaaga kumbuyuutarka halkan",
-        "import_or":"Ama",
-        "import_click_up":"Guji si aad ugu darto"
+            "create_tag":"Magaca xisaabta",
+            "create_pwd":"Sameey sirta",
+            "create_repwd":"Xaqiiji sirta",
+
+            "placeholder_tag":"Fadlan magaca magacaaga",
+            "placeholder_pwd":"Fadlan xisaab furaha xisaabta",
+            "placeholder_repwd":"Fadlan hubi lambarka sirta",
+            "strong_password":"Gali ereyga sirta ah, ugu yaraan 8 lambar",
+
+            "account_address":"Koontada",
+            "account_privateKey":"Furaha gaarka ah",
+            "account_download_keystore":"Soo qaado faylka furaha"
+        },
+        "import_dia":{
+            "tit":"Koontada la soo galo",
+            "select_type":"Fadlan xulo habka dibaajiga",
+            "type_private":"Furaha gaarka ah",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Fadlan ku dhaji furaha gaarka ah halkan",
+            "placeholder_keystore":"Fadlan ku jiid feylka muhiimka ah halkan",
+
+            "input_pwd":"Geli password",
+            "placeholder_pwd":"Fadlan gali furaha xisaabtaada"
+
+        },
+        "remove_dia":{
+            "tit":"Ma hubtaa inaad rabto inaad ka saarto?",
+            "remove_confrim":"Waxaan hubaa in aan ka saaro",
+            "backup":"Fadlan hubso in xisaabta laguu soo celiyay si looga badbaado waxyeellada hantida"
+        },
+        "msg_info":{
+            "exist":"Koontadani horeba way jirtey oo magacuna waa",
+            "enter_password":"Fadlan gali sirtaada",
+            "incons_password":"Furaha sirta ah laba jeer ayaa ku haboon",
+            "error":"Cilad:",
+            "imported_success":"Soo qaado faylka si guul leh",
+            "enter_private":"Fadlan qor fure",
+            "error_private":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa fure khaldan",
+            "enter_keystore":"Fadlan horey u soo qaado faylka muhiimka ah",
+            "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
+            "remove_success":"Kala guuleysatay",
+            "create_success":"Abuuray guul",
+            "save":"Fadlan keydso furahaaga furaha ama furaha gaarka ah oo ha la wadaagin cid kale!"
+        }
     }
 
 }

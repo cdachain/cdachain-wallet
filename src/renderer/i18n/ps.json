@@ -1,5 +1,4 @@
 {
-    "lang":"ژبه",
     "confirm":"تایید",
     "cancel":"ردول",
     "dialog_tit":"ژبړئ",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"کور",
         "transfer":"انتقال",
-        "contacts":"د پته کتاب",
+        "contacts":"اړیکې",
         "setting":"امستنې",
         "total":"ټول"
     },
     "page_setting":{
         "tit":"امستنې",
+        "lang":"ژبه",
         "select":"مهرباني وکړئ غوره کړه"
     },
     "page_contacts":{
-        "tit":"د پته کتاب",
+        "tit":"اړیکې",
+        "add_dialog":"اړیکه زیاته کړه",
+
         "add_cont":{
-            "tri_dialog":"پته اضافه کړه",
-            "dialog_tit":"د ادرس معلومات ولیکئ",
-            "dialog_tag":"ټکي",
-            "tag_placeholder":"لطفا د پته لپاره د تبصره لیک وليکئ",
-            "dialog_address":"پته",
-            "address_placeholder":"لطفا پته ولیکئ"
+            "tit":"د اړیکو معلومات داخل کړئ",
+            "tag":"ټکي",
+            "address":"اړیکې",
+            "tag_placeholder":"مهرباني وکړئ د اړیکو د تبصرې ټکي وليکئ",
+            "address_placeholder":"مهرباني وکړئ د اړیکو حساب ولیکئ"
         },
         "delete_dialog":{
             "title":"تاسو لرې کول"
+        },
+        "msg_info":{
+            "no_tag":"مهرباني وکړئ د حساب نوم ولیکئ",
+            "no_address":"مهرباني وکړئ د حساب پته ولیکئ",
+            "exist":"اړیکې لا دمخه شتون لري،"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"ټول ولېږل",
         "remark":"یادونه",
         "fees":"فیسونه",
-        "expected_fees":"اټکل شوی فيس",
         "total":"ټول",
         "select":"مهرباني وکړئ غوره کړه",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"مهرباني وکړئ غوره کړه"
+        },
+        "confirm_dia":{
             "title":"مهرباني وکړئ تایید کړئ",
             "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
             "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
+        },
+        "msg_info":{
+            "decrypt_err":"د پیپر پیر کول ناکام شو، کیدای شي د شفر غلطۍ وي",
+            "send_success":"بریالیتوب واستوئ",
+            "send_error":"معامله ناکامه شوه: لطفا وګورئ چې آیا کافی اندازه توازن او د کانونو فیس شتون لري"
         }
     },
     "page_account":{
-        "qrcode":"د QR کود",
-        "go_transfer":"د لیږد پیل",
         "transfer_log":"د راکړې ورکړې تاریخ",
         "transfer_log_null":"د لیږد تاریخ نه",
-        "copy_success":"پته نقل شوی",
+
+        "active_icon":{
+            "go_transfer":"د لیږد پیل",
+            "import_keystore":"کیسټور",
+            "qrcode":"د QR کود"
+        },
         "edit_dia":{
             "tit":"تعدیل یادښت",
-            "subtit":"د خپل حساب لپاره د 8 ګوتو څخه زیات د اوږدې اندازې یادښت ولیکئ"
+            "subtit":"د خپل حساب لپاره یوه نښه نښه کړئ"
+        },
+        "keystore":{
+            "tit":"د کیسټۍ شاتړ",
+            "copy":"نقل",
+            "download":"د کیلي ښکته کول"
+        },
+        "msg_info":{
+            "ads_copy_success":"پته نقل شوی",
+            "key_copy_success":"په بریالیتوب سره کاپي شوی"
         }
     },
     "page_home":{
         "import_account":"حساب وارد کړئ",
-        "back_up_account":"د بیک اپ حساب",
         "add_account":"نوی حساب",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"شفر",
-        "confirm_password":"پټنوم تایید کړه",
-        
-        "remove_prompt":"ایا ته باوري یې چې تاسو ړنګول غواړئ؟",
-        "please_back_up":"مهرباني وکړئ ډاډ ترلاسه کړئ چې حساب د شتمنیو د زیان څخه مخنیوي لپاره ملاتړ شوی",
+        "acc":"ګڼون",
+        "create_dia":{
+            "create_tit":"ګڼون جوړول",
+            "backup_tit":"خپل نوی حساب بیرته پورته کړئ",
 
-        "import_prompt":"آیا تاسو پخوا د CZR واالټ لرئ؟",
-        "import_step":"خپل واټلي فایل دلته راښکاره کړئ",
-        "import_or":"یا",
-        "import_click_up":"د اضافولو لپاره ټک وکړئ"
+            "create_tag":"د کارن نوم",
+            "create_pwd":"پټنوم ولیکه",
+            "create_repwd":"پټنوم تایید کړه",
+
+            "placeholder_tag":"لطفا د حساب نوم ولیکئ",
+            "placeholder_pwd":"مهرباني وکړئ د حساب پټنوم ولیکئ",
+            "placeholder_repwd":"مهرباني وکړئ د حساب پټنوم تایید کړئ",
+            "strong_password":"لږترلږه 8 هګۍ",
+
+            "account_address":"ګڼون",
+            "account_privateKey":"شخصي کیلي",
+            "account_download_keystore":"د کیلي دوتنه ډاونلوډ کړئ"
+        },
+        "import_dia":{
+            "tit":"حساب وارد کړئ",
+            "select_type":"مهرباني وکړئ د واردولو طریقه وټاکئ",
+            "type_private":"شخصي کیلي",
+            "type_keystore":"کیسټور",
+
+            "placeholder_private":"مهرباني وکړئ شخصي کیلي دلته وټاکئ",
+            "placeholder_keystore":"لطفا د کیلي فایل فایل دلته وپلټئ",
+
+            "input_pwd":"شفر ورکړه",
+            "placeholder_pwd":"مهرباني وکړئ خپل د حساب پټنوم ولیکئ"
+
+        },
+        "remove_dia":{
+            "tit":"ایا ته باوري یې چې تاسو یې لیرې کول غواړئ؟",
+            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
+            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې حساب د شتمنیو د زیان څخه مخنیوي لپاره ملاتړ شوی"
+        },
+        "msg_info":{
+            "exist":"دا حساب لا دمخه شتون لري، نوم دی",
+            "enter_password":"لطفا خپل پټنوم داخلیږی",
+            "incons_password":"ننوتل شوي دوه ځله ناڅاپي دي",
+            "error":"تېروتنه:",
+            "imported_success":"دوتنه په بریالیتوب وارد کړه",
+            "enter_private":"لطفا کلیمه وليکئ",
+            "error_private":"د حساب واردولو کې پاتې راغلل، دا ممکن غلط کلیدی وي",
+            "enter_keystore":"لطفا لومړی د کیلي فایل وارد کړئ",
+            "error_password":"د حساب واردولو کې پاتې راغلل، دا ممکن ناسم شفر وي",
+            "remove_success":"بریالی شوی",
+            "create_success":"په بریالیتوب سره جوړ شو",
+            "save":"لطفا خپل کلیسټ یا شخصي کیلي خوندي کړئ او د چا سره یې شریک نه کړئ!"
+        }
     }
 
 }

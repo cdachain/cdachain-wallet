@@ -1,5 +1,4 @@
 {
-    "lang":"jazyk",
     "confirm":"potvrdiť",
     "cancel":"zrušený",
     "dialog_tit":"prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"domov",
         "transfer":"prevod",
-        "contacts":"Adresár",
+        "contacts":"kontakt",
         "setting":"založiť",
         "total":"totálnej"
     },
     "page_setting":{
         "tit":"založiť",
+        "lang":"jazyk",
         "select":"Vyberte prosím"
     },
     "page_contacts":{
-        "tit":"Adresár",
+        "tit":"kontakt",
+        "add_dialog":"Pridajte kontakt",
+
         "add_cont":{
-            "tri_dialog":"Pridať adresu",
-            "dialog_tit":"Zadajte informácie o adrese",
-            "dialog_tag":"štítok",
-            "tag_placeholder":"Zadajte značku komentára pre adresu",
-            "dialog_address":"adresa",
-            "address_placeholder":"Zadajte adresu"
+            "tit":"Zadajte kontaktné informácie",
+            "tag":"štítok",
+            "address":"kontakt",
+            "tag_placeholder":"Zadajte značku komentára kontaktu",
+            "address_placeholder":"Zadajte konto kontaktu"
         },
         "delete_dialog":{
             "title":"Odstraňujete"
+        },
+        "msg_info":{
+            "no_tag":"Zadajte názov účtu",
+            "no_address":"Zadajte adresu účtu",
+            "exist":"Kontakt už existuje,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Odoslať všetko",
         "remark":"poznámka",
         "fees":"poplatky",
-        "expected_fees":"Odhadované poplatky",
         "total":"totálnej",
         "select":"Vyberte prosím",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Vyberte prosím"
+        },
+        "confirm_dia":{
             "title":"Potvrďte prosím",
             "enter_passworld_tit":"Zadajte svoje heslo",
             "enter_passworld_place":"Zadajte svoje heslo"
+        },
+        "msg_info":{
+            "decrypt_err":"Parsovanie služby Peňaženka zlyhalo, môže to byť chyba hesla",
+            "send_success":"Poslať úspech",
+            "send_error":"Transakcia zlyhala: skontrolujte, či je dostatočný zostatok a horník"
         }
     },
     "page_account":{
-        "qrcode":"QR kód",
-        "go_transfer":"Spustenie prenosu",
         "transfer_log":"História transakcií",
         "transfer_log_null":"Žiadna história transakcií",
-        "copy_success":"Adresa bola skopírovaná",
+
+        "active_icon":{
+            "go_transfer":"Spustenie prenosu",
+            "import_keystore":"úložisko kľúčov",
+            "qrcode":"QR kód"
+        },
         "edit_dia":{
             "tit":"Upraviť poznámku",
-            "subtit":"Zadajte poznámku s dĺžkou maximálne 8 číslic pre váš účet"
+            "subtit":"Označte poznámku pre svoj účet"
+        },
+        "keystore":{
+            "tit":"Zálohujte úložisko kľúčov",
+            "copy":"kópie",
+            "download":"Stiahnite si kľúče"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adresa bola skopírovaná",
+            "key_copy_success":"Úspešné skopírovanie"
         }
     },
     "page_home":{
         "import_account":"Importný účet",
-        "back_up_account":"Zálohovací účet",
         "add_account":"Nový účet",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"heslo",
-        "confirm_password":"Potvrďte heslo",
-        
-        "remove_prompt":"Naozaj chcete odstrániť?",
-        "please_back_up":"Uistite sa, že bol účet zálohovaný, aby ste predišli poškodeniu majetku",
+        "acc":"účet",
+        "create_dia":{
+            "create_tit":"Vytvorte si účet",
+            "backup_tit":"Zálohujte nový účet",
 
-        "import_prompt":"Máte už peňaženku CZR?",
-        "import_step":"Presuňte tu súbor peňaženky tu",
-        "import_or":"alebo",
-        "import_click_up":"Kliknutím pridajte"
+            "create_tag":"Názov účtu",
+            "create_pwd":"Nastavte heslo",
+            "create_repwd":"Potvrďte heslo",
+
+            "placeholder_tag":"Zadajte názov účtu",
+            "placeholder_pwd":"Nastavte heslo účtu",
+            "placeholder_repwd":"Potvrďte heslo účtu",
+            "strong_password":"Zadajte silné heslo, najmenej 8 číslic",
+
+            "account_address":"účet",
+            "account_privateKey":"Súkromný kľúč",
+            "account_download_keystore":"Stiahnite si súbor úložiska kľúčov"
+        },
+        "import_dia":{
+            "tit":"Importný účet",
+            "select_type":"Vyberte metódu importu",
+            "type_private":"Súkromný kľúč",
+            "type_keystore":"úložisko kľúčov",
+
+            "placeholder_private":"Tu vložte privátny kľúč",
+            "placeholder_keystore":"Tu prosím pretiahnite súbor úložiska kľúčov",
+
+            "input_pwd":"Zadajte heslo",
+            "placeholder_pwd":"Zadajte heslo svojho účtu"
+
+        },
+        "remove_dia":{
+            "tit":"Naozaj chcete odstrániť?",
+            "remove_confrim":"Určite odstrániť",
+            "backup":"Uistite sa, že bol účet zálohovaný, aby ste predišli poškodeniu majetku"
+        },
+        "msg_info":{
+            "exist":"Tento účet už existuje, názov je",
+            "enter_password":"Zadajte svoje heslo",
+            "incons_password":"Zadané dvojité heslo je nekonzistentné",
+            "error":"chyba:",
+            "imported_success":"Importovať súbor úspešne",
+            "enter_private":"Zadajte kľúč",
+            "error_private":"Nepodarilo sa importovať účet, môže to byť nesprávny kľúč",
+            "enter_keystore":"Najprv importujte súbor úložiska kľúčov",
+            "error_password":"Nepodarilo sa importovať účet, môže to byť nesprávne heslo",
+            "remove_success":"Úspešne odstránené",
+            "create_success":"Vytvorené úspešne",
+            "save":"Uložte prosím svoj obchod s kľúčovými slovami alebo súkromný kľúč a nedajte sa s nikým zdieľať!"
+        }
     }
 
 }

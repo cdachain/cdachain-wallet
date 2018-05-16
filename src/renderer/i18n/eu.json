@@ -1,5 +1,4 @@
 {
-    "lang":"Hizkuntza",
     "confirm":"Berretsi",
     "cancel":"Bertan behera",
     "dialog_tit":"Galdetu",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Hasiera",
         "transfer":"Transfer",
-        "contacts":"Helbide liburua",
+        "contacts":"Harremanetarako",
         "setting":"Ezarri",
         "total":"Guztira"
     },
     "page_setting":{
         "tit":"Ezarri",
+        "lang":"Hizkuntza",
         "select":"Aukeratu ezazu"
     },
     "page_contacts":{
-        "tit":"Helbide liburua",
+        "tit":"Harremanetarako",
+        "add_dialog":"Gehitu kontaktua",
+
         "add_cont":{
-            "tri_dialog":"Gehitu helbidea",
-            "dialog_tit":"Idatzi helbide informazioa",
-            "dialog_tag":"Tag",
-            "tag_placeholder":"Idatzi iruzkina egiteko etiketa helbidera",
-            "dialog_address":"Helbidea",
-            "address_placeholder":"Idatzi helbidea"
+            "tit":"Sartu kontaktuen informazioa",
+            "tag":"Tag",
+            "address":"Harremanetarako",
+            "tag_placeholder":"Sartu kontaktuaren iruzkinen etiketa",
+            "address_placeholder":"Sartu kontaktuen kontua"
         },
         "delete_dialog":{
             "title":"Kendu egiten ari zara"
+        },
+        "msg_info":{
+            "no_tag":"Idatzi kontuaren izena",
+            "no_address":"Idatzi kontuaren helbidea",
+            "exist":"Kontaktua lehendik ere badago,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Bidali dena",
         "remark":"Oharra",
         "fees":"Tarifak",
-        "expected_fees":"Estimatutako tasak",
         "total":"Guztira",
         "select":"Aukeratu ezazu",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Aukeratu ezazu"
+        },
+        "confirm_dia":{
             "title":"Berretsi",
             "enter_passworld_tit":"Idatzi zure pasahitza",
             "enter_passworld_place":"Idatzi zure pasahitza"
+        },
+        "msg_info":{
+            "decrypt_err":"Ezin izan da horma-paperaren azterketa egin. Pasahitzaren errorea izan daiteke",
+            "send_success":"Bidali arrakasta",
+            "send_error":"Transakzioak huts egin du: Egiaztatu oreka nahikoa eta mineraren kuota dagoela"
         }
     },
     "page_account":{
-        "qrcode":"QR kodea",
-        "go_transfer":"Hasi transferentzia",
         "transfer_log":"Transakzioaren historia",
         "transfer_log_null":"Ez dago transakzioaren historia",
-        "copy_success":"Helbidea kopiatu da",
+
+        "active_icon":{
+            "go_transfer":"Hasi transferentzia",
+            "import_keystore":"keystore",
+            "qrcode":"QR kodea"
+        },
         "edit_dia":{
             "tit":"Aldatu oharra",
-            "subtit":"Idatzi ohar bat zure konturako 8 digitu baino gehiagoko luzerarekin"
+            "subtit":"Markatu ohar bat zure konturako"
+        },
+        "keystore":{
+            "tit":"Egin teklatuaren babeskopia",
+            "copy":"Copy",
+            "download":"Deskargatu teklak"
+        },
+        "msg_info":{
+            "ads_copy_success":"Helbidea kopiatu da",
+            "key_copy_success":"Ongi kopiatu da"
         }
     },
     "page_home":{
         "import_account":"Inportatu kontua",
-        "back_up_account":"Babeskopiaren kontua",
         "add_account":"Kontu berria",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Pasahitza",
-        "confirm_password":"Berretsi pasahitza",
-        
-        "remove_prompt":"Ziur al zaude ezabatu nahi duzula?",
-        "please_back_up":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko",
+        "acc":"Kontu-",
+        "create_dia":{
+            "create_tit":"Sortu kontua",
+            "backup_tit":"Egin kontu berriaren babeskopia",
 
-        "import_prompt":"Dagoeneko CZR zorroa al duzu?",
-        "import_step":"Arrastatu zure zorro fitxategia hemen",
-        "import_or":"edo",
-        "import_click_up":"Egin klik sartzeko"
+            "create_tag":"Kontuaren izena",
+            "create_pwd":"Ezarri pasahitza",
+            "create_repwd":"Berretsi pasahitza",
+
+            "placeholder_tag":"Ezarri kontuaren izena",
+            "placeholder_pwd":"Ezarri kontuaren pasahitza",
+            "placeholder_repwd":"Berretsi kontuaren pasahitza",
+            "strong_password":"Idatzi pasahitz sendo bat, gutxienez 8 digitu",
+
+            "account_address":"Kontu-",
+            "account_privateKey":"Gako pribatua",
+            "account_download_keystore":"Deskargatu teklatuaren fitxategia"
+        },
+        "import_dia":{
+            "tit":"Inportatu kontua",
+            "select_type":"Hautatu inportatzeko metodoa",
+            "type_private":"Gako pribatua",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Itsatsi ezazu gako pribatua hemen",
+            "placeholder_keystore":"Arrastatu teklatuaren fitxategia hemen",
+
+            "input_pwd":"Idatzi pasahitza",
+            "placeholder_pwd":"Sartu zure kontuaren pasahitza"
+
+        },
+        "remove_dia":{
+            "tit":"Ziur al zaude ezabatu nahi duzula?",
+            "remove_confrim":"Ziur kendu egin behar dudala",
+            "backup":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
+        },
+        "msg_info":{
+            "exist":"Kontu hau dagoeneko badago eta izena da",
+            "enter_password":"Idatzi zure pasahitza",
+            "incons_password":"Bihurtutako pasahitza ez da bateragarria",
+            "error":"Akatsa:",
+            "imported_success":"Inportatu fitxategia behar bezala",
+            "enter_private":"Sartu tekla",
+            "error_private":"Kontua inportatzean huts egin du",
+            "enter_keystore":"Inportatu keystore fitxategia lehenik",
+            "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
+            "remove_success":"Behar bezala kendu da",
+            "create_success":"Sortu arrakastaz",
+            "save":"Mesedez, gorde teklatu edo gako pribatua eta ez partekatu edonorekin!"
+        }
     }
 
 }

@@ -1,5 +1,4 @@
 {
-    "lang":"Idioma",
     "confirm":"Confirmação",
     "cancel":"Cancelamento",
     "dialog_tit":"Prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Home",
         "transfer":"Transferir",
-        "contacts":"Livro de endereços",
+        "contacts":"Contatos",
         "setting":"Configurações",
         "total":"Total"
     },
     "page_setting":{
         "tit":"Configurações",
+        "lang":"Idioma",
         "select":"Por favor selecione"
     },
     "page_contacts":{
-        "tit":"Livro de endereços",
+        "tit":"Contatos",
+        "add_dialog":"Adicionar um contato",
+
         "add_cont":{
-            "tri_dialog":"Adicione o endereço",
-            "dialog_tit":"Digite as informações do endereço",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Por favor, insira a tag de comentário para o endereço",
-            "dialog_address":"Endereço",
-            "address_placeholder":"Por favor insira o endereço"
+            "tit":"Digite as informações de contato",
+            "tag":"Tags",
+            "address":"Contatos",
+            "tag_placeholder":"Por favor, insira a tag de comentário do contato",
+            "address_placeholder":"Por favor insira a conta de contato"
         },
         "delete_dialog":{
             "title":"Você está removendo"
+        },
+        "msg_info":{
+            "no_tag":"Por favor insira o nome da conta",
+            "no_address":"Por favor insira o endereço da conta",
+            "exist":"O contato já existe"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Enviar tudo",
         "remark":"Nota",
         "fees":"Taxas",
-        "expected_fees":"Taxas estimadas",
         "total":"Total",
         "select":"Por favor selecione",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Por favor selecione"
+        },
+        "confirm_dia":{
             "title":"Por favor confirme",
             "enter_passworld_tit":"Por favor digite sua senha",
             "enter_passworld_place":"Por favor digite sua senha"
+        },
+        "msg_info":{
+            "decrypt_err":"A análise da carteira falhou, pode ser um erro de senha",
+            "send_success":"Envie sucesso",
+            "send_error":"Falha na transação: verifique se há saldo suficiente e taxa do mineiro"
         }
     },
     "page_account":{
-        "qrcode":"Código QR",
-        "go_transfer":"Iniciar transferência",
         "transfer_log":"Histórico de transações",
         "transfer_log_null":"Nenhum histórico de transações",
-        "copy_success":"Endereço foi copiado",
+
+        "active_icon":{
+            "go_transfer":"Iniciar transferência",
+            "import_keystore":"Keystore",
+            "qrcode":"Código QR"
+        },
         "edit_dia":{
             "tit":"Modificar nota",
-            "subtit":"Insira uma nota com um comprimento de no máximo 8 dígitos para sua conta"
+            "subtit":"Marque uma nota para sua conta"
+        },
+        "keystore":{
+            "tit":"Fazer backup do keystore",
+            "copy":"Duplicar",
+            "download":"Download de keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Endereço foi copiado",
+            "key_copy_success":"Copiado com sucesso"
         }
     },
     "page_home":{
         "import_account":"Importar conta",
-        "back_up_account":"Conta de backup",
         "add_account":"Nova conta",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Senha",
-        "confirm_password":"Confirme a senha",
-        
-        "remove_prompt":"Tem certeza de que deseja excluir?",
-        "please_back_up":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade",
+        "acc":"Conta",
+        "create_dia":{
+            "create_tit":"Crie uma conta",
+            "backup_tit":"Faça backup de sua nova conta",
 
-        "import_prompt":"Você já tem uma carteira CZR?",
-        "import_step":"Arraste seu arquivo da carteira aqui",
-        "import_or":"Ou",
-        "import_click_up":"Clique para adicionar"
+            "create_tag":"Nome da conta",
+            "create_pwd":"Definir senha",
+            "create_repwd":"Confirme a senha",
+
+            "placeholder_tag":"Por favor, defina o nome da conta",
+            "placeholder_pwd":"Por favor, defina a senha da conta",
+            "placeholder_repwd":"Por favor, confirme a senha da conta",
+            "strong_password":"Digite uma senha forte, com pelo menos 8 dígitos",
+
+            "account_address":"Conta",
+            "account_privateKey":"Chave privada",
+            "account_download_keystore":"Faça o download do arquivo de armazenamento de chaves"
+        },
+        "import_dia":{
+            "tit":"Importar conta",
+            "select_type":"Por favor, selecione o método de importação",
+            "type_private":"Chave privada",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Por favor, cole a chave privada aqui",
+            "placeholder_keystore":"Por favor, arraste o arquivo de armazenamento de chaves aqui",
+
+            "input_pwd":"Digite a senha",
+            "placeholder_pwd":"Por favor insira a senha da sua conta"
+
+        },
+        "remove_dia":{
+            "tit":"Tem certeza de que deseja removê-lo?",
+            "remove_confrim":"Tenho certeza de remover",
+            "backup":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
+        },
+        "msg_info":{
+            "exist":"Esta conta já existe e o nome é",
+            "enter_password":"Por favor digite sua senha",
+            "incons_password":"A senha digitada duas vezes é inconsistente",
+            "error":"Erro:",
+            "imported_success":"Importar arquivo com sucesso",
+            "enter_private":"Por favor insira a chave",
+            "error_private":"Falha ao importar a conta, pode ser a chave errada",
+            "enter_keystore":"Por favor, importe o arquivo keystore primeiro",
+            "error_password":"Falha ao importar conta, pode ser uma senha errada",
+            "remove_success":"Removido com sucesso",
+            "create_success":"Criado com sucesso",
+            "save":"Por favor, salve seu keystore ou chave privada e não o compartilhe com ninguém!"
+        }
     }
 
 }

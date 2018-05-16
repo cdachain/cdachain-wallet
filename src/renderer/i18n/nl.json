@@ -1,5 +1,4 @@
 {
-    "lang":"taal",
     "confirm":"bevestigen",
     "cancel":"geannuleerd",
     "dialog_tit":"prompt",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"thuis",
         "transfer":"overdracht",
-        "contacts":"Adresboek",
+        "contacts":"contact",
         "setting":"oprichten",
         "total":"totaal"
     },
     "page_setting":{
         "tit":"oprichten",
+        "lang":"taal",
         "select":"Selecteer alstublieft"
     },
     "page_contacts":{
-        "tit":"Adresboek",
+        "tit":"contact",
+        "add_dialog":"Voeg een contact toe",
+
         "add_cont":{
-            "tri_dialog":"Voeg adres toe",
-            "dialog_tit":"Voer adresinformatie in",
-            "dialog_tag":"label",
-            "tag_placeholder":"Voer de commentaartag in voor het adres",
-            "dialog_address":"adres",
-            "address_placeholder":"Voer het adres in"
+            "tit":"Voer contactgegevens in",
+            "tag":"label",
+            "address":"contact",
+            "tag_placeholder":"Voer het commentaarlabel van het contact in",
+            "address_placeholder":"Voer het contactaccount in"
         },
         "delete_dialog":{
             "title":"Je verwijdert"
+        },
+        "msg_info":{
+            "no_tag":"Voer de accountnaam in",
+            "no_address":"Voer het accountadres in",
+            "exist":"De contactpersoon bestaat al,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Stuur alles",
         "remark":"opmerking",
         "fees":"vergoedingen",
-        "expected_fees":"Geschatte vergoedingen",
         "total":"totaal",
         "select":"Selecteer alstublieft",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Selecteer alstublieft"
+        },
+        "confirm_dia":{
             "title":"Bevestig alstublieft",
             "enter_passworld_tit":"Voer uw wachtwoord in",
             "enter_passworld_place":"Voer uw wachtwoord in"
+        },
+        "msg_info":{
+            "decrypt_err":"Portefeuille parseren mislukt, mogelijk een wachtwoordfout",
+            "send_success":"Stuur succes",
+            "send_error":"Transactie mislukt: controleer of er voldoende saldo en mijnwerkerskosten zijn"
         }
     },
     "page_account":{
-        "qrcode":"QR-code",
-        "go_transfer":"Start overdracht",
         "transfer_log":"Transactiegeschiedenis",
         "transfer_log_null":"Geen transactiegeschiedenis",
-        "copy_success":"Adres is gekopieerd",
+
+        "active_icon":{
+            "go_transfer":"Start overdracht",
+            "import_keystore":"keystore",
+            "qrcode":"QR-code"
+        },
         "edit_dia":{
             "tit":"Wijzig opmerking",
-            "subtit":"Voer een notitie in met een lengte van niet meer dan 8 cijfers voor uw account"
+            "subtit":"Markeer een notitie voor uw account"
+        },
+        "keystore":{
+            "tit":"Maak een back-up van de keystore",
+            "copy":"exemplaar",
+            "download":"Keystore downloaden"
+        },
+        "msg_info":{
+            "ads_copy_success":"Adres is gekopieerd",
+            "key_copy_success":"Succesvol gekopieerd"
         }
     },
     "page_home":{
         "import_account":"Account importeren",
-        "back_up_account":"Back-upaccount",
         "add_account":"Nieuw account",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"wachtwoord",
-        "confirm_password":"Bevestig wachtwoord",
-        
-        "remove_prompt":"Weet je zeker dat je wilt verwijderen?",
-        "please_back_up":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen",
+        "acc":"rekening",
+        "create_dia":{
+            "create_tit":"Maak een account aan",
+            "backup_tit":"Maak een back-up van uw nieuwe account",
 
-        "import_prompt":"Heb je al een CZR-portemonnee?",
-        "import_step":"Sleep hier je wallet-bestand",
-        "import_or":"of",
-        "import_click_up":"Klik om toe te voegen"
+            "create_tag":"Account naam",
+            "create_pwd":"Wachtwoord instellen",
+            "create_repwd":"Bevestig wachtwoord",
+
+            "placeholder_tag":"Stel de accountnaam in",
+            "placeholder_pwd":"Stel uw wachtwoord in",
+            "placeholder_repwd":"Bevestig het wachtwoord van je account",
+            "strong_password":"Voer een sterk wachtwoord in, minimaal 8 cijfers",
+
+            "account_address":"rekening",
+            "account_privateKey":"Privésleutel",
+            "account_download_keystore":"Download het keystore-bestand"
+        },
+        "import_dia":{
+            "tit":"Account importeren",
+            "select_type":"Selecteer de importmethode",
+            "type_private":"Privésleutel",
+            "type_keystore":"keystore",
+
+            "placeholder_private":"Plak hier de privésleutel",
+            "placeholder_keystore":"Sleep het keystore-bestand hierheen",
+
+            "input_pwd":"Voer het wachtwoord in",
+            "placeholder_pwd":"Voer uw wachtwoord in"
+
+        },
+        "remove_dia":{
+            "tit":"Weet je zeker dat je het wilt verwijderen?",
+            "remove_confrim":"Ik ben zeker om te verwijderen",
+            "backup":"Zorg ervoor dat er een back-up van het account is gemaakt om schade aan eigendommen te voorkomen"
+        },
+        "msg_info":{
+            "exist":"Dit account bestaat al en de naam is",
+            "enter_password":"Voer uw wachtwoord in",
+            "incons_password":"Het wachtwoord dat tweemaal is ingevoerd, is inconsistent",
+            "error":"fout:",
+            "imported_success":"Bestand met succes importeren",
+            "enter_private":"Voer de sleutel in",
+            "error_private":"Het importeren van het account is mislukt, dit kan de verkeerde sleutel zijn",
+            "enter_keystore":"Importeer eerst het keystore-bestand",
+            "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
+            "remove_success":"Met succes verwijderd",
+            "create_success":"Met succes gemaakt",
+            "save":"Bewaar uw sleutelbewaarplaats of persoonlijke sleutel en deel deze met niemand!"
+        }
     }
 
 }

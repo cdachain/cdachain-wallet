@@ -1,5 +1,4 @@
 {
-    "lang":"ULwimi",
     "confirm":"Isiqinisekiso",
     "cancel":"Ku rhoxiswa",
     "dialog_tit":"Ukunyuswa",
@@ -11,26 +10,33 @@
     "model_header":{
         "home":"Ikhaya",
         "transfer":"U tshintshelo",
-        "contacts":"Incwadi yee dilesi",
+        "contacts":"Ifowuni",
         "setting":"Izicwangciso",
         "total":"Iyonke"
     },
     "page_setting":{
         "tit":"Izicwangciso",
+        "lang":"ULwimi",
         "select":"Nceda ukhethe"
     },
     "page_contacts":{
-        "tit":"Incwadi yee dilesi",
+        "tit":"Ifowuni",
+        "add_dialog":"Yongeza umnxeba",
+
         "add_cont":{
-            "tri_dialog":"Yongeza idilesi",
-            "dialog_tit":"Faka idilesi yolwazi",
-            "dialog_tag":"Tags",
-            "tag_placeholder":"Nceda ufake itekiti yombono kwidilesi",
-            "dialog_address":"Idilesi",
-            "address_placeholder":"Nceda faka idilesi"
+            "tit":"Faka ulwazi lomnxeba",
+            "tag":"Tags",
+            "address":"Ifowuni",
+            "tag_placeholder":"Nceda faka itekisi yombono woqhagamshelwano",
+            "address_placeholder":"Nceda faka i-akhawunti yomnxeba"
         },
         "delete_dialog":{
             "title":"U kususa"
+        },
+        "msg_info":{
+            "no_tag":"Nceda ufake igama le-akhawunti",
+            "no_address":"Nceda faka idilesi yeakhawunti",
+            "exist":"Uqhagamshelwano lukhona kakade,"
         }
     },
     "page_transfer":{
@@ -40,41 +46,98 @@
         "send_all":"Thumela konke",
         "remark":"Qaphela",
         "fees":"Imali",
-        "expected_fees":"Imali eqikelelweyo",
         "total":"Iyonke",
         "select":"Nceda ukhethe",
-        "confirmDia":{
+        "contacts_dig":{
+            "select_placeholder":"Nceda ukhethe"
+        },
+        "confirm_dia":{
             "title":"Nceda uqinisekise",
             "enter_passworld_tit":"Nceda faka iphasiwedi yakho",
             "enter_passworld_place":"Nceda faka iphasiwedi yakho"
+        },
+        "msg_info":{
+            "decrypt_err":"I-Wallet parsing yahluleka, ingaba yimpazamo yephasiwedi",
+            "send_success":"Thumela impumelelo",
+            "send_error":"Ukuthengiswa kwehlulekile: Nceda uqaphele ukuba kukho ukulingana okwaneleyo nemirhumo yemayini"
         }
     },
     "page_account":{
-        "qrcode":"QR ikhowudi",
-        "go_transfer":"Qalisa ukudluliselwa",
         "transfer_log":"Imbali yomsebenzi",
         "transfer_log_null":"Akukho mlando wokuthengiselana",
-        "copy_success":"Idilesi ikopishwe",
+
+        "active_icon":{
+            "go_transfer":"Qalisa ukudluliselwa",
+            "import_keystore":"Keystore",
+            "qrcode":"QR ikhowudi"
+        },
         "edit_dia":{
             "tit":"Shintsha ingqalelo",
-            "subtit":"Faka inqaku ngobude obungaphantsi kweenombolo eziyi-8 ze-akhawunti yakho"
+            "subtit":"Maka uphawu kwiakhawunti yakho"
+        },
+        "keystore":{
+            "tit":"Yenza isipele kwi-keystore",
+            "copy":"Phindaphinda",
+            "download":"Khuphela i-keystore"
+        },
+        "msg_info":{
+            "ads_copy_success":"Idilesi ikopishwe",
+            "key_copy_success":"Ukukopishwa ngempumelelo"
         }
     },
     "page_home":{
         "import_account":"Ngenisa i-akhawunti",
-        "back_up_account":"Akhawunti yokugcina",
         "add_account":"Akhawunti entsha",
-        "add_prompt":"输入一个强密码（ 至少9位 ）",
-        "password":"Iphasiwedi",
-        "confirm_password":"Qinisekisa iphasiwedi",
-        
-        "remove_prompt":"Uqinisekile ukuba ufuna ukususa?",
-        "please_back_up":"Nceda uqinisekise ukuba i-akhawunti ixhaswe ukukhusela umonakalo wepropati",
+        "acc":"Akhawunti",
+        "create_dia":{
+            "create_tit":"Yakha i-akhawunti",
+            "backup_tit":"Yenza isipele iakhawunti entsha",
 
-        "import_prompt":"Ingaba sele unayo isikhwama se-CZR?",
-        "import_step":"Hudula ifayile yakho yekhredithi apha",
-        "import_or":"Okanye",
-        "import_click_up":"Cofa ukuze ungeze"
+            "create_tag":"Igama leAkhawunti",
+            "create_pwd":"Setha iphasiwedi",
+            "create_repwd":"Qinisekisa iphasiwedi",
+
+            "placeholder_tag":"Nceda usethe igama leakhawunti",
+            "placeholder_pwd":"Nceda usethe iphasiwedi yephasiwedi",
+            "placeholder_repwd":"Nceda uqinisekise igama lephasiwedi",
+            "strong_password":"Faka iphasiwedi eqinileyo, ubuncinane ubunani be-8",
+
+            "account_address":"Akhawunti",
+            "account_privateKey":"Ukhiye wangasese",
+            "account_download_keystore":"Khuphela ifayile yefowuni"
+        },
+        "import_dia":{
+            "tit":"Ngenisa i-akhawunti",
+            "select_type":"Nceda ukhethe indlela yokungenisa",
+            "type_private":"Ukhiye wangasese",
+            "type_keystore":"Keystore",
+
+            "placeholder_private":"Nceda unamathisele ukhiye wangasese apha",
+            "placeholder_keystore":"Nceda udonse ifayile yefowuni apha",
+
+            "input_pwd":"Faka iphasiwedi",
+            "placeholder_pwd":"Nceda ufake iphasiwedi yakho"
+
+        },
+        "remove_dia":{
+            "tit":"Uqinisekile ukuba ufuna ukususa?",
+            "remove_confrim":"Ndiqinisekile ukususa",
+            "backup":"Nceda uqinisekise ukuba i-akhawunti ixhaswe ukukhusela umonakalo wepropati"
+        },
+        "msg_info":{
+            "exist":"Le akhawunti sele ikhona, igama likhoyo",
+            "enter_password":"Nceda faka iphasiwedi yakho",
+            "incons_password":"Iphasiwedi efakwe kabini ayihambelani",
+            "error":"I mpazamo:",
+            "imported_success":"Ngenisa ifayile ngempumelelo",
+            "enter_private":"Nceda ungenise ukhiye",
+            "error_private":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba yinto engalunganga",
+            "enter_keystore":"Nceda ngenisa ifayile yefowuni yokuqala",
+            "error_password":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba iphasiwedi engalunganga",
+            "remove_success":"Kususwe ngempumelelo",
+            "create_success":"Yadalwa ngempumelelo",
+            "save":"Nceda ugcine isitoreji sakho seenkcenkca okanye ukhiye wobucala kwaye ungabelani nantoni na!"
+        }
     }
 
 }
