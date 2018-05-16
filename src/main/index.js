@@ -33,7 +33,7 @@ function createWindow () {
         width: winWidth,
         height: 600,
         icon:"./static/icons/logo.png",
-        title:"Canonchain Wallet",
+        title:"CZR Walleti Default",
         resizable:false,
         fullscreenable:false,
         useContentSize:true

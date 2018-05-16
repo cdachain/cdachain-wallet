@@ -3,13 +3,13 @@
         <div class="home-banner">
             <i class="iconfont icon-logo">&#xe650;</i>
             <div>
-                <button class="bui-button" @click="importAccDiaVisible= true">{{ $t('page_home.import_account') }}</button>
-                <button class="bui-button" @click="openFolder">{{ $t('page_home.back_up_account') }}</button>
+                <el-button size="small" plain @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</el-button>
             </div>
         </div>
+
         <div class="home-content">
             <div class="account-wrap b-flex">
-                <template v-for="account in localAccounts">
+                <template v-for="account in database">
                     <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item ">
                         <div class="account-avatar">
                           <i class="iconfont ico-avatar">&#xe602;</i>
@@ -17,14 +17,14 @@
                         <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
                         <div class="account-cont">
                             <p class="account-remark">{{account.tag}}</p>
-                            <h1 class="account-assets">{{account.balance | ShortVal}}</h1>
+                            <h1 class="account-assets">{{account.balance | toEthVal}}</h1>
                             <p class="account-unit">{{ $t('unit.czr') }}</p>
                             <p class="account-address">{{account.address}}</p>
                         </div>  
                     </router-link>
-              </template>
+                </template>
                 <!--  ADD  -->
-                <div class="accounrt-item add-account" @click="addPwdDiaVisible = true">
+                <div class="accounrt-item add-account" @click="dialogSwitch.create = true">
                     <div class="account-cont">
                       <i class="iconfont icon-add-acc">&#xe63b;</i>
                       <p class="add-acc-des">{{ $t('page_home.add_account') }}</p>
@@ -33,53 +33,130 @@
             </div>
         </div>
 
-        <el-dialog
-          :title="$t('page_home.add_prompt')"
-          :visible.sync="addPwdDiaVisible"
-          width="70%">
-          <span>
-        <el-form :model="ruleForm2" status-icon :rules="rules2" ref="ruleForm2" label-width="140px" class="demo-ruleForm">
-          <el-form-item :label=" $t('page_home.password') " prop="pass">
-            <el-input type="password" v-model="ruleForm2.pass" auto-complete="off"></el-input>
-          </el-form-item>
-          <el-form-item :label=" $t('page_home.confirm_password') " prop="checkPass">
-            <el-input type="password" v-model="ruleForm2.checkPass" auto-complete="off"></el-input>
-          </el-form-item>
-        </el-form>
 
-          </span>
-          <span slot="footer" class="dialog-footer">
-            <el-button @click="addPwdDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="addAccount">{{ $t('confirm') }}</el-button>
-          </span>
+        <el-dialog
+          :title="createInfo.step === 0 ? $t('page_home.create_dia.create_tit') : $t('page_home.create_dia.backup_tit') "
+          :visible.sync="dialogSwitch.create"
+          @open="initCreateInfo"
+          width="60%">
+          <template v-if="createInfo.step === 0">
+            <el-alert
+              v-if="createInfo.error"
+              :title="createInfo.error"
+              :closable="false"
+              type="error"
+              show-icon>
+            </el-alert>
+            <el-input v-model="createInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')">
+              <template slot="prepend"><i class="el-icon-tickets"></i> {{$t('page_home.create_dia.create_tag')}}</template>
+            </el-input>
+            <el-input v-model="createInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
+            </el-input>
+            <el-input v-model="createInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')" type="password">
+              <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
+            </el-input>
+            <div slot="footer">
+              <el-button @click="dialogSwitch.create = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="createAccount">{{ $t('confirm') }}</el-button>
+            </div>
+          </template>
+          <template v-else-if="createInfo.step === 1">
+            <el-alert
+              :title="$t('page_home.msg_info.create_success')"
+              :description="$t('page_home.msg_info.save')"
+              :closable="false"
+              type="success"
+              show-icon>
+            </el-alert>
+            <el-input :value="createInfo.address">
+              <template slot="prepend">{{$t('page_home.create_dia.account_address')}}</template>
+            </el-input>
+            <el-input :value="createInfo.privateKey">
+              <template slot="prepend">{{$t('page_home.create_dia.account_privateKey')}}</template>
+            </el-input>
+            <div slot="footer">
+              <el-button type="primary" @click="downloadKeystore">{{$t('page_home.create_dia.account_download_keystore')}}</el-button>
+            </div>
+          </template>
         </el-dialog>
 
         <el-dialog
-          :title="$t('page_home.remove_prompt')"
-          :visible.sync="removeAccDiaVisible"
-          width="70%" >
+          :title="$t('page_home.import_dia.tit')"
+          :visible.sync="dialogSwitch.import"
+          @open="initImportInfo"
+          width="50%">
+          <template v-if="importInfo.step === 0">
+            <div class="import-type-wrap">
+              <div class="text"> {{$t('page_home.import_dia.select_type')}} </div>
+              <el-radio v-model="importInfo.type" label="0" border> {{$t('page_home.import_dia.type_private')}} </el-radio>
+              <el-radio v-model="importInfo.type" label="1" border> {{$t('page_home.import_dia.type_keystore')}} </el-radio>
+            </div>
+            <div slot="footer">
+              <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="importInfo.step = 1">{{ $t('confirm') }}</el-button>
+            </div>
+          </template>
+          <template v-if="importInfo.step === 1">
+            <el-alert
+              v-if="importInfo.alert"
+              :title="importInfo.alert.content"
+              :closable="false"
+              :type="importInfo.alert.type"
+              show-icon>
+            </el-alert>
+            <template v-if="importInfo.type === '0'">
+
+              <el-input
+                v-model="importInfo.privateKey"
+                type="textarea"
+                :autosize="{minRows: 2}"
+                :placeholder="$t('page_home.import_dia.placeholder_private')">
+              </el-input>
+
+              <el-input v-model="importInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')" >
+                <template slot="prepend"><i class="el-icon-document"></i> {{$t('page_home.create_dia.create_tag')}}</template>
+              </el-input>
+
+              <el-input v-model="importInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')"  type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
+              </el-input>
+
+              <el-input v-model="importInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')"  type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
+              </el-input>
+
+            </template>
+            <template v-if="importInfo.type === '1'">
+              <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore"> {{$t('page_home.import_dia.placeholder_keystore')}} </div>
+              <el-input v-model="importInfo.tag"  :placeholder="$t('page_home.create_dia.placeholder_tag')" >
+                <template slot="prepend"><i class="el-icon-document"></i> {{$t('page_home.create_dia.create_tag')}}</template>
+              </el-input>
+              <el-input v-model="importInfo.pwd" :placeholder="$t('page_home.import_dia.placeholder_pwd')" type="password">
+                <template slot="prepend"><i class="el-icon-edit"></i> {{$t('page_home.import_dia.input_pwd')}}</template>
+              </el-input>
+            </template>
+            <div slot="footer">
+              <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
+              <el-button type="primary" @click="importAccount">{{ $t('confirm') }}</el-button>
+            </div>
+          </template>
+        </el-dialog>
+
+
+        <el-dialog
+          :title="$t('page_home.remove_dia.tit')"
+          :visible.sync="dialogSwitch.remove"
+          width="50%" >
           <span>
             <p class="remove-acc">
-              {{this.currentRemoveAcc}}
+              {{this.removeAccount}}
             </p>
-            {{$t('page_home.please_back_up')}}
+            {{ $t('page_home.remove_dia.backup') }}
           </span>
           <span slot="footer" class="dialog-footer">
-            <el-button @click="removeAccDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="removeAccount">{{ $t('confirm') }}</el-button>
-          </span>
-        </el-dialog>
-
-        <el-dialog
-          :title="$t('page_home.import_prompt')"
-          :visible.sync="importAccDiaVisible"
-          width="70%" >
-          <span>
-              <input type="file" id='userImport' enctype="multipart/form-data">
-          </span>
-          <span slot="footer" class="dialog-footer">
-            <el-button @click="importAccDiaVisible = false">{{ $t('cancel') }}</el-button>
-            <el-button type="primary" @click="importAcc">{{ $t('confirm') }}</el-button>
+            <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
+            <el-button type="danger" @click="removeAccountFn">{{ $t('page_home.remove_dia.remove_confrim') }}</el-button>
           </span>
         </el-dialog>
 
@@ -88,173 +165,278 @@
 </template>
 
 <script>
-import web3 from "@/global/web3.js";
-const path = require("path");
-
-//backup
-const shell = require("electron").shell;
-import { remote, app } from "electron";
-import { fail } from 'assert';
-const APP = process.type === "renderer" ? remote.app : app;
-const STORE_PATH = APP.getPath("userData");
-console.log("PATH", STORE_PATH);
-
 const fs = require("fs");
+let  self=null;
 
 export default {
   name: "Bodyer",
   data() {
-    var validatePass = (rule, value, callback) => {
-      if (value === "") {
-        callback(new Error("Please enter your password"));
-      } else {
-        if (value.length < 9) {
-          callback(new Error("At least 9"));
-        }
-        if (this.ruleForm2.checkPass !== "") {
-          this.$refs.ruleForm2.validateField("checkPass");
-        }
-        callback();
-      }
-    };
-    var validatePass2 = (rule, value, callback) => {
-      if (value === "") {
-        callback(new Error("Please enter your password again"));
-      } else if (value !== this.ruleForm2.pass) {
-        callback(new Error("Inconsistent password entry twice!"));
-      } else {
-        callback();
-      }
-    };
     return {
-      addPwdDiaVisible: false,
-      removeAccDiaVisible:false,
-      importAccDiaVisible:false,
-      currentRemoveAcc:"",
-      ruleForm2: {
-        pass: "",
-        checkPass: ""
+      dialogSwitch:{
+        create:false,
+        import:false,
+        remove:false
       },
-      rules2: {
-        pass: [{ validator: validatePass, trigger: "blur" }],
-        checkPass: [{ validator: validatePass2, trigger: "blur" }]
-      }
+      database:[],
+      createInfo: {},
+      importInfo: {},
+      removeAccount:""
     };
   },
-  filters: {
-    ShortVal: function(value) {
-      if (!value) return "";
-      value = Number(value);
-      return value.toFixed(2);
-    }
+  created(){
+    self=this;
+    this.database = this.$db.get('czr_accounts').value();;
+    this.initCreateInfo()
+    this.initImportInfo()
+    this.refresh()
   },
   computed: {
-    addressBalance: function(address) {
-      var balance = web3.eth.getBalance(address);
-      return web3.fromWei(balance, "ether");
-    },
-    localAccounts: function() {
-      var tempAcc = this.$db
-        .read()
-        .get("czr_accounts")
-        .value();
-      for (var i = 0; i < tempAcc.length; i++) {
-        var current = web3.eth.getBalance(tempAcc[i]["address"]);
-        //If the latest balance is different from the local database, update the data;
-        if (current != tempAcc[i]["balance"]) {
-          this.$db
-            .read()
-            .get("czr_accounts")
-            .find({ address: tempAcc[i]["address"] })
-            .assign({ balance: current })
-            .write();
-        }
-        //Converted to user amount
-        tempAcc[i]["balance"] = web3.fromWei(tempAcc[i]["balance"], "ether");
-      }
-      return tempAcc;
-    }
+
   },
   methods: {
-    importAcc: function() {
-      var userImport = document.getElementById("userImport").files[0];
-      var userImportPath = userImport.path;//源文件路径
-      var userImportName = userImport.name;//源文件路径
-      //复制到目标那里 /Users/broszhu/Library/Ethereum/keystore
-      var targetPath='/Users/broszhu/Library/Ethereum/keystore/'+userImportName;
-      fs.createReadStream(userImportPath).pipe(fs.createWriteStream(targetPath));
-      this.importAccDiaVisible= false;
-      window.location.reload();
+    //Init Start
+    initCreateInfo () {
+      this.createInfo = {
+        tag: this.$t('page_home.acc') + (this.database.length + 1),
+        pwd: '',
+        repwd: '',
 
-      console.log(userImport, userImportPath);
-    },
-    // Backup account
-    openFolder: function() {
-      shell.showItemInFolder(STORE_PATH + "/accounts");
-    },
+        step: 0,
+        error: '',
 
-    //addAccount
-    addAccount: function() {
-      // DEMO path /Users/broszhu/Library/Ethereum/keystore
-      console.log("22 2", web3);
-      var self = this;
-      if (
-        this.ruleForm2.checkPass >= 9 &&
-        this.ruleForm2.pass >= 9 &&
-        this.ruleForm2.pass == this.ruleForm2.checkPass
-      ) {
-        console.log("000");
-        web3.personal.newAccount(this.ruleForm2.checkPass, function(e, res) {
-          console.log(e, res); //0x2b765eba6de2da0b39365367215f93e563291f49
-          var temoObj = {
-            tag: "Account Name",
-            address: res,
-            balance: "0",
-            tx_list: []
-          };
-          self.$db
-            .get("czr_accounts")
-            .push(temoObj)
-            .write();
-        });
-
-        this.addPwdDiaVisible = false;
-        //TODO Page update new account
+        address: '',
+        keystore: null,
+        privateKey: ''
       }
     },
-    showRemoveDia:function(currentAcc){
-      this.currentRemoveAcc=currentAcc;
-      this.removeAccDiaVisible=true;
-    },
-    removeAccount:function(){
-      //selected acc
-      var self=this;
-      var filePath = "/Users/broszhu/Library/Ethereum/keystore";//demo path
-      var files = fs.readdirSync(filePath);
-      files.forEach(function(filename) {
-        var filedir = path.join(filePath, filename);//currentFile
-        //Get file information based on file path, return an fs.Stats object
-        var stats = fs.statSync(filedir);
-        var isFile = stats.isFile();
-        if (isFile) {
-          var tempFile = fs.readFileSync(filedir).toString();
-          try {
-            var tempAcc = JSON.parse(tempFile).address;
-            console.log("current Acc",tempAcc)
-            if(tempAcc==self.currentRemoveAcc){
-              console.log("HAHAHA DEL",filedir)
-              fs.unlinkSync(filedir);
-              self.removeAccDiaVisible=false;
-            }
-          } catch (err) {
-            // console.log('err', err)
-          }
-        }
-      });
+    initImportInfo () {
+      this.importInfo = {
+        tag: this.$t('page_home.acc') + (this.database.length + 1),
+        pwd: '',
+        repwd: '',
 
-      //TODO update current account list
-      window.location.reload();
-    }
+        step: 0,
+        type: '0',
+        alert: null,
+      
+        privateKey: '',
+        keystore: null
+      }
+    },
+    refresh () {
+      this.database.forEach(item => {
+          this.getBalance(item)
+      })
+    },
+    getBalance (item) {
+      this.$web3.eth.getBalance(item.address)
+          .then(data => {
+              item.balance = data
+              //TODO If it is written to the database, it causes the deletion of the import to be out of sync;
+              /* this.$db
+                  .read()
+                  .get("czr_accounts")
+                  .find({ address: item.address })
+                  .assign({ balance: data })
+                  .write(); */
+          })
+          .catch(console.log )
+    },
+    //Init End
+
+    initAccount:function(params){
+      let  self=this;
+      let account = this.$db.get('czr_accounts')
+        .find({ address: params.address })
+        .value()
+      if(account){
+          this.$message.error(this.$t('page_home.msg_info.exist')+'"'+account.tag+'"')
+          return
+      }
+      this.$db
+          .get("czr_accounts")
+          .push(params)
+          .write();
+      this.getBalance(params)
+    },
+
+    // Create Account Start
+    createAccount:function(){
+      if (!this.createInfo.pwd || !this.createInfo.repwd) {
+        this.createInfo.error = this.$t('page_home.msg_info.enter_password')
+        return
+      }
+      if (this.createInfo.pwd !== this.createInfo.repwd) {
+        this.createInfo.error = this.$t('page_home.msg_info.incons_password')
+        return
+      }
+      if(this.createInfo.pwd.length<8 || this.createInfo.repwd.length<8){
+        this.createInfo.error = this.$t('page_home.create_dia.strong_password')
+        return
+      }
+      let account = this.$web3.eth.accounts.create()
+      this.createInfo.address = account.address;
+      this.createInfo.privateKey = account.privateKey
+      this.createInfo.keystore = this.$web3.eth.accounts.encrypt(account.privateKey, this.createInfo.pwd)
+
+      let params = {
+        address: account.address,
+        tag: this.createInfo.tag || this.$t('page_home.acc') + (this.database.length + 1),
+        keystore: this.createInfo.keystore,
+        tx_list: [],
+        balance: "0"
+      }
+      this.initAccount(params)
+      this.createInfo.step = 1
+    },
+    downloadKeystore () {
+      let link = document.createElement('a')
+      link.download = this.getNowTime()+"--"+this.createInfo.address;
+      link.style.display = 'none';
+      let blob = new Blob([JSON.stringify(this.createInfo.keystore)])
+      link.href = URL.createObjectURL(blob)
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      this.dialogSwitch.create = false
+    },
+    getNowTime:function () {
+        let date = new Date();
+        let addZero=this.addZero;
+        let LocalTime = date.getFullYear() + "-" +addZero(date.getMonth()+1) + "-" + addZero(date.getDate()) + "-" +
+            addZero(date.getHours()) + addZero(date.getMinutes()) +  addZero(date.getSeconds());
+        return LocalTime;
+    },
+    addZero:function (val) {
+        return val<10 ? "0"+val : val;
+    },
+    // Create Account End
+
+    //Import Start
+    importKeystore (event) {
+      let path = event.dataTransfer.files[0].path;
+      fs.readFile(path, 'utf8', (err, data) => {
+        if (err) {
+          this.$message.error(this.$t('page_home.msg_info.error')+':' + err)
+        }
+        this.importInfo.keystore = JSON.parse(data)
+        this.importInfo.alert = {
+          content: this.$t('page_home.msg_info.imported_success'),
+          type: 'success'
+        }
+      })
+    },
+    importAccount () {
+      let account = null
+      if (this.importInfo.type === '0') {
+        if (!this.importInfo.privateKey) {
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.enter_private'),
+            type: 'error'
+          }
+          return
+        }
+        if (!this.importInfo.pwd || !this.importInfo.repwd) {
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.enter_password'),
+            type: 'error'
+          }
+          return
+        }
+        if (this.importInfo.pwd !== this.importInfo.repwd) {
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.incons_password'),
+            type: 'error'
+          }
+          return
+        }
+        if(this.importInfo.pwd.length<8 || this.importInfo.repwd.length<8){
+          this.importInfo.alert = {
+            content: this.$t('page_home.create_dia.strong_password'),
+            type: 'error'
+          }
+          return
+        }
+
+        if (this.importInfo.privateKey.indexOf('0x') !== 0) {
+          this.importInfo.privateKey = '0x' + this.importInfo.privateKey
+        }
+        try {
+          account = this.$web3.eth.accounts.privateKeyToAccount(this.importInfo.privateKey)
+          this.importInfo.keystore = this.$web3.eth.accounts.encrypt(this.importInfo.privateKey, this.importInfo.pwd)
+        } catch (e) {
+          console.log('importPrivateKeyError', e)
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.error_private'),
+            type: 'error'
+          }
+          return
+        }
+      } else if (this.importInfo.type === '1') {
+        if (!this.importInfo.keystore) {
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.enter_keystore'),
+            type: 'error'
+          }
+          return
+        }
+        if (!this.importInfo.pwd) {
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.enter_password'),
+            type: 'error'
+          }
+          return
+        }
+        try {
+          account = this.$web3.eth.accounts.decrypt(this.importInfo.keystore, this.importInfo.pwd)
+        } catch (e) {
+          console.log('importWalletError', e)
+          this.importInfo.alert = {
+            content: this.$t('page_home.msg_info.error_password'),
+            type: 'error'
+          }
+          return
+        }
+      }
+      let params = {
+        address: account.address,
+        tag: this.importInfo.tag || this.$t('page_home.acc') + (this.database.length + 1),
+        keystore: this.importInfo.keystore,
+        tx_list: [],
+        balance: "0"
+      }
+
+      this.$web3.eth.getBalance(params.address)
+          .then(data => {
+              params.balance = data
+              this.initAccount(params)
+              this.dialogSwitch.import = false
+          })
+          .catch(console.log )
+    },
+    //Import End
+
+    // Remove Start
+    showRemoveDia:function(currentAcc){
+      this.removeAccount=currentAcc;
+      this.dialogSwitch.remove=true;
+    },
+    removeAccountFn:function(){
+        this.$db
+          .get("czr_accounts")
+          .remove({ address: this.removeAccount })
+          .write();
+        this.$message.success(this.$t('page_home.msg_info.remove_success'))
+        this.refresh()
+        this.dialogSwitch.remove=false;
+    },
+    // Remove End
+  },
+  filters: {
+    toEthVal:function(val){
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
+      return tempVal;//TODO Keep 4 decimal places
+     }
   }
 };
 </script>
@@ -265,6 +447,7 @@ export default {
 }
 .home-banner {
   width: 100%;
+  text-align: center;
   height: 175px;
   background-image: linear-gradient(
     45deg,
@@ -277,7 +460,16 @@ export default {
   color: #fff;
   font-size: 80px;
 }
-
+.holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border: 1px dashed #6ab0df;
+  background: #e7f2fa;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
 /* account */
 .account-wrap {
   /* padding-top: 64px; */
@@ -290,6 +482,7 @@ export default {
 }
 .accounrt-item {
   width: 218px;
+  text-align: center;
   border: 1px transparent;
   padding: 44px 10px 10px 10px;
   position: relative;
@@ -392,4 +585,17 @@ export default {
 .remove-acc{
   color: #F56C6C;
 }
+
+.el-dialog h2 {
+    font-weight: 400;
+}
+.el-dialog .text,
+.el-dialog .el-textarea,
+.el-dialog .el-alert,
+.el-dialog .el-input,
+.el-dialog .text{margin-bottom: 10px;}
+.el-dialog .el-input  .el-input-group__prepend {
+    width: 200px;
+}
+.import-type-wrap{text-align: center;}
 </style>
