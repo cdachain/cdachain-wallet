@@ -3,11 +3,11 @@
     <div class="transfer-cont">
       <el-form ref="form" label-width="100px">
           <el-form-item :label="$t('page_transfer.from_address')">
-              <el-select v-model="submitData.from" :placeholder="$t('page_transfer.select')" style="width:100%;" @change='onSelectedFrom'>
+              <el-select v-model="fromInfo.account" :placeholder="$t('page_transfer.select')" style="width:100%;" >
                 <el-option
-                  v-for="item in initData.fromAccounts"
+                  v-for="item in database"
                   :key="item.address"
-                  :label="item.tag"
+                  :label="item.address"
                   :value="item.address">
                   <span style="float: left">{{ item.tag }}</span>
                   <span style="float: right; color: #8492a6; font-size: 13px">{{ item.address }}</span>
@@ -15,66 +15,58 @@
               </el-select>
           </el-form-item>
           <el-form-item :label="$t('page_transfer.to_address')">
-            <div class="trigger-contacts"  @click="dialogSeleVisible = true">
+            <div class="trigger-contacts"  @click="dialogSwitch.contacts = true">
               <i class="el-icon-tickets"></i>
             </div>
-            <el-input v-model="submitData.to" @change="setToAddress" ></el-input>
+            <el-input v-model="toAccount" ></el-input>
           </el-form-item>
 
           <el-form-item :label="$t('page_transfer.amount')">
-            <el-input v-model="submitData.amount" class="width-180" @change="setAmount"></el-input>
+            <el-input v-model="amount"
+             min="0" :max="accountInfo.balance"
+             class="width-180" ></el-input>
             <span>{{$t('unit.czr')}}</span>
-            <el-checkbox v-model="initData.checkedAll" 
+            <el-checkbox v-model="checkedAll" 
             @change='sendAllAmount'
             class="send-all-assets">
               {{$t('page_transfer.send_all')}}&nbsp;
               <span class="czr-txt-muted">
-                (&nbsp;{{activeData.hasBalance}} {{$t('unit.czr')}}&nbsp;)
+                (&nbsp;{{accountInfo.balance | toEthVal}} {{$t('unit.czr')}}&nbsp;)
               </span>
               
             </el-checkbox>
           </el-form-item>
           <el-form-item :label="$t('page_transfer.remark')">
-            <el-input type="textarea" v-model="submitData.remark"></el-input>
+            <el-input type="textarea" v-model="extraData"></el-input>
           </el-form-item>
           <el-form-item :label="$t('page_transfer.fees')">
             <!-- show-stops -->
               <div class="block">
                 <el-slider
-                  v-model="submitData.fees"
-                  @change='changeGas'
-
-                  :min='activeData.minGas'
-                  :max='activeData.maxGas'
-                  :step='activeData.step'
-                  show-input
-                  input-size	= 'mini'
+                  v-model="feePercent"
+                  :max="200" :min="2" 
                   >
                 </el-slider>
               </div>
-            <span class='speculate-wrap'>{{$t('page_transfer.expected_fees')}} <strong v-text="this.defaultGas" v-once ></strong>{{$t('unit.czr')}}</span>
-          </el-form-item>
-
-          <el-form-item :label="$t('page_transfer.total')">
-            {{activeData.tranTotal}} {{$t('unit.czr')}}
+            <span class='speculate-wrap'>{{$t('page_transfer.fees')}} <strong v-text="fee" ></strong>{{$t('unit.czr')}}</span>
           </el-form-item>
 
           <el-form-item>
-            <el-button type="primary" @click="outerVisible = true">{{$t('confirm')}}</el-button>
+            <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
             
           </el-form-item>
     </el-form>
   </div>
 
-
+    <!-- Dialog select contacts -->
     <el-dialog
       :title= "$t('dialog_tit')"
-      :visible.sync="dialogSeleVisible"
-      width="80%">
+      :visible.sync="dialogSwitch.contacts"
+      width="70%">
       <span>
-          <el-select v-model="submitData.to" :placeholder="$t('page_transfer.select')" style="width:100%;" @change='onSelectedTo'>
+          <el-select v-model="selectedContact" :placeholder="$t('page_transfer.contacts_dig.select_placeholder')" style="width:100%;" >
             <el-option
-              v-for="item in initData.contactsAccounts"
+              v-for="item in contacts"
               :key="item.address"
               :label="item.tag"
               :value="item.address">
@@ -84,60 +76,58 @@
           </el-select>
       </span>
       <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogSeleVisible = false">{{$t('cancel')}}</el-button>
-        <el-button type="primary" @click="dialogSeleVisible = false">{{$t('confirm')}}</el-button>
+        <el-button @click="dialogSwitch.contacts = false">{{$t('cancel')}}</el-button>
+        <el-button type="primary" @click="confrimContacts">{{$t('confirm')}}</el-button>
       </span>
     </el-dialog>
 
+    <!-- confirm tran -->
     <template>  
       <el-dialog 
-        :title="$t('page_transfer.confirmDia.title')"
+        :title="$t('page_transfer.confirm_dia.title')"
         width="65%"
-        :visible.sync="outerVisible">
+        :visible.sync="dialogSwitch.confrim">
+
+          <el-form ref="form"label-width="120px">
+            <el-form-item :label="$t('page_transfer.from_address')">
+              <p>{{fromInfo.account}}</p>
+            </el-form-item>
+              <el-form-item :label="$t('page_transfer.to_address')">
+              <p>{{toAccount || "-"}}</p>
+            </el-form-item>
+            <el-form-item :label="$t('page_transfer.amount')">
+              <p>{{amount}} {{$t('unit.czr')}}</p>
+            </el-form-item>
+            <el-form-item :label="$t('page_transfer.remark')">
+              <p>{{extraData || '-'}}</p>
+            </el-form-item>
+              <el-form-item :label="$t('page_transfer.fees')">
+              <p>{{fee}} {{$t('unit.czr')}}</p>
+            </el-form-item>
+                <el-form-item :label="$t('page_transfer.total')">
+              <p>{{confrimTotal}} {{$t('unit.czr')}}</p>
+            </el-form-item>
+          </el-form>          
+          <div slot="footer" class="dialog-footer">
+            <el-button @click="dialogSwitch.confrim = false">{{$t('cancel')}}</el-button>
+            <el-button type="primary" @click="dialogSwitch.passworld = true">{{$t('confirm')}}</el-button>
+          </div>
+
           <el-dialog
             width="60%"
-            :title="$t('page_transfer.confirmDia.enter_passworld_tit')"
-            :visible.sync="innerVisible"
+            :title="$t('page_transfer.confirm_dia.enter_passworld_tit')"
+            :visible.sync="dialogSwitch.passworld"
             append-to-body>
             <el-form ref="form" label-width="100px">
-                <el-input v-model="activeData.password" :placeholder="$t('page_transfer.confirmDia.enter_passworld_place')" type="password"></el-input>
+                <el-input v-model="fromInfo.passworld" :placeholder="$t('page_transfer.confirm_dia.enter_passworld_place')" type="password"></el-input>
             </el-form>
 
             <div slot="footer" class="dialog-footer">
-                <el-button @click="innerVisible = false">{{$t('cancel')}}</el-button>
-                <el-button type="primary" @click="toNextStep">{{$t('confirm')}}</el-button>
+                <el-button @click="dialogSwitch.passworld = false">{{$t('cancel')}}</el-button>
+                <el-button type="primary" @click="sendTransaction">{{$t('confirm')}}</el-button>
             </div>
           </el-dialog>
-          <div>
-            
 
-    <el-form ref="form"label-width="120px">
-      <el-form-item :label="$t('page_transfer.from_address')">
-        <p>{{submitData.from}}</p>
-      </el-form-item>
-        <el-form-item :label="$t('page_transfer.to_address')">
-        <p>{{submitData.to}}</p>
-      </el-form-item>
-      <el-form-item :label="$t('page_transfer.amount')">
-        <p>{{submitData.amount}} {{$t('unit.czr')}}</p>
-      </el-form-item>
-      <el-form-item :label="$t('page_transfer.remark')">
-        <p>{{submitData.remark || '-'}}</p>
-      </el-form-item>
-        <el-form-item :label="$t('page_transfer.fees')">
-        <p>{{submitData.fees | toString}} {{$t('unit.czr')}}</p>
-      </el-form-item>
-          <el-form-item :label="$t('page_transfer.total')">
-        <p>{{activeData.tranTotal}} {{$t('unit.czr')}}</p>
-      </el-form-item>
-    </el-form>
-
-
-          </div>
-          <div slot="footer" class="dialog-footer">
-            <el-button @click="outerVisible = false">{{$t('cancel')}}</el-button>
-            <el-button type="primary" @click="innerVisible = true">{{$t('confirm')}}</el-button>
-          </div>
       </el-dialog>
     </template>
 
@@ -146,184 +136,216 @@
 </template>
 
 <script>
-import web3 from "@/global/web3.js";
-import { throws } from "assert";
-import { triggerAsyncId } from "async_hooks";
-
+let self=null;
 export default {
-  name: "Search",
+  name: "Transfer",
   data() {
     return {
-      dialogSeleVisible: false,
-      outerVisible: false,
-      innerVisible: false,
+        dialogSwitch:{
+          contacts:false,
+          confrim:false,
+          passworld:false
+        },
 
-      //Initial data
-      initData: {
-        fromAccounts: this.$db
-          .read()
-          .get("czr_accounts")
-          .value(),
-        contactsAccounts: this.$db
-          .read()
-          .get("czr_contacts.contact_ary")
-          .value(),
-        checkedAll: false
-      },
+        database: [],
+        contacts:[],
+        checkedAll: false,
+        selectedContact: '',
 
-      activeData: {
-        queryAcc: this.$route.query.account, //Current account information brought by the route
-        hasBalance: web3.fromWei(
-          web3.eth
-            .getBalance(this.$route.query.account || web3.eth.accounts[0])
-            .toNumber(),
-          "ether"
-        ),
-        minGas: 0,
-        maxGas: 0,
-        step: 0,
-        password: "",
-        tranTotal: 0 //Total current transaction
-      },
+        fromInfo:null,
+        submitInfo:{
 
-      //Final submission data
-      submitData: {
-        from: this.$route.query.account || web3.eth.accounts[0],
-        to: "",
+        },
 
-        value: 0,
-        // gas:0,
-
+        toAccount: '',
         amount: 0,
-        remark: "",
-        fees: 0
-      }
+        gasPrice: '',
+        feePercent: 100,
+        gasLimit: 200000,//参考  myetherwallet
+        extraData: '',
+
+
     };
   },
-  filters: {
-    toString: function(val) {
-      var valueStr = web3.toBigNumber(val).toString(10);
-      return valueStr;
-    }
-  },
-  computed: {
-    defaultGas: function() {
-      var GasVal = web3.eth.gasPrice.toNumber();
-      var gasCZR = web3.fromWei(GasVal, "ether");
-      var gasEthNum = web3.toBigNumber(gasCZR).toNumber();
-      this.submitData.fees = gasEthNum;
-      this.activeData.tranTotal = gasCZR;
-      this.activeData.minGas = gasEthNum / 5;
-      this.activeData.maxGas = gasEthNum * 10;
-      this.activeData.step =
-        (this.activeData.maxGas - this.activeData.minGas) / 10;
 
-      return gasCZR;
+  created(){
+    self=this;
+    this.database = this.$db.get('czr_accounts').value();
+    this.contacts = this.$db.get('czr_contacts.contact_ary').value();
+    
+    this.fromInfo={
+      account:this.$route.query.account || this.database[0].address,
+      passworld:""
     }
+
+    this.refresh()
+    this.getGasPrice()
+  },
+
+  computed: {
+    //Init
+    fee () {
+      if (this.selectedGasPrice) {
+        //Transaction Fees  ＝  Gas Limit * Gas Price
+        let fee = this.selectedGasPrice * this.gasLimit + '';
+        return this.$web3.utils.fromWei(fee, 'ether')
+      } else {
+        return 0
+      }
+    },
+    selectedGasPrice () {
+        if (this.gasPrice) {
+            return Math.ceil(this.gasPrice * (this.feePercent / 100))
+        }
+    },
+    //Init 
+    accountInfo () {
+      if (this.fromInfo.account) {
+        return this.database.find(item => item.address === this.fromInfo.account)
+      } else {
+        return {}
+      }
+    },
+    confrimTotal:function(){
+      let amountWei=this.$web3.utils.toWei(this.amount.toString(), 'ether');
+      let feeWei=this.$web3.utils.toWei(this.fee.toString(), 'ether');
+      let totalVal=Number(amountWei)+Number(feeWei);
+      return this.$web3.utils.fromWei(totalVal.toString(), 'ether');;
+    }
+
   },
   methods: {
-    onSelectedFrom: function(val) {
-      this.submitData.from = val;
-      this.activeData.hasBalance = web3.fromWei(
-        web3.eth.getBalance(val).toNumber(),
-        "ether"
-      );
-      this.getTotal();
+    //Init data
+    refresh () {
+        this.database.forEach(item => {
+            this.getBalance(item)
+        })
     },
-    onSelectedTo: function(val) {
-      this.submitData.to = val;
+    getBalance (item) {
+        let _this = this
+        this.$web3.eth.getBalance(item.address)
+            .then(data => {
+                // item.balance = _this.$web3.utils.fromWei(data, 'ether')
+                item.balance = data
+            })
+            .catch(err => {
+                console.log(err)
+            })
     },
-    setToAddress: function(val) {
-      this.getTotal();
+    getGasPrice () {
+      this.$web3.eth.getGasPrice()
+          .then(data => {
+              this.gasPrice = data
+          })
     },
-    setAmount: function(val) {
-      this.getTotal();
+    confrimContacts:function(){
+      this.toAccount=this.selectedContact;
+      this.dialogSwitch.contacts = false
     },
     sendAllAmount: function() {
-      if (this.initData.checkedAll) {
-        var formAccHasWeiNum = web3.eth
-          .getBalance(this.submitData.from)
-          .toNumber();
-        var gasWeiNum = web3.toWei(this.submitData.fees, "ether");
-        var targetNum = web3.fromWei(formAccHasWeiNum - gasWeiNum, "ether");
-        this.submitData.amount = targetNum;
+      if (this.checkedAll) {
+        let weiVal=this.accountInfo.balance - this.$web3.utils.toWei(this.fee, 'ether');
+        let targetVal=self.$web3.utils.fromWei(weiVal.toString(10), 'ether');
+        this.amount = Number(targetVal)>=0 ? targetVal : 0 ;
       } else {
-        this.submitData.amount = 0;
+        this.amount = 0;
       }
-      this.getTotal();
     },
-    changeGas: function(val) {
-      this.getTotal();
-    },
-    getTotal: function() {
-      var transWeiVal = web3.toWei(this.submitData.amount, "ether");
-      var userWeiGas = web3.toWei(this.submitData.fees, "ether");
-      var TotalWei = parseInt(transWeiVal) + parseInt(userWeiGas);
-      this.activeData.tranTotal = web3.fromWei(TotalWei, "ether");
-    },
-    test: function() {},
-    toNextStep: function() {
-      var self = this;
-      var options = self.submitData;
-      // options.gas=web3.toWei(options.fees, "ether");
-      options.value = web3.toWei(options.amount, "ether");
 
-      console.log(options);
-      if (!options.to) {
-        // alert("Please fill in the address");
-        return;
+    //confrim validate
+    validateForm:function(){
+      //TODO Validate
+      this.dialogSwitch.confrim = true
+    },
+
+
+    //send transaction
+    sendTransaction:function(){
+      console.log("send")
+      let self=this;
+      let value = this.$web3.utils.toWei(this.amount.toString(), 'ether');      
+      let account = null
+
+      try {
+        account = this.$web3.eth.accounts.decrypt(JSON.stringify(this.accountInfo.keystore), this.fromInfo.passworld)
+      } catch (e) {
+        console.log('sendDecryptWalletError', e)
+        this.$message.error(this.$t('page_transfer.msg_info.decrypt_err'))
+        return
       }
-      //Units that convert the quantity and amount of Gas
+      //Signs an Ethereum transaction with a given private key
+      this.$web3.eth.accounts.signTransaction({
+        to: this.toAccount,
+        value: value,
+        gas: this.gasLimit,//Gas Limit
+        gasPrice: this.selectedGasPrice,//Gas Price
+        data: this.extraData
+//      }, this.accountInfo.privateKey)
+      }, account.privateKey)
+        .then(hex => {
+            /*{
+                messageHash: '0x6893a6ee8df79b0f5d64a180cd1ef35d030f3e296a5361cf04d02ce720d32ec5',
+                r: '0x9ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9c',
+                s: '0x440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428',
+                v: '0x25',
+                rawTransaction: '0xf86a8086d55698372431831e848094f0109fc8df283027b6285cc889f5aa624eac1f55843b9aca008025a009ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9ca0440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428'
+            }
+            */
+          return this.$web3.eth.sendSignedTransaction(hex.rawTransaction)
+        })
+        .then(data => {
+/*
+           {
+              transactionHash: "0x79606c95358ff6b6f6bd585fa2801a1e2fa418753ff5bf84a00472f8a0eda96f",
+              transactionIndex: 0,
+              blockHash: "0x657d7609ff7abc77fcde66dc7559e8e631acd8705186c9a17dcaf2111126c761",
+              blockNumber: 1,
+              contractAddress : null
+              cumulativeGasUsed : 21000
+              gasUsed : 21000
+              logs : Array(0)
+              logsBloom : "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+              status : true
+           }
+*/            
+            this.$web3.eth.getTransaction(data.transactionHash).then(receiptData =>{
+                this.$web3.eth.getBlock(data.blockHash).then(blockObj =>{
+                    receiptData.timestamp=blockObj.timestamp;
 
-      web3.eth.sendTransaction(options, function(err, address) {
-        if (!err) {
-          var receipt = web3.eth.getTransaction(address);
+                    let testFrom = self.$db.get("czr_accounts").find({ address: account.address }).value();
+                    let testTo = self.$db.get("czr_accounts").find({ address: self.toAccount }).value();
 
-          var testFrom = self.$db
-            .read()
-            .get("czr_accounts")
-            .find({ address: options.from })
-            .value();
-          var testTo = self.$db
-            .read()
-            .get("czr_accounts")
-            .find({ address: options.to })
-            .value();
+                    if (testFrom) {
+                      self.$db.get("czr_accounts").find({ address: account.address }).get("tx_list").unshift(receiptData).write();
+                    }
 
-          if (testFrom) {
-            self.$db
-              .read()
-              .get("czr_accounts")
-              .find({ address: options.from })
-              .get("tx_list")
-              .unshift(receipt)
-              .write();
-          }
+                    if (testTo) {
+                      self.$db.get("czr_accounts").find({ address: self.toAccount }).get("tx_list").unshift(receiptData).write();
+                    }
 
-          if (testTo) {
-            self.$db
-              .read()
-              .get("czr_accounts")
-              .find({ address: options.to })
-              .get("tx_list")
-              .unshift(receipt)
-              .write();
-          }
+                    this.$message.success(this.$t('page_transfer.msg_info.send_success'))
+                    //Clear data
+                    self.dialogSwitch.confrim = false;
+                    self.dialogSwitch.passworld = false;
+                    self.$router.push("/account/" + account.address);
 
-          //Clear data
-          self.outerVisible = false;
-          self.innerVisible = false;
-          self.submitData.to = "";
-          self.submitData.amount = 0;
-          self.submitData.value = 0;
-          self.submitData.remark = "";
-          self.$router.push("/account/" + self.submitData.from);
-        } else {
-          throw err;
-        }
-      });
+                })
+            })
+
+        })
+        .catch(err => {
+          console.log(err)
+          this.$message.error(this.$t('page_transfer.msg_info.send_error'))
+        })
     }
-  }
+
+  },
+  filters: {
+    toEthVal:function(val){
+      let tempVal=self.$web3.utils.fromWei(val, 'ether');
+      return tempVal;//TODO 保留4位小数
+    }
+  },
 };
 </script>
 <style scoped>
