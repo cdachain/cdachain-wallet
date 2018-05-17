@@ -125,7 +125,7 @@
             "backup":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
         },
         "msg_info":{
-            "exist":"Dëse Kont gëtt schonn existéiert an de Numm heescht",
+            "exist":"Dëse Account existéiert schonns, de Numm heescht",
             "enter_password":"Gidd weg Äert Passwuert",
             "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
             "error":"Feeler:",

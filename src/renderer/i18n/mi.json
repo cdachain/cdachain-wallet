@@ -125,7 +125,7 @@
             "backup":"Tena koa kia tautokona te kaute ki te karo i te kino o nga rawa"
         },
         "msg_info":{
-            "exist":"Kua oti tenei kaute me te ingoa",
+            "exist":"Kei te ngaro tenei kaute, ko te ingoa",
             "enter_password":"Tomohia koa to kupuhipa",
             "incons_password":"Ko te kupuhipa i whakauruhia e rua kaore i te rereke",
             "error":"Hapa:",

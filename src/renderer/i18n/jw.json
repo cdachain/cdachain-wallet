@@ -73,16 +73,16 @@
         },
         "edit_dia":{
             "tit":"Ngowahi cathetan",
-            "subtit":"Kanggo akun tandha komentar sing"
+            "subtit":"Tandai cathetan kanggo akun sampeyan"
         },
         "keystore":{
-            "tit":"Nggawe serep keystore ing",
+            "tit":"Back up keystore",
             "copy":"Copy",
-            "download":"download keystore"
+            "download":"Download keystore"
         },
         "msg_info":{
             "ads_copy_success":"Alamat wis disalin",
-            "key_copy_success":"disalin kasil"
+            "key_copy_success":"Kasil disalin"
         }
     },
     "page_home":{
@@ -125,7 +125,7 @@
             "backup":"Priksa akun kasebut wis digawe kanggo nyegah karusakan properti"
         },
         "msg_info":{
-            "exist":"Akun iki wis ana lan jeneng kasebut",
+            "exist":"Akun iki wis ana, jeneng kasebut",
             "enter_password":"Mangga ketik sandhi",
             "incons_password":"Tembung sandhi sing kaping pindho ora konsisten",
             "error":"Kesalahan:",

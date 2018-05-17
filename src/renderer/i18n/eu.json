@@ -125,7 +125,7 @@
             "backup":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
         },
         "msg_info":{
-            "exist":"Kontu hau dagoeneko badago eta izena da",
+            "exist":"Kontua badago lehendik ere, izena da",
             "enter_password":"Idatzi zure pasahitza",
             "incons_password":"Bihurtutako pasahitza ez da bateragarria",
             "error":"Akatsa:",

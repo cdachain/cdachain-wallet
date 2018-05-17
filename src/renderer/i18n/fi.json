@@ -125,7 +125,7 @@
             "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
         },
         "msg_info":{
-            "exist":"Tämä tili on jo olemassa ja nimi on",
+            "exist":"Tämä tili on jo olemassa, nimi on",
             "enter_password":"Anna salasanasi",
             "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
             "error":"Virhe:",

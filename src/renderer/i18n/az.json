@@ -125,7 +125,7 @@
             "backup":"Məbləğə zərər verməmək üçün hesabın zəmanət altına alındığından əmin olun"
         },
         "msg_info":{
-            "exist":"Bu hesab artıq mövcuddur və adıdır",
+            "exist":"Bu hesab artıq mövcuddur, adıdır",
             "enter_password":"Şifrənizi daxil edin",
             "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
             "error":"Hata:",

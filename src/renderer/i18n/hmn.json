@@ -125,7 +125,7 @@
             "backup":"Thov ua kom paub tseeb tias tus as-khauj tau khaws cia kom tsis txhob muaj kev puas tsuaj khoom"
         },
         "msg_info":{
-            "exist":"Cov nyiaj no twb muaj lawm thiab lub npe yog",
+            "exist":"Cov nyiaj no twb muaj lawm, lub npe yog",
             "enter_password":"Thov sau koj tus password",
             "incons_password":"Tus password nkag ob yog inconsistent",
             "error":"Yuam kev:",

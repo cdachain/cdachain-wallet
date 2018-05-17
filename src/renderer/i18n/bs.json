@@ -125,7 +125,7 @@
             "backup":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
         },
         "msg_info":{
-            "exist":"Ovaj nalog već postoji i ime je",
+            "exist":"Ovaj nalog već postoji, ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",

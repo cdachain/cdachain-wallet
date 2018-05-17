@@ -125,15 +125,15 @@
             "backup":"Eʻoluʻolu e hōʻohoʻiʻia ka waihona i mea e pale ai i ka pōʻino o ka waiwai"
         },
         "msg_info":{
-            "exist":"Ua hala kēia pūʻulu aʻo ka inoa",
+            "exist":"Ua hala kēia pūʻulu,ʻo ka inoa",
             "enter_password":"Eʻoluʻolu e kau i kāu hua'ōlelo",
             "incons_password":"ʻO ka hua'ōlelo i komoʻelua manawa kuhi",
             "error":"Kuhi:",
             "imported_success":"E hoʻokahua pono i kahi pūnaewele",
             "enter_private":"Eʻoluʻolu e komo i ka kī",
-            "error_private":"ʻAʻole i hiki iā ia ke hoʻokomo i ka hōʻike,ʻo ia paha ke kī hewa",
+            "error_private":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūʻulu,ʻo ia paha ke kī hewa",
             "enter_keystore":"E kāhuakomo i kahi faila failika mua",
-            "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
+            "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, hiki paha ke hana hewa",
             "remove_success":"Ua hoʻopau 'ia iā ia",
             "create_success":"Hanaʻia me ka maikaʻi",
             "save":"Eʻoluʻolu e mālama i kāu keystore a kīnā pūnaewele paha aʻaʻoleʻoe e puʻunaue i kekahi me kekahi!"

@@ -125,13 +125,13 @@
             "backup":"Ujistěte se, že byl účet zálohován, aby nedošlo k poškození majetku"
         },
         "msg_info":{
-            "exist":"Tento účet již existuje a jméno je",
+            "exist":"Tento účet již existuje, název je",
             "enter_password":"Zadejte své heslo",
             "incons_password":"Zadané heslo dvakrát je nekonzistentní",
             "error":"Chyba:",
             "imported_success":"Importovat soubor úspěšně",
             "enter_private":"Zadejte klíč",
-            "error_private":"Nepodařilo se importovat účet, může to být nesprávný klíč",
+            "error_private":"import účet selže, chyba může být klíčem",
             "enter_keystore":"Nejprve importujte soubor úložiště klíčů",
             "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
             "remove_success":"Úspěšně byla odebrána",

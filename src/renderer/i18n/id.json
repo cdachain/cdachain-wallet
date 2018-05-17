@@ -73,16 +73,16 @@
         },
         "edit_dia":{
             "tit":"Ubah catatan",
-            "subtit":"Untuk akun Anda menandai sebuah ucapan"
+            "subtit":"Tandai catatan untuk akun Anda"
         },
         "keystore":{
-            "tit":"Back up keystore",
+            "tit":"Cadangkan keystore",
             "copy":"Duplikat",
-            "download":"Download keystore"
+            "download":"Unduh keystore"
         },
         "msg_info":{
             "ads_copy_success":"Alamat telah disalin",
-            "key_copy_success":"disalin berhasil"
+            "key_copy_success":"Berhasil disalin"
         }
     },
     "page_home":{
@@ -131,7 +131,7 @@
             "error":"Galat:",
             "imported_success":"Impor file berhasil",
             "enter_private":"Silakan masukkan kunci",
-            "error_private":"Gagal mengimpor akun, itu mungkin kunci yang salah",
+            "error_private":"Gagal mengimpor akun, mungkin itu kunci yang salah",
             "enter_keystore":"Harap impor file keystore terlebih dahulu",
             "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
             "remove_success":"Berhasil dihapus",

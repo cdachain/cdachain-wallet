@@ -125,7 +125,7 @@
             "backup":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
         },
         "msg_info":{
-            "exist":"Adunay kini nga asoy ug ang ngalan",
+            "exist":"Adunay kini nga asoy, ang ngalan mao",
             "enter_password":"Palihug pasabta ang imong password",
             "incons_password":"Ang duha ka password nga gisudlan sa duha dili magkasumpaki",
             "error":"Sayop:",

@@ -125,7 +125,7 @@
             "backup":"Mangyaring siguraduhin na ang account ay nai-back up upang maiwasan ang pinsala sa ari-arian"
         },
         "msg_info":{
-            "exist":"Mayroon nang account na ito at ang pangalan ay",
+            "exist":"Mayroon nang account na ito, ang pangalan ay",
             "enter_password":"Pakipasok ang iyong password",
             "incons_password":"Ang dalawang beses na ipinasok ang password ay hindi naaayon",
             "error":"Error:",

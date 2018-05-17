@@ -28,7 +28,7 @@
             "tag":"etiket",
             "address":"temas",
             "tag_placeholder":"Lütfen kişinin yorum etiketini girin",
-            "address_placeholder":"Lütfen iletişim bilgilerini giriniz"
+            "address_placeholder":"Lütfen kişi hesabını giriniz"
         },
         "delete_dialog":{
             "title":"Sen kaldırıyorsun"
@@ -125,7 +125,7 @@
             "backup":"Lütfen mülk hasarını önlemek için hesabın yedeklendiğinden emin olun."
         },
         "msg_info":{
-            "exist":"Bu hesap zaten var ve isim",
+            "exist":"Bu hesap zaten var, isim",
             "enter_password":"Lütfen şifrenizi giriniz",
             "incons_password":"İki kez girilen şifre tutarsız",
             "error":"Hata:",

@@ -122,10 +122,10 @@
         "remove_dia":{
             "tit":"Tena tianao ve ny manala azy?",
             "remove_confrim":"Azoko antoka fa tokony hesorina aho",
-            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fananan-tany"
+            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
         },
         "msg_info":{
-            "exist":"Ity kaonty ity dia efa misy ary ny anarany dia",
+            "exist":"Ity kaonty ity dia efa misy, ny anarany dia",
             "enter_password":"Ampidiro azafady ny tenimiafinao",
             "incons_password":"Ny tenimiafina niditra indroa dia tsy mifanaraka",
             "error":"Error:",

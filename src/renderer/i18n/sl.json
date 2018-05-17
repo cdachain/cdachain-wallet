@@ -122,10 +122,10 @@
         "remove_dia":{
             "tit":"Ali ste prepričani, da ga želite odstraniti?",
             "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+            "backup":"Prepričajte se, da je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
         },
         "msg_info":{
-            "exist":"Ta račun že obstaja, ime je",
+            "exist":"Ta račun že obstaja in ime je",
             "enter_password":"Vnesite geslo",
             "incons_password":"Dvakrat vneseno geslo ni v skladu",
             "error":"Napaka:",

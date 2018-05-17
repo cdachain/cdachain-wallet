@@ -125,7 +125,7 @@
             "backup":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
         },
         "msg_info":{
-            "exist":"Dan il-kont diġà jeżisti u l-isem huwa",
+            "exist":"Dan il-kont diġà jeżisti, l-isem huwa",
             "enter_password":"Jekk jogħġbok daħħal il-password tiegħek",
             "incons_password":"Il-password mdaħħla darbtejn hija inkonsistenti",
             "error":"Żball:",

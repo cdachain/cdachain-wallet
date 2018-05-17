@@ -125,7 +125,7 @@
             "backup":"Se till att kontot har säkerhetskopierats för att undvika skador på egendom"
         },
         "msg_info":{
-            "exist":"Detta konto finns redan och namnet är",
+            "exist":"Det här kontot finns redan, namnet är",
             "enter_password":"Vänligen ange ditt lösenord",
             "incons_password":"Lösenordet som anges två gånger är inkonsekvent",
             "error":"fel:",

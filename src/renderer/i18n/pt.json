@@ -125,7 +125,7 @@
             "backup":"Por favor, certifique-se de que a conta foi submetida a backup para evitar danos à propriedade"
         },
         "msg_info":{
-            "exist":"Esta conta já existe e o nome é",
+            "exist":"Esta conta já existe, o nome é",
             "enter_password":"Por favor digite sua senha",
             "incons_password":"A senha digitada duas vezes é inconsistente",
             "error":"Erro:",

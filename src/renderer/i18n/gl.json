@@ -125,7 +125,7 @@
             "backup":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
         },
         "msg_info":{
-            "exist":"Esta conta xa existe eo nome é",
+            "exist":"Esta conta xa existe, o nome é",
             "enter_password":"Introduce o teu contrasinal",
             "incons_password":"O contrasinal introducido dúas veces é inconsistente",
             "error":"Erro:",

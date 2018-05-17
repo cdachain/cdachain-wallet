@@ -125,7 +125,7 @@
             "backup":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
         },
         "msg_info":{
-            "exist":"Šis konts jau eksistē un vārds ir",
+            "exist":"Šis konts jau pastāv, vārds ir",
             "enter_password":"Lūdzu, ievadiet savu paroli",
             "incons_password":"Divreiz ievadītā parole ir pretrunā",
             "error":"Kļūda:",

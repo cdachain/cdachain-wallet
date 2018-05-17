@@ -125,7 +125,7 @@
             "backup":"Please make sure the account has been backed up to avoid property damage"
         },
         "msg_info":{
-            "exist":"This account already exists and the name is",
+            "exist":"This account already exists, the name is",
             "enter_password":"Please enter your password",
             "incons_password":"The password entered twice is inconsistent",
             "error":"error:",

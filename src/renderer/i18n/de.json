@@ -73,12 +73,12 @@
         },
         "edit_dia":{
             "tit":"Notiz ändern",
-            "subtit":"Für Ihr Konto markiert eine Bemerkung"
+            "subtit":"Markieren Sie eine Notiz für Ihr Konto"
         },
         "keystore":{
             "tit":"Sichern der Schlüsselspeicher",
-            "copy":"Kopie",
-            "download":"Herunterladen Schlüsselspeicher"
+            "copy":"Duplizieren",
+            "download":"Laden Sie den Keystore herunter"
         },
         "msg_info":{
             "ads_copy_success":"Die Adresse wurde kopiert",
