@@ -48,6 +48,7 @@
         "fees":"Poplatky",
         "total":"Celkem",
         "select":"Vyberte prosím",
+        "no_account_info":"Žádný účet, prosím, vytvořte nebo importujte účet",
         "contacts_dig":{
             "select_placeholder":"Vyberte prosím"
         },
@@ -59,7 +60,7 @@
         "msg_info":{
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
             "send_success":"Pošlete úspěch",
-            "send_error":"Transakce selhala: Zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za hornictví"
+            "send_error":"Transakce se nezdařila: Zkontrolujte prosím, zda je dostatečný zůstatek a hornický poplatek"
         }
     },
     "page_account":{
@@ -131,7 +132,7 @@
             "error":"Chyba:",
             "imported_success":"Importovat soubor úspěšně",
             "enter_private":"Zadejte klíč",
-            "error_private":"import účet selže, chyba může být klíčem",
+            "error_private":"Nepodařilo se importovat účet, může to být nesprávný klíč",
             "enter_keystore":"Nejprve importujte soubor úložiště klíčů",
             "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
             "remove_success":"Úspěšně byla odebrána",

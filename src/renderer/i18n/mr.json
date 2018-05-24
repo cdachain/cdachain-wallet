@@ -48,6 +48,7 @@
         "fees":"फी",
         "total":"एकूण",
         "select":"कृपया निवडा",
+        "no_account_info":"खाते नाही, कृपया खाते तयार करा किंवा आयात करा",
         "contacts_dig":{
             "select_placeholder":"कृपया निवडा"
         },

@@ -48,6 +48,7 @@
         "fees":"Накнаде",
         "total":"Укупно",
         "select":"Изаберите",
+        "no_account_info":"Нема налога, направите или увезите рачун",
         "contacts_dig":{
             "select_placeholder":"Изаберите"
         },

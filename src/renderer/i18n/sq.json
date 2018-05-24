@@ -48,6 +48,7 @@
         "fees":"tarifat",
         "total":"total",
         "select":"Ju lutem zgjidhni",
+        "no_account_info":"Nuk ka llogari, të lutem krijoni ose importoni llogarinë",
         "contacts_dig":{
             "select_placeholder":"Ju lutem zgjidhni"
         },

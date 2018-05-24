@@ -48,6 +48,7 @@
         "fees":"ຄ່າທໍານຽມ",
         "total":"ລວມ",
         "select":"ກະລຸນາເລືອກ",
+        "no_account_info":"ບໍ່ມີບັນຊີ, ກະລຸນາສ້າງຫຼືນໍາເຂົ້າບັນຊີ",
         "contacts_dig":{
             "select_placeholder":"ກະລຸນາເລືອກ"
         },
@@ -100,7 +101,7 @@
             "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນຊີ",
             "placeholder_pwd":"ກະລຸນາຕັ້ງລະຫັດຜ່ານບັນຊີ",
             "placeholder_repwd":"ກະລຸນາຢືນຢັນລະຫັດຜ່ານບັນຊີ",
-            "strong_password":"ໃສ່ລະຫັດຜ່ານທີ່ມີຄວາມເຂັ້ມແຂງ, ຢ່າງຫນ້ອຍ 8 ເລກ",
+            "strong_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານທີ່ເຂັ້ມແຂງ, ຢ່າງຫນ້ອຍ 8 ເລກ",
 
             "account_address":"ບັນຊີ",
             "account_privateKey":"ຄີເອກກະຊົນ",

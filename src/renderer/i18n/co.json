@@ -48,6 +48,7 @@
         "fees":"Puli",
         "total":"Tuttu",
         "select":"Sceglite puru",
+        "no_account_info":"Nisun compte, create cumentu o impurtà importatu",
         "contacts_dig":{
             "select_placeholder":"Sceglite puru"
         },

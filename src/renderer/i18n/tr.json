@@ -48,6 +48,7 @@
         "fees":"harç",
         "total":"toplam",
         "select":"Seçiniz",
+        "no_account_info":"Hesap yok, lütfen hesabı oluştur veya içe aktar",
         "contacts_dig":{
             "select_placeholder":"Seçiniz"
         },

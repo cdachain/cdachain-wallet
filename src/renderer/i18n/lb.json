@@ -48,6 +48,7 @@
         "fees":"Bénévolat",
         "total":"Total",
         "select":"Wielt we g",
+        "no_account_info":"Keen Account, erfëllt oder Konto kaafen",
         "contacts_dig":{
             "select_placeholder":"Wielt we g"
         },
@@ -125,7 +126,7 @@
             "backup":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
         },
         "msg_info":{
-            "exist":"Dëse Account existéiert schonns, de Numm heescht",
+            "exist":"Dëse Kont gëtt schonn existéiert an de Numm heescht",
             "enter_password":"Gidd weg Äert Passwuert",
             "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
             "error":"Feeler:",

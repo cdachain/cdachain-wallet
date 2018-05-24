@@ -48,6 +48,7 @@
         "fees":"fooie",
         "total":"totale",
         "select":"Kies asseblief",
+        "no_account_info":"Geen rekening, skep of invoer rekening",
         "contacts_dig":{
             "select_placeholder":"Kies asseblief"
         },

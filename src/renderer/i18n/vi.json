@@ -48,6 +48,7 @@
         "fees":"Phí",
         "total":"Tổng số",
         "select":"Vui lòng chọn",
+        "no_account_info":"Không có tài khoản, vui lòng tạo hoặc nhập tài khoản",
         "contacts_dig":{
             "select_placeholder":"Vui lòng chọn"
         },

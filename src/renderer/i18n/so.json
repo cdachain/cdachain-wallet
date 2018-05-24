@@ -48,6 +48,7 @@
         "fees":"Khidmadaha",
         "total":"Wadarta",
         "select":"Fadlan dooro",
+        "no_account_info":"No account, fadlan abuur ama soo galin xisaabta",
         "contacts_dig":{
             "select_placeholder":"Fadlan dooro"
         },

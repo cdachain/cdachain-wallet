@@ -48,6 +48,7 @@
         "fees":"Fees",
         "total":"total",
         "select":"please choose",
+        "no_account_info":"No account, please create or import account",
         "contacts_dig":{
             "select_placeholder":"please choose"
         },

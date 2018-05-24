@@ -48,6 +48,7 @@
         "fees":"palkkiot",
         "total":"kokonais-",
         "select":"Valitse",
+        "no_account_info":"Ei tiliä, luo tili tai luo tili",
         "contacts_dig":{
             "select_placeholder":"Valitse"
         },
@@ -125,7 +126,7 @@
             "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
         },
         "msg_info":{
-            "exist":"Tämä tili on jo olemassa, nimi on",
+            "exist":"Tämä tili on jo olemassa ja nimi on",
             "enter_password":"Anna salasanasi",
             "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
             "error":"Virhe:",

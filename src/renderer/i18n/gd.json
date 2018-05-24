@@ -48,6 +48,7 @@
         "fees":"Cìsean",
         "total":"Iomlan",
         "select":"Tagh",
+        "no_account_info":"Chan eil cunntas, cruthaich no cuir a-steach cunntas",
         "contacts_dig":{
             "select_placeholder":"Tagh"
         },

@@ -48,6 +48,7 @@
         "fees":"Naknade",
         "total":"Ukupno",
         "select":"Molimo izaberite",
+        "no_account_info":"Nema naloga, kreirajte ili uvezite račun",
         "contacts_dig":{
             "select_placeholder":"Molimo izaberite"
         },
@@ -125,7 +126,7 @@
             "backup":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
         },
         "msg_info":{
-            "exist":"Ovaj nalog već postoji, ime je",
+            "exist":"Ovaj nalog već postoji i ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",

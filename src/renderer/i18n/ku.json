@@ -48,6 +48,7 @@
         "fees":"Fees",
         "total":"Tevahî",
         "select":"Ji kerema xwe hilbijêrin",
+        "no_account_info":"Hesab nîne, kerema xwe çêbikin an hesabê bikirse",
         "contacts_dig":{
             "select_placeholder":"Ji kerema xwe hilbijêrin"
         },
@@ -125,7 +126,7 @@
             "backup":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
         },
         "msg_info":{
-            "exist":"Ev hesab jixwe heye, navê wî ye",
+            "exist":"Ev hesab jixwe heye û navê wî ye",
             "enter_password":"Ji kerema xwe şîfreya xwe binivîse",
             "incons_password":"Şîfreya du caran têkildar e",
             "error":"Çewtiya",

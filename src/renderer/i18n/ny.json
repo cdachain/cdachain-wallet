@@ -48,6 +48,7 @@
         "fees":"Malipiro",
         "total":"Chiwerengero",
         "select":"Chonde sankhani",
+        "no_account_info":"Palibe akaunti, chonde kulenga kapena kulowetsa akaunti",
         "contacts_dig":{
             "select_placeholder":"Chonde sankhani"
         },

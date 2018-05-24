@@ -48,6 +48,7 @@
         "fees":"אגרות",
         "total":"סך הכל",
         "select":"בחר",
+        "no_account_info":"אין חשבון, צור או ייבא חשבון",
         "contacts_dig":{
             "select_placeholder":"בחר"
         },

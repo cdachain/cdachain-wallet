@@ -48,6 +48,7 @@
         "fees":"Nga utu",
         "total":"Te tapeke",
         "select":"Tono koa",
+        "no_account_info":"Kaore he kaute, maatua te waihanga, te kawemai ranei i te putea",
         "contacts_dig":{
             "select_placeholder":"Tono koa"
         },

@@ -48,6 +48,7 @@
         "fees":"Maksas",
         "total":"Kopā",
         "select":"Lūdzu, izvēlieties",
+        "no_account_info":"Nav konta, lūdzu, izveidojiet vai importējiet kontu",
         "contacts_dig":{
             "select_placeholder":"Lūdzu, izvēlieties"
         },
@@ -136,7 +137,7 @@
             "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
             "remove_success":"Noņemta veiksmīgi",
             "create_success":"Veidots veiksmīgi",
-            "save":"Lūdzu, saglabājiet savu taustiņu vai privāto atslēgu un nedodiet to citiem!"
+            "save":"Lūdzu, saglabājiet savu krātuvi vai privāta, nav dalīties ar kādu citu!"
         }
     }
 

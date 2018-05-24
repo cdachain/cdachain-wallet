@@ -48,6 +48,7 @@
         "fees":"Honoraris",
         "total":"Total",
         "select":"Seleccioneu",
+        "no_account_info":"Sense compte, creeu o importeu un compte",
         "contacts_dig":{
             "select_placeholder":"Seleccioneu"
         },
@@ -121,7 +122,7 @@
         },
         "remove_dia":{
             "tit":"Esteu segur que voleu eliminar-lo?",
-            "remove_confrim":"Estic segur de suprimir",
+            "remove_confrim":"Estic segur d'eliminar",
             "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
         },
         "msg_info":{

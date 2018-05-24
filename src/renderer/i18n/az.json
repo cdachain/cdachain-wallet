@@ -48,6 +48,7 @@
         "fees":"Ücretler",
         "total":"Ümumi",
         "select":"Xahiş edirik seçin",
+        "no_account_info":"Hesabınız yoxdur, hesab yaradın və ya idxal edin",
         "contacts_dig":{
             "select_placeholder":"Xahiş edirik seçin"
         },

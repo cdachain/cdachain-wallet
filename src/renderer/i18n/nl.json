@@ -48,6 +48,7 @@
         "fees":"vergoedingen",
         "total":"totaal",
         "select":"Selecteer alstublieft",
+        "no_account_info":"Geen account, maak of importeer een account",
         "contacts_dig":{
             "select_placeholder":"Selecteer alstublieft"
         },

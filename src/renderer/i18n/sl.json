@@ -48,6 +48,7 @@
         "fees":"Pristojbine",
         "total":"Skupaj",
         "select":"Prosim izberite",
+        "no_account_info":"Brez računa, ustvarite ali uvozite račun",
         "contacts_dig":{
             "select_placeholder":"Prosim izberite"
         },
@@ -125,7 +126,7 @@
             "backup":"Prepričajte se, da je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
         },
         "msg_info":{
-            "exist":"Ta račun že obstaja in ime je",
+            "exist":"Ta račun že obstaja, ime je",
             "enter_password":"Vnesite geslo",
             "incons_password":"Dvakrat vneseno geslo ni v skladu",
             "error":"Napaka:",

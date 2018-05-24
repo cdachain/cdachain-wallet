@@ -48,6 +48,7 @@
         "fees":"tasse",
         "total":"totale",
         "select":"Per favore seleziona",
+        "no_account_info":"Nessun account, crea o importa un account",
         "contacts_dig":{
             "select_placeholder":"Per favore seleziona"
         },

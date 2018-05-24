@@ -48,6 +48,7 @@
         "fees":"Drittijiet",
         "total":"Totali",
         "select":"Jekk jogħġbok agħżel",
+        "no_account_info":"L-ebda kont, jekk joħolqu jew jimportaw il-kont",
         "contacts_dig":{
             "select_placeholder":"Jekk jogħġbok agħżel"
         },

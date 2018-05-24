@@ -48,6 +48,7 @@
         "fees":"Biaya",
         "total":"Total",
         "select":"Silakan pilih",
+        "no_account_info":"Tanpa akun, silakan buat atau impor akun",
         "contacts_dig":{
             "select_placeholder":"Silakan pilih"
         },
@@ -131,7 +132,7 @@
             "error":"Galat:",
             "imported_success":"Impor file berhasil",
             "enter_private":"Silakan masukkan kunci",
-            "error_private":"Gagal mengimpor akun, mungkin itu kunci yang salah",
+            "error_private":"Gagal mengimpor akun, itu mungkin kunci yang salah",
             "enter_keystore":"Harap impor file keystore terlebih dahulu",
             "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
             "remove_success":"Berhasil dihapus",

@@ -48,6 +48,7 @@
         "fees":"Tarifak",
         "total":"Guztira",
         "select":"Aukeratu ezazu",
+        "no_account_info":"Konturik ez, sortu edo inportatu kontua",
         "contacts_dig":{
             "select_placeholder":"Aukeratu ezazu"
         },
@@ -125,7 +126,7 @@
             "backup":"Egiaztatu kontua babeskopia egin dela jabetza-kalteak saihesteko"
         },
         "msg_info":{
-            "exist":"Kontua badago lehendik ere, izena da",
+            "exist":"Kontu hau dagoeneko badago eta izena da",
             "enter_password":"Idatzi zure pasahitza",
             "incons_password":"Bihurtutako pasahitza ez da bateragarria",
             "error":"Akatsa:",

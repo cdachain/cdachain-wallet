@@ -48,6 +48,7 @@
         "fees":"هزینه ها",
         "total":"کل",
         "select":"لطفا انتخاب کنید",
+        "no_account_info":"بدون حساب، لطفا حساب خود را ایجاد یا وارد کنید",
         "contacts_dig":{
             "select_placeholder":"لطفا انتخاب کنید"
         },

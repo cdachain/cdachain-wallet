@@ -48,6 +48,7 @@
         "fees":"Biaya",
         "total":"Total",
         "select":"Mangga pilih",
+        "no_account_info":"Ora ana akun, mangga nggawe utawa ngimpor akun",
         "contacts_dig":{
             "select_placeholder":"Mangga pilih"
         },
@@ -77,7 +78,7 @@
         },
         "keystore":{
             "tit":"Back up keystore",
-            "copy":"Copy",
+            "copy":"Duplikat",
             "download":"Download keystore"
         },
         "msg_info":{

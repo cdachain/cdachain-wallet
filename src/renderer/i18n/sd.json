@@ -48,6 +48,7 @@
         "fees":"فيز",
         "total":"ڪل",
         "select":"مهرباني ڪري چونڊيو",
+        "no_account_info":"ڪابه اڪائونٽ، مهرباني ڪري ٺاهي يا درآمد ڪريو",
         "contacts_dig":{
             "select_placeholder":"مهرباني ڪري چونڊيو"
         },
