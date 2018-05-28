@@ -4,10 +4,13 @@ const fs = require('fs');
 const path = require('path');
 const EventEmitter = require('events').EventEmitter;//event manger
 const _ = require('underscore');
+const { spawn, spawnSync } = require('child_process');
 
 const ClientBinaryManager = require('ethereum-client-binaries').Manager;//Geth下载
 const Settings = require('./settings');
 
+
+//TODO 主网没上线，先用Geth做模拟
 const DEMO_BINARY_URL = 'https://raw.githubusercontent.com/ethereum/mist/master/clientBinaries.json';//DEMO URI
 const ALLOWED_DOWNLOAD_URLS_REGEX = /^https:\/\/(?:(?:[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?\.)?ethereum\.org\/|gethstore\.blob\.core\.windows\.net\/|bintray\.com\/artifact\/download\/karalabe\/ethereum\/)(?:.+)/; // eslint-disable-line max-len
 axios.defaults.timeout = 6000
@@ -41,7 +44,7 @@ class Manager extends EventEmitter {
                 console.log('ERR:从远程仓库中获取客户端二进制文件配置时出错', err);//请求出错了,比如路径错了，超时了之类
             })
 
-            //如果从Github上获取到了配置文件【成功】，执行这里代码
+            //处理从Github上获取到了配置文件
             .then(latestConfig => {
                 //latestConfig 是从客户端拿到的配置文件
                 if (!latestConfig) return;
@@ -55,9 +58,7 @@ class Manager extends EventEmitter {
                 //读取本地二进制配置文件，如果没有，将从github上获取的最新配置文件写入本地磁盘
                 try {
                     // 现在加载本地json
-                    localConfig = JSON.parse(fs.readFileSync(
-                        path.join(Settings.userDataPath, 'clientBinaries.json')
-                    ).toString());
+                    localConfig = JSON.parse(fs.readFileSync(path.join(Settings.userDataPath, 'clientBinaries.json')).toString());
                     console.log("本地磁盘文件版本是"+localConfig.clients.Geth.version,"文件在",Settings.userDataPath+'/clientBinaries.json')
 
                 } catch (err) {
@@ -157,6 +158,24 @@ class Manager extends EventEmitter {
                         console.log("clients是什么呢", clients)
                         console.log("available是什么呢", available)
 
+                        this._emit('filtering', '过滤可用的客户端');
+                        _.each(mgr.clients, client => {
+                            if (client.state.available) {
+                                const idlcase = client.id.toLowerCase();
+
+                                //idlcase
+                                ///Users/broszhu/Library/Application Support/Electron/binaries/Geth/unpacked/geth
+                                console.log("binPath",idlcase,Settings[`${idlcase}Path`] , client.activeCli.fullPath);
+                            
+
+                                this._availableClients[idlcase] = {
+                                    binPath:client.activeCli.fullPath,
+                                    // binPath:Settings[`${idlcase}Path`] || client.activeCli.fullPath,
+                                    version: client.version
+                                };
+                            }
+                        });
+
 
                         if (!available.length) {
                             if (_.isEmpty(clients)) {
@@ -167,85 +186,52 @@ class Manager extends EventEmitter {
 
                             axios.all(_.values(clients).map(function(c) {
                                 binariesIsDownloaded = true;//二进制文件是否已下载
-                                console.log("正在下载")
+                                  console.log("正在下载",c.id)
                                 return mgr.download(c.id, {
                                     downloadFolder: path.join(Settings.userDataPath, 'binaries'),//其中存档下载到文件夹
                                     urlRegex: ALLOWED_DOWNLOAD_URLS_REGEX//只从这里下载
+                                }).then(file => {
+                                    console.log("文件下载好啦！！！")
+                                    this.runGeth()
                                 });
                             }))
+                        }else{
+                            console.log("已经有Geth了")
+                            this.runGeth()
                         }
 
                     })
 
                     //
                     .then(() => {
-                        this._emit('filtering', '过滤可用的客户端');
-                        _.each(mgr.clients, client => {
-                            if (client.state.available) {
-                                const idlcase = client.id.toLowerCase();
-
-                                //idlcase
-                                this._availableClients[idlcase] = {
-                                    binPath:
-                                        Settings[`${idlcase}Path`] || client.activeCli.fullPath,
-                                    version: client.version
-                                };
-                            }
-                        });
-
+                        //如果下载
+                        if(binariesIsDownloaded){
+                            dialog.showMessageBox(
+                                {
+                                  type: 'warning',
+                                  buttons: ['OK'],
+                                  message: '正在下载Geth文件，请等待',
+                                  detail: '详情'
+                                },
+                                () => {}
+                              );
+                        }
                         // 如果在运行时下载，则重启
                         if (restart && binariesIsDownloaded) {
-                            // log.info('重新启动应用程序 ...');
                             console.log('重新启动应用程序 ...');
                             app.relaunch();
                             app.quit();
                         }
-
                         this._emit('done');
                     });
 
 
             })
-
-
             .catch(err => {
                 // log.error(err);
                 console.log(err);
-
                 this._emit('error', err.message);
-
-                // 显示错误
-                if (err.message.indexOf('Hash mismatch') !== -1) {
-                    //显示哈希不匹配错误
-                    dialog.showMessageBox(
-                        {
-                            type: 'warning',
-                            buttons: ['OK'],
-                            message: global.i18n.t('mist.errors.nodeChecksumMismatch.title'),
-                            detail: global.i18n.t(
-                                'mist.errors.nodeChecksumMismatch.description',
-                                {
-                                    type: nodeInfo.type,
-                                    version: nodeInfo.version,
-                                    algorithm: nodeInfo.algorithm,
-                                    hash: nodeInfo.checksum
-                                }
-                            )
-                        },
-                        () => {
-                            app.quit();
-                        }
-                    );
-
-                    // 抛出main.js可以捕获它
-                    throw err;
-                }
             });
-
-
-
-
-
     }
 
     //Github上获取的最新配置文件写入本地磁盘
@@ -263,6 +249,13 @@ class Manager extends EventEmitter {
         // log.debug(`Status: ${status} - ${msg}`);
         console.log(`Status: ${status} - ${msg}`);
         this.emit('status', status, msg);
+    }
+
+    runGeth(){
+        console.log("启动Geth",this._availableClients['geth'].binPath)
+        let instance = spawn(this._availableClients['geth'].binPath,[
+            '--rpc', 
+            '--rpccorsdomain="http://localhost:8545"']);
     }
 }
 

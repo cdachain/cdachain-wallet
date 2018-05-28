@@ -24,7 +24,8 @@ if (typeof web3 !== 'undefined') {
 } else {
     //https://mainnet.infura.io/uIkf4qZgOSqDV0Ir5np1 
     //http://localhost:8545
-    web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/uIkf4qZgOSqDV0Ir5np1"));
+    // web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/uIkf4qZgOSqDV0Ir5np1"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 }
 
 Vue.web3 = Vue.prototype.$web3 = web3
