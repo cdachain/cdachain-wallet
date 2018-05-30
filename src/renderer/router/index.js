@@ -1,6 +1,7 @@
 import Vue      from 'vue'
 import Router   from 'vue-router'
 import Home     from '@/components/Home/Home'
+import Config     from '@/components/Config/Config'
 import Account  from '@/components/Account/Account'
 import Contacts from '@/components/Contacts/Contacts'
 import Setting  from '@/components/Setting/Setting'
@@ -11,6 +12,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'Config',
+      component: Config
+    },
+    {
+      path: '/home',
       name: 'Home',
       component: Home
     },

@@ -1,7 +1,7 @@
 <template>
   <header class="header b-flex">
       <ul class="header-nav">
-          <li><router-link to="/" class="active">{{ $t('model_header.home') }}</router-link></li>
+          <li><router-link to="/home" class="active">{{ $t('model_header.home') }}</router-link></li>
           <li><router-link to="/transfer">{{ $t('model_header.transfer') }}</router-link></li>
           <li><router-link to="/contacts">{{ $t('model_header.contacts') }}</router-link></li>
           <li><router-link to="/setting">{{ $t('model_header.setting') }}</router-link></li>

@@ -1,6 +1,6 @@
 import { app, BrowserWindow ,Menu} from 'electron'
 // import { app, BrowserWindow, Tray, Menu, Notification, clipboard, ipcMain, globalShortcut, dialog } from 'electron'
-const ClientBinaryManager = require('../../modules/clientBinaryManager');
+// const ClientBinaryManager = require('../../modules/clientBinaryManager');
 
 let menu;
 // const path          = require('path');
@@ -43,8 +43,8 @@ function createWindow () {
     mainWindow.loadURL(winURL);
     
     // mainWindow.webContents.openDevTools();
-    console.log("1.ClientBinaryManager 引入")
-    ClientBinaryManager.init();
+    console.log("1.ClientBinaryManager 不引入")
+    // ClientBinaryManager.init();
 
     // Fired when the window closes
     mainWindow.on('closed', function () {

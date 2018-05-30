@@ -7,6 +7,7 @@ const _ = require('underscore');
 const { spawn, spawnSync } = require('child_process');
 
 const ClientBinaryManager = require('ethereum-client-binaries').Manager;//Geth下载
+const download = require('download');
 const Settings = require('./settings');
 
 
@@ -136,94 +137,128 @@ class Manager extends EventEmitter {
 
                 // 扫描节点
                 console.log("localConfig的文件是", localConfig.clients.Geth.version)
-                const mgr = new ClientBinaryManager(localConfig);
+
+                //
+                var url = {
+                    // "linux":"https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.8.2-b8b9f7f4.tar.gz",
+                    // "macos":"https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.8.2-b8b9f7f4.tar.gz",
+                    // "windows":"https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.8.2-b8b9f7f4.zip",
+
+                    "linux":"http://a.f265.com/test/geth/geth-linux-amd64-1.8.2-b8b9f7f4.tar.gz",
+                    "macos":"http://a.f265.com/test/geth/geth-darwin-amd64-1.8.2-b8b9f7f4.tar.gz",
+                    "windows":"http://a.f265.com/test/geth/geth-windows-amd64-1.8.2-b8b9f7f4.zip",
+                }
+
+                var options = {
+                    directory: "/Users/broszhu/Library/Application Support/Electron/geth_demo",
+                    filename: "filename",
+                    extract:true,
+                    timeout:1000*60
+                }
+
+                //TODO 判断是否有Geth
+                try {
+                    var stats = fs.statSync(options.directory+'/geth-darwin-amd64-1.8.2-b8b9f7f4/geth2');
+                    console.log("存在的")
+                } catch (err) {
+                    console.log("不存在的")
+                }
                 
-                this._emit('scanning', '扫描二进制文件');
+                console.log("判断是否有Geth")
+
+                download(url.macos, options.directory,options).then(() => {
+                    console.log('已经下载好了!');
+                });
+
+                return;
+                // const mgr = new ClientBinaryManager(localConfig);
+                
+                // this._emit('scanning', '扫描二进制文件');
 
                 //初始化（扫描系统上现有的二进制文件）
-                return mgr.init({
-                    folders: [
-                        path.join(Settings.userDataPath, 'binaries', 'Geth', 'unpacked'),
-                        path.join(Settings.userDataPath, 'binaries', 'Eth', 'unpacked')
-                    ]
-                })
+                // return mgr.init({
+                //     folders: [
+                //         path.join(Settings.userDataPath, 'binaries', 'Geth', 'unpacked'),
+                //         path.join(Settings.userDataPath, 'binaries', 'Eth', 'unpacked')
+                //     ]
+                // })
 
-                    //
-                    .then(() => {
-                        const clients = mgr.clients;
-                        this._availableClients = {};
+                //     //
+                //     .then(() => {
+                //         const clients = mgr.clients;
+                //         this._availableClients = {};
 
 
-                        const available = _.filter(clients, c => !!c.state.available);//遍历list中的每个值，返回所有通过真值检测的元素所组成的数组
-                        console.log("clients是什么呢", clients)
-                        console.log("available是什么呢", available)
+                //         const available = _.filter(clients, c => !!c.state.available);//遍历list中的每个值，返回所有通过真值检测的元素所组成的数组
+                //         console.log("clients是什么呢", clients)
+                //         console.log("available是什么呢", available)
 
-                        this._emit('filtering', '过滤可用的客户端');
-                        _.each(mgr.clients, client => {
-                            if (client.state.available) {
-                                const idlcase = client.id.toLowerCase();
+                //         this._emit('filtering', '过滤可用的客户端');
+                //         _.each(mgr.clients, client => {
+                //             if (client.state.available) {
+                //                 const idlcase = client.id.toLowerCase();
 
-                                //idlcase
-                                ///Users/broszhu/Library/Application Support/Electron/binaries/Geth/unpacked/geth
-                                console.log("binPath",idlcase,Settings[`${idlcase}Path`] , client.activeCli.fullPath);
+                //                 //idlcase
+                //                 ///Users/broszhu/Library/Application Support/Electron/binaries/Geth/unpacked/geth
+                //                 console.log("binPath",idlcase,Settings[`${idlcase}Path`] , client.activeCli.fullPath);
                             
 
-                                this._availableClients[idlcase] = {
-                                    binPath:client.activeCli.fullPath,
-                                    // binPath:Settings[`${idlcase}Path`] || client.activeCli.fullPath,
-                                    version: client.version
-                                };
-                            }
-                        });
+                //                 this._availableClients[idlcase] = {
+                //                     binPath:client.activeCli.fullPath,
+                //                     // binPath:Settings[`${idlcase}Path`] || client.activeCli.fullPath,
+                //                     version: client.version
+                //                 };
+                //             }
+                //         });
 
 
-                        if (!available.length) {
-                            if (_.isEmpty(clients)) {
-                                throw new Error('没有可用于该系统的客户端二进制文件!');
-                            }
-                            console.log("_.values(clients)",_.values(clients))
-                            this._emit('downloading', '下载二进制文件' + Settings.userDataPath);
+                //         if (!available.length) {
+                //             if (_.isEmpty(clients)) {
+                //                 throw new Error('没有可用于该系统的客户端二进制文件!');
+                //             }
+                //             console.log("_.values(clients)",_.values(clients))
+                //             this._emit('downloading', '下载二进制文件' + Settings.userDataPath);
 
-                            axios.all(_.values(clients).map(function(c) {
-                                binariesIsDownloaded = true;//二进制文件是否已下载
-                                  console.log("正在下载",c.id)
-                                return mgr.download(c.id, {
-                                    downloadFolder: path.join(Settings.userDataPath, 'binaries'),//其中存档下载到文件夹
-                                    urlRegex: ALLOWED_DOWNLOAD_URLS_REGEX//只从这里下载
-                                }).then(file => {
-                                    console.log("文件下载好啦！！！")
-                                    this.runGeth()
-                                });
-                            }))
-                        }else{
-                            console.log("已经有Geth了")
-                            this.runGeth()
-                        }
+                //             axios.all(_.values(clients).map(function(c) {
+                //                 binariesIsDownloaded = true;//二进制文件是否已下载
+                //                   console.log("正在下载",c.id)
+                //                 return mgr.download(c.id, {
+                //                     downloadFolder: path.join(Settings.userDataPath, 'binaries'),//其中存档下载到文件夹
+                //                     urlRegex: ALLOWED_DOWNLOAD_URLS_REGEX//只从这里下载
+                //                 }).then(file => {
+                //                     console.log("文件下载好啦！！！")
+                //                     this.runGeth()
+                //                 });
+                //             }))
+                //         }else{
+                //             console.log("已经有Geth了")
+                //             this.runGeth()
+                //         }
 
-                    })
+                //     })
 
-                    //
-                    .then(() => {
-                        //如果下载
-                        if(binariesIsDownloaded){
-                            dialog.showMessageBox(
-                                {
-                                  type: 'warning',
-                                  buttons: ['OK'],
-                                  message: '正在下载Geth文件，请等待',
-                                  detail: '详情'
-                                },
-                                () => {}
-                              );
-                        }
-                        // 如果在运行时下载，则重启
-                        if (restart && binariesIsDownloaded) {
-                            console.log('重新启动应用程序 ...');
-                            app.relaunch();
-                            app.quit();
-                        }
-                        this._emit('done');
-                    });
+                //     //
+                //     .then(() => {
+                //         //如果下载
+                //         if(binariesIsDownloaded){
+                //             dialog.showMessageBox(
+                //                 {
+                //                   type: 'warning',
+                //                   buttons: ['OK'],
+                //                   message: '正在下载Geth文件，请等待',
+                //                   detail: '详情'
+                //                 },
+                //                 () => {}
+                //               );
+                //         }
+                //         // 如果在运行时下载，则重启
+                //         if (restart && binariesIsDownloaded) {
+                //             console.log('重新启动应用程序 ...');
+                //             app.relaunch();
+                //             app.quit();
+                //         }
+                //         this._emit('done');
+                //     });
 
 
             })
