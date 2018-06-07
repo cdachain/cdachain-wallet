@@ -169,6 +169,7 @@ export default {
         this.$web3.eth.getBalance(this.address)
             .then(data => {
                 this.accountInfo.balance = data
+                console.log(this.address,this.accountInfo.balance)
                 // reWrite balance
                 this.$db
                   .read()
