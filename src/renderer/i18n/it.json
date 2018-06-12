@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Si prega di inserire il nome dell'account",
             "no_address":"Si prega di inserire l'indirizzo del conto",
+            "valid_address":"L'indirizzo del contatto è illegale",
             "exist":"Il contatto esiste già,"
         }
     },

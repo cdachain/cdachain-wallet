@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Per piacè inserite u nome di u nome",
             "no_address":"Per piacè inseritu u indirizzu di e contu",
+            "valid_address":"L'indirizzu di u cuntattu hè illegale",
             "exist":"U cuntattu hè digià esiste,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
+            "address_err":"A forma di indirizzu entrant hè illegale",
             "send_success":"Fate successu",
             "send_error":"A transaczione falleva: Verificate puru si ci hè u bilanciu equilibru è a crescita di minore"
         }

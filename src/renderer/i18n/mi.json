@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Tomo koa koa te ingoa o te kaute",
             "no_address":"Tomo koa ki te urunga korero",
+            "valid_address":"He ture te paera o te whakapā",
             "exist":"Kua noho tonu te whakapiri,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Kua rahua te taraipa taraiwa, he hapa hapa kupuhipa",
+            "address_err":"Ko te hōputu wāhitau taumai he ture",
             "send_success":"Tukua he angitu",
             "send_error":"Kua rahua te mahi: Titiro koa mēnā he nui te utu me te utu a te minita"
         }

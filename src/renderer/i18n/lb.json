@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Gidd weg den Numm vum Kont un",
             "no_address":"Gidd weg d'Adress Adress",
+            "valid_address":"D'Adress vun der Persoun ass illegal",
             "exist":"De Kontakt existéiert schonn,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Portemonnaie vu Portemonnaie konnt net e Passwuertfehler sinn",
+            "address_err":"Incoming Adressform ass illegal",
             "send_success":"Sende Erfolleg",
             "send_error":"Transaktioun ofgeschalt: Préift weg, ob et genuch Ausbezuelen a Biergermesser ass"
         }

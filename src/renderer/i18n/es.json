@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Por favor ingrese el nombre de la cuenta",
             "no_address":"Por favor ingrese la dirección de la cuenta",
+            "valid_address":"La dirección del contacto es ilegal",
             "exist":"El contacto ya existe,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"El análisis de Wallet falló, puede haber un error de contraseña",
+            "address_err":"El formato de dirección entrante es ilegal",
             "send_success":"Enviar el exito",
             "send_error":"Transacción fallida: verifique si hay saldo suficiente y la tarifa del minero"
         }

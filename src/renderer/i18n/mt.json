@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Jekk jogħġbok daħħal l-isem tal-kont",
             "no_address":"Jekk jogħġbok daħħal l-indirizz tal-kont",
+            "valid_address":"L-indirizz tal-kuntatt huwa illegali",
             "exist":"Il-kuntatt diġà jeżisti,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
+            "address_err":"Il-format ta 'l-indirizz li jmiss huwa illegali",
             "send_success":"Ibgħat suċċess",
             "send_error":"Tranżizzjoni naqset: Jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u l-miżata tal-minatur"
         }
@@ -101,7 +103,7 @@
             "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont",
             "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kont",
             "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kont",
-            "strong_password":"Daħħal password soda, ta 'l-inqas 8 ċifri",
+            "strong_password":"Daħħal password soda, mill-inqas 8 ċifri",
 
             "account_address":"Kont",
             "account_privateKey":"Ċavetta privata",

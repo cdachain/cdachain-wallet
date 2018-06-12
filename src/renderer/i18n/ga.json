@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Cuir isteach ainm an chuntas",
             "no_address":"Cuir isteach an seoladh cuntas",
+            "valid_address":"Tá seoladh an teagmhála neamhdhleathach",
             "exist":"Tá an teagmháil ann cheana féin,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"D'fhéadfadh earráid phasfhocal a bheith i gceist le parsáil sa sparán",
+            "address_err":"Tá formáid seoladh isteach mídhleathach",
             "send_success":"Seol rath",
             "send_error":"Theip ar an Idirbheart: Seiceáil le do thoil má tá cothromaíocht leordhóthanach agus táille an mhinéir"
         }
@@ -126,7 +128,7 @@
             "backup":"Déan cinnte go bhfuil an cuntas curtha ar fáil chun damáiste maoine a sheachaint"
         },
         "msg_info":{
-            "exist":"Tá an cuntas seo ann cheana agus is é an t-ainm atá ann",
+            "exist":"Tá an cuntas seo ann cheana féin, is é an t-ainm",
             "enter_password":"Cuir isteach do phasfhocal",
             "incons_password":"Tá an focal faire isteach dhá uair neamhréireach",
             "error":"Earráid:",

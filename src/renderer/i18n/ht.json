@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Tanpri antre non kont lan",
             "no_address":"Tanpri antre adrès la kont",
+            "valid_address":"Adrès kontak la se ilegal",
             "exist":"Kontak la deja egziste,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Bous koule echwe, kapab yon erè modpas",
+            "address_err":"Fòma adrès fèk ap rantre se ilegal",
             "send_success":"Voye siksè",
             "send_error":"Tranzaksyon echwe: Tanpri tcheke si gen ase balans ak frè minè a"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Sila masukkan nama akaun",
             "no_address":"Sila masukkan alamat akaun",
+            "valid_address":"Alamat kenalan adalah haram",
             "exist":"Kenalan sudah wujud,"
         }
     },
@@ -59,8 +60,9 @@
         },
         "msg_info":{
             "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
+            "address_err":"Format alamat masuk adalah tidak sah",
             "send_success":"Hantar kejayaan",
-            "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"
+            "send_error":"transaksi gagal: Semak untuk melihat jika terdapat kira-kira dan pelombong cukup Bayaran"
         }
     },
     "page_account":{

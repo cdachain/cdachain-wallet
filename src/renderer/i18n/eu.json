@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Idatzi kontuaren izena",
             "no_address":"Idatzi kontuaren helbidea",
+            "valid_address":"Kontaktuaren helbidea legez kanpokoa da",
             "exist":"Kontaktua lehendik ere badago,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Ezin izan da horma-paperaren azterketa egin. Pasahitzaren errorea izan daiteke",
+            "address_err":"Sarrerako helbide formatua ez da legez kanpokoa",
             "send_success":"Bidali arrakasta",
             "send_error":"Transakzioak huts egin du: Egiaztatu oreka nahikoa eta mineraren kuota dagoela"
         }

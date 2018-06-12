@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Faamolemole ia tusia le igoa o le tala",
             "no_address":"Faamolemole ia ulufale i le tuatusi o le tala",
+            "valid_address":"O le tuatusi o le tuatusi e le tusa ai ma le tulafono",
             "exist":"Ua i ai nei le fesootaiga,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Ua le manuia le faila o le faila, atonu o se faʻasologa sese",
+            "address_err":"O le faʻauigaina o le tuatusi o le tuatusi e le tulafono",
             "send_success":"Auina atu le manuia",
             "send_error":"Ua le manuia le gaioiga: Faamolemole siaki pe a lava le paleni paleni ma le totogi o le tagata"
         }

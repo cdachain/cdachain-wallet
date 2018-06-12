@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Ampidiro azafady ny anaran'ny kaonty",
             "no_address":"Ampidiro azafady ny adiresy kaonty",
+            "valid_address":"Ny adiresin'ny mpifandray dia tsy ara-dalàna",
             "exist":"Efa misy ny fifandraisana,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Tsy nahomby ny fanesorana ny kitapo, mety ho fahadisoana anaty tenimiafina",
+            "address_err":"Tsy ara-dalàna ny endriky ny adiresy fanalahidy",
             "send_success":"Alefaso ny fahombiazana",
             "send_error":"Tsy nahomby ny fifanarahana: Tsidiho azafady raha misy ny salanisa sy ny karama fitrandrahana"
         }

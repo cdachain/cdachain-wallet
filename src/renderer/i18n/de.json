@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Bitte geben Sie den Kontonamen ein",
             "no_address":"Bitte geben Sie die Kontoadresse ein",
+            "valid_address":"Die Adresse des Kontakts ist illegal",
             "exist":"Der Kontakt existiert bereits,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise ein Kennwortfehler",
+            "address_err":"Das Format der eingehenden Adresse ist illegal",
             "send_success":"Senden Sie Erfolg",
             "send_error":"Transaktion fehlgeschlagen: Bitte prüfen Sie, ob genügend Guthaben und Bergarbeitergeld vorhanden sind"
         }
@@ -126,7 +128,7 @@
             "backup":"Bitte stellen Sie sicher, dass das Konto gesichert wurde, um Sachschäden zu vermeiden"
         },
         "msg_info":{
-            "exist":"Dieser Account existiert bereits und der Name ist",
+            "exist":"Dieser Account existiert bereits, der Name ist",
             "enter_password":"Bitte geben Sie Ihr Passwort ein",
             "incons_password":"Das doppelt eingegebene Passwort ist inkonsistent",
             "error":"Fehler:",

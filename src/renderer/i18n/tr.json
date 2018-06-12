@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Lütfen hesap adını giriniz",
             "no_address":"Lütfen hesap adresini giriniz",
+            "valid_address":"Kişinin adresi yasa dışı",
             "exist":"Kişi zaten var,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
+            "address_err":"Gelen adres biçimi yasa dışı",
             "send_success":"Başarı gönder",
             "send_error":"İşlem başarısız oldu: Lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Vinsamlegast sláðu inn nafn reikningsins",
             "no_address":"Vinsamlegast sláðu inn netfangið",
+            "valid_address":"Heimilisfang tengiliðar er ólöglegt",
             "exist":"Tengiliðurinn er þegar til,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Pappaþáttun mistókst, gæti verið lykilorðsvilla",
+            "address_err":"Móttekið heimilisfang snið er ólöglegt",
             "send_success":"Senda velgengni",
             "send_error":"Breyting mistókst: Vinsamlegast athugaðu hvort það sé nægjanlegt jafnvægi og gjaldþrota"
         }
@@ -126,7 +128,7 @@
             "backup":"Vinsamlegast vertu viss um að reikningurinn hafi verið afritaður til að koma í veg fyrir eignatjón"
         },
         "msg_info":{
-            "exist":"Þessi reikningur er þegar til, nafnið er",
+            "exist":"Þessi reikningur er þegar til og nafnið er",
             "enter_password":"Vinsamlegast sláðu inn lykilorðið þitt",
             "incons_password":"Lykilorðið sem slóst inn tvisvar er ósamræmi",
             "error":"Villa:",

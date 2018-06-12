@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Zadejte název účtu",
             "no_address":"Zadejte adresu účtu",
+            "valid_address":"Adresa kontaktu je neplatná",
             "exist":"Kontakt již existuje,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
+            "address_err":"Formát příchozí adresy je neplatný",
             "send_success":"Pošlete úspěch",
             "send_error":"Transakce se nezdařila: Zkontrolujte prosím, zda je dostatečný zůstatek a hornický poplatek"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"请输入账户名称",
             "no_address":"请输入账户地址",
+            "valid_address":"联系人的地址不合法",
             "exist":"联系人已经存在,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"钱包解析失败，可能是密码错误",
+            "address_err":"转入的地址格式不合法",
             "send_success":"发送成功",
             "send_error":"交易失败：请检查是否有足量余额和矿工费"
         }

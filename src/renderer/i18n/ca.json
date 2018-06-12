@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Introduïu el nom del compte",
             "no_address":"Introduïu l'adreça del compte",
+            "valid_address":"L'adreça del contacte és il·legal",
             "exist":"El contacte ja existeix,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Error en l'anàlisi de la cartera, pot ser un error de contrasenya",
+            "address_err":"El format d'adreça entrant és il·legal",
             "send_success":"Enviar èxit",
             "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i la tarifa del miner"
         }
@@ -126,7 +128,7 @@
             "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
         },
         "msg_info":{
-            "exist":"Aquest compte ja existeix, el nom és",
+            "exist":"Aquest compte ja existeix i el nom és",
             "enter_password":"Introduïu la vostra contrasenya",
             "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
             "error":"Error:",

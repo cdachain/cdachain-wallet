@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Voer de accountnaam in",
             "no_address":"Voer het accountadres in",
+            "valid_address":"Het adres van de contactpersoon is illegaal",
             "exist":"De contactpersoon bestaat al,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Portefeuille parseren mislukt, mogelijk een wachtwoordfout",
+            "address_err":"Inkomend adresformaat is illegaal",
             "send_success":"Stuur succes",
             "send_error":"Transactie mislukt: controleer of er voldoende saldo en mijnwerkerskosten zijn"
         }

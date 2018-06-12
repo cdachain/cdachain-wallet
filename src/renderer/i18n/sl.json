@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Vnesite ime računa",
             "no_address":"Vnesite naslov računa",
+            "valid_address":"Naslov stika je nezakonit",
             "exist":"Stik že obstaja,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, je lahko napaka gesla",
+            "address_err":"Oblika naslova naslova je nezakonita",
             "send_success":"Pošlji uspeh",
             "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
         }
@@ -123,7 +125,7 @@
         "remove_dia":{
             "tit":"Ali ste prepričani, da ga želite odstraniti?",
             "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Prepričajte se, da je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
+            "backup":"Preverite, ali je bil račun varnostno kopiran, da se izognete nepremoženjski škodi"
         },
         "msg_info":{
             "exist":"Ta račun že obstaja, ime je",

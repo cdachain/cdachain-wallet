@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Chonde lowetsani dzina la akaunti",
             "no_address":"Chonde lowetsani adilesi ya akaunti",
+            "valid_address":"Adilesi ya wothandizira ilibe malamulo",
             "exist":"Ulalowo ulipo kale,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Kusungidwa kwa ngongole kunalephera, kukhoza kukhala chinsinsi chachinsinsi",
+            "address_err":"Mafomu adilesi olowera ndi osaloleka",
             "send_success":"Tumizani kupambana",
             "send_error":"Kugulitsa kunalephera: Chonde onani ngati pali malipiro okwanira komanso malipiro a minera"
         }

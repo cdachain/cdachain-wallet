@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Fadlan qor magaca koontada",
             "no_address":"Fadlan qor cinwaanka koontada",
+            "valid_address":"Cinwaanka xidhiidhka waa sharci darro",
             "exist":"Xiriirkii hore u jirey,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Qashin khatarta ah ayaa ku fashilantay, waxay noqon kartaa qalad sir ah",
+            "address_err":"Nooca cinwaanka soo socda waa sharci daro",
             "send_success":"U soo dir guul",
             "send_error":"Hawlgalku wuu ku fashilmay: Fadlan hubi haddii ay jirto dheelitir ku filan iyo kharashka macdanta"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"請輸入賬戶名稱",
             "no_address":"請輸入賬戶地址",
+            "valid_address":"聯繫人的地址不合法",
             "exist":"聯繫人已經存在,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"錢包解析失敗，可能是密碼錯誤",
+            "address_err":"轉入的地址格式不合法",
             "send_success":"發送成功",
             "send_error":"交易失敗：請檢查是否有足量餘額和礦工費"
         }

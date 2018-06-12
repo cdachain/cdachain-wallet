@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Mangyaring ipasok ang pangalan ng account",
             "no_address":"Pakipasok ang address ng account",
+            "valid_address":"Ang address ng contact ay ilegal",
             "exist":"Ang contact ay umiiral na,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring isang error sa password",
+            "address_err":"Ang papalapit na format ng address ay labag sa batas",
             "send_success":"Magpadala ng tagumpay",
             "send_error":"Nabigo ang transaksyon: Mangyaring suriin kung may sapat na balanse at bayad sa minero"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Intra propter nomen tuum",
             "no_address":"Oratio pro PDF",
+            "valid_address":"Oratio contactus, non est legitimum scriptor",
             "exist":"Iam enim Contact:"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Peram animi fallit peccatum sit ignoro",
+            "address_err":"In forma oratio non esse legitimam,",
             "send_success":"mitte victoria",
             "send_error":"Rei deficit: vide si satis est ut Reprehendo et fossores feodo statera"
         }

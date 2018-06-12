@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Adja meg a fiók nevét",
             "no_address":"Kérjük, adja meg a fiókcímét",
+            "valid_address":"A kapcsolattartó címe illegális",
             "exist":"A kapcsolat már létezik,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"A Wallet-elemzés sikertelen, jelszóhiba lehet",
+            "address_err":"A bejövő címformátum illegális",
             "send_success":"Küldje el sikerét",
             "send_error":"A tranzakció sikertelen: Ellenőrizze, van-e elegendő egyensúly és bányász díja"
         }
@@ -126,7 +128,7 @@
             "backup":"Kérjük, győződjön meg róla, hogy a fiókot az anyagi károk elkerülése érdekében biztonsági mentés alatt tartotta"
         },
         "msg_info":{
-            "exist":"Ez a fiók már létezik, a név",
+            "exist":"Ez a fiók már létezik, és a név",
             "enter_password":"Kérjük, adja meg jelszavát",
             "incons_password":"A kétszer beírt jelszó következetlen",
             "error":"Hiba:",

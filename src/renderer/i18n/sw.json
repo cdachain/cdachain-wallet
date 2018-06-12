@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Tafadhali ingiza jina la akaunti",
             "no_address":"Tafadhali ingiza anwani ya akaunti",
+            "valid_address":"Anwani ya wasiliana ni kinyume cha sheria",
             "exist":"Mawasiliano tayari iko,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
+            "address_err":"Fomu ya anwani inayoingia ni kinyume cha sheria",
             "send_success":"Tuma mafanikio",
             "send_error":"Shughuli imeshindwa: Tafadhali angalia ikiwa kuna usawa wa kutosha na ada ya mchimbaji"
         }
@@ -126,7 +128,7 @@
             "backup":"Tafadhali hakikisha akaunti imehifadhiwa ili kuzuia uharibifu wa mali"
         },
         "msg_info":{
-            "exist":"Akaunti hii tayari iko na jina ni",
+            "exist":"Akaunti hii tayari iko, jina ni",
             "enter_password":"Tafadhali ingiza nenosiri lako",
             "incons_password":"Nenosiri lililoingia mara mbili halilingani",
             "error":"Hitilafu:",

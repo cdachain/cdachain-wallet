@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Anna tilin nimi",
             "no_address":"Anna tilin osoite",
+            "valid_address":"Yhteyshenkilön osoite on lainvastainen",
             "exist":"Yhteys on jo olemassa,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Lompakon jäsentely epäonnistui, voi olla salasanavirhe",
+            "address_err":"Saapuvan osoitteen muoto on lainvastainen",
             "send_success":"Lähetä menestys",
             "send_error":"Tapahtuma epäonnistui: tarkista, onko riittävä saldo ja kaivostyöntekijän maksu"
         }
@@ -126,7 +128,7 @@
             "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
         },
         "msg_info":{
-            "exist":"Tämä tili on jo olemassa ja nimi on",
+            "exist":"Tämä tili on jo olemassa, nimi on",
             "enter_password":"Anna salasanasi",
             "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
             "error":"Virhe:",

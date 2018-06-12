@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Indtast venligst kontonavnet",
             "no_address":"Indtast venligst kontoadressen",
+            "valid_address":"Kontaktens adresse er ulovlig",
             "exist":"Kontakten eksisterer allerede,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Palletparsing mislykkedes, det kan være en adgangskodefejl",
+            "address_err":"Indgående adresseformat er ulovligt",
             "send_success":"Send succes",
             "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejderens gebyr"
         }

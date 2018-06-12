@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Da fatan a shigar da sunan asusun",
             "no_address":"Da fatan a shigar da adireshin asusun",
+            "valid_address":"Lambar adireshin ba bisa doka ba ne",
             "exist":"Lambar ta rigaya ta kasance,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
+            "address_err":"Tsarin adireshin mai shiga ba bisa doka bane",
             "send_success":"Aika nasara",
             "send_error":"An gama aiki: Da fatan a bincika idan akwai cikakken ma'auni da kudin kuɗi"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Please enter the account name",
             "no_address":"Please enter the account address",
+            "valid_address":"The contact's address is illegal",
             "exist":"The contact already exists,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Wallet parsing failed, may be a password error",
+            "address_err":"Incoming address format is illegal",
             "send_success":"Sent successfully",
             "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"
         }

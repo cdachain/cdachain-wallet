@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Tuliskeun ngaran akun",
             "no_address":"Mangga lebetkeun alamat akun",
+            "valid_address":"Alamat kontak urang henteu sah",
             "exist":"Kontak geus aya,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
+            "address_err":"Kana format alamat henteu sah",
             "send_success":"Kirim surélék ayaan",
             "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"
         }

@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Iltimos, hisob nomini kiriting",
             "no_address":"Hisob manzilini kiriting",
+            "valid_address":"Kontakt manzili noqonuniydir",
             "exist":"Kontakt allaqachon mavjud,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, parol xato bo'lishi mumkin",
+            "address_err":"Kirish manzil formati noqonuniy hisoblanadi",
             "send_success":"Muvaffaqiyatli yuboring",
             "send_error":"Transaction failed: Iltimos, balans va miner ish haqi mavjudligini tekshiring"
         }

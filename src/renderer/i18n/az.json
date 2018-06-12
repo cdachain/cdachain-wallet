@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Xahiş edirik hesab adını daxil edin",
             "no_address":"Xahiş edirik hesab ünvanını daxil edin",
+            "valid_address":"Əlaqə ünvanı qeyri-qanunidir",
             "exist":"Əlaqə artıq mövcuddur,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Cüzdan ayırma başarısız oldu, parol hatası ola bilər",
+            "address_err":"Gələn ünvan formatı qanunsuzdur",
             "send_success":"Uğur göndərin",
             "send_error":"Əməliyyat başarısız: Xahiş edirik balansın və madencinin haqqını yoxlayın"
         }

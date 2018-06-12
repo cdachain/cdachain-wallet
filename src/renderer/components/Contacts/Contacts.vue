@@ -113,6 +113,11 @@ export default {
         this.$message.error(this.$t('page_contacts.msg_info.no_address'))
         return;
       }
+      if(!this.$web3.utils.isAddress(this.createInfo.address)){
+        this.$message.error(this.$t('page_contacts.msg_info.valid_address'))
+        return;
+      }
+      //this.$web3.utils.isAddress
 
       let tempCon = {
         tag: this.createInfo.tag,

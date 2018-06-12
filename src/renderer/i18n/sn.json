@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Ndapota tumira zita rekombi",
             "no_address":"Ndapota nyora kero kero",
+            "valid_address":"Kero yekambani yacho haisi pamutemo",
             "exist":"Kukurukurirana kwave kuripo,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Chikwereti chekurapa chakakundikana, chinogona kunge chiri chipikiso chepa password",
+            "address_err":"Inouya yero yemafomu maitiro haisi pamutemo",
             "send_success":"Tumira kubudirira",
             "send_error":"Transaction yakakundikana: Ndapota ona kana pane kukwana kwakakwana uye mari yemaminetsi"
         }

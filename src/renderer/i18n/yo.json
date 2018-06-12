@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Jowo tẹ orukọ iroyin naa",
             "no_address":"Jọwọ tẹ adirẹsi adirẹsi sii",
+            "valid_address":"Adirẹsi olubasọrọ naa jẹ arufin",
             "exist":"Olubasọrọ naa ti wa tẹlẹ,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
+            "address_err":"Orukọ adiresi ti nwọle jẹ arufin",
             "send_success":"Firanṣẹ aseyori",
             "send_error":"Ti kuna iṣẹ-ṣiṣe: Jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }

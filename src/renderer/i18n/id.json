@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Silakan masukkan nama akun",
             "no_address":"Silakan masukkan alamat akun",
+            "valid_address":"Alamat kontak itu ilegal",
             "exist":"Kontak sudah ada,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Gagal menguraikan dompet, mungkin merupakan kesalahan kata sandi",
+            "address_err":"Format alamat masuk adalah ilegal",
             "send_success":"Kirim sukses",
             "send_error":"Transaksi gagal: Silakan periksa apakah ada saldo yang cukup dan biaya penambang"
         }

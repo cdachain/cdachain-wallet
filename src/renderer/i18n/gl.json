@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Introduce o nome da conta",
             "no_address":"Introduce o enderezo da conta",
+            "valid_address":"O enderezo do contacto é ilegal",
             "exist":"O contacto xa existe,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
+            "address_err":"O formato de enderezo entrante é ilegal",
             "send_success":"Enviar éxito",
             "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
         }
@@ -126,7 +128,7 @@
             "backup":"Asegúrese de que a conta se fixo copias de seguridade para evitar danos á propiedade"
         },
         "msg_info":{
-            "exist":"Esta conta xa existe eo nome é",
+            "exist":"Esta conta xa existe, o nome é",
             "enter_password":"Introduce o teu contrasinal",
             "incons_password":"O contrasinal introducido dúas veces é inconsistente",
             "error":"Erro:",

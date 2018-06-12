@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Palihug pagsulod sa ngalan sa account",
             "no_address":"Palihug pagsulod sa address sa account",
+            "valid_address":"Ang address sa contact maoy ilegal",
             "exist":"Ang kontak nga anaa na,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Ang pagwagtang sa pitaka napakyas, tingali usa ka sayop nga password",
+            "address_err":"Ang umaabot nga format sa address ilegal",
             "send_success":"Ipadala ang kalampusan",
             "send_error":"Ang transaksyon napakyas: Palihug susiha kung adunay igong balanse ug bayad sa minero"
         }
@@ -134,7 +136,7 @@
             "enter_private":"Palihug pagsulod sa yawe",
             "error_private":"Napakyas sa pag-import sa account, kini mahimong sayop nga yawe",
             "enter_keystore":"Palihug i-import una ang keystore file una",
-            "error_password":"Napakyas sa pag-import sa account, mahimong sayop nga password",
+            "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
             "remove_success":"Malampuson nga nahuman",
             "create_success":"Nahimo nga malampuson",
             "save":"Palihog luwasa ang imong keystore o pribadong yawe ug ayaw ipaambit kini sa bisan kinsa!"

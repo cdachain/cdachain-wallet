@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Ka kopo kenya lebitso la akhaonto",
             "no_address":"Ka kopo kenya aterese ea akhaonto",
+            "valid_address":"Aterese ea moqoqo ha e molaong",
             "exist":"Mesebetsi e se e ntse e le teng,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Ho fapana ha lichelete ho hlōlehile, e ka 'na ea e-ba phoso ea password",
+            "address_err":"Tsela e aterese ea aterese e seng molaong",
             "send_success":"Romela katleho",
             "send_error":"Transaction e ile ea hlōleha: Ka kōpo hlahloba hore na ho na le tekanyo e lekaneng ea tekanyo le tefo ea merafo"
         }

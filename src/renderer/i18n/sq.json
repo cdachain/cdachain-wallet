@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Futni emrin e llogarisë",
             "no_address":"Ju lutemi shkruani adresën e llogarisë",
+            "valid_address":"Kontakt adresa nuk është e ligjshme",
             "exist":"Kontakti tashmë ekziston,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
+            "address_err":"Formati i adresës së hyrjes është i paligjshëm",
             "send_success":"Dërgo sukses",
             "send_error":"Transaksioni dështoi: Ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }
@@ -126,7 +128,7 @@
             "backup":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
         },
         "msg_info":{
-            "exist":"Kjo llogari tashmë ekziston, emri është",
+            "exist":"Kjo llogari tashmë ekziston dhe emri është",
             "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
             "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
             "error":"gabim:",

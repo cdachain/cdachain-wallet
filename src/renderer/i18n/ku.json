@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Ji kerema xwe navê navnîşê hesab bike",
             "no_address":"Ji kerema xwe navnîşana hesabê xwe binivîse",
+            "valid_address":"Navnîşa têkiliyê neqanûn e",
             "exist":"Têkilî niha heye,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Parsing failed, dibe ku çewtiyek şîfre be",
+            "address_err":"Forma adresa neyê qanûn e",
             "send_success":"Serkeftî bişînin",
             "send_error":"Veguhastin têkelî: Ji kerema xwe hebe ku heger heya heqê heqê û heqê minerek hebe"
         }
@@ -126,7 +128,7 @@
             "backup":"Ji kerema xwe re bisekinin ku hesabê piştevanîya ku ji zirarê zirarê bisekinin"
         },
         "msg_info":{
-            "exist":"Ev hesab jixwe heye û navê wî ye",
+            "exist":"Ev hesab jixwe heye, navê wî ye",
             "enter_password":"Ji kerema xwe şîfreya xwe binivîse",
             "incons_password":"Şîfreya du caran têkildar e",
             "error":"Çewtiya",

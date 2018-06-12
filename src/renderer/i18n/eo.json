@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Bonvolu enmeti la kontonnomon",
             "no_address":"Bonvolu eniri la adreson",
+            "valid_address":"La adreso de la kontakto estas neleĝa",
             "exist":"La kontakto jam ekzistas,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Malkrapa prizorgado malsukcesis, eble pasvorto eraro",
+            "address_err":"La formato de venonta adreso estas neleĝa",
             "send_success":"Sendu sukceson",
             "send_error":"Transakcio malsukcesis: Bonvolu kontroli ĉu estas sufiĉa ekvilibro kaj la salajro de la ministo"
         }

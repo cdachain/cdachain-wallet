@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Molimo unesite ime računa",
             "no_address":"Molimo unesite adresu računa",
+            "valid_address":"Adresa kontakta je nelegalna",
             "exist":"Kontakt već postoji,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
+            "address_err":"Format ulazne adrese je nezakonit",
             "send_success":"Pošalji uspeh",
             "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
         }
@@ -126,7 +128,7 @@
             "backup":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
         },
         "msg_info":{
-            "exist":"Ovaj nalog već postoji i ime je",
+            "exist":"Ovaj nalog već postoji, ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",

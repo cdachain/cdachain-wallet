@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Fier de accountnamme yn",
             "no_address":"Fier de accountadres yn",
+            "valid_address":"It adres fan 'e kontakt is illegal",
             "exist":"It kontakt is al bestiet,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Portemonneare parsing mislearre, kin in wachtwurd fout wêze",
+            "address_err":"Ynkommend adresformaat is illegaal",
             "send_success":"Stjoer sukses",
             "send_error":"Ferkearing mislearre: Kontrolearje oft der foldwaande balâns en mineraske fergoeding is"
         }

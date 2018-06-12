@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Rhowch enw'r cyfrif",
             "no_address":"Rhowch y cyfeiriad cyfrif",
+            "valid_address":"Mae cyfeiriad y cyswllt yn anghyfreithlon",
             "exist":"Mae'r cyswllt eisoes yn bodoli,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Efallai y bydd dadliad gwaledi yn methu cyfrinair",
+            "address_err":"Mae'r fformat cyfeiriad sy'n dod i mewn yn anghyfreithlon",
             "send_success":"Anfon llwyddiant",
             "send_error":"Methodd y trafodiad: Gwiriwch a oes digon o gydbwysedd a ffioedd y glowyr"
         }

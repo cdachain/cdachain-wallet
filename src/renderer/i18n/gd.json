@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Cuir a-steach ainm a 'chunntais",
             "no_address":"Cuir a-steach an seòladh chunntais",
+            "valid_address":"Tha seòladh an neach-conaltraidh mì-laghail",
             "exist":"Tha an ceangal a-cheana ann,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Dh'fhàillig parsadh barain, is dòcha gur e mearachd facal-faire a th 'ann",
+            "address_err":"Tha an seòladh seòlaidh a tha a 'tighinn a-steach mì-laghail",
             "send_success":"Cuir soirbheachadh",
             "send_error":"Dh'fhàillig an t-atharrachadh: Dèan cinnteach a bheil cothromachadh gu leòr ann agus cìs nam mèinnearan"
         }

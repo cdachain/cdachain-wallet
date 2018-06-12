@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Mangga ketik jeneng akun",
             "no_address":"Mangga ketik alamat akun",
+            "valid_address":"Alamat kontak iku ilegal",
             "exist":"Kontak wis ana,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
+            "address_err":"Format alamat sing bakal teka minangka ilegal",
             "send_success":"Kirim sukses",
             "send_error":"Transaksi gagal: Mangga dipriksa manawa ana keseimbangan sing cukup lan ragad penambang"
         }

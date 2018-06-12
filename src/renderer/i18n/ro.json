@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Introduceți numele contului",
             "no_address":"Introduceți adresa contului",
+            "valid_address":"Adresa de contact este ilegală",
             "exist":"Contactul există deja,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Parcelarea parolei nu a reușit, poate fi o eroare de parolă",
+            "address_err":"Formatul adresei de intrare este ilegal",
             "send_success":"Trimite succesul",
             "send_error":"Tranzacția a eșuat: verificați dacă există un echilibru suficient și taxa minelor"
         }

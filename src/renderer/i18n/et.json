@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Palun sisestage konto nimi",
             "no_address":"Palun sisestage konto aadress",
+            "valid_address":"Kontaktisiku aadress on ebaseaduslik",
             "exist":"Kontakti on juba olemas"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Rahakoti parsing ebaõnnestus, võib olla parooli viga",
+            "address_err":"Saabuva aadressi formaat on ebaseaduslik",
             "send_success":"Saada edu",
             "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja kaevandamise tasu"
         }
@@ -126,7 +128,7 @@
             "backup":"Veenduge, et konto on varundatud, et vältida varakahju"
         },
         "msg_info":{
-            "exist":"See konto on juba olemas, nimi on",
+            "exist":"See konto on juba olemas ja nimi on",
             "enter_password":"Palun sisesta oma parool",
             "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
             "error":"Viga:",

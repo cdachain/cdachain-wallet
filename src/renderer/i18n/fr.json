@@ -36,6 +36,7 @@
         "msg_info":{
             "no_tag":"Veuillez entrer le nom du compte",
             "no_address":"Veuillez entrer l'adresse du compte",
+            "valid_address":"L'adresse du contact est illégale",
             "exist":"Le contact existe déjà,"
         }
     },
@@ -59,6 +60,7 @@
         },
         "msg_info":{
             "decrypt_err":"Échec de l'analyse du portefeuille, peut être une erreur de mot de passe",
+            "address_err":"Le format d'adresse entrante est illégal",
             "send_success":"Envoyer le succès",
             "send_error":"La transaction a échoué: Veuillez vérifier s'il y a un solde suffisant et les frais de mineur"
         }
