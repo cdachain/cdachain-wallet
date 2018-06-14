@@ -14,6 +14,20 @@ import db from '../datastore/index'
 import VueI18n from 'vue-i18n'
 import languges from '../../i18n/languges_conf'
 
+//log4js
+//testLog4.js
+const path = require("path");
+const log4js = require('log4js')
+import utility from '../setting/settings'
+const logPath=path.join(utility.userDataPath,'logs',"error.log")
+log4js.configure({
+  appenders: { cheese: { type: 'file', filename: logPath } },
+  categories: { default: { appenders: ['cheese'], level: 'error' } }
+});
+Vue.log4js = Vue.prototype.$log4js = log4js
+const logger = log4js.getLogger('src/renderer/main.js');
+logger.error(" *********** RUN MAIN *********** ");
+
 Vue.use(VueI18n);
 Vue.use(ElementUI);
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
