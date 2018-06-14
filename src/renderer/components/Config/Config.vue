@@ -39,7 +39,7 @@ export default {
         initConfig() {
             this.latest_config = {
                 content: "",
-                BINARY_URL:"https://raw.githubusercontent.com/ethereum/mist/master/clientBinaries.json"
+                BINARY_URL:"http://127.0.0.1:3000/assets/clientBinaries.json"
             };
             this.node_info = {
                 NODE_TYPE: "Geth",
@@ -120,16 +120,6 @@ export default {
           
           this.node_info.binaryVersion=this.latest_config.content.clients[this.node_info.NODE_TYPE].platforms[platform][process.arch].download;
 
-          //test dolw
-          var testURL="";
-          if(platform == "mac"){
-            testURL='https://zhubangbang.com/demo/geth/geth-darwin-amd64-1.8.8-2688dab4.tar.gz';
-          }else if(platform == "win"){
-            testURL='https://zhubangbang.com/demo/geth/geth-windows-amd64-1.8.8-2688dab4.zip';
-          }else if(platform == "linux"){
-            testURL='https://zhubangbang.com/demo/geth/geth-linux-amd64-1.8.8-2688dab4.tar.gz';
-          }
-
           var options = {
               directory: path.join(this.userDataPath, "download"),
               dirname: "filename",
@@ -146,7 +136,7 @@ export default {
           } catch (err) {
               this.conMsg="不存在的";
               
-              download(this.node_info.binaryVersion.url&&testURL, options.directory,options).then(() => {
+              download(this.node_info.binaryVersion.url, options.directory,options).then(() => {
                 this.conMsg="已经下载好了";
                 self.runGeth();
             });
@@ -154,6 +144,7 @@ export default {
           
         },
         runGeth(){
+            console.log('启动Geth',this.node_info.binaryVersion.bin)
             this.conMsg="启动Geth";
             let instance = spawn(path.join(this.userDataPath, "download", this.node_info.binaryVersion.bin),[
                 '--rpc', 

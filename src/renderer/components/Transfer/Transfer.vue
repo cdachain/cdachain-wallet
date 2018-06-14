@@ -262,7 +262,7 @@ export default {
 
     //confrim validate
     validateForm:function(){
-      if(!this.$web3.utils.isAddress(this.selectedContact)){
+      if(!this.$web3.utils.isAddress(this.toAccount)){
         this.$message.error(this.$t('page_transfer.msg_info.address_err'))
         return;
       }
