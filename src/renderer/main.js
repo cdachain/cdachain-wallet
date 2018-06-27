@@ -77,6 +77,9 @@ function getAccounts(){
     .then(function(data) {
         return data.accounts;
     }).then(function(data){
+        if(data==""){
+            data=[];
+        }
         //先把本地数据库存在，但是 data 里不存在的账户 删除
         var database= db.get("czr_accounts").value();
         var databaseAry=[];
