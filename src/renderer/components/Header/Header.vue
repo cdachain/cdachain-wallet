@@ -8,7 +8,6 @@
       </ul>
       <div class="has-assets-czr">
           {{ $t('model_header.total') }}
-          <!-- <strong>{{totalBalance}}</strong> -->
           {{ $t('unit.czr') }}
       </div>
   </header>
@@ -23,42 +22,13 @@ export default {
     };
   },
   created() {
-    // Init Account
-    // const czrAccounts = this.$db.get('czr_accounts').value();
-    // this.database = czrAccounts;
-    // this.refresh()
+    
   },
   computed: {
-    totalBalance:function(){
-      let total=0;
-      if(this.database.length){
-        this.database.forEach(item => {
-            total+=Number(item.balance);
-        })
-        // return this.$web3.utils.fromWei(total.toString(), 'ether')
-        // return total;
-        //TODO 保留4位小数
-        console.log("total",total)
-        return this.$web3.utils.fromWei(total+"", 'ether'); 
-      }else{
-        return "-"
-      }
-    }
+    
   },
   methods:{
-    refresh () {
-      this.database.forEach(item => {
-          this.getBalance(item)
-      })
-    },
-    getBalance (item) {
-      this.$web3.eth.getBalance(item.address)
-          .then(data => {
-              item.balance = data
-              // item.balance = this.$web3.utils.fromWei(data, 'ether')
-          })
-          .catch(console.log )
-    }
+    
   }
 };
 </script>

@@ -1,7 +1,6 @@
 "use strict";
 var version = require('./version.json').version;
 var utils = require('./utils');
-// var Account = require('./web3-eth');
 var HttpRequest = require('./httprequest');
 
 var Czr = function Czr(request) {

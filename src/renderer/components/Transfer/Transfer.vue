@@ -325,57 +325,6 @@ export default {
             //         this.$t("page_transfer.msg_info.send_error")
             //     );
             // });
-
-            //Signs an Ethereum transaction with a given private key
-
-            return;
-            this.$web3.eth.accounts
-                .signTransaction(
-                    {
-                        to: this.toAccount,
-                        gas: this.gasLimit, //Gas Limit
-                        data: this.extraData
-                        //      }, this.accountInfo.privateKey)
-                    },
-                    account.privateKey
-                )
-                .then(hex => {
-                    /*{
-                messageHash: '0x6893a6ee8df79b0f5d64a180cd1ef35d030f3e296a5361cf04d02ce720d32ec5',
-                r: '0x9ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9c',
-                s: '0x440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428',
-                v: '0x25',
-                rawTransaction: '0xf86a8086d55698372431831e848094f0109fc8df283027b6285cc889f5aa624eac1f55843b9aca008025a009ebb6ca057a0535d6186462bc0b465b561c94a295bdb0621fc19208ab149a9ca0440ffd775ce91a833ab410777204d5341a6f9fa91216a6f3ee2c051fea6a0428'
-            }
-            */
-                    return this.$web3.eth.sendSignedTransaction(
-                        hex.rawTransaction
-                    );
-                })
-                .then(data => {
-                    /*
-           {
-              transactionHash: "0x79606c95358ff6b6f6bd585fa2801a1e2fa418753ff5bf84a00472f8a0eda96f",
-              transactionIndex: 0,
-              blockHash: "0x657d7609ff7abc77fcde66dc7559e8e631acd8705186c9a17dcaf2111126c761",
-              blockNumber: 1,
-              contractAddress : null
-              cumulativeGasUsed : 21000
-              gasUsed : 21000
-              logs : Array(0)
-              logsBloom : "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-              status : true
-           }
-*/
-
-                    this.$web3.eth
-                        .getTransaction(data.transactionHash)
-                        .then(receiptData => {
-                            this.$web3.eth
-                                .getBlock(data.blockHash)
-                                .then(blockObj => {});
-                        });
-                });
         }
     },
     filters: {
