@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Mawasiliano",
-        "add_dialog":"Ongeza anwani",
+        "add_dialog":"Mawasiliano mpya",
         "add_cont": {
-            "tit":"Ingiza maelezo ya mawasiliano",
-            "tag":"Vitambulisho",
-            "address":"Mawasiliano",
-            "tag_placeholder":"Tafadhali ingiza lebo ya maoni ya wasiliana",
-            "address_placeholder":"Tafadhali ingiza akaunti ya mawasiliano"
+            "tit":"Mawasiliano mpya",
+            "tag":"Mawasiliano",
+            "address":"Anwani ya Akaunti",
+            "tag_placeholder":"Tafadhali ingiza jina la anwani",
+            "address_placeholder":"Tafadhali ingiza anwani ya anwani ya anwani"
         },
         "delete_dialog": {
             "title":"Unaondoa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Hakuna historia ya shughuli",
         "active_icon": {
             "go_transfer":"Anza uhamisho",
-            "import_keystore":"Keystore",
+            "import_keystore":"Faili ya Akaunti",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Andika alama kwa akaunti yako"
         },
         "keystore": {
-            "tit":"Rudi nyuma kitufe cha ufunguo",
+            "tit":"Faili ya mkoba wa Backup",
             "copy":"Duplicate",
-            "download":"Pakua kituo cha keystore"
+            "download":"Pakua faili ya mkoba"
         },
         "msg_info": {
             "ads_copy_success":"Anwani imechapishwa",
@@ -125,89 +125,12 @@
             "imported_success":"Ingiza faili kwa mafanikio",
             "imported_account_success":"Imeagizwa kwa mafanikio",
             "enter_private":"Tafadhali ingiza ufunguo",
-            "error_private":"Imeshindwa kuingiza akaunti, inaweza kuwa ni ufunguo usio sahihi",
+            "error_keystore":"Imeshindwa kuingiza akaunti, inaweza kuwa kosa la faili la akaunti",
             "enter_keystore":"Tafadhali ingiza faili ya akaunti kwanza",
             "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
             "remove_success":"Imeondolewa kwa mafanikio",
             "create_success":"Imeundwa kwa ufanisi",
             "save":"Tafadhali salama faili yako ya akaunti na usishiriki na mtu yeyote!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Unda Wallet",
-        "import_wallet":"Ingiza mkoba",
-        "back_up":"Mkoba wa Backup",
-        "add_account":"Akaunti mpya",
-        "acc":"Akaunti",
-        "wallet":"Mkoba",
-        "create_dia": {
-            "create_tit":"Unda akaunti",
-            "backup_tit":"Rudirisha akaunti yako mpya",
-            "create_tag":"Jina la Akaunti",
-            "create_pwd":"Weka nenosiri",
-            "create_repwd":"Thibitisha nenosiri",
-            "placeholder_tag":"Tafadhali weka jina la akaunti",
-            "placeholder_pwd":"Tafadhali weka nenosiri la akaunti",
-            "placeholder_repwd":"Tafadhali thibitisha nenosiri la akaunti",
-            "strong_password":"Ingiza nenosiri kali, angalau tarakimu 8",
-            "account_address":"Akaunti",
-            "account_privateKey":"Kitufe cha faragha",
-            "account_download_keystore":"Pakua faili ya keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Unda Wallet",
-            "backup_tit":"Rudi nyuma mkoba wako mpya",
-            "create_tag":"Jina la mkoba",
-            "create_pwd":"Weka nenosiri",
-            "create_repwd":"Thibitisha nenosiri",
-            "placeholder_tag":"Tafadhali weka jina la mkoba",
-            "placeholder_pwd":"Tafadhali weka nenosiri la mkoba",
-            "placeholder_repwd":"Tafadhali thibitisha nenosiri la mkoba",
-            "strong_password":"Ingiza nenosiri kali, angalau tarakimu 8",
-            "wallet_address":"Mkoba",
-            "download_wallet_file":"Pakua faili ya mkoba"
-        },
-        "import_wallet_dia": {
-            "tit":"Ingiza mkoba",
-            "placeholder_keystore":"Tafadhali futa faili za mkoba hapa",
-            "placeholder_tag":"Tafadhali weka jina la mkoba",
-            "create_tag":"Jina la mkoba",
-            "input_pwd":"Ingiza nenosiri",
-            "placeholder_pwd":"Tafadhali ingiza nenosiri lako la mkobaji"
-        },
-        "remove_dia": {
-            "tit":"Una uhakika unataka kuondoa mkobaji?",
-            "remove_confrim":"Nina uhakika kuondoa",
-            "backup":"Tafadhali hakikisha mkoba umehifadhiwa ili kuzuia uharibifu wa mali"
-        },
-        "remove_wallet_dia": {
-            "tit":"Una uhakika unataka kuiondoa?",
-            "remove_confrim":"Nina uhakika kuondoa",
-            "backup":"Tafadhali hakikisha mkoba umehifadhiwa ili kuzuia uharibifu wa mali"
-        },
-        "backup_wallet_dia": {
-            "tit":"Rudirisha faili yako ya mkoba",
-            "remove_confrim":"Nina uhakika kuondoa",
-            "backup":"Bofya Bofya ili uhifadhi faili yako ya mkoba",
-            "download":"Pakua"
-        },
-        "msg_info": {
-            "exist":"Tayari ipo, jina ni",
-            "wallet_tag_error":"Tafadhali ingiza jina la mkoba",
-            "enter_password":"Tafadhali ingiza nenosiri lako",
-            "incons_password":"Nenosiri lililoingia mara mbili halilingani",
-            "error":"Hitilafu:",
-            "imported_success":"Ingiza faili kwa mafanikio",
-            "imported_wallet_success":"Mkoba umeagizwa kwa mafanikio",
-            "enter_private":"Tafadhali ingiza ufunguo",
-            "error_private":"Imeshindwa kuingiza akaunti, inaweza kuwa ni ufunguo usio sahihi",
-            "enter_keystore":"Tafadhali ingiza faili ya mkoba kwanza",
-            "error_password":"Imeshindwa kuingiza akaunti, inaweza kuwa nenosiri lisilo sahihi",
-            "remove_success":"Imeondolewa kwa mafanikio",
-            "create_success":"Imeundwa kwa ufanisi",
-            "acc_create_success_des":"Anwani ya Akaunti inaweza kutumika kupokea CZR",
-            "acc_wallet_success_des":"Rudi nyuma faili zako za mkoba, usiambie mtu yeyote",
-            "save":"Tafadhali salama kituo chako cha keystore na usishiriki na mtu yeyote!"
         }
     }
 }

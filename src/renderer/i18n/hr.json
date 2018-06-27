@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"kontakt",
-        "add_dialog":"Dodajte kontakt",
+        "add_dialog":"Novi kontakt",
         "add_cont": {
-            "tit":"Unesite podatke o kontaktu",
-            "tag":"oznaka",
-            "address":"kontakt",
-            "tag_placeholder":"Unesite oznaku komentara kontakta",
-            "address_placeholder":"Unesite kontakt račun"
+            "tit":"Novi kontakt",
+            "tag":"kontakt",
+            "address":"Adresa računa",
+            "tag_placeholder":"Unesite ime kontakta",
+            "address_placeholder":"Unesite adresu računa kontakta"
         },
         "delete_dialog": {
             "title":"Uklanjate"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Nema povijesti transakcija",
         "active_icon": {
             "go_transfer":"Pokrenite prijenos",
-            "import_keystore":"ključeva",
+            "import_keystore":"Datoteka računa",
             "qrcode":"QR kod"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Označite bilješku za svoj račun"
         },
         "keystore": {
-            "tit":"Izradite sigurnosnu kopiju ključeve",
+            "tit":"Sigurnosna kopija datoteke lisnice",
             "copy":"kopija",
-            "download":"Preuzmite ključnu poštu"
+            "download":"Preuzmite datoteku lisnice"
         },
         "msg_info": {
             "ads_copy_success":"Adresa je kopirana",
@@ -125,89 +125,12 @@
             "imported_success":"Uvezi datoteku uspješno",
             "imported_account_success":"Uvezeno je uspješno",
             "enter_private":"Unesite ključ",
-            "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
+            "error_keystore":"Uvoz računa nije uspio, možda je pogreška u datoteci računa",
             "enter_keystore":"Najprije uvezite datoteku računa",
             "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
             "remove_success":"Uklonjeno je uspješno",
             "create_success":"Izrađeno je uspješno",
             "save":"Spremite datoteku svog računa i nemojte ga dijeliti s nikim!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Izradi novčanik",
-        "import_wallet":"Uvezite novčanik",
-        "back_up":"Sigurnosni wallet",
-        "add_account":"Novi račun",
-        "acc":"račun",
-        "wallet":"novčanik",
-        "create_dia": {
-            "create_tit":"Stvorite račun",
-            "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
-            "create_tag":"Naziv računa",
-            "create_pwd":"Postavi lozinku",
-            "create_repwd":"Potvrdite lozinku",
-            "placeholder_tag":"Postavite naziv računa",
-            "placeholder_pwd":"Postavite zaporku računa",
-            "placeholder_repwd":"Potvrdite zaporku računa",
-            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
-            "account_address":"račun",
-            "account_privateKey":"Privatni ključ",
-            "account_download_keystore":"Preuzmite datoteku ključa"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Izradi novčanik",
-            "backup_tit":"Izradite sigurnosnu kopiju novog novčanika",
-            "create_tag":"Naziv lisnice",
-            "create_pwd":"Postavi lozinku",
-            "create_repwd":"Potvrdite lozinku",
-            "placeholder_tag":"Postavite naziv lisnice",
-            "placeholder_pwd":"Postavite lozinku za lisnicu",
-            "placeholder_repwd":"Potvrdite zaporku lisnice",
-            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
-            "wallet_address":"novčanik",
-            "download_wallet_file":"Preuzmite datoteku lisnice"
-        },
-        "import_wallet_dia": {
-            "tit":"Uvezite novčanik",
-            "placeholder_keystore":"Molimo vas povucite datoteke lisnice ovdje",
-            "placeholder_tag":"Postavite naziv lisnice",
-            "create_tag":"Naziv lisnice",
-            "input_pwd":"Unesite lozinku",
-            "placeholder_pwd":"Unesite zaporku za lisnicu"
-        },
-        "remove_dia": {
-            "tit":"Jeste li sigurni da želite ukloniti novčanik?",
-            "remove_confrim":"Sigurno ću ukloniti",
-            "backup":"Provjerite je li sigurnosno kopiran novčanik da biste izbjegli oštećenje imovine"
-        },
-        "remove_wallet_dia": {
-            "tit":"Jeste li sigurni da ga želite ukloniti?",
-            "remove_confrim":"Sigurno ću ukloniti",
-            "backup":"Provjerite je li sigurnosno kopiran novčanik da biste izbjegli oštećenje imovine"
-        },
-        "backup_wallet_dia": {
-            "tit":"Izradite sigurnosnu kopiju datoteke svog novčanika",
-            "remove_confrim":"Sigurno ću ukloniti",
-            "backup":"Kliknite Preuzmi da biste sigurnosno kopirali datoteku svoje lisnice",
-            "download":"Preuzimanje"
-        },
-        "msg_info": {
-            "exist":"Već postoji, ime je",
-            "wallet_tag_error":"Unesite naziv lisnice",
-            "enter_password":"Unesite zaporku",
-            "incons_password":"Unosom lozinke dvaput nije konzistentan",
-            "error":"pogreška:",
-            "imported_success":"Uvezi datoteku uspješno",
-            "imported_wallet_success":"Novčanik je uspješno uvezen",
-            "enter_private":"Unesite ključ",
-            "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
-            "enter_keystore":"Najprije uvedi datoteku lisnice",
-            "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
-            "remove_success":"Uklonjeno je uspješno",
-            "create_success":"Izrađeno je uspješno",
-            "acc_create_success_des":"Adresa računa može se koristiti za primanje CZR-a",
-            "acc_wallet_success_des":"Izradite sigurnosnu kopiju datoteka svog novčanika, nemojte nikome reći",
-            "save":"Spremite ključnu poštu i nemojte ga dijeliti nikome!"
         }
     }
 }

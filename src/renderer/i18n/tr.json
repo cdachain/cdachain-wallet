@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"temas",
-        "add_dialog":"Bir kişi ekle",
+        "add_dialog":"Yeni iletişim",
         "add_cont": {
-            "tit":"İletişim bilgilerini giriniz",
-            "tag":"etiket",
-            "address":"temas",
-            "tag_placeholder":"Lütfen kişinin yorum etiketini girin",
-            "address_placeholder":"Lütfen kişi hesabını giriniz"
+            "tit":"Yeni iletişim",
+            "tag":"temas",
+            "address":"Hesap adresi",
+            "tag_placeholder":"Lütfen kişinin adını giriniz",
+            "address_placeholder":"Lütfen kişinin hesap adresini giriniz"
         },
         "delete_dialog": {
             "title":"Sen kaldırıyorsun"
@@ -69,7 +69,7 @@
         "transfer_log_null":"İşlem geçmişi yok",
         "active_icon": {
             "go_transfer":"Aktarımı başlat",
-            "import_keystore":"keystore",
+            "import_keystore":"Hesap dosyası",
             "qrcode":"QR kodu"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Hesabınız için bir notu işaretle"
         },
         "keystore": {
-            "tit":"Anahtar deposunu yedekle",
+            "tit":"Yedekleme cüzdan dosyası",
             "copy":"kopya",
-            "download":"Anahtar deposu indir"
+            "download":"Cüzdan dosyasını indir"
         },
         "msg_info": {
             "ads_copy_success":"Adres kopyalandı",
@@ -125,89 +125,12 @@
             "imported_success":"Dosyayı başarıyla içe aktar",
             "imported_account_success":"Başarıyla içe aktarıldı",
             "enter_private":"Lütfen anahtarı giriniz",
-            "error_private":"Hesabı içe aktarılamadı, yanlış anahtar olabilir",
+            "error_keystore":"Hesap içe aktarılamadı, bir hesap dosyası hatası olabilir",
             "enter_keystore":"Lütfen önce hesap dosyasını içe aktarın",
             "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
             "remove_success":"Başarıyla kaldırıldı",
             "create_success":"Başarıyla oluşturuldu",
             "save":"Lütfen hesap dosyanızı kaydedin ve kimseyle paylaşmayın!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Cüzdan oluştur",
-        "import_wallet":"Cüzdanı içe aktar",
-        "back_up":"Yedekleme cüzdanı",
-        "add_account":"Yeni hesap",
-        "acc":"hesap",
-        "wallet":"cüzdan",
-        "create_dia": {
-            "create_tit":"Bir hesap oluştur",
-            "backup_tit":"Yeni hesabınızı yedekleyin",
-            "create_tag":"Hesap adı",
-            "create_pwd":"Şifre ayarla",
-            "create_repwd":"Şifreyi onayla",
-            "placeholder_tag":"Lütfen hesap adını giriniz",
-            "placeholder_pwd":"Lütfen hesap şifresini ayarla",
-            "placeholder_repwd":"Lütfen hesap şifresini onaylayın",
-            "strong_password":"Güçlü bir şifre girin, en az 8 basamak",
-            "account_address":"hesap",
-            "account_privateKey":"Özel anahtar",
-            "account_download_keystore":"Anahtar deposu dosyasını indir"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Cüzdan oluştur",
-            "backup_tit":"Yeni cüzdanınızı yedekleyin",
-            "create_tag":"Cüzdan adı",
-            "create_pwd":"Şifre ayarla",
-            "create_repwd":"Şifreyi onayla",
-            "placeholder_tag":"Lütfen cüzdan adını ayarla",
-            "placeholder_pwd":"Lütfen cüzdan şifresini ayarla",
-            "placeholder_repwd":"Lütfen cüzdan şifresini onayla",
-            "strong_password":"Güçlü bir şifre girin, en az 8 basamak",
-            "wallet_address":"cüzdan",
-            "download_wallet_file":"Cüzdan dosyasını indir"
-        },
-        "import_wallet_dia": {
-            "tit":"Cüzdanı içe aktar",
-            "placeholder_keystore":"Lütfen cüzdan dosyalarını buradan çekin",
-            "placeholder_tag":"Lütfen cüzdan adını ayarla",
-            "create_tag":"Cüzdan adı",
-            "input_pwd":"Şifre girin",
-            "placeholder_pwd":"Lütfen cüzdan şifrenizi giriniz"
-        },
-        "remove_dia": {
-            "tit":"Cüzdanı çıkarmak istediğinden emin misin?",
-            "remove_confrim":"Çıkarmak için eminim",
-            "backup":"Mülkün zarar görmesini önlemek için lütfen cüzdanın yedeklendiğinden emin olun."
-        },
-        "remove_wallet_dia": {
-            "tit":"Onu kaldırmak istediğinden emin misin?",
-            "remove_confrim":"Çıkarmak için eminim",
-            "backup":"Mülkün zarar görmesini önlemek için lütfen cüzdanın yedeklendiğinden emin olun."
-        },
-        "backup_wallet_dia": {
-            "tit":"Cüzdan dosyanızı yedekleyin",
-            "remove_confrim":"Çıkarmak için eminim",
-            "backup":"Cüzdan dosyanızı yedeklemek için İndir'i tıklayın.",
-            "download":"İndir"
-        },
-        "msg_info": {
-            "exist":"Zaten var, isim",
-            "wallet_tag_error":"Lütfen cüzdan ismini giriniz",
-            "enter_password":"Lütfen şifrenizi giriniz",
-            "incons_password":"İki kez girilen şifre tutarsız",
-            "error":"Hata:",
-            "imported_success":"Dosyayı başarıyla içe aktar",
-            "imported_wallet_success":"Cüzdan başarıyla içe aktarıldı",
-            "enter_private":"Lütfen anahtarı giriniz",
-            "error_private":"Hesabı içe aktarılamadı, yanlış anahtar olabilir",
-            "enter_keystore":"Lütfen önce cüzdan dosyasını içe aktarın",
-            "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
-            "remove_success":"Başarıyla kaldırıldı",
-            "create_success":"Başarıyla oluşturuldu",
-            "acc_create_success_des":"Hesap adresi CZR almak için kullanılabilir",
-            "acc_wallet_success_des":"Cüzdan dosyalarınızı yedekleyin, kimseye söyleme",
-            "save":"Lütfen anahtar deponuzu saklayın ve kimseyle paylaşmayın!"
         }
     }
 }

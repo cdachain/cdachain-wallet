@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Contacts",
-        "add_dialog":"Add contacts",
+        "add_dialog":"New contact",
         "add_cont": {
-            "tit":"Enter contact information",
-            "tag":"label",
-            "address":"Contacts",
-            "tag_placeholder":"Please enter the contact's comment tag",
-            "address_placeholder":"Please enter the contact account"
+            "tit":"New contact",
+            "tag":"Contacts",
+            "address":"Account address",
+            "tag_placeholder":"Please enter the contact's name",
+            "address_placeholder":"Please enter the contact's account address"
         },
         "delete_dialog": {
             "title":"You are removing"
@@ -69,7 +69,7 @@
         "transfer_log_null":"No transaction history",
         "active_icon": {
             "go_transfer":"Initiate transfer",
-            "import_keystore":"Keystore",
+            "import_keystore":"Account file",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Mark a note for your account"
         },
         "keystore": {
-            "tit":"Back up the keystore",
+            "tit":"Backup wallet file",
             "copy":"copy",
-            "download":"Download keystore"
+            "download":"Download wallet file"
         },
         "msg_info": {
             "ads_copy_success":"Address has been copied",
@@ -125,89 +125,12 @@
             "imported_success":"Import file successfully",
             "imported_account_success":"Imported successfully",
             "enter_private":"Please enter the key",
-            "error_private":"Failed to import the account, it may be the wrong key",
+            "error_keystore":"Failed to import account, it may be an account file error",
             "enter_keystore":"Please import the account file first",
             "error_password":"Failed to import account, it may be a wrong password",
             "remove_success":"Removed successfully",
             "create_success":"Created successfully",
             "save":"Please save your account file and don't share it with anyone!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Create Wallet",
-        "import_wallet":"Import wallet",
-        "back_up":"Backup wallet",
-        "add_account":"New account",
-        "acc":"Account",
-        "wallet":"wallet",
-        "create_dia": {
-            "create_tit":"create Account",
-            "backup_tit":"Back up your new account",
-            "create_tag":"account name",
-            "create_pwd":"set password",
-            "create_repwd":"confirm password",
-            "placeholder_tag":"Please set account name",
-            "placeholder_pwd":"Please set account password",
-            "placeholder_repwd":"Please confirm the account password",
-            "strong_password":"Enter a strong password, at least 8 digits",
-            "account_address":"Account",
-            "account_privateKey":"Private key",
-            "account_download_keystore":"Download the keystore file"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Create Wallet",
-            "backup_tit":"Back up your new wallet",
-            "create_tag":"Wallet name",
-            "create_pwd":"set password",
-            "create_repwd":"confirm password",
-            "placeholder_tag":"Please set wallet name",
-            "placeholder_pwd":"Please set wallet password",
-            "placeholder_repwd":"Please confirm wallet password",
-            "strong_password":"Enter a strong password, at least 8 digits",
-            "wallet_address":"wallet",
-            "download_wallet_file":"Download wallet file"
-        },
-        "import_wallet_dia": {
-            "tit":"Import wallet",
-            "placeholder_keystore":"Please pull wallet files here",
-            "placeholder_tag":"Please set wallet name",
-            "create_tag":"Wallet name",
-            "input_pwd":"enter password",
-            "placeholder_pwd":"Please enter your wallet password"
-        },
-        "remove_dia": {
-            "tit":"Are you sure you want to remove the wallet?",
-            "remove_confrim":"I am sure to remove",
-            "backup":"Please make sure the wallet has been backed up to avoid property damage"
-        },
-        "remove_wallet_dia": {
-            "tit":"Are you sure you want to remove it?",
-            "remove_confrim":"I am sure to remove",
-            "backup":"Please make sure the wallet has been backed up to avoid property damage"
-        },
-        "backup_wallet_dia": {
-            "tit":"Back up your wallet file",
-            "remove_confrim":"I am sure to remove",
-            "backup":"Click Download to backup your wallet file",
-            "download":"download"
-        },
-        "msg_info": {
-            "exist":"Already exists, the name is",
-            "wallet_tag_error":"Please enter wallet name",
-            "enter_password":"Please enter your password",
-            "incons_password":"The password entered twice is inconsistent",
-            "error":"error:",
-            "imported_success":"Import file successfully",
-            "imported_wallet_success":"Wallet imported successfully",
-            "enter_private":"Please enter the key",
-            "error_private":"Failed to import the account, it may be the wrong key",
-            "enter_keystore":"Please import wallet file first",
-            "error_password":"Failed to import account, it may be a wrong password",
-            "remove_success":"Removed successfully",
-            "create_success":"Created successfully",
-            "acc_create_success_des":"Account address can be used to receive CZR",
-            "acc_wallet_success_des":"Back up your wallet files, don’t tell anyone",
-            "save":"Please save your keystore and don't share it with anyone!"
         }
     }
 }

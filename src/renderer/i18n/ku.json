@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Têkilî",
-        "add_dialog":"Pêwendî têkilî bikin",
+        "add_dialog":"Têkiliyek nû",
         "add_cont": {
-            "tit":"Agahdarî têkiliyê bike",
-            "tag":"Tags",
-            "address":"Têkilî",
-            "tag_placeholder":"Ji kerema xwe kerema xwe ya şîrove ya têkiliyê têkiliyê bike",
-            "address_placeholder":"Ji kerema xwe re hesabê têkiliyê bike"
+            "tit":"Têkiliyek nû",
+            "tag":"Têkilî",
+            "address":"Navnîşana hesabê",
+            "tag_placeholder":"Ji kerema xwe navê navnîşê têkiliyê bike",
+            "address_placeholder":"Ji kerema xwe li navnîşana hesabê navnîşê têkiliyê bike"
         },
         "delete_dialog": {
             "title":"Tu derxistin"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Dîroka danûstandinê tune",
         "active_icon": {
             "go_transfer":"Veguherîna destpêkirinê",
-            "import_keystore":"Keystore",
+            "import_keystore":"Pelê hesab bike",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Ji bo hesabê we re gotarek binivîse"
         },
         "keystore": {
-            "tit":"Vegere keystore",
+            "tit":"Pelê wallet",
             "copy":"Duplicate",
-            "download":"Klavyeyê daxistin"
+            "download":"Pelê wallet hilbijêre"
         },
         "msg_info": {
             "ads_copy_success":"Navnîşan qeydkirî ye",
@@ -125,89 +125,12 @@
             "imported_success":"Import file successfully",
             "imported_account_success":"Girêdanê serkeftî",
             "enter_private":"Ji kerema xwe re kilît bike",
-            "error_private":"Ji bo hesabê veguhastin, ev dibe ku kilîtek çewt e",
+            "error_keystore":"Ji bo hesabê firotanê nekarin, dibe ku çewtiyek pelê hesab be",
             "enter_keystore":"Ji kerema xwe pelê yekem hesab bike",
             "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
             "remove_success":"Serkeftî hat",
             "create_success":"Serkeftî çêkir",
             "save":"Ji kerema xwe pelê xwe re tomar bike û ne bi kesek re parve bike!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Create a",
-        "import_wallet":"Wallet Import",
-        "back_up":"Wallet Backup",
-        "add_account":"Hesabê nû",
-        "acc":"Hesabê",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Hesab bike",
-            "backup_tit":"Vegerînek nû ya nû bike",
-            "create_tag":"Navê navê",
-            "create_pwd":"Şîfreya xwe bişîne",
-            "create_repwd":"Şîfreya piştrast bikin",
-            "placeholder_tag":"Ji kerema xwe navê navnîşan bigire",
-            "placeholder_pwd":"Ji kerema xwe şîfreyek hesab bike",
-            "placeholder_repwd":"Ji kerema xwe şîfreya hesabê piştrast bikin",
-            "strong_password":"Şîfreyeke bihêz binivîse, kêmanî 8 hejmaran",
-            "account_address":"Hesabê",
-            "account_privateKey":"Key key",
-            "account_download_keystore":"Pelê keystore hilbijêre"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Create a",
-            "backup_tit":"Vegereya nû ya nû ve bişîne",
-            "create_tag":"Navê navê",
-            "create_pwd":"Şîfreya xwe bişîne",
-            "create_repwd":"Şîfreya piştrast bikin",
-            "placeholder_tag":"Ji kerema xwe navê navenda walletê bikin",
-            "placeholder_pwd":"Ji kerema xwe şîfreya wallet hilbijêre",
-            "placeholder_repwd":"Ji kerema xwe şîfreya wallet bikin",
-            "strong_password":"Şîfreyeke bihêz binivîse, kêmanî 8 hejmaran",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Pelê wallet hilbijêre"
-        },
-        "import_wallet_dia": {
-            "tit":"Wallet Import",
-            "placeholder_keystore":"Ji kerema xwe pelên pelên walat bikin",
-            "placeholder_tag":"Ji kerema xwe navê navenda walletê bikin",
-            "create_tag":"Navê navê",
-            "input_pwd":"Şîfreya xwe binivîse",
-            "placeholder_pwd":"Ji kerema xwe şîfreya walletê binivîse"
-        },
-        "remove_dia": {
-            "tit":"Ma tu dixwazî ​​ku hûn dixwazin wallet jê bibînin?",
-            "remove_confrim":"Ez bawer dikim ku jêbirin",
-            "backup":"Ji kerema xwe re bisekinin ku wallet piştrast kir ku ji ber zirarê zirarê bistînin"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ma hûn bawer dikin ku hûn dixwazin jêbirin?",
-            "remove_confrim":"Ez bawer dikim ku jêbirin",
-            "backup":"Ji kerema xwe re bisekinin ku wallet piştrast kir ku ji ber zirarê zirarê bistînin"
-        },
-        "backup_wallet_dia": {
-            "tit":"Veşêre pelê xwe hilweşînin",
-            "remove_confrim":"Ez bawer dikim ku jêbirin",
-            "backup":"Ji bo pelê pelê xwe ya bileya barkirinê hilbijêre",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Already exists, navê wî ye",
-            "wallet_tag_error":"Ji kerema xwe navê navenda walletê binivîse",
-            "enter_password":"Ji kerema xwe şîfreya xwe binivîse",
-            "incons_password":"Şîfreya du caran têkildar e",
-            "error":"Çewtiya",
-            "imported_success":"Import file successfully",
-            "imported_wallet_success":"Wallet bi serkeftî veguhestin",
-            "enter_private":"Ji kerema xwe re kilît bike",
-            "error_private":"Ji bo hesabê veguhastin, ev dibe ku kilîtek çewt e",
-            "enter_keystore":"Ji kerema xwe pelê yekem wallet bikî",
-            "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
-            "remove_success":"Serkeftî hat",
-            "create_success":"Serkeftî çêkir",
-            "acc_create_success_des":"Navnîşana Hesabê bikar anîn ku ji bo CZR bistînin",
-            "acc_wallet_success_des":"Veşêre pelên xwe hilweşînin, kesek nabêjin",
-            "save":"Ji kerema xwe ji klavyoya xwe biparêze û wê bi kesek re nabe!"
         }
     }
 }

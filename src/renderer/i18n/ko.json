@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"연락처",
-        "add_dialog":"연락처 추가",
+        "add_dialog":"새 연락처",
         "add_cont": {
-            "tit":"연락처 정보 입력",
-            "tag":"태그",
-            "address":"연락처",
-            "tag_placeholder":"연락처의 의견 태그를 입력하십시오.",
-            "address_placeholder":"연락처 계정을 입력하십시오."
+            "tit":"새 연락처",
+            "tag":"연락처",
+            "address":"계정 주소",
+            "tag_placeholder":"담당자의 이름을 입력하십시오.",
+            "address_placeholder":"연락처의 계정 주소를 입력하십시오."
         },
         "delete_dialog": {
             "title":"제거하고 있습니다."
@@ -69,7 +69,7 @@
         "transfer_log_null":"거래 내역 없음",
         "active_icon": {
             "go_transfer":"전송 시작",
-            "import_keystore":"키 저장소",
+            "import_keystore":"계정 파일",
             "qrcode":"QR 코드"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"내 계정에 메모 쓰기"
         },
         "keystore": {
-            "tit":"키 스토어 백업",
+            "tit":"백업 지갑 파일",
             "copy":"중복",
-            "download":"키 스토어 다운로드"
+            "download":"지갑 파일 다운로드"
         },
         "msg_info": {
             "ads_copy_success":"주소가 복사되었습니다.",
@@ -125,89 +125,12 @@
             "imported_success":"파일 가져 오기가 완료되었습니다.",
             "imported_account_success":"성공적으로 가져 왔습니다.",
             "enter_private":"열쇠를 입력하십시오.",
-            "error_private":"계정을 가져 오지 못했습니다. 잘못된 키일 수 있습니다.",
+            "error_keystore":"계정을 가져 오지 못했습니다. 계정 파일 오류 일 수 있습니다.",
             "enter_keystore":"먼저 계정 파일을 가져 오십시오.",
             "error_password":"계정을 가져 오지 못했습니다. 잘못된 비밀번호 일 수 있습니다.",
             "remove_success":"성공적으로 제거되었습니다.",
             "create_success":"성공적으로 생성되었습니다.",
             "save":"계정 파일을 저장하고 누구와도 공유하지 마십시오!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"지갑 만들기",
-        "import_wallet":"지갑 가져 오기",
-        "back_up":"백업 지갑",
-        "add_account":"새 계정",
-        "acc":"계정",
-        "wallet":"월렛",
-        "create_dia": {
-            "create_tit":"계정 만들기",
-            "backup_tit":"새 계정 백업",
-            "create_tag":"계정 이름",
-            "create_pwd":"비밀번호 설정",
-            "create_repwd":"암호 확인",
-            "placeholder_tag":"계정 이름을 설정하십시오.",
-            "placeholder_pwd":"계정 비밀번호를 설정하십시오.",
-            "placeholder_repwd":"계정 비밀번호를 확인하십시오.",
-            "strong_password":"최소 8 자리 이상의 강력한 암호를 입력하십시오.",
-            "account_address":"계정",
-            "account_privateKey":"개인 키",
-            "account_download_keystore":"키 스토어 파일 다운로드"
-        },
-        "create_wallet_dia": {
-            "create_tit":"지갑 만들기",
-            "backup_tit":"새 지갑을 백업하십시오.",
-            "create_tag":"월렛 이름",
-            "create_pwd":"비밀번호 설정",
-            "create_repwd":"암호 확인",
-            "placeholder_tag":"지갑 이름을 설정하십시오.",
-            "placeholder_pwd":"지갑 암호를 설정하십시오.",
-            "placeholder_repwd":"지갑 암호를 확인하십시오.",
-            "strong_password":"최소 8 자리 이상의 강력한 암호를 입력하십시오.",
-            "wallet_address":"월렛",
-            "download_wallet_file":"지갑 파일 다운로드"
-        },
-        "import_wallet_dia": {
-            "tit":"지갑 가져 오기",
-            "placeholder_keystore":"여기 지갑 파일을 가져 오십시오.",
-            "placeholder_tag":"지갑 이름을 설정하십시오.",
-            "create_tag":"월렛 이름",
-            "input_pwd":"비밀번호 입력",
-            "placeholder_pwd":"지갑 비밀번호를 입력하십시오."
-        },
-        "remove_dia": {
-            "tit":"지갑을 꺼내시겠습니까?",
-            "remove_confrim":"나는 반드시 제거해야한다.",
-            "backup":"재산 피해를 방지하기 위해 지갑을 백업했는지 확인하십시오."
-        },
-        "remove_wallet_dia": {
-            "tit":"제거 하시겠습니까?",
-            "remove_confrim":"나는 반드시 제거해야한다.",
-            "backup":"재산 피해를 방지하기 위해 지갑을 백업했는지 확인하십시오."
-        },
-        "backup_wallet_dia": {
-            "tit":"지갑 파일 백업",
-            "remove_confrim":"나는 반드시 제거해야한다.",
-            "backup":"다운로드를 클릭하여 지갑 파일을 백업하십시오.",
-            "download":"다운로드"
-        },
-        "msg_info": {
-            "exist":"이름이 이미 존재합니다.",
-            "wallet_tag_error":"지갑 이름을 입력하십시오.",
-            "enter_password":"비밀번호를 입력하십시오.",
-            "incons_password":"두 번 입력 한 암호가 일치하지 않습니다.",
-            "error":"오류 :",
-            "imported_success":"파일 가져 오기가 완료되었습니다.",
-            "imported_wallet_success":"지갑을 가져 왔습니다.",
-            "enter_private":"열쇠를 입력하십시오.",
-            "error_private":"계정을 가져 오지 못했습니다. 잘못된 키일 수 있습니다.",
-            "enter_keystore":"먼저 지갑 파일을 가져 오십시오.",
-            "error_password":"계정을 가져 오지 못했습니다. 잘못된 비밀번호 일 수 있습니다.",
-            "remove_success":"성공적으로 제거되었습니다.",
-            "create_success":"성공적으로 생성되었습니다.",
-            "acc_create_success_des":"계정 주소는 CZR 수신에 사용될 수 있습니다.",
-            "acc_wallet_success_des":"지갑 파일 백업, 아무에게도 말하지 말 것.",
-            "save":"키 스토어를 저장하고 누구와도 공유하지 마십시오!"
         }
     }
 }

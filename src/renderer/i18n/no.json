@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontakt",
-        "add_dialog":"Legg til en kontakt",
+        "add_dialog":"Ny kontakt",
         "add_cont": {
-            "tit":"Skriv inn kontaktinformasjon",
-            "tag":"tag",
-            "address":"Kontakt",
-            "tag_placeholder":"Vennligst skriv inn kontaktens kommentarer-tagg",
-            "address_placeholder":"Vennligst skriv inn kontaktkontoen"
+            "tit":"Ny kontakt",
+            "tag":"Kontakt",
+            "address":"Kontoadresse",
+            "tag_placeholder":"Vennligst skriv inn kontaktens navn",
+            "address_placeholder":"Vennligst skriv inn kontaktens kontoadresse"
         },
         "delete_dialog": {
             "title":"Du fjerner"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ingen transaksjonshistorikk",
         "active_icon": {
             "go_transfer":"Start overføring",
-            "import_keystore":"keystore",
+            "import_keystore":"Kontofil",
             "qrcode":"QR-kode"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Merk et notat for kontoen din"
         },
         "keystore": {
-            "tit":"Ta sikkerhetskopi av nøkkelbutikken",
+            "tit":"Sikkerhetskopi lommebokfil",
             "copy":"kopi",
-            "download":"Last ned nøkkelbutikk"
+            "download":"Last ned lommebokfilen"
         },
         "msg_info": {
             "ads_copy_success":"Adressen er kopiert",
@@ -125,89 +125,12 @@
             "imported_success":"Importer filen vellykket",
             "imported_account_success":"Importert med hell",
             "enter_private":"Vennligst skriv inn tasten",
-            "error_private":"Kunne ikke importere kontoen, det kan være feil nøkkel",
+            "error_keystore":"Kan ikke importere konto, det kan være en kontofilfeil",
             "enter_keystore":"Vennligst importer kontofilen først",
             "error_password":"Kan ikke importere konto, det kan være et feil passord",
             "remove_success":"Fjernet vellykket",
             "create_success":"Opprettet med hell",
             "save":"Vennligst lagre kontofilen din og ikke del den med noen!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Opprett Wallet",
-        "import_wallet":"Importer lommeboken",
-        "back_up":"Backup lommebok",
-        "add_account":"Ny konto",
-        "acc":"konto",
-        "wallet":"lommebok",
-        "create_dia": {
-            "create_tit":"Opprett en konto",
-            "backup_tit":"Sikkerhetskopier din nye konto",
-            "create_tag":"Kontonavn",
-            "create_pwd":"Angi passord",
-            "create_repwd":"Bekreft passord",
-            "placeholder_tag":"Vennligst sett inn kontonavn",
-            "placeholder_pwd":"Vennligst sett inn konto passord",
-            "placeholder_repwd":"Vennligst bekreft kontopassordet",
-            "strong_password":"Skriv inn et sterkt passord, minst 8 siffer",
-            "account_address":"konto",
-            "account_privateKey":"Privat nøkkel",
-            "account_download_keystore":"Last ned nøkkelbutikkfilen"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Opprett Wallet",
-            "backup_tit":"Sikkerhetskopiere din nye lommebok",
-            "create_tag":"Lommeboknavn",
-            "create_pwd":"Angi passord",
-            "create_repwd":"Bekreft passord",
-            "placeholder_tag":"Vennligst sett inn lommeboknavn",
-            "placeholder_pwd":"Vennligst sett inn lommebokpassordet",
-            "placeholder_repwd":"Vennligst bekreft lommebokpassordet",
-            "strong_password":"Skriv inn et sterkt passord, minst 8 siffer",
-            "wallet_address":"lommebok",
-            "download_wallet_file":"Last ned lommebokfilen"
-        },
-        "import_wallet_dia": {
-            "tit":"Importer lommeboken",
-            "placeholder_keystore":"Vennligst trekk lommebokfilene her",
-            "placeholder_tag":"Vennligst sett inn lommeboknavn",
-            "create_tag":"Lommeboknavn",
-            "input_pwd":"Skriv inn passord",
-            "placeholder_pwd":"Vennligst skriv inn lommebokpassordet ditt"
-        },
-        "remove_dia": {
-            "tit":"Er du sikker på at du vil fjerne lommeboken?",
-            "remove_confrim":"Jeg er sikker på å fjerne",
-            "backup":"Pass på at lommeboken har blitt sikkerhetskopiert for å unngå skade på eiendom"
-        },
-        "remove_wallet_dia": {
-            "tit":"Er du sikker på at du vil fjerne den?",
-            "remove_confrim":"Jeg er sikker på å fjerne",
-            "backup":"Pass på at lommeboken har blitt sikkerhetskopiert for å unngå skade på eiendom"
-        },
-        "backup_wallet_dia": {
-            "tit":"Sikkerhetskopiere lommebokfilen din",
-            "remove_confrim":"Jeg er sikker på å fjerne",
-            "backup":"Klikk på Last ned for å sikkerhetskopiere lommebokfilen din",
-            "download":"Last ned"
-        },
-        "msg_info": {
-            "exist":"Eksisterende eksisterer navnet",
-            "wallet_tag_error":"Vennligst skriv inn lommeboknavn",
-            "enter_password":"Vennligst skriv inn passordet ditt",
-            "incons_password":"Passordet som er skrevet inn to ganger, er inkonsekvent",
-            "error":"feil:",
-            "imported_success":"Importer filen vellykket",
-            "imported_wallet_success":"Wallet importert med hell",
-            "enter_private":"Vennligst skriv inn tasten",
-            "error_private":"Kunne ikke importere kontoen, det kan være feil nøkkel",
-            "enter_keystore":"Vennligst importer inn wallet-filen først",
-            "error_password":"Kan ikke importere konto, det kan være et feil passord",
-            "remove_success":"Fjernet vellykket",
-            "create_success":"Opprettet med hell",
-            "acc_create_success_des":"Kontoadresse kan brukes til å motta CZR",
-            "acc_wallet_success_des":"Sikkerhetskopiere lommebokfilene dine, ikke fortell noen",
-            "save":"Vennligst lagre nøkkelbutikken din og ikke del den med noen!"
         }
     }
 }

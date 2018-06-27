@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"contact",
-        "add_dialog":"Voeg een contact toe",
+        "add_dialog":"Nieuw contact",
         "add_cont": {
-            "tit":"Voer contactgegevens in",
-            "tag":"label",
-            "address":"contact",
-            "tag_placeholder":"Voer het commentaarlabel van het contact in",
-            "address_placeholder":"Voer het contactaccount in"
+            "tit":"Nieuw contact",
+            "tag":"contact",
+            "address":"Account adres",
+            "tag_placeholder":"Voer de naam van het contact in",
+            "address_placeholder":"Voer het accountadres van de contactpersoon in"
         },
         "delete_dialog": {
             "title":"Je verwijdert"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Geen transactiegeschiedenis",
         "active_icon": {
             "go_transfer":"Start overdracht",
-            "import_keystore":"keystore",
+            "import_keystore":"Accountbestand",
             "qrcode":"QR-code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Markeer een notitie voor uw account"
         },
         "keystore": {
-            "tit":"Maak een back-up van de keystore",
+            "tit":"Back-upportefeuillebestand",
             "copy":"exemplaar",
-            "download":"Keystore downloaden"
+            "download":"Portefeuillebestand downloaden"
         },
         "msg_info": {
             "ads_copy_success":"Adres is gekopieerd",
@@ -125,89 +125,12 @@
             "imported_success":"Bestand met succes importeren",
             "imported_account_success":"Met succes geïmporteerd",
             "enter_private":"Voer de sleutel in",
-            "error_private":"Het importeren van het account is mislukt, dit kan de verkeerde sleutel zijn",
+            "error_keystore":"Importeren van account mislukt, dit kan een accountbestandfout zijn",
             "enter_keystore":"Importeer eerst het accountbestand",
             "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
             "remove_success":"Met succes verwijderd",
             "create_success":"Met succes gemaakt",
             "save":"Bewaar uw accountbestand en deel het met niemand!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Portefeuille maken",
-        "import_wallet":"Portemonnee importeren",
-        "back_up":"Back-upportefeuille",
-        "add_account":"Nieuw account",
-        "acc":"rekening",
-        "wallet":"portemonnee",
-        "create_dia": {
-            "create_tit":"Maak een account aan",
-            "backup_tit":"Maak een back-up van uw nieuwe account",
-            "create_tag":"Account naam",
-            "create_pwd":"Wachtwoord instellen",
-            "create_repwd":"Bevestig wachtwoord",
-            "placeholder_tag":"Stel de accountnaam in",
-            "placeholder_pwd":"Stel uw wachtwoord in",
-            "placeholder_repwd":"Bevestig het wachtwoord van je account",
-            "strong_password":"Voer een sterk wachtwoord in, minimaal 8 cijfers",
-            "account_address":"rekening",
-            "account_privateKey":"Privésleutel",
-            "account_download_keystore":"Download het keystore-bestand"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Portefeuille maken",
-            "backup_tit":"Maak een back-up van je nieuwe portemonnee",
-            "create_tag":"Naam van de portefeuille",
-            "create_pwd":"Wachtwoord instellen",
-            "create_repwd":"Bevestig wachtwoord",
-            "placeholder_tag":"Stel de naam van de portemonnee in",
-            "placeholder_pwd":"Stel het wachtwoord voor de portemonnee in",
-            "placeholder_repwd":"Bevestig het wachtwoord van je portemonnee",
-            "strong_password":"Voer een sterk wachtwoord in, minimaal 8 cijfers",
-            "wallet_address":"portemonnee",
-            "download_wallet_file":"Portefeuillebestand downloaden"
-        },
-        "import_wallet_dia": {
-            "tit":"Portemonnee importeren",
-            "placeholder_keystore":"Haal alstublieft portefeuillebestanden hier naartoe",
-            "placeholder_tag":"Stel de naam van de portemonnee in",
-            "create_tag":"Naam van de portefeuille",
-            "input_pwd":"Voer het wachtwoord in",
-            "placeholder_pwd":"Voer uw portefeuillewachtwoord in"
-        },
-        "remove_dia": {
-            "tit":"Weet je zeker dat je de portefeuille wilt verwijderen?",
-            "remove_confrim":"Ik ben zeker om te verwijderen",
-            "backup":"Zorg ervoor dat er een back-up van de portefeuille is gemaakt om schade aan eigendommen te voorkomen"
-        },
-        "remove_wallet_dia": {
-            "tit":"Weet je zeker dat je het wilt verwijderen?",
-            "remove_confrim":"Ik ben zeker om te verwijderen",
-            "backup":"Zorg ervoor dat er een back-up van de portefeuille is gemaakt om schade aan eigendommen te voorkomen"
-        },
-        "backup_wallet_dia": {
-            "tit":"Maak een back-up van uw portefeuillebestand",
-            "remove_confrim":"Ik ben zeker om te verwijderen",
-            "backup":"Klik op Downloaden om een ​​back-up te maken van uw portefeuillebestand",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Bestaat al, de naam is",
-            "wallet_tag_error":"Voer de naam van de portemonnee in",
-            "enter_password":"Voer uw wachtwoord in",
-            "incons_password":"Het wachtwoord dat tweemaal is ingevoerd, is inconsistent",
-            "error":"fout:",
-            "imported_success":"Bestand met succes importeren",
-            "imported_wallet_success":"Portefeuille met succes geïmporteerd",
-            "enter_private":"Voer de sleutel in",
-            "error_private":"Het importeren van het account is mislukt, dit kan de verkeerde sleutel zijn",
-            "enter_keystore":"Importeer eerst het portefeuillebestand",
-            "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
-            "remove_success":"Met succes verwijderd",
-            "create_success":"Met succes gemaakt",
-            "acc_create_success_des":"Accountadres kan worden gebruikt om CZR te ontvangen",
-            "acc_wallet_success_des":"Maak een back-up van je portefeuillebestanden, vertel het aan niemand",
-            "save":"Bewaar uw sleutelbos en deel hem met niemand!"
         }
     }
 }

@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontak",
-        "add_dialog":"Tambahake kontak",
+        "add_dialog":"Kontak anyar",
         "add_cont": {
-            "tit":"Ketik informasi kontak",
-            "tag":"Tags",
-            "address":"Kontak",
-            "tag_placeholder":"Mangga ketik tag komentar",
-            "address_placeholder":"Mangga mlebu akun kontak"
+            "tit":"Kontak anyar",
+            "tag":"Kontak",
+            "address":"Alamat akun",
+            "tag_placeholder":"Mangga ketik jeneng kontak",
+            "address_placeholder":"Mangga ketik alamat akun kontak"
         },
         "delete_dialog": {
             "title":"Sampeyan ngilangi"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ora ana riwayat transaksi",
         "active_icon": {
             "go_transfer":"Miwiti transfer",
-            "import_keystore":"Keystore",
+            "import_keystore":"File akun",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Tandai cathetan kanggo akun sampeyan"
         },
         "keystore": {
-            "tit":"Back up keystore",
+            "tit":"Nggawe file dompet",
             "copy":"Duplikat",
-            "download":"Download keystore"
+            "download":"Ngundhuh file dompet"
         },
         "msg_info": {
             "ads_copy_success":"Alamat wis disalin",
@@ -125,89 +125,12 @@
             "imported_success":"Ngimpor file kanthi sukses",
             "imported_account_success":"Diimpor kasil",
             "enter_private":"Mangga ketik tombol",
-            "error_private":"Gagal ngimpor akun, bisa dadi kunci sing salah",
+            "error_keystore":"Gagal ngimpor akun, bisa dadi kesalahan file akun",
             "enter_keystore":"Mangga ngimpor file akun dhisik dhisik",
             "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
             "remove_success":"Dibusak kasil",
             "create_success":"Digawe sukses",
             "save":"Monggo simpen file akun sampeyan lan aja bareng karo sapa wae!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Gawe Wallet",
-        "import_wallet":"Impor dompet",
-        "back_up":"Dhepetake dompet",
-        "add_account":"Akun anyar",
-        "acc":"Akun",
-        "wallet":"Dompet",
-        "create_dia": {
-            "create_tit":"Nggawe akun",
-            "backup_tit":"Gawe akun anyar",
-            "create_tag":"Jeneng akun",
-            "create_pwd":"Setel tembung sandhi",
-            "create_repwd":"Konfirmasi tembung sandi",
-            "placeholder_tag":"Mangga nyetel jeneng akun",
-            "placeholder_pwd":"Mangga nyetel akun sandhi",
-            "placeholder_repwd":"Konfirmasi sandhi akun",
-            "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
-            "account_address":"Akun",
-            "account_privateKey":"Tombol pribadi",
-            "account_download_keystore":"Ngundhuh file keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Gawe Wallet",
-            "backup_tit":"Gawe serep dompet anyar sampeyan",
-            "create_tag":"Jeneng dompet",
-            "create_pwd":"Setel tembung sandhi",
-            "create_repwd":"Konfirmasi tembung sandi",
-            "placeholder_tag":"Mangga nyetel jeneng dompet",
-            "placeholder_pwd":"Mangga nyetel sandi dompet",
-            "placeholder_repwd":"Mangga konfirmasi tembung sandhi",
-            "strong_password":"Ketik sandhi sing kuwat, minimal 8 digit",
-            "wallet_address":"Dompet",
-            "download_wallet_file":"Ngundhuh file dompet"
-        },
-        "import_wallet_dia": {
-            "tit":"Impor dompet",
-            "placeholder_keystore":"Mangga narik file dhompet ing kene",
-            "placeholder_tag":"Mangga nyetel jeneng dompet",
-            "create_tag":"Jeneng dompet",
-            "input_pwd":"Ketik sandhi",
-            "placeholder_pwd":"Mangga ketik tembung sandhi"
-        },
-        "remove_dia": {
-            "tit":"Apa sampeyan pengin mbusak dompet?",
-            "remove_confrim":"Aku arep mbusak",
-            "backup":"Monggo priksa dompet sampeyan wis digawe kanggo nyegah karusakan"
-        },
-        "remove_wallet_dia": {
-            "tit":"Apa sampeyan pengin mbusak?",
-            "remove_confrim":"Aku arep mbusak",
-            "backup":"Monggo priksa dompet sampeyan wis digawe kanggo nyegah karusakan"
-        },
-        "backup_wallet_dia": {
-            "tit":"Gawe serep file dompet sampeyan",
-            "remove_confrim":"Aku arep mbusak",
-            "backup":"Klik Ngundhuh kanggo nggawe file dompet sampeyan",
-            "download":"Unduh"
-        },
-        "msg_info": {
-            "exist":"Wis ana, jenenge",
-            "wallet_tag_error":"Mangga mlebu jeneng dompet",
-            "enter_password":"Mangga ketik sandhi",
-            "incons_password":"Tembung sandhi sing kaping pindho ora konsisten",
-            "error":"Kesalahan:",
-            "imported_success":"Ngimpor file kanthi sukses",
-            "imported_wallet_success":"Dompet diimpor kanthi sukses",
-            "enter_private":"Mangga ketik tombol",
-            "error_private":"Gagal ngimpor akun, bisa dadi kunci sing salah",
-            "enter_keystore":"Mangga ngimpor file dompet dhisik",
-            "error_password":"Gagal ngimpor akun, bisa dadi tembung seng salah",
-            "remove_success":"Dibusak kasil",
-            "create_success":"Digawe sukses",
-            "acc_create_success_des":"Alamat akun bisa digunakake kanggo nampa CZR",
-            "acc_wallet_success_des":"Gawe serep file dhompet, aja nyritakake sapa wae",
-            "save":"Monggo simpen tombol keystore lan aja bareng karo sapa wae!"
         }
     }
 }

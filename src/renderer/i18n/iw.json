@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"מגעים",
-        "add_dialog":"הוסף איש קשר",
+        "add_dialog":"איש קשר חדש",
         "add_cont": {
-            "tit":"הזן פרטים ליצירת קשר",
-            "tag":"תגים",
-            "address":"מגעים",
-            "tag_placeholder":"הזן את תג התגובה של איש הקשר",
-            "address_placeholder":"הזן את חשבון איש הקשר"
+            "tit":"איש קשר חדש",
+            "tag":"מגעים",
+            "address":"כתובת חשבון",
+            "tag_placeholder":"הזן את שם איש הקשר",
+            "address_placeholder":"הזן את כתובת החשבון של איש הקשר"
         },
         "delete_dialog": {
             "title":"אתה מסיר"
@@ -69,7 +69,7 @@
         "transfer_log_null":"אין היסטוריית עסקאות",
         "active_icon": {
             "go_transfer":"התחל את ההעברה",
-            "import_keystore":"קיסטור",
+            "import_keystore":"קובץ חשבון",
             "qrcode":"קוד QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"סמן הערה עבור החשבון שלך"
         },
         "keystore": {
-            "tit":"לגבות את keystore",
+            "tit":"גיבוי קובץ הארנק",
             "copy":"שכפל",
-            "download":"הורד keystore"
+            "download":"הורד את קובץ הארנק"
         },
         "msg_info": {
             "ads_copy_success":"הכתובת הועתקה",
@@ -125,89 +125,12 @@
             "imported_success":"ייבוא ​​הקובץ בהצלחה",
             "imported_account_success":"יובא בהצלחה",
             "enter_private":"הזן את המפתח",
-            "error_private":"ייבוא ​​החשבון נכשל, ייתכן שהוא המפתח הלא נכון",
+            "error_keystore":"ייבוא ​​החשבון נכשל, ייתכן שזו שגיאה בקובץ החשבון",
             "enter_keystore":"תחילה ייבא את קובץ החשבון",
             "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
             "remove_success":"הוסר בהצלחה",
             "create_success":"נוצר בהצלחה",
             "save":"שמור את קובץ החשבון שלך ואל תשתף אותו עם אף אחד!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"צור ארנק",
-        "import_wallet":"ייבא ארנק",
-        "back_up":"ארנק גיבוי",
-        "add_account":"חשבון חדש",
-        "acc":"חשבון",
-        "wallet":"ארנק",
-        "create_dia": {
-            "create_tit":"צור חשבון",
-            "backup_tit":"גבה את החשבון החדש שלך",
-            "create_tag":"שם החשבון",
-            "create_pwd":"הגדר סיסמה",
-            "create_repwd":"אשר סיסמה",
-            "placeholder_tag":"הזן שם חשבון",
-            "placeholder_pwd":"הגדר סיסמת חשבון",
-            "placeholder_repwd":"אשר את סיסמת החשבון",
-            "strong_password":"הזן סיסמה חזקה, לפחות 8 ספרות",
-            "account_address":"חשבון",
-            "account_privateKey":"מפתח פרטי",
-            "account_download_keystore":"הורד את הקובץ keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"צור ארנק",
-            "backup_tit":"גבה את הארנק החדש שלך",
-            "create_tag":"שם הארנק",
-            "create_pwd":"הגדר סיסמה",
-            "create_repwd":"אשר סיסמה",
-            "placeholder_tag":"הגדר שם ארנק",
-            "placeholder_pwd":"הגדר סיסמת ארנק",
-            "placeholder_repwd":"אשר סיסמת ארנק",
-            "strong_password":"הזן סיסמה חזקה, לפחות 8 ספרות",
-            "wallet_address":"ארנק",
-            "download_wallet_file":"הורד את קובץ הארנק"
-        },
-        "import_wallet_dia": {
-            "tit":"ייבא ארנק",
-            "placeholder_keystore":"נא למשוך קבצים הארנק כאן",
-            "placeholder_tag":"הגדר שם ארנק",
-            "create_tag":"שם הארנק",
-            "input_pwd":"הזן סיסמה",
-            "placeholder_pwd":"הזן את סיסמת הארנק שלך"
-        },
-        "remove_dia": {
-            "tit":"האם אתה בטוח שברצונך להסיר את הארנק?",
-            "remove_confrim":"אני בטוח להסיר",
-            "backup":"ודא שהארנק מגובה כדי למנוע נזק לרכוש"
-        },
-        "remove_wallet_dia": {
-            "tit":"האם אתה בטוח שברצונך להסיר אותו?",
-            "remove_confrim":"אני בטוח להסיר",
-            "backup":"ודא שהארנק מגובה כדי למנוע נזק לרכוש"
-        },
-        "backup_wallet_dia": {
-            "tit":"גבה את קובץ הארנק שלך",
-            "remove_confrim":"אני בטוח להסיר",
-            "backup":"לחץ על הורד כדי לגבות את קובץ הארנק שלך",
-            "download":"הורד"
-        },
-        "msg_info": {
-            "exist":"כבר קיים, השם הוא",
-            "wallet_tag_error":"הזן שם ארנק",
-            "enter_password":"הזן את הסיסמה שלך",
-            "incons_password":"הסיסמה שהוזנה פעמיים אינה עקבית",
-            "error":"שגיאה:",
-            "imported_success":"ייבוא ​​הקובץ בהצלחה",
-            "imported_wallet_success":"הארנק מיובא בהצלחה",
-            "enter_private":"הזן את המפתח",
-            "error_private":"ייבוא ​​החשבון נכשל, ייתכן שהוא המפתח הלא נכון",
-            "enter_keystore":"ייבא תחילה את קובץ הארנק",
-            "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
-            "remove_success":"הוסר בהצלחה",
-            "create_success":"נוצר בהצלחה",
-            "acc_create_success_des":"ניתן להשתמש בכתובת החשבון לקבלת CZR",
-            "acc_wallet_success_des":"לגבות את הארנק קבצים, לא לספר לאף אחד",
-            "save":"אנא שמור את keystore ואל תשתף אותו עם אף אחד!"
         }
     }
 }

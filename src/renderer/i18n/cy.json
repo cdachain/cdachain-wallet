@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Cysylltiadau",
-        "add_dialog":"Ychwanegu cyswllt",
+        "add_dialog":"Cysylltiad newydd",
         "add_cont": {
-            "tit":"Rhowch wybodaeth gyswllt",
-            "tag":"Tags",
-            "address":"Cysylltiadau",
-            "tag_placeholder":"Rhowch tag sylw'r cyswllt",
-            "address_placeholder":"Rhowch y cyfrif cyswllt"
+            "tit":"Cysylltiad newydd",
+            "tag":"Cysylltiadau",
+            "address":"Cyfeiriad cyfrif",
+            "tag_placeholder":"Rhowch enw'r cyswllt",
+            "address_placeholder":"Rhowch gyfeiriad cyfrif y cyswllt"
         },
         "delete_dialog": {
             "title":"Rydych chi'n cael gwared"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Dim hanes trafodion",
         "active_icon": {
             "go_transfer":"Cychwyn trosglwyddo",
-            "import_keystore":"Allwedd",
+            "import_keystore":"Ffeil cyfrif",
             "qrcode":"QR cod"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Nodwch nodyn ar gyfer eich cyfrif"
         },
         "keystore": {
-            "tit":"Yn ôl i fyny'r allwedd",
+            "tit":"Ffeil waled wrth gefn",
             "copy":"Dyblyg",
-            "download":"Lawrlwytho allweddell"
+            "download":"Lawrlwythwch ffeil waled"
         },
         "msg_info": {
             "ads_copy_success":"Mae'r cyfeiriad wedi ei gopïo",
@@ -125,89 +125,12 @@
             "imported_success":"Mewnforio ffeil yn llwyddiannus",
             "imported_account_success":"Wedi'i fewnforio'n llwyddiannus",
             "enter_private":"Rhowch yr allwedd",
-            "error_private":"Wedi methu â mewnosod y cyfrif, efallai mai dyma'r allwedd anghywir",
+            "error_keystore":"Wedi methu â mewnforio cyfrif, gall fod yn gwall ffeil cyfrif",
             "enter_keystore":"Mewnosodwch y ffeil cyfrif yn gyntaf",
             "error_password":"Wedi methu â mewnforio cyfrif, gall fod yn gyfrinair anghywir",
             "remove_success":"Wedi'i dynnu'n llwyddiannus",
             "create_success":"Crëwyd yn llwyddiannus",
             "save":"Arbedwch eich ffeil cyfrif a pheidiwch â'i rannu ag unrhyw un!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Creu Wallet",
-        "import_wallet":"Mewnforio waled",
-        "back_up":"Waled wrth gefn",
-        "add_account":"Cyfrif newydd",
-        "acc":"Cyfrif",
-        "wallet":"Waled",
-        "create_dia": {
-            "create_tit":"Creu cyfrif",
-            "backup_tit":"Yn ôl i fyny eich cyfrif newydd",
-            "create_tag":"Enw'r cyfrif",
-            "create_pwd":"Gosod cyfrinair",
-            "create_repwd":"Cadarnhau cyfrinair",
-            "placeholder_tag":"Rhowch enw'r cyfrif",
-            "placeholder_pwd":"Rhowch gyfrinair cyfrif",
-            "placeholder_repwd":"Cadarnhewch y cyfrinair cyfrif",
-            "strong_password":"Rhowch gyfrinair cryf, o leiaf 8 digid",
-            "account_address":"Cyfrif",
-            "account_privateKey":"Allwedd breifat",
-            "account_download_keystore":"Lawrlwythwch y ffeil allweddell"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Creu Wallet",
-            "backup_tit":"Yn ôl i fyny eich waled newydd",
-            "create_tag":"Enw wallet",
-            "create_pwd":"Gosod cyfrinair",
-            "create_repwd":"Cadarnhau cyfrinair",
-            "placeholder_tag":"Rhowch enw'r waled",
-            "placeholder_pwd":"Rhowch gyfrinair waledi",
-            "placeholder_repwd":"Cadarnhewch y cyfrinair waled",
-            "strong_password":"Rhowch gyfrinair cryf, o leiaf 8 digid",
-            "wallet_address":"Waled",
-            "download_wallet_file":"Lawrlwythwch ffeil waled"
-        },
-        "import_wallet_dia": {
-            "tit":"Mewnforio waled",
-            "placeholder_keystore":"Tynnwch ffeiliau waled yma",
-            "placeholder_tag":"Rhowch enw'r waled",
-            "create_tag":"Enw wallet",
-            "input_pwd":"Rhowch gyfrinair",
-            "placeholder_pwd":"Rhowch eich cyfrinair waled"
-        },
-        "remove_dia": {
-            "tit":"Ydych chi'n siŵr eich bod am gael gwared ar y waled?",
-            "remove_confrim":"Yr wyf yn siŵr fy mod yn cael gwared",
-            "backup":"Sicrhewch fod y waled wedi'i gefnogi i osgoi difrod i eiddo"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ydych chi'n siŵr eich bod am ei dynnu?",
-            "remove_confrim":"Yr wyf yn siŵr fy mod yn cael gwared",
-            "backup":"Sicrhewch fod y waled wedi'i gefnogi i osgoi difrod i eiddo"
-        },
-        "backup_wallet_dia": {
-            "tit":"Archebwch eich ffeil waled",
-            "remove_confrim":"Yr wyf yn siŵr fy mod yn cael gwared",
-            "backup":"Cliciwch Lawrlwytho i wrth gefn eich ffeil waled",
-            "download":"Lawrlwythwch"
-        },
-        "msg_info": {
-            "exist":"Eisoes yn bodoli, yr enw yw",
-            "wallet_tag_error":"Rhowch enw'r waled",
-            "enter_password":"Rhowch eich cyfrinair",
-            "incons_password":"Mae'r cyfrinair a gofnodwyd ddwywaith yn anghyson",
-            "error":"Gwall:",
-            "imported_success":"Mewnforio ffeil yn llwyddiannus",
-            "imported_wallet_success":"Mewnforio gwaledi'n llwyddiannus",
-            "enter_private":"Rhowch yr allwedd",
-            "error_private":"Wedi methu â mewnosod y cyfrif, efallai mai dyma'r allwedd anghywir",
-            "enter_keystore":"Mewnforio ffeil waled yn gyntaf",
-            "error_password":"Wedi methu â mewnforio cyfrif, gall fod yn gyfrinair anghywir",
-            "remove_success":"Wedi'i dynnu'n llwyddiannus",
-            "create_success":"Crëwyd yn llwyddiannus",
-            "acc_create_success_des":"Gellir defnyddio cyfeiriad cyfrif i dderbyn CZR",
-            "acc_wallet_success_des":"Yn ôl i fyny eich ffeiliau waled, peidiwch â dweud wrth unrhyw un",
-            "save":"Achubwch eich storfa allweddol ac na'i rannu ag unrhyw un!"
         }
     }
 }

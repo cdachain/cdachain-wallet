@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Othandizira",
-        "add_dialog":"Onjezani kukhudzana",
+        "add_dialog":"Watsopano wothandizira",
         "add_cont": {
-            "tit":"Lowani zambiri zothandizira",
-            "tag":"Tags",
-            "address":"Othandizira",
-            "tag_placeholder":"Chonde lowetsani ndemanga yotsutsa",
-            "address_placeholder":"Chonde lowetsani akaunti yothandizira"
+            "tit":"Watsopano wothandizira",
+            "tag":"Othandizira",
+            "address":"Adilesi ya akaunti",
+            "tag_placeholder":"Chonde lowetsani dzina la munthu",
+            "address_placeholder":"Chonde lowetsani adilesi ya akaunti yanu"
         },
         "delete_dialog": {
             "title":"Mukuchotsa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Palibe mbiri yakugulitsa",
         "active_icon": {
             "go_transfer":"Yambitsani kutumiza",
-            "import_keystore":"Keystore",
+            "import_keystore":"Fayilo ya Akaunti",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Lembani chizindikiro cha akaunti yanu"
         },
         "keystore": {
-            "tit":"Bwezerani seweroli",
+            "tit":"Zosungira thumba lapale fayilo",
             "copy":"Duplicate",
-            "download":"Tsitsani makina osindikizira"
+            "download":"Sakani fayilo yamakanda"
         },
         "msg_info": {
             "ads_copy_success":"Adilesi yophimbidwa",
@@ -125,89 +125,12 @@
             "imported_success":"Lowani fayilo bwinobwino",
             "imported_account_success":"Zatumizidwa bwino",
             "enter_private":"Chonde lowetsani fungulo",
-            "error_private":"Zalephera kutumiza akauntiyo, ikhoza kukhala fungulo lolakwika",
+            "error_keystore":"Zalephera kuitanitsa akaunti, ikhoza kukhala vuto la fayilo ya akaunti",
             "enter_keystore":"Chonde lowetsani fayilo ya akaunti yoyamba",
             "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
             "remove_success":"Kuchotsedwa bwino",
             "create_success":"Zapangidwa bwino",
             "save":"Chonde sungani fayilo yanu ya akaunti ndipo musawagawane ndi wina aliyense!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Pangani Wallet",
-        "import_wallet":"Lowani chikwama",
-        "back_up":"Chokwanira chikwama",
-        "add_account":"Nkhani yatsopano",
-        "acc":"Akaunti",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Pangani akaunti",
-            "backup_tit":"Bwezerani akaunti yanu yatsopano",
-            "create_tag":"Dzina la akaunti",
-            "create_pwd":"Ikani mawu achinsinsi",
-            "create_repwd":"Tsimikizani mawu achinsinsi",
-            "placeholder_tag":"Chonde lekani dzina la akaunti",
-            "placeholder_pwd":"Chonde lekani mawu achinsinsi",
-            "placeholder_repwd":"Chonde tsimikizirani mawu achinsinsi",
-            "strong_password":"Lowetsani mawu achinsinsi, osachepera maulendo 8",
-            "account_address":"Akaunti",
-            "account_privateKey":"Chinsinsi chachinsinsi",
-            "account_download_keystore":"Tsitsani fayilo ya keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Pangani Wallet",
-            "backup_tit":"Bwezerani thumba lanu latsopano",
-            "create_tag":"Dzina la ndalama",
-            "create_pwd":"Ikani mawu achinsinsi",
-            "create_repwd":"Tsimikizani mawu achinsinsi",
-            "placeholder_tag":"Chonde tengani dzina lachikwama",
-            "placeholder_pwd":"Chonde khalani chinsinsi cha ngongole",
-            "placeholder_repwd":"Chonde tsimikizani mawu achinsinsi",
-            "strong_password":"Lowetsani mawu achinsinsi, osachepera maulendo 8",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Sakani fayilo yamakanda"
-        },
-        "import_wallet_dia": {
-            "tit":"Lowani chikwama",
-            "placeholder_keystore":"Chonde lolani mafayilo a ngongole kuno",
-            "placeholder_tag":"Chonde tengani dzina lachikwama",
-            "create_tag":"Dzina la ndalama",
-            "input_pwd":"Lowani mawu achinsinsi",
-            "placeholder_pwd":"Chonde lowetsani mawu achinsinsi anu"
-        },
-        "remove_dia": {
-            "tit":"Mukutsimikiza kuti mukufuna kuchotsa chikwamachi?",
-            "remove_confrim":"Ndikutsimikiza kuchotsa",
-            "backup":"Chonde onetsetsani kuti chikwamacho chathandizidwa kuti chisokoneze katundu"
-        },
-        "remove_wallet_dia": {
-            "tit":"Kodi mukutsimikiza kuti mukufuna kuchotsa?",
-            "remove_confrim":"Ndikutsimikiza kuchotsa",
-            "backup":"Chonde onetsetsani kuti chikwamacho chathandizidwa kuti chisokoneze katundu"
-        },
-        "backup_wallet_dia": {
-            "tit":"Bweretsani fayilo yanu ya chikwama",
-            "remove_confrim":"Ndikutsimikiza kuchotsa",
-            "backup":"Dinani Koperani kuti musunge fayilo yanu ya chikwama",
-            "download":"Sakanizani"
-        },
-        "msg_info": {
-            "exist":"Kale liripo, dzina liri",
-            "wallet_tag_error":"Chonde lowetsani dzina lachikwama",
-            "enter_password":"Chonde lowetsani mawu anu achinsinsi",
-            "incons_password":"Mawu achinsinsi adalowa kawiri ndi osagwirizana",
-            "error":"Cholakwika:",
-            "imported_success":"Lowani fayilo bwinobwino",
-            "imported_wallet_success":"Ngongole imatumizidwa bwino",
-            "enter_private":"Chonde lowetsani fungulo",
-            "error_private":"Zalephera kutumiza akauntiyo, ikhoza kukhala fungulo lolakwika",
-            "enter_keystore":"Chonde lowetsani fayilo ya ngongole choyamba",
-            "error_password":"Zalephera kulowetsa akaunti, ikhoza kukhala mawu achinsinsi",
-            "remove_success":"Kuchotsedwa bwino",
-            "create_success":"Zapangidwa bwino",
-            "acc_create_success_des":"Adilesi ya akaunti ingagwiritsidwe ntchito kulandira CZR",
-            "acc_wallet_success_des":"Bweretsani mafayilo anu a chikwama, musamuwuze aliyense",
-            "save":"Chonde sungani sewero lanu lachinsinsi ndipo musawagawane ndi wina aliyense!"
         }
     }
 }

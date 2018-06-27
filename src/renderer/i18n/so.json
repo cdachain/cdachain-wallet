@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Xiriirrada",
-        "add_dialog":"Kala xiriir",
+        "add_dialog":"Xiriir cusub",
         "add_cont": {
-            "tit":"Gali macluumaadka xiriirka",
-            "tag":"Tags",
-            "address":"Xiriirrada",
-            "tag_placeholder":"Fadlan qor qoraalka faallooyinka xidhiidhka",
-            "address_placeholder":"Fadlan gali koontada xiriirka"
+            "tit":"Xiriir cusub",
+            "tag":"Xiriirrada",
+            "address":"Cinwaanka xisaabta",
+            "tag_placeholder":"Fadlan qor magaca qofka lala xidhiidhayo",
+            "address_placeholder":"Fadlan gali cinwaanka koontada akoonka"
         },
         "delete_dialog": {
             "title":"Adigu waad ka saartaa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Taariikhda isweydaarsiga",
         "active_icon": {
             "go_transfer":"Kala bedel wareejinta",
-            "import_keystore":"Keystore",
+            "import_keystore":"Faylka xisaabta",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Calaamad ku qor xisaabtaada"
         },
         "keystore": {
-            "tit":"Dib ugu soo celi furaha",
+            "tit":"Faylka canshuur celinta",
             "copy":"Duub",
-            "download":"Soo daji furaha furaha"
+            "download":"Soo rog faylka boorsada"
         },
         "msg_info": {
             "ads_copy_success":"Cinwaanka ayaa la daabacay",
@@ -125,89 +125,12 @@
             "imported_success":"Soo qaado faylka si guul leh",
             "imported_account_success":"Si guul leh u soo dhoofiyey",
             "enter_private":"Fadlan qor fure",
-            "error_private":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa fure khaldan",
+            "error_keystore":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa qalad faylka xisaabta",
             "enter_keystore":"Fadlan horey u soo qaado feylka xisaabta",
             "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
             "remove_success":"Kala guuleysatay",
             "create_success":"Abuuray guul",
             "save":"Fadlan kaydi feylkaaga xisaabta oo ha la wadaagin qof kale!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Abuur Gaariga",
-        "import_wallet":"Ku soo celi jeebka",
-        "back_up":"Jeebka keydka",
-        "add_account":"Koontada cusub",
-        "acc":"Koontada",
-        "wallet":"Gaariga",
-        "create_dia": {
-            "create_tit":"Sameyso koonto",
-            "backup_tit":"Dib u soo celi xisaabtaada cusub",
-            "create_tag":"Magaca xisaabta",
-            "create_pwd":"Sameey sirta",
-            "create_repwd":"Xaqiiji sirta",
-            "placeholder_tag":"Fadlan magaca magacaaga",
-            "placeholder_pwd":"Fadlan xisaab furaha xisaabta",
-            "placeholder_repwd":"Fadlan hubi lambarka sirta",
-            "strong_password":"Gali ereyga sirta ah, ugu yaraan 8 lambar",
-            "account_address":"Koontada",
-            "account_privateKey":"Furaha gaarka ah",
-            "account_download_keystore":"Soo qaado faylka furaha"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Abuur Gaariga",
-            "backup_tit":"Dib u buuxi jeebkaaga cusub",
-            "create_tag":"Magaca albaabka",
-            "create_pwd":"Sameey sirta",
-            "create_repwd":"Xaqiiji sirta",
-            "placeholder_tag":"Fadlan magaca magaca jeebka",
-            "placeholder_pwd":"Fadlan ku qor ereyga sirta ah",
-            "placeholder_repwd":"Fadlan saxeex lambarka sirta ah",
-            "strong_password":"Gali ereyga sirta ah, ugu yaraan 8 lambar",
-            "wallet_address":"Gaariga",
-            "download_wallet_file":"Soo rog faylka boorsada"
-        },
-        "import_wallet_dia": {
-            "tit":"Ku soo celi jeebka",
-            "placeholder_keystore":"Fadlan halkan ku dheji faylasha boorsada",
-            "placeholder_tag":"Fadlan magaca magaca jeebka",
-            "create_tag":"Magaca albaabka",
-            "input_pwd":"Geli password",
-            "placeholder_pwd":"Fadlan gali eraygaaga sirta ah"
-        },
-        "remove_dia": {
-            "tit":"Ma hubtaa inaad rabto inaad iska bixiso jeebka?",
-            "remove_confrim":"Waxaan hubaa in aan ka saaro",
-            "backup":"Fadlan hubso in boorsada loo soo celiyay si looga badbaado waxyeelada hantida"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ma hubtaa inaad rabto inaad ka saarto?",
-            "remove_confrim":"Waxaan hubaa in aan ka saaro",
-            "backup":"Fadlan hubso in boorsada loo soo celiyay si looga badbaado waxyeelada hantida"
-        },
-        "backup_wallet_dia": {
-            "tit":"Dib u buuxi feylkaaga boorsada",
-            "remove_confrim":"Waxaan hubaa in aan ka saaro",
-            "backup":"Click Download si aad u buuxiso faylka boorsadaada",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Hore ayaa jira, magacu waa",
-            "wallet_tag_error":"Fadlan gali magaca jeebka",
-            "enter_password":"Fadlan gali sirtaada",
-            "incons_password":"Furaha sirta ah laba jeer ayaa ku haboon",
-            "error":"Cilad:",
-            "imported_success":"Soo qaado faylka si guul leh",
-            "imported_wallet_success":"Qashinka si fiican ayaa loo soo dhoofiyaa",
-            "enter_private":"Fadlan qor fure",
-            "error_private":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa fure khaldan",
-            "enter_keystore":"Fadlan horey u soo qaado faylka boorsada",
-            "error_password":"Ku guuldareysiga inaad soo qaadato koontada, waxay noqon kartaa lambar sir ah",
-            "remove_success":"Kala guuleysatay",
-            "create_success":"Abuuray guul",
-            "acc_create_success_des":"Cinwaan xisaabeed ayaa loo isticmaali karaa si loo helo CZR",
-            "acc_wallet_success_des":"Dib u soo celi faylasha boorsada, cidna ha u sheegin",
-            "save":"Fadlan keydso furahaaga furahaaga oo ha la wadaagin qof kale!"
         }
     }
 }

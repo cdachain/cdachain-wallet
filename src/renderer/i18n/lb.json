@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontakter",
-        "add_dialog":"Fügt e Kontakt",
+        "add_dialog":"Neie Kontakt",
         "add_cont": {
-            "tit":"Gitt Kontact Informatioun",
-            "tag":"Tags",
-            "address":"Kontakter",
-            "tag_placeholder":"Gitt weg den Commentairen vum Kontakt",
-            "address_placeholder":"Gidd weg den Kontaktkonto"
+            "tit":"Neie Kontakt",
+            "tag":"Kontakter",
+            "address":"Konto Adress",
+            "tag_placeholder":"Gidd weg den Numm vum Kontakt",
+            "address_placeholder":"Gidd weg d'Kontoun Adress"
         },
         "delete_dialog": {
             "title":"Dir sidd ewechhuelen"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Keng Transaktiounsgeschicht",
         "active_icon": {
             "go_transfer":"Initiatioun transferéieren",
-            "import_keystore":"Keystore",
+            "import_keystore":"Kontaccount",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Mark eng Notiz fir Äre Kont"
         },
         "keystore": {
-            "tit":"Zréck op den Tastekär",
+            "tit":"Backup - Portemonnaie",
             "copy":"Duplizéieren",
-            "download":"Eroflueden"
+            "download":"Download vun der Portemonnaie"
         },
         "msg_info": {
             "ads_copy_success":"Adress gouf kopéiert",
@@ -125,89 +125,12 @@
             "imported_success":"Datei importéieren Successioun",
             "imported_account_success":"Wichteg importéiert",
             "enter_private":"Gidd weg d'Schlëssel",
-            "error_private":"Konnt de Account net importéieren, kann et de falsche Schlësselen sinn",
+            "error_keystore":"Konnt de Konto kaafen, kann et e Kontoenderefehler sinn",
             "enter_keystore":"Kuckt d'Eklicken first ofzehalen",
             "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
             "remove_success":"Erofgeholl",
             "create_success":"Erfolleg gemaach",
             "save":"Dir kënnt Är Kontaccount späicheren an net mat jiddereen ze deelen!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Create Wallet",
-        "import_wallet":"Import Portemonnaie",
-        "back_up":"Backup-Portemonnaie",
-        "add_account":"Neie Kont",
-        "acc":"Account",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Account erstellen",
-            "backup_tit":"Reservéiert Äre neie Kont",
-            "create_tag":"Account Numm",
-            "create_pwd":"Passwuert aginn",
-            "create_repwd":"Confirmatioun vum Passwuert",
-            "placeholder_tag":"Nëmme Kontosnumm umellen",
-            "placeholder_pwd":"Passwuert Passwuert aginn",
-            "placeholder_repwd":"Bestätegt de Kontpasswuert",
-            "strong_password":"Gitt e staarkt Passwuert, op d'mannst 8 Zifferen",
-            "account_address":"Account",
-            "account_privateKey":"Privatsphär",
-            "account_download_keystore":"De Passwuert-Datei lueden"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Create Wallet",
-            "backup_tit":"Zréck Är neit Portemonnaie",
-            "create_tag":"Portemonnaie name",
-            "create_pwd":"Passwuert aginn",
-            "create_repwd":"Confirmatioun vum Passwuert",
-            "placeholder_tag":"Sichtbar Portemonnaie name",
-            "placeholder_pwd":"Pass op de Portemonnaie Passwuert",
-            "placeholder_repwd":"Bestätegt Portemonnaie Passwuert",
-            "strong_password":"Gitt e staarkt Passwuert, op d'mannst 8 Zifferen",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Download vun der Portemonnaie"
-        },
-        "import_wallet_dia": {
-            "tit":"Import Portemonnaie",
-            "placeholder_keystore":"Kuckt weg Portemonnaie Dateien hei",
-            "placeholder_tag":"Sichtbar Portemonnaie name",
-            "create_tag":"Portemonnaie name",
-            "input_pwd":"Passwuert aginn",
-            "placeholder_pwd":"Gitt weg Äre Portemonnaie Passwuert"
-        },
-        "remove_dia": {
-            "tit":"Sidd Dir sécher datt Dir de Portemonnaie läschen wëllt?",
-            "remove_confrim":"Ech si sécher si ze läschen",
-            "backup":"Gitt weg datt Äert Portemonnaie opgeriicht gouf fir e Schued ze verhënneren"
-        },
-        "remove_wallet_dia": {
-            "tit":"Sidd Dir sécher, datt Dir se ewechhuelt?",
-            "remove_confrim":"Ech si sécher si ze läschen",
-            "backup":"Gitt weg datt Äert Portemonnaie opgeriicht gouf fir e Schued ze verhënneren"
-        },
-        "backup_wallet_dia": {
-            "tit":"Zréck Är Portemonnaie opmaachen",
-            "remove_confrim":"Ech si sécher si ze läschen",
-            "backup":"Klickt Download fir Äert Portemonnaie Backup z'änneren",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Scho schonn existéiert de Numm",
-            "wallet_tag_error":"Bitte gitt d'Bréifform",
-            "enter_password":"Gidd weg Äert Passwuert",
-            "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
-            "error":"Feeler:",
-            "imported_success":"Datei importéieren Successioun",
-            "imported_wallet_success":"Wallet importéiert",
-            "enter_private":"Gidd weg d'Schlëssel",
-            "error_private":"Konnt de Account net importéieren, kann et de falsche Schlësselen sinn",
-            "enter_keystore":"Kuckt éischt Portemonnaie Datei",
-            "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
-            "remove_success":"Erofgeholl",
-            "create_success":"Erfolleg gemaach",
-            "acc_create_success_des":"Konto Adress kann benotzt ginn fir CZR ze kréien",
-            "acc_wallet_success_des":"Setzt Är Portemonnaie zeréck, soen ech näischt",
-            "save":"Dir kënnt Är Tastekonto späicheren an net mat jiddereen ze deelen!"
         }
     }
 }

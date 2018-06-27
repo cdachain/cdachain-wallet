@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontak",
-        "add_dialog":"Voeg 'n kontak by",
+        "add_dialog":"Nuwe kontak",
         "add_cont": {
-            "tit":"Voer kontakbesonderhede in",
-            "tag":"tag",
-            "address":"Kontak",
-            "tag_placeholder":"Voer asseblief die kontak se kommentaar tag in",
-            "address_placeholder":"Voer asseblief die kontakrekening in"
+            "tit":"Nuwe kontak",
+            "tag":"Kontak",
+            "address":"Rekeningadres",
+            "tag_placeholder":"Voer asseblief die kontak se naam in",
+            "address_placeholder":"Voer asseblief die kontak se rekening adres in"
         },
         "delete_dialog": {
             "title":"Jy verwyder"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Geen transaksiegeskiedenis nie",
         "active_icon": {
             "go_transfer":"Inisieer oordrag",
-            "import_keystore":"sleutelstoorlêers",
+            "import_keystore":"Rekeninglêer",
             "qrcode":"QR kode"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Merk 'n nota vir jou rekening"
         },
         "keystore": {
-            "tit":"Rugsteun die sleutelwinkel",
+            "tit":"Rugsteun-beursie-lêer",
             "copy":"kopie",
-            "download":"Laai sleutelwinkel af"
+            "download":"Laai wallet-lêer af"
         },
         "msg_info": {
             "ads_copy_success":"Adres is gekopieer",
@@ -118,96 +118,19 @@
             "placeholder_pwd":"Voer asseblief die wagwoord vir hierdie rekening in"
         },
         "msg_info": {
-            "exist":"Hierdie rekening bestaan ​​reeds en die naam is",
+            "exist":"Hierdie rekening bestaan ​​reeds, die naam is",
             "enter_password":"Voer asseblief u wagwoord in",
             "incons_password":"Die twee keer ingevoerde wagwoord is teenstrydig",
             "error":"fout:",
             "imported_success":"Voer die lêer suksesvol in",
             "imported_account_success":"Suksesvol geïmporteer",
             "enter_private":"Voer asseblief die sleutel in",
-            "error_private":"Kon nie die rekening invoer nie, dit kan die verkeerde sleutel wees",
+            "error_keystore":"Kon nie rekening invoer nie, dit kan 'n rekeninglêer fout wees",
             "enter_keystore":"Voer asseblief eers die rekeninglêer in",
             "error_password":"Kon nie rekening invoer nie, dit mag dalk 'n verkeerde wagwoord wees",
             "remove_success":"Suksesvol verwyder",
             "create_success":"Geskep suksesvol",
             "save":"Slaan asseblief jou rekeninglêer op en deel dit nie met enigiemand nie!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Skep Wallet",
-        "import_wallet":"Invoer beursie",
-        "back_up":"Rugsteun beursie",
-        "add_account":"Nuwe rekening",
-        "acc":"rekening",
-        "wallet":"beursie",
-        "create_dia": {
-            "create_tit":"Skep 'n rekening",
-            "backup_tit":"Rugsteun jou nuwe rekening",
-            "create_tag":"Rekeningnaam",
-            "create_pwd":"Stel wagwoord in",
-            "create_repwd":"Bevestig wagwoord",
-            "placeholder_tag":"Stel asseblief die rekening naam in",
-            "placeholder_pwd":"Stel asseblief die wagwoord in",
-            "placeholder_repwd":"Bevestig asseblief die rekening se wagwoord",
-            "strong_password":"Gee 'n sterk wagwoord, ten minste 8 syfers",
-            "account_address":"rekening",
-            "account_privateKey":"Privaat sleutel",
-            "account_download_keystore":"Laai die sleutelwinkellêer af"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Skep Wallet",
-            "backup_tit":"Rugsteun jou nuwe beursie",
-            "create_tag":"Wallet naam",
-            "create_pwd":"Stel wagwoord in",
-            "create_repwd":"Bevestig wagwoord",
-            "placeholder_tag":"Stel asseblief die beursie naam in",
-            "placeholder_pwd":"Stel asseblief die beursie wagwoord in",
-            "placeholder_repwd":"Bevestig asseblief die beursie wagwoord",
-            "strong_password":"Gee 'n sterk wagwoord, ten minste 8 syfers",
-            "wallet_address":"beursie",
-            "download_wallet_file":"Laai wallet-lêer af"
-        },
-        "import_wallet_dia": {
-            "tit":"Invoer beursie",
-            "placeholder_keystore":"Trek asseblief beursie lêers hier",
-            "placeholder_tag":"Stel asseblief die beursie naam in",
-            "create_tag":"Wallet naam",
-            "input_pwd":"Voer wagwoord in",
-            "placeholder_pwd":"Voer asseblief jou beursie wagwoord in"
-        },
-        "remove_dia": {
-            "tit":"Is jy seker jy wil die beursie verwyder?",
-            "remove_confrim":"Ek is seker om te verwyder",
-            "backup":"Maak asseblief seker dat die beursie gerugsteun is om skade aan eiendom te voorkom"
-        },
-        "remove_wallet_dia": {
-            "tit":"Is jy seker jy wil dit verwyder?",
-            "remove_confrim":"Ek is seker om te verwyder",
-            "backup":"Maak asseblief seker dat die beursie gerugsteun is om skade aan eiendom te voorkom"
-        },
-        "backup_wallet_dia": {
-            "tit":"Rugsteun jou beursie lêer",
-            "remove_confrim":"Ek is seker om te verwyder",
-            "backup":"Klik op Aflaai om jou beursie-lêer te rugsteun",
-            "download":"aflaai"
-        },
-        "msg_info": {
-            "exist":"Reeds bestaan, die naam is",
-            "wallet_tag_error":"Voer asseblief die beursie naam in",
-            "enter_password":"Voer asseblief u wagwoord in",
-            "incons_password":"Die twee keer ingevoerde wagwoord is teenstrydig",
-            "error":"fout:",
-            "imported_success":"Voer die lêer suksesvol in",
-            "imported_wallet_success":"Wallet is suksesvol ingevoer",
-            "enter_private":"Voer asseblief die sleutel in",
-            "error_private":"Kon nie die rekening invoer nie, dit kan die verkeerde sleutel wees",
-            "enter_keystore":"Voer asseblief die beursie-lêer eerste in",
-            "error_password":"Kon nie rekening invoer nie, dit mag dalk 'n verkeerde wagwoord wees",
-            "remove_success":"Suksesvol verwyder",
-            "create_success":"Geskep suksesvol",
-            "acc_create_success_des":"Rekening adres kan gebruik word om CZR te ontvang",
-            "acc_wallet_success_des":"Rugsteun jou beursie lêers, vertel niemand nie",
-            "save":"Slaan asseblief jou sleutelwinkel op en moenie dit met enigiemand deel nie!"
         }
     }
 }

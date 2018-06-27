@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Ifowuni",
-        "add_dialog":"Yongeza umnxeba",
+        "add_dialog":"Uqhagamshelwano olutsha",
         "add_cont": {
-            "tit":"Faka ulwazi lomnxeba",
-            "tag":"Tags",
-            "address":"Ifowuni",
-            "tag_placeholder":"Nceda faka itekisi yombono woqhagamshelwano",
-            "address_placeholder":"Nceda faka i-akhawunti yomnxeba"
+            "tit":"Uqhagamshelwano olutsha",
+            "tag":"Ifowuni",
+            "address":"Idilesi yeAkhawunti",
+            "tag_placeholder":"Nceda ufake igama lomnxeba",
+            "address_placeholder":"Nceda faka idilesi yeakhawunti yomnxeba"
         },
         "delete_dialog": {
             "title":"U kususa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Akukho mlando wokuthengiselana",
         "active_icon": {
             "go_transfer":"Qalisa ukudluliselwa",
-            "import_keystore":"Keystore",
+            "import_keystore":"Ifayile yeAkhawunti",
             "qrcode":"QR ikhowudi"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Maka uphawu kwiakhawunti yakho"
         },
         "keystore": {
-            "tit":"Yenza isipele kwi-keystore",
+            "tit":"Ifayile yekhredithi yecala",
             "copy":"Phindaphinda",
-            "download":"Khuphela i-keystore"
+            "download":"Khuphela ifayile yekhredithi"
         },
         "msg_info": {
             "ads_copy_success":"Idilesi ikopishwe",
@@ -125,89 +125,12 @@
             "imported_success":"Ngenisa ifayile ngempumelelo",
             "imported_account_success":"Ngeniswe ngempumelelo",
             "enter_private":"Nceda ungenise ukhiye",
-            "error_private":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba yinto engalunganga",
+            "error_keystore":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba yiphutha yefayile ye-akhawunti",
             "enter_keystore":"Nceda ngenisa ifayile ye-akhawunti kuqala",
             "error_password":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba iphasiwedi engalunganga",
             "remove_success":"Kususwe ngempumelelo",
             "create_success":"Yadalwa ngempumelelo",
             "save":"Nceda ugcine ifayile yakho ye-akhawunti kwaye ungawabelani nabani na!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Yenza iWallet",
-        "import_wallet":"Ngenisa i-wallet",
-        "back_up":"Isikhwama sokugcina",
-        "add_account":"Akhawunti entsha",
-        "acc":"Akhawunti",
-        "wallet":"IWallet",
-        "create_dia": {
-            "create_tit":"Yakha i-akhawunti",
-            "backup_tit":"Yenza isipele iakhawunti entsha",
-            "create_tag":"Igama leAkhawunti",
-            "create_pwd":"Setha iphasiwedi",
-            "create_repwd":"Qinisekisa iphasiwedi",
-            "placeholder_tag":"Nceda usethe igama leakhawunti",
-            "placeholder_pwd":"Nceda usethe iphasiwedi yephasiwedi",
-            "placeholder_repwd":"Nceda uqinisekise igama lephasiwedi",
-            "strong_password":"Faka iphasiwedi eqinileyo, ubuncinane ubunani be-8",
-            "account_address":"Akhawunti",
-            "account_privateKey":"Ukhiye wangasese",
-            "account_download_keystore":"Khuphela ifayile yefowuni"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Yenza iWallet",
-            "backup_tit":"Yenza isipele isikhwama sakho esitsha",
-            "create_tag":"Igama leWallet",
-            "create_pwd":"Setha iphasiwedi",
-            "create_repwd":"Qinisekisa iphasiwedi",
-            "placeholder_tag":"Nceda usethe igama lekhredithi",
-            "placeholder_pwd":"Nceda usethe iphasiwedi",
-            "placeholder_repwd":"Nceda uqinisekise iphasiwedi yekhredithi",
-            "strong_password":"Faka iphasiwedi eqinileyo, ubuncinane ubunani be-8",
-            "wallet_address":"IWallet",
-            "download_wallet_file":"Khuphela ifayile yekhredithi"
-        },
-        "import_wallet_dia": {
-            "tit":"Ngenisa i-wallet",
-            "placeholder_keystore":"Nceda ukhuphe iifayile zekhredithi apha",
-            "placeholder_tag":"Nceda usethe igama lekhredithi",
-            "create_tag":"Igama leWallet",
-            "input_pwd":"Faka iphasiwedi",
-            "placeholder_pwd":"Nceda ufake iphasiwedi yakho yekhredithi"
-        },
-        "remove_dia": {
-            "tit":"Uqinisekile ukuba ufuna ukususa isikhwama?",
-            "remove_confrim":"Ndiqinisekile ukususa",
-            "backup":"Nceda qinisekisa ukuba i-wallet ixhaswe ukukhusela umonakalo wepropati"
-        },
-        "remove_wallet_dia": {
-            "tit":"Uqinisekile ukuba ufuna ukususa?",
-            "remove_confrim":"Ndiqinisekile ukususa",
-            "backup":"Nceda qinisekisa ukuba i-wallet ixhaswe ukukhusela umonakalo wepropati"
-        },
-        "backup_wallet_dia": {
-            "tit":"Yenza isipele iifayile yakho yekhredithi",
-            "remove_confrim":"Ndiqinisekile ukususa",
-            "backup":"Cofa Ukukhuphela ukuze ulondoloze ifayile yakho yekhredithi",
-            "download":"Ukukhuphela"
-        },
-        "msg_info": {
-            "exist":"Sele ikhona, igama likhona",
-            "wallet_tag_error":"Nceda ufake igama lomkhwa",
-            "enter_password":"Nceda faka iphasiwedi yakho",
-            "incons_password":"Iphasiwedi efakwe kabini ayihambelani",
-            "error":"I mpazamo:",
-            "imported_success":"Ngenisa ifayile ngempumelelo",
-            "imported_wallet_success":"IWallet i ngeniswe ngempumelelo",
-            "enter_private":"Nceda ungenise ukhiye",
-            "error_private":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba yinto engalunganga",
-            "enter_keystore":"Nceda ngenisa ifayile yekhredithi kuqala",
-            "error_password":"Ayiphumelelanga ukungenisa i-akhawunti, ingaba iphasiwedi engalunganga",
-            "remove_success":"Kususwe ngempumelelo",
-            "create_success":"Yadalwa ngempumelelo",
-            "acc_create_success_des":"Idilesi yeAkhawunti ingasetyenziselwa ukufumana i-CZR",
-            "acc_wallet_success_des":"Khusela iifayile zakho zekhredithi, ungaxeleli nabani na",
-            "save":"Nceda ugcine i-keystore yakho kwaye ungabelani nantoni na!"
         }
     }
 }

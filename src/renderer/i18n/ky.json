@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Байланыш",
-        "add_dialog":"Байланышты кошуу",
+        "add_dialog":"Болумушту Байланыш",
         "add_cont": {
-            "tit":"Байланыш маалыматын киргизүү",
-            "tag":"Tag",
-            "address":"Байланыш",
-            "tag_placeholder":"Сураныч, байланыш этикеткасы киргизе",
-            "address_placeholder":"Байланыштын эсебин кирет"
+            "tit":"Болумушту Байланыш",
+            "tag":"Байланыш",
+            "address":"каттоо дареги",
+            "tag_placeholder":"Сураныч, байланыштын атын",
+            "address_placeholder":"Сураныч, эсепти дареги кирет"
         },
         "delete_dialog": {
             "title":"Сиз алып жатышат"
@@ -69,7 +69,7 @@
         "transfer_log_null":"эч кандай бүтүмдөр",
         "active_icon": {
             "go_transfer":"которууну демилгелөө",
-            "import_keystore":"ачкыч",
+            "import_keystore":"каттоо билэ",
             "qrcode":"Эки өлчөмдүү коду"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"сиздин каттоо үчүн сөз белгилейт"
         },
         "keystore": {
-            "tit":"ачкыч сактоо",
+            "tit":"Камдык капчык билэ",
             "copy":"копия",
-            "download":"Download ачкыч"
+            "download":"Download капчыгы билэ"
         },
         "msg_info": {
             "ads_copy_success":"Дареги көчүрүлдү",
@@ -125,89 +125,12 @@
             "imported_success":"Import билэ Ийгилик",
             "imported_account_success":"Import ийгилик",
             "enter_private":"Сураныч, ачкычты кирет",
-            "error_private":"Каттоо импорт албаса, ката негизги болушу мүмкүн",
+            "error_keystore":"Каттоо импорт албаса, эсеп туура билэ болушу мүмкүн",
             "enter_keystore":"Эсебин билэни импорттоо",
             "error_password":"Каттоо импорт албаса, бул туура эмес сөз болушу мүмкүн",
             "remove_success":"ийгиликтүү алынып салынды",
             "create_success":"ийгилик түзүлүүдө",
             "save":"Сураныч, сиздин каттоо сактап, эч ким менен бөлүшө жок!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"капчыгы түзүү",
-        "import_wallet":"Import капчык",
-        "back_up":"камдык капчык",
-        "add_account":"жаңы каттоо эсеби",
-        "acc":"каттоо",
-        "wallet":"акча капчыгы",
-        "create_dia": {
-            "create_tit":"Эсеп жазуусун жаратуу",
-            "backup_tit":"Сиздин жаңы эсеп камдык",
-            "create_tag":"каттоо эсебинин аталышы",
-            "create_pwd":"пароль",
-            "create_repwd":"Сырсөздү ырастоо",
-            "placeholder_tag":"Set эсеп аты",
-            "placeholder_pwd":"Set эсеп пароль",
-            "placeholder_repwd":"эсеп-сөздү баамдагыла",
-            "strong_password":"Enter, жок эле дегенде сегиз, күчтүү сөздү",
-            "account_address":"каттоо",
-            "account_privateKey":"жеке ачкыч",
-            "account_download_keystore":"Download ачкыч билэ"
-        },
-        "create_wallet_dia": {
-            "create_tit":"капчыгы түзүү",
-            "backup_tit":"Сиздин жаңы капчыкты камдык",
-            "create_tag":"Капчык аты-жөнү",
-            "create_pwd":"пароль",
-            "create_repwd":"Сырсөздү ырастоо",
-            "placeholder_tag":"Set капчыгы аты",
-            "placeholder_pwd":"Сураныч, капчыгы сөздү койду",
-            "placeholder_repwd":"Сырсөз Капчыкты ырастоо",
-            "strong_password":"Enter, жок эле дегенде сегиз, күчтүү сөздү",
-            "wallet_address":"акча капчыгы",
-            "download_wallet_file":"Download капчыгы билэ"
-        },
-        "import_wallet_dia": {
-            "tit":"Import капчык",
-            "placeholder_keystore":"Бул жерде эске капчыгы билэни жагыш",
-            "placeholder_tag":"Set капчыгы аты",
-            "create_tag":"Капчык аты-жөнү",
-            "input_pwd":"сырсөз киргизүү",
-            "placeholder_pwd":"капчык сырсөздү киргизүү"
-        },
-        "remove_dia": {
-            "tit":"Сиз Капчыкты алып келеби?",
-            "remove_confrim":"Мен алып ишенем",
-            "backup":"капчык мүлктүк зыянга учуратпоо үчүн камдык аныктап били¾из"
-        },
-        "remove_wallet_dia": {
-            "tit":"Чын эле, аны алып келеби?",
-            "remove_confrim":"Мен алып ишенем",
-            "backup":"капчык мүлктүк зыянга учуратпоо үчүн камдык аныктап били¾из"
-        },
-        "backup_wallet_dia": {
-            "tit":"Камдык сиздин капчыгы билэ",
-            "remove_confrim":"Мен алып ишенем",
-            "backup":"Click жүктөп алуу үчүн, камдык сиздин капчыгы билэни",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Мурунтан эле бар, аты",
-            "wallet_tag_error":"Сураныч, капчыгы атын",
-            "enter_password":"Сураныч, сөздү киргизип",
-            "incons_password":"Сырсөздөр дал келген жок",
-            "error":"Error:",
-            "imported_success":"Import билэ Ийгилик",
-            "imported_wallet_success":"Import ийгилик капчыгы",
-            "enter_private":"Сураныч, ачкычты кирет",
-            "error_private":"Каттоо импорт албаса, ката негизги болушу мүмкүн",
-            "enter_keystore":"Сураныч, капчыгы билэ импорт",
-            "error_password":"Каттоо импорт албаса, бул туура эмес сөз болушу мүмкүн",
-            "remove_success":"ийгиликтүү алынып салынды",
-            "create_success":"ийгилик түзүлүүдө",
-            "acc_create_success_des":"Каттоо дареги CZR алуу үчүн жеткиликтүү эмес",
-            "acc_wallet_success_des":"Назад капчык делосуна чейин, эч кимге эч нерсе айткан жок,",
-            "save":"Сураныч, ачкыч сактап, эч ким менен бөлүшө жок!"
         }
     }
 }

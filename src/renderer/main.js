@@ -52,6 +52,7 @@ Vue.czr = Vue.prototype.$czr = czr;
 
 Vue.prototype.$db = db
 
+
 // Loading i18 language
 const messages={};
 for(const languge in languges){
@@ -61,8 +62,73 @@ for(const languge in languges){
 let locale =db.get('czr_setting.lang').value() ;
 const i18n = new VueI18n({
     locale: locale ,// set locale
-    messages,       // set locale messages
+    messages,       // set locale messages 
 });
+
+
+//account list Start
+function getAccountsBalances(accountAry){
+    czr.request
+    .accountsBalances(accountAry)
+    .then(function(data) {
+        return data.balances;
+    }).then(function(data){
+        for( var acc in data){
+            db
+            .read()
+            .get("czr_accounts")
+            .find({ address: acc })
+            .assign({ balance: parseInt(data[acc]['balance'])})
+            .write();
+        }
+    });
+}
+
+function getAccounts(){
+    czr.request
+    .accountList()
+    .then(function(data) {
+        return data.accounts;
+    }).then(function(data){
+        //先把本地数据库存在，但是 data 里不存在的账户 删除
+        var database= db.get("czr_accounts").value();
+        var databaseAry=[];
+        database.forEach((localAcc) => {
+            if ( data.indexOf(localAcc.address) < 0 ) {
+                //不存在
+                db.get("czr_accounts")
+                .remove({ address: localAcc.address })
+                .write();
+            }else{
+                databaseAry.push(localAcc.address)
+            }
+        });
+        var flagLeng=databaseAry.length;
+        data.forEach((reqAry,index) => {
+            if ( databaseAry.indexOf(reqAry) < 0 ) {
+                //数据库不存在 
+                let params = {
+                    address: reqAry,
+                    tag: '账号'+(++flagLeng),
+                    tx_list: [],
+                    balance: 0
+                };
+                db.get("czr_accounts")
+                .push(params)
+                .write();
+            }
+        })
+        //再把data中有，但是数据库里没有的账户添 加 
+        getAccountsBalances(data)
+        //获取余额
+    });
+}
+
+setInterval(function(){
+    getAccounts();
+},2000)
+
+//account list End
 
 /* eslint-disable no-new */
 Vue.config.productionTip = false

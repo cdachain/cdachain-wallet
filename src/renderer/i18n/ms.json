@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kenalan",
-        "add_dialog":"Tambah kenalan",
+        "add_dialog":"Kenalan baru",
         "add_cont": {
-            "tit":"Masukkan maklumat hubungan",
-            "tag":"Tags",
-            "address":"Kenalan",
-            "tag_placeholder":"Sila masukkan teg komen kenalan",
-            "address_placeholder":"Sila masukkan akaun kenalan"
+            "tit":"Kenalan baru",
+            "tag":"Kenalan",
+            "address":"Alamat akaun",
+            "tag_placeholder":"Sila masukkan nama kenalan itu",
+            "address_placeholder":"Sila masukkan alamat akaun kenalan"
         },
         "delete_dialog": {
             "title":"Anda membuang"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Tiada sejarah transaksi",
         "active_icon": {
             "go_transfer":"Pindahan awal",
-            "import_keystore":"Kedai kunci",
+            "import_keystore":"Fail akaun",
             "qrcode":"Kod QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Tandakan nota untuk akaun anda"
         },
         "keystore": {
-            "tit":"Back up the keystore",
+            "tit":"Fail dompet sandaran",
             "copy":"Duplikat",
-            "download":"Muat turun keystore"
+            "download":"Muat turun fail dompet"
         },
         "msg_info": {
             "ads_copy_success":"Alamat telah disalin",
@@ -125,89 +125,12 @@
             "imported_success":"Import fail berjaya",
             "imported_account_success":"Diimport dengan jayanya",
             "enter_private":"Sila masukkan kekunci",
-            "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
+            "error_keystore":"Gagal mengimport akaun, ia mungkin ralat fail akaun",
             "enter_keystore":"Sila masukkan fail akaun terlebih dahulu",
             "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
             "remove_success":"Dihapuskan berjaya",
             "create_success":"Dibuat berjaya",
             "save":"Sila simpan fail akaun anda dan jangan kongsi dengan sesiapa!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Buat Wallet",
-        "import_wallet":"Import dompet",
-        "back_up":"Dompet sandaran",
-        "add_account":"Akaun baru",
-        "acc":"Akaun",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Buat akaun",
-            "backup_tit":"Sandarkan akaun baru anda",
-            "create_tag":"Nama akaun",
-            "create_pwd":"Tetapkan kata laluan",
-            "create_repwd":"Sahkan kata laluan",
-            "placeholder_tag":"Sila nyatakan nama akaun",
-            "placeholder_pwd":"Sila nyatakan kata laluan akaun",
-            "placeholder_repwd":"Sila sahkan kata laluan akaun",
-            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
-            "account_address":"Akaun",
-            "account_privateKey":"Kunci persendirian",
-            "account_download_keystore":"Muat turun fail utama kedai"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Buat Wallet",
-            "backup_tit":"Sandarkan dompet baru anda",
-            "create_tag":"Nama Wallet",
-            "create_pwd":"Tetapkan kata laluan",
-            "create_repwd":"Sahkan kata laluan",
-            "placeholder_tag":"Sila tetapkan nama dompet",
-            "placeholder_pwd":"Sila tetapkan kata laluan dompet",
-            "placeholder_repwd":"Sila sahkan kata laluan dompet",
-            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Muat turun fail dompet"
-        },
-        "import_wallet_dia": {
-            "tit":"Import dompet",
-            "placeholder_keystore":"Sila tarik fail dompet di sini",
-            "placeholder_tag":"Sila tetapkan nama dompet",
-            "create_tag":"Nama Wallet",
-            "input_pwd":"Masukkan kata laluan",
-            "placeholder_pwd":"Sila masukkan kata laluan dompet anda"
-        },
-        "remove_dia": {
-            "tit":"Adakah anda pasti mahu mengeluarkan dompet?",
-            "remove_confrim":"Saya pasti akan mengeluarkannya",
-            "backup":"Sila pastikan dompet telah dicadangkan untuk mengelakkan kerosakan harta benda"
-        },
-        "remove_wallet_dia": {
-            "tit":"Adakah anda pasti mahu mengeluarkannya?",
-            "remove_confrim":"Saya pasti akan mengeluarkannya",
-            "backup":"Sila pastikan dompet telah dicadangkan untuk mengelakkan kerosakan harta benda"
-        },
-        "backup_wallet_dia": {
-            "tit":"Sandarkan fail dompet anda",
-            "remove_confrim":"Saya pasti akan mengeluarkannya",
-            "backup":"Klik Muat turun untuk membuat sandaran fail dompet anda",
-            "download":"Muat turun"
-        },
-        "msg_info": {
-            "exist":"Sudah wujud, nama itu",
-            "wallet_tag_error":"Sila masukkan nama dompet",
-            "enter_password":"Sila masukkan kata laluan anda",
-            "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
-            "error":"Ralat:",
-            "imported_success":"Import fail berjaya",
-            "imported_wallet_success":"Wallet diimport dengan jayanya",
-            "enter_private":"Sila masukkan kekunci",
-            "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
-            "enter_keystore":"Sila masukkan fail dompet terlebih dahulu",
-            "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
-            "remove_success":"Dihapuskan berjaya",
-            "create_success":"Dibuat berjaya",
-            "acc_create_success_des":"Alamat akaun boleh digunakan untuk menerima CZR",
-            "acc_wallet_success_des":"Sandarkan file dompet anda, jangan beritahu siapa pun",
-            "save":"Sila simpan kunci utama anda dan jangan kongsi dengan sesiapa sahaja!"
         }
     }
 }

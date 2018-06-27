@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"kontakt",
-        "add_dialog":"Shto një kontakt",
+        "add_dialog":"Kontakt i ri",
         "add_cont": {
-            "tit":"Shkruani informacionin e kontaktit",
-            "tag":"etiketë",
-            "address":"kontakt",
-            "tag_placeholder":"Ju lutemi shkruani tagun e komentit të kontaktit",
-            "address_placeholder":"Ju lutemi shkruani llogarinë e kontaktit"
+            "tit":"Kontakt i ri",
+            "tag":"kontakt",
+            "address":"Adresa e llogarisë",
+            "tag_placeholder":"Ju lutemi shkruani emrin e kontaktit",
+            "address_placeholder":"Ju lutemi shkruani adresën e llogarisë së kontaktit"
         },
         "delete_dialog": {
             "title":"Po heq"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Asnjë histori transaksioni",
         "active_icon": {
             "go_transfer":"Nise transferimin",
-            "import_keystore":"keystore",
+            "import_keystore":"Dosje e llogarisë",
             "qrcode":"QR kodi"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Shënoni një shënim për llogarinë tuaj"
         },
         "keystore": {
-            "tit":"Kthehu në tastierën",
+            "tit":"Dosja e portofolit të kopjimit",
             "copy":"kopje",
-            "download":"Shkarko tastierën"
+            "download":"Shkarko skedarin e portofolit"
         },
         "msg_info": {
             "ads_copy_success":"Adresa është kopjuar",
@@ -125,89 +125,12 @@
             "imported_success":"Dosja e importit me sukses",
             "imported_account_success":"Importuar me sukses",
             "enter_private":"Futni çelësin",
-            "error_private":"Dështoi në importimin e llogarisë, mund të jetë çelësi i gabuar",
+            "error_keystore":"Dështoi në importimin e llogarisë, mund të jetë një gabim i skedarit të llogarisë",
             "enter_keystore":"Ju lutemi të importoni skedarin e llogarisë së parë",
             "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
             "remove_success":"Heqja me sukses",
             "create_success":"Krijuar me sukses",
             "save":"Ruani skedarin tuaj të llogarisë dhe mos e ndani me askënd!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Krijo portofolin",
-        "import_wallet":"Portofoli i importit",
-        "back_up":"Portofolin e sigurisë",
-        "add_account":"Llogari e re",
-        "acc":"llogari",
-        "wallet":"portofol",
-        "create_dia": {
-            "create_tit":"Krijo një llogari",
-            "backup_tit":"Ruaje llogarinë tënde të re",
-            "create_tag":"Emri i llogarisë",
-            "create_pwd":"Cakto fjalëkalimin",
-            "create_repwd":"Konfirmo fjalëkalimin",
-            "placeholder_tag":"Vendosni emrin e llogarisë",
-            "placeholder_pwd":"Vendosni fjalëkalimin e llogarisë",
-            "placeholder_repwd":"Ju lutemi konfirmoni fjalëkalimin e llogarisë",
-            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
-            "account_address":"llogari",
-            "account_privateKey":"Çelësi privat",
-            "account_download_keystore":"Shkarko skedarin e keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Krijo portofolin",
-            "backup_tit":"Ruaje portofolin tënd të ri",
-            "create_tag":"Emri i Portofolit",
-            "create_pwd":"Cakto fjalëkalimin",
-            "create_repwd":"Konfirmo fjalëkalimin",
-            "placeholder_tag":"Vendosni emrin e portofolit",
-            "placeholder_pwd":"Vendosni fjalëkalimin e portofolit",
-            "placeholder_repwd":"Lutemi konfirmoni fjalëkalimin e portofolit",
-            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
-            "wallet_address":"portofol",
-            "download_wallet_file":"Shkarko skedarin e portofolit"
-        },
-        "import_wallet_dia": {
-            "tit":"Portofoli i importit",
-            "placeholder_keystore":"Ju lutem tërhiqni skedarët e portofolit këtu",
-            "placeholder_tag":"Vendosni emrin e portofolit",
-            "create_tag":"Emri i Portofolit",
-            "input_pwd":"Fut fjalëkalimin",
-            "placeholder_pwd":"Futni fjalëkalimin tuaj të portofolit"
-        },
-        "remove_dia": {
-            "tit":"Je i sigurt që dëshiron ta heqësh portofolin?",
-            "remove_confrim":"Unë jam i sigurt për të hequr",
-            "backup":"Sigurohuni që portofoni të jetë mbështetur për të shmangur dëmtimin e pronës"
-        },
-        "remove_wallet_dia": {
-            "tit":"Jeni i sigurt se doni ta hiqni atë?",
-            "remove_confrim":"Unë jam i sigurt për të hequr",
-            "backup":"Sigurohuni që portofoni të jetë mbështetur për të shmangur dëmtimin e pronës"
-        },
-        "backup_wallet_dia": {
-            "tit":"Ruaje skedarin e portofolit tënd",
-            "remove_confrim":"Unë jam i sigurt për të hequr",
-            "backup":"Klikoni Shkarko për të ruajtur skedarin tuaj të portofolit",
-            "download":"Shkarko"
-        },
-        "msg_info": {
-            "exist":"Tashmë ekziston, emri është",
-            "wallet_tag_error":"Futni emrin e portofolit",
-            "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
-            "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
-            "error":"gabim:",
-            "imported_success":"Dosja e importit me sukses",
-            "imported_wallet_success":"Portofoli u importua me sukses",
-            "enter_private":"Futni çelësin",
-            "error_private":"Dështoi në importimin e llogarisë, mund të jetë çelësi i gabuar",
-            "enter_keystore":"Ju lutem importoni skedarin e portofolit të parë",
-            "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
-            "remove_success":"Heqja me sukses",
-            "create_success":"Krijuar me sukses",
-            "acc_create_success_des":"Adresa e llogarisë mund të përdoret për të marrë CZR",
-            "acc_wallet_success_des":"Kthehu në dosjet tuaja të portofolit, mos thuaj askujt",
-            "save":"Ju lutemi ruani dyqanin tuaj dhe mos e ndani me askënd!"
         }
     }
 }

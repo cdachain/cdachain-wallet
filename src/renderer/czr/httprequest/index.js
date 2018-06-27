@@ -167,37 +167,6 @@ HttpRequest.prototype.accountList = async function() {
 
 
 
-//钱包 创建 参数 无
-HttpRequest.prototype.walletCreate = async function() {
-    var opt = {
-        "action": "wallet_create",
-    };
-    let ret = await asyncfunc(opt);
-    return ret;
-};
-
-//钱包 文件储存
-HttpRequest.prototype.walletExport = async function(walletVal) {
-    var opt = {
-        "action": "wallet_export",
-        "wallet":walletVal
-    };
-    let ret = await asyncfunc(opt);
-    return ret;
-};
-
-//钱包 删除
-HttpRequest.prototype.walletDestroy = async function(walletVal) {
-    var opt = {
-        "action": "wallet_destroy",
-        "wallet":walletVal
-    };
-    let ret = await asyncfunc(opt);
-    return ret;
-};
-
-
-
 //获取账号余额
 HttpRequest.prototype.accountBalance = async function(account) {
     if(!account){

@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"érintkezés",
-        "add_dialog":"Adjon hozzá egy nevet",
+        "add_dialog":"Új kapcsolat",
         "add_cont": {
-            "tit":"Adja meg az elérhetőségi adatokat",
-            "tag":"címke",
-            "address":"érintkezés",
-            "tag_placeholder":"Adja meg a partner kommentárcímkéjét",
-            "address_placeholder":"Kérjük, adja meg a kapcsolatfiókot"
+            "tit":"Új kapcsolat",
+            "tag":"érintkezés",
+            "address":"Fiókcím",
+            "tag_placeholder":"Adja meg a névjegy nevét",
+            "address_placeholder":"Kérjük, adja meg a kapcsolattartó fiókcímét"
         },
         "delete_dialog": {
             "title":"Ön eltávolít"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Nincs tranzakcióelőzmény",
         "active_icon": {
             "go_transfer":"Átirányítás kezdeményezése",
-            "import_keystore":"kulcstárát",
+            "import_keystore":"Fiókfájl",
             "qrcode":"QR kód"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Jelöljön meg egy jegyzetet fiókjához"
         },
         "keystore": {
-            "tit":"Hozza vissza a kulcsstartót",
+            "tit":"Biztonsági másolat fájl",
             "copy":"másolat",
-            "download":"A kulcstartó letöltése"
+            "download":"Wallet-fájl letöltése"
         },
         "msg_info": {
             "ads_copy_success":"A cím át lett másolva",
@@ -125,89 +125,12 @@
             "imported_success":"Fájl importálása sikeresen",
             "imported_account_success":"Importált sikeresen",
             "enter_private":"Kérjük, adja meg a kulcsot",
-            "error_private":"Nem sikerült importálni a fiókot, lehet, hogy rossz kulcs",
+            "error_keystore":"Nem sikerült importálni a fiókot, lehet, hogy fiókfájlhiba",
             "enter_keystore":"Kérjük, először importálja a fiókfájlt",
             "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
             "remove_success":"Sikeresen eltávolítva",
             "create_success":"Létrehozva sikeresen",
             "save":"Kérjük, mentse fiókfájlját, és ne ossza meg senkivel!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Wallet létrehozása",
-        "import_wallet":"Pénztárca importálása",
-        "back_up":"Biztonsági másolat",
-        "add_account":"Új fiók",
-        "acc":"számla",
-        "wallet":"pénztárca",
-        "create_dia": {
-            "create_tit":"Hozzon létre egy fiókot",
-            "backup_tit":"Hozza létre az új fiókot",
-            "create_tag":"Fiók neve",
-            "create_pwd":"Jelszó beállítása",
-            "create_repwd":"Jelszó megerősítése",
-            "placeholder_tag":"Állítsa be a fiók nevét",
-            "placeholder_pwd":"Kérjük, állítsa be a fiók jelszavát",
-            "placeholder_repwd":"Kérjük, erősítse meg a fiók jelszavát",
-            "strong_password":"Adjon meg egy erős jelszót, legalább 8 számjegyből",
-            "account_address":"számla",
-            "account_privateKey":"Privát kulcs",
-            "account_download_keystore":"Töltse le a kulcstároló fájlt"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Wallet létrehozása",
-            "backup_tit":"Készítsen biztonsági másolatot az új tárcájáról",
-            "create_tag":"Pénztárca neve",
-            "create_pwd":"Jelszó beállítása",
-            "create_repwd":"Jelszó megerősítése",
-            "placeholder_tag":"Adja meg a pénztárca nevét",
-            "placeholder_pwd":"Adja meg a pénztárca jelszavát",
-            "placeholder_repwd":"Kérjük, erősítse meg a mobiltárca jelszavát",
-            "strong_password":"Adjon meg egy erős jelszót, legalább 8 számjegyből",
-            "wallet_address":"pénztárca",
-            "download_wallet_file":"Wallet-fájl letöltése"
-        },
-        "import_wallet_dia": {
-            "tit":"Pénztárca importálása",
-            "placeholder_keystore":"Kérem vigye a pénztárca fájlokat itt",
-            "placeholder_tag":"Adja meg a pénztárca nevét",
-            "create_tag":"Pénztárca neve",
-            "input_pwd":"Adja meg a jelszót",
-            "placeholder_pwd":"Adja meg a mobiltárca jelszavát"
-        },
-        "remove_dia": {
-            "tit":"Biztosan eltávolítja a mobiltárcát?",
-            "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
-            "backup":"Győződjön meg róla, hogy a pénztárca biztonsági mentés alatt van, hogy elkerülje az anyagi károkat"
-        },
-        "remove_wallet_dia": {
-            "tit":"Biztosan eltávolítja?",
-            "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
-            "backup":"Győződjön meg róla, hogy a pénztárca biztonsági mentés alatt van, hogy elkerülje az anyagi károkat"
-        },
-        "backup_wallet_dia": {
-            "tit":"Készítsen biztonsági másolatot a mobiltárca fájljáról",
-            "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
-            "backup":"A Wallet fájl biztonsági mentéséhez kattintson a Letöltés gombra",
-            "download":"Letöltés"
-        },
-        "msg_info": {
-            "exist":"Már létezik a név",
-            "wallet_tag_error":"Adja meg a mobiltárca nevét",
-            "enter_password":"Kérjük, adja meg jelszavát",
-            "incons_password":"A kétszer beírt jelszó következetlen",
-            "error":"Hiba:",
-            "imported_success":"Fájl importálása sikeresen",
-            "imported_wallet_success":"A pénztárca sikeresen importált",
-            "enter_private":"Kérjük, adja meg a kulcsot",
-            "error_private":"Nem sikerült importálni a fiókot, lehet, hogy rossz kulcs",
-            "enter_keystore":"Először írja be a tárcáját",
-            "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
-            "remove_success":"Sikeresen eltávolítva",
-            "create_success":"Létrehozva sikeresen",
-            "acc_create_success_des":"A fiókcím felhasználható a CZR fogadásához",
-            "acc_wallet_success_des":"Hozza vissza a mobiltárca fájljait, ne mondja el senkinek",
-            "save":"Kérem, mentse el a kulcstartóját, és ne ossza meg senkivel!"
         }
     }
 }

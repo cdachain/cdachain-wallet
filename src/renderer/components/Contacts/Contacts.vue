@@ -22,7 +22,6 @@
             </div>
           </div>
         </template>
-
         <!--  ADD  -->
         <div class="contacts-item add-contacts" @click="dialogSwitch.create = true">
           <div class="contacts-cont">

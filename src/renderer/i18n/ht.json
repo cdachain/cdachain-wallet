@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontak",
-        "add_dialog":"Add yon kontak",
+        "add_dialog":"Nouvo kontak",
         "add_cont": {
-            "tit":"Mete enfòmasyon kontak",
-            "tag":"Tags",
-            "address":"Kontak",
-            "tag_placeholder":"Tanpri antre nan kòmantè kòmantè kontak la",
-            "address_placeholder":"Tanpri antre kont kontak la"
+            "tit":"Nouvo kontak",
+            "tag":"Kontak",
+            "address":"Adrès kont",
+            "tag_placeholder":"Tanpri antre non kontak la",
+            "address_placeholder":"Tanpri antre adrès kont kontak la"
         },
         "delete_dialog": {
             "title":"Ou yo retire"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Pa gen istwa tranzaksyon",
         "active_icon": {
             "go_transfer":"Inisye transfè",
-            "import_keystore":"Keystore",
+            "import_keystore":"Kont dosye",
             "qrcode":"QR kòd"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Make yon nòt pou kont ou"
         },
         "keystore": {
-            "tit":"Tounen moute keystore la",
+            "tit":"Fichye dosye bous",
             "copy":"Diplikata",
-            "download":"Download keystore"
+            "download":"Download dosye bous"
         },
         "msg_info": {
             "ads_copy_success":"Adrès ki te kopye",
@@ -125,89 +125,12 @@
             "imported_success":"Import dosye avèk siksè",
             "imported_account_success":"Enpòte avèk siksè",
             "enter_private":"Tanpri antre kle a",
-            "error_private":"Echwe pou enpòte kont lan, li ka kle a mal",
+            "error_keystore":"Fayit enpòte kont, li ka yon erè dosye kont",
             "enter_keystore":"Tanpri enpòte dosye a kont premye",
             "error_password":"Fayit enpòte kont, li ka yon modpas mal",
             "remove_success":"Retire siksè",
             "create_success":"Kreye avèk siksè",
             "save":"Tanpri sove dosye kont ou epi pa pataje li avèk nenpòt moun!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Kreye bous",
-        "import_wallet":"Import bous",
-        "back_up":"Backup bous",
-        "add_account":"Nouvo kont",
-        "acc":"Kont",
-        "wallet":"Bous",
-        "create_dia": {
-            "create_tit":"Kreye yon kont",
-            "backup_tit":"Tounen moute nouvo kont ou",
-            "create_tag":"Non kont",
-            "create_pwd":"Mete modpas",
-            "create_repwd":"Konfime modpas",
-            "placeholder_tag":"Tanpri mete non kont",
-            "placeholder_pwd":"Tanpri mete modpas kont",
-            "placeholder_repwd":"Tanpri konfime modpas kont la",
-            "strong_password":"Mete yon modpas fò, omwen 8 chif",
-            "account_address":"Kont",
-            "account_privateKey":"Prive kle",
-            "account_download_keystore":"Download dosye a Keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Kreye bous",
-            "backup_tit":"Tounen moute bous nouvo ou",
-            "create_tag":"Bous non",
-            "create_pwd":"Mete modpas",
-            "create_repwd":"Konfime modpas",
-            "placeholder_tag":"Tanpri mete non bous",
-            "placeholder_pwd":"Tanpri mete modpas bous",
-            "placeholder_repwd":"Tanpri konfime modpas bous",
-            "strong_password":"Mete yon modpas fò, omwen 8 chif",
-            "wallet_address":"Bous",
-            "download_wallet_file":"Download dosye bous"
-        },
-        "import_wallet_dia": {
-            "tit":"Import bous",
-            "placeholder_keystore":"Tanpri rale bous dosye isit la",
-            "placeholder_tag":"Tanpri mete non bous",
-            "create_tag":"Bous non",
-            "input_pwd":"Mete modpas",
-            "placeholder_pwd":"Tanpri antre modpas bous ou"
-        },
-        "remove_dia": {
-            "tit":"Èske ou sèten ou vle retire bous la?",
-            "remove_confrim":"Mwen asire w ke yo retire",
-            "backup":"Tanpri, asire w ke bous la te apiye moute pou fè pou evite domaj sou pwopriyete a"
-        },
-        "remove_wallet_dia": {
-            "tit":"Èske ou sèten ou vle retire li?",
-            "remove_confrim":"Mwen asire w ke yo retire",
-            "backup":"Tanpri, asire w ke bous la te apiye moute pou fè pou evite domaj sou pwopriyete a"
-        },
-        "backup_wallet_dia": {
-            "tit":"Tounen moute dosye bous ou",
-            "remove_confrim":"Mwen asire w ke yo retire",
-            "backup":"Klike sou Download Download backup dosye bous ou",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Deja egziste, non an se",
-            "wallet_tag_error":"Tanpri antre non bous",
-            "enter_password":"Tanpri antre modpas ou",
-            "incons_password":"Modpas la antre nan de fwa se konsistan",
-            "error":"Erè:",
-            "imported_success":"Import dosye avèk siksè",
-            "imported_wallet_success":"Bous enpòte avèk siksè",
-            "enter_private":"Tanpri antre kle a",
-            "error_private":"Echwe pou enpòte kont lan, li ka kle a mal",
-            "enter_keystore":"Tanpri enpòte dosye bous premye",
-            "error_password":"Fayit enpòte kont, li ka yon modpas mal",
-            "remove_success":"Retire siksè",
-            "create_success":"Kreye avèk siksè",
-            "acc_create_success_des":"Kont adrès ou ka itilize pou resevwa CZR",
-            "acc_wallet_success_des":"Tounen moute dosye bous ou, pa di okenn moun",
-            "save":"Tanpri sove keystore ou epi pa pataje li ak nenpòt moun!"
         }
     }
 }

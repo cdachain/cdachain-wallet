@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Nāʻike",
-        "add_dialog":"Hoʻohui i kahi leka",
+        "add_dialog":"Hoʻohui hou",
         "add_cont": {
-            "tit":"E komo i kaʻike hulina",
-            "tag":"Nā helu",
-            "address":"Nāʻike",
-            "tag_placeholder":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i ka helu kuhihewa o ka leka",
-            "address_placeholder":"Eʻoluʻolu e komo i ka helu kuhi"
+            "tit":"Hoʻohui hou",
+            "tag":"Nāʻike",
+            "address":"Ka helu pūnaewele",
+            "tag_placeholder":"Eʻoluʻolu e hoʻokahua i ka inoa o ka mea hoʻopuka",
+            "address_placeholder":"Eʻoluʻolu eʻoluʻolu e hoʻokomo i ka helu helu pūnaewele"
         },
         "delete_dialog": {
             "title":"Ke wehe neiʻoe"
@@ -69,7 +69,7 @@
         "transfer_log_null":"ʻAʻohe kūkena maʻamau",
         "active_icon": {
             "go_transfer":"E hoʻomaka i ka hoʻololi",
-            "import_keystore":"Keystore",
+            "import_keystore":"Pūnae pūnaewele",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"E kākau i kahi leka no kāu helu"
         },
         "keystore": {
-            "tit":"E kākoʻo i ka keystore",
+            "tit":"Kōnae putele pūnaewele",
             "copy":"Pālua",
-            "download":"Hoʻoiho i kahi makaikai"
+            "download":"E kiʻi i kahi faile putele"
         },
         "msg_info": {
             "ads_copy_success":"Ua kāpiliʻia ka helu",
@@ -125,89 +125,12 @@
             "imported_success":"E hoʻokahua pono i kahi pūnaewele",
             "imported_account_success":"Kauʻia mai i ka holomua",
             "enter_private":"Eʻoluʻolu e komo i ka kī",
-            "error_private":"ʻAʻole i hiki iā ia ke hoʻokomo i ka hōʻike,ʻo ia paha ke kī hewa",
+            "error_keystore":"ʻAʻole iʻae i ka laweʻana i kaʻike, hiki paha i kahi hapa hewa waihona pūnaewele",
             "enter_keystore":"E hoʻokomo i ka waihona pūnaewele mua",
             "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
             "remove_success":"Ua hoʻopau 'ia iā ia",
             "create_success":"Hanaʻia me ka maikaʻi",
             "save":"Eʻoluʻolu e mālama i kāu pūnaewele pūnaewele a 'aʻole e puʻunaue i kekahi me kekahi!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"E hana i ka pēke",
-        "import_wallet":"Ka laweʻana i ke ekeke",
-        "back_up":"Ka pute uila",
-        "add_account":"Pūʻulu hou",
-        "acc":"Pūnaewele",
-        "wallet":"Ka pote",
-        "create_dia": {
-            "create_tit":"Hana i kahi moʻokāki",
-            "backup_tit":"E mālama i kāu moʻokāki hou",
-            "create_tag":"Helu inoa",
-            "create_pwd":"E hoʻonoho i ka memo",
-            "create_repwd":"Hōʻoia i ka memo",
-            "placeholder_tag":"Eʻoluʻolu e hoʻonoho inoa inoa",
-            "placeholder_pwd":"Eʻoluʻolu e hōʻolo i ka hua'ōlelo pilina",
-            "placeholder_repwd":"Eʻoluʻolu e hōʻoia i ka'ōlelo'ōlelo pūnaewele",
-            "strong_password":"E hoʻokomo i kahi hua'ōlelo ikaika, ma kahi o 8 mau helu",
-            "account_address":"Pūnaewele",
-            "account_privateKey":"Kelekele kiko'ī",
-            "account_download_keystore":"E kiʻi i ka faikelili keyka"
-        },
-        "create_wallet_dia": {
-            "create_tit":"E hana i ka pēke",
-            "backup_tit":"E hoʻopili i kāu pēpena hou",
-            "create_tag":"ʻO ka inoa wallet",
-            "create_pwd":"E hoʻonoho i ka memo",
-            "create_repwd":"Hōʻoia i ka memo",
-            "placeholder_tag":"Eʻoluʻolu, e hoʻonoho i kahi inoa pēke",
-            "placeholder_pwd":"Eʻoluʻolu, e hoʻonoho i kahi hua'ōlelo pilikino",
-            "placeholder_repwd":"Eʻoluʻolu e hōʻoia i ka'ōlelo leka uila",
-            "strong_password":"E hoʻokomo i kahi hua'ōlelo ikaika, ma kahi o 8 mau helu",
-            "wallet_address":"Ka pote",
-            "download_wallet_file":"E kiʻi i kahi faile putele"
-        },
-        "import_wallet_dia": {
-            "tit":"Ka laweʻana i ke ekeke",
-            "placeholder_keystore":"Eʻoluʻolu e hoʻokaʻawale i nā waihona putele i kēia",
-            "placeholder_tag":"Eʻoluʻolu, e hoʻonoho i kahi inoa pēke",
-            "create_tag":"ʻO ka inoa wallet",
-            "input_pwd":"E komo i ka hua'ōlelo",
-            "placeholder_pwd":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i kāu'ōlelo pilikino"
-        },
-        "remove_dia": {
-            "tit":"Makemakeʻoe e wehe i kahi putele?",
-            "remove_confrim":"Makemake wau e wehe",
-            "backup":"Eʻoluʻolu, e kākoʻoʻia ka pēke i mea e pale ai i ka pōʻino o ka waiwai"
-        },
-        "remove_wallet_dia": {
-            "tit":"Makemakeʻoe makemake e wehe i kahi?",
-            "remove_confrim":"Makemake wau e wehe",
-            "backup":"Eʻoluʻolu, e kākoʻoʻia ka pēke i mea e pale ai i ka pōʻino o ka waiwai"
-        },
-        "backup_wallet_dia": {
-            "tit":"E hoʻomau i kāu putele",
-            "remove_confrim":"Makemake wau e wehe",
-            "backup":"Kaomi kaomi no ka kākoʻoʻana i kāu pēke putele",
-            "download":"Hoʻoili"
-        },
-        "msg_info": {
-            "exist":"Ua hala,ʻo ka inoa",
-            "wallet_tag_error":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i ka inoa o ka peke",
-            "enter_password":"Eʻoluʻolu e kau i kāu hua'ōlelo",
-            "incons_password":"ʻO ka hua'ōlelo i komoʻelua manawa kuhi",
-            "error":"Kuhi:",
-            "imported_success":"E hoʻokahua pono i kahi pūnaewele",
-            "imported_wallet_success":"Ua lawe maikaʻiʻia ka wallet",
-            "enter_private":"Eʻoluʻolu e komo i ka kī",
-            "error_private":"ʻAʻole i hiki iā ia ke hoʻokomo i ka hōʻike,ʻo ia paha ke kī hewa",
-            "enter_keystore":"E kiʻi mua i ka putele",
-            "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
-            "remove_success":"Ua hoʻopau 'ia iā ia",
-            "create_success":"Hanaʻia me ka maikaʻi",
-            "acc_create_success_des":"Hiki ke hoʻohanaʻia ka helu pūnaewele no ka loaʻaʻana o CZR",
-            "acc_wallet_success_des":"E hoʻopaʻa i kāu mau pēke peke, mai haʻi i kekahi",
-            "save":"Eʻoluʻolu e mālama i kāu kelepona aʻaʻole e puʻunaue i kēlā me kēia!"
         }
     }
 }

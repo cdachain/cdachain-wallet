@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontakt",
-        "add_dialog":"Tilføj en kontakt",
+        "add_dialog":"Ny kontakt",
         "add_cont": {
-            "tit":"Indtast kontaktoplysninger",
-            "tag":"tag",
-            "address":"Kontakt",
-            "tag_placeholder":"Indtast venligst kontaktens kommentærkode",
-            "address_placeholder":"Indtast venligst kontaktkontoen"
+            "tit":"Ny kontakt",
+            "tag":"Kontakt",
+            "address":"Konto adresse",
+            "tag_placeholder":"Indtast venligst kontaktens navn",
+            "address_placeholder":"Indtast venligst kontaktens kontoadresse"
         },
         "delete_dialog": {
             "title":"Du fjerner"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ingen transaktionshistorik",
         "active_icon": {
             "go_transfer":"Start overførsel",
-            "import_keystore":"keystore",
+            "import_keystore":"Kontofil",
             "qrcode":"QR kode"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Marker en note til din konto"
         },
         "keystore": {
-            "tit":"Back up keystore",
+            "tit":"Backup wallet-fil",
             "copy":"kopi",
-            "download":"Download keystore"
+            "download":"Download wallet-fil"
         },
         "msg_info": {
             "ads_copy_success":"Adressen er blevet kopieret",
@@ -125,89 +125,12 @@
             "imported_success":"Import fil med succes",
             "imported_account_success":"Importeret med succes",
             "enter_private":"Indtast venligst tasten",
-            "error_private":"Kunne ikke importere kontoen, det kan være den forkerte nøgle",
+            "error_keystore":"Kunne ikke importere konto, det kan være en konto filfejl",
             "enter_keystore":"Indtast venligst kontofilen først",
             "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
             "remove_success":"Fjernet med succes",
             "create_success":"Oprettet succesfuldt",
             "save":"Gem venligst din kontofil og del det ikke med nogen!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Opret tegnebog",
-        "import_wallet":"Importer tegnebog",
-        "back_up":"Backup tegnebog",
-        "add_account":"Ny konto",
-        "acc":"konto",
-        "wallet":"tegnebog",
-        "create_dia": {
-            "create_tit":"Opret en konto",
-            "backup_tit":"Sikkerhedskopier din nye konto",
-            "create_tag":"Kontonavn",
-            "create_pwd":"Indstil adgangskode",
-            "create_repwd":"Bekræft adgangskode",
-            "placeholder_tag":"Indstil venligst kontonavnet",
-            "placeholder_pwd":"Angiv venligst adgangskode til konto",
-            "placeholder_repwd":"Bekræft venligst adgangskoden til kontoen",
-            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
-            "account_address":"konto",
-            "account_privateKey":"Privat nøgle",
-            "account_download_keystore":"Download keystore filen"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Opret tegnebog",
-            "backup_tit":"Sikkerhedskopier din nye tegnebog",
-            "create_tag":"Navn på tegnebog",
-            "create_pwd":"Indstil adgangskode",
-            "create_repwd":"Bekræft adgangskode",
-            "placeholder_tag":"Indstil venligst tegnebogens navn",
-            "placeholder_pwd":"Indstil venligst lommebokordbog",
-            "placeholder_repwd":"Bekræft venligst wallet-adgangskode",
-            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
-            "wallet_address":"tegnebog",
-            "download_wallet_file":"Download wallet-fil"
-        },
-        "import_wallet_dia": {
-            "tit":"Importer tegnebog",
-            "placeholder_keystore":"Træk venligst tegnebogsfiler her",
-            "placeholder_tag":"Indstil venligst tegnebogens navn",
-            "create_tag":"Navn på tegnebog",
-            "input_pwd":"Indtast adgangskode",
-            "placeholder_pwd":"Indtast venligst din wallet-adgangskode"
-        },
-        "remove_dia": {
-            "tit":"Er du sikker på, at du vil fjerne tegnebogen?",
-            "remove_confrim":"Jeg er sikker på at fjerne",
-            "backup":"Sørg for, at tegnebogen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
-        },
-        "remove_wallet_dia": {
-            "tit":"Er du sikker på at du vil fjerne den?",
-            "remove_confrim":"Jeg er sikker på at fjerne",
-            "backup":"Sørg for, at tegnebogen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
-        },
-        "backup_wallet_dia": {
-            "tit":"Sikkerhedskopier din tegnebogsfil",
-            "remove_confrim":"Jeg er sikker på at fjerne",
-            "backup":"Klik på Download for at sikkerhedskopiere din tegnebogsfil",
-            "download":"Hent"
-        },
-        "msg_info": {
-            "exist":"Der findes allerede, navnet er",
-            "wallet_tag_error":"Indtast venligst tegnebogens navn",
-            "enter_password":"Indtast venligst dit kodeord",
-            "incons_password":"Adgangskoden indtastet to gange er inkonsekvent",
-            "error":"Fejl:",
-            "imported_success":"Import fil med succes",
-            "imported_wallet_success":"Wallet importeret med succes",
-            "enter_private":"Indtast venligst tasten",
-            "error_private":"Kunne ikke importere kontoen, det kan være den forkerte nøgle",
-            "enter_keystore":"Indtast venligst tegnebogsfil først",
-            "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
-            "remove_success":"Fjernet med succes",
-            "create_success":"Oprettet succesfuldt",
-            "acc_create_success_des":"Kontoadresse kan bruges til at modtage CZR",
-            "acc_wallet_success_des":"Sikkerhedskopier dine tegnebogsfiler, fortæl ikke nogen",
-            "save":"Gem venligst dit keystore og del det ikke med nogen!"
         }
     }
 }

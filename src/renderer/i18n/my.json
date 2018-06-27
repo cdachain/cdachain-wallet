@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"ထိတှေ့",
-        "add_dialog":"အဆက်အသွယ် Add",
+        "add_dialog":"နယူးဆက်သွယ်ပါ",
         "add_cont": {
-            "tit":"ဆက်သွယ်ရန်အချက်အလက် Enter",
-            "tag":"tag ကို",
-            "address":"ထိတှေ့",
-            "tag_placeholder":"ဆက်သွယ်ရဲ့တံဆိပ်မှတ်စုများကိုရိုက်ထည့်ပေးပါ",
-            "address_placeholder":"ဆက်သွယ်အကောင့်ရိုက်ထည့်ပေးပါ"
+            "tit":"နယူးဆက်သွယ်ပါ",
+            "tag":"ထိတှေ့",
+            "address":"အကောင့်လိပ်စာ",
+            "tag_placeholder":"အဆက်အသွယ်ကို၏အမည်ကိုရိုက်ထည့်ပေးပါ",
+            "address_placeholder":"အကောင့်များ၏အဆက်အသွယ်လိပ်စာရိုက်ထည့်ပေးပါ"
         },
         "delete_dialog": {
             "title":"သငျသညျမဖယ်ရှားကြသည်"
@@ -69,7 +69,7 @@
         "transfer_log_null":"အဘယ်သူမျှမငွေကြေးလွှဲပြောင်းမှုမှာ",
         "active_icon": {
             "go_transfer":"လွှဲပြောင်း Initiate",
-            "import_keystore":"keystore",
+            "import_keystore":"အကောင့်ဖိုင်",
             "qrcode":"Two-ရှုထောင်ကုဒ်"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"သင့်အကောင့်တစ်ခုမှတ်ချက်ခြေတစ်လှမ်း"
         },
         "keystore": {
-            "tit":"အဆိုပါ keystore ကို Back up",
+            "tit":"Backup ကိုပိုက်ဆံအိတ်ဖိုင်",
             "copy":"မိတ္တူ",
-            "download":"ဒေါင်းလုပ် keystore"
+            "download":"ပိုက်ဆံအိတ် file ကို Download လုပ်ပါ"
         },
         "msg_info": {
             "ads_copy_success":"Address ကိုကူးယူခဲ့",
@@ -125,89 +125,12 @@
             "imported_success":"သွင်းကုန် file ကိုအောင်မြင်",
             "imported_account_success":"သွင်းကုန်အောင်မြင်မှု",
             "enter_private":"သော့ကိုရိုက်ထည့်ပေးပါ",
-            "error_private":"အကောင့်တင်သွင်းပျက်ကွက်တစ်ခုအမှား key ကိုဖြစ်စေခြင်းငှါ",
+            "error_keystore":"အကောင့်တင်သွင်းပျက်ကွက်, အကောင့်ကိုမှားယွင်းတဲ့ဖိုင်ဖြစ်နိုင်သည်",
             "enter_keystore":"အကောင့်ဖိုင်ကို import ကျေးဇူးပြု.",
             "error_password":"အကောင့်တင်သွင်းပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
             "remove_success":"အောင်မြင်စွာဖယ်ရှား",
             "create_success":"အောင်မြင်မှု Creating",
             "save":"မည်သူမဆိုအတူမျှဝေပါဘူး, သင့်ရဲ့အကောင့်ကိုဖိုင်ကို save ပါ"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"တစ်ဦးပိုက်ဆံအိတ် Create",
-        "import_wallet":"သွင်းကုန်ပိုက်ဆံအိတ်",
-        "back_up":"Backup ကိုပိုက်ဆံအိတ်",
-        "add_account":"အကောင့်အသစ်",
-        "acc":"အကောင့်",
-        "wallet":"ပိုက်ဆံအိတ်",
-        "create_dia": {
-            "create_tit":"အကောင့်တစ်ခု Create",
-            "backup_tit":"သင့်အကောင့်အသစ်ဖွင့် back",
-            "create_tag":"Account Name ကို",
-            "create_pwd":"Password ကို",
-            "create_repwd":"စကားဝှက်ကိုအတည်ပြုပါ",
-            "placeholder_tag":"Set အကောင့်အမည်ကို",
-            "placeholder_pwd":"Set အကောင့် password ကို",
-            "placeholder_repwd":"သေချာအကောင့် password ကို Make",
-            "strong_password":"ကြံ့ခိုင်တဲ့စကားဝှက်ကိုရိုက်ထည့်အနည်းဆုံးရှစ်",
-            "account_address":"အကောင့်",
-            "account_privateKey":"private key ကို",
-            "account_download_keystore":"keystore file ကို Download လုပ်ပါ"
-        },
-        "create_wallet_dia": {
-            "create_tit":"တစ်ဦးပိုက်ဆံအိတ် Create",
-            "backup_tit":"အသစ်ရဲ့ပိုက်ဆံအိတ်ကို Back up",
-            "create_tag":"ပိုက်ဆံအိတ် name ကို",
-            "create_pwd":"Password ကို",
-            "create_repwd":"စကားဝှက်ကိုအတည်ပြုပါ",
-            "placeholder_tag":"Set ပိုက်ဆံအိတ် name ကို",
-            "placeholder_pwd":"အဆိုပါပိုက်ဆံအိတ် password ကိုသတ်မှတ်ပေးပါ",
-            "placeholder_repwd":"စကားဝှက်ကိုပိုက်ဆံအိတ်ကိုအတည်ပြု",
-            "strong_password":"ကြံ့ခိုင်တဲ့စကားဝှက်ကိုရိုက်ထည့်အနည်းဆုံးရှစ်",
-            "wallet_address":"ပိုက်ဆံအိတ်",
-            "download_wallet_file":"ပိုက်ဆံအိတ် file ကို Download လုပ်ပါ"
-        },
-        "import_wallet_dia": {
-            "tit":"သွင်းကုန်ပိုက်ဆံအိတ်",
-            "placeholder_keystore":"ဤနေရာတွင်သို့ပိုက်ဆံအိတ်ဖိုင်စိတ်တော်",
-            "placeholder_tag":"Set ပိုက်ဆံအိတ် name ကို",
-            "create_tag":"ပိုက်ဆံအိတ် name ကို",
-            "input_pwd":"စကားဝှက်ကိုရိုက်ထည့်ပါ",
-            "placeholder_pwd":"အဆိုပါပိုက်ဆံအိတ် password ကိုရိုက်ထည့်ပါ"
-        },
-        "remove_dia": {
-            "tit":"သင်ပိုက်ဆံအိတ်ကိုဖယ်ရှားလိုတာသေချာလား?",
-            "remove_confrim":"ငါဖယ်ရှားပစ်ရန်သေချာပါတယ်",
-            "backup":"အဆိုပါပိုက်ဆံအိတ်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးကြောင်းသေချာပါစေ"
-        },
-        "remove_wallet_dia": {
-            "tit":"သင်ကသင်ဖယ်ရှားလိုတာသေချာလား?",
-            "remove_confrim":"ငါဖယ်ရှားပစ်ရန်သေချာပါတယ်",
-            "backup":"အဆိုပါပိုက်ဆံအိတ်ပိုင်ဆိုင်မှုထိခိုက်ပျက်စီးမှုကိုရှောင်ရှားတက်ကျောထောက်နောက်ခံပြုထားပြီးကြောင်းသေချာပါစေ"
-        },
-        "backup_wallet_dia": {
-            "tit":"Backup ကိုသင့်ရဲ့ပိုက်ဆံအိတ်ဖိုင်",
-            "remove_confrim":"ငါဖယ်ရှားပစ်ရန်သေချာပါတယ်",
-            "backup":"သင့်ရဲ့ပိုက်ဆံအိတ်ဖိုင်ကို download လုပ်ပါဖို့ကိုနှိပ်ပါ, backup လုပ်ထား",
-            "download":"ဒေါင်းလုပ်"
-        },
-        "msg_info": {
-            "exist":"ယခုပင်လျှင်နာမတော်ကိုအမှီ ပြု. ဖြစ်ပါသည်, တည်ရှိ",
-            "wallet_tag_error":"အဆိုပါပိုက်ဆံအိတ် name ကိုရိုက်ထည့်ပေးပါ",
-            "enter_password":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
-            "incons_password":"Passwords များကိုမတိုက်ဆိုင်ကြဘူး",
-            "error":"အမှား:",
-            "imported_success":"သွင်းကုန် file ကိုအောင်မြင်",
-            "imported_wallet_success":"သွင်းကုန်အောင်မြင်မှုပိုက်ဆံအိတ်",
-            "enter_private":"သော့ကိုရိုက်ထည့်ပေးပါ",
-            "error_private":"အကောင့်တင်သွင်းပျက်ကွက်တစ်ခုအမှား key ကိုဖြစ်စေခြင်းငှါ",
-            "enter_keystore":"ပိုက်ဆံအိတ်ဖိုင်ကိုတင်သွင်းစိတ်တော်",
-            "error_password":"အကောင့်တင်သွင်းပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
-            "remove_success":"အောင်မြင်စွာဖယ်ရှား",
-            "create_success":"အောင်မြင်မှု Creating",
-            "acc_create_success_des":"အကောင့်လိပ်စာ CZR လက်ခံရရှိရန်ရရှိနိုင်ပါသည်",
-            "acc_wallet_success_des":"နောက်ကျောကသင်၏ပိုက်ဆံအိတ် file ကိုဖွင့်, မည်သူမဆိုပြောပြဘူး",
-            "save":"သင့်ရဲ့ keystore ကယ်တင်ပါမည်သူမဆိုအတူမျှဝေမပေးဘူး!"
         }
     }
 }

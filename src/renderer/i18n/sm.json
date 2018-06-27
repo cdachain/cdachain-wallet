@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Fesoʻotaʻiga",
-        "add_dialog":"Faʻaopoopo se fesoʻotaʻiga",
+        "add_dialog":"Fesootaiga fou",
         "add_cont": {
-            "tit":"Ulufale faʻamatalaga faʻamatalaga",
-            "tag":"Faailoga",
-            "address":"Fesoʻotaʻiga",
-            "tag_placeholder":"Faʻamolemole faʻafesoʻotaʻi le faʻamatalaga a le faʻafeagaiga",
-            "address_placeholder":"Faʻamolemole tuʻu le faʻamatalaga fesoʻotaʻiga"
+            "tit":"Fesootaiga fou",
+            "tag":"Fesoʻotaʻiga",
+            "address":"Tuatusi o tala",
+            "tag_placeholder":"Faʻamolemole tuʻu le igoa o le tagata",
+            "address_placeholder":"Faʻamolemole faʻafesoʻotaʻi le tuatusi o le faʻamatalaga a le tagata"
         },
         "delete_dialog": {
             "title":"O loʻo e vaʻavaʻa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Leai se tala faʻasolopito",
         "active_icon": {
             "go_transfer":"Amata le fesiitaiga",
-            "import_keystore":"Keystore",
+            "import_keystore":"Faʻamaumauga faila",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Faailoga se tusi mo lau teugatupe"
         },
         "keystore": {
-            "tit":"Faʻamau i luga le kiliva",
+            "tit":"Lautusi faila tuatusi",
             "copy":"Faʻasologa",
-            "download":"Tikiake le keystore"
+            "download":"Maua le faila faila"
         },
         "msg_info": {
             "ads_copy_success":"Ua uma ona kopi le tuatusi",
@@ -125,89 +125,12 @@
             "imported_success":"Faʻamatalaga lelei le faletupe",
             "imported_account_success":"Faʻasalaga lelei",
             "enter_private":"Faʻamolemole tuʻu le ki",
-            "error_private":"Ua le mafai ona faaulufale mai le tala, atonu o le sese lea",
+            "error_keystore":"Ua le mafai ona faaulufaleina le teugatupe, atonu o se faila o faila faila",
             "enter_keystore":"Faamolemole faaulu muamua le faila faila",
             "error_password":"Ua le mafai ona faaulufale mai le teugatupe, atonu o se sese sese",
             "remove_success":"Aveese ma le manuia",
             "create_success":"Fausia lelei",
             "save":"Faʻamolemole faʻasaʻo lau faila faila ma aua nei faʻasoa atu i soʻo se tasi!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Fausia le Paʻu",
-        "import_wallet":"Faletupe faʻatau atu",
-        "back_up":"Pepa faʻamau",
-        "add_account":"Tala fou",
-        "acc":"Tala",
-        "wallet":"Pusa",
-        "create_dia": {
-            "create_tit":"Fausia se tala",
-            "backup_tit":"Faʻasolo i luga lau tala fou",
-            "create_tag":"Igoa o le tala",
-            "create_pwd":"Seti le upu faʻamaonia",
-            "create_repwd":"Faʻamaonia le faʻamaonia",
-            "placeholder_tag":"Faamolemole faatulaga le igoa o le tala",
-            "placeholder_pwd":"Faʻamolemole tuʻu le faʻamatalaga faʻamatalaga",
-            "placeholder_repwd":"Faʻamolemole faʻamaonia le upega tafailautusi o tala",
-            "strong_password":"Ulufale mai se upu faʻamalosi malolosi, a itiiti ifo ma le 8 numera",
-            "account_address":"Tala",
-            "account_privateKey":"Faʻamatalaga tumaoti",
-            "account_download_keystore":"Tikiala le faila faila"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Fausia le Paʻu",
-            "backup_tit":"Faʻamau i luga lau atotupe fou",
-            "create_tag":"Suafa igoa",
-            "create_pwd":"Seti le upu faʻamaonia",
-            "create_repwd":"Faʻamaonia le faʻamaonia",
-            "placeholder_tag":"Faʻamolemole tuʻu le igoa o le atotupe",
-            "placeholder_pwd":"Faʻamolemole tuʻu le upega tafailautusi",
-            "placeholder_repwd":"Faʻamolemole faʻamaonia le upega tafailautusi",
-            "strong_password":"Ulufale mai se upu faʻamalosi malolosi, a itiiti ifo ma le 8 numera",
-            "wallet_address":"Pusa",
-            "download_wallet_file":"Maua le faila faila"
-        },
-        "import_wallet_dia": {
-            "tit":"Faletupe faʻatau atu",
-            "placeholder_keystore":"Faʻamolemole tusi mai faila pusa faila iinei",
-            "placeholder_tag":"Faʻamolemole tuʻu le igoa o le atotupe",
-            "create_tag":"Suafa igoa",
-            "input_pwd":"Ulufale mai le upu faila",
-            "placeholder_pwd":"Faʻamolemole ulufale mai i lau upega tafailautusi"
-        },
-        "remove_dia": {
-            "tit":"E te mautinoa e te manaʻo e aveese le atotupe?",
-            "remove_confrim":"Ou te mautinoa e aveese",
-            "backup":"Faamolemole ia mautinoa o le atotupe ua lagolagoina e aloese ai mai le faaleagaina o meatotino"
-        },
-        "remove_wallet_dia": {
-            "tit":"E te mautinoa e te manaʻo e aveese?",
-            "remove_confrim":"Ou te mautinoa e aveese",
-            "backup":"Faamolemole ia mautinoa o le atotupe ua lagolagoina e aloese ai mai le faaleagaina o meatotino"
-        },
-        "backup_wallet_dia": {
-            "tit":"Faʻasolo i luga lau faila pusa",
-            "remove_confrim":"Ou te mautinoa e aveese",
-            "backup":"Click Download to backup your file pallet",
-            "download":"Tatalo"
-        },
-        "msg_info": {
-            "exist":"Ua i ai nei, o le igoa",
-            "wallet_tag_error":"Faʻamolemole tuʻu le igoa o le atotupe",
-            "enter_password":"Faʻamolemole ulufale i lau faʻaupuga",
-            "incons_password":"O le faʻaulufaleina faʻalua e lua e le ogatasi",
-            "error":"Laʻasaga:",
-            "imported_success":"Faʻamatalaga lelei le faletupe",
-            "imported_wallet_success":"Sa faʻaulufaleina le ato tupe",
-            "enter_private":"Faʻamolemole tuʻu le ki",
-            "error_private":"Ua le mafai ona faaulufale mai le tala, atonu o le sese lea",
-            "enter_keystore":"Faʻamolemole tuʻu mai le pusa pusa faila muamua",
-            "error_password":"Ua le mafai ona faaulufale mai le teugatupe, atonu o se sese sese",
-            "remove_success":"Aveese ma le manuia",
-            "create_success":"Fausia lelei",
-            "acc_create_success_des":"E mafai ona faʻaaoga le tuatusi faʻamatalaga e maua ai le CZR",
-            "acc_wallet_success_des":"Faʻasolo i luga au faila pusa, aua le taʻu atu i se tasi",
-            "save":"Faʻamolemole laveaʻi lau kiliva ma aua le faʻasoa atu i soo se tasi!"
         }
     }
 }

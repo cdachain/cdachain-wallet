@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"kosketus",
-        "add_dialog":"Lisää yhteystieto",
+        "add_dialog":"Uusi yhteyshenkilö",
         "add_cont": {
-            "tit":"Anna yhteystiedot",
-            "tag":"tag",
-            "address":"kosketus",
-            "tag_placeholder":"Anna yhteyshenkilön kommenttikoodi",
-            "address_placeholder":"Anna yhteystili"
+            "tit":"Uusi yhteyshenkilö",
+            "tag":"kosketus",
+            "address":"Tiliosoite",
+            "tag_placeholder":"Anna yhteyshenkilön nimi",
+            "address_placeholder":"Anna yhteyshenkilön tilin osoite"
         },
         "delete_dialog": {
             "title":"Poistat"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ei tapahtumahistoriaa",
         "active_icon": {
             "go_transfer":"Käynnistä siirto",
-            "import_keystore":"keystore",
+            "import_keystore":"Tilitiedosto",
             "qrcode":"QR-koodi"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Merkitse tiliisi merkintä"
         },
         "keystore": {
-            "tit":"Varmuuskopioi näppäimistö",
+            "tit":"Backup lompakon tiedosto",
             "copy":"kopio",
-            "download":"Lataa näppäimistö"
+            "download":"Lataa lompakon tiedosto"
         },
         "msg_info": {
             "ads_copy_success":"Osoite on kopioitu",
@@ -125,89 +125,12 @@
             "imported_success":"Tuo tiedosto onnistuneesti",
             "imported_account_success":"Tuonti onnistui",
             "enter_private":"Anna avain",
-            "error_private":"Tilin tuominen epäonnistui, se voi olla väärä avain",
+            "error_keystore":"Tilin tuonti epäonnistui, mutta se saattaa olla tilin tiedostovirhe",
             "enter_keystore":"Tuo ensin tilitietokanta",
             "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
             "remove_success":"Poistettu onnistuneesti",
             "create_success":"Luotu onnistuneesti",
             "save":"Tallenna tilitiedosto ja älä jakaa sitä kenenkään kanssa!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Luo lompakko",
-        "import_wallet":"Tuo lompakko",
-        "back_up":"Varmuuskopio lompakko",
-        "add_account":"Uusi tili",
-        "acc":"tili",
-        "wallet":"lompakko",
-        "create_dia": {
-            "create_tit":"Luo tili",
-            "backup_tit":"Varmuuskopioi uusi tili",
-            "create_tag":"Tilin nimi",
-            "create_pwd":"Aseta salasana",
-            "create_repwd":"Vahvista salasana",
-            "placeholder_tag":"Aseta tilin nimi",
-            "placeholder_pwd":"Aseta salasanasi",
-            "placeholder_repwd":"Vahvista tilin salasana",
-            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
-            "account_address":"tili",
-            "account_privateKey":"Yksityinen avain",
-            "account_download_keystore":"Lataa avainasematiedosto"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Luo lompakko",
-            "backup_tit":"Varmuuskopioi uusi lompakko",
-            "create_tag":"Lompakon nimi",
-            "create_pwd":"Aseta salasana",
-            "create_repwd":"Vahvista salasana",
-            "placeholder_tag":"Aseta lompakon nimi",
-            "placeholder_pwd":"Aseta lompakon salasana",
-            "placeholder_repwd":"Vahvista lompakon salasana",
-            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
-            "wallet_address":"lompakko",
-            "download_wallet_file":"Lataa lompakon tiedosto"
-        },
-        "import_wallet_dia": {
-            "tit":"Tuo lompakko",
-            "placeholder_keystore":"Ole hyvä ja vedä lompakon tiedostoja täältä",
-            "placeholder_tag":"Aseta lompakon nimi",
-            "create_tag":"Lompakon nimi",
-            "input_pwd":"Anna salasana",
-            "placeholder_pwd":"Anna lompakon salasana"
-        },
-        "remove_dia": {
-            "tit":"Haluatko varmasti poistaa lompakon?",
-            "remove_confrim":"Olen varma poistaa",
-            "backup":"Varmista, että lompakko on varmuuskopioitu, jotta vältetään omaisuusvahingot"
-        },
-        "remove_wallet_dia": {
-            "tit":"Haluatko varmasti poistaa sen?",
-            "remove_confrim":"Olen varma poistaa",
-            "backup":"Varmista, että lompakko on varmuuskopioitu, jotta vältetään omaisuusvahingot"
-        },
-        "backup_wallet_dia": {
-            "tit":"Varmuuskopioi lompakon tiedosto",
-            "remove_confrim":"Olen varma poistaa",
-            "backup":"Varmuuskopioi lompakon tiedosto uudelleen valitsemalla Lataa",
-            "download":"Lataa"
-        },
-        "msg_info": {
-            "exist":"Jo olemassa, nimi on",
-            "wallet_tag_error":"Anna lompakon nimi",
-            "enter_password":"Anna salasanasi",
-            "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
-            "error":"Virhe:",
-            "imported_success":"Tuo tiedosto onnistuneesti",
-            "imported_wallet_success":"Lompakko tuodaan onnistuneesti",
-            "enter_private":"Anna avain",
-            "error_private":"Tilin tuominen epäonnistui, se voi olla väärä avain",
-            "enter_keystore":"Tuo ensin lompakon tiedosto",
-            "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
-            "remove_success":"Poistettu onnistuneesti",
-            "create_success":"Luotu onnistuneesti",
-            "acc_create_success_des":"Tunnuksen osoitetta voidaan käyttää CZR: n vastaanottamiseen",
-            "acc_wallet_success_des":"Varmuuskopioi lompakon tiedostoja, älä kerro kenellekään",
-            "save":"Tallenna avainpohja ja älä jakaa sitä kenenkään kanssa!"
         }
     }
 }

@@ -1,118 +1,119 @@
 <template>
-  <div class="page-czr-home">
-    <div class="home-banner">
-      <i class="iconfont icon-logo">&#xe650;</i>
-      <div>
-        <el-button size="small" plain @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</el-button>
-      </div>
-    </div>
-
-    <div class="home-content">
-      <div class="account-wrap b-flex">
-        <template v-for="account in database">
-          <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item ">
-            <div class="account-avatar">
-              <i class="iconfont ico-avatar">&#xe602;</i>
+    <div class="page-czr-home">
+        <div class="home-banner">
+            <i class="iconfont icon-logo">&#xe650;</i>
+            <div>
+                <el-button size="small" plain @click="dialogSwitch.import = true">{{ $t('page_home.import_account') }}</el-button>
             </div>
-            <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
-            <div class="account-cont">
-              <p class="account-remark">{{account.tag}}</p>
-              <h1 class="account-assets">{{account.balance | toCzrVal}}</h1>
-              <p class="account-unit">{{ $t('unit.czr') }}</p>
-              <p class="account-address">{{account.address}}</p>
+        </div>
+
+        <div class="home-content">
+            <div class="account-wrap b-flex">
+                <template v-for="account in database">
+                    <router-link :to="'/account/' + account.address" tag="div" class="accounrt-item ">
+                        <div class="account-avatar">
+                            <i class="iconfont ico-avatar">&#xe602;</i>
+                        </div>
+                        <i class="iconfont delete-acc" @click.stop="showRemoveDia(account.address)">&#xe613;</i>
+                        <div class="account-cont">
+                            <p class="account-remark">{{account.tag}}</p>
+                            <h1 class="account-assets">{{account.balance | toCzrVal}}</h1>
+                            <p class="account-unit">{{ $t('unit.czr') }}</p>
+                            <p class="account-address">{{account.address}}</p>
+                        </div>
+                    </router-link>
+                </template>
+                <!--  ADD  -->
+                <div class="accounrt-item add-account" @click="dialogSwitch.create = true">
+                    <div class="account-cont">
+                        <i class="iconfont icon-add-acc">&#xe63b;</i>
+                        <p class="add-acc-des">{{ $t('page_home.add_account') }}</p>
+                    </div>
+                </div>
             </div>
-          </router-link>
-        </template>
-        <!--  ADD  -->
-        <div class="accounrt-item add-account" @click="dialogSwitch.create = true">
-          <div class="account-cont">
-            <i class="iconfont icon-add-acc">&#xe63b;</i>
-            <p class="add-acc-des">{{ $t('page_home.add_account') }}</p>
-          </div>
         </div>
-      </div>
+
+        <!-- account create -->
+        <el-dialog :title="createInfo.step === 0 ? $t('page_home.create_dia.create_tit') : $t('page_home.create_dia.backup_tit') " :visible.sync="dialogSwitch.create" @open="initCreateInfo" width="60%">
+            <template v-if="createInfo.step === 0">
+                <el-alert v-if="createInfo.error" :title="createInfo.error" :closable="false" type="error" show-icon>
+                </el-alert>
+                <el-input v-model="createInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')">
+                    <template slot="prepend">
+                        <i class="el-icon-tickets"></i> {{$t('page_home.create_dia.create_tag')}}</template>
+                </el-input>
+                <el-input v-model="createInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')" type="password">
+                    <template slot="prepend">
+                        <i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
+                </el-input>
+                <el-input v-model="createInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')" type="password">
+                    <template slot="prepend">
+                        <i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
+                </el-input>
+                <div slot="footer">
+                    <el-button @click="dialogSwitch.create = false">{{ $t('cancel') }}</el-button>
+                    <el-button type="primary" @click="createAccount">{{ $t('confirm') }}</el-button>
+                </div>
+            </template>
+            <template v-else-if="createInfo.step === 1">
+                <el-alert :title="$t('page_home.msg_info.create_success')" :description="$t('page_home.msg_info.save')" :closable="false" type="success" show-icon>
+                </el-alert>
+                <el-input type="textarea" :rows="2" :value="createInfo.address">
+                    <template slot="prepend">{{$t('page_home.create_dia.account_address')}}</template>
+                </el-input>
+                <div slot="footer">
+                    <el-button type="primary" @click="downloadKeystore(createInfo.address)">{{$t('page_home.create_dia.account_download_keystore')}}</el-button>
+                </div>
+            </template>
+        </el-dialog>
+
+        <!-- account import -->
+        <el-dialog :title="$t('page_home.import_dia.tit')" :visible.sync="dialogSwitch.import" @open="initImportInfo" width="50%">
+            <template>
+                <el-alert v-if="importInfo.alert" :title="importInfo.alert.content" :closable="false" :type="importInfo.alert.type" show-icon>
+                </el-alert>
+                <template>
+                    <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore"> {{$t('page_home.import_dia.placeholder_keystore')}} </div>
+                    <el-input v-model="importInfo.tag" :placeholder="$t('page_home.import_dia.placeholder_tag')">
+                        <template slot="prepend">
+                            <i class="el-icon-document"></i> {{$t('page_home.import_dia.create_tag')}}</template>
+                    </el-input>
+                </template>
+                <div slot="footer">
+                    <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
+                    <el-button type="primary" @click="importAccount">{{ $t('confirm') }}</el-button>
+                </div>
+            </template>
+        </el-dialog>
+
+        <!-- account remove -->
+        <el-dialog :title="$t('page_home.remove_dia.tit')" :visible.sync="dialogSwitch.remove" width="50%">
+            <span>
+                <el-alert v-if="removeInfo.alert" :title="removeInfo.alert.content" :closable="false" :type="removeInfo.alert.type" show-icon>
+                </el-alert>
+                {{ $t('page_home.remove_dia.backup') }}
+
+                <p class="remove-acc">
+                    {{this.removeInfo.address}}
+                </p>
+                <el-input v-model="removeInfo.pwd" :placeholder="$t('page_home.remove_dia.placeholder_pwd')" type="password">
+                    <template slot="prepend">
+                        <i class="el-icon-edit"></i> {{$t('page_home.remove_dia.input_pwd')}}</template>
+                </el-input>
+            </span>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
+                <el-button type="danger" @click="removeAccountFn(removeInfo.address,removeInfo.pwd)">{{ $t('page_home.remove_dia.remove_confrim') }}</el-button>
+            </span>
+        </el-dialog>
+
     </div>
-
-    <!-- account create -->
-    <el-dialog :title="createInfo.step === 0 ? $t('page_home.create_dia.create_tit') : $t('page_home.create_dia.backup_tit') " :visible.sync="dialogSwitch.create" @open="initCreateInfo" width="60%">
-      <template v-if="createInfo.step === 0">
-        <el-alert v-if="createInfo.error" :title="createInfo.error" :closable="false" type="error" show-icon>
-        </el-alert>
-        <el-input v-model="createInfo.tag" :placeholder="$t('page_home.create_dia.placeholder_tag')">
-          <template slot="prepend">
-            <i class="el-icon-tickets"></i> {{$t('page_home.create_dia.create_tag')}}</template>
-        </el-input>
-        <el-input v-model="createInfo.pwd" :placeholder="$t('page_home.create_dia.placeholder_pwd')" type="password">
-          <template slot="prepend">
-            <i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_pwd')}}</template>
-        </el-input>
-        <el-input v-model="createInfo.repwd" :placeholder="$t('page_home.create_dia.placeholder_repwd')" type="password">
-          <template slot="prepend">
-            <i class="el-icon-edit"></i> {{$t('page_home.create_dia.create_repwd')}}</template>
-        </el-input>
-        <div slot="footer">
-          <el-button @click="dialogSwitch.create = false">{{ $t('cancel') }}</el-button>
-          <el-button type="primary" @click="createAccount">{{ $t('confirm') }}</el-button>
-        </div>
-      </template>
-      <template v-else-if="createInfo.step === 1">
-        <el-alert :title="$t('page_home.msg_info.create_success')" :description="$t('page_home.msg_info.save')" :closable="false" type="success" show-icon>
-        </el-alert>
-        <el-input type="textarea" :rows="2" :value="createInfo.address">
-          <template slot="prepend">{{$t('page_home.create_dia.account_address')}}</template>
-        </el-input>
-        <div slot="footer">
-          <el-button type="primary" @click="downloadKeystore(createInfo.address)">{{$t('page_home.create_dia.account_download_keystore')}}</el-button>
-        </div>
-      </template>
-    </el-dialog>
-
-    <!-- account import -->
-    <el-dialog :title="$t('page_home.import_dia.tit')" :visible.sync="dialogSwitch.import" @open="initImportInfo" width="50%">
-      <template>
-        <el-alert v-if="importInfo.alert" :title="importInfo.alert.content" :closable="false" :type="importInfo.alert.type" show-icon>
-        </el-alert>
-        <template>
-          <div v-if="!importInfo.keystore" class="holder" @dragover.prevent.stop @drop.prevent.stop="importKeystore"> {{$t('page_home.import_dia.placeholder_keystore')}} </div>
-          <el-input v-model="importInfo.tag" :placeholder="$t('page_home.import_dia.placeholder_tag')">
-            <template slot="prepend">
-              <i class="el-icon-document"></i> {{$t('page_home.import_dia.create_tag')}}</template>
-          </el-input>
-        </template>
-        <div slot="footer">
-          <el-button @click="dialogSwitch.import = false">{{ $t('cancel') }}</el-button>
-          <el-button type="primary" @click="importAccount">{{ $t('confirm') }}</el-button>
-        </div>
-      </template>
-    </el-dialog>
-
-    <!-- account remove -->
-    <el-dialog :title="$t('page_home.remove_dia.tit')" :visible.sync="dialogSwitch.remove" width="50%">
-      <span>
-        <el-alert v-if="removeInfo.alert" :title="removeInfo.alert.content" :closable="false" :type="removeInfo.alert.type" show-icon>
-        </el-alert>
-        {{ $t('page_home.remove_dia.backup') }}
-
-        <p class="remove-acc">
-          {{this.removeInfo.address}}
-        </p>
-        <el-input v-model="removeInfo.pwd" :placeholder="$t('page_home.remove_dia.placeholder_pwd')" type="password">
-          <template slot="prepend">
-            <i class="el-icon-edit"></i> {{$t('page_home.remove_dia.input_pwd')}}</template>
-        </el-input>
-      </span>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogSwitch.remove = false">{{ $t('cancel') }}</el-button>
-        <el-button type="danger" @click="removeAccountFn(removeInfo.address,removeInfo.pwd)">{{ $t('page_home.remove_dia.remove_confrim') }}</el-button>
-      </span>
-    </el-dialog>
-
-  </div>
 
 </template>
 
 <script>
 const fs = require("fs");
+import { setInterval } from 'timers';
 let self = null;
 
 export default {
@@ -133,7 +134,9 @@ export default {
     created() {
         self = this;
         this.database = this.$db.get("czr_accounts").value();
-        // this.refresh();
+        this.intervalId = setInterval(() => {
+            self.initDatabase();
+        }, 2000);
     },
     computed: {},
     methods: {
@@ -166,23 +169,6 @@ export default {
                 keystore: null
             };
         },
-
-        // refresh() {
-        //     this.database.forEach(item => {
-        //         this.getBalance(item);
-        //     });
-        // },
-        // getBalance(item) {
-        //     this.$czr.request
-        //         .accountBalance(item.address)
-        //         .then(function(data) {
-        //             item.balance = data;
-        //             return data;
-        //         })
-        //         .then(function(data) {
-        //             console.log(data);
-        //         });
-        // },
         //Init End
 
         initAccount: function(params) {
@@ -235,7 +221,7 @@ export default {
             self.$czr.request
                 .accountCreate(self.createInfo.pwd)
                 .then(function(data) {
-                  console.log("data:",self.createInfo.pwd,data)
+                    console.log("data:", self.createInfo.pwd, data);
                     self.createInfo.address = data.account;
                     return data.account;
                 })
@@ -325,7 +311,7 @@ export default {
             self.$czr.request
                 .accountImport(self.importInfo.keystore)
                 .then(function(data) {
-                  console.log("accountImport",data)
+                    console.log("accountImport", data);
                     if (data.success == "1") {
                         self.importInfo.address = data.account;
                         return data.account;
@@ -337,9 +323,7 @@ export default {
                     if (data === 0) {
                         //TODO Error
                         self.$message.error(
-                            self.$t(
-                                "page_home.msg_info.error_keystore"
-                            )
+                            self.$t("page_home.msg_info.error_keystore")
                         );
                     } else {
                         let params = {
@@ -390,7 +374,7 @@ export default {
                     return data;
                 })
                 .then(function(data) {
-                    if (data.success=="1") {
+                    if (data.success == "1") {
                         self.$db
                             .get("czr_accounts")
                             .remove({ address: self.removeInfo.address })
@@ -409,9 +393,9 @@ export default {
     },
     filters: {
         toCzrVal: function(val) {
-            // let tempVal = self.$czr.utils.fromWei(val, "czr");
-            // return tempVal; //TODO Keep 4 decimal places
-            return 2222;
+            let tempVal = self.$czr.utils.fromWei(val, "czr");
+            return tempVal; //TODO Keep 4 decimal places
+            // return 2222;
         }
     }
 };

@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Ngā Hoapā",
-        "add_dialog":"Tāpirihia he whakapā",
+        "add_dialog":"Whakawhitinga hou",
         "add_cont": {
-            "tit":"Tāuru mōhiohio whakapā",
-            "tag":"Ngā tūtohu",
-            "address":"Ngā Hoapā",
-            "tag_placeholder":"Tēnā koa whakauruhia te tūtohu kōrero a te whakapā",
-            "address_placeholder":"Tēnā koa tomo mai ki te pūkete whakapā"
+            "tit":"Whakawhitinga hou",
+            "tag":"Ngā Hoapā",
+            "address":"Wāhitau Pūkete",
+            "tag_placeholder":"Tēnā koa whakauruhia te ingoa o te whakapā",
+            "address_placeholder":"Tēnā koa whakauruhia te wāhitau pūkete o te whakapā"
         },
         "delete_dialog": {
             "title":"Kei te tango koe"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Kāore he hītori tukanga",
         "active_icon": {
             "go_transfer":"Tīmatahia te whakawhitinga",
-            "import_keystore":"Keystore",
+            "import_keystore":"Kōnae Pūkete",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Tuhia he tuhi mo to korero"
         },
         "keystore": {
-            "tit":"Whakahokia te taputapu",
+            "tit":"Kōnae putea putea",
             "copy":"Tāruarua",
-            "download":"Tikiake keystore"
+            "download":"Tikiake te putea putea"
         },
         "msg_info": {
             "ads_copy_success":"Kua tohua te korero",
@@ -125,89 +125,12 @@
             "imported_success":"Ka pai te kawemai i te kōnae",
             "imported_account_success":"He pai te kawemai",
             "enter_private":"Tomo koahia te matua",
-            "error_private":"I rahua te kawemai i te kaute, pea ko te wharangi whao",
+            "error_keystore":"I rahua te kawemai i te putea, ka waiho he hapa kōnae kaute",
             "enter_keystore":"Me kawemai i te kōnae putea tuatahi",
             "error_password":"I rahua te kawemai i te pūkete, he kupuhipa he",
             "remove_success":"Tangohia angitu",
             "create_success":"I waihangatia pai",
             "save":"Whakaorangia koa te kōnae pūkete me te kore e tuwha atu ki tetahi!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Waihanga Paera",
-        "import_wallet":"Kawea mai te putea",
-        "back_up":"Putea tahua",
-        "add_account":"Pūkete hou",
-        "acc":"Pūkete",
-        "wallet":"Putea",
-        "create_dia": {
-            "create_tit":"Waihangahia he kaute",
-            "backup_tit":"Whakahokihia tō pūkete hou",
-            "create_tag":"Ingoa Pūkete",
-            "create_pwd":"Tautuhia te kupuhipa",
-            "create_repwd":"Whakaae i te kupuhipa",
-            "placeholder_tag":"Tautuhia koa te ingoa o te kaute",
-            "placeholder_pwd":"Tēnā koa tuhia te kupuhipa pūkete",
-            "placeholder_repwd":"Tena koa koa te kupuhipa pūkete",
-            "strong_password":"E tomo ana i tetahi kupuhipa kaha, i te iti iho i te 8 nga tau",
-            "account_address":"Pūkete",
-            "account_privateKey":"Kī motuhake",
-            "account_download_keystore":"Tikiake i te kōnae keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Waihanga Paera",
-            "backup_tit":"Hokihia to putea hou",
-            "create_tag":"Ingoa putea",
-            "create_pwd":"Tautuhia te kupuhipa",
-            "create_repwd":"Whakaae i te kupuhipa",
-            "placeholder_tag":"Whakaritea koa te ingoa o te putea",
-            "placeholder_pwd":"Tēnā koa tuhia te kupuhipa putea",
-            "placeholder_repwd":"Tena koa koa te kupuhipa putea",
-            "strong_password":"E tomo ana i tetahi kupuhipa kaha, i te iti iho i te 8 nga tau",
-            "wallet_address":"Putea",
-            "download_wallet_file":"Tikiake te putea putea"
-        },
-        "import_wallet_dia": {
-            "tit":"Kawea mai te putea",
-            "placeholder_keystore":"Tikihia nga pepa putea i konei",
-            "placeholder_tag":"Whakaritea koa te ingoa o te putea",
-            "create_tag":"Ingoa putea",
-            "input_pwd":"Tāurutia te kupuhipa",
-            "placeholder_pwd":"Tomo koa ki roto i to kupuhipa putea"
-        },
-        "remove_dia": {
-            "tit":"Kei te hiahia koe kia tangohia te putea?",
-            "remove_confrim":"E mohio ana ahau ki te tango",
-            "backup":"Tena koa kia tautokona te putea hei karo i nga painga o nga rawa"
-        },
-        "remove_wallet_dia": {
-            "tit":"Kei te hiahia koe kia tangohia?",
-            "remove_confrim":"E mohio ana ahau ki te tango",
-            "backup":"Tena koa kia tautokona te putea hei karo i nga painga o nga rawa"
-        },
-        "backup_wallet_dia": {
-            "tit":"Whakahokihia to putea putea",
-            "remove_confrim":"E mohio ana ahau ki te tango",
-            "backup":"Pāwhiritia te Tikiake hei whakautu i to putea putea",
-            "download":"Tikiake"
-        },
-        "msg_info": {
-            "exist":"Kua tohua, ko te ingoa",
-            "wallet_tag_error":"Tomohia koa te ingoa putea",
-            "enter_password":"Tomohia koa to kupuhipa",
-            "incons_password":"Ko te kupuhipa i whakauruhia e rua kaore i te rereke",
-            "error":"Hapa:",
-            "imported_success":"Ka pai te kawemai i te kōnae",
-            "imported_wallet_success":"He pai te kawemai o te putea",
-            "enter_private":"Tomo koahia te matua",
-            "error_private":"I rahua te kawemai i te kaute, pea ko te wharangi whao",
-            "enter_keystore":"Me kawemai tuatahi te putea putea",
-            "error_password":"I rahua te kawemai i te pūkete, he kupuhipa he",
-            "remove_success":"Tangohia angitu",
-            "create_success":"I waihangatia pai",
-            "acc_create_success_des":"Ka taea te whakamahi i te wāhitau kaute mo te whiwhi CZR",
-            "acc_wallet_success_des":"Whakahokihia o koutou putea putea, kaua e korero ki tetahi",
-            "save":"Tiakina to maatau matua, kaua hoki e tuwha atu ki tetahi!"
         }
     }
 }

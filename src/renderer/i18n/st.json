@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Mabitso",
-        "add_dialog":"Kenya kopano",
+        "add_dialog":"Puisano e ncha",
         "add_cont": {
-            "tit":"Kenya tlhahisoleseding ea puisano",
-            "tag":"Litlhaku",
-            "address":"Mabitso",
-            "tag_placeholder":"Ka kopo kenya lebokose la motsoalle",
-            "address_placeholder":"Ka kopo, kenya akhaonto ea puisano"
+            "tit":"Puisano e ncha",
+            "tag":"Mabitso",
+            "address":"Aterese ea akhaonto",
+            "tag_placeholder":"Ka kopo kenya lebitso la motsoalle",
+            "address_placeholder":"Ka kopo kenya aterese ea ak'haonte ea aterese"
         },
         "delete_dialog": {
             "title":"Ua tlosa"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ha ho histori ea ho rekisa",
         "active_icon": {
             "go_transfer":"Qala ho fetisetsa",
-            "import_keystore":"Keystore",
+            "import_keystore":"Faki ea akhaonto",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Ngola lengolo bakeng sa akhaonto ea hau"
         },
         "keystore": {
-            "tit":"Khutlisetsa konteraka sa keystore",
+            "tit":"Boloka file ea sepache",
             "copy":"Pheta-pheta",
-            "download":"Kopitsa sesepa sa keystore"
+            "download":"Fokotsa faele ea sepache"
         },
         "msg_info": {
             "ads_copy_success":"Aterese e kopitsoe",
@@ -125,89 +125,12 @@
             "imported_success":"Kenya file ka katleho",
             "imported_account_success":"E rometsoe ka katleho",
             "enter_private":"Ka kopo kenya konopo",
-            "error_private":"E hlōleha ho kenya akhaonto, e ka 'na ea e-ba senotlolo se fosahetseng",
+            "error_keystore":"E hlōlehile ho kenya akhaonto, e ka 'na ea e-ba phoso ea faele ea akhaonto",
             "enter_keystore":"Ka kopo kenya ka pele faele ea akhaonto",
             "error_password":"E hlōlehile ho kenya akhaonto, e ka 'na ea e-ba polelo e fosahetseng",
             "remove_success":"E tlosoa ka katleho",
             "create_success":"E entsoe ka katleho",
             "save":"Ka kopo boloka file ea hau ea akhaonto mme u se ke ua e arolelana le mang kapa mang!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Etsa Wallet",
-        "import_wallet":"Kenya sepache",
-        "back_up":"Mokotlana oa ho boloka",
-        "add_account":"Tlaleho e ncha",
-        "acc":"Account",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Bōpa akhaonto",
-            "backup_tit":"Khutlisa akhaonto ea hau e ncha",
-            "create_tag":"Lebitso la akhaonto",
-            "create_pwd":"Beha phasewete",
-            "create_repwd":"Netefatsa password",
-            "placeholder_tag":"Ka kopo, beha lebitso la akhaonto",
-            "placeholder_pwd":"Ka kopo, beha phasewete ea akhaonto",
-            "placeholder_repwd":"Ka kopo netefatsa password ea akhaonto",
-            "strong_password":"Kenya password e matla, bonyane lintlha tse 8",
-            "account_address":"Account",
-            "account_privateKey":"Senotlolo sa botho",
-            "account_download_keystore":"Latala faele ea keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Etsa Wallet",
-            "backup_tit":"Khutlisa sepache sa hao se secha",
-            "create_tag":"Lebitso la Wallet",
-            "create_pwd":"Beha phasewete",
-            "create_repwd":"Netefatsa password",
-            "placeholder_tag":"Ka kopo, beha lebitso la sepache",
-            "placeholder_pwd":"Ka kopo, beha phasewete ea sepache",
-            "placeholder_repwd":"Ka kopo netefatsa password ea sepache",
-            "strong_password":"Kenya password e matla, bonyane lintlha tse 8",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Fokotsa faele ea sepache"
-        },
-        "import_wallet_dia": {
-            "tit":"Kenya sepache",
-            "placeholder_keystore":"Ka kopo hula lifaele tsa likoloto mona",
-            "placeholder_tag":"Ka kopo, beha lebitso la sepache",
-            "create_tag":"Lebitso la Wallet",
-            "input_pwd":"Kenya password",
-            "placeholder_pwd":"Ka kopo kenya phasewete ea hau ea sepache"
-        },
-        "remove_dia": {
-            "tit":"Na u netefatsa hore u batla ho tlosa sepache?",
-            "remove_confrim":"Ke kholisehile ho tlosa",
-            "backup":"Ka kopo netefatsa hore sepache se tšehelitsoe ho qoba tšenyo ea thepa"
-        },
-        "remove_wallet_dia": {
-            "tit":"Na u netefatsa hore u batla ho e tlosa?",
-            "remove_confrim":"Ke kholisehile ho tlosa",
-            "backup":"Ka kopo netefatsa hore sepache se tšehelitsoe ho qoba tšenyo ea thepa"
-        },
-        "backup_wallet_dia": {
-            "tit":"Khutlisa faele ea hau ea sepache",
-            "remove_confrim":"Ke kholisehile ho tlosa",
-            "backup":"Tobetsa Download ho boloka faele ea hau ea sepache",
-            "download":"Kenya"
-        },
-        "msg_info": {
-            "exist":"E se e le teng, lebitso ke",
-            "wallet_tag_error":"Ka kopo kenya lebitso la sepache",
-            "enter_password":"Ka kopo kenya phasewete ea hau",
-            "incons_password":"Netewete e kenngoa habeli ha e lumellane",
-            "error":"Phoso:",
-            "imported_success":"Kenya file ka katleho",
-            "imported_wallet_success":"Wallet e rometsoe ka katleho",
-            "enter_private":"Ka kopo kenya konopo",
-            "error_private":"E hlōleha ho kenya akhaonto, e ka 'na ea e-ba senotlolo se fosahetseng",
-            "enter_keystore":"Ka kopo, kenya file ea sepache pele",
-            "error_password":"E hlōlehile ho kenya akhaonto, e ka 'na ea e-ba polelo e fosahetseng",
-            "remove_success":"E tlosoa ka katleho",
-            "create_success":"E entsoe ka katleho",
-            "acc_create_success_des":"Aterese ea akhaonto e ka sebelisoa ho amohela CZR",
-            "acc_wallet_success_des":"Khutlisa lifaele tsa hao tsa sepache, u se ke ua bolella mang kapa mang",
-            "save":"Ka kopo pholosa konteraka ea hau ea sehlooho 'me u se ke ua e arolelana le mang kapa mang!"
         }
     }
 }

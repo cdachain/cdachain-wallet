@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Contatos",
-        "add_dialog":"Adicionar um contato",
+        "add_dialog":"Novo contato",
         "add_cont": {
-            "tit":"Digite as informações de contato",
-            "tag":"Tags",
-            "address":"Contatos",
-            "tag_placeholder":"Por favor, insira a tag de comentário do contato",
-            "address_placeholder":"Por favor insira a conta de contato"
+            "tit":"Novo contato",
+            "tag":"Contatos",
+            "address":"Endereço da conta",
+            "tag_placeholder":"Por favor, digite o nome do contato",
+            "address_placeholder":"Por favor insira o endereço da conta do contato"
         },
         "delete_dialog": {
             "title":"Você está removendo"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Nenhum histórico de transações",
         "active_icon": {
             "go_transfer":"Iniciar transferência",
-            "import_keystore":"Keystore",
+            "import_keystore":"Arquivo de conta",
             "qrcode":"Código QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Marque uma nota para sua conta"
         },
         "keystore": {
-            "tit":"Fazer backup do keystore",
+            "tit":"Arquivo de carteira de backup",
             "copy":"Duplicar",
-            "download":"Download de keystore"
+            "download":"Baixar arquivo de carteira"
         },
         "msg_info": {
             "ads_copy_success":"Endereço foi copiado",
@@ -125,89 +125,12 @@
             "imported_success":"Importar arquivo com sucesso",
             "imported_account_success":"Importado com sucesso",
             "enter_private":"Por favor insira a chave",
-            "error_private":"Falha ao importar a conta, pode ser a chave errada",
+            "error_keystore":"Falha ao importar a conta, pode ser um erro no arquivo da conta",
             "enter_keystore":"Por favor, importe o arquivo da conta primeiro",
             "error_password":"Falha ao importar conta, pode ser uma senha errada",
             "remove_success":"Removido com sucesso",
             "create_success":"Criado com sucesso",
             "save":"Por favor, salve seu arquivo de conta e não o compartilhe com ninguém!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Criar carteira",
-        "import_wallet":"Carteira de importação",
-        "back_up":"Carteira de backup",
-        "add_account":"Nova conta",
-        "acc":"Conta",
-        "wallet":"Carteira",
-        "create_dia": {
-            "create_tit":"Crie uma conta",
-            "backup_tit":"Faça backup de sua nova conta",
-            "create_tag":"Nome da conta",
-            "create_pwd":"Definir senha",
-            "create_repwd":"Confirme a senha",
-            "placeholder_tag":"Por favor, defina o nome da conta",
-            "placeholder_pwd":"Por favor, defina a senha da conta",
-            "placeholder_repwd":"Por favor, confirme a senha da conta",
-            "strong_password":"Digite uma senha forte, com pelo menos 8 dígitos",
-            "account_address":"Conta",
-            "account_privateKey":"Chave privada",
-            "account_download_keystore":"Faça o download do arquivo de armazenamento de chaves"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Criar carteira",
-            "backup_tit":"Faça o backup de sua nova carteira",
-            "create_tag":"Nome da carteira",
-            "create_pwd":"Definir senha",
-            "create_repwd":"Confirme a senha",
-            "placeholder_tag":"Por favor defina o nome da carteira",
-            "placeholder_pwd":"Por favor, defina a senha da carteira",
-            "placeholder_repwd":"Por favor, confirme a senha da carteira",
-            "strong_password":"Digite uma senha forte, com pelo menos 8 dígitos",
-            "wallet_address":"Carteira",
-            "download_wallet_file":"Baixar arquivo de carteira"
-        },
-        "import_wallet_dia": {
-            "tit":"Carteira de importação",
-            "placeholder_keystore":"Por favor, puxe os arquivos da carteira aqui",
-            "placeholder_tag":"Por favor defina o nome da carteira",
-            "create_tag":"Nome da carteira",
-            "input_pwd":"Digite a senha",
-            "placeholder_pwd":"Por favor, digite sua senha da carteira"
-        },
-        "remove_dia": {
-            "tit":"Tem certeza de que deseja remover a carteira?",
-            "remove_confrim":"Tenho certeza de remover",
-            "backup":"Por favor, certifique-se de que a carteira foi copiada para evitar danos à propriedade."
-        },
-        "remove_wallet_dia": {
-            "tit":"Tem certeza de que deseja removê-lo?",
-            "remove_confrim":"Tenho certeza de remover",
-            "backup":"Por favor, certifique-se de que a carteira foi copiada para evitar danos à propriedade."
-        },
-        "backup_wallet_dia": {
-            "tit":"Faça backup do seu arquivo da carteira",
-            "remove_confrim":"Tenho certeza de remover",
-            "backup":"Clique em Download para fazer o backup do seu arquivo da carteira",
-            "download":"Baixar"
-        },
-        "msg_info": {
-            "exist":"Já existe, o nome é",
-            "wallet_tag_error":"Por favor, indique o nome da carteira",
-            "enter_password":"Por favor digite sua senha",
-            "incons_password":"A senha digitada duas vezes é inconsistente",
-            "error":"Erro:",
-            "imported_success":"Importar arquivo com sucesso",
-            "imported_wallet_success":"Carteira importada com sucesso",
-            "enter_private":"Por favor insira a chave",
-            "error_private":"Falha ao importar a conta, pode ser a chave errada",
-            "enter_keystore":"Por favor importe arquivo de carteira primeiro",
-            "error_password":"Falha ao importar conta, pode ser uma senha errada",
-            "remove_success":"Removido com sucesso",
-            "create_success":"Criado com sucesso",
-            "acc_create_success_des":"Endereço da conta pode ser usado para receber CZR",
-            "acc_wallet_success_des":"Faça backup de seus arquivos da carteira, não conte para ninguém",
-            "save":"Por favor, salve seu keystore e não o compartilhe com ninguém!"
         }
     }
 }

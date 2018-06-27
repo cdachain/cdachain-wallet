@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontaktid",
-        "add_dialog":"Lisage kontakt",
+        "add_dialog":"Uus kontakt",
         "add_cont": {
-            "tit":"Sisestage kontaktandmed",
-            "tag":"Sildid",
-            "address":"Kontaktid",
-            "tag_placeholder":"Sisestage kontakti kommentaarimärk",
-            "address_placeholder":"Palun sisestage kontaktisik"
+            "tit":"Uus kontakt",
+            "tag":"Kontaktid",
+            "address":"Konto aadress",
+            "tag_placeholder":"Palun sisestage kontakti nimi",
+            "address_placeholder":"Palun sisestage kontakti konto aadress"
         },
         "delete_dialog": {
             "title":"Te eemaldate"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Tehingute ajalugu pole",
         "active_icon": {
             "go_transfer":"Käivita üleandmine",
-            "import_keystore":"Keystore",
+            "import_keystore":"Konto fail",
             "qrcode":"QR-kood"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Märkige märkus oma konto jaoks"
         },
         "keystore": {
-            "tit":"Varundage võtmehoidja",
+            "tit":"Backup rahakoti fail",
             "copy":"Duplicate",
-            "download":"Laadi võtmestik alla"
+            "download":"Laadige fail alla"
         },
         "msg_info": {
             "ads_copy_success":"Aadress on kopeeritud",
@@ -125,89 +125,12 @@
             "imported_success":"Impordi fail edukalt",
             "imported_account_success":"Imporditud edukalt",
             "enter_private":"Palun sisestage võti",
-            "error_private":"Konto importimine ebaõnnestus, see võib olla vale võti",
+            "error_keystore":"Konto importimine ebaõnnestus, võib see olla konto failiviga",
             "enter_keystore":"Palun importige konto faili kõigepealt",
             "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
             "remove_success":"Eemaldati edukalt",
             "create_success":"Loodud edukalt",
             "save":"Palun salvestage oma konto fail ja ärge seda kellelgigi jagage!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Rahakoti loomine",
-        "import_wallet":"Rahakoti importimine",
-        "back_up":"Varunduskott",
-        "add_account":"Uus konto",
-        "acc":"Konto",
-        "wallet":"Rahakott",
-        "create_dia": {
-            "create_tit":"Loo konto",
-            "backup_tit":"Varundage oma uus konto",
-            "create_tag":"Konto nimi",
-            "create_pwd":"Määra parool",
-            "create_repwd":"Kinnitage parool",
-            "placeholder_tag":"Palun määra konto nimi",
-            "placeholder_pwd":"Palun määrake konto parool",
-            "placeholder_repwd":"Kinnitage konto parool",
-            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
-            "account_address":"Konto",
-            "account_privateKey":"Privaatvõti",
-            "account_download_keystore":"Laadige võtmehoidla fail alla"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Rahakoti loomine",
-            "backup_tit":"Varundage oma uus rahakott",
-            "create_tag":"Rahakoti nimi",
-            "create_pwd":"Määra parool",
-            "create_repwd":"Kinnitage parool",
-            "placeholder_tag":"Palun määra rahakoti nimi",
-            "placeholder_pwd":"Palun sisestage rahakoti parool",
-            "placeholder_repwd":"Kinnitage rahakoti parool",
-            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
-            "wallet_address":"Rahakott",
-            "download_wallet_file":"Laadige fail alla"
-        },
-        "import_wallet_dia": {
-            "tit":"Rahakoti importimine",
-            "placeholder_keystore":"Palun tõmmake rahakoti faile siia",
-            "placeholder_tag":"Palun määra rahakoti nimi",
-            "create_tag":"Rahakoti nimi",
-            "input_pwd":"Sisestage parool",
-            "placeholder_pwd":"Palun sisestage oma rahakoti parool"
-        },
-        "remove_dia": {
-            "tit":"Kas soovite kindlasti rahakoti eemaldada?",
-            "remove_confrim":"Ma kindlasti eemaldan",
-            "backup":"Palun veenduge, et rahakott oleks tagatud, et vältida varalise kahju tekkimist"
-        },
-        "remove_wallet_dia": {
-            "tit":"Kas olete kindel, et soovite selle eemaldada?",
-            "remove_confrim":"Ma kindlasti eemaldan",
-            "backup":"Palun veenduge, et rahakott oleks tagatud, et vältida varalise kahju tekkimist"
-        },
-        "backup_wallet_dia": {
-            "tit":"Varundage oma rahakoti fail",
-            "remove_confrim":"Ma kindlasti eemaldan",
-            "backup":"Rahakoti faili varundamiseks klõpsake käsul Laadi alla",
-            "download":"Laadige alla"
-        },
-        "msg_info": {
-            "exist":"Juba eksisteerib nimi on",
-            "wallet_tag_error":"Palun sisestage rahakoti nimi",
-            "enter_password":"Palun sisesta oma parool",
-            "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
-            "error":"Viga:",
-            "imported_success":"Impordi fail edukalt",
-            "imported_wallet_success":"Rahakott imporditi edukalt",
-            "enter_private":"Palun sisestage võti",
-            "error_private":"Konto importimine ebaõnnestus, see võib olla vale võti",
-            "enter_keystore":"Palun importige rahakoti faili kõigepealt",
-            "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
-            "remove_success":"Eemaldati edukalt",
-            "create_success":"Loodud edukalt",
-            "acc_create_success_des":"Konto aadressi saab kasutada CZRi vastuvõtmiseks",
-            "acc_wallet_success_des":"Varundage oma rahakoti failid, ärge ütle kellelegi",
-            "save":"Palun salvestage oma võtmehoidja ja ärge seda kellegagi jagage!"
         }
     }
 }

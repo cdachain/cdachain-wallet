@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontakty",
-        "add_dialog":"Přidat kontakt",
+        "add_dialog":"Nový kontakt",
         "add_cont": {
-            "tit":"Zadejte kontaktní informace",
-            "tag":"Tagy",
-            "address":"Kontakty",
-            "tag_placeholder":"Zadejte značku komentářů kontaktu",
-            "address_placeholder":"Zadejte konto kontaktu"
+            "tit":"Nový kontakt",
+            "tag":"Kontakty",
+            "address":"Adresa účtu",
+            "tag_placeholder":"Zadejte jméno kontaktu",
+            "address_placeholder":"Zadejte adresu účtu kontaktu"
         },
         "delete_dialog": {
             "title":"Odstraňujete"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Žádná historie transakcí",
         "active_icon": {
             "go_transfer":"Zahajte převod",
-            "import_keystore":"Keystore",
+            "import_keystore":"Soubor účtu",
             "qrcode":"QR kód"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Označte poznámku k účtu"
         },
         "keystore": {
-            "tit":"Zálohujte úložiště klíčů",
+            "tit":"Záložní soubor peněženky",
             "copy":"Duplikovat",
-            "download":"Stáhněte si klíčenku"
+            "download":"Stáhnout soubor peněľenky"
         },
         "msg_info": {
             "ads_copy_success":"Adresa byla zkopírována",
@@ -125,89 +125,12 @@
             "imported_success":"Importovat soubor úspěšně",
             "imported_account_success":"Úspěšně importováno",
             "enter_private":"Zadejte klíč",
-            "error_private":"Nepodařilo se importovat účet, může to být nesprávný klíč",
+            "error_keystore":"Účet nebyl importován, může se jednat o chybu souboru účtu",
             "enter_keystore":"Nejprve importujte soubor účtu",
             "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
             "remove_success":"Úspěšně byla odebrána",
             "create_success":"Vytvořeno úspěšně",
             "save":"Uložte si soubor účtu a nesdílejte ho nikomu!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Vytvořte službu Peněženka",
-        "import_wallet":"Importovat peněženku",
-        "back_up":"Záložní peněženka",
-        "add_account":"Nový účet",
-        "acc":"Účet",
-        "wallet":"Peněženka",
-        "create_dia": {
-            "create_tit":"Vytvořte si účet",
-            "backup_tit":"Zálohujte nový účet",
-            "create_tag":"Název účtu",
-            "create_pwd":"Nastavte heslo",
-            "create_repwd":"Potvrďte heslo",
-            "placeholder_tag":"Nastavte prosím název účtu",
-            "placeholder_pwd":"Nastavte prosím heslo účtu",
-            "placeholder_repwd":"Potvrďte heslo účtu",
-            "strong_password":"Zadejte silné heslo, nejméně 8 číslic",
-            "account_address":"Účet",
-            "account_privateKey":"Soukromý klíč",
-            "account_download_keystore":"Stáhněte si soubor úložiště klíčů"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Vytvořte službu Peněženka",
-            "backup_tit":"Zálohujte novou peněženku",
-            "create_tag":"Název peněženky",
-            "create_pwd":"Nastavte heslo",
-            "create_repwd":"Potvrďte heslo",
-            "placeholder_tag":"Nastavte prosím název peněľenky",
-            "placeholder_pwd":"Prosím, nastavte heslo peněľenky",
-            "placeholder_repwd":"Potvrďte prosím heslo peněľenky",
-            "strong_password":"Zadejte silné heslo, nejméně 8 číslic",
-            "wallet_address":"Peněženka",
-            "download_wallet_file":"Stáhnout soubor peněľenky"
-        },
-        "import_wallet_dia": {
-            "tit":"Importovat peněženku",
-            "placeholder_keystore":"Zde prosím stáhněte soubory peněľenky",
-            "placeholder_tag":"Nastavte prosím název peněľenky",
-            "create_tag":"Název peněženky",
-            "input_pwd":"Zadejte heslo",
-            "placeholder_pwd":"Zadejte prosím heslo peněľenky"
-        },
-        "remove_dia": {
-            "tit":"Opravdu chcete odstranit peněženku?",
-            "remove_confrim":"Určitě odstraním",
-            "backup":"Ujistěte se, že byla peněženka opatřena zálohováním, aby nedošlo k poškození majetku"
-        },
-        "remove_wallet_dia": {
-            "tit":"Opravdu ji chcete odstranit?",
-            "remove_confrim":"Určitě odstraním",
-            "backup":"Ujistěte se, že byla peněženka opatřena zálohováním, aby nedošlo k poškození majetku"
-        },
-        "backup_wallet_dia": {
-            "tit":"Zálohujte soubor peněženky",
-            "remove_confrim":"Určitě odstraním",
-            "backup":"Chcete-li zálohovat soubor peněženky, klepněte na tlačítko Stáhnout",
-            "download":"Stáhnout"
-        },
-        "msg_info": {
-            "exist":"Název již existuje",
-            "wallet_tag_error":"Zadejte název peněľenky",
-            "enter_password":"Zadejte své heslo",
-            "incons_password":"Zadané heslo dvakrát je nekonzistentní",
-            "error":"Chyba:",
-            "imported_success":"Importovat soubor úspěšně",
-            "imported_wallet_success":"Peněženka byla úspěšně importována",
-            "enter_private":"Zadejte klíč",
-            "error_private":"Nepodařilo se importovat účet, může to být nesprávný klíč",
-            "enter_keystore":"Nejprve importujte soubor peněľenky",
-            "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
-            "remove_success":"Úspěšně byla odebrána",
-            "create_success":"Vytvořeno úspěšně",
-            "acc_create_success_des":"Adresa účtu může být použita pro příjem CZR",
-            "acc_wallet_success_des":"Zálohujte soubory peněz, nikomu neříkejte",
-            "save":"Ukládejte prosím svůj obchod s klíčem a nesdílejte ho nikomu!"
         }
     }
 }

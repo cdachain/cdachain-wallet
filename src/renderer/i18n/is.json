@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Tengiliðir",
-        "add_dialog":"Bæta við tengilið",
+        "add_dialog":"Nýr tengiliður",
         "add_cont": {
-            "tit":"Sláðu inn tengiliðaupplýsingar",
-            "tag":"Tags",
-            "address":"Tengiliðir",
-            "tag_placeholder":"Vinsamlegast sláðu inn athugasemdirmerki tengiliðarins",
-            "address_placeholder":"Vinsamlegast sláðu inn tengiliðareikninginn"
+            "tit":"Nýr tengiliður",
+            "tag":"Tengiliðir",
+            "address":"Reikningsnúmer",
+            "tag_placeholder":"Vinsamlegast sláðu inn nafn tengiliðar",
+            "address_placeholder":"Vinsamlegast sláðu inn netfang tengiliðarins"
         },
         "delete_dialog": {
             "title":"Þú ert að fjarlægja"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Engin viðskiptasaga",
         "active_icon": {
             "go_transfer":"Hefja flutning",
-            "import_keystore":"Keystore",
+            "import_keystore":"Reikningsskrá",
             "qrcode":"QR kóða"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Merktu athugasemd fyrir reikninginn þinn"
         },
         "keystore": {
-            "tit":"Taktu öryggisafrit af lyklaborðinu",
+            "tit":"Veggfóður fyrir öryggisafrit",
             "copy":"Afrit",
-            "download":"Sækja keystore"
+            "download":"Hlaða niður veskisskrá"
         },
         "msg_info": {
             "ads_copy_success":"Heimilisfang hefur verið afritað",
@@ -125,89 +125,12 @@
             "imported_success":"Flytja inn skrá með góðum árangri",
             "imported_account_success":"Innflutt með góðum árangri",
             "enter_private":"Vinsamlegast sláðu inn lykilinn",
-            "error_private":"Ekki tókst að flytja inn reikninginn, það gæti verið röng lykill",
+            "error_keystore":"Mistókst að flytja inn reikning, það gæti verið villa við skráarskrá",
             "enter_keystore":"Vinsamlegast flytðu inn reikningsskráin fyrst",
             "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
             "remove_success":"Fjarlægt með góðum árangri",
             "create_success":"Búið til með góðum árangri",
             "save":"Vinsamlegast vista reikningsskrána þína og deildu því ekki með neinum!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Búa til Veski",
-        "import_wallet":"Flytja inn veski",
-        "back_up":"Backup veski",
-        "add_account":"Nýr reikningur",
-        "acc":"Reikningur",
-        "wallet":"Veski",
-        "create_dia": {
-            "create_tit":"Búðu til reikning",
-            "backup_tit":"Afritaðu nýja reikninginn þinn",
-            "create_tag":"Reikningsheiti",
-            "create_pwd":"Stilltu lykilorð",
-            "create_repwd":"Staðfestu lykilorð",
-            "placeholder_tag":"Vinsamlegast settu inn heiti reiknings",
-            "placeholder_pwd":"Vinsamlegast settu lykilorð fyrir reikninginn",
-            "placeholder_repwd":"Vinsamlegast staðfestu lykilorð reikningsins",
-            "strong_password":"Sláðu inn sterkt aðgangsorð, að minnsta kosti 8 tölustafir",
-            "account_address":"Reikningur",
-            "account_privateKey":"Einkalykill",
-            "account_download_keystore":"Hlaða niður lykilskránni"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Búa til Veski",
-            "backup_tit":"Afritaðu nýja veskið þitt",
-            "create_tag":"Nafn veskis",
-            "create_pwd":"Stilltu lykilorð",
-            "create_repwd":"Staðfestu lykilorð",
-            "placeholder_tag":"Vinsamlegast settu inn veskisheiti",
-            "placeholder_pwd":"Vinsamlega settu inn veskislykilorð",
-            "placeholder_repwd":"Vinsamlegast staðfestu veskislykilorðið",
-            "strong_password":"Sláðu inn sterkt aðgangsorð, að minnsta kosti 8 tölustafir",
-            "wallet_address":"Veski",
-            "download_wallet_file":"Hlaða niður veskisskrá"
-        },
-        "import_wallet_dia": {
-            "tit":"Flytja inn veski",
-            "placeholder_keystore":"Vinsamlegast dragðu veskisskrár hér",
-            "placeholder_tag":"Vinsamlegast settu inn veskisheiti",
-            "create_tag":"Nafn veskis",
-            "input_pwd":"Sláðu inn lykilorð",
-            "placeholder_pwd":"Vinsamlegast sláðu inn veskislykilorðið þitt"
-        },
-        "remove_dia": {
-            "tit":"Ertu viss um að þú viljir fjarlægja veskið?",
-            "remove_confrim":"Ég er viss um að fjarlægja",
-            "backup":"Vinsamlegast vertu viss um að veskið hafi verið afritað til að koma í veg fyrir eignatjón"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ertu viss um að þú viljir fjarlægja það?",
-            "remove_confrim":"Ég er viss um að fjarlægja",
-            "backup":"Vinsamlegast vertu viss um að veskið hafi verið afritað til að koma í veg fyrir eignatjón"
-        },
-        "backup_wallet_dia": {
-            "tit":"Afritaðu veskisskrána þína",
-            "remove_confrim":"Ég er viss um að fjarlægja",
-            "backup":"Smelltu á Sækja til að taka öryggisafrit af veskisskránni þinni",
-            "download":"Sækja"
-        },
-        "msg_info": {
-            "exist":"Nú þegar er nafnið",
-            "wallet_tag_error":"Vinsamlegast sláðu inn veskisheiti",
-            "enter_password":"Vinsamlegast sláðu inn lykilorðið þitt",
-            "incons_password":"Lykilorðið sem slóst inn tvisvar er ósamræmi",
-            "error":"Villa:",
-            "imported_success":"Flytja inn skrá með góðum árangri",
-            "imported_wallet_success":"Veski flutt inn með góðum árangri",
-            "enter_private":"Vinsamlegast sláðu inn lykilinn",
-            "error_private":"Ekki tókst að flytja inn reikninginn, það gæti verið röng lykill",
-            "enter_keystore":"Vinsamlegast flytðu inn veskisskrá fyrst",
-            "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
-            "remove_success":"Fjarlægt með góðum árangri",
-            "create_success":"Búið til með góðum árangri",
-            "acc_create_success_des":"Reikningsnúmer er hægt að nota til að fá CZR",
-            "acc_wallet_success_des":"Afritaðu veskisskrárnar þínar, segðu ekki neinum",
-            "save":"Vinsamlegast vistaðu lykilverslunina þína og deildu því ekki með neinum!"
         }
     }
 }

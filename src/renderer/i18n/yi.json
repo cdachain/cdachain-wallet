@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"קאָנטאַקטן",
-        "add_dialog":"לייג אַ קאָנטאַקט",
+        "add_dialog":"New contact",
         "add_cont": {
-            "tit":"אַרייַן קאָנטאַקט אינפֿאָרמאַציע",
-            "tag":"טאַגס",
-            "address":"קאָנטאַקטן",
-            "tag_placeholder":"ביטע אַרייַן די באַמערקונג פון דיין קאָנטאַקט",
-            "address_placeholder":"ביטע אַרייַן די קאָנטאַקט חשבון"
+            "tit":"New contact",
+            "tag":"קאָנטאַקטן",
+            "address":"חשבון אַדרעס",
+            "tag_placeholder":"ביטע אַרייַן די קאָנטאַקט נאָמען",
+            "address_placeholder":"ביטע אַרייַן די קאָנטעקסט אַדרעס פון דיין קאָנטאַקט"
         },
         "delete_dialog": {
             "title":"איר זענען רימוווינג"
@@ -69,7 +69,7 @@
         "transfer_log_null":"קיין דורכפאָר געשיכטע",
         "active_icon": {
             "go_transfer":"אָנהייבן אַריבערפירן",
-            "import_keystore":"קייסטאָרע",
+            "import_keystore":"Account file",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"מארק אַ טאָן פֿאַר דיין חשבון"
         },
         "keystore": {
-            "tit":"צוריק אַרויף די קייסטאָר",
+            "tit":"באַקקופּ בייַטל טעקע",
             "copy":"דופּליקאַט",
-            "download":"אָפּלאָדירן קייסטאָר"
+            "download":"Download wallet file"
         },
         "msg_info": {
             "ads_copy_success":"אַדרעס איז קאַפּיד",
@@ -125,89 +125,12 @@
             "imported_success":"אַרייַנפיר טעקע הצלחה",
             "imported_account_success":"ימפּאָרטיד הצלחה",
             "enter_private":"ביטע אַרייַן די שליסל",
-            "error_private":"ניט אַנדערש צו אַרייַנפיר די חשבון, עס קען זיין די אומרעכט שליסל",
+            "error_keystore":"ניט אַנדערש צו אַרייַנפיר חשבון, עס קען זיין אַ אַקאַונט טעקע טעות",
             "enter_keystore":"ביטע אַרייַנפיר די חשבון טעקע ערשטער",
             "error_password":"ניט אַנדערש צו אַרייַנפיר חשבון, עס קען זיין אַ פאַלש פּאַראָל",
             "remove_success":"Removed successfully",
             "create_success":"Created successfully",
             "save":"ביטע ראַטעווען דיין חשבון טעקע און טאָן ניט טיילן עס מיט ווער עס יז!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"שאַפֿן וואַללעט",
-        "import_wallet":"אַרייַנפיר בייַטל",
-        "back_up":"Backup wallet",
-        "add_account":"New account",
-        "acc":"Account",
-        "wallet":"וואַללעט",
-        "create_dia": {
-            "create_tit":"שאַפֿן אַ חשבון",
-            "backup_tit":"צוריק דיין נייַ חשבון",
-            "create_tag":"חשבון נאָמען",
-            "create_pwd":"באַשטעטיק פּאַראָל",
-            "create_repwd":"באַשטעטיקן שפּריכוואָרט",
-            "placeholder_tag":"ביטע שטעלן חשבון נאָמען",
-            "placeholder_pwd":"ביטע שטעלן פּאַראָל פּאַראָל",
-            "placeholder_repwd":"ביטע באַשטעטיקן די חשבון פּאַראָל",
-            "strong_password":"אַרייַן אַ שטאַרק פּאַראָל, בייַ מינדסטער 8 דידזשאַץ",
-            "account_address":"Account",
-            "account_privateKey":"פּריוואַט שליסל",
-            "account_download_keystore":"אָפּלאָדירן די קייסטאָראַל טעקע"
-        },
-        "create_wallet_dia": {
-            "create_tit":"שאַפֿן וואַללעט",
-            "backup_tit":"צוריק אַרויף דיין נייַ בייַטל",
-            "create_tag":"וואַללעט נאָמען",
-            "create_pwd":"באַשטעטיק פּאַראָל",
-            "create_repwd":"באַשטעטיקן שפּריכוואָרט",
-            "placeholder_tag":"ביטע שטעלן וואַנט נאָמען",
-            "placeholder_pwd":"ביטע שטעלן וואַנדעט פּאַראָל",
-            "placeholder_repwd":"ביטע באַשטעטיקן וואָלעט פּאַראָל",
-            "strong_password":"אַרייַן אַ שטאַרק פּאַראָל, בייַ מינדסטער 8 דידזשאַץ",
-            "wallet_address":"וואַללעט",
-            "download_wallet_file":"Download wallet file"
-        },
-        "import_wallet_dia": {
-            "tit":"אַרייַנפיר בייַטל",
-            "placeholder_keystore":"ביטע שלעפּן בייַטל טעקעס דאָ",
-            "placeholder_tag":"ביטע שטעלן וואַנט נאָמען",
-            "create_tag":"וואַללעט נאָמען",
-            "input_pwd":"אַרייַן פּאַראָל",
-            "placeholder_pwd":"ביטע אַרייַן דיין בייַטל פּאַראָל"
-        },
-        "remove_dia": {
-            "tit":"זענט איר זיכער איר ווילן צו באַזייַטיקן די בייַטל?",
-            "remove_confrim":"איך בין זיכער צו באַזייַטיקן",
-            "backup":"ביטע מאַכן זיכער אַז די בייַטל איז באַקט אַרויף צו ויסמייַדן פאַרמאָג שעדיקן"
-        },
-        "remove_wallet_dia": {
-            "tit":"ביסט איר זיכער איר ווילן צו באַזייַטיקן עס?",
-            "remove_confrim":"איך בין זיכער צו באַזייַטיקן",
-            "backup":"ביטע מאַכן זיכער אַז די בייַטל איז באַקט אַרויף צו ויסמייַדן פאַרמאָג שעדיקן"
-        },
-        "backup_wallet_dia": {
-            "tit":"צוריק אַרויף דיין בייַטל טעקע",
-            "remove_confrim":"איך בין זיכער צו באַזייַטיקן",
-            "backup":"דריקט אָפּלאָדירן צו באַקאַפּ דיין בייַטל טעקע",
-            "download":"אָפּלאָדירן"
-        },
-        "msg_info": {
-            "exist":"שוין יגזיסץ, די נאָמען איז",
-            "wallet_tag_error":"ביטע אַרייַן די וואַללעט נאָמען",
-            "enter_password":"ביטע אַרייַן דיין פּאַראָל",
-            "incons_password":"די פּאַראָל אין צוויי מאָל איז סתירה",
-            "error":"Error:",
-            "imported_success":"אַרייַנפיר טעקע הצלחה",
-            "imported_wallet_success":"וואַללעט ימפּאָרטיד הצלחה",
-            "enter_private":"ביטע אַרייַן די שליסל",
-            "error_private":"ניט אַנדערש צו אַרייַנפיר די חשבון, עס קען זיין די אומרעכט שליסל",
-            "enter_keystore":"ביטע אַרייַנפיר בייַטל טעקע ערשטער",
-            "error_password":"ניט אַנדערש צו אַרייַנפיר חשבון, עס קען זיין אַ פאַלש פּאַראָל",
-            "remove_success":"Removed successfully",
-            "create_success":"Created successfully",
-            "acc_create_success_des":"חשבון אַדרעס קענען זיין געניצט צו באַקומען CZR",
-            "acc_wallet_success_des":"צוריק אַרויף דיין בייַטל טעקעס, טאָן ניט זאָגן ווער עס יז",
-            "save":"ביטע ראַטעווען דיין קייסטאָר און טאָן ניט טיילן עס מיט ווער עס יז!"
         }
     }
 }

@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Harremanetarako",
-        "add_dialog":"Gehitu kontaktua",
+        "add_dialog":"Kontaktu berria",
         "add_cont": {
-            "tit":"Sartu kontaktuen informazioa",
-            "tag":"Tag",
-            "address":"Harremanetarako",
-            "tag_placeholder":"Sartu kontaktuaren iruzkinen etiketa",
-            "address_placeholder":"Sartu kontaktuen kontua"
+            "tit":"Kontaktu berria",
+            "tag":"Harremanetarako",
+            "address":"Kontu helbidea",
+            "tag_placeholder":"Sartu kontaktuaren izena",
+            "address_placeholder":"Sartu kontaktuaren kontuaren helbidea"
         },
         "delete_dialog": {
             "title":"Kendu egiten ari zara"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ez dago transakzioaren historia",
         "active_icon": {
             "go_transfer":"Hasi transferentzia",
-            "import_keystore":"keystore",
+            "import_keystore":"Kontu fitxategia",
             "qrcode":"QR kodea"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Markatu ohar bat zure konturako"
         },
         "keystore": {
-            "tit":"Egin teklatuaren babeskopia",
+            "tit":"Babeskopiaren zorro fitxategia",
             "copy":"Copy",
-            "download":"Deskargatu teklak"
+            "download":"Deskargatu zorro fitxategia"
         },
         "msg_info": {
             "ads_copy_success":"Helbidea kopiatu da",
@@ -125,89 +125,12 @@
             "imported_success":"Inportatu fitxategia behar bezala",
             "imported_account_success":"Inportatu behar bezala",
             "enter_private":"Sartu tekla",
-            "error_private":"Kontua inportatzean huts egin du",
+            "error_keystore":"Kontua inportatzean huts egin du, kontu fitxategiaren errorea izan daiteke",
             "enter_keystore":"Inportatu kontu fitxategia lehenik",
             "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
             "remove_success":"Behar bezala kendu da",
             "create_success":"Sortu arrakastaz",
             "save":"Mesedez, gorde zure kontuaren fitxategia eta ez partekatu inorekin!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Sortu zorroa",
-        "import_wallet":"Inportatu zorroa",
-        "back_up":"Babes-zorroa",
-        "add_account":"Kontu berria",
-        "acc":"Kontu-",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Sortu kontua",
-            "backup_tit":"Egin kontu berriaren babeskopia",
-            "create_tag":"Kontuaren izena",
-            "create_pwd":"Ezarri pasahitza",
-            "create_repwd":"Berretsi pasahitza",
-            "placeholder_tag":"Ezarri kontuaren izena",
-            "placeholder_pwd":"Ezarri kontuaren pasahitza",
-            "placeholder_repwd":"Berretsi kontuaren pasahitza",
-            "strong_password":"Idatzi pasahitz sendo bat, gutxienez 8 digitu",
-            "account_address":"Kontu-",
-            "account_privateKey":"Gako pribatua",
-            "account_download_keystore":"Deskargatu teklatuaren fitxategia"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Sortu zorroa",
-            "backup_tit":"Egin babeskopia zure zorro berrian",
-            "create_tag":"Billetearen izena",
-            "create_pwd":"Ezarri pasahitza",
-            "create_repwd":"Berretsi pasahitza",
-            "placeholder_tag":"Ezarri zorroaren izena",
-            "placeholder_pwd":"Ezarri zorroaren pasahitza",
-            "placeholder_repwd":"Berretsi zorroaren pasahitza",
-            "strong_password":"Idatzi pasahitz sendo bat, gutxienez 8 digitu",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Deskargatu zorro fitxategia"
-        },
-        "import_wallet_dia": {
-            "tit":"Inportatu zorroa",
-            "placeholder_keystore":"Hartu zorro fitxategiak hemen",
-            "placeholder_tag":"Ezarri zorroaren izena",
-            "create_tag":"Billetearen izena",
-            "input_pwd":"Idatzi pasahitza",
-            "placeholder_pwd":"Sartu zure zorroaren pasahitza"
-        },
-        "remove_dia": {
-            "tit":"Ziur zorroa kendu nahi duzula?",
-            "remove_confrim":"Ziur kendu egin behar dudala",
-            "backup":"Ziurtatu zorroa babeskopia egin dela jabetza-kalteak saihesteko"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ziur al zaude ezabatu nahi duzula?",
-            "remove_confrim":"Ziur kendu egin behar dudala",
-            "backup":"Ziurtatu zorroa babeskopia egin dela jabetza-kalteak saihesteko"
-        },
-        "backup_wallet_dia": {
-            "tit":"Egin babeskopia zure zorroaren fitxategian",
-            "remove_confrim":"Ziur kendu egin behar dudala",
-            "backup":"Egin klik Deskargatu zure zorroaren fitxategian babeskopia egiteko",
-            "download":"Deskarga"
-        },
-        "msg_info": {
-            "exist":"Dagoeneko badago, izena da",
-            "wallet_tag_error":"Idatzi zorroaren izena",
-            "enter_password":"Idatzi zure pasahitza",
-            "incons_password":"Bihurtutako pasahitza ez da bateragarria",
-            "error":"Akatsa:",
-            "imported_success":"Inportatu fitxategia behar bezala",
-            "imported_wallet_success":"Txartela inportatu da",
-            "enter_private":"Sartu tekla",
-            "error_private":"Kontua inportatzean huts egin du",
-            "enter_keystore":"Inportatu zorro fitxategia lehenik",
-            "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
-            "remove_success":"Behar bezala kendu da",
-            "create_success":"Sortu arrakastaz",
-            "acc_create_success_des":"Kontuaren helbidea CZR jasotzeko erabil daiteke",
-            "acc_wallet_success_des":"Egin babeskopia zure zorroko fitxategietan, ez inori adierazi",
-            "save":"Mesedez, gorde teklatu-denda eta ez partekatu edonorekin!"
         }
     }
 }

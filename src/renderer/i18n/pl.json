@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontakty",
-        "add_dialog":"Dodaj kontakt",
+        "add_dialog":"Nowy kontakt",
         "add_cont": {
-            "tit":"Wprowadź informacje kontaktowe",
-            "tag":"Tagi",
-            "address":"Kontakty",
-            "tag_placeholder":"Wprowadź znacznik komentarza kontaktu",
-            "address_placeholder":"Proszę wprowadzić dane kontaktowe"
+            "tit":"Nowy kontakt",
+            "tag":"Kontakty",
+            "address":"Adres konta",
+            "tag_placeholder":"Wprowadź nazwę kontaktu",
+            "address_placeholder":"Wprowadź adres konta kontaktu"
         },
         "delete_dialog": {
             "title":"Usuwasz"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Brak historii transakcji",
         "active_icon": {
             "go_transfer":"Rozpocznij transfer",
-            "import_keystore":"Magazyn kluczy",
+            "import_keystore":"Plik konta",
             "qrcode":"Kod QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Zaznacz notatkę dla swojego konta"
         },
         "keystore": {
-            "tit":"Utwórz kopię zapasową magazynu kluczy",
+            "tit":"Utwórz kopię zapasową pliku portfela",
             "copy":"Duplikat",
-            "download":"Pobierz plik kluczy"
+            "download":"Pobierz plik portfela"
         },
         "msg_info": {
             "ads_copy_success":"Adres został skopiowany",
@@ -125,89 +125,12 @@
             "imported_success":"Importuj plik pomyślnie",
             "imported_account_success":"Zaimportowane pomyślnie",
             "enter_private":"Wprowadź klucz",
-            "error_private":"Nie można zaimportować konta, może to być niewłaściwy klucz",
+            "error_keystore":"Nie można zaimportować konta, może to być błąd pliku konta",
             "enter_keystore":"Najpierw zaimportuj plik konta",
             "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
             "remove_success":"Usunięto pomyślnie",
             "create_success":"Utworzono pomyślnie",
             "save":"Zapisz plik konta i nie udostępniaj go nikomu!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Utwórz portfel",
-        "import_wallet":"Importuj portfel",
-        "back_up":"Portfel zapasowy",
-        "add_account":"Nowe konto",
-        "acc":"Konto",
-        "wallet":"Portfel",
-        "create_dia": {
-            "create_tit":"Utwórz konto",
-            "backup_tit":"Utwórz kopię zapasową nowego konta",
-            "create_tag":"Nazwa konta",
-            "create_pwd":"Ustaw hasło",
-            "create_repwd":"Potwierdź hasło",
-            "placeholder_tag":"Ustaw nazwę konta",
-            "placeholder_pwd":"Ustaw hasło do konta",
-            "placeholder_repwd":"Potwierdź hasło do konta",
-            "strong_password":"Wprowadź silne hasło, co najmniej 8 cyfr",
-            "account_address":"Konto",
-            "account_privateKey":"Klucz prywatny",
-            "account_download_keystore":"Pobierz plik magazynu kluczy"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Utwórz portfel",
-            "backup_tit":"Utwórz kopię zapasową nowego portfela",
-            "create_tag":"Nazwa portfela",
-            "create_pwd":"Ustaw hasło",
-            "create_repwd":"Potwierdź hasło",
-            "placeholder_tag":"Ustaw nazwę portfela",
-            "placeholder_pwd":"Ustaw hasło portfela",
-            "placeholder_repwd":"Potwierdź hasło do portfela",
-            "strong_password":"Wprowadź silne hasło, co najmniej 8 cyfr",
-            "wallet_address":"Portfel",
-            "download_wallet_file":"Pobierz plik portfela"
-        },
-        "import_wallet_dia": {
-            "tit":"Importuj portfel",
-            "placeholder_keystore":"Proszę przeciągnąć pliki portfela tutaj",
-            "placeholder_tag":"Ustaw nazwę portfela",
-            "create_tag":"Nazwa portfela",
-            "input_pwd":"Wprowadź hasło",
-            "placeholder_pwd":"Wprowadź hasło do portfela"
-        },
-        "remove_dia": {
-            "tit":"Czy na pewno chcesz usunąć portfel?",
-            "remove_confrim":"Jestem pewien, że usunę",
-            "backup":"Upewnij się, że portfel został zarchiwizowany, aby uniknąć uszkodzenia własności"
-        },
-        "remove_wallet_dia": {
-            "tit":"Czy na pewno chcesz go usunąć?",
-            "remove_confrim":"Jestem pewien, że usunę",
-            "backup":"Upewnij się, że portfel został zarchiwizowany, aby uniknąć uszkodzenia własności"
-        },
-        "backup_wallet_dia": {
-            "tit":"Utwórz kopię zapasową pliku portfela",
-            "remove_confrim":"Jestem pewien, że usunę",
-            "backup":"Kliknij Pobierz, aby wykonać kopię zapasową pliku portfela",
-            "download":"Pobierz"
-        },
-        "msg_info": {
-            "exist":"Już istnieje, nazywa się",
-            "wallet_tag_error":"Wprowadź nazwę portfela",
-            "enter_password":"Wprowadź swoje hasło",
-            "incons_password":"Wprowadzone dwukrotnie hasło jest niespójne",
-            "error":"Błąd:",
-            "imported_success":"Importuj plik pomyślnie",
-            "imported_wallet_success":"Portfel został pomyślnie zaimportowany",
-            "enter_private":"Wprowadź klucz",
-            "error_private":"Nie można zaimportować konta, może to być niewłaściwy klucz",
-            "enter_keystore":"Najpierw zaimportuj plik portfela",
-            "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
-            "remove_success":"Usunięto pomyślnie",
-            "create_success":"Utworzono pomyślnie",
-            "acc_create_success_des":"Adres konta może zostać użyty do otrzymania CZR",
-            "acc_wallet_success_des":"Utwórz kopię zapasową plików portfela, nie mów nikomu",
-            "save":"Zapisz swój plik kluczy i nie udostępniaj go nikomu!"
         }
     }
 }

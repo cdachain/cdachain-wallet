@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Contact",
-        "add_dialog":"Add a contactu",
+        "add_dialog":"Contact novum",
         "add_cont": {
-            "tit":"Intra contactus notitia",
-            "tag":"Tag →",
-            "address":"Contact",
-            "tag_placeholder":"Placere contactus intrare notas titulus est scriptor",
-            "address_placeholder":"Placere contactus intrare Ratio"
+            "tit":"Contact novum",
+            "tag":"Contact",
+            "address":"ratio inscriptio",
+            "tag_placeholder":"Placere contactus nomen intrare",
+            "address_placeholder":"Placere contactus oratio rationis intrare"
         },
         "delete_dialog": {
             "title":"Movens igitur tu es"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Non transactions",
         "active_icon": {
             "go_transfer":"initium capiat",
-            "import_keystore":"Keystore",
+            "import_keystore":"ratio file",
             "qrcode":"Duo dumtaxat codice"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Nam designat quiddam ob gratiam tui"
         },
         "keystore": {
-            "tit":"Quod tergum sursum keystore",
+            "tit":"Vidulum tergum lima",
             "copy":"exemplum",
-            "download":"download keystore"
+            "download":"Download file pera"
         },
         "msg_info": {
             "ads_copy_success":"Oratio est copied",
@@ -125,89 +125,12 @@
             "imported_success":"Import file Success",
             "imported_account_success":"Import victoria",
             "enter_private":"Please enter the key",
-            "error_private":"Ratio import perit, sed error sit clavem",
+            "error_keystore":"Ratio import, defecit germen, sit causa mali file",
             "enter_keystore":"Placere importare rationem file",
             "error_password":"Ratio import incassum fit, ut malum quod password",
             "remove_success":"remota feliciter",
             "create_success":"partum victoria",
             "save":"Placere nisi ob gratiam tui file: ne participes quis est?"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Create vidulum",
-        "import_wallet":"Import pera",
-        "back_up":"tergum pera",
-        "add_account":"ratio Novae",
-        "acc":"ratio",
-        "wallet":"vidulum",
-        "create_dia": {
-            "create_tit":"Create an account",
-            "backup_tit":"Novus tergum sursum vestri ratio",
-            "create_tag":"ratio nominis",
-            "create_pwd":"Password",
-            "create_repwd":"Affirmo password",
-            "placeholder_tag":"Set propter nomen tuum",
-            "placeholder_pwd":"Set propter password",
-            "placeholder_repwd":"Vide rationis password",
-            "strong_password":"Vasa fortis ignoro saltem octo",
-            "account_address":"ratio",
-            "account_privateKey":"privata clavem",
-            "account_download_keystore":"Download file keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Create vidulum",
-            "backup_tit":"Tergum sursum vestri novus pera",
-            "create_tag":"nomen pera",
-            "create_pwd":"Password",
-            "create_repwd":"Affirmo password",
-            "placeholder_tag":"Vidulo posuit nomen eius",
-            "placeholder_pwd":"Pone quaeso password pera",
-            "placeholder_repwd":"Affirmo password pera",
-            "strong_password":"Vasa fortis ignoro saltem octo",
-            "wallet_address":"vidulum",
-            "download_wallet_file":"Download file pera"
-        },
-        "import_wallet_dia": {
-            "tit":"Import pera",
-            "placeholder_keystore":"Placere in peram lima hic,",
-            "placeholder_tag":"Vidulo posuit nomen eius",
-            "create_tag":"nomen pera",
-            "input_pwd":"Intra in password",
-            "placeholder_pwd":"Intra password pera"
-        },
-        "remove_dia": {
-            "tit":"Visne vero removere, manticae quid tu?",
-            "remove_confrim":"Im 'certus ad removendum",
-            "backup":"Vide ne iam certioribus illis pera ne proprietas damnum"
-        },
-        "remove_wallet_dia": {
-            "tit":"Tu es certus sit removere vis?",
-            "remove_confrim":"Im 'certus ad removendum",
-            "backup":"Vide ne iam certioribus illis pera ne proprietas damnum"
-        },
-        "backup_wallet_dia": {
-            "tit":"Vidulum tergum lima",
-            "remove_confrim":"Im 'certus ad removendum",
-            "backup":"Click to download: peram tergum lima",
-            "download":"download"
-        },
-        "msg_info": {
-            "exist":"Iam enim et hoc nomine",
-            "wallet_tag_error":"PDF pera nomine",
-            "enter_password":"Please enter vestri password",
-            "incons_password":"Passwords non aequare",
-            "error":"Error:",
-            "imported_success":"Import file Success",
-            "imported_wallet_success":"Import victoria pera",
-            "enter_private":"Please enter the key",
-            "error_private":"Ratio import perit, sed error sit clavem",
-            "enter_keystore":"Placere peram file import",
-            "error_password":"Ratio import incassum fit, ut malum quod password",
-            "remove_success":"remota feliciter",
-            "create_success":"partum victoria",
-            "acc_create_success_des":"Ratio est oratio praesto accipere CZR",
-            "acc_wallet_success_des":"Lima tergum sursum vestri peram, neque dicas quis",
-            "save":"Keystore quaeso animam tuam, ne participes quis est?"
         }
     }
 }

@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Teagmhálacha",
-        "add_dialog":"Cuir teagmhála leis",
+        "add_dialog":"Teagmhála nua",
         "add_cont": {
-            "tit":"Cuir isteach eolas teagmhála",
-            "tag":"Clibeanna",
-            "address":"Teagmhálacha",
-            "tag_placeholder":"Cuir isteach tag tagartha an teagmhála",
-            "address_placeholder":"Cuir isteach an gcuntas teagmhála"
+            "tit":"Teagmhála nua",
+            "tag":"Teagmhálacha",
+            "address":"Seoladh cuntais",
+            "tag_placeholder":"Cuir ainm an teagmhála isteach",
+            "address_placeholder":"Cuir isteach seoladh cuntas an teagmhála"
         },
         "delete_dialog": {
             "title":"Tá tú ag baint úsáide as"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Uimh stair idirbheart",
         "active_icon": {
             "go_transfer":"Aistriú a thosú",
-            "import_keystore":"Eochairchlár",
+            "import_keystore":"Comhad cuntais",
             "qrcode":"QR cód"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Nóta a mharcáil le do chuntas"
         },
         "keystore": {
-            "tit":"Ar ais suas an eochairchlár",
+            "tit":"Comhad sparán cúltaca",
             "copy":"Dúblach",
-            "download":"Íoslódáil eochairchlár"
+            "download":"Íoslódáil comhad sparán"
         },
         "msg_info": {
             "ads_copy_success":"Tá an seoladh cóipeáilte",
@@ -125,89 +125,12 @@
             "imported_success":"Iompórtáil comhad go rath",
             "imported_account_success":"Iompórtáil go rathúil",
             "enter_private":"Cuir isteach an eochair",
-            "error_private":"Theip ar an gcuntas a allmhairiú, b'fhéidir gurb é an eochair mícheart é",
+            "error_keystore":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur earráid comhaid cuntas é",
             "enter_keystore":"Cuir isteach an comhad cuntas ar dtús",
             "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
             "remove_success":"Bainte go rathúil",
             "create_success":"Cruthaithe go rathúil",
             "save":"Sábháil do chomhad cuntais le do thoil agus ná é a roinnt le duine ar bith!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Cruthaigh Sparán",
-        "import_wallet":"Urchair Iompórtála",
-        "back_up":"Sparán Cúltaca",
-        "add_account":"Cuntas nua",
-        "acc":"Cuntas",
-        "wallet":"Sparán",
-        "create_dia": {
-            "create_tit":"Cruthaigh cuntas",
-            "backup_tit":"Cuir suas do chuntas nua ar ais",
-            "create_tag":"Ainm an chuntas",
-            "create_pwd":"Socraigh focal faire",
-            "create_repwd":"Dearbhaigh focal faire",
-            "placeholder_tag":"Socraigh ainm an chuntas le do thoil",
-            "placeholder_pwd":"Socraigh an focal faire cuntas le do thoil",
-            "placeholder_repwd":"Dearbhaigh an focal faire chuntais",
-            "strong_password":"Cuir isteach focal faire láidir, 8 dhigit ar a laghad",
-            "account_address":"Cuntas",
-            "account_privateKey":"Eochair phríobháideach",
-            "account_download_keystore":"Íoslódáil an comhad eochairchló"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Cruthaigh Sparán",
-            "backup_tit":"Ar ais suas do sparán nua",
-            "create_tag":"Ainm an sparán",
-            "create_pwd":"Socraigh focal faire",
-            "create_repwd":"Dearbhaigh focal faire",
-            "placeholder_tag":"Socraigh ainm sparán",
-            "placeholder_pwd":"Socraigh an focal faire faire",
-            "placeholder_repwd":"Deimhnigh phasfhocal sparán le do thoil",
-            "strong_password":"Cuir isteach focal faire láidir, 8 dhigit ar a laghad",
-            "wallet_address":"Sparán",
-            "download_wallet_file":"Íoslódáil comhad sparán"
-        },
-        "import_wallet_dia": {
-            "tit":"Urchair Iompórtála",
-            "placeholder_keystore":"Tarraing comhaid sparán anseo",
-            "placeholder_tag":"Socraigh ainm sparán",
-            "create_tag":"Ainm an sparán",
-            "input_pwd":"Cuir isteach focal faire",
-            "placeholder_pwd":"Cuir isteach do phhasfhocal sparán"
-        },
-        "remove_dia": {
-            "tit":"An bhfuil tú cinnte gur mhaith leat an sparán a bhaint?",
-            "remove_confrim":"Táim cinnte go mbainfí as",
-            "backup":"Déan cinnte go bhfuil an sparán curtha ar bun chun damáiste maoine a sheachaint"
-        },
-        "remove_wallet_dia": {
-            "tit":"An bhfuil tú cinnte gur mhaith leat é a bhaint?",
-            "remove_confrim":"Táim cinnte go mbainfí as",
-            "backup":"Déan cinnte go bhfuil an sparán curtha ar bun chun damáiste maoine a sheachaint"
-        },
-        "backup_wallet_dia": {
-            "tit":"Ar ais suas do chomhad sparán",
-            "remove_confrim":"Táim cinnte go mbainfí as",
-            "backup":"Cliceáil ar do chomhad sparán a íoslódáil",
-            "download":"Íoslódáil"
-        },
-        "msg_info": {
-            "exist":"Tá ann cheana féin, is é an t-ainm",
-            "wallet_tag_error":"Cuir ainm sparán isteach",
-            "enter_password":"Cuir isteach do phasfhocal",
-            "incons_password":"Tá an focal faire isteach dhá uair neamhréireach",
-            "error":"Earráid:",
-            "imported_success":"Iompórtáil comhad go rath",
-            "imported_wallet_success":"Sparán a allmhairítear go rathúil",
-            "enter_private":"Cuir isteach an eochair",
-            "error_private":"Theip ar an gcuntas a allmhairiú, b'fhéidir gurb é an eochair mícheart é",
-            "enter_keystore":"Cuir isteach comhad sparán ar dtús",
-            "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
-            "remove_success":"Bainte go rathúil",
-            "create_success":"Cruthaithe go rathúil",
-            "acc_create_success_des":"Is féidir seoladh cuntais a úsáid chun CZR a fháil",
-            "acc_wallet_success_des":"Ar ais suas do chuid comhaid sparán, ná inis do dhuine ar bith",
-            "save":"Sábháil do stór eochair agus ná é a roinnt le duine ar bith!"
         }
     }
 }

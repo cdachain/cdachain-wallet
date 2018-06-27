@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Stiki",
-        "add_dialog":"Dodaj stik",
+        "add_dialog":"Nov stik",
         "add_cont": {
-            "tit":"Vnesite podatke za stik",
-            "tag":"Oznake",
-            "address":"Stiki",
-            "tag_placeholder":"Vnesite oznako za stik osebe",
-            "address_placeholder":"Vnesite kontaktni račun"
+            "tit":"Nov stik",
+            "tag":"Stiki",
+            "address":"Naslov računa",
+            "tag_placeholder":"Vnesite ime stika",
+            "address_placeholder":"Vnesite naslov računa za stik"
         },
         "delete_dialog": {
             "title":"Odstranite"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Brez zgodovine transakcij",
         "active_icon": {
             "go_transfer":"Začnite prenos",
-            "import_keystore":"Keystore",
+            "import_keystore":"Datoteka računa",
             "qrcode":"QR kodo"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Označite opombo za svoj račun"
         },
         "keystore": {
-            "tit":"Varnostno kopirajte varnostno kopijo",
+            "tit":"Datoteka varnostne kopije",
             "copy":"Podvoji",
-            "download":"Prenesite ključno besedo"
+            "download":"Prenesi denarnico"
         },
         "msg_info": {
             "ads_copy_success":"Naslov je bil kopiran",
@@ -125,89 +125,12 @@
             "imported_success":"Uvozite datoteko uspešno",
             "imported_account_success":"Uvoženo uspešno",
             "enter_private":"Vnesite ključ",
-            "error_private":"Račun ni bilo mogoče uvoziti, morda je napačni ključ",
+            "error_keystore":"Ni bilo mogoče uvoziti računa, morda je prišlo do napake v računu",
             "enter_keystore":"Najprej uvozite datoteko računa",
             "error_password":"Ni bilo mogoče uvoziti računa, morda je napačno geslo",
             "remove_success":"Uspešno je bil odstranjen",
             "create_success":"Ustvarjeno je uspešno",
             "save":"Prosimo, shranite datoteko računa in ne delite z nikomer!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Ustvari denarnico",
-        "import_wallet":"Ustvari denarnico",
-        "back_up":"Varnostna denarnica",
-        "add_account":"Nov račun",
-        "acc":"Račun",
-        "wallet":"Denarnica",
-        "create_dia": {
-            "create_tit":"Ustvarite račun",
-            "backup_tit":"Varnostno kopirajte svoj novi račun",
-            "create_tag":"Ime računa",
-            "create_pwd":"Nastavite geslo",
-            "create_repwd":"Potrdite geslo",
-            "placeholder_tag":"Nastavite ime računa",
-            "placeholder_pwd":"Nastavite geslo za račun",
-            "placeholder_repwd":"Potrdite geslo za račun",
-            "strong_password":"Vnesite močno geslo, najmanj 8 številk",
-            "account_address":"Račun",
-            "account_privateKey":"Zasebni ključ",
-            "account_download_keystore":"Prenesite datoteko keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Ustvari denarnico",
-            "backup_tit":"Varnostno kopirajte novo denarnico",
-            "create_tag":"Ime denarnice",
-            "create_pwd":"Nastavite geslo",
-            "create_repwd":"Potrdite geslo",
-            "placeholder_tag":"Nastavite ime denarnice",
-            "placeholder_pwd":"Prosimo, nastavite geslo za denarnico",
-            "placeholder_repwd":"Potrdite geslo za denarnico",
-            "strong_password":"Vnesite močno geslo, najmanj 8 številk",
-            "wallet_address":"Denarnica",
-            "download_wallet_file":"Prenesi denarnico"
-        },
-        "import_wallet_dia": {
-            "tit":"Ustvari denarnico",
-            "placeholder_keystore":"Prosimo, vnesite datoteke denarnice",
-            "placeholder_tag":"Nastavite ime denarnice",
-            "create_tag":"Ime denarnice",
-            "input_pwd":"Vnesite geslo",
-            "placeholder_pwd":"Vnesite geslo za denarnico"
-        },
-        "remove_dia": {
-            "tit":"Ste prepričani, da želite odstraniti denarnico?",
-            "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Prepričajte se, da je denarnica varnostno kopirana, da se izognete nepremoženjski škodi"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ali ste prepričani, da ga želite odstraniti?",
-            "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Prepričajte se, da je denarnica varnostno kopirana, da se izognete nepremoženjski škodi"
-        },
-        "backup_wallet_dia": {
-            "tit":"Varnostno kopirajte datoteko denarnice",
-            "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Kliknite Prenesi, da varnostno kopirate datoteko denarnice",
-            "download":"Prenesi"
-        },
-        "msg_info": {
-            "exist":"Že obstaja, ime je",
-            "wallet_tag_error":"Vnesite ime denarnice",
-            "enter_password":"Vnesite geslo",
-            "incons_password":"Dvakrat vneseno geslo ni v skladu",
-            "error":"Napaka:",
-            "imported_success":"Uvozite datoteko uspešno",
-            "imported_wallet_success":"Denarnica je uspešno uvožena",
-            "enter_private":"Vnesite ključ",
-            "error_private":"Račun ni bilo mogoče uvoziti, morda je napačni ključ",
-            "enter_keystore":"Najprej uvozite denarnico",
-            "error_password":"Ni bilo mogoče uvoziti računa, morda je napačno geslo",
-            "remove_success":"Uspešno je bil odstranjen",
-            "create_success":"Ustvarjeno je uspešno",
-            "acc_create_success_des":"Naslov računa se lahko uporabi za sprejem CZR-ja",
-            "acc_wallet_success_des":"Varnostno kopirajte datoteke denarnice, nikomur ne povejte",
-            "save":"Prosimo, shranite kalkulator in ne delite z nikomer!"
         }
     }
 }

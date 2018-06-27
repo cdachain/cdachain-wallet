@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"اړیکې",
-        "add_dialog":"اړیکه زیاته کړه",
+        "add_dialog":"نوی تماس",
         "add_cont": {
-            "tit":"د اړیکو معلومات داخل کړئ",
-            "tag":"ټکي",
-            "address":"اړیکې",
-            "tag_placeholder":"مهرباني وکړئ د اړیکو د تبصرې ټکي وليکئ",
-            "address_placeholder":"مهرباني وکړئ د اړیکو حساب ولیکئ"
+            "tit":"نوی تماس",
+            "tag":"اړیکې",
+            "address":"د ګڼون پته",
+            "tag_placeholder":"مهرباني وکړئ د اړیکې نوم ولیکئ",
+            "address_placeholder":"مهرباني وکړئ د اړیکو د حساب پته ولیکئ"
         },
         "delete_dialog": {
             "title":"تاسو لرې کول"
@@ -69,7 +69,7 @@
         "transfer_log_null":"د لیږد تاریخ نه",
         "active_icon": {
             "go_transfer":"د لیږد پیل",
-            "import_keystore":"کیسټور",
+            "import_keystore":"د کارن دوتنه",
             "qrcode":"د QR کود"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"د خپل حساب لپاره یوه نښه نښه کړئ"
         },
         "keystore": {
-            "tit":"د کیسټۍ شاتړ",
+            "tit":"د بیک اپ والټ دوتنه",
             "copy":"نقل",
-            "download":"د کیلي ښکته کول"
+            "download":"د بالیټ دوتنې ډاونلوډ کړئ"
         },
         "msg_info": {
             "ads_copy_success":"پته نقل شوی",
@@ -118,96 +118,19 @@
             "placeholder_pwd":"لطفا د دې ګڼون لپاره پټنوم وليکئ"
         },
         "msg_info": {
-            "exist":"دا حساب لا دمخه شتون لري، نوم دی",
+            "exist":"دا حساب لا دمخه شتون لري او نوم دی",
             "enter_password":"لطفا خپل پټنوم داخلیږی",
             "incons_password":"ننوتل شوي دوه ځله ناڅاپي دي",
             "error":"تېروتنه:",
             "imported_success":"دوتنه په بریالیتوب وارد کړه",
             "imported_account_success":"په بریالیتوب وارد شوی",
             "enter_private":"لطفا کلیمه وليکئ",
-            "error_private":"د حساب واردولو کې پاتې راغلل، دا ممکن غلط کلیدی وي",
+            "error_keystore":"د حساب واردولو کې پاتې راغلل، دا کیدی شي د اکټو فایل تېروتنه وي",
             "enter_keystore":"مهرباني وکړئ لومړی د حساب فایل وارد کړئ",
             "error_password":"د حساب واردولو کې پاتې راغلل، دا ممکن ناسم شفر وي",
             "remove_success":"بریالی شوی",
             "create_success":"په بریالیتوب سره جوړ شو",
             "save":"لطفا خپل د حساب فایل وساتئ او د چا سره یې شریک نه کړئ!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"والټ جوړول",
-        "import_wallet":"وولټ وارد کړئ",
-        "back_up":"د بیک اپ والټ",
-        "add_account":"نوی حساب",
-        "acc":"ګڼون",
-        "wallet":"والټ",
-        "create_dia": {
-            "create_tit":"ګڼون جوړول",
-            "backup_tit":"خپل نوی حساب بیرته پورته کړئ",
-            "create_tag":"د کارن نوم",
-            "create_pwd":"پټنوم ولیکه",
-            "create_repwd":"پټنوم تایید کړه",
-            "placeholder_tag":"لطفا د حساب نوم ولیکئ",
-            "placeholder_pwd":"مهرباني وکړئ د حساب پټنوم ولیکئ",
-            "placeholder_repwd":"مهرباني وکړئ د حساب پټنوم تایید کړئ",
-            "strong_password":"لږترلږه 8 هګۍ",
-            "account_address":"ګڼون",
-            "account_privateKey":"شخصي کیلي",
-            "account_download_keystore":"د کیلي دوتنه ډاونلوډ کړئ"
-        },
-        "create_wallet_dia": {
-            "create_tit":"والټ جوړول",
-            "backup_tit":"خپل نوی واټ بیکار کړئ",
-            "create_tag":"د وال نوم",
-            "create_pwd":"پټنوم ولیکه",
-            "create_repwd":"پټنوم تایید کړه",
-            "placeholder_tag":"مهرباني وکړئ د والټ نوم ولیکئ",
-            "placeholder_pwd":"مهرباني وکړئ د والیت پاسورډ وټاکئ",
-            "placeholder_repwd":"مهرباني وکړئ د والیت پاسورډ تایید کړئ",
-            "strong_password":"لږترلږه 8 هګۍ",
-            "wallet_address":"والټ",
-            "download_wallet_file":"د بالیټ دوتنې ډاونلوډ کړئ"
-        },
-        "import_wallet_dia": {
-            "tit":"وولټ وارد کړئ",
-            "placeholder_keystore":"لطفا دلته د واالټ فایلونه وباسئ",
-            "placeholder_tag":"مهرباني وکړئ د والټ نوم ولیکئ",
-            "create_tag":"د وال نوم",
-            "input_pwd":"شفر ورکړه",
-            "placeholder_pwd":"مهرباني وکړئ خپل وولټ پاسورډ داخل کړئ"
-        },
-        "remove_dia": {
-            "tit":"ایا تاسو ډاډه یاست چې تاسو غواړئ له منځه یوسي؟",
-            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
-            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې والټ یې د ملکیتونو د زیان څخه مخنیوي لپاره ملاتړ شوی دی"
-        },
-        "remove_wallet_dia": {
-            "tit":"ایا ته باوري یې چې تاسو یې لیرې کول غواړئ؟",
-            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
-            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې والټ یې د ملکیتونو د زیان څخه مخنیوي لپاره ملاتړ شوی دی"
-        },
-        "backup_wallet_dia": {
-            "tit":"خپل د والټ فایل پورته کړه",
-            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
-            "backup":"د خپل وایلټ فایل بیک اپ لپاره د ټیکلو کلیک وکړئ",
-            "download":"کښته کول"
-        },
-        "msg_info": {
-            "exist":"لا دمخه شتون لري، نوم دی",
-            "wallet_tag_error":"مهرباني وکړئ د والټ نوم ولیکئ",
-            "enter_password":"لطفا خپل پټنوم داخلیږی",
-            "incons_password":"ننوتل شوي دوه ځله ناڅاپي دي",
-            "error":"تېروتنه:",
-            "imported_success":"دوتنه په بریالیتوب وارد کړه",
-            "imported_wallet_success":"والر په بریالیتوب سره وارد شو",
-            "enter_private":"لطفا کلیمه وليکئ",
-            "error_private":"د حساب واردولو کې پاتې راغلل، دا ممکن غلط کلیدی وي",
-            "enter_keystore":"مهرباني وکړئ لومړی د والټ فایل وارد کړئ",
-            "error_password":"د حساب واردولو کې پاتې راغلل، دا ممکن ناسم شفر وي",
-            "remove_success":"بریالی شوی",
-            "create_success":"په بریالیتوب سره جوړ شو",
-            "acc_create_success_des":"د حساب پتې د CZR ترلاسه کولو لپاره کارول کیدی شي",
-            "acc_wallet_success_des":"خپل د والټ فایلونه بیرته پورته کړئ، هیڅوک مه مه وایئ",
-            "save":"لطفا خپل کليسټ وساتئ او له چا سره یې شریک نه کړئ!"
         }
     }
 }

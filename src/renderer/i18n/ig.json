@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Ndi ana-akpo",
-        "add_dialog":"Tinye kọntaktị",
+        "add_dialog":"Kọntaktị ọhụrụ",
         "add_cont": {
-            "tit":"Tinye ozi kọntaktị",
-            "tag":"Tags",
-            "address":"Ndi ana-akpo",
-            "tag_placeholder":"Biko tinye aha mkpado nke kọntaktị ahụ",
-            "address_placeholder":"Biko tinye akaụntụ nnabata"
+            "tit":"Kọntaktị ọhụrụ",
+            "tag":"Ndi ana-akpo",
+            "address":"Adreesị akaụntụ",
+            "tag_placeholder":"Biko tinye aha onye ahụ",
+            "address_placeholder":"Biko tinye adreesị akaụntụ onye ahụ"
         },
         "delete_dialog": {
             "title":"Ị na-ewepụ"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Ọ dịghị akụkọ ihe mere eme",
         "active_icon": {
             "go_transfer":"Buru ụzọ nyefee",
-            "import_keystore":"Keystore",
+            "import_keystore":"Akaụntụ",
             "qrcode":"QR koodu"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Dee ederede maka akaụntụ gị"
         },
         "keystore": {
-            "tit":"Weghachite isi ihe",
+            "tit":"Akpa akpa ego",
             "copy":"Ntughari",
-            "download":"Download keystore"
+            "download":"Download obere akpa"
         },
         "msg_info": {
             "ads_copy_success":"E depụtala adreesị",
@@ -125,89 +125,12 @@
             "imported_success":"Nbunye faịlụ na-aga nke ọma",
             "imported_account_success":"Biputere ya nke ọma",
             "enter_private":"Biko tinye igodo",
-            "error_private":"Emezighi ibubata akaụntụ ahụ, ọ nwere ike ịbụ igodo na-ezighị ezi",
+            "error_keystore":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ faịlụ ezighi ezi akaụntụ",
             "enter_keystore":"Biko bubata mbido faịlụ ahụ na mbu",
             "error_password":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ paswọọdụ na-ezighị ezi",
             "remove_success":"Wepụ ya nke ọma",
             "create_success":"Ejiri nke ọma",
             "save":"Biko chekwaa faịlụ akaụntụ gị ma ghara ịkekọrịta ya na onye ọ bụla!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Mee obere akpa",
-        "import_wallet":"Mbupu akpabata",
-        "back_up":"Obere akpa ego",
-        "add_account":"Akaụntụ ọhụrụ",
-        "acc":"Akaụntụ",
-        "wallet":"Obere",
-        "create_dia": {
-            "create_tit":"Mepụta akaụntụ",
-            "backup_tit":"Debe akaụntụ ọhụrụ gị",
-            "create_tag":"Aha aha",
-            "create_pwd":"Debe paswọọdụ",
-            "create_repwd":"Kwenye paswọọdụ",
-            "placeholder_tag":"Biko debe aha akaụntụ",
-            "placeholder_pwd":"Biko debe paswọọdụ akaụntụ",
-            "placeholder_repwd":"Biko gosipụta paswọọdụ akaụntụ",
-            "strong_password":"Tinye paswọọdụ siri ike, ọbụlagodi 8 digit",
-            "account_address":"Akaụntụ",
-            "account_privateKey":"Igodo nkeonwe",
-            "account_download_keystore":"Wepu faịlụ ntinye aka"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Mee obere akpa",
-            "backup_tit":"Debe obere obere akpa gị",
-            "create_tag":"Aha obere akpa",
-            "create_pwd":"Debe paswọọdụ",
-            "create_repwd":"Kwenye paswọọdụ",
-            "placeholder_tag":"Biko tinye aha obere akpa",
-            "placeholder_pwd":"Biko tinye obere okwuntughe",
-            "placeholder_repwd":"Biko gosi obere paswọọdụ",
-            "strong_password":"Tinye paswọọdụ siri ike, ọbụlagodi 8 digit",
-            "wallet_address":"Obere",
-            "download_wallet_file":"Download obere akpa"
-        },
-        "import_wallet_dia": {
-            "tit":"Mbupu akpabata",
-            "placeholder_keystore":"Biko wepụ faịlụ obere akpa ebe a",
-            "placeholder_tag":"Biko tinye aha obere akpa",
-            "create_tag":"Aha obere akpa",
-            "input_pwd":"Tinye paswọọdụ",
-            "placeholder_pwd":"Biko tinye obere akpaaka gị"
-        },
-        "remove_dia": {
-            "tit":"Ị ji n'aka na ịchọrọ iwepụ obere akpa?",
-            "remove_confrim":"Enwere m n'aka iwepụ",
-            "backup":"Biko jide n'aka na akwadola obere akpa iji zere mmebi ihe onwunwe"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ị ji n'aka na ịchọrọ iwepụ ya?",
-            "remove_confrim":"Enwere m n'aka iwepụ",
-            "backup":"Biko jide n'aka na akwadola obere akpa iji zere mmebi ihe onwunwe"
-        },
-        "backup_wallet_dia": {
-            "tit":"Weghachite faịlụ gị",
-            "remove_confrim":"Enwere m n'aka iwepụ",
-            "backup":"Pịa Download iji kwado faịlụ obere akpa gị",
-            "download":"Download"
-        },
-        "msg_info": {
-            "exist":"Enweela, aha ahụ bụ",
-            "wallet_tag_error":"Biko tinye aha obere akpa",
-            "enter_password":"Biko tinye paswọọdụ gị",
-            "incons_password":"Okwuntughe abanye ugboro abuo ekwenyeghi",
-            "error":"Njehie:",
-            "imported_success":"Nbunye faịlụ na-aga nke ọma",
-            "imported_wallet_success":"Obere akpabatara nke ọma",
-            "enter_private":"Biko tinye igodo",
-            "error_private":"Emezighi ibubata akaụntụ ahụ, ọ nwere ike ịbụ igodo na-ezighị ezi",
-            "enter_keystore":"Biko bubata akpa akpa akpa",
-            "error_password":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ paswọọdụ na-ezighị ezi",
-            "remove_success":"Wepụ ya nke ọma",
-            "create_success":"Ejiri nke ọma",
-            "acc_create_success_des":"Enwere ike iji adreesị akaụntụ nweta CZR",
-            "acc_wallet_success_des":"Debe faịlụ obere akpa gị, agwala onye ọ bụla",
-            "save":"Biko chekwaa ụlọ ahịa gị ma ghara ịkekọrịta ya na onye ọ bụla!"
         }
     }
 }

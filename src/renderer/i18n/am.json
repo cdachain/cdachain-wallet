@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"እውቂያዎች",
-        "add_dialog":"እውቂያ አክል",
+        "add_dialog":"አዲስ እውቂያ",
         "add_cont": {
-            "tit":"የእውቂያ መረጃን ያስገቡ",
-            "tag":"መለያዎች",
-            "address":"እውቂያዎች",
-            "tag_placeholder":"እባክህ የእውቂያውን የአመልካች መለያ ስም አስገባ",
-            "address_placeholder":"እባክዎ የእውቂያ መለያውን ያስገቡ"
+            "tit":"አዲስ እውቂያ",
+            "tag":"እውቂያዎች",
+            "address":"የመለያ አድራሻ",
+            "tag_placeholder":"እባክዎ የእውቂያው ስም ያስገቡ",
+            "address_placeholder":"እባክህ የእውቂያውን መለያ አድራሻ አስገባ"
         },
         "delete_dialog": {
             "title":"እያስወገድክ ነው"
@@ -69,7 +69,7 @@
         "transfer_log_null":"ምንም የግብይት ታሪክ የለም",
         "active_icon": {
             "go_transfer":"ዝውውር ጀምር",
-            "import_keystore":"የቁልፍ መደብር",
+            "import_keystore":"የመለያ ፋይል",
             "qrcode":"QR ኮድ"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"ለመለያዎ ማስታወሻ ያመልክቱ"
         },
         "keystore": {
-            "tit":"የቁልፍ መደብርን ምትኬ አስቀምጥ",
+            "tit":"ምትኬ የፓስፖርት ፋይል",
             "copy":"የተባዛ",
-            "download":"የቁልፍ መደብር ያውርዱ"
+            "download":"የፓስፖርት ፋይል አውርድ"
         },
         "msg_info": {
             "ads_copy_success":"አድራሻው ተቀድቷል",
@@ -125,89 +125,12 @@
             "imported_success":"ፋይል በተሳካ ሁኔታ አስመጣ",
             "imported_account_success":"በተሳካ ሁኔታ መጥቷል",
             "enter_private":"እባክዎ ቁልፉን ያስገቡ",
-            "error_private":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ ቁልፍ ሊሆን ይችላል",
+            "error_keystore":"መለያውን ማስመጣት አልተሳካም, የመለያ ፋይል ስህተት ሊሆን ይችላል",
             "enter_keystore":"እባክዎ በመጀመሪያ የመለያውን ፋይል ያስመጡ",
             "error_password":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ የይለፍ ቃል ሊሆን ይችላል",
             "remove_success":"በተሳካ ሁኔታ ተወግዷል",
             "create_success":"በተሳካ ሁኔታ ተፈጥሯል",
             "save":"እባክዎ የመለያ ፋይልዎን ያስቀምጡና ከማንም ጋር አያጋሩት!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Wallet ን ፍጠር",
-        "import_wallet":"የገንዘብ ቦርሳ አስገባ",
-        "back_up":"ምትኬ ኪስ",
-        "add_account":"አዲስ መለያ",
-        "acc":"መለያ",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"መለያ ይፍጠሩ",
-            "backup_tit":"አዲሱን መለያዎን ምትኬ ያስቀምጡ",
-            "create_tag":"የመለያ ስም",
-            "create_pwd":"የይለፍ ቃል አዘጋጅ",
-            "create_repwd":"የይለፍ ቃል አረጋግጥ",
-            "placeholder_tag":"እባክዎ የመለያ ስም ያዘጋጁ",
-            "placeholder_pwd":"እባክዎ የመለያ የይለፍ ቃል ያዘጋጁ",
-            "placeholder_repwd":"እባክዎ የመለያውን ይለፍ ቃል ያረጋግጡ",
-            "strong_password":"ቢያንስ 8 ዲጂት ጠንካራ የይለፍ ቃል ያስገቡ",
-            "account_address":"መለያ",
-            "account_privateKey":"የግል ቁልፍ",
-            "account_download_keystore":"የቁልፍ ማከማቻ ፋይል አውርድ"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Wallet ን ፍጠር",
-            "backup_tit":"አዲሱን የኪስ ቦርሳዎን ምትኬ ያስቀምጡ",
-            "create_tag":"የኪስ ቦርሳ",
-            "create_pwd":"የይለፍ ቃል አዘጋጅ",
-            "create_repwd":"የይለፍ ቃል አረጋግጥ",
-            "placeholder_tag":"እባክዎ የፓስፖርት ስም ያዘጋጁ",
-            "placeholder_pwd":"እባክዎ የፓስ ቦርድ የይለፍ ቃል ያዘጋጁ",
-            "placeholder_repwd":"እባክዎ የፓስ ቦርድ የይለፍ ቃል ያረጋግጡ",
-            "strong_password":"ቢያንስ 8 ዲጂት ጠንካራ የይለፍ ቃል ያስገቡ",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"የፓስፖርት ፋይል አውርድ"
-        },
-        "import_wallet_dia": {
-            "tit":"የገንዘብ ቦርሳ አስገባ",
-            "placeholder_keystore":"እባክዎ የፓስፖርት ፋይሎችን እዚህ ይጎትቱ",
-            "placeholder_tag":"እባክዎ የፓስፖርት ስም ያዘጋጁ",
-            "create_tag":"የኪስ ቦርሳ",
-            "input_pwd":"የይለፍ ቃል ያስገቡ",
-            "placeholder_pwd":"እባክዎ የኪስ ቦርሳዎን ይስጥ"
-        },
-        "remove_dia": {
-            "tit":"እርግጠኛ ነዎት ቦርሳውን ማስወገድ ይፈልጋሉ?",
-            "remove_confrim":"ማስወገድ እርግጠኛ ነኝ",
-            "backup":"የንብረት ጉዳት እንዳይደርስብዎት የኪስ ቦርሳው ምትኬ እንደተደረገ ያረጋግጡ"
-        },
-        "remove_wallet_dia": {
-            "tit":"እርግጠኛ ነዎት እሱን ማስወገድ ይፈልጋሉ?",
-            "remove_confrim":"ማስወገድ እርግጠኛ ነኝ",
-            "backup":"የንብረት ጉዳት እንዳይደርስብዎት የኪስ ቦርሳው ምትኬ እንደተደረገ ያረጋግጡ"
-        },
-        "backup_wallet_dia": {
-            "tit":"የኪስ ቦርሳዎ ምትኬ ያስቀምጡ",
-            "remove_confrim":"ማስወገድ እርግጠኛ ነኝ",
-            "backup":"የኪስ ቦርዱ ፋይልዎን ለመጠበቅ አውርድ የሚለውን ጠቅ ያድርጉ",
-            "download":"አውርድ"
-        },
-        "msg_info": {
-            "exist":"ቀደም ሲል ይገኛል, ስሙ",
-            "wallet_tag_error":"እባክዎ የፓስፖርት ስም ያስገቡ",
-            "enter_password":"እባክዎ የይለፍ ቃልዎን ያስገቡ",
-            "incons_password":"ሁለት ጊዜ የተገባው የይለፍ ቃል ወጥነት የለውም",
-            "error":"ስህተት:",
-            "imported_success":"ፋይል በተሳካ ሁኔታ አስመጣ",
-            "imported_wallet_success":"Wallet በስኬት ከውጭ ገብቷል",
-            "enter_private":"እባክዎ ቁልፉን ያስገቡ",
-            "error_private":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ ቁልፍ ሊሆን ይችላል",
-            "enter_keystore":"እባክዎ መጀመሪያ የፓስፖርት ፋይልን ያስመጡ",
-            "error_password":"መለያውን ማስመጣት አልተሳካም, ምናልባት የተሳሳተ የይለፍ ቃል ሊሆን ይችላል",
-            "remove_success":"በተሳካ ሁኔታ ተወግዷል",
-            "create_success":"በተሳካ ሁኔታ ተፈጥሯል",
-            "acc_create_success_des":"የሂሳብ አድራሻ CZR ን ለመቀበል ሊያገለግል ይችላል",
-            "acc_wallet_success_des":"የኪስ ቦርሳዎችዎን ምትኬ ያስቀምጡ, ለማንም ሰው አይንገሩ",
-            "save":"እባክዎ የቁልፍ መደብርዎን ያስቀምጡ እና ለማንም አያጋሩት!"
         }
     }
 }

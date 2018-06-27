@@ -1,118 +1,120 @@
 <template>
-  <div class="page-account-detail">
-    <div class="account-banner">
-      <div class="active-icon">
-        <router-link :to="'/transfer?account=' + address" tag="div" class="acc-interactive">
-          <i class="iconfont">&#xe605;</i>
-          <p class="icon-des">{{ $t('page_account.active_icon.go_transfer') }}</p>
-        </router-link>
-        <div class="acc-interactive" @click="exportKeystore">
-          <i class="iconfont">&#xe628;</i>
-          <p class="icon-des">{{ $t('page_account.active_icon.import_keystore') }}</p>
-        </div>
+    <div class="page-account-detail">
+        <div class="account-banner">
+            <div class="active-icon">
+                <router-link :to="'/transfer?account=' + address" tag="div" class="acc-interactive">
+                    <i class="iconfont">&#xe605;</i>
+                    <p class="icon-des">{{ $t('page_account.active_icon.go_transfer') }}</p>
+                </router-link>
+                <div class="acc-interactive" @click="exportKeystore">
+                    <i class="iconfont">&#xe638;</i>
+                    <p class="icon-des">{{ $t('page_account.active_icon.import_keystore') }}</p>
+                </div>
 
-        <div class="acc-interactive" @click="showQrCode">
-          <i class="iconfont">&#xe628;</i>
-          <p class="icon-des">{{ $t('page_account.active_icon.qrcode') }}</p>
-        </div>
-      </div>
-
-      <div class="account-center">
-        <div class="account-alias-wrap">
-          <span class="text-sub-color">{{ accountInfo.tag }}</span>
-          <i class="iconfont icon-edit-alias" @click="dialogSwitch.editName = true"> &#xe604; </i>
-        </div>
-        <div class="account-has-assets">
-          <h1 class="account-assets">{{ accountInfo.balance | toCZRVal }}</h1>
-          <span>{{ $t('unit.czr') }}</span>
-        </div>
-        <div class="account-address-wrap">
-          <span class="text-sub-color">{{ address }}</span>
-          <i class="iconfont icon-address-copy" @click="copyAddress"> &#xe645; </i>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="account-content">
-      <h2 class="transfer-tit">{{ $t('page_account.transfer_log') }}</h2>
-      <div class="transfer-log">
-        <template v-for="item in accountInfo.tx_list">
-          <div v-if="item.to == address">
-            <div class="transfer-item b-flex b-flex-justify plus-assets">
-              <div class="icon-wrap">
-                <i class="iconfont icon-transfer">&#xe639;</i>
-              </div>
-              <div class="transfer-info">
-                <p class="by-address">{{item.from}}</p>
-                <p class="transfer-time">{{item.timestamp |toDate }}</p>
-              </div>
-              <div class="transfer-assets">
-                <div class="assets">+ {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
-              </div>
+                <div class="acc-interactive" @click="showQrCode">
+                    <i class="iconfont">&#xe628;</i>
+                    <p class="icon-des">{{ $t('page_account.active_icon.qrcode') }}</p>
+                </div>
             </div>
-          </div>
 
-          <div v-if="item.from == address">
-            <div class="transfer-item b-flex b-flex-justify less-assets">
-              <div class="icon-wrap">
-                <i class="iconfont icon-transfer">&#xe638;</i>
-              </div>
-              <div class="transfer-info">
-                <p class="by-address">{{item.to}}</p>
-                <p class="transfer-time">{{item.timestamp |toDate }}</p>
-              </div>
-              <div class="transfer-assets">
-                <div class="assets">- {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
-              </div>
+            <div class="account-center">
+                <div class="account-alias-wrap">
+                    <span class="text-sub-color">{{ accountInfo.tag }}</span>
+                    <i class="iconfont icon-edit-alias" @click="dialogSwitch.editName = true"> &#xe604; </i>
+                </div>
+                <div class="account-has-assets">
+                    <h1 class="account-assets">{{ accountInfo.balance | toCZRVal }}</h1>
+                    <span>{{ $t('unit.czr') }}</span>
+                </div>
+                <div class="account-address-wrap">
+                    <span class="text-sub-color">{{ address }}</span>
+                    <i class="iconfont icon-address-copy" @click="copyAddress"> &#xe645; </i>
+                </div>
             </div>
-          </div>
-        </template>
-      </div>
 
-      <!--  No transaction record  -->
-      <div v-if="accountInfo.tx_list.length==0" class="no-transfer-log">
-        <i class="iconfont">&#xe6e7;</i>
-        <p>{{ $t('page_account.transfer_log_null') }}</p>
-      </div>
-    </div>
+        </div>
 
-    <el-dialog :title="$t('dialog_tit')" :visible.sync="dialogSwitch.qrCode" width="40%" center>
-      <span>
-        <img :src="qrImgUrl" alt="code" class="qrcode-img">
-        <p class="dia-address">{{address}}</p>
-      </span>
-      <!-- <span slot="footer" class="dialog-footer">
+        <div class="account-content">
+            <h2 class="transfer-tit">{{ $t('page_account.transfer_log') }}</h2>
+            <div class="transfer-log">
+                <template v-for="item in accountInfo.tx_list">
+                    <div v-if="item.to == address">
+                        <div class="transfer-item b-flex b-flex-justify plus-assets">
+                            <div class="icon-wrap">
+                                <i class="iconfont icon-transfer">&#xe639;</i>
+                            </div>
+                            <div class="transfer-info">
+                                <p class="by-address">{{item.from}}</p>
+                                <p class="transfer-time">{{item.timestamp |toDate }}</p>
+                            </div>
+                            <div class="transfer-assets">
+                                <div class="assets">+ {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div v-if="item.from == address">
+                        <div class="transfer-item b-flex b-flex-justify less-assets">
+                            <div class="icon-wrap">
+                                <i class="iconfont icon-transfer">&#xe638;</i>
+                            </div>
+                            <div class="transfer-info">
+                                <p class="by-address">{{item.to}}</p>
+                                <p class="transfer-time">{{item.timestamp |toDate }}</p>
+                            </div>
+                            <div class="transfer-assets">
+                                <div class="assets">- {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+
+            <!--  No transaction record  -->
+            <div v-if="accountInfo.tx_list.length==0" class="no-transfer-log">
+                <i class="iconfont">&#xe6e7;</i>
+                <p>{{ $t('page_account.transfer_log_null') }}</p>
+            </div>
+        </div>
+
+        <el-dialog :title="$t('dialog_tit')" :visible.sync="dialogSwitch.qrCode" width="40%" center>
+            <span>
+                <img :src="qrImgUrl" alt="code" class="qrcode-img">
+                <p class="dia-address">{{address}}</p>
+            </span>
+            <!-- <span slot="footer" class="dialog-footer">
         <el-button @click="dialogSwitch.qrCode = false">{{$t('close')}}</el-button>
       </span> -->
-    </el-dialog>
+        </el-dialog>
 
-    <el-dialog :title="$t('page_account.edit_dia.tit')" :visible.sync="dialogSwitch.editName" width="65%" center>
-      <span>
-        <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
-        <el-input v-model="editTag"></el-input>
-      </span>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogSwitch.editName = false">{{$t('cancel')}}</el-button>
-        <el-button type="primary" @click="setEditTag">{{$t('confirm')}}</el-button>
-      </span>
-    </el-dialog>
+        <el-dialog :title="$t('page_account.edit_dia.tit')" :visible.sync="dialogSwitch.editName" width="65%" center>
+            <span>
+                <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
+                <el-input v-model="editTag"></el-input>
+            </span>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="dialogSwitch.editName = false">{{$t('cancel')}}</el-button>
+                <el-button type="primary" @click="setEditTag">{{$t('confirm')}}</el-button>
+            </span>
+        </el-dialog>
 
-    <el-dialog :title="$t('page_account.keystore.copy')" :visible.sync="dialogSwitch.keystore">
-      <el-input v-if="accountInfo" :value="accountInfo.keystore" type="textarea" :autosize="{minRows: 2}">
-      </el-input>
-      <div slot="footer">
-        <el-button @click="copyKeystore">{{$t('page_account.keystore.copy')}}</el-button>
-        <el-button type="primary" @click="downloadKeystore">{{$t('page_account.keystore.download')}}</el-button>
-      </div>
-    </el-dialog>
+        <el-dialog :title="$t('page_account.keystore.copy')" :visible.sync="dialogSwitch.keystore">
+            <el-input v-if="accountInfo" :value="accountInfo.keystore" type="textarea" :autosize="{minRows: 2}">
+            </el-input>
+            <div slot="footer">
+                <el-button @click="copyKeystore">{{$t('page_account.keystore.copy')}}</el-button>
+                <el-button type="primary" @click="downloadKeystore">{{$t('page_account.keystore.download')}}</el-button>
+            </div>
+        </el-dialog>
 
-  </div>
+    </div>
 </template>
 
 <script>
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
+import { setInterval } from "timers";
+
 let self = null;
 
 export default {
@@ -139,14 +141,11 @@ export default {
             }
             self.qrImgUrl = url;
         });
-
-        this.accountInfo = this.$db
-            .read()
-            .get("czr_accounts")
-            .filter({ address: this.address })
-            .value()[0];
-        this.initTag();
-        this.getBalance();
+        self.initDatabase();
+        self.initTag();
+        self.intervalId = setInterval(() => {
+            self.initDatabase();
+        }, 2000);
     },
 
     computed: {},
@@ -155,21 +154,12 @@ export default {
         initTag: function() {
             this.editTag = this.accountInfo.tag;
         },
-        getBalance() {
-            this.$czr.request
-                .accountsBalances(this.address)
-                .then(data => {
-                    this.accountInfo.balance = data.balances;
-                    console.log(this.address, this.accountInfo.balance);
-                    // reWrite balance
-                    this.$db
-                        .read()
-                        .get("czr_accounts")
-                        .find({ address: this.address })
-                        .assign({ balance: data.balances })
-                        .write();
-                })
-                .catch(console.log);
+        initDatabase() {
+            this.accountInfo = this.$db
+                .read()
+                .get("czr_accounts")
+                .filter({ address: this.address })
+                .value()[0];
         },
 
         //Copy Address
@@ -209,8 +199,8 @@ export default {
                     return data.json;
                 })
                 .then(function(accJson) {
-                  self.accountInfo.keystore= accJson;
-                  self.dialogSwitch.keystore = true;
+                    self.accountInfo.keystore = accJson;
+                    self.dialogSwitch.keystore = true;
                 });
         },
 

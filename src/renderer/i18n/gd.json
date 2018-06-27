@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Caraidean",
-        "add_dialog":"Cuir brath a-steach",
+        "add_dialog":"Ceanglaichean ùr",
         "add_cont": {
-            "tit":"Cuir a-steach fiosrachadh conaltraidh",
-            "tag":"Tags",
-            "address":"Caraidean",
-            "tag_placeholder":"Cuir a-steach tag tagraidh a 'chonaltraidh",
-            "address_placeholder":"Cuir a-steach an cunntas-conaltraidh"
+            "tit":"Ceanglaichean ùr",
+            "tag":"Caraidean",
+            "address":"Seòladh cunntais",
+            "tag_placeholder":"Cuir a-steach ainm a 'chonaltraidh",
+            "address_placeholder":"Cuir a-steach seòladh cunntais an neach-aithne"
         },
         "delete_dialog": {
             "title":"Tha thu a 'toirt air falbh"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Chan eil eachdraidh malairt",
         "active_icon": {
             "go_transfer":"A 'tòiseachadh a' gluasad",
-            "import_keystore":"Prìomh-stòr",
+            "import_keystore":"Faidhle cunntais",
             "qrcode":"QR còd"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Dèan nota airson do chunntas"
         },
         "keystore": {
-            "tit":"Cùl-taic air a 'phrìomh chrann",
+            "tit":"Faidhle cùl-taice",
             "copy":"Duplicate",
-            "download":"Luchdaich a-nuas clach-inneal"
+            "download":"Luchdaich sìos faidhle bogsa"
         },
         "msg_info": {
             "ads_copy_success":"Chaidh an seòladh a chraoladh",
@@ -118,96 +118,19 @@
             "placeholder_pwd":"Cuir a-steach am facal-faire airson a 'chunntais seo"
         },
         "msg_info": {
-            "exist":"Tha an cunntas seo mu thràth, is e an t-ainm",
+            "exist":"Tha an cunntas seo mu thràth agus tha an t-ainm",
             "enter_password":"Cuir a-steach am facal-faire agad",
             "incons_password":"Tha am facal-faire a chaidh a-steach dà thuras neo-chunbhalach",
             "error":"Mearachd:",
             "imported_success":"Faidhle a-steach gu soirbheachail",
             "imported_account_success":"Air adhart gu soirbheachail",
             "enter_private":"Cuir a-steach an iuchair",
-            "error_private":"Dh'fhàillig an cunntas a thoirt a-steach, is dòcha gur e an iuchair ceàrr a th 'ann",
+            "error_keystore":"Dh'fhàillig air cunntas a thoirt a-steach, is dòcha gur e mearachd faidhle cunntais a th 'ann",
             "enter_keystore":"Cuir a-steach am faidhle cunntais an toiseach",
             "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
             "remove_success":"Thoir air falbh gu soirbheachail",
             "create_success":"Cruthaichte gu soirbheachail",
             "save":"Sàbhail am faidhle cunntais agad agus na rannsaich e le neach sam bith!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Cruthaich Wallet",
-        "import_wallet":"Taic mu Ruigsinneachd",
-        "back_up":"Cùmhnant glèidhidh",
-        "add_account":"Cunntas ùr",
-        "acc":"Cunntas",
-        "wallet":"Ballain",
-        "create_dia": {
-            "create_tit":"Cruthaich cunntas",
-            "backup_tit":"Cùl air ais an cunntas ùr agad",
-            "create_tag":"Ainm cunntais",
-            "create_pwd":"Cuir am facal-faire",
-            "create_repwd":"Dearbhaich am facal-faire",
-            "placeholder_tag":"Cuir a-steach ainm cunntais",
-            "placeholder_pwd":"Suidhich cunntas air facal-faire",
-            "placeholder_repwd":"Dearbhaich am facal-faire cunntais",
-            "strong_password":"Cuir a-steach facal-faire làidir, co-dhiù 8 dhigit",
-            "account_address":"Cunntas",
-            "account_privateKey":"Eochair prìobhaideach",
-            "account_download_keystore":"Luchdaich sìos am faidhle prìomh stòr"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Cruthaich Wallet",
-            "backup_tit":"Cùlaibh suas ur barantas ùr",
-            "create_tag":"Ainm ballain",
-            "create_pwd":"Cuir am facal-faire",
-            "create_repwd":"Dearbhaich am facal-faire",
-            "placeholder_tag":"Suidhich ainm an t-seòlaidh",
-            "placeholder_pwd":"Suidhich facal-faire gàraidh",
-            "placeholder_repwd":"Dearbhaich am facal-faire urras",
-            "strong_password":"Cuir a-steach facal-faire làidir, co-dhiù 8 dhigit",
-            "wallet_address":"Ballain",
-            "download_wallet_file":"Luchdaich sìos faidhle bogsa"
-        },
-        "import_wallet_dia": {
-            "tit":"Taic mu Ruigsinneachd",
-            "placeholder_keystore":"Tarraing faidhlichean pacaid an seo",
-            "placeholder_tag":"Suidhich ainm an t-seòlaidh",
-            "create_tag":"Ainm ballain",
-            "input_pwd":"Cuir a-steach facal-faire",
-            "placeholder_pwd":"Cuir a-steach am facal-faire agad"
-        },
-        "remove_dia": {
-            "tit":"A bheil thu cinnteach gu bheil thu airson an sporan a thoirt air falbh?",
-            "remove_confrim":"Tha mi cinnteach gun cuir mi às",
-            "backup":"Dèan cinnteach gu bheil an stòr air a bhith air a chumail suas gus nach tèid milleadh thogalaichean a sheachnadh"
-        },
-        "remove_wallet_dia": {
-            "tit":"A bheil thu cinnteach gu bheil thu airson a thoirt às?",
-            "remove_confrim":"Tha mi cinnteach gun cuir mi às",
-            "backup":"Dèan cinnteach gu bheil an stòr air a bhith air a chumail suas gus nach tèid milleadh thogalaichean a sheachnadh"
-        },
-        "backup_wallet_dia": {
-            "tit":"Cùl air ais am faidhliche-faire agad",
-            "remove_confrim":"Tha mi cinnteach gun cuir mi às",
-            "backup":"Briog Luchdaich a-nuas gus am faidhle faire agad a dhìon",
-            "download":"Luchdaich sìos"
-        },
-        "msg_info": {
-            "exist":"Tha e mu thràth ann, is e an t-ainm a th 'ann",
-            "wallet_tag_error":"Cuir a-steach ainm brathan",
-            "enter_password":"Cuir a-steach am facal-faire agad",
-            "incons_password":"Tha am facal-faire a chaidh a-steach dà thuras neo-chunbhalach",
-            "error":"Mearachd:",
-            "imported_success":"Faidhle a-steach gu soirbheachail",
-            "imported_wallet_success":"Bùth-bhathar air a thoirt a-steach gu soirbheachail",
-            "enter_private":"Cuir a-steach an iuchair",
-            "error_private":"Dh'fhàillig an cunntas a thoirt a-steach, is dòcha gur e an iuchair ceàrr a th 'ann",
-            "enter_keystore":"Cuir a-steach faidhlichean pìolaidh an toiseach",
-            "error_password":"Dh'fhàillig cunntas a thoirt a-steach, is dòcha gur e facal-faire ceàrr a th 'ann",
-            "remove_success":"Thoir air falbh gu soirbheachail",
-            "create_success":"Cruthaichte gu soirbheachail",
-            "acc_create_success_des":"Faodar seòladh cunntais a chleachdadh airson CZR fhaighinn",
-            "acc_wallet_success_des":"Cùl suas air na faidhlichean agad, na innis do neach sam bith",
-            "save":"Sàbhail an t-seann stòr agad agus na rannsaich e le duine sam bith!"
         }
     }
 }

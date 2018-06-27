@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Mga contact",
-        "add_dialog":"Magdagdag ng contact",
+        "add_dialog":"Bagong contact",
         "add_cont": {
-            "tit":"Ipasok ang impormasyon ng contact",
-            "tag":"Mga Tag",
-            "address":"Mga contact",
-            "tag_placeholder":"Pakipasok ang tag ng komento ng contact",
-            "address_placeholder":"Mangyaring ipasok ang contact account"
+            "tit":"Bagong contact",
+            "tag":"Mga contact",
+            "address":"Address ng account",
+            "tag_placeholder":"Mangyaring ipasok ang pangalan ng contact",
+            "address_placeholder":"Mangyaring ipasok ang address account ng contact"
         },
         "delete_dialog": {
             "title":"Inaalis mo"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Walang kasaysayan ng transaksyon",
         "active_icon": {
             "go_transfer":"Magsimula ng paglipat",
-            "import_keystore":"Keystore",
+            "import_keystore":"File ng account",
             "qrcode":"QR code"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Markahan ang isang tala para sa iyong account"
         },
         "keystore": {
-            "tit":"I-back up ang keystore",
+            "tit":"Backup wallet file",
             "copy":"Doblehin",
-            "download":"I-download ang keystore"
+            "download":"Mag-download ng wallet file"
         },
         "msg_info": {
             "ads_copy_success":"Nakopya ang address",
@@ -125,89 +125,12 @@
             "imported_success":"Matagumpay na i-import ang file",
             "imported_account_success":"Matagumpay na na-import",
             "enter_private":"Mangyaring ipasok ang susi",
-            "error_private":"Nabigong i-import ang account, maaaring ito ang maling susi",
+            "error_keystore":"Nabigong mag-import ng account, maaaring ito ay isang error sa file ng account",
             "enter_keystore":"Mangyaring i-import muna ang file ng account",
             "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
             "remove_success":"Matagumpay na naalis",
             "create_success":"Matagumpay na nalikha",
             "save":"Mangyaring i-save ang file ng iyong account at huwag ibahagi ito sa sinuman!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Lumikha ng Wallet",
-        "import_wallet":"Mag-import ng wallet",
-        "back_up":"Backup wallet",
-        "add_account":"Bagong account",
-        "acc":"Account",
-        "wallet":"Wallet",
-        "create_dia": {
-            "create_tit":"Gumawa ng isang account",
-            "backup_tit":"I-back up ang iyong bagong account",
-            "create_tag":"Pangalan ng account",
-            "create_pwd":"Itakda ang password",
-            "create_repwd":"Kumpirmahin ang password",
-            "placeholder_tag":"Mangyaring itakda ang pangalan ng account",
-            "placeholder_pwd":"Mangyaring itakda ang password ng account",
-            "placeholder_repwd":"Mangyaring kumpirmahin ang password ng account",
-            "strong_password":"Magpasok ng isang malakas na password, hindi bababa sa 8 digit",
-            "account_address":"Account",
-            "account_privateKey":"Pribadong key",
-            "account_download_keystore":"I-download ang file ng keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Lumikha ng Wallet",
-            "backup_tit":"I-back up ang iyong bagong wallet",
-            "create_tag":"Pangalan ng pitaka",
-            "create_pwd":"Itakda ang password",
-            "create_repwd":"Kumpirmahin ang password",
-            "placeholder_tag":"Mangyaring itakda ang pangalan ng wallet",
-            "placeholder_pwd":"Mangyaring itakda ang pitaka password",
-            "placeholder_repwd":"Mangyaring kumpirmahin ang password ng wallet",
-            "strong_password":"Magpasok ng isang malakas na password, hindi bababa sa 8 digit",
-            "wallet_address":"Wallet",
-            "download_wallet_file":"Mag-download ng wallet file"
-        },
-        "import_wallet_dia": {
-            "tit":"Mag-import ng wallet",
-            "placeholder_keystore":"Mangyaring hilahin ang mga file ng wallet dito",
-            "placeholder_tag":"Mangyaring itakda ang pangalan ng wallet",
-            "create_tag":"Pangalan ng pitaka",
-            "input_pwd":"Ipasok ang password",
-            "placeholder_pwd":"Mangyaring ipasok ang iyong password sa pitaka"
-        },
-        "remove_dia": {
-            "tit":"Sigurado ka bang gusto mong alisin ang pitaka?",
-            "remove_confrim":"Sigurado ako na mag-alis",
-            "backup":"Pakitiyak na naka-back up ang wallet upang maiwasan ang pinsala sa ari-arian"
-        },
-        "remove_wallet_dia": {
-            "tit":"Sigurado ka bang gusto mong alisin ito?",
-            "remove_confrim":"Sigurado ako na mag-alis",
-            "backup":"Pakitiyak na naka-back up ang wallet upang maiwasan ang pinsala sa ari-arian"
-        },
-        "backup_wallet_dia": {
-            "tit":"I-back up ang iyong wallet file",
-            "remove_confrim":"Sigurado ako na mag-alis",
-            "backup":"I-click ang I-download upang i-backup ang iyong wallet file",
-            "download":"I-download"
-        },
-        "msg_info": {
-            "exist":"Mayroon na, ang pangalan ay",
-            "wallet_tag_error":"Mangyaring ipasok ang pangalan ng wallet",
-            "enter_password":"Pakipasok ang iyong password",
-            "incons_password":"Ang dalawang beses na ipinasok ang password ay hindi naaayon",
-            "error":"Error:",
-            "imported_success":"Matagumpay na i-import ang file",
-            "imported_wallet_success":"Matagumpay na na-import ang Wallet",
-            "enter_private":"Mangyaring ipasok ang susi",
-            "error_private":"Nabigong i-import ang account, maaaring ito ang maling susi",
-            "enter_keystore":"Mangyaring i-import muna ang wallet file",
-            "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
-            "remove_success":"Matagumpay na naalis",
-            "create_success":"Matagumpay na nalikha",
-            "acc_create_success_des":"Maaaring gamitin ang address ng account upang makatanggap ng CZR",
-            "acc_wallet_success_des":"I-back up ang iyong mga file sa wallet, huwag sabihin sa sinuman",
-            "save":"Mangyaring i-save ang iyong keystore at huwag ibahagi ito sa sinuman!"
         }
     }
 }

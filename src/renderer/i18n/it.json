@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"contatto",
-        "add_dialog":"Aggiungi un contatto",
+        "add_dialog":"Nuovo contatto",
         "add_cont": {
-            "tit":"Inserisci le informazioni di contatto",
-            "tag":"etichetta",
-            "address":"contatto",
-            "tag_placeholder":"Si prega di inserire il tag di commento del contatto",
-            "address_placeholder":"Si prega di inserire l'account di contatto"
+            "tit":"Nuovo contatto",
+            "tag":"contatto",
+            "address":"Indirizzo del conto",
+            "tag_placeholder":"Si prega di inserire il nome del contatto",
+            "address_placeholder":"Si prega di inserire l'indirizzo del conto del contatto"
         },
         "delete_dialog": {
             "title":"Stai rimuovendo"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Nessuna cronologia delle transazioni",
         "active_icon": {
             "go_transfer":"Inizia trasferimento",
-            "import_keystore":"keystore",
+            "import_keystore":"File dell'account",
             "qrcode":"Codice QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Contrassegna una nota per il tuo account"
         },
         "keystore": {
-            "tit":"Eseguire il backup del keystore",
+            "tit":"File di portafoglio di backup",
             "copy":"copia",
-            "download":"Scarica il keystore"
+            "download":"Scarica il file del portafoglio"
         },
         "msg_info": {
             "ads_copy_success":"L'indirizzo è stato copiato",
@@ -125,89 +125,12 @@
             "imported_success":"Importa file con successo",
             "imported_account_success":"Importato con successo",
             "enter_private":"Si prega di inserire la chiave",
-            "error_private":"Impossibile importare l'account, potrebbe essere la chiave sbagliata",
+            "error_keystore":"Impossibile importare un account, potrebbe trattarsi di un errore nel file dell'account",
             "enter_keystore":"Per prima cosa, importa il file dell'account",
             "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
             "remove_success":"Rimosso con successo",
             "create_success":"Creato con successo",
             "save":"Si prega di salvare il file dell'account e non condividerlo con nessuno!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Crea portafoglio",
-        "import_wallet":"Importa portafoglio",
-        "back_up":"Portafoglio di riserva",
-        "add_account":"Nuovo account",
-        "acc":"conto",
-        "wallet":"portafoglio",
-        "create_dia": {
-            "create_tit":"Crea un account",
-            "backup_tit":"Esegui il backup del tuo nuovo account",
-            "create_tag":"Nome dell'account",
-            "create_pwd":"Imposta la password",
-            "create_repwd":"Conferma password",
-            "placeholder_tag":"Si prega di impostare il nome dell'account",
-            "placeholder_pwd":"Si prega di impostare la password dell'account",
-            "placeholder_repwd":"Si prega di confermare la password dell'account",
-            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
-            "account_address":"conto",
-            "account_privateKey":"Chiave privata",
-            "account_download_keystore":"Scarica il file keystore"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Crea portafoglio",
-            "backup_tit":"Esegui il backup del tuo nuovo portafoglio",
-            "create_tag":"Nome del portafoglio",
-            "create_pwd":"Imposta la password",
-            "create_repwd":"Conferma password",
-            "placeholder_tag":"Si prega di impostare il nome del portafoglio",
-            "placeholder_pwd":"Si prega di impostare la password del portafogli",
-            "placeholder_repwd":"Si prega di confermare la password del wallet",
-            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
-            "wallet_address":"portafoglio",
-            "download_wallet_file":"Scarica il file del portafoglio"
-        },
-        "import_wallet_dia": {
-            "tit":"Importa portafoglio",
-            "placeholder_keystore":"Si prega di estrarre i file del portafoglio qui",
-            "placeholder_tag":"Si prega di impostare il nome del portafoglio",
-            "create_tag":"Nome del portafoglio",
-            "input_pwd":"Inserire la password",
-            "placeholder_pwd":"Inserisci la password del tuo portafoglio"
-        },
-        "remove_dia": {
-            "tit":"Sei sicuro di voler rimuovere il portafoglio?",
-            "remove_confrim":"Sono sicuro di rimuovere",
-            "backup":"Assicurati che il portafoglio sia stato eseguito il backup per evitare danni alla proprietà"
-        },
-        "remove_wallet_dia": {
-            "tit":"Sei sicuro di volerlo rimuovere?",
-            "remove_confrim":"Sono sicuro di rimuovere",
-            "backup":"Assicurati che il portafoglio sia stato eseguito il backup per evitare danni alla proprietà"
-        },
-        "backup_wallet_dia": {
-            "tit":"Esegui il backup del tuo file di portafoglio",
-            "remove_confrim":"Sono sicuro di rimuovere",
-            "backup":"Fai clic su Scarica per eseguire il backup del tuo file di portafoglio",
-            "download":"Scarica"
-        },
-        "msg_info": {
-            "exist":"Esiste già, il nome è",
-            "wallet_tag_error":"Inserisci il nome del portafoglio",
-            "enter_password":"Per favore inserisci la tua password",
-            "incons_password":"La password inserita due volte è incoerente",
-            "error":"Errore:",
-            "imported_success":"Importa file con successo",
-            "imported_wallet_success":"Portafoglio importato con successo",
-            "enter_private":"Si prega di inserire la chiave",
-            "error_private":"Impossibile importare l'account, potrebbe essere la chiave sbagliata",
-            "enter_keystore":"Per prima cosa, importa il file del portafoglio",
-            "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
-            "remove_success":"Rimosso con successo",
-            "create_success":"Creato con successo",
-            "acc_create_success_des":"L'indirizzo dell'account può essere utilizzato per ricevere CZR",
-            "acc_wallet_success_des":"Esegui il backup dei tuoi file di portafoglio, non dirlo a nessuno",
-            "save":"Per favore salva il tuo keystore e non condividerlo con nessuno!"
         }
     }
 }

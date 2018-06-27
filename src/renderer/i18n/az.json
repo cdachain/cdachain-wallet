@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Əlaqə",
-        "add_dialog":"Kontakt əlavə edin",
+        "add_dialog":"Yeni əlaqə",
         "add_cont": {
-            "tit":"Əlaqə məlumatı daxil edin",
-            "tag":"Tags",
-            "address":"Əlaqə",
-            "tag_placeholder":"Xahiş edirik əlaqəin yazı etiketini daxil edin",
-            "address_placeholder":"Əlaqə hesabını daxil edin"
+            "tit":"Yeni əlaqə",
+            "tag":"Əlaqə",
+            "address":"Hesab ünvanı",
+            "tag_placeholder":"Əlaqə sahibinin adını daxil edin",
+            "address_placeholder":"Xahiş edirik əlaqə hesabının ünvanını daxil edin"
         },
         "delete_dialog": {
             "title":"Siz çıxarırsınız"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Əməliyyat tarixi yoxdur",
         "active_icon": {
             "go_transfer":"Transferin təşəbbüsü",
-            "import_keystore":"Keystore",
+            "import_keystore":"Hesab faylı",
             "qrcode":"QR kodu"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Hesabınız üçün qeyd yaz"
         },
         "keystore": {
-            "tit":"Klaviatura geri qayıt",
+            "tit":"Backup cüzdan fayl",
             "copy":"Dublikat",
-            "download":"Keystore yükləyin"
+            "download":"Cüzdan faylını yükləyin"
         },
         "msg_info": {
             "ads_copy_success":"Ünvanı kopyalandı",
@@ -118,96 +118,19 @@
             "placeholder_pwd":"Bu hesab üçün parol daxil edin"
         },
         "msg_info": {
-            "exist":"Bu hesab artıq mövcuddur, adıdır",
+            "exist":"Bu hesab artıq mövcuddur və adıdır",
             "enter_password":"Şifrənizi daxil edin",
             "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
             "error":"Hata:",
             "imported_success":"Faylı uğurla gətir",
             "imported_account_success":"Uğurla alındı",
             "enter_private":"Xahiş edirik düyməni daxil edin",
-            "error_private":"Hesabı idxal etmədikdə, səhv anla bilər",
+            "error_keystore":"Hesabı idxal etmədikdə, hesab faylı səhv ola bilər",
             "enter_keystore":"Əvvəlcə hesab faylını idxal edin",
             "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
             "remove_success":"Uğurla silindi",
             "create_success":"Tərəqqi yaradılıb",
             "save":"Xahiş edirik hesab dosyanızı saxlasın və onu hər kəslə bölüşməyin!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Wallet yarat",
-        "import_wallet":"Cüzdanı alma",
-        "back_up":"Backup cüzdan",
-        "add_account":"Yeni hesab",
-        "acc":"Hesab",
-        "wallet":"Cüzdan",
-        "create_dia": {
-            "create_tit":"Hesab yaratmaq",
-            "backup_tit":"Yeni hesabınızı zənginləşdirin",
-            "create_tag":"Haqq-hesab adı",
-            "create_pwd":"Şifrəni seçin",
-            "create_repwd":"Şifrəni təsdiqləyin",
-            "placeholder_tag":"Hesabın adını təyin edin",
-            "placeholder_pwd":"Hesab parolunu təyin edin",
-            "placeholder_repwd":"Hesab parolunu təsdiqləyin",
-            "strong_password":"Güclü bir parol daxil edin, ən azı 8 rəqəm",
-            "account_address":"Hesab",
-            "account_privateKey":"Şəxsi açar",
-            "account_download_keystore":"Keystore faylını yükləyin"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Wallet yarat",
-            "backup_tit":"Yeni cüzdanınızı zənginləşdirin",
-            "create_tag":"Cüzdan adı",
-            "create_pwd":"Şifrəni seçin",
-            "create_repwd":"Şifrəni təsdiqləyin",
-            "placeholder_tag":"Cüzdanın adını təyin edin",
-            "placeholder_pwd":"Cüzdan parolunu təyin edin",
-            "placeholder_repwd":"Cüzdan parolunu təsdiqləyin",
-            "strong_password":"Güclü bir parol daxil edin, ən azı 8 rəqəm",
-            "wallet_address":"Cüzdan",
-            "download_wallet_file":"Cüzdan faylını yükləyin"
-        },
-        "import_wallet_dia": {
-            "tit":"Cüzdanı alma",
-            "placeholder_keystore":"Cüzdan fayllarını burada buraxın",
-            "placeholder_tag":"Cüzdanın adını təyin edin",
-            "create_tag":"Cüzdan adı",
-            "input_pwd":"Şifrəni daxil edin",
-            "placeholder_pwd":"Cüzdan parolunuzu daxil edin"
-        },
-        "remove_dia": {
-            "tit":"Cüzdanı silmək istədiyinizə əminsinizmi?",
-            "remove_confrim":"Çıxaracağınızdan əminəm",
-            "backup":"Cüzdanın əmlakın zədələnməsinin qarşısını almaq üçün zəmanətə alındığından əmin olun"
-        },
-        "remove_wallet_dia": {
-            "tit":"Bunu aradan qaldırmaq istədiyinizə əminsiniz?",
-            "remove_confrim":"Çıxaracağınızdan əminəm",
-            "backup":"Cüzdanın əmlakın zədələnməsinin qarşısını almaq üçün zəmanətə alındığından əmin olun"
-        },
-        "backup_wallet_dia": {
-            "tit":"Cüzdanınızın dosyanızı saxlaya bilərsiniz",
-            "remove_confrim":"Çıxaracağınızdan əminəm",
-            "backup":"Cüzdan dosyanızı zənginləşdirmək üçün Yükle'yi basın",
-            "download":"Yüklə"
-        },
-        "msg_info": {
-            "exist":"Artıq var, adı var",
-            "wallet_tag_error":"Cüzdanın adını daxil edin",
-            "enter_password":"Şifrənizi daxil edin",
-            "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
-            "error":"Hata:",
-            "imported_success":"Faylı uğurla gətir",
-            "imported_wallet_success":"Cüzdan müvəffəqiyyətlə idxal edildi",
-            "enter_private":"Xahiş edirik düyməni daxil edin",
-            "error_private":"Hesabı idxal etmədikdə, səhv anla bilər",
-            "enter_keystore":"Əvvəlcə cüzdan faylını idxal edin",
-            "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
-            "remove_success":"Uğurla silindi",
-            "create_success":"Tərəqqi yaradılıb",
-            "acc_create_success_des":"Haqq-hesab ünvanı CZR almaq üçün istifadə edilə bilər",
-            "acc_wallet_success_des":"Cüzdanınızın fayllarını saxlamağa, hər kəsə məlumat verməyin",
-            "save":"Xahiş edirik keystore saxlasın və onu hər kəslə bölüşməyin!"
         }
     }
 }

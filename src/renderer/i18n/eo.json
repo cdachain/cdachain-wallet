@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Kontaktoj",
-        "add_dialog":"Aldonu kontakton",
+        "add_dialog":"Nova kontakto",
         "add_cont": {
-            "tit":"Eniri kontaktan informon",
-            "tag":"Etikedoj",
-            "address":"Kontaktoj",
-            "tag_placeholder":"Bonvolu enmeti la komentan etikedon de la kontakto",
-            "address_placeholder":"Bonvolu eniri la kontaktan konton"
+            "tit":"Nova kontakto",
+            "tag":"Kontaktoj",
+            "address":"Konta adreso",
+            "tag_placeholder":"Bonvolu eniri la nomon de la kontakto",
+            "address_placeholder":"Bonvolu eniri la adreson de kontakto de la kontakto"
         },
         "delete_dialog": {
             "title":"Vi forigas"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Neniu transakcia historio",
         "active_icon": {
             "go_transfer":"Komenca translokigo",
-            "import_keystore":"Ŝlosilo",
+            "import_keystore":"Konta dosiero",
             "qrcode":"QR-kodo"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Marki noton por via konto"
         },
         "keystore": {
-            "tit":"Reen al la ŝlosilo",
+            "tit":"Rezerva barata dosiero",
             "copy":"Dupliku",
-            "download":"Elŝuti ŝlosilon"
+            "download":"Elŝuti monujo-dosieron"
         },
         "msg_info": {
             "ads_copy_success":"Direkto estis kopiita",
@@ -125,89 +125,12 @@
             "imported_success":"Importi dosieron sukcese",
             "imported_account_success":"Importita sukcese",
             "enter_private":"Bonvolu enmeti la ŝlosilon",
-            "error_private":"Malsukcesis importi la konton, eble ĝi estas malĝusta ŝlosilo",
+            "error_keystore":"Malsukcesis importi konton, ĝi eble estas kontenta dosiero eraro",
             "enter_keystore":"Bonvolu importi la konton-dosieron unue",
             "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
             "remove_success":"Forigita sukcese",
             "create_success":"Kreita sukcese",
             "save":"Bonvolu konservi vian konton-dosieron kaj ne dividu ĝin kun iu ajn!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Krei monujon",
-        "import_wallet":"Importi monerujon",
-        "back_up":"Rezerva monujo",
-        "add_account":"Nova konto",
-        "acc":"Konto",
-        "wallet":"Monujo",
-        "create_dia": {
-            "create_tit":"Krei konton",
-            "backup_tit":"Subtenu vian novan konton",
-            "create_tag":"Konto nomo",
-            "create_pwd":"Ŝanĝu pasvorton",
-            "create_repwd":"Konfirmu pasvorton",
-            "placeholder_tag":"Bonvolu agordi nomon",
-            "placeholder_pwd":"Bonvolu agordi pasvorton",
-            "placeholder_repwd":"Bonvolu konfirmi la konton-pasvorton",
-            "strong_password":"Enmetu fortan pasvorton, almenaŭ 8 ciferojn",
-            "account_address":"Konto",
-            "account_privateKey":"Privata ŝlosilo",
-            "account_download_keystore":"Elŝutu la ŝlosilon de dosiero"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Krei monujon",
-            "backup_tit":"Retenu vian novan monujon",
-            "create_tag":"Voĉa nomo",
-            "create_pwd":"Ŝanĝu pasvorton",
-            "create_repwd":"Konfirmu pasvorton",
-            "placeholder_tag":"Bonvolu agordi monujon",
-            "placeholder_pwd":"Bonvolu agordi la kalendaron",
-            "placeholder_repwd":"Bonvolu konfirmi pasvorton",
-            "strong_password":"Enmetu fortan pasvorton, almenaŭ 8 ciferojn",
-            "wallet_address":"Monujo",
-            "download_wallet_file":"Elŝuti monujo-dosieron"
-        },
-        "import_wallet_dia": {
-            "tit":"Importi monerujon",
-            "placeholder_keystore":"Bonvolu tiri monujajn dosierojn ĉi tie",
-            "placeholder_tag":"Bonvolu agordi monujon",
-            "create_tag":"Voĉa nomo",
-            "input_pwd":"Eniri pasvorton",
-            "placeholder_pwd":"Bonvolu enmeti vian monujan pasvorton"
-        },
-        "remove_dia": {
-            "tit":"Ĉu vi certas, ke vi volas forigi la monujon?",
-            "remove_confrim":"Mi certe forigas",
-            "backup":"Bonvolu certigi, ke la monujo sekuriĝis por eviti nemoveblaĵojn"
-        },
-        "remove_wallet_dia": {
-            "tit":"Ĉu vi certas, ke vi volas forigi ĝin?",
-            "remove_confrim":"Mi certe forigas",
-            "backup":"Bonvolu certigi, ke la monujo sekuriĝis por eviti nemoveblaĵojn"
-        },
-        "backup_wallet_dia": {
-            "tit":"Subtenu vian bileton-dosieron",
-            "remove_confrim":"Mi certe forigas",
-            "backup":"Alklaku elŝuton por rezervi vian bileton-dosieron",
-            "download":"Elŝuti"
-        },
-        "msg_info": {
-            "exist":"Jam ekzistas, la nomo estas",
-            "wallet_tag_error":"Bonvolu enmeti biletujon",
-            "enter_password":"Bonvolu enmeti vian pasvorton",
-            "incons_password":"La pasvorto enirita dufoje estas nekonsistente",
-            "error":"Eraro:",
-            "imported_success":"Importi dosieron sukcese",
-            "imported_wallet_success":"Vualujo importita sukcese",
-            "enter_private":"Bonvolu enmeti la ŝlosilon",
-            "error_private":"Malsukcesis importi la konton, eble ĝi estas malĝusta ŝlosilo",
-            "enter_keystore":"Bonvolu importi biletujon unue",
-            "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
-            "remove_success":"Forigita sukcese",
-            "create_success":"Kreita sukcese",
-            "acc_create_success_des":"Komputila adreso povas esti uzata por ricevi CZR",
-            "acc_wallet_success_des":"Restarigu viajn monerojn, ne diru al iu ajn",
-            "save":"Bonvolu savi vian ŝlosilon kaj ne dividu ĝin kun iu ajn!"
         }
     }
 }

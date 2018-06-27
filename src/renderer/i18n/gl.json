@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"Contactos",
-        "add_dialog":"Engadir un contacto",
+        "add_dialog":"Novo contacto",
         "add_cont": {
-            "tit":"Introduce a información de contacto",
-            "tag":"Etiquetas",
-            "address":"Contactos",
-            "tag_placeholder":"Introduce a etiqueta de comentario do contacto",
-            "address_placeholder":"Introduce a conta de contacto"
+            "tit":"Novo contacto",
+            "tag":"Contactos",
+            "address":"Enderezo da conta",
+            "tag_placeholder":"Introduce o nome do contacto",
+            "address_placeholder":"Introduce o enderezo da conta do contacto"
         },
         "delete_dialog": {
             "title":"Estás a eliminar"
@@ -69,7 +69,7 @@
         "transfer_log_null":"Sen historial de transaccións",
         "active_icon": {
             "go_transfer":"Iniciar transferencia",
-            "import_keystore":"Tenda de teclas",
+            "import_keystore":"Ficheiro da conta",
             "qrcode":"Código QR"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"Marca unha nota para a túa conta"
         },
         "keystore": {
-            "tit":"Fai copias de seguridade da fiestra de teclas",
+            "tit":"Ficheiro de carteira de respaldo",
             "copy":"Duplicar",
-            "download":"Descargar o teclado"
+            "download":"Descargar o ficheiro de carteira"
         },
         "msg_info": {
             "ads_copy_success":"Copiouse a dirección",
@@ -118,96 +118,19 @@
             "placeholder_pwd":"Introduza o contrasinal para esta conta"
         },
         "msg_info": {
-            "exist":"Esta conta xa existe, o nome é",
+            "exist":"Esta conta xa existe eo nome é",
             "enter_password":"Introduce o teu contrasinal",
             "incons_password":"O contrasinal introducido dúas veces é inconsistente",
             "error":"Erro:",
             "imported_success":"Importar ficheiro con éxito",
             "imported_account_success":"Importouse con éxito",
             "enter_private":"Introduce a tecla",
-            "error_private":"Erro ao importar a conta, pode ser a chave incorrecta",
+            "error_keystore":"Non se puido importar a conta, pode ser un erro de ficheiro de conta",
             "enter_keystore":"Importe primeiro o ficheiro da conta",
             "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
             "remove_success":"Eliminouse con éxito",
             "create_success":"Creado con éxito",
             "save":"Garda o ficheiro da túa conta e non o comparte con ninguén."
-        }
-    },
-    "page_home2": {
-        "create_wallet":"Crear carteira",
-        "import_wallet":"Importar carteira",
-        "back_up":"Carteira de respaldo",
-        "add_account":"Nova conta",
-        "acc":"Conta",
-        "wallet":"Carteira",
-        "create_dia": {
-            "create_tit":"Crea unha conta",
-            "backup_tit":"Fai unha copia de seguridade da túa nova conta",
-            "create_tag":"Nome da conta",
-            "create_pwd":"Establecer o contrasinal",
-            "create_repwd":"Confirmar o contrasinal",
-            "placeholder_tag":"Establece o nome da conta",
-            "placeholder_pwd":"Configure o contrasinal da conta",
-            "placeholder_repwd":"Confirma o contrasinal da conta",
-            "strong_password":"Introduce un contrasinal forte, polo menos 8 díxitos",
-            "account_address":"Conta",
-            "account_privateKey":"Tecla privada",
-            "account_download_keystore":"Descargue o ficheiro de tecla"
-        },
-        "create_wallet_dia": {
-            "create_tit":"Crear carteira",
-            "backup_tit":"Fai copias de seguridade da túa nova carteira",
-            "create_tag":"Nome da carteira",
-            "create_pwd":"Establecer o contrasinal",
-            "create_repwd":"Confirmar o contrasinal",
-            "placeholder_tag":"Configure o nome da billetera",
-            "placeholder_pwd":"Configure o contrasinal da billetera",
-            "placeholder_repwd":"Confirma o contrasinal da billetera",
-            "strong_password":"Introduce un contrasinal forte, polo menos 8 díxitos",
-            "wallet_address":"Carteira",
-            "download_wallet_file":"Descargar o ficheiro de carteira"
-        },
-        "import_wallet_dia": {
-            "tit":"Importar carteira",
-            "placeholder_keystore":"Por favor, tira os ficheiros da carteira aquí",
-            "placeholder_tag":"Configure o nome da billetera",
-            "create_tag":"Nome da carteira",
-            "input_pwd":"Introduce o contrasinal",
-            "placeholder_pwd":"Introduza o seu contrasinal de billetera"
-        },
-        "remove_dia": {
-            "tit":"Estás seguro de que queres eliminar a carteira?",
-            "remove_confrim":"Estou seguro de eliminar",
-            "backup":"Asegúrese de que a carteira foi copiada para evitar danos á propiedade"
-        },
-        "remove_wallet_dia": {
-            "tit":"Estás seguro de que queres eliminar?",
-            "remove_confrim":"Estou seguro de eliminar",
-            "backup":"Asegúrese de que a carteira foi copiada para evitar danos á propiedade"
-        },
-        "backup_wallet_dia": {
-            "tit":"Fai copias de seguridade do teu ficheiro de billetera",
-            "remove_confrim":"Estou seguro de eliminar",
-            "backup":"Faga clic en Descargar para facer copias de seguridade do seu ficheiro de billetera",
-            "download":"Descarga"
-        },
-        "msg_info": {
-            "exist":"Xa existe, o nome é",
-            "wallet_tag_error":"Introduce o nome da billetera",
-            "enter_password":"Introduce o teu contrasinal",
-            "incons_password":"O contrasinal introducido dúas veces é inconsistente",
-            "error":"Erro:",
-            "imported_success":"Importar ficheiro con éxito",
-            "imported_wallet_success":"A carteira importouse con éxito",
-            "enter_private":"Introduce a tecla",
-            "error_private":"Erro ao importar a conta, pode ser a chave incorrecta",
-            "enter_keystore":"Importe primeiro o ficheiro billetera",
-            "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
-            "remove_success":"Eliminouse con éxito",
-            "create_success":"Creado con éxito",
-            "acc_create_success_des":"O enderezo da conta pode usarse para recibir CZR",
-            "acc_wallet_success_des":"Fai copias de seguridade dos teus ficheiros de billetera, non che digas a ninguén",
-            "save":"Garda o seu teclado e non o comparte con ninguén."
         }
     }
 }

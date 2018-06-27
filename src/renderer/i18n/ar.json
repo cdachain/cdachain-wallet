@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"اتصال",
-        "add_dialog":"إضافة جهة اتصال",
+        "add_dialog":"جهة اتصال جديدة",
         "add_cont": {
-            "tit":"أدخل معلومات الاتصال",
-            "tag":"بطاقة",
-            "address":"اتصال",
-            "tag_placeholder":"يرجى إدخال علامة تعليق جهة الاتصال",
-            "address_placeholder":"يرجى إدخال حساب جهة الاتصال"
+            "tit":"جهة اتصال جديدة",
+            "tag":"اتصال",
+            "address":"عنوان الحساب",
+            "tag_placeholder":"يرجى إدخال اسم جهة الاتصال",
+            "address_placeholder":"يرجى إدخال عنوان حساب جهة الاتصال"
         },
         "delete_dialog": {
             "title":"أنت تزيل"
@@ -69,7 +69,7 @@
         "transfer_log_null":"لا يوجد سجل المعاملات",
         "active_icon": {
             "go_transfer":"بدء النقل",
-            "import_keystore":"تخزين المفاتيح",
+            "import_keystore":"ملف الحساب",
             "qrcode":"رمز الاستجابة السريعة"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"ضع علامة على ملاحظة لحسابك"
         },
         "keystore": {
-            "tit":"قم بعمل نسخة احتياطية من ملف المفاتيح",
+            "tit":"ملف المحفظة الاحتياطية",
             "copy":"نسخة",
-            "download":"تحميل keystore"
+            "download":"تنزيل ملف المحفظة"
         },
         "msg_info": {
             "ads_copy_success":"تم نسخ العنوان",
@@ -125,89 +125,12 @@
             "imported_success":"استيراد الملف بنجاح",
             "imported_account_success":"تم استيراده بنجاح",
             "enter_private":"يرجى إدخال المفتاح",
-            "error_private":"أخفق استيراد الحساب ، فقد يكون المفتاح الخطأ",
+            "error_keystore":"أخفق استيراد الحساب ، فقد يكون خطأ في ملف الحساب",
             "enter_keystore":"يرجى استيراد ملف الحساب أولاً",
             "error_password":"فشل استيراد حساب ، قد يكون كلمة مرور خاطئة",
             "remove_success":"تمت إزالته بنجاح",
             "create_success":"تم الإنشاء بنجاح",
             "save":"يرجى حفظ ملف حسابك ولا تشاركه مع أي شخص!"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"إنشاء محفظة",
-        "import_wallet":"استيراد المحفظة",
-        "back_up":"محفظة النسخ الاحتياطي",
-        "add_account":"حساب جديد",
-        "acc":"حساب",
-        "wallet":"محفظة",
-        "create_dia": {
-            "create_tit":"قم بإنشاء حساب",
-            "backup_tit":"قم بعمل نسخة احتياطية من حسابك الجديد",
-            "create_tag":"اسم الحساب",
-            "create_pwd":"ضبط كلمة المرور",
-            "create_repwd":"تأكيد كلمة المرور",
-            "placeholder_tag":"يرجى تحديد اسم الحساب",
-            "placeholder_pwd":"يرجى تعيين كلمة مرور الحساب",
-            "placeholder_repwd":"يرجى تأكيد كلمة مرور الحساب",
-            "strong_password":"أدخل كلمة مرور قوية ، على الأقل 8 أرقام",
-            "account_address":"حساب",
-            "account_privateKey":"مفتاح خاص",
-            "account_download_keystore":"قم بتنزيل ملف تخزين المفاتيح"
-        },
-        "create_wallet_dia": {
-            "create_tit":"إنشاء محفظة",
-            "backup_tit":"قم بعمل نسخة احتياطية من محفظتك الجديدة",
-            "create_tag":"اسم المحفظة",
-            "create_pwd":"ضبط كلمة المرور",
-            "create_repwd":"تأكيد كلمة المرور",
-            "placeholder_tag":"يرجى تحديد اسم المحفظة",
-            "placeholder_pwd":"يرجى تعيين كلمة مرور المحفظة",
-            "placeholder_repwd":"يرجى تأكيد كلمة السر المحفظة",
-            "strong_password":"أدخل كلمة مرور قوية ، على الأقل 8 أرقام",
-            "wallet_address":"محفظة",
-            "download_wallet_file":"تنزيل ملف المحفظة"
-        },
-        "import_wallet_dia": {
-            "tit":"استيراد المحفظة",
-            "placeholder_keystore":"يرجى سحب ملفات المحفظة هنا",
-            "placeholder_tag":"يرجى تحديد اسم المحفظة",
-            "create_tag":"اسم المحفظة",
-            "input_pwd":"أدخل كلمة المرور",
-            "placeholder_pwd":"يرجى إدخال كلمة السر الخاصة بحفظك"
-        },
-        "remove_dia": {
-            "tit":"هل أنت متأكد من أنك تريد إزالة المحفظة؟",
-            "remove_confrim":"أنا متأكد من إزالة",
-            "backup":"يرجى التأكد من أن المحفظة قد تم نسخها احتياطيًا لتجنب ضرر الممتلكات"
-        },
-        "remove_wallet_dia": {
-            "tit":"هل أنت متأكد من أنك تريد إزالته؟",
-            "remove_confrim":"أنا متأكد من إزالة",
-            "backup":"يرجى التأكد من أن المحفظة قد تم نسخها احتياطيًا لتجنب ضرر الممتلكات"
-        },
-        "backup_wallet_dia": {
-            "tit":"قم بعمل نسخة احتياطية من ملف المحفظة الخاص بك",
-            "remove_confrim":"أنا متأكد من إزالة",
-            "backup":"انقر فوق تنزيل للاحتفاظ بنسخة احتياطية من ملف المحفظة",
-            "download":"تحميل"
-        },
-        "msg_info": {
-            "exist":"موجود بالفعل ، الاسم هو",
-            "wallet_tag_error":"يرجى إدخال اسم المحفظة",
-            "enter_password":"يرجى إدخال كلمة المرور الخاصة بك",
-            "incons_password":"كلمة المرور التي تم إدخالها مرتين غير متناسقة",
-            "error":"خطأ:",
-            "imported_success":"استيراد الملف بنجاح",
-            "imported_wallet_success":"تم استيراد المحفظة بنجاح",
-            "enter_private":"يرجى إدخال المفتاح",
-            "error_private":"أخفق استيراد الحساب ، فقد يكون المفتاح الخطأ",
-            "enter_keystore":"يرجى استيراد ملف المحفظة أولاً",
-            "error_password":"فشل استيراد حساب ، قد يكون كلمة مرور خاطئة",
-            "remove_success":"تمت إزالته بنجاح",
-            "create_success":"تم الإنشاء بنجاح",
-            "acc_create_success_des":"يمكن استخدام عنوان الحساب لتلقي CZR",
-            "acc_wallet_success_des":"الاحتفاظ بنسخة احتياطية من ملفات المحفظة ، لا تخبر أي شخص",
-            "save":"الرجاء حفظ ملف تخزين المفاتيح وعدم مشاركته مع أي شخص!"
         }
     }
 }

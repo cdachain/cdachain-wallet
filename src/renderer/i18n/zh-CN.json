@@ -21,13 +21,13 @@
     },
     "page_contacts": {
         "tit":"联系人",
-        "add_dialog":"添加联系人",
+        "add_dialog":"新建联系人",
         "add_cont": {
-            "tit":"输入联系人信息",
-            "tag":"标签",
-            "address":"联系人",
-            "tag_placeholder":"请输入联系人的备注标签",
-            "address_placeholder":"请输入联系人账户"
+            "tit":"新建联系人",
+            "tag":"联系人",
+            "address":"账户地址",
+            "tag_placeholder":"请输入联系人的姓名",
+            "address_placeholder":"请输入联系人的账户地址"
         },
         "delete_dialog": {
             "title":"您正在移除"
@@ -69,7 +69,7 @@
         "transfer_log_null":"暂无交易记录",
         "active_icon": {
             "go_transfer":"发起转账",
-            "import_keystore":"Keystore",
+            "import_keystore":"账户文件",
             "qrcode":"二维码"
         },
         "edit_dia": {
@@ -77,9 +77,9 @@
             "subtit":"为您的账户标记一个备注"
         },
         "keystore": {
-            "tit":"备份keystore",
+            "tit":"备份钱包文件",
             "copy":"复制",
-            "download":"下载keystore"
+            "download":"下载钱包文件"
         },
         "msg_info": {
             "ads_copy_success":"地址已经复制",
@@ -125,89 +125,12 @@
             "imported_success":"导入文件成功",
             "imported_account_success":"导入成功",
             "enter_private":"请输入密钥",
-            "error_private":"账户导入失败，可能是密钥错误",
+            "error_keystore":"账户导入失败，可能是账户文件错误",
             "enter_keystore":"请先导入账户文件",
             "error_password":"账户导入失败，可能是密码错误",
             "remove_success":"移除成功",
             "create_success":"创建成功",
             "save":"请保存你的账户文件，不要分享给任何人！"
-        }
-    },
-    "page_home2": {
-        "create_wallet":"创建钱包",
-        "import_wallet":"导入钱包",
-        "back_up":"备份钱包",
-        "add_account":"新建账号",
-        "acc":"账户",
-        "wallet":"钱包",
-        "create_dia": {
-            "create_tit":"创建账户",
-            "backup_tit":"备份您的新账户",
-            "create_tag":"账户名称",
-            "create_pwd":"设置密码",
-            "create_repwd":"确认密码",
-            "placeholder_tag":"请设置账户名称",
-            "placeholder_pwd":"请设置账户密码",
-            "placeholder_repwd":"请确认账户密码",
-            "strong_password":"输入一个强密码,至少8位",
-            "account_address":"账户",
-            "account_privateKey":"私钥",
-            "account_download_keystore":"下载keystore文件"
-        },
-        "create_wallet_dia": {
-            "create_tit":"创建钱包",
-            "backup_tit":"备份您的新钱包",
-            "create_tag":"钱包名称",
-            "create_pwd":"设置密码",
-            "create_repwd":"确认密码",
-            "placeholder_tag":"请设置钱包名称",
-            "placeholder_pwd":"请设置钱包密码",
-            "placeholder_repwd":"请确认钱包密码",
-            "strong_password":"输入一个强密码,至少8位",
-            "wallet_address":"钱包",
-            "download_wallet_file":"下载钱包文件"
-        },
-        "import_wallet_dia": {
-            "tit":"导入钱包",
-            "placeholder_keystore":"请将钱包文件拖入此处",
-            "placeholder_tag":"请设置钱包名称",
-            "create_tag":"钱包名称",
-            "input_pwd":"输入密码",
-            "placeholder_pwd":"请输入钱包密码"
-        },
-        "remove_dia": {
-            "tit":"你确定要移除钱包吗？",
-            "remove_confrim":"我确定移除",
-            "backup":"请确定该钱包已经备份，避免财产损失"
-        },
-        "remove_wallet_dia": {
-            "tit":"你确定要移除吗？",
-            "remove_confrim":"我确定移除",
-            "backup":"请确定该钱包已经备份，避免财产损失"
-        },
-        "backup_wallet_dia": {
-            "tit":"备份你的钱包文件",
-            "remove_confrim":"我确定移除",
-            "backup":"点击下载，备份你的钱包文件",
-            "download":"下载"
-        },
-        "msg_info": {
-            "exist":"已经存在,名称是",
-            "wallet_tag_error":"请输入钱包名称",
-            "enter_password":"请输入密码",
-            "incons_password":"两次输入的密码不一致",
-            "error":"错误：",
-            "imported_success":"导入文件成功",
-            "imported_wallet_success":"钱包导入成功",
-            "enter_private":"请输入密钥",
-            "error_private":"账户导入失败，可能是密钥错误",
-            "enter_keystore":"请先导入钱包文件",
-            "error_password":"账户导入失败，可能是密码错误",
-            "remove_success":"移除成功",
-            "create_success":"创建成功",
-            "acc_create_success_des":"账号地址可用于接收CZR",
-            "acc_wallet_success_des":"备份您的钱包文件，不要告诉任何人",
-            "save":"请保存你的keystore，不要分享给任何人！"
         }
     }
 }
