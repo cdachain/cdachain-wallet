@@ -4,43 +4,42 @@
     "dialog_tit":"sollecito",
     "close":"vicino",
     "confirm_you_active":"Si prega di confermare l'operazione",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"casa",
         "transfer":"trasferimento",
         "contacts":"contatto",
         "setting":"impostare",
         "total":"totale"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"impostare",
         "lang":"lingua",
         "select":"Per favore seleziona"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"contatto",
         "add_dialog":"Aggiungi un contatto",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Inserisci le informazioni di contatto",
             "tag":"etichetta",
             "address":"contatto",
             "tag_placeholder":"Si prega di inserire il tag di commento del contatto",
             "address_placeholder":"Si prega di inserire l'account di contatto"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Stai rimuovendo"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Si prega di inserire il nome dell'account",
             "no_address":"Si prega di inserire l'indirizzo del conto",
             "valid_address":"L'indirizzo del contatto è illegale",
             "exist":"Il contatto esiste già,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Trasferire",
         "to_address":"in",
         "amount":"soldi",
@@ -50,96 +49,165 @@
         "total":"totale",
         "select":"Per favore seleziona",
         "no_account_info":"Nessun account, crea o importa un account",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Per favore seleziona"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Per favore conferma",
             "enter_passworld_tit":"Per favore inserisci la tua password",
             "enter_passworld_place":"Per favore inserisci la tua password"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe essere un errore della password",
+            "address_err":"Il formato degli indirizzi in arrivo è illegale",
             "send_success":"Invia successo",
             "send_error":"Transazione fallita: si prega di verificare se vi è sufficiente equilibrio e tassa del minatore"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Cronologia delle transazioni",
         "transfer_log_null":"Nessuna cronologia delle transazioni",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Inizia trasferimento",
             "import_keystore":"keystore",
             "qrcode":"Codice QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modifica nota",
             "subtit":"Contrassegna una nota per il tuo account"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Eseguire il backup del keystore",
             "copy":"copia",
             "download":"Scarica il keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"L'indirizzo è stato copiato",
             "key_copy_success":"Copiato con successo"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Importa account",
         "add_account":"Nuovo account",
         "acc":"conto",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Crea un account",
             "backup_tit":"Esegui il backup del tuo nuovo account",
-
             "create_tag":"Nome dell'account",
             "create_pwd":"Imposta la password",
             "create_repwd":"Conferma password",
-
             "placeholder_tag":"Si prega di impostare il nome dell'account",
             "placeholder_pwd":"Si prega di impostare la password dell'account",
             "placeholder_repwd":"Si prega di confermare la password dell'account",
-            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
-
+            "strong_password":"Inserire una password di almeno 8 cifre",
             "account_address":"conto",
             "account_privateKey":"Chiave privata",
-            "account_download_keystore":"Scarica il file keystore"
+            "account_download_keystore":"Scarica il file dell'account"
         },
-        "import_dia":{
-            "tit":"Importa account",
-            "select_type":"Seleziona il metodo di importazione",
-            "type_private":"Chiave privata",
-            "type_keystore":"keystore",
-
-            "placeholder_private":"Si prega di incollare la chiave privata qui",
-            "placeholder_keystore":"Si prega di trascinare il file keystore qui",
-
-            "input_pwd":"Inserire la password",
-            "placeholder_pwd":"Per favore inserisci la password del tuo account"
-
+        "import_dia": {
+            "tit":"Importa account",    
+            "placeholder_keystore":"Trascina qui il file dell'account",
+            "create_tag":"Nome dell'account",
+            "placeholder_tag":"Si prega di impostare il nome dell'account"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Sei sicuro di volerlo rimuovere?",
             "remove_confrim":"Sono sicuro di rimuovere",
-            "backup":"Assicurati che l'account sia stato sottoposto a backup per evitare danni alla proprietà"
+            "backup":"Si prega di notare il backup di questo account per evitare danni alla proprietà",
+            "input_pwd":"password",
+            "placeholder_pwd":"Si prega di inserire la password per questo account"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Questo account esiste già, il nome è",
             "enter_password":"Per favore inserisci la tua password",
             "incons_password":"La password inserita due volte è incoerente",
             "error":"Errore:",
             "imported_success":"Importa file con successo",
+            "imported_account_success":"Importato con successo",
             "enter_private":"Si prega di inserire la chiave",
             "error_private":"Impossibile importare l'account, potrebbe essere la chiave sbagliata",
-            "enter_keystore":"Si prega di importare prima il file keystore",
+            "enter_keystore":"Per prima cosa, importa il file dell'account",
             "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
             "remove_success":"Rimosso con successo",
             "create_success":"Creato con successo",
-            "save":"Si prega di salvare il keystore o la chiave privata e non condividerlo con nessuno!"
+            "save":"Si prega di salvare il file dell'account e non condividerlo con nessuno!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Crea portafoglio",
+        "import_wallet":"Importa portafoglio",
+        "back_up":"Portafoglio di riserva",
+        "add_account":"Nuovo account",
+        "acc":"conto",
+        "wallet":"portafoglio",
+        "create_dia": {
+            "create_tit":"Crea un account",
+            "backup_tit":"Esegui il backup del tuo nuovo account",
+            "create_tag":"Nome dell'account",
+            "create_pwd":"Imposta la password",
+            "create_repwd":"Conferma password",
+            "placeholder_tag":"Si prega di impostare il nome dell'account",
+            "placeholder_pwd":"Si prega di impostare la password dell'account",
+            "placeholder_repwd":"Si prega di confermare la password dell'account",
+            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
+            "account_address":"conto",
+            "account_privateKey":"Chiave privata",
+            "account_download_keystore":"Scarica il file keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Crea portafoglio",
+            "backup_tit":"Esegui il backup del tuo nuovo portafoglio",
+            "create_tag":"Nome del portafoglio",
+            "create_pwd":"Imposta la password",
+            "create_repwd":"Conferma password",
+            "placeholder_tag":"Si prega di impostare il nome del portafoglio",
+            "placeholder_pwd":"Si prega di impostare la password del portafogli",
+            "placeholder_repwd":"Si prega di confermare la password del wallet",
+            "strong_password":"Inserisci una password sicura, almeno 8 cifre",
+            "wallet_address":"portafoglio",
+            "download_wallet_file":"Scarica il file del portafoglio"
+        },
+        "import_wallet_dia": {
+            "tit":"Importa portafoglio",
+            "placeholder_keystore":"Si prega di estrarre i file del portafoglio qui",
+            "placeholder_tag":"Si prega di impostare il nome del portafoglio",
+            "create_tag":"Nome del portafoglio",
+            "input_pwd":"Inserire la password",
+            "placeholder_pwd":"Inserisci la password del tuo portafoglio"
+        },
+        "remove_dia": {
+            "tit":"Sei sicuro di voler rimuovere il portafoglio?",
+            "remove_confrim":"Sono sicuro di rimuovere",
+            "backup":"Assicurati che il portafoglio sia stato eseguito il backup per evitare danni alla proprietà"
+        },
+        "remove_wallet_dia": {
+            "tit":"Sei sicuro di volerlo rimuovere?",
+            "remove_confrim":"Sono sicuro di rimuovere",
+            "backup":"Assicurati che il portafoglio sia stato eseguito il backup per evitare danni alla proprietà"
+        },
+        "backup_wallet_dia": {
+            "tit":"Esegui il backup del tuo file di portafoglio",
+            "remove_confrim":"Sono sicuro di rimuovere",
+            "backup":"Fai clic su Scarica per eseguire il backup del tuo file di portafoglio",
+            "download":"Scarica"
+        },
+        "msg_info": {
+            "exist":"Esiste già, il nome è",
+            "wallet_tag_error":"Inserisci il nome del portafoglio",
+            "enter_password":"Per favore inserisci la tua password",
+            "incons_password":"La password inserita due volte è incoerente",
+            "error":"Errore:",
+            "imported_success":"Importa file con successo",
+            "imported_wallet_success":"Portafoglio importato con successo",
+            "enter_private":"Si prega di inserire la chiave",
+            "error_private":"Impossibile importare l'account, potrebbe essere la chiave sbagliata",
+            "enter_keystore":"Per prima cosa, importa il file del portafoglio",
+            "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
+            "remove_success":"Rimosso con successo",
+            "create_success":"Creato con successo",
+            "acc_create_success_des":"L'indirizzo dell'account può essere utilizzato per ricevere CZR",
+            "acc_wallet_success_des":"Esegui il backup dei tuoi file di portafoglio, non dirlo a nessuno",
+            "save":"Per favore salva il tuo keystore e non condividerlo con nessuno!"
         }
     }
-
 }

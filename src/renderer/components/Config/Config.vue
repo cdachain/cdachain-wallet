@@ -39,10 +39,11 @@ export default {
         initConfig() {
             this.latest_config = {
                 content: "",
-                BINARY_URL:"http://127.0.0.1:3000/assets/clientBinaries.json"
+                // BINARY_URL:"http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json",
+                BINARY_URL:"http://127.0.0.1:3000/assets/clientBinaries.json",
             };
             this.node_info = {
-                NODE_TYPE: "Geth",
+                NODE_TYPE: "CanonChain",
                 binaryVersion:""
             };
             this.conMsg="配置文件初始化完成"
@@ -50,7 +51,7 @@ export default {
 
         checkForNewConfig() {
             var self = this;
-            this.conMsg="检测是否有新的Geth文件"
+            this.conMsg="检测是否有新的 CanonChain 文件"
             axios
                 .get(self.latest_config.BINARY_URL)
                 .then(function(response) {
@@ -101,10 +102,10 @@ export default {
             var localVer=this.local_config.clients[this.node_info.NODE_TYPE].version;
             this.conMsg="检测是否需要更新";
             if(latestVer==localVer){
-              this.conMsg="本地Geth是最新的";
+              this.conMsg="本地 CanonChain 是最新的";
               this.isDownload()
             }else{
-              this.conMsg="本地Geth是老版本";
+              this.conMsg="本地 CanonChain 是老版本";
               this.writeLocalConfig(this.latest_config.content)
               this.isDownload()
             }
@@ -127,29 +128,28 @@ export default {
               timeout:1000*60
           }
 
-          //TODO 判断是否有Geth
-          this.conMsg="判断是否有Geth应用程序";
+          //TODO 判断是否有 CanonChain
+          this.conMsg="判断是否有 CanonChain 应用程序";
           try {
               var stats = fs.statSync(path.join(options.directory, this.node_info.binaryVersion.bin));
               this.conMsg="存在的";
-              self.runGeth();
+              self.runCanonChain();
           } catch (err) {
               this.conMsg="不存在的";
               
               download(this.node_info.binaryVersion.url, options.directory,options).then(() => {
                 this.conMsg="已经下载好了";
-                self.runGeth();
+                self.runCanonChain();
             });
           }
           
         },
-        runGeth(){
-            console.log('启动Geth',this.node_info.binaryVersion.bin)
-            this.conMsg="启动Geth";
+        runCanonChain(){
+            console.log('启动 CanonChain',this.node_info.binaryVersion.bin)
+            this.conMsg="启动 CanonChain";
             let instance = spawn(path.join(this.userDataPath, "download", this.node_info.binaryVersion.bin),[
-                '--rpc', 
-                '--rpccorsdomain="http://localhost:8545"']);
-            this.conMsg="Geth已经启动 ";
+                '--daemon']);
+            this.conMsg="CanonChain 已经启动 ";
             this.$router.push({ path: 'home' })
         }
     }

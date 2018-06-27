@@ -4,43 +4,42 @@
     "dialog_tit":"Spørg",
     "close":"Luk",
     "confirm_you_active":"Bekræft venligst din operation",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Hjem",
         "transfer":"Overførsel",
         "contacts":"Kontakt",
         "setting":"Opsæt",
         "total":"I alt"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Opsæt",
         "lang":"sprog",
         "select":"Vælg venligst"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontakt",
         "add_dialog":"Tilføj en kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Indtast kontaktoplysninger",
             "tag":"tag",
             "address":"Kontakt",
             "tag_placeholder":"Indtast venligst kontaktens kommentærkode",
             "address_placeholder":"Indtast venligst kontaktkontoen"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Du fjerner"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Indtast venligst kontonavnet",
             "no_address":"Indtast venligst kontoadressen",
             "valid_address":"Kontaktens adresse er ulovlig",
             "exist":"Kontakten eksisterer allerede,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Overførsel",
         "to_address":"ind i",
         "amount":"penge",
@@ -50,97 +49,165 @@
         "total":"I alt",
         "select":"Vælg venligst",
         "no_account_info":"Ingen konto, vær venlig at oprette eller importere konto",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Vælg venligst"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Bekræft venligst",
             "enter_passworld_tit":"Indtast venligst dit kodeord",
             "enter_passworld_place":"Indtast venligst dit kodeord"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Palletparsing mislykkedes, det kan være en adgangskodefejl",
             "address_err":"Indgående adresseformat er ulovligt",
             "send_success":"Send succes",
             "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejderens gebyr"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Transaktionshistorik",
         "transfer_log_null":"Ingen transaktionshistorik",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Start overførsel",
             "import_keystore":"keystore",
             "qrcode":"QR kode"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Rediger note",
             "subtit":"Marker en note til din konto"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Back up keystore",
             "copy":"kopi",
             "download":"Download keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adressen er blevet kopieret",
             "key_copy_success":"Kopieret succesfuldt"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Import konto",
         "add_account":"Ny konto",
         "acc":"konto",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Opret en konto",
             "backup_tit":"Sikkerhedskopier din nye konto",
-
             "create_tag":"Kontonavn",
             "create_pwd":"Indstil adgangskode",
             "create_repwd":"Bekræft adgangskode",
-
             "placeholder_tag":"Indstil venligst kontonavnet",
             "placeholder_pwd":"Angiv venligst adgangskode til konto",
             "placeholder_repwd":"Bekræft venligst adgangskoden til kontoen",
-            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
-
+            "strong_password":"Indtast et kodeord på mindst 8 cifre",
             "account_address":"konto",
             "account_privateKey":"Privat nøgle",
-            "account_download_keystore":"Download keystore filen"
+            "account_download_keystore":"Download kontofil"
         },
-        "import_dia":{
-            "tit":"Import konto",
-            "select_type":"Vælg venligst importmetode",
-            "type_private":"Privat nøgle",
-            "type_keystore":"keystore",
-
-            "placeholder_private":"Indsæt venligst den private nøgle her",
-            "placeholder_keystore":"Træk venligst keystore filen her",
-
-            "input_pwd":"Indtast adgangskode",
-            "placeholder_pwd":"Indtast venligst din adgangskode til din konto"
-
+        "import_dia": {
+            "tit":"Import konto",    
+            "placeholder_keystore":"Træk venligst kontofilen her",
+            "create_tag":"Kontonavn",
+            "placeholder_tag":"Indstil venligst kontonavnet"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Er du sikker på at du vil fjerne den?",
             "remove_confrim":"Jeg er sikker på at fjerne",
-            "backup":"Sørg for, at kontoen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+            "backup":"Vær opmærksom på sikkerhedskopien af ​​denne konto for at undgå skade på ejendommen",
+            "input_pwd":"adgangskode",
+            "placeholder_pwd":"Indtast venligst adgangskoden til denne konto"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Denne konto eksisterer allerede, navnet er",
             "enter_password":"Indtast venligst dit kodeord",
             "incons_password":"Adgangskoden indtastet to gange er inkonsekvent",
             "error":"Fejl:",
             "imported_success":"Import fil med succes",
+            "imported_account_success":"Importeret med succes",
             "enter_private":"Indtast venligst tasten",
             "error_private":"Kunne ikke importere kontoen, det kan være den forkerte nøgle",
-            "enter_keystore":"Indtast venligst keystore filen først",
+            "enter_keystore":"Indtast venligst kontofilen først",
             "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
             "remove_success":"Fjernet med succes",
             "create_success":"Oprettet succesfuldt",
-            "save":"Vær venlig at gemme dit keystore eller private nøgle og ikke dele det med nogen!"
+            "save":"Gem venligst din kontofil og del det ikke med nogen!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Opret tegnebog",
+        "import_wallet":"Importer tegnebog",
+        "back_up":"Backup tegnebog",
+        "add_account":"Ny konto",
+        "acc":"konto",
+        "wallet":"tegnebog",
+        "create_dia": {
+            "create_tit":"Opret en konto",
+            "backup_tit":"Sikkerhedskopier din nye konto",
+            "create_tag":"Kontonavn",
+            "create_pwd":"Indstil adgangskode",
+            "create_repwd":"Bekræft adgangskode",
+            "placeholder_tag":"Indstil venligst kontonavnet",
+            "placeholder_pwd":"Angiv venligst adgangskode til konto",
+            "placeholder_repwd":"Bekræft venligst adgangskoden til kontoen",
+            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
+            "account_address":"konto",
+            "account_privateKey":"Privat nøgle",
+            "account_download_keystore":"Download keystore filen"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Opret tegnebog",
+            "backup_tit":"Sikkerhedskopier din nye tegnebog",
+            "create_tag":"Navn på tegnebog",
+            "create_pwd":"Indstil adgangskode",
+            "create_repwd":"Bekræft adgangskode",
+            "placeholder_tag":"Indstil venligst tegnebogens navn",
+            "placeholder_pwd":"Indstil venligst lommebokordbog",
+            "placeholder_repwd":"Bekræft venligst wallet-adgangskode",
+            "strong_password":"Indtast et stærkt kodeord, mindst 8 cifre",
+            "wallet_address":"tegnebog",
+            "download_wallet_file":"Download wallet-fil"
+        },
+        "import_wallet_dia": {
+            "tit":"Importer tegnebog",
+            "placeholder_keystore":"Træk venligst tegnebogsfiler her",
+            "placeholder_tag":"Indstil venligst tegnebogens navn",
+            "create_tag":"Navn på tegnebog",
+            "input_pwd":"Indtast adgangskode",
+            "placeholder_pwd":"Indtast venligst din wallet-adgangskode"
+        },
+        "remove_dia": {
+            "tit":"Er du sikker på, at du vil fjerne tegnebogen?",
+            "remove_confrim":"Jeg er sikker på at fjerne",
+            "backup":"Sørg for, at tegnebogen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+        },
+        "remove_wallet_dia": {
+            "tit":"Er du sikker på at du vil fjerne den?",
+            "remove_confrim":"Jeg er sikker på at fjerne",
+            "backup":"Sørg for, at tegnebogen er blevet sikkerhedskopieret for at undgå skade på ejendommen"
+        },
+        "backup_wallet_dia": {
+            "tit":"Sikkerhedskopier din tegnebogsfil",
+            "remove_confrim":"Jeg er sikker på at fjerne",
+            "backup":"Klik på Download for at sikkerhedskopiere din tegnebogsfil",
+            "download":"Hent"
+        },
+        "msg_info": {
+            "exist":"Der findes allerede, navnet er",
+            "wallet_tag_error":"Indtast venligst tegnebogens navn",
+            "enter_password":"Indtast venligst dit kodeord",
+            "incons_password":"Adgangskoden indtastet to gange er inkonsekvent",
+            "error":"Fejl:",
+            "imported_success":"Import fil med succes",
+            "imported_wallet_success":"Wallet importeret med succes",
+            "enter_private":"Indtast venligst tasten",
+            "error_private":"Kunne ikke importere kontoen, det kan være den forkerte nøgle",
+            "enter_keystore":"Indtast venligst tegnebogsfil først",
+            "error_password":"Kan ikke importere konto, det kan være en forkert adgangskode",
+            "remove_success":"Fjernet med succes",
+            "create_success":"Oprettet succesfuldt",
+            "acc_create_success_des":"Kontoadresse kan bruges til at modtage CZR",
+            "acc_wallet_success_des":"Sikkerhedskopier dine tegnebogsfiler, fortæl ikke nogen",
+            "save":"Gem venligst dit keystore og del det ikke med nogen!"
         }
     }
-
 }

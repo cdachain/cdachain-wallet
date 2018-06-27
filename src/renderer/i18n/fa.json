@@ -4,43 +4,42 @@
     "dialog_tit":"درخواست",
     "close":"بسته شده",
     "confirm_you_active":"لطفا عملیات خود را تأیید کنید",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"خانه",
         "transfer":"انتقال",
         "contacts":"اطلاعات تماس",
         "setting":"تنظیمات",
         "total":"کل"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"تنظیمات",
         "lang":"زبان",
         "select":"لطفا انتخاب کنید"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"اطلاعات تماس",
         "add_dialog":"یک مخاطب اضافه کنید",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"اطلاعات تماس را وارد کنید",
             "tag":"برچسب ها",
             "address":"اطلاعات تماس",
             "tag_placeholder":"لطفا برچسب نظر تماس را وارد کنید",
             "address_placeholder":"لطفا حساب تماس را وارد کنید"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"شما حذف می کنید"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"لطفا نام حساب را وارد کنید",
             "no_address":"لطفا آدرس حساب را وارد کنید",
             "valid_address":"آدرس تماس غیر قانونی است",
             "exist":"تماس از قبل وجود دارد"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"منتقل کن",
         "to_address":"به داخل",
         "amount":"مقدار",
@@ -50,97 +49,165 @@
         "total":"کل",
         "select":"لطفا انتخاب کنید",
         "no_account_info":"بدون حساب، لطفا حساب خود را ایجاد یا وارد کنید",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"لطفا انتخاب کنید"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"لطفا تایید کنید",
             "enter_passworld_tit":"لطفا رمز عبور خود را وارد کنید",
             "enter_passworld_place":"لطفا رمز عبور خود را وارد کنید"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"تجزیه پول نقد انجام نشد، ممکن است یک خطای رمز عبور باشد",
             "address_err":"فرمت آدرس ورودی غیرقانونی است",
             "send_success":"ارسال موفقیت",
             "send_error":"معامله شکست خورد: لطفا بررسی کنید که آیا تعادل کافی و هزینه معدنچی وجود دارد"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"سابقه تراکنش",
         "transfer_log_null":"بدون تاریخ معامله",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"شروع انتقال",
             "import_keystore":"Keystore",
             "qrcode":"کد QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"تغییر یادداشت",
             "subtit":"یک یادداشت برای حساب خود علامت بزنید"
         },
-        "keystore":{
+        "keystore": {
             "tit":"پشتیبان گیری از حافظه اصلی",
             "copy":"تکراری",
             "download":"دانلود کلیدی"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"آدرس کپی شده است",
             "key_copy_success":"موفق به کپی شد"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"وارد کردن حساب",
         "add_account":"حساب جدید",
         "acc":"حساب",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"ایجاد یک حساب کاربری",
             "backup_tit":"از حساب جدید خود پشتیبان بگیرید",
-
             "create_tag":"نام حساب",
             "create_pwd":"تنظیم رمز عبور",
             "create_repwd":"رمز عبور را تایید کنید",
-
             "placeholder_tag":"لطفا نام حساب را تنظیم کنید",
             "placeholder_pwd":"لطفا رمز عبور حساب را تنظیم کنید",
             "placeholder_repwd":"لطفا رمز عبور حساب را تایید کنید",
-            "strong_password":"رمز عبور قوی، حداقل 8 رقم را وارد کنید",
-
+            "strong_password":"گذرواژه حداقل 8 رقم را وارد کنید",
             "account_address":"حساب",
             "account_privateKey":"کلید خصوصی",
-            "account_download_keystore":"فایل پرونده کلیدی را دانلود کنید"
+            "account_download_keystore":"فایل حساب را دانلود کنید"
         },
-        "import_dia":{
-            "tit":"وارد کردن حساب",
-            "select_type":"لطفا روش واردات را انتخاب کنید",
-            "type_private":"کلید خصوصی",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"لطفا کلید خصوصی را در اینجا وارد کنید",
-            "placeholder_keystore":"لطفا فایل پرونده کلیدی را در اینجا بکشید",
-
-            "input_pwd":"رمز عبور را وارد کنید",
-            "placeholder_pwd":"لطفا رمز عبور خود را وارد کنید"
-
+        "import_dia": {
+            "tit":"وارد کردن حساب",    
+            "placeholder_keystore":"لطفا فایل حساب را اینجا بکشید",
+            "create_tag":"نام حساب",
+            "placeholder_tag":"لطفا نام حساب را تنظیم کنید"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"آیا مطمئن هستید که میخواهید آن را حذف کنید؟",
             "remove_confrim":"مطمئنم که حذف می شود",
-            "backup":"لطفا اطمینان حاصل کنید که حساب کاربری پشتیبان گرفته شده است تا از آسیب مالیتان جلوگیری شود"
+            "backup":"لطفا پشتیبان این حساب را برای جلوگیری از آسیب مالیتان به یاد داشته باشید",
+            "input_pwd":"رمز عبور",
+            "placeholder_pwd":"لطفا رمز ورود را برای این حساب وارد کنید"
         },
-        "msg_info":{
-            "exist":"این حساب در حال حاضر وجود دارد و نام است",
+        "msg_info": {
+            "exist":"این حساب در حال حاضر وجود دارد، نام است",
             "enter_password":"لطفا رمز عبور خود را وارد کنید",
             "incons_password":"رمز عبور وارد شده دو بار متناقض است",
             "error":"خطا:",
             "imported_success":"وارد کردن فایل با موفقیت",
+            "imported_account_success":"با موفقیت وارد شد",
             "enter_private":"لطفا کلید را وارد کنید",
             "error_private":"وارد کردن حساب وارد نشد، ممکن است کلید اشتباه باشد",
-            "enter_keystore":"لطفا ابتدا وارد فایل keystore شوید",
+            "enter_keystore":"لطفا ابتدا فایل حساب را وارد کنید",
             "error_password":"وارد حساب کاربری نشد، ممکن است یک رمز عبور اشتباه باشد",
             "remove_success":"با موفقیت حذف شد",
             "create_success":"با موفقیت ساخته شد",
-            "save":"لطفا keystore یا کلید خصوصی خود را ذخیره کنید و آن را با هیچ کس به اشتراک نگذارید!"
+            "save":"لطفا فایل حساب خود را ذخیره کنید و آن را با هیچ کس به اشتراک نگذارید!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"ایجاد کیف پول",
+        "import_wallet":"کیف پول وارد کنید",
+        "back_up":"کیف پول پشتیبان",
+        "add_account":"حساب جدید",
+        "acc":"حساب",
+        "wallet":"کیف پول",
+        "create_dia": {
+            "create_tit":"ایجاد یک حساب کاربری",
+            "backup_tit":"از حساب جدید خود پشتیبان بگیرید",
+            "create_tag":"نام حساب",
+            "create_pwd":"تنظیم رمز عبور",
+            "create_repwd":"رمز عبور را تایید کنید",
+            "placeholder_tag":"لطفا نام حساب را تنظیم کنید",
+            "placeholder_pwd":"لطفا رمز عبور حساب را تنظیم کنید",
+            "placeholder_repwd":"لطفا رمز عبور حساب را تایید کنید",
+            "strong_password":"رمز عبور قوی، حداقل 8 رقم را وارد کنید",
+            "account_address":"حساب",
+            "account_privateKey":"کلید خصوصی",
+            "account_download_keystore":"فایل پرونده کلیدی را دانلود کنید"
+        },
+        "create_wallet_dia": {
+            "create_tit":"ایجاد کیف پول",
+            "backup_tit":"از کیف پول جدید خود پشتیبان بگیرید",
+            "create_tag":"نام کیف پول",
+            "create_pwd":"تنظیم رمز عبور",
+            "create_repwd":"رمز عبور را تایید کنید",
+            "placeholder_tag":"لطفا نام کیف پول را تنظیم کنید",
+            "placeholder_pwd":"لطفا رمز عبور کیف پول را تنظیم کنید",
+            "placeholder_repwd":"لطفا رمز عبور کیف پول را تأیید کنید",
+            "strong_password":"رمز عبور قوی، حداقل 8 رقم را وارد کنید",
+            "wallet_address":"کیف پول",
+            "download_wallet_file":"فایل کیف پول را دانلود کنید"
+        },
+        "import_wallet_dia": {
+            "tit":"کیف پول وارد کنید",
+            "placeholder_keystore":"لطفا فایل های کیف پول را اینجا ببنید",
+            "placeholder_tag":"لطفا نام کیف پول را تنظیم کنید",
+            "create_tag":"نام کیف پول",
+            "input_pwd":"رمز عبور را وارد کنید",
+            "placeholder_pwd":"لطفا رمز عبور کیف پول خود را وارد کنید"
+        },
+        "remove_dia": {
+            "tit":"آیا مطمئن هستید که میخواهید کیف پول را حذف کنید؟",
+            "remove_confrim":"مطمئنم که حذف می شود",
+            "backup":"لطفا مطمئن شوید که کیف پول برای محافظت از آسیب های ملکی تضمین شده است"
+        },
+        "remove_wallet_dia": {
+            "tit":"آیا مطمئن هستید که میخواهید آن را حذف کنید؟",
+            "remove_confrim":"مطمئنم که حذف می شود",
+            "backup":"لطفا مطمئن شوید که کیف پول برای محافظت از آسیب های ملکی تضمین شده است"
+        },
+        "backup_wallet_dia": {
+            "tit":"فایل کیف پول خود را پشتیبان بگیرید",
+            "remove_confrim":"مطمئنم که حذف می شود",
+            "backup":"برای پشتیبان گیری از فایل کیف پول خود، روی دانلود کلیک کنید",
+            "download":"دانلود"
+        },
+        "msg_info": {
+            "exist":"در حال حاضر وجود دارد، نام است",
+            "wallet_tag_error":"لطفا نام کیف پول را وارد کنید",
+            "enter_password":"لطفا رمز عبور خود را وارد کنید",
+            "incons_password":"رمز عبور وارد شده دو بار متناقض است",
+            "error":"خطا:",
+            "imported_success":"وارد کردن فایل با موفقیت",
+            "imported_wallet_success":"کیف پول با موفقیت وارد شد",
+            "enter_private":"لطفا کلید را وارد کنید",
+            "error_private":"وارد کردن حساب وارد نشد، ممکن است کلید اشتباه باشد",
+            "enter_keystore":"لطفا ابتدا فایل کیف پول را وارد کنید",
+            "error_password":"وارد حساب کاربری نشد، ممکن است یک رمز عبور اشتباه باشد",
+            "remove_success":"با موفقیت حذف شد",
+            "create_success":"با موفقیت ساخته شد",
+            "acc_create_success_des":"آدرس حساب را می توان برای دریافت CZR استفاده کرد",
+            "acc_wallet_success_des":"فایلهای کیف پول خود را پشتیبان بگیرید، به هیچکس بگویید",
+            "save":"لطفا ذخیره کلیدی خود را ذخیره کنید و آن را با هیچ کس به اشتراک بگذارید!"
         }
     }
-
 }

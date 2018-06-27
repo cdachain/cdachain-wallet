@@ -4,43 +4,42 @@
     "dialog_tit":"Prompt",
     "close":"Zatvoreno",
     "confirm_you_active":"Potvrdite svoju operaciju",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Kontakti",
         "setting":"Postavke",
         "total":"Ukupno"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Postavke",
         "lang":"Jezik",
         "select":"Molimo izaberite"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontakti",
         "add_dialog":"Dodajte kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Unesite informacije o kontaktu",
             "tag":"Oznake",
             "address":"Kontakti",
             "tag_placeholder":"Molimo unesite oznaku za komentare",
             "address_placeholder":"Molimo unesite kontaktni račun"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Vi uklanjate"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Molimo unesite ime računa",
             "no_address":"Molimo unesite adresu računa",
             "valid_address":"Adresa kontakta je nelegalna",
             "exist":"Kontakt već postoji,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Prenesi",
         "to_address":"Into",
         "amount":"Iznos",
@@ -50,97 +49,165 @@
         "total":"Ukupno",
         "select":"Molimo izaberite",
         "no_account_info":"Nema naloga, kreirajte ili uvezite račun",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Molimo izaberite"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite svoju lozinku",
             "enter_passworld_place":"Unesite svoju lozinku"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
             "address_err":"Format ulazne adrese je nezakonit",
             "send_success":"Pošalji uspeh",
             "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Istorija transakcija",
         "transfer_log_null":"Nema istorije transakcija",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Pokrenite transfer",
             "import_keystore":"Keystore",
             "qrcode":"QR kod"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Izmenite belešku",
             "subtit":"Označite napomenu za svoj račun"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Napravite rezervnu kopiju ključa",
             "copy":"Duplikat",
             "download":"Preuzmite keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adresa je kopirana",
             "key_copy_success":"Uspešno kopiran"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Uvoz naloga",
         "add_account":"Novi račun",
         "acc":"Račun",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Napravite nalog",
             "backup_tit":"Napravite rezervnu kopiju novog naloga",
-
             "create_tag":"Ime naloga",
             "create_pwd":"Postavite lozinku",
             "create_repwd":"Potvrdite lozinku",
-
             "placeholder_tag":"Molimo postavite ime naloga",
             "placeholder_pwd":"Molimo postavite lozinku za račun",
             "placeholder_repwd":"Potvrdite lozinku naloga",
-            "strong_password":"Unesite jaku lozinku, najmanje 8 cifara",
-
+            "strong_password":"Unesite lozinku od najmanje 8 cifara",
             "account_address":"Račun",
             "account_privateKey":"Privatni ključ",
-            "account_download_keystore":"Preuzmite datoteku keystore"
+            "account_download_keystore":"Preuzmite datoteku naloga"
         },
-        "import_dia":{
-            "tit":"Uvoz naloga",
-            "select_type":"Izaberite način uvoza",
-            "type_private":"Privatni ključ",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Molimo vas da prilepite privatni ključ ovdje",
-            "placeholder_keystore":"Molim vas prevucite datoteku keystore ovde",
-
-            "input_pwd":"Unesite lozinku",
-            "placeholder_pwd":"Molimo unesite lozinku vašeg računa"
-
+        "import_dia": {
+            "tit":"Uvoz naloga",    
+            "placeholder_keystore":"Molim vas prevucite datoteku naloga ovde",
+            "create_tag":"Ime naloga",
+            "placeholder_tag":"Molimo postavite ime naloga"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Da li ste sigurni da ga želite ukloniti?",
             "remove_confrim":"Siguran sam da ga uklonim",
-            "backup":"Proverite da li je račun napravljen da biste izbegli imovinsku štetu"
+            "backup":"Imajte na umu sigurnosnu kopiju ovog naloga kako biste izbjegli oštećenja imovine",
+            "input_pwd":"Lozinka",
+            "placeholder_pwd":"Unesite lozinku za ovaj nalog"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Ovaj nalog već postoji, ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",
             "imported_success":"Uvezite datoteku uspešno",
+            "imported_account_success":"Uvezeno uspešno",
             "enter_private":"Molimo unesite ključ",
             "error_private":"Neuspelo je uvesti račun, možda je pogrešan ključ",
-            "enter_keystore":"Prvo importirajte datoteku keystore",
+            "enter_keystore":"Molimo prvo prvo uvezite datoteku naloga",
             "error_password":"Nije uspela uvoziti račun, možda je pogrešna lozinka",
             "remove_success":"Uspešno uklonjeno",
             "create_success":"Kreiran uspešno",
-            "save":"Molimo vas da sačuvate ključeve ili privatni ključ i ne delite nikome!"
+            "save":"Molimo sačuvajte datoteku naloga i ne delite je sa nikom!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Kreiraj novčanik",
+        "import_wallet":"Uvezite novčanik",
+        "back_up":"Backup novčanik",
+        "add_account":"Novi račun",
+        "acc":"Račun",
+        "wallet":"Novčanik",
+        "create_dia": {
+            "create_tit":"Napravite nalog",
+            "backup_tit":"Napravite rezervnu kopiju novog naloga",
+            "create_tag":"Ime naloga",
+            "create_pwd":"Postavite lozinku",
+            "create_repwd":"Potvrdite lozinku",
+            "placeholder_tag":"Molimo postavite ime naloga",
+            "placeholder_pwd":"Molimo postavite lozinku za račun",
+            "placeholder_repwd":"Potvrdite lozinku naloga",
+            "strong_password":"Unesite jaku lozinku, najmanje 8 cifara",
+            "account_address":"Račun",
+            "account_privateKey":"Privatni ključ",
+            "account_download_keystore":"Preuzmite datoteku keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Kreiraj novčanik",
+            "backup_tit":"Napravite rezervnu kopiju novog novčanika",
+            "create_tag":"Ime novčanika",
+            "create_pwd":"Postavite lozinku",
+            "create_repwd":"Potvrdite lozinku",
+            "placeholder_tag":"Molimo postavite ime novčanika",
+            "placeholder_pwd":"Molimo postavite lozinku za novčanik",
+            "placeholder_repwd":"Molimo potvrdite lozinku za novčanik",
+            "strong_password":"Unesite jaku lozinku, najmanje 8 cifara",
+            "wallet_address":"Novčanik",
+            "download_wallet_file":"Preuzmite datoteku novčanika"
+        },
+        "import_wallet_dia": {
+            "tit":"Uvezite novčanik",
+            "placeholder_keystore":"Please novčanik datoteke u ovdje",
+            "placeholder_tag":"Molimo postavite ime novčanika",
+            "create_tag":"Ime novčanika",
+            "input_pwd":"Unesite lozinku",
+            "placeholder_pwd":"Unesite lozinku novčanika"
+        },
+        "remove_dia": {
+            "tit":"Da li ste sigurni da želite ukloniti novčanik?",
+            "remove_confrim":"Siguran sam da ga uklonim",
+            "backup":"Proverite da li je novčanika napravljena rezervna kopija kako bi se izbeglo oštećenje imovine"
+        },
+        "remove_wallet_dia": {
+            "tit":"Da li ste sigurni da ga želite ukloniti?",
+            "remove_confrim":"Siguran sam da ga uklonim",
+            "backup":"Proverite da li je novčanika napravljena rezervna kopija kako bi se izbeglo oštećenje imovine"
+        },
+        "backup_wallet_dia": {
+            "tit":"Napravite rezervnu kopiju datoteke novčanika",
+            "remove_confrim":"Siguran sam da ga uklonim",
+            "backup":"Kliknite na Preuzmi da biste napravili rezervnu kopiju datoteke novčanika",
+            "download":"Preuzimanje"
+        },
+        "msg_info": {
+            "exist":"Već postoji, ime je",
+            "wallet_tag_error":"Unesite ime novčanika",
+            "enter_password":"Unesite svoju lozinku",
+            "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
+            "error":"Greška:",
+            "imported_success":"Uvezite datoteku uspešno",
+            "imported_wallet_success":"Novčanik je uspešno uvezen",
+            "enter_private":"Molimo unesite ključ",
+            "error_private":"Neuspelo je uvesti račun, možda je pogrešan ključ",
+            "enter_keystore":"Najprije uvozite novčanik",
+            "error_password":"Nije uspela uvoziti račun, možda je pogrešna lozinka",
+            "remove_success":"Uspešno uklonjeno",
+            "create_success":"Kreiran uspešno",
+            "acc_create_success_des":"Adresa računa može se koristiti za prijem CZR-a",
+            "acc_wallet_success_des":"Napravite rezervne kopije svojih novčanika, nikom ne pričajte",
+            "save":"Molim vas sačuvajte svoj keystore i ne delite ga nikome!"
         }
     }
-
 }

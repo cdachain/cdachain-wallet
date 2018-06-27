@@ -4,43 +4,42 @@
     "dialog_tit":"i menjëhershëm",
     "close":"afër",
     "confirm_you_active":"Lutemi konfirmoni operacionin tuaj",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"shtëpi",
         "transfer":"transferim",
         "contacts":"kontakt",
         "setting":"ngritur",
         "total":"total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"ngritur",
         "lang":"gjuhë",
         "select":"Ju lutem zgjidhni"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"kontakt",
         "add_dialog":"Shto një kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Shkruani informacionin e kontaktit",
             "tag":"etiketë",
             "address":"kontakt",
             "tag_placeholder":"Ju lutemi shkruani tagun e komentit të kontaktit",
             "address_placeholder":"Ju lutemi shkruani llogarinë e kontaktit"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Po heq"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Futni emrin e llogarisë",
             "no_address":"Ju lutemi shkruani adresën e llogarisë",
-            "valid_address":"Kontakt adresa nuk është e ligjshme",
+            "valid_address":"Adresa e kontaktit është e paligjshme",
             "exist":"Kontakti tashmë ekziston,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Shpërndajeni",
         "to_address":"në",
         "amount":"para",
@@ -50,97 +49,165 @@
         "total":"total",
         "select":"Ju lutem zgjidhni",
         "no_account_info":"Nuk ka llogari, të lutem krijoni ose importoni llogarinë",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Ju lutem zgjidhni"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Ju lutem konfirmoni",
             "enter_passworld_tit":"Ju lutemi shkruani fjalëkalimin tuaj",
             "enter_passworld_place":"Ju lutemi shkruani fjalëkalimin tuaj"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
             "address_err":"Formati i adresës së hyrjes është i paligjshëm",
             "send_success":"Dërgo sukses",
             "send_error":"Transaksioni dështoi: Ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Historiku i transaksionit",
         "transfer_log_null":"Asnjë histori transaksioni",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Nise transferimin",
             "import_keystore":"keystore",
             "qrcode":"QR kodi"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modifiko shënimin",
             "subtit":"Shënoni një shënim për llogarinë tuaj"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Kthehu në tastierën",
             "copy":"kopje",
             "download":"Shkarko tastierën"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adresa është kopjuar",
             "key_copy_success":"Kopjoi me sukses"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Llogaria e importit",
         "add_account":"Llogari e re",
         "acc":"llogari",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Krijo një llogari",
             "backup_tit":"Ruaje llogarinë tënde të re",
-
             "create_tag":"Emri i llogarisë",
             "create_pwd":"Cakto fjalëkalimin",
             "create_repwd":"Konfirmo fjalëkalimin",
-
             "placeholder_tag":"Vendosni emrin e llogarisë",
             "placeholder_pwd":"Vendosni fjalëkalimin e llogarisë",
             "placeholder_repwd":"Ju lutemi konfirmoni fjalëkalimin e llogarisë",
-            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
-
+            "strong_password":"Futni një fjalëkalim prej të paktën 8 shifrash",
             "account_address":"llogari",
             "account_privateKey":"Çelësi privat",
-            "account_download_keystore":"Shkarko skedarin e keystore"
+            "account_download_keystore":"Shkarko skedarin e llogarisë"
         },
-        "import_dia":{
-            "tit":"Llogaria e importit",
-            "select_type":"Ju lutemi zgjidhni metodën e importit",
-            "type_private":"Çelësi privat",
-            "type_keystore":"keystore",
-
-            "placeholder_private":"Futeni këtu çelësin privat",
-            "placeholder_keystore":"Ju lutemi terhiq skedarin e keystore këtu",
-
-            "input_pwd":"Fut fjalëkalimin",
-            "placeholder_pwd":"Ju lutemi shkruani fjalëkalimin tuaj të llogarisë"
-
+        "import_dia": {
+            "tit":"Llogaria e importit",    
+            "placeholder_keystore":"Ju lutemi drageni skedarin e llogarisë këtu",
+            "create_tag":"Emri i llogarisë",
+            "placeholder_tag":"Vendosni emrin e llogarisë"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Jeni i sigurt se doni ta hiqni atë?",
             "remove_confrim":"Unë jam i sigurt për të hequr",
-            "backup":"Ju lutemi sigurohuni që llogaria është mbështetur për të shmangur dëmtimin e pronës"
+            "backup":"Ju lutem vini re backup të kësaj llogarie për të shmangur dëmtimin e pronës",
+            "input_pwd":"fjalëkalim",
+            "placeholder_pwd":"Ju lutemi shkruani fjalëkalimin për këtë llogari"
         },
-        "msg_info":{
-            "exist":"Kjo llogari tashmë ekziston dhe emri është",
+        "msg_info": {
+            "exist":"Kjo llogari tashmë ekziston, emri është",
             "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
             "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
             "error":"gabim:",
             "imported_success":"Dosja e importit me sukses",
+            "imported_account_success":"Importuar me sukses",
             "enter_private":"Futni çelësin",
             "error_private":"Dështoi në importimin e llogarisë, mund të jetë çelësi i gabuar",
-            "enter_keystore":"Ju lutemi të importoni skedarin e keystore së pari",
+            "enter_keystore":"Ju lutemi të importoni skedarin e llogarisë së parë",
             "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
             "remove_success":"Heqja me sukses",
             "create_success":"Krijuar me sukses",
-            "save":"Ju lutemi ruani tastierën tuaj ose çelësin privat dhe mos e ndani me askënd!"
+            "save":"Ruani skedarin tuaj të llogarisë dhe mos e ndani me askënd!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Krijo portofolin",
+        "import_wallet":"Portofoli i importit",
+        "back_up":"Portofolin e sigurisë",
+        "add_account":"Llogari e re",
+        "acc":"llogari",
+        "wallet":"portofol",
+        "create_dia": {
+            "create_tit":"Krijo një llogari",
+            "backup_tit":"Ruaje llogarinë tënde të re",
+            "create_tag":"Emri i llogarisë",
+            "create_pwd":"Cakto fjalëkalimin",
+            "create_repwd":"Konfirmo fjalëkalimin",
+            "placeholder_tag":"Vendosni emrin e llogarisë",
+            "placeholder_pwd":"Vendosni fjalëkalimin e llogarisë",
+            "placeholder_repwd":"Ju lutemi konfirmoni fjalëkalimin e llogarisë",
+            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
+            "account_address":"llogari",
+            "account_privateKey":"Çelësi privat",
+            "account_download_keystore":"Shkarko skedarin e keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Krijo portofolin",
+            "backup_tit":"Ruaje portofolin tënd të ri",
+            "create_tag":"Emri i Portofolit",
+            "create_pwd":"Cakto fjalëkalimin",
+            "create_repwd":"Konfirmo fjalëkalimin",
+            "placeholder_tag":"Vendosni emrin e portofolit",
+            "placeholder_pwd":"Vendosni fjalëkalimin e portofolit",
+            "placeholder_repwd":"Lutemi konfirmoni fjalëkalimin e portofolit",
+            "strong_password":"Futni një fjalëkalim të fortë, së paku 8 shifra",
+            "wallet_address":"portofol",
+            "download_wallet_file":"Shkarko skedarin e portofolit"
+        },
+        "import_wallet_dia": {
+            "tit":"Portofoli i importit",
+            "placeholder_keystore":"Ju lutem tërhiqni skedarët e portofolit këtu",
+            "placeholder_tag":"Vendosni emrin e portofolit",
+            "create_tag":"Emri i Portofolit",
+            "input_pwd":"Fut fjalëkalimin",
+            "placeholder_pwd":"Futni fjalëkalimin tuaj të portofolit"
+        },
+        "remove_dia": {
+            "tit":"Je i sigurt që dëshiron ta heqësh portofolin?",
+            "remove_confrim":"Unë jam i sigurt për të hequr",
+            "backup":"Sigurohuni që portofoni të jetë mbështetur për të shmangur dëmtimin e pronës"
+        },
+        "remove_wallet_dia": {
+            "tit":"Jeni i sigurt se doni ta hiqni atë?",
+            "remove_confrim":"Unë jam i sigurt për të hequr",
+            "backup":"Sigurohuni që portofoni të jetë mbështetur për të shmangur dëmtimin e pronës"
+        },
+        "backup_wallet_dia": {
+            "tit":"Ruaje skedarin e portofolit tënd",
+            "remove_confrim":"Unë jam i sigurt për të hequr",
+            "backup":"Klikoni Shkarko për të ruajtur skedarin tuaj të portofolit",
+            "download":"Shkarko"
+        },
+        "msg_info": {
+            "exist":"Tashmë ekziston, emri është",
+            "wallet_tag_error":"Futni emrin e portofolit",
+            "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
+            "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
+            "error":"gabim:",
+            "imported_success":"Dosja e importit me sukses",
+            "imported_wallet_success":"Portofoli u importua me sukses",
+            "enter_private":"Futni çelësin",
+            "error_private":"Dështoi në importimin e llogarisë, mund të jetë çelësi i gabuar",
+            "enter_keystore":"Ju lutem importoni skedarin e portofolit të parë",
+            "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
+            "remove_success":"Heqja me sukses",
+            "create_success":"Krijuar me sukses",
+            "acc_create_success_des":"Adresa e llogarisë mund të përdoret për të marrë CZR",
+            "acc_wallet_success_des":"Kthehu në dosjet tuaja të portofolit, mos thuaj askujt",
+            "save":"Ju lutemi ruani dyqanin tuaj dhe mos e ndani me askënd!"
         }
     }
-
 }

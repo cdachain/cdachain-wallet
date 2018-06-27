@@ -4,43 +4,42 @@
     "dialog_tit":"تڪڙو",
     "close":"بند ٿيل",
     "confirm_you_active":"مهرباني ڪري پنهنجي آپريشن جي تصديق ڪريو",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"گھر",
         "transfer":"منتقلي",
         "contacts":"رابطا",
         "setting":"سيٽنگون",
         "total":"ڪل"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"سيٽنگون",
         "lang":"ٻولي",
         "select":"مهرباني ڪري چونڊيو"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"رابطا",
         "add_dialog":"رابطو شامل ڪريو",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"رابطي جي ڄاڻ داخل ڪريو",
             "tag":"ٽيگ",
             "address":"رابطا",
             "tag_placeholder":"مهرباني ڪري رابطي جي راء جي ٽيگ داخل ڪريو",
             "address_placeholder":"مهرباني ڪري رابطي وارو اڪائونٽ داخل ڪريو"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"توهان کي ختم ڪري رهيا آهيو"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"مهرباني ڪري کاتي جو نالو لکو",
             "no_address":"مهرباني ڪري ايڊريس ايڊريس داخل ڪريو",
             "valid_address":"رابطي جو پتو غير قانوني آهي",
             "exist":"رابطي اڳ ۾ موجود آهي،"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"منتقل ڪريو",
         "to_address":"اندر",
         "amount":"رقم",
@@ -50,97 +49,165 @@
         "total":"ڪل",
         "select":"مهرباني ڪري چونڊيو",
         "no_account_info":"ڪابه اڪائونٽ، مهرباني ڪري ٺاهي يا درآمد ڪريو",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"مهرباني ڪري چونڊيو"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"مهرباني ڪري تصديق ڪريو",
             "enter_passworld_tit":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو",
             "enter_passworld_place":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"والرسسل ناڪام ٿي، ٿي سگهي ٿو پاسورڊ غلطي",
             "address_err":"ايندڙ پتي جي فارميٽ غير قانوني آهي",
             "send_success":"ڪاميابي کي موڪليو",
             "send_error":"ٽرانزيڪشن ناڪام ٿيو: مهرباني ڪري پڪ ڪريو ته اتي ڪافي توازن ۽ منر جي فيس آهي"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"ٽرانزيڪشن جي تاريخ",
         "transfer_log_null":"ڪابه ٽرانزيڪشن جي تاريخ",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"منتقلي جي منتقلي",
             "import_keystore":"ڪيبورڊ",
             "qrcode":"ڪوڊ ڪوڊ"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"تبديلي تبديل ڪريو",
             "subtit":"توهان جي اڪائونٽ لاء هڪ نشان نشان هڻو"
         },
-        "keystore":{
+        "keystore": {
             "tit":"ڪيريز جي بيڪ اپ",
             "copy":"نقل",
             "download":"ڊائون لوڊ ڪريو"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"ايڊريس ڪاپي ويو آهي",
             "key_copy_success":"ڪاميابي سان نقل ٿيل آهي"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"اڪائونٽ درآمد ڪريو",
         "add_account":"نئين اڪائونٽ",
         "acc":"اڪائونٽ",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"اڪائونٽ ٺاهيو",
             "backup_tit":"پنهنجي نئين اڪائونٽ کي واپس وٺو",
-
             "create_tag":"اڪائونٽ جو نالو",
             "create_pwd":"پاسورڊ سيٽ ڪريو",
             "create_repwd":"پاسورڊ جي تصديق ڪريو",
-
             "placeholder_tag":"مهرباني ڪري کاتي جو نالو مقرر ڪريو",
             "placeholder_pwd":"مهرباني ڪري کاتي جو پاسورڊ قائم ڪريو",
             "placeholder_repwd":"مهرباني ڪري کاتي جو پاسورڊ تصديق ڪريو",
-            "strong_password":"گھٽ ۾ گهٽ پاسورڊ داخل ڪريو، گهٽ ۾ گهٽ 8 انگن اکرن",
-
+            "strong_password":"گھٽ ۾ گھٽ 8 اکرن جو پاسورڊ داخل ڪريو",
             "account_address":"اڪائونٽ",
             "account_privateKey":"پرائيويٽ اهم",
-            "account_download_keystore":"ڪيبورڊ فائيل کي ڊائون لوڊ ڪريو"
+            "account_download_keystore":"اڪائونٽ فائيل ڊائون لوڊ ڪريو"
         },
-        "import_dia":{
-            "tit":"اڪائونٽ درآمد ڪريو",
-            "select_type":"مھرباني ڪري درآمد جو طريقو چونڊيو",
-            "type_private":"پرائيويٽ اهم",
-            "type_keystore":"ڪيبورڊ",
-
-            "placeholder_private":"مھرباني ڪري هتي ھڪٻئي کي دٻايو",
-            "placeholder_keystore":"مھرباني ڪري ڪيسٽوريئر فائل ھتي ڪلڪ ڪريو",
-
-            "input_pwd":"پاسورڊ داخل ڪريو",
-            "placeholder_pwd":"مهرباني ڪري پنهنجو کاتو پاسورڊ داخل ڪريو"
-
+        "import_dia": {
+            "tit":"اڪائونٽ درآمد ڪريو",    
+            "placeholder_keystore":"مھرباني ڪري هتي ڪلڪ ڪري کاتي کي ڇڪيو",
+            "create_tag":"اڪائونٽ جو نالو",
+            "placeholder_tag":"مهرباني ڪري کاتي جو نالو مقرر ڪريو"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"ڇا اوھان کي پڪ آھي ته ان کي ختم ڪرڻ چاھيو ٿا؟",
             "remove_confrim":"آئون ختم ڪرڻ جو يقين رکان ٿو",
-            "backup":"مهرباني ڪري پڪ ڪريو ته اڪائونٽ ملڪيت کي نقصان کان بچڻ لاء واپس رکيو ويو آهي"
+            "backup":"مهرباني ڪري ملڪيت جي نقصان کان بچڻ لاء هن اڪائونٽ جو بيڪ اپ نوٽ ڪريو",
+            "input_pwd":"پاسورڊ",
+            "placeholder_pwd":"مهرباني ڪري هن اڪائونٽ لاء پاس ورڊ داخل ڪريو"
         },
-        "msg_info":{
-            "exist":"هي اڪائونٽ پهريان ئي موجود آهي ۽ نالو آهي",
+        "msg_info": {
+            "exist":"هي اڪائونٽ اڳ ۾ ئي موجود آهي، نالو آهي",
             "enter_password":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو",
             "incons_password":"پاسورڊ داخل ٿيل پاسورڊ غير متفق آهي",
             "error":"غلطي",
             "imported_success":"فائل ڪاميابيء سان برآمد ڪريو",
+            "imported_account_success":"ڪاميابي سان ڪاميابي",
             "enter_private":"مھرباني ڪري ڪلڪ ڪري سگھيو",
             "error_private":"اڪائونٽ کي تبديل ڪرڻ ۾ ناڪام ٿيو، اهو شايد غلط چيڪ ٿي سگهي ٿو",
-            "enter_keystore":"مھرباني ڪري ڪنسٽسٽ فائل ۾ سڀ کان پھريان",
+            "enter_keystore":"مھرباني ڪري پهريون ڀيرو کاتي جو فائل تبديل ڪريو",
             "error_password":"اڪائونٽ کي تبديل ڪرڻ ۾ ناڪام ٿيو، اهو شايد غلط پاسورڊ ٿي سگهي ٿو",
             "remove_success":"ھٽايو ڪاميابي سان",
             "create_success":"ڪاميابي سان ٺهيل",
-            "save":"مهرباني ڪري پنهنجي ڪنڊسٽ يا نجي چلي کي محفوظ ڪريو ۽ ان سان حصيداري ڪريو نه!"
+            "save":"مهرباني ڪري پنهنجي کاتي جي فائل محفوظ ڪريو ۽ ان سان حصيداري نه ڪريو!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Wallet ٺاهيو",
+        "import_wallet":"والٽ درآمد ڪريو",
+        "back_up":"بیک اپ والليٽ",
+        "add_account":"نئين اڪائونٽ",
+        "acc":"اڪائونٽ",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"اڪائونٽ ٺاهيو",
+            "backup_tit":"پنهنجي نئين اڪائونٽ کي واپس وٺو",
+            "create_tag":"اڪائونٽ جو نالو",
+            "create_pwd":"پاسورڊ سيٽ ڪريو",
+            "create_repwd":"پاسورڊ جي تصديق ڪريو",
+            "placeholder_tag":"مهرباني ڪري کاتي جو نالو مقرر ڪريو",
+            "placeholder_pwd":"مهرباني ڪري کاتي جو پاسورڊ قائم ڪريو",
+            "placeholder_repwd":"مهرباني ڪري کاتي جو پاسورڊ تصديق ڪريو",
+            "strong_password":"گھٽ ۾ گهٽ پاسورڊ داخل ڪريو، گهٽ ۾ گهٽ 8 انگن اکرن",
+            "account_address":"اڪائونٽ",
+            "account_privateKey":"پرائيويٽ اهم",
+            "account_download_keystore":"ڪيبورڊ فائيل کي ڊائون لوڊ ڪريو"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Wallet ٺاهيو",
+            "backup_tit":"پنھنجي نئين واھ اپ کي واپس وٺو",
+            "create_tag":"والٽ جو نالو",
+            "create_pwd":"پاسورڊ سيٽ ڪريو",
+            "create_repwd":"پاسورڊ جي تصديق ڪريو",
+            "placeholder_tag":"مھرباني ڪري والٽٽ جو نالو مقرر ڪريو",
+            "placeholder_pwd":"مھرباني ڪري والٽلي پاسورڊ قائم ڪريو",
+            "placeholder_repwd":"مھرباني ڪري والليٽ پاسورڊ تصديق ڪريو",
+            "strong_password":"گھٽ ۾ گهٽ پاسورڊ داخل ڪريو، گهٽ ۾ گهٽ 8 انگن اکرن",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"وائيليٽ فائل ڊائون لوڊ ڪريو"
+        },
+        "import_wallet_dia": {
+            "tit":"والٽ درآمد ڪريو",
+            "placeholder_keystore":"مھرباني ڪري ھتي وارين فائلن کي ڇڪيو",
+            "placeholder_tag":"مھرباني ڪري والٽٽ جو نالو مقرر ڪريو",
+            "create_tag":"والٽ جو نالو",
+            "input_pwd":"پاسورڊ داخل ڪريو",
+            "placeholder_pwd":"مهرباني ڪري پنهنجي والالٽ پاسورڊ داخل ڪريو"
+        },
+        "remove_dia": {
+            "tit":"ڇا توهان يقين رکو ٿا ته ڇا ويلٽ ختم ڪرڻ چاهيو ٿا؟",
+            "remove_confrim":"آئون ختم ڪرڻ جو يقين رکان ٿو",
+            "backup":"مهرباني ڪري پڪ ڪريو ته والٽ کي ملڪيت نقصان کان بچڻ لاء واپس رکيو ويو آهي"
+        },
+        "remove_wallet_dia": {
+            "tit":"ڇا اوھان کي پڪ آھي ته ان کي ختم ڪرڻ چاھيو ٿا؟",
+            "remove_confrim":"آئون ختم ڪرڻ جو يقين رکان ٿو",
+            "backup":"مهرباني ڪري پڪ ڪريو ته والٽ کي ملڪيت نقصان کان بچڻ لاء واپس رکيو ويو آهي"
+        },
+        "backup_wallet_dia": {
+            "tit":"پنھنجي والالٽ فائل کي واپس وٺو",
+            "remove_confrim":"آئون ختم ڪرڻ جو يقين رکان ٿو",
+            "backup":"پنھنجي والٽل فائل کي بيڪ اپ ڪرڻ لاء ڊائونلوڊ ڪريو تي ڪلڪ ڪريو",
+            "download":"ڊائون لوڊ ڪريو"
+        },
+        "msg_info": {
+            "exist":"پهريان کان ئي موجود آهي، نالو آهي",
+            "wallet_tag_error":"مهرباني ڪري والالٽ جو نالو داخل ڪريو",
+            "enter_password":"مهرباني ڪري پنهنجو پاسورڊ داخل ڪريو",
+            "incons_password":"پاسورڊ داخل ٿيل پاسورڊ غير متفق آهي",
+            "error":"غلطي",
+            "imported_success":"فائل ڪاميابيء سان برآمد ڪريو",
+            "imported_wallet_success":"Wallet ڪاميابي سان درآمد ڪئي",
+            "enter_private":"مھرباني ڪري ڪلڪ ڪري سگھيو",
+            "error_private":"اڪائونٽ کي تبديل ڪرڻ ۾ ناڪام ٿيو، اهو شايد غلط چيڪ ٿي سگهي ٿو",
+            "enter_keystore":"مھرباني ڪري پهريون ڀيرو والٽلي فائل درآمد ڪريو",
+            "error_password":"اڪائونٽ کي تبديل ڪرڻ ۾ ناڪام ٿيو، اهو شايد غلط پاسورڊ ٿي سگهي ٿو",
+            "remove_success":"ھٽايو ڪاميابي سان",
+            "create_success":"ڪاميابي سان ٺهيل",
+            "acc_create_success_des":"اڪائونٽ ايڊريس استعمال ڪري سگهجن ٿيون CZR حاصل ڪرڻ لاء",
+            "acc_wallet_success_des":"پنھنجي والالٽ فائلن کي واپس وٺو، ڪنھن کي نه ٻڌائي",
+            "save":"مهرباني ڪري پنهنجي ڪنڊورٽ کي محفوظ ڪريو ۽ ان سان حصيداري ڪريو نه!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"nopea",
     "close":"lähellä",
     "confirm_you_active":"Vahvista toiminto",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"koti",
         "transfer":"siirto",
         "contacts":"kosketus",
         "setting":"perustettu",
         "total":"kokonais-"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"perustettu",
         "lang":"kieli",
         "select":"Valitse"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"kosketus",
         "add_dialog":"Lisää yhteystieto",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Anna yhteystiedot",
             "tag":"tag",
             "address":"kosketus",
             "tag_placeholder":"Anna yhteyshenkilön kommenttikoodi",
             "address_placeholder":"Anna yhteystili"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Poistat"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Anna tilin nimi",
             "no_address":"Anna tilin osoite",
             "valid_address":"Yhteyshenkilön osoite on lainvastainen",
             "exist":"Yhteys on jo olemassa,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Siirrä ulos",
         "to_address":"osaksi",
         "amount":"raha",
@@ -50,97 +49,165 @@
         "total":"kokonais-",
         "select":"Valitse",
         "no_account_info":"Ei tiliä, luo tili tai luo tili",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Valitse"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Vahvista",
             "enter_passworld_tit":"Anna salasanasi",
             "enter_passworld_place":"Anna salasanasi"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Lompakon jäsentely epäonnistui, voi olla salasanavirhe",
             "address_err":"Saapuvan osoitteen muoto on lainvastainen",
             "send_success":"Lähetä menestys",
             "send_error":"Tapahtuma epäonnistui: tarkista, onko riittävä saldo ja kaivostyöntekijän maksu"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Tapahtumahistoria",
         "transfer_log_null":"Ei tapahtumahistoriaa",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Käynnistä siirto",
             "import_keystore":"keystore",
             "qrcode":"QR-koodi"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Muokkaa huomautusta",
             "subtit":"Merkitse tiliisi merkintä"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Varmuuskopioi näppäimistö",
             "copy":"kopio",
             "download":"Lataa näppäimistö"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Osoite on kopioitu",
             "key_copy_success":"Kopioitiin onnistuneesti"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Tuo tili",
         "add_account":"Uusi tili",
         "acc":"tili",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Luo tili",
             "backup_tit":"Varmuuskopioi uusi tili",
-
             "create_tag":"Tilin nimi",
             "create_pwd":"Aseta salasana",
             "create_repwd":"Vahvista salasana",
-
             "placeholder_tag":"Aseta tilin nimi",
             "placeholder_pwd":"Aseta salasanasi",
             "placeholder_repwd":"Vahvista tilin salasana",
-            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
-
+            "strong_password":"Anna vähintään 8-numeroinen salasana",
             "account_address":"tili",
             "account_privateKey":"Yksityinen avain",
-            "account_download_keystore":"Lataa avainasematiedosto"
+            "account_download_keystore":"Lataa tilitiedosto"
         },
-        "import_dia":{
-            "tit":"Tuo tili",
-            "select_type":"Valitse tuontimenetelmä",
-            "type_private":"Yksityinen avain",
-            "type_keystore":"keystore",
-
-            "placeholder_private":"Liitä yksityinen avain tähän",
-            "placeholder_keystore":"Vedä avainniedosto täältä",
-
-            "input_pwd":"Anna salasana",
-            "placeholder_pwd":"Anna tilin salasana"
-
+        "import_dia": {
+            "tit":"Tuo tili",    
+            "placeholder_keystore":"Vedä tilitiedosto täältä",
+            "create_tag":"Tilin nimi",
+            "placeholder_tag":"Aseta tilin nimi"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Haluatko varmasti poistaa sen?",
             "remove_confrim":"Olen varma poistaa",
-            "backup":"Varmista, että tilillä on varmuuskopioitu omaisuusvahinkoja"
+            "backup":"Huomaa tämän tilin varmuuskopio, jotta vältetään omaisuusvahingot",
+            "input_pwd":"salasana",
+            "placeholder_pwd":"Anna tämän tilin salasana"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Tämä tili on jo olemassa, nimi on",
             "enter_password":"Anna salasanasi",
             "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
             "error":"Virhe:",
             "imported_success":"Tuo tiedosto onnistuneesti",
+            "imported_account_success":"Tuonti onnistui",
             "enter_private":"Anna avain",
             "error_private":"Tilin tuominen epäonnistui, se voi olla väärä avain",
-            "enter_keystore":"Ole hyvä ja syötä ensin keystore-tiedosto",
+            "enter_keystore":"Tuo ensin tilitietokanta",
             "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
             "remove_success":"Poistettu onnistuneesti",
             "create_success":"Luotu onnistuneesti",
-            "save":"Tallenna avainpohja tai yksityinen avain ja älä jakaa sitä kenenkään kanssa!"
+            "save":"Tallenna tilitiedosto ja älä jakaa sitä kenenkään kanssa!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Luo lompakko",
+        "import_wallet":"Tuo lompakko",
+        "back_up":"Varmuuskopio lompakko",
+        "add_account":"Uusi tili",
+        "acc":"tili",
+        "wallet":"lompakko",
+        "create_dia": {
+            "create_tit":"Luo tili",
+            "backup_tit":"Varmuuskopioi uusi tili",
+            "create_tag":"Tilin nimi",
+            "create_pwd":"Aseta salasana",
+            "create_repwd":"Vahvista salasana",
+            "placeholder_tag":"Aseta tilin nimi",
+            "placeholder_pwd":"Aseta salasanasi",
+            "placeholder_repwd":"Vahvista tilin salasana",
+            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
+            "account_address":"tili",
+            "account_privateKey":"Yksityinen avain",
+            "account_download_keystore":"Lataa avainasematiedosto"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Luo lompakko",
+            "backup_tit":"Varmuuskopioi uusi lompakko",
+            "create_tag":"Lompakon nimi",
+            "create_pwd":"Aseta salasana",
+            "create_repwd":"Vahvista salasana",
+            "placeholder_tag":"Aseta lompakon nimi",
+            "placeholder_pwd":"Aseta lompakon salasana",
+            "placeholder_repwd":"Vahvista lompakon salasana",
+            "strong_password":"Anna vahva salasana, vähintään 8 numeroa",
+            "wallet_address":"lompakko",
+            "download_wallet_file":"Lataa lompakon tiedosto"
+        },
+        "import_wallet_dia": {
+            "tit":"Tuo lompakko",
+            "placeholder_keystore":"Ole hyvä ja vedä lompakon tiedostoja täältä",
+            "placeholder_tag":"Aseta lompakon nimi",
+            "create_tag":"Lompakon nimi",
+            "input_pwd":"Anna salasana",
+            "placeholder_pwd":"Anna lompakon salasana"
+        },
+        "remove_dia": {
+            "tit":"Haluatko varmasti poistaa lompakon?",
+            "remove_confrim":"Olen varma poistaa",
+            "backup":"Varmista, että lompakko on varmuuskopioitu, jotta vältetään omaisuusvahingot"
+        },
+        "remove_wallet_dia": {
+            "tit":"Haluatko varmasti poistaa sen?",
+            "remove_confrim":"Olen varma poistaa",
+            "backup":"Varmista, että lompakko on varmuuskopioitu, jotta vältetään omaisuusvahingot"
+        },
+        "backup_wallet_dia": {
+            "tit":"Varmuuskopioi lompakon tiedosto",
+            "remove_confrim":"Olen varma poistaa",
+            "backup":"Varmuuskopioi lompakon tiedosto uudelleen valitsemalla Lataa",
+            "download":"Lataa"
+        },
+        "msg_info": {
+            "exist":"Jo olemassa, nimi on",
+            "wallet_tag_error":"Anna lompakon nimi",
+            "enter_password":"Anna salasanasi",
+            "incons_password":"Kahdesti syötetty salasana on epäjohdonmukainen",
+            "error":"Virhe:",
+            "imported_success":"Tuo tiedosto onnistuneesti",
+            "imported_wallet_success":"Lompakko tuodaan onnistuneesti",
+            "enter_private":"Anna avain",
+            "error_private":"Tilin tuominen epäonnistui, se voi olla väärä avain",
+            "enter_keystore":"Tuo ensin lompakon tiedosto",
+            "error_password":"Tilin tuominen epäonnistui, se voi olla väärä salasana",
+            "remove_success":"Poistettu onnistuneesti",
+            "create_success":"Luotu onnistuneesti",
+            "acc_create_success_des":"Tunnuksen osoitetta voidaan käyttää CZR: n vastaanottamiseen",
+            "acc_wallet_success_des":"Varmuuskopioi lompakon tiedostoja, älä kerro kenellekään",
+            "save":"Tallenna avainpohja ja älä jakaa sitä kenenkään kanssa!"
         }
     }
-
 }

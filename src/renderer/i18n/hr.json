@@ -4,43 +4,42 @@
     "dialog_tit":"brz",
     "close":"blizu",
     "confirm_you_active":"Potvrdite svoju operaciju",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"dom",
         "transfer":"prijenos",
         "contacts":"kontakt",
         "setting":"postaviti",
         "total":"ukupno"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"postaviti",
         "lang":"jezik",
         "select":"Molimo odaberite"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"kontakt",
         "add_dialog":"Dodajte kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Unesite podatke o kontaktu",
             "tag":"oznaka",
             "address":"kontakt",
             "tag_placeholder":"Unesite oznaku komentara kontakta",
             "address_placeholder":"Unesite kontakt račun"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Uklanjate"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Unesite naziv računa",
             "no_address":"Unesite adresu računa",
             "valid_address":"Adresa kontakta je ilegalna",
             "exist":"Kontakt već postoji,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Prijenos",
         "to_address":"u",
         "amount":"novac",
@@ -50,97 +49,165 @@
         "total":"ukupno",
         "select":"Molimo odaberite",
         "no_account_info":"Nema računa, izradite ili uvezite račun",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Molimo odaberite"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Potvrdite",
             "enter_passworld_tit":"Unesite zaporku",
             "enter_passworld_place":"Unesite zaporku"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Analiza novčanika nije uspjela, može biti pogreška u zaporci",
             "address_err":"Format dolazne adrese je ilegalan",
             "send_success":"Pošaljite uspjeh",
             "send_error":"Transakcija nije uspjela: provjerite ima li dovoljno ravnoteže i naknadu rudara"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Povijest transakcija",
         "transfer_log_null":"Nema povijesti transakcija",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Pokrenite prijenos",
             "import_keystore":"ključeva",
             "qrcode":"QR kod"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Izmijenite bilješku",
             "subtit":"Označite bilješku za svoj račun"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Izradite sigurnosnu kopiju ključeve",
             "copy":"kopija",
             "download":"Preuzmite ključnu poštu"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adresa je kopirana",
             "key_copy_success":"Uspješno kopirano"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Uvoz računa",
         "add_account":"Novi račun",
         "acc":"račun",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Stvorite račun",
             "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
-
             "create_tag":"Naziv računa",
             "create_pwd":"Postavi lozinku",
             "create_repwd":"Potvrdite lozinku",
-
             "placeholder_tag":"Postavite naziv računa",
             "placeholder_pwd":"Postavite zaporku računa",
             "placeholder_repwd":"Potvrdite zaporku računa",
-            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
-
+            "strong_password":"Unesite zaporku od najmanje 8 znamenaka",
             "account_address":"račun",
             "account_privateKey":"Privatni ključ",
-            "account_download_keystore":"Preuzmite datoteku ključa"
+            "account_download_keystore":"Preuzmite datoteku računa"
         },
-        "import_dia":{
-            "tit":"Uvoz računa",
-            "select_type":"Odaberite način uvoza",
-            "type_private":"Privatni ključ",
-            "type_keystore":"ključeva",
-
-            "placeholder_private":"Ovdje zalijepite privatni ključ",
-            "placeholder_keystore":"Ovdje povucite datoteku ključa",
-
-            "input_pwd":"Unesite lozinku",
-            "placeholder_pwd":"Unesite zaporku svog računa"
-
+        "import_dia": {
+            "tit":"Uvoz računa",    
+            "placeholder_keystore":"Povucite datoteku računa ovdje",
+            "create_tag":"Naziv računa",
+            "placeholder_tag":"Postavite naziv računa"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Jeste li sigurni da ga želite ukloniti?",
             "remove_confrim":"Sigurno ću ukloniti",
-            "backup":"Pobrinite se da račun bude sigurnosno kopiran kako bi izbjegli oštećenje imovine"
+            "backup":"Imajte na umu sigurnosnu kopiju ovog računa kako biste izbjegli oštećenje imovine",
+            "input_pwd":"lozinka",
+            "placeholder_pwd":"Unesite zaporku za ovaj račun"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Taj račun već postoji, naziv je",
             "enter_password":"Unesite zaporku",
             "incons_password":"Unosom lozinke dvaput nije konzistentan",
             "error":"pogreška:",
             "imported_success":"Uvezi datoteku uspješno",
+            "imported_account_success":"Uvezeno je uspješno",
             "enter_private":"Unesite ključ",
             "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
-            "enter_keystore":"Najprije uvezite datoteku za ključeve",
+            "enter_keystore":"Najprije uvezite datoteku računa",
             "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
             "remove_success":"Uklonjeno je uspješno",
             "create_success":"Izrađeno je uspješno",
-            "save":"Spremite ključnu poštu ili privatni ključ i nemojte ga dijeliti nikome!"
+            "save":"Spremite datoteku svog računa i nemojte ga dijeliti s nikim!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Izradi novčanik",
+        "import_wallet":"Uvezite novčanik",
+        "back_up":"Sigurnosni wallet",
+        "add_account":"Novi račun",
+        "acc":"račun",
+        "wallet":"novčanik",
+        "create_dia": {
+            "create_tit":"Stvorite račun",
+            "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
+            "create_tag":"Naziv računa",
+            "create_pwd":"Postavi lozinku",
+            "create_repwd":"Potvrdite lozinku",
+            "placeholder_tag":"Postavite naziv računa",
+            "placeholder_pwd":"Postavite zaporku računa",
+            "placeholder_repwd":"Potvrdite zaporku računa",
+            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
+            "account_address":"račun",
+            "account_privateKey":"Privatni ključ",
+            "account_download_keystore":"Preuzmite datoteku ključa"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Izradi novčanik",
+            "backup_tit":"Izradite sigurnosnu kopiju novog novčanika",
+            "create_tag":"Naziv lisnice",
+            "create_pwd":"Postavi lozinku",
+            "create_repwd":"Potvrdite lozinku",
+            "placeholder_tag":"Postavite naziv lisnice",
+            "placeholder_pwd":"Postavite lozinku za lisnicu",
+            "placeholder_repwd":"Potvrdite zaporku lisnice",
+            "strong_password":"Unesite snažnu lozinku, najmanje 8 znamenaka",
+            "wallet_address":"novčanik",
+            "download_wallet_file":"Preuzmite datoteku lisnice"
+        },
+        "import_wallet_dia": {
+            "tit":"Uvezite novčanik",
+            "placeholder_keystore":"Molimo vas povucite datoteke lisnice ovdje",
+            "placeholder_tag":"Postavite naziv lisnice",
+            "create_tag":"Naziv lisnice",
+            "input_pwd":"Unesite lozinku",
+            "placeholder_pwd":"Unesite zaporku za lisnicu"
+        },
+        "remove_dia": {
+            "tit":"Jeste li sigurni da želite ukloniti novčanik?",
+            "remove_confrim":"Sigurno ću ukloniti",
+            "backup":"Provjerite je li sigurnosno kopiran novčanik da biste izbjegli oštećenje imovine"
+        },
+        "remove_wallet_dia": {
+            "tit":"Jeste li sigurni da ga želite ukloniti?",
+            "remove_confrim":"Sigurno ću ukloniti",
+            "backup":"Provjerite je li sigurnosno kopiran novčanik da biste izbjegli oštećenje imovine"
+        },
+        "backup_wallet_dia": {
+            "tit":"Izradite sigurnosnu kopiju datoteke svog novčanika",
+            "remove_confrim":"Sigurno ću ukloniti",
+            "backup":"Kliknite Preuzmi da biste sigurnosno kopirali datoteku svoje lisnice",
+            "download":"Preuzimanje"
+        },
+        "msg_info": {
+            "exist":"Već postoji, ime je",
+            "wallet_tag_error":"Unesite naziv lisnice",
+            "enter_password":"Unesite zaporku",
+            "incons_password":"Unosom lozinke dvaput nije konzistentan",
+            "error":"pogreška:",
+            "imported_success":"Uvezi datoteku uspješno",
+            "imported_wallet_success":"Novčanik je uspješno uvezen",
+            "enter_private":"Unesite ključ",
+            "error_private":"Uvoz računa nije uspio, možda je pogrešan ključ",
+            "enter_keystore":"Najprije uvedi datoteku lisnice",
+            "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
+            "remove_success":"Uklonjeno je uspješno",
+            "create_success":"Izrađeno je uspješno",
+            "acc_create_success_des":"Adresa računa može se koristiti za primanje CZR-a",
+            "acc_wallet_success_des":"Izradite sigurnosnu kopiju datoteka svog novčanika, nemojte nikome reći",
+            "save":"Spremite ključnu poštu i nemojte ga dijeliti nikome!"
         }
     }
-
 }

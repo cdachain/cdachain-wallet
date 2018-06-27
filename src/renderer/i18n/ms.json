@@ -4,43 +4,42 @@
     "dialog_tit":"Prompt",
     "close":"Tertutup",
     "confirm_you_active":"Sila sahkan operasi anda",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Rumah",
         "transfer":"Pemindahan",
         "contacts":"Kenalan",
         "setting":"Tetapan",
         "total":"Jumlah"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Tetapan",
         "lang":"Bahasa",
         "select":"Sila pilih"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kenalan",
         "add_dialog":"Tambah kenalan",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Masukkan maklumat hubungan",
             "tag":"Tags",
             "address":"Kenalan",
             "tag_placeholder":"Sila masukkan teg komen kenalan",
             "address_placeholder":"Sila masukkan akaun kenalan"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Anda membuang"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Sila masukkan nama akaun",
             "no_address":"Sila masukkan alamat akaun",
             "valid_address":"Alamat kenalan adalah haram",
             "exist":"Kenalan sudah wujud,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Pindahan",
         "to_address":"Ke dalam",
         "amount":"Jumlah",
@@ -50,97 +49,165 @@
         "total":"Jumlah",
         "select":"Sila pilih",
         "no_account_info":"Tiada akaun, sila buat atau import akaun",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Sila pilih"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Sila sahkan",
             "enter_passworld_tit":"Sila masukkan kata laluan anda",
             "enter_passworld_place":"Sila masukkan kata laluan anda"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
             "address_err":"Format alamat masuk adalah tidak sah",
             "send_success":"Hantar kejayaan",
-            "send_error":"transaksi gagal: Semak untuk melihat jika terdapat kira-kira dan pelombong cukup Bayaran"
+            "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Sejarah urus niaga",
         "transfer_log_null":"Tiada sejarah transaksi",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Pindahan awal",
             "import_keystore":"Kedai kunci",
             "qrcode":"Kod QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Ubah nota",
             "subtit":"Tandakan nota untuk akaun anda"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Back up the keystore",
             "copy":"Duplikat",
             "download":"Muat turun keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Alamat telah disalin",
             "key_copy_success":"Berjaya disalin"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Import akaun",
         "add_account":"Akaun baru",
         "acc":"Akaun",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Buat akaun",
             "backup_tit":"Sandarkan akaun baru anda",
-
             "create_tag":"Nama akaun",
             "create_pwd":"Tetapkan kata laluan",
             "create_repwd":"Sahkan kata laluan",
-
             "placeholder_tag":"Sila nyatakan nama akaun",
             "placeholder_pwd":"Sila nyatakan kata laluan akaun",
             "placeholder_repwd":"Sila sahkan kata laluan akaun",
-            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
-
+            "strong_password":"Masukkan kata laluan sekurang-kurangnya 8 digit",
             "account_address":"Akaun",
             "account_privateKey":"Kunci persendirian",
-            "account_download_keystore":"Muat turun fail utama kedai"
+            "account_download_keystore":"Muat turun fail akaun"
         },
-        "import_dia":{
-            "tit":"Import akaun",
-            "select_type":"Sila pilih kaedah import",
-            "type_private":"Kunci persendirian",
-            "type_keystore":"Kedai kunci",
-
-            "placeholder_private":"Sila tampal kunci peribadi di sini",
-            "placeholder_keystore":"Sila seret fail utama di sini",
-
-            "input_pwd":"Masukkan kata laluan",
-            "placeholder_pwd":"Sila masukkan kata laluan akaun anda"
-
+        "import_dia": {
+            "tit":"Import akaun",    
+            "placeholder_keystore":"Sila seret fail akaun di sini",
+            "create_tag":"Nama akaun",
+            "placeholder_tag":"Sila nyatakan nama akaun"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Adakah anda pasti mahu mengeluarkannya?",
             "remove_confrim":"Saya pasti akan mengeluarkannya",
-            "backup":"Sila pastikan akaun telah disandarkan untuk mengelakkan kerosakan harta benda"
+            "backup":"Sila ambil perhatian tentang sandaran akaun ini untuk mengelakkan kerosakan harta benda",
+            "input_pwd":"Kata laluan",
+            "placeholder_pwd":"Sila masukkan kata laluan untuk akaun ini"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Akaun ini sudah wujud, namanya",
             "enter_password":"Sila masukkan kata laluan anda",
             "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
             "error":"Ralat:",
             "imported_success":"Import fail berjaya",
+            "imported_account_success":"Diimport dengan jayanya",
             "enter_private":"Sila masukkan kekunci",
             "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
-            "enter_keystore":"Sila import fail utama utama dahulu",
+            "enter_keystore":"Sila masukkan fail akaun terlebih dahulu",
             "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
             "remove_success":"Dihapuskan berjaya",
             "create_success":"Dibuat berjaya",
-            "save":"Sila simpan kunci utama atau kunci peribadi anda dan jangan kongsi dengan sesiapa!"
+            "save":"Sila simpan fail akaun anda dan jangan kongsi dengan sesiapa!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Buat Wallet",
+        "import_wallet":"Import dompet",
+        "back_up":"Dompet sandaran",
+        "add_account":"Akaun baru",
+        "acc":"Akaun",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"Buat akaun",
+            "backup_tit":"Sandarkan akaun baru anda",
+            "create_tag":"Nama akaun",
+            "create_pwd":"Tetapkan kata laluan",
+            "create_repwd":"Sahkan kata laluan",
+            "placeholder_tag":"Sila nyatakan nama akaun",
+            "placeholder_pwd":"Sila nyatakan kata laluan akaun",
+            "placeholder_repwd":"Sila sahkan kata laluan akaun",
+            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
+            "account_address":"Akaun",
+            "account_privateKey":"Kunci persendirian",
+            "account_download_keystore":"Muat turun fail utama kedai"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Buat Wallet",
+            "backup_tit":"Sandarkan dompet baru anda",
+            "create_tag":"Nama Wallet",
+            "create_pwd":"Tetapkan kata laluan",
+            "create_repwd":"Sahkan kata laluan",
+            "placeholder_tag":"Sila tetapkan nama dompet",
+            "placeholder_pwd":"Sila tetapkan kata laluan dompet",
+            "placeholder_repwd":"Sila sahkan kata laluan dompet",
+            "strong_password":"Masukkan kata laluan yang kuat, sekurang-kurangnya 8 digit",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"Muat turun fail dompet"
+        },
+        "import_wallet_dia": {
+            "tit":"Import dompet",
+            "placeholder_keystore":"Sila tarik fail dompet di sini",
+            "placeholder_tag":"Sila tetapkan nama dompet",
+            "create_tag":"Nama Wallet",
+            "input_pwd":"Masukkan kata laluan",
+            "placeholder_pwd":"Sila masukkan kata laluan dompet anda"
+        },
+        "remove_dia": {
+            "tit":"Adakah anda pasti mahu mengeluarkan dompet?",
+            "remove_confrim":"Saya pasti akan mengeluarkannya",
+            "backup":"Sila pastikan dompet telah dicadangkan untuk mengelakkan kerosakan harta benda"
+        },
+        "remove_wallet_dia": {
+            "tit":"Adakah anda pasti mahu mengeluarkannya?",
+            "remove_confrim":"Saya pasti akan mengeluarkannya",
+            "backup":"Sila pastikan dompet telah dicadangkan untuk mengelakkan kerosakan harta benda"
+        },
+        "backup_wallet_dia": {
+            "tit":"Sandarkan fail dompet anda",
+            "remove_confrim":"Saya pasti akan mengeluarkannya",
+            "backup":"Klik Muat turun untuk membuat sandaran fail dompet anda",
+            "download":"Muat turun"
+        },
+        "msg_info": {
+            "exist":"Sudah wujud, nama itu",
+            "wallet_tag_error":"Sila masukkan nama dompet",
+            "enter_password":"Sila masukkan kata laluan anda",
+            "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
+            "error":"Ralat:",
+            "imported_success":"Import fail berjaya",
+            "imported_wallet_success":"Wallet diimport dengan jayanya",
+            "enter_private":"Sila masukkan kekunci",
+            "error_private":"Gagal mengimport akaun, ia mungkin menjadi kunci yang salah",
+            "enter_keystore":"Sila masukkan fail dompet terlebih dahulu",
+            "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
+            "remove_success":"Dihapuskan berjaya",
+            "create_success":"Dibuat berjaya",
+            "acc_create_success_des":"Alamat akaun boleh digunakan untuk menerima CZR",
+            "acc_wallet_success_des":"Sandarkan file dompet anda, jangan beritahu siapa pun",
+            "save":"Sila simpan kunci utama anda dan jangan kongsi dengan sesiapa sahaja!"
         }
     }
-
 }

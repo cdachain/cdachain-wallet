@@ -4,43 +4,42 @@
     "dialog_tit":"فوری طور پر",
     "close":"بند",
     "confirm_you_active":"براہ مہربانی اپنے آپریشن کی تصدیق کریں",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"گھر",
         "transfer":"منتقلی",
         "contacts":"رابطے",
         "setting":"ترتیبات",
         "total":"کل"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"ترتیبات",
         "lang":"زبان",
         "select":"براہ کرم منتخب کریں"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"رابطے",
         "add_dialog":"ایک رابطہ شامل کریں",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"رابطے کی معلومات درج کریں",
             "tag":"ٹیگز",
             "address":"رابطے",
             "tag_placeholder":"براہ کرم رابطے کا تبصرہ ٹیگ درج کریں",
             "address_placeholder":"برائے مہربانی رابطہ اکاؤنٹ درج کریں"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"آپ ہٹا رہے ہیں"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"برائے مہربانی اکاؤنٹ کا نام درج کریں",
             "no_address":"برائے مہربانی اکاؤنٹ ایڈریس درج کریں",
             "valid_address":"رابطہ کا پتہ غیر قانونی ہے",
             "exist":"رابطہ پہلے ہی موجود ہے،"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"منتقلی",
         "to_address":"اندر",
         "amount":"رقم",
@@ -50,97 +49,165 @@
         "total":"کل",
         "select":"براہ کرم منتخب کریں",
         "no_account_info":"کوئی اکاؤنٹ نہیں، برائے مہربانی اکاؤنٹ بنائیں یا درآمد کریں",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"براہ کرم منتخب کریں"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"براہ مہربانی تصدیق کریں",
             "enter_passworld_tit":"اپنا پاس ورڈ درج کریں",
             "enter_passworld_place":"اپنا پاس ورڈ درج کریں"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"وال پیپر ناکام ہوگیا ہو سکتا ہے، پاس ورڈ غلطی ہوسکتی ہے",
             "address_err":"آنے والے ایڈریس کی شکل غیر قانونی ہے",
             "send_success":"کامیابی بھیجیں",
             "send_error":"ٹرانزیکشن ناکام ہوگیا: برائے مہربانی چیک کریں کہ کافی توازن اور معدنیات کی فیس موجود ہے"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"ٹرانزیکشن کی تاریخ",
         "transfer_log_null":"کوئی ٹرانزیکشن کی تاریخ نہیں",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"منتقلی شروع کریں",
             "import_keystore":"کیسٹور",
             "qrcode":"QR کوڈ"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"نوٹ میں ترمیم کریں",
             "subtit":"اپنے اکاؤنٹ کے لئے ایک نوٹ نشان"
         },
-        "keystore":{
+        "keystore": {
             "tit":"کی بورڈ اپ بیک اپ کریں",
             "copy":"ڈپلیکیٹ",
             "download":"کی بورڈ ڈاؤن لوڈ کریں"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"ایڈریس کاپی کیا گیا ہے",
             "key_copy_success":"کامیابی سے کاپی کیا"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"اکاؤنٹ درآمد کریں",
         "add_account":"نیا اکاؤنٹ",
         "acc":"اکاؤنٹ",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"ایک اکاؤنٹ بنائیں",
             "backup_tit":"اپنا نیا اکاؤنٹ بیک اپ کریں",
-
             "create_tag":"اکاؤنٹ کا نام",
             "create_pwd":"پاس ورڈ مقرر کریں",
             "create_repwd":"پاس ورڈ کی توثیق کریں",
-
             "placeholder_tag":"برائے مہربانی اکاؤنٹ کا نام مقرر کریں",
             "placeholder_pwd":"برائے مہربانی اکاؤنٹ پاس ورڈ مقرر کریں",
             "placeholder_repwd":"برائے مہربانی اکاؤنٹ پاس ورڈ کی تصدیق کریں",
-            "strong_password":"کم از کم 8 ہندسوں کو ایک مضبوط پاس ورڈ درج کریں",
-
+            "strong_password":"کم از کم 8 ہندسوں کا ایک پاس ورڈ درج کریں",
             "account_address":"اکاؤنٹ",
             "account_privateKey":"ذاتی کلید",
-            "account_download_keystore":"کی بورڈ فائل ڈاؤن لوڈ کریں"
+            "account_download_keystore":"اکاؤنٹ فائل ڈاؤن لوڈ کریں"
         },
-        "import_dia":{
-            "tit":"اکاؤنٹ درآمد کریں",
-            "select_type":"برائے مہربانی درآمد کا طریقہ منتخب کریں",
-            "type_private":"ذاتی کلید",
-            "type_keystore":"کیسٹور",
-
-            "placeholder_private":"براہ کرم نجی کلید یہاں چسپاں کریں",
-            "placeholder_keystore":"براہ مہربانی یہاں کیسٹور فائل ھیںچو",
-
-            "input_pwd":"پاس ورڈ درج کریں",
-            "placeholder_pwd":"براہ کرم اپنا اکاؤنٹ پاس ورڈ درج کریں"
-
+        "import_dia": {
+            "tit":"اکاؤنٹ درآمد کریں",    
+            "placeholder_keystore":"برائے مہربانی اکاؤنٹ اکاؤنٹ فائل کو یہاں ڈراو",
+            "create_tag":"اکاؤنٹ کا نام",
+            "placeholder_tag":"برائے مہربانی اکاؤنٹ کا نام مقرر کریں"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"کیا آپ واقعی یہ ہٹانا چاہتے ہیں؟",
             "remove_confrim":"مجھے ہٹانے کا یقین ہے",
-            "backup":"براہ مہربانی اس بات کو یقینی بنائیں کہ پراپرٹی نقصان سے بچنے کے لۓ اکاؤنٹ بیک اپ کیا گیا ہے"
+            "backup":"پراپرٹی کے نقصان سے بچنے کے لئے براہ کرم اس اکاؤنٹ کا بیک اپ نوٹ کریں",
+            "input_pwd":"پاس ورڈ",
+            "placeholder_pwd":"اس اکاؤنٹ کے لئے پاس ورڈ درج کریں"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"یہ اکاؤنٹ پہلے ہی موجود ہے، نام ہے",
             "enter_password":"اپنا پاس ورڈ درج کریں",
             "incons_password":"پاسورڈ دو مرتبہ متضاد ہے",
             "error":"غلطی:",
             "imported_success":"فائل کامیابی سے درآمد کریں",
+            "imported_account_success":"کامیابی سے درآمد",
             "enter_private":"براہ مہربانی کلیدی درج کریں",
             "error_private":"اکاؤنٹ درآمد کرنے میں ناکامی، یہ غلط کلید ہوسکتی ہے",
-            "enter_keystore":"براہ کرم سب سے پہلے کیسٹور فائل درآمد کریں",
+            "enter_keystore":"برائے مہربانی سب سے پہلے اکاؤنٹ فائل درآمد کریں",
             "error_password":"اکاؤنٹ درآمد کرنے میں ناکامی، یہ ایک غلط پاس ورڈ ہوسکتا ہے",
             "remove_success":"کامیابی سے ہٹا دیا گیا",
             "create_success":"کامیابی سے تخلیق",
-            "save":"براہ کرم اپنے کیسٹور یا نجی کلیدی کو بچائیں اور کسی کے ساتھ اس کا اشتراک نہ کرو!"
+            "save":"برائے مہربانی اپنا اکاؤنٹ فائل محفوظ کریں اور اسے کسی کے ساتھ اشتراک نہ کریں!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"والٹ بنائیں",
+        "import_wallet":"بٹوے درآمد کریں",
+        "back_up":"بیک اپ پرس",
+        "add_account":"نیا اکاؤنٹ",
+        "acc":"اکاؤنٹ",
+        "wallet":"والٹ",
+        "create_dia": {
+            "create_tit":"ایک اکاؤنٹ بنائیں",
+            "backup_tit":"اپنا نیا اکاؤنٹ بیک اپ کریں",
+            "create_tag":"اکاؤنٹ کا نام",
+            "create_pwd":"پاس ورڈ مقرر کریں",
+            "create_repwd":"پاس ورڈ کی توثیق کریں",
+            "placeholder_tag":"برائے مہربانی اکاؤنٹ کا نام مقرر کریں",
+            "placeholder_pwd":"برائے مہربانی اکاؤنٹ پاس ورڈ مقرر کریں",
+            "placeholder_repwd":"برائے مہربانی اکاؤنٹ پاس ورڈ کی تصدیق کریں",
+            "strong_password":"کم از کم 8 ہندسوں کو ایک مضبوط پاس ورڈ درج کریں",
+            "account_address":"اکاؤنٹ",
+            "account_privateKey":"ذاتی کلید",
+            "account_download_keystore":"کی بورڈ فائل ڈاؤن لوڈ کریں"
+        },
+        "create_wallet_dia": {
+            "create_tit":"والٹ بنائیں",
+            "backup_tit":"اپنا نیا بٹوے بیک اپ کریں",
+            "create_tag":"والٹ کا نام",
+            "create_pwd":"پاس ورڈ مقرر کریں",
+            "create_repwd":"پاس ورڈ کی توثیق کریں",
+            "placeholder_tag":"والٹ کا نام قائم کریں",
+            "placeholder_pwd":"براہ کرم والیٹ پاس ورڈ مقرر کریں",
+            "placeholder_repwd":"والیٹ پاس ورڈ کی تصدیق کریں",
+            "strong_password":"کم از کم 8 ہندسوں کو ایک مضبوط پاس ورڈ درج کریں",
+            "wallet_address":"والٹ",
+            "download_wallet_file":"والیٹ فائل ڈاؤن لوڈ کریں"
+        },
+        "import_wallet_dia": {
+            "tit":"بٹوے درآمد کریں",
+            "placeholder_keystore":"برائے مہربانی والیٹ فائلیں یہاں ھیںچو",
+            "placeholder_tag":"والٹ کا نام قائم کریں",
+            "create_tag":"والٹ کا نام",
+            "input_pwd":"پاس ورڈ درج کریں",
+            "placeholder_pwd":"براہ مہربانی اپنے والیٹ پاس ورڈ درج کریں"
+        },
+        "remove_dia": {
+            "tit":"کیا آپ واقعی بٹوے کو ہٹانا چاہتے ہیں؟",
+            "remove_confrim":"مجھے ہٹانے کا یقین ہے",
+            "backup":"براہ مہربانی اس بات کو یقینی بنائیں کہ جائداد کے نقصان سے بچنے کے لئے والیٹ کی حمایت کی گئی ہے"
+        },
+        "remove_wallet_dia": {
+            "tit":"کیا آپ واقعی یہ ہٹانا چاہتے ہیں؟",
+            "remove_confrim":"مجھے ہٹانے کا یقین ہے",
+            "backup":"براہ مہربانی اس بات کو یقینی بنائیں کہ جائداد کے نقصان سے بچنے کے لئے والیٹ کی حمایت کی گئی ہے"
+        },
+        "backup_wallet_dia": {
+            "tit":"اپنا والیٹ فائل بیک اپ کریں",
+            "remove_confrim":"مجھے ہٹانے کا یقین ہے",
+            "backup":"اپنے والیٹ فائل کو بیک اپ کرنے کیلئے ڈاؤن لوڈ کریں پر کلک کریں",
+            "download":"ڈاؤن لوڈ کریں"
+        },
+        "msg_info": {
+            "exist":"پہلے ہی موجود ہے، نام ہے",
+            "wallet_tag_error":"والٹ کا نام درج کریں",
+            "enter_password":"اپنا پاس ورڈ درج کریں",
+            "incons_password":"پاسورڈ دو مرتبہ متضاد ہے",
+            "error":"غلطی:",
+            "imported_success":"فائل کامیابی سے درآمد کریں",
+            "imported_wallet_success":"والٹ کامیابی سے درآمد کیا",
+            "enter_private":"براہ مہربانی کلیدی درج کریں",
+            "error_private":"اکاؤنٹ درآمد کرنے میں ناکامی، یہ غلط کلید ہوسکتی ہے",
+            "enter_keystore":"سب سے پہلے والیٹ فائل کو درآمد کریں",
+            "error_password":"اکاؤنٹ درآمد کرنے میں ناکامی، یہ ایک غلط پاس ورڈ ہوسکتا ہے",
+            "remove_success":"کامیابی سے ہٹا دیا گیا",
+            "create_success":"کامیابی سے تخلیق",
+            "acc_create_success_des":"اکاؤنٹ کا ایڈریس CZR حاصل کرنے کے لئے استعمال کیا جا سکتا ہے",
+            "acc_wallet_success_des":"اپنے والیٹ فائلوں کو بیک اپ کریں، کسی کو نہ بتائیں",
+            "save":"براہ مہربانی اپنے کیسٹور کو محفوظ کریں اور اسے کسی کے ساتھ اشتراک نہ کریں!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"शीघ्र",
     "close":"पास",
     "confirm_you_active":"कृपया अपने ऑपरेशन की पुष्टि करें",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"घर",
         "transfer":"स्थानांतरण",
         "contacts":"संपर्क",
         "setting":"सेट करें",
         "total":"संपूर्ण"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"सेट करें",
         "lang":"भाषा",
         "select":"कृपया चुनें"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"संपर्क",
         "add_dialog":"एक संपर्क जोड़ें",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"संपर्क जानकारी दर्ज करें",
             "tag":"टैग",
             "address":"संपर्क",
             "tag_placeholder":"कृपया संपर्क का टिप्पणी टैग दर्ज करें",
             "address_placeholder":"कृपया संपर्क खाता दर्ज करें"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"आप हटा रहे हैं"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"कृपया खाता नाम दर्ज करें",
             "no_address":"कृपया खाता पता दर्ज करें",
             "valid_address":"संपर्क का पता अवैध है",
             "exist":"संपर्क पहले से मौजूद है,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"बाहर स्थानांतरण",
         "to_address":"में",
         "amount":"पैसा",
@@ -50,97 +49,165 @@
         "total":"संपूर्ण",
         "select":"कृपया चुनें",
         "no_account_info":"कोई खाता नहीं, कृपया खाता बनाएं या आयात करें",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"कृपया चुनें"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"कृपया पुष्टि करें",
             "enter_passworld_tit":"कृपया अपना पासवर्ड दर्ज करें",
             "enter_passworld_place":"कृपया अपना पासवर्ड दर्ज करें"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"वॉलेट पार्सिंग विफल, पासवर्ड त्रुटि हो सकती है",
             "address_err":"आने वाला पता प्रारूप अवैध है",
             "send_success":"सफलता भेजें",
             "send_error":"लेनदेन विफल: कृपया जांचें कि पर्याप्त शेष राशि और खनिक का शुल्क है या नहीं"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"लेनदेन इतिहास",
         "transfer_log_null":"कोई लेनदेन इतिहास नहीं",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"स्थानांतरण शुरू करें",
             "import_keystore":"कुंजीस्टोर",
             "qrcode":"क्यूआर कोड"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"नोट संशोधित करें",
             "subtit":"अपने खाते के लिए एक नोट चिह्नित करें"
         },
-        "keystore":{
+        "keystore": {
             "tit":"कीस्टोर का बैक अप लें",
             "copy":"प्रतिलिपि",
             "download":"कीस्टोर डाउनलोड करें"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"पता कॉपी किया गया है",
             "key_copy_success":"सफलतापूर्वक कॉपी किया गया"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"खाता आयात करें",
         "add_account":"नया खाता",
         "acc":"खाता",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"खाता बनाएं",
             "backup_tit":"अपने नए खाते का बैकअप लें",
-
             "create_tag":"खाता नाम",
             "create_pwd":"पासवर्ड सेट करें",
             "create_repwd":"पासवर्ड की पुष्टि करें",
-
             "placeholder_tag":"कृपया खाता नाम सेट करें",
             "placeholder_pwd":"कृपया खाता पासवर्ड सेट करें",
             "placeholder_repwd":"कृपया खाता पासवर्ड की पुष्टि करें",
-            "strong_password":"एक मजबूत पासवर्ड दर्ज करें, कम से कम 8 अंक",
-
+            "strong_password":"कम से कम 8 अंकों का पासवर्ड दर्ज करें",
             "account_address":"खाता",
             "account_privateKey":"निजी कुंजी",
-            "account_download_keystore":"कीस्टोर फ़ाइल डाउनलोड करें"
+            "account_download_keystore":"खाता फ़ाइल डाउनलोड करें"
         },
-        "import_dia":{
-            "tit":"खाता आयात करें",
-            "select_type":"कृपया आयात विधि का चयन करें",
-            "type_private":"निजी कुंजी",
-            "type_keystore":"कुंजीस्टोर",
-
-            "placeholder_private":"कृपया यहां निजी कुंजी पेस्ट करें",
-            "placeholder_keystore":"कृपया कीस्टोर फ़ाइल को यहां खींचें",
-
-            "input_pwd":"पासवर्ड दर्ज करें",
-            "placeholder_pwd":"कृपया अपना खाता पासवर्ड दर्ज करें"
-
+        "import_dia": {
+            "tit":"खाता आयात करें",    
+            "placeholder_keystore":"कृपया खाता फ़ाइल यहां खींचें",
+            "create_tag":"खाता नाम",
+            "placeholder_tag":"कृपया खाता नाम सेट करें"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"क्या आप वाकई इसे हटाना चाहते हैं?",
             "remove_confrim":"मुझे यकीन है कि निकालना है",
-            "backup":"कृपया सुनिश्चित करें कि संपत्ति क्षति से बचने के लिए खाते का बैक अप लिया गया है"
+            "backup":"संपत्ति क्षति से बचने के लिए कृपया इस खाते का बैकअप नोट करें",
+            "input_pwd":"पासवर्ड",
+            "placeholder_pwd":"कृपया इस खाते के लिए पासवर्ड दर्ज करें"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"यह खाता पहले से मौजूद है, नाम है",
             "enter_password":"कृपया अपना पासवर्ड दर्ज करें",
             "incons_password":"दो बार दर्ज पासवर्ड असंगत है",
             "error":"त्रुटि:",
             "imported_success":"फ़ाइल सफलतापूर्वक आयात करें",
+            "imported_account_success":"सफलतापूर्वक आयात किया गया",
             "enter_private":"कृपया कुंजी दर्ज करें",
             "error_private":"खाता आयात करने में विफल, यह गलत कुंजी हो सकती है",
-            "enter_keystore":"कृपया पहले कीस्टोर फ़ाइल आयात करें",
+            "enter_keystore":"कृपया खाता फ़ाइल पहले आयात करें",
             "error_password":"खाता आयात करने में विफल, यह एक गलत पासवर्ड हो सकता है",
             "remove_success":"सफलतापूर्वक हटा दिया गया",
             "create_success":"सफलतापूर्वक बनाया गया",
-            "save":"कृपया अपनी कीस्टोर या निजी कुंजी को सहेजें और इसे किसी के साथ साझा न करें!"
+            "save":"कृपया अपनी खाता फ़ाइल सहेजें और इसे किसी के साथ साझा न करें!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"वॉलेट बनाएं",
+        "import_wallet":"वॉलेट आयात करें",
+        "back_up":"बैकअप वॉलेट",
+        "add_account":"नया खाता",
+        "acc":"खाता",
+        "wallet":"बटुआ",
+        "create_dia": {
+            "create_tit":"खाता बनाएं",
+            "backup_tit":"अपने नए खाते का बैकअप लें",
+            "create_tag":"खाता नाम",
+            "create_pwd":"पासवर्ड सेट करें",
+            "create_repwd":"पासवर्ड की पुष्टि करें",
+            "placeholder_tag":"कृपया खाता नाम सेट करें",
+            "placeholder_pwd":"कृपया खाता पासवर्ड सेट करें",
+            "placeholder_repwd":"कृपया खाता पासवर्ड की पुष्टि करें",
+            "strong_password":"एक मजबूत पासवर्ड दर्ज करें, कम से कम 8 अंक",
+            "account_address":"खाता",
+            "account_privateKey":"निजी कुंजी",
+            "account_download_keystore":"कीस्टोर फ़ाइल डाउनलोड करें"
+        },
+        "create_wallet_dia": {
+            "create_tit":"वॉलेट बनाएं",
+            "backup_tit":"अपने नए वॉलेट का बैक अप लें",
+            "create_tag":"वॉलेट नाम",
+            "create_pwd":"पासवर्ड सेट करें",
+            "create_repwd":"पासवर्ड की पुष्टि करें",
+            "placeholder_tag":"कृपया वॉलेट नाम सेट करें",
+            "placeholder_pwd":"कृपया वॉलेट पासवर्ड सेट करें",
+            "placeholder_repwd":"कृपया वॉलेट पासवर्ड की पुष्टि करें",
+            "strong_password":"एक मजबूत पासवर्ड दर्ज करें, कम से कम 8 अंक",
+            "wallet_address":"बटुआ",
+            "download_wallet_file":"वॉलेट फ़ाइल डाउनलोड करें"
+        },
+        "import_wallet_dia": {
+            "tit":"वॉलेट आयात करें",
+            "placeholder_keystore":"कृपया वॉलेट फाइलें यहां खींचें",
+            "placeholder_tag":"कृपया वॉलेट नाम सेट करें",
+            "create_tag":"वॉलेट नाम",
+            "input_pwd":"पासवर्ड दर्ज करें",
+            "placeholder_pwd":"कृपया अपना वॉलेट पासवर्ड दर्ज करें"
+        },
+        "remove_dia": {
+            "tit":"क्या आप वाकई वॉलेट को हटाना चाहते हैं?",
+            "remove_confrim":"मुझे यकीन है कि निकालना है",
+            "backup":"कृपया सुनिश्चित करें कि संपत्ति क्षति से बचने के लिए वॉलेट का बैक अप लिया गया है"
+        },
+        "remove_wallet_dia": {
+            "tit":"क्या आप वाकई इसे हटाना चाहते हैं?",
+            "remove_confrim":"मुझे यकीन है कि निकालना है",
+            "backup":"कृपया सुनिश्चित करें कि संपत्ति क्षति से बचने के लिए वॉलेट का बैक अप लिया गया है"
+        },
+        "backup_wallet_dia": {
+            "tit":"बैकअप अपने बटुए फ़ाइल",
+            "remove_confrim":"मुझे यकीन है कि निकालना है",
+            "backup":"डाउनलोड करने के लिए, बैकअप अपने बटुए फ़ाइल क्लिक करें",
+            "download":"डाउनलोड"
+        },
+        "msg_info": {
+            "exist":"पहले से मौजूद है, नाम है",
+            "wallet_tag_error":"कृपया वॉलेट नाम दर्ज करें",
+            "enter_password":"कृपया अपना पासवर्ड दर्ज करें",
+            "incons_password":"दो बार दर्ज पासवर्ड असंगत है",
+            "error":"त्रुटि:",
+            "imported_success":"फ़ाइल सफलतापूर्वक आयात करें",
+            "imported_wallet_success":"वॉलेट सफलतापूर्वक आयात किया गया",
+            "enter_private":"कृपया कुंजी दर्ज करें",
+            "error_private":"खाता आयात करने में विफल, यह गलत कुंजी हो सकती है",
+            "enter_keystore":"कृपया पहले वॉलेट फ़ाइल आयात करें",
+            "error_password":"खाता आयात करने में विफल, यह एक गलत पासवर्ड हो सकता है",
+            "remove_success":"सफलतापूर्वक हटा दिया गया",
+            "create_success":"सफलतापूर्वक बनाया गया",
+            "acc_create_success_des":"सीजेडआर प्राप्त करने के लिए खाता पता इस्तेमाल किया जा सकता है",
+            "acc_wallet_success_des":"अपनी वॉलेट फाइलों का बैकअप लें, किसी को मत बताओ",
+            "save":"कृपया अपनी कीस्टोर को सेव करें और इसे किसी के साथ साझा न करें!"
         }
     }
-
 }

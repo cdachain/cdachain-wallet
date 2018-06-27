@@ -4,43 +4,42 @@
     "dialog_tit":"Prompt",
     "close":"Cerrado",
     "confirm_you_active":"Por favor confirme su operación",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Inicio",
         "transfer":"Transferir",
         "contacts":"Contactos",
         "setting":"Configuraciones",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Configuraciones",
         "lang":"Idioma",
         "select":"Por favor selecciona"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Contactos",
         "add_dialog":"Agrega un contacto",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Ingrese la información de contacto",
             "tag":"Etiquetas",
             "address":"Contactos",
             "tag_placeholder":"Por favor ingrese la etiqueta de comentario del contacto",
             "address_placeholder":"Por favor ingrese la cuenta de contacto"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Estás eliminando"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Por favor ingrese el nombre de la cuenta",
             "no_address":"Por favor ingrese la dirección de la cuenta",
             "valid_address":"La dirección del contacto es ilegal",
             "exist":"El contacto ya existe,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Transferir fuera",
         "to_address":"En",
         "amount":"Monto",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Por favor selecciona",
         "no_account_info":"Sin cuenta, crea o importa una cuenta",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Por favor selecciona"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Por favor confirme",
             "enter_passworld_tit":"Por favor ingrese su contraseña",
             "enter_passworld_place":"Por favor ingrese su contraseña"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"El análisis de Wallet falló, puede haber un error de contraseña",
             "address_err":"El formato de dirección entrante es ilegal",
             "send_success":"Enviar el exito",
             "send_error":"Transacción fallida: verifique si hay saldo suficiente y la tarifa del minero"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Historial de transacciones",
         "transfer_log_null":"Sin historial de transacciones",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Iniciar transferencia",
             "import_keystore":"Keystore",
             "qrcode":"Código QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modificar nota",
             "subtit":"Marque una nota para su cuenta"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Haga una copia de seguridad del almacén de claves",
             "copy":"Duplicado",
             "download":"Descargar keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"La dirección ha sido copiada",
             "key_copy_success":"Copiado con éxito"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Importar cuenta",
         "add_account":"Nueva cuenta",
         "acc":"Cuenta",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Crea una cuenta",
             "backup_tit":"Haga una copia de seguridad de su nueva cuenta",
-
             "create_tag":"Nombre de la cuenta",
             "create_pwd":"Establecer contraseña",
             "create_repwd":"Confirmar contraseña",
-
             "placeholder_tag":"Por favor configure el nombre de la cuenta",
             "placeholder_pwd":"Configura la contraseña de la cuenta",
             "placeholder_repwd":"Por favor confirme la contraseña de la cuenta",
-            "strong_password":"Ingrese una contraseña segura, al menos 8 dígitos",
-
+            "strong_password":"Ingrese una contraseña de al menos 8 dígitos",
             "account_address":"Cuenta",
             "account_privateKey":"Clave privada",
-            "account_download_keystore":"Descargue el archivo keystore"
+            "account_download_keystore":"Descargar archivo de cuenta"
         },
-        "import_dia":{
-            "tit":"Importar cuenta",
-            "select_type":"Seleccione el método de importación",
-            "type_private":"Clave privada",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Por favor, pegue la clave privada aquí",
-            "placeholder_keystore":"Arrastre el archivo de almacén de claves aquí",
-
-            "input_pwd":"Ingresa la contraseña",
-            "placeholder_pwd":"Por favor ingrese la contraseña de su cuenta"
-
+        "import_dia": {
+            "tit":"Importar cuenta",    
+            "placeholder_keystore":"Arrastre el archivo de cuenta aquí",
+            "create_tag":"Nombre de la cuenta",
+            "placeholder_tag":"Por favor configure el nombre de la cuenta"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"¿Seguro que quieres eliminarlo?",
             "remove_confrim":"Estoy seguro de eliminar",
-            "backup":"Asegúrese de que la cuenta haya sido respaldada para evitar daños a la propiedad"
+            "backup":"Tenga en cuenta la copia de seguridad de esta cuenta para evitar daños a la propiedad",
+            "input_pwd":"Contraseña",
+            "placeholder_pwd":"Por favor ingrese la contraseña para esta cuenta"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Esta cuenta ya existe, el nombre es",
             "enter_password":"Por favor ingrese su contraseña",
             "incons_password":"La contraseña ingresada dos veces es inconsistente",
             "error":"Error:",
             "imported_success":"Importar archivo exitosamente",
+            "imported_account_success":"Importado con éxito",
             "enter_private":"Por favor ingrese la clave",
             "error_private":"Error al importar la cuenta, puede ser la clave incorrecta",
-            "enter_keystore":"Importa primero el archivo de almacén de claves",
+            "enter_keystore":"Por favor, importe el archivo de cuenta primero",
             "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
             "remove_success":"Eliminado con éxito",
             "create_success":"Creado con éxito",
-            "save":"¡Guarde su almacén de claves o clave privada y no la comparta con nadie!"
+            "save":"¡Guarde el archivo de su cuenta y no lo comparta con nadie!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Crear billetera",
+        "import_wallet":"Importar billetera",
+        "back_up":"Billetera de respaldo",
+        "add_account":"Nueva cuenta",
+        "acc":"Cuenta",
+        "wallet":"Billetera",
+        "create_dia": {
+            "create_tit":"Crea una cuenta",
+            "backup_tit":"Haga una copia de seguridad de su nueva cuenta",
+            "create_tag":"Nombre de la cuenta",
+            "create_pwd":"Establecer contraseña",
+            "create_repwd":"Confirmar contraseña",
+            "placeholder_tag":"Por favor configure el nombre de la cuenta",
+            "placeholder_pwd":"Configura la contraseña de la cuenta",
+            "placeholder_repwd":"Por favor confirme la contraseña de la cuenta",
+            "strong_password":"Ingrese una contraseña segura, al menos 8 dígitos",
+            "account_address":"Cuenta",
+            "account_privateKey":"Clave privada",
+            "account_download_keystore":"Descargue el archivo keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Crear billetera",
+            "backup_tit":"Haga una copia de seguridad de su nueva billetera",
+            "create_tag":"Nombre de la billetera",
+            "create_pwd":"Establecer contraseña",
+            "create_repwd":"Confirmar contraseña",
+            "placeholder_tag":"Por favor, configure el nombre de la billetera",
+            "placeholder_pwd":"Por favor, configure la contraseña de la billetera",
+            "placeholder_repwd":"Confirma la contraseña de la billetera",
+            "strong_password":"Ingrese una contraseña segura, al menos 8 dígitos",
+            "wallet_address":"Billetera",
+            "download_wallet_file":"Descargar el archivo de la billetera"
+        },
+        "import_wallet_dia": {
+            "tit":"Importar billetera",
+            "placeholder_keystore":"Por favor, extraiga los archivos de la billetera aquí",
+            "placeholder_tag":"Por favor, configure el nombre de la billetera",
+            "create_tag":"Nombre de la billetera",
+            "input_pwd":"Ingresa la contraseña",
+            "placeholder_pwd":"Por favor ingrese su contraseña de billetera"
+        },
+        "remove_dia": {
+            "tit":"¿Seguro que quieres quitar la billetera?",
+            "remove_confrim":"Estoy seguro de eliminar",
+            "backup":"Asegúrese de que la billetera se haya respaldado para evitar daños a la propiedad"
+        },
+        "remove_wallet_dia": {
+            "tit":"¿Seguro que quieres eliminarlo?",
+            "remove_confrim":"Estoy seguro de eliminar",
+            "backup":"Asegúrese de que la billetera se haya respaldado para evitar daños a la propiedad"
+        },
+        "backup_wallet_dia": {
+            "tit":"Haga una copia de seguridad de su archivo de billetera",
+            "remove_confrim":"Estoy seguro de eliminar",
+            "backup":"Haga clic en Descargar para hacer una copia de seguridad de su archivo de billetera",
+            "download":"Descargar"
+        },
+        "msg_info": {
+            "exist":"Ya existe, el nombre es",
+            "wallet_tag_error":"Por favor ingrese el nombre de la billetera",
+            "enter_password":"Por favor ingrese su contraseña",
+            "incons_password":"La contraseña ingresada dos veces es inconsistente",
+            "error":"Error:",
+            "imported_success":"Importar archivo exitosamente",
+            "imported_wallet_success":"Monedero importado con éxito",
+            "enter_private":"Por favor ingrese la clave",
+            "error_private":"Error al importar la cuenta, puede ser la clave incorrecta",
+            "enter_keystore":"Primero importa el archivo de la billetera",
+            "error_password":"Error al importar la cuenta, puede ser una contraseña incorrecta",
+            "remove_success":"Eliminado con éxito",
+            "create_success":"Creado con éxito",
+            "acc_create_success_des":"La dirección de la cuenta se puede usar para recibir CZR",
+            "acc_wallet_success_des":"Haga una copia de seguridad de sus archivos de billetera, no se lo digas a nadie",
+            "save":"¡Guarde su almacén de claves y no lo comparta con nadie!"
         }
     }
-
 }

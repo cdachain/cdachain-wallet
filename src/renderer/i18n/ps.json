@@ -4,43 +4,42 @@
     "dialog_tit":"ژبړئ",
     "close":"تړل شوی",
     "confirm_you_active":"مهرباني وکړئ خپل عملیات تایید کړئ",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"کور",
         "transfer":"انتقال",
         "contacts":"اړیکې",
         "setting":"امستنې",
         "total":"ټول"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"امستنې",
         "lang":"ژبه",
         "select":"مهرباني وکړئ غوره کړه"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"اړیکې",
         "add_dialog":"اړیکه زیاته کړه",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"د اړیکو معلومات داخل کړئ",
             "tag":"ټکي",
             "address":"اړیکې",
             "tag_placeholder":"مهرباني وکړئ د اړیکو د تبصرې ټکي وليکئ",
             "address_placeholder":"مهرباني وکړئ د اړیکو حساب ولیکئ"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"تاسو لرې کول"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"مهرباني وکړئ د حساب نوم ولیکئ",
             "no_address":"مهرباني وکړئ د حساب پته ولیکئ",
             "valid_address":"د اړیکو پته غیر قانوني ده",
             "exist":"اړیکې لا دمخه شتون لري،"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"لیږدول",
         "to_address":"په",
         "amount":"مقدار",
@@ -50,97 +49,165 @@
         "total":"ټول",
         "select":"مهرباني وکړئ غوره کړه",
         "no_account_info":"نه حساب، لطفا د حساب جوړولو یا واردول",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"مهرباني وکړئ غوره کړه"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"مهرباني وکړئ تایید کړئ",
             "enter_passworld_tit":"لطفا خپل پټنوم داخلیږی",
             "enter_passworld_place":"لطفا خپل پټنوم داخلیږی"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"د پیپر پیر کول ناکام شو، کیدای شي د شفر غلطۍ وي",
             "address_err":"د راتلونکی پته فارم غیر قانوني دی",
             "send_success":"بریالیتوب واستوئ",
             "send_error":"معامله ناکامه شوه: لطفا وګورئ چې آیا کافی اندازه توازن او د کانونو فیس شتون لري"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"د راکړې ورکړې تاریخ",
         "transfer_log_null":"د لیږد تاریخ نه",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"د لیږد پیل",
             "import_keystore":"کیسټور",
             "qrcode":"د QR کود"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"تعدیل یادښت",
             "subtit":"د خپل حساب لپاره یوه نښه نښه کړئ"
         },
-        "keystore":{
+        "keystore": {
             "tit":"د کیسټۍ شاتړ",
             "copy":"نقل",
             "download":"د کیلي ښکته کول"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"پته نقل شوی",
             "key_copy_success":"په بریالیتوب سره کاپي شوی"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"حساب وارد کړئ",
         "add_account":"نوی حساب",
         "acc":"ګڼون",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"ګڼون جوړول",
             "backup_tit":"خپل نوی حساب بیرته پورته کړئ",
-
             "create_tag":"د کارن نوم",
             "create_pwd":"پټنوم ولیکه",
             "create_repwd":"پټنوم تایید کړه",
-
             "placeholder_tag":"لطفا د حساب نوم ولیکئ",
             "placeholder_pwd":"مهرباني وکړئ د حساب پټنوم ولیکئ",
             "placeholder_repwd":"مهرباني وکړئ د حساب پټنوم تایید کړئ",
-            "strong_password":"لږترلږه 8 هګۍ",
-
+            "strong_password":"لږترلږه 8 ګوتو کې پټنوم وليکئ",
             "account_address":"ګڼون",
             "account_privateKey":"شخصي کیلي",
-            "account_download_keystore":"د کیلي دوتنه ډاونلوډ کړئ"
+            "account_download_keystore":"د ګڼون د دوتنې فایل"
         },
-        "import_dia":{
-            "tit":"حساب وارد کړئ",
-            "select_type":"مهرباني وکړئ د واردولو طریقه وټاکئ",
-            "type_private":"شخصي کیلي",
-            "type_keystore":"کیسټور",
-
-            "placeholder_private":"مهرباني وکړئ شخصي کیلي دلته وټاکئ",
-            "placeholder_keystore":"لطفا د کیلي فایل فایل دلته وپلټئ",
-
-            "input_pwd":"شفر ورکړه",
-            "placeholder_pwd":"مهرباني وکړئ خپل د حساب پټنوم ولیکئ"
-
+        "import_dia": {
+            "tit":"حساب وارد کړئ",    
+            "placeholder_keystore":"لطفا د حساب فايل دلته وځنډئ",
+            "create_tag":"د کارن نوم",
+            "placeholder_tag":"لطفا د حساب نوم ولیکئ"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"ایا ته باوري یې چې تاسو یې لیرې کول غواړئ؟",
             "remove_confrim":"زه ډاډه یم چې لیرې کړم",
-            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې حساب د شتمنیو د زیان څخه مخنیوي لپاره ملاتړ شوی"
+            "backup":"مهرباني وکړئ د شتمنۍ د زیان څخه مخنیوی لپاره د دې حساب بیک اپ یاد کړئ",
+            "input_pwd":"شفر",
+            "placeholder_pwd":"لطفا د دې ګڼون لپاره پټنوم وليکئ"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"دا حساب لا دمخه شتون لري، نوم دی",
             "enter_password":"لطفا خپل پټنوم داخلیږی",
             "incons_password":"ننوتل شوي دوه ځله ناڅاپي دي",
             "error":"تېروتنه:",
             "imported_success":"دوتنه په بریالیتوب وارد کړه",
+            "imported_account_success":"په بریالیتوب وارد شوی",
             "enter_private":"لطفا کلیمه وليکئ",
             "error_private":"د حساب واردولو کې پاتې راغلل، دا ممکن غلط کلیدی وي",
-            "enter_keystore":"لطفا لومړی د کیلي فایل وارد کړئ",
+            "enter_keystore":"مهرباني وکړئ لومړی د حساب فایل وارد کړئ",
             "error_password":"د حساب واردولو کې پاتې راغلل، دا ممکن ناسم شفر وي",
             "remove_success":"بریالی شوی",
             "create_success":"په بریالیتوب سره جوړ شو",
-            "save":"لطفا خپل کلیسټ یا شخصي کیلي خوندي کړئ او د چا سره یې شریک نه کړئ!"
+            "save":"لطفا خپل د حساب فایل وساتئ او د چا سره یې شریک نه کړئ!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"والټ جوړول",
+        "import_wallet":"وولټ وارد کړئ",
+        "back_up":"د بیک اپ والټ",
+        "add_account":"نوی حساب",
+        "acc":"ګڼون",
+        "wallet":"والټ",
+        "create_dia": {
+            "create_tit":"ګڼون جوړول",
+            "backup_tit":"خپل نوی حساب بیرته پورته کړئ",
+            "create_tag":"د کارن نوم",
+            "create_pwd":"پټنوم ولیکه",
+            "create_repwd":"پټنوم تایید کړه",
+            "placeholder_tag":"لطفا د حساب نوم ولیکئ",
+            "placeholder_pwd":"مهرباني وکړئ د حساب پټنوم ولیکئ",
+            "placeholder_repwd":"مهرباني وکړئ د حساب پټنوم تایید کړئ",
+            "strong_password":"لږترلږه 8 هګۍ",
+            "account_address":"ګڼون",
+            "account_privateKey":"شخصي کیلي",
+            "account_download_keystore":"د کیلي دوتنه ډاونلوډ کړئ"
+        },
+        "create_wallet_dia": {
+            "create_tit":"والټ جوړول",
+            "backup_tit":"خپل نوی واټ بیکار کړئ",
+            "create_tag":"د وال نوم",
+            "create_pwd":"پټنوم ولیکه",
+            "create_repwd":"پټنوم تایید کړه",
+            "placeholder_tag":"مهرباني وکړئ د والټ نوم ولیکئ",
+            "placeholder_pwd":"مهرباني وکړئ د والیت پاسورډ وټاکئ",
+            "placeholder_repwd":"مهرباني وکړئ د والیت پاسورډ تایید کړئ",
+            "strong_password":"لږترلږه 8 هګۍ",
+            "wallet_address":"والټ",
+            "download_wallet_file":"د بالیټ دوتنې ډاونلوډ کړئ"
+        },
+        "import_wallet_dia": {
+            "tit":"وولټ وارد کړئ",
+            "placeholder_keystore":"لطفا دلته د واالټ فایلونه وباسئ",
+            "placeholder_tag":"مهرباني وکړئ د والټ نوم ولیکئ",
+            "create_tag":"د وال نوم",
+            "input_pwd":"شفر ورکړه",
+            "placeholder_pwd":"مهرباني وکړئ خپل وولټ پاسورډ داخل کړئ"
+        },
+        "remove_dia": {
+            "tit":"ایا تاسو ډاډه یاست چې تاسو غواړئ له منځه یوسي؟",
+            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
+            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې والټ یې د ملکیتونو د زیان څخه مخنیوي لپاره ملاتړ شوی دی"
+        },
+        "remove_wallet_dia": {
+            "tit":"ایا ته باوري یې چې تاسو یې لیرې کول غواړئ؟",
+            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
+            "backup":"مهرباني وکړئ ډاډ ترلاسه کړئ چې والټ یې د ملکیتونو د زیان څخه مخنیوي لپاره ملاتړ شوی دی"
+        },
+        "backup_wallet_dia": {
+            "tit":"خپل د والټ فایل پورته کړه",
+            "remove_confrim":"زه ډاډه یم چې لیرې کړم",
+            "backup":"د خپل وایلټ فایل بیک اپ لپاره د ټیکلو کلیک وکړئ",
+            "download":"کښته کول"
+        },
+        "msg_info": {
+            "exist":"لا دمخه شتون لري، نوم دی",
+            "wallet_tag_error":"مهرباني وکړئ د والټ نوم ولیکئ",
+            "enter_password":"لطفا خپل پټنوم داخلیږی",
+            "incons_password":"ننوتل شوي دوه ځله ناڅاپي دي",
+            "error":"تېروتنه:",
+            "imported_success":"دوتنه په بریالیتوب وارد کړه",
+            "imported_wallet_success":"والر په بریالیتوب سره وارد شو",
+            "enter_private":"لطفا کلیمه وليکئ",
+            "error_private":"د حساب واردولو کې پاتې راغلل، دا ممکن غلط کلیدی وي",
+            "enter_keystore":"مهرباني وکړئ لومړی د والټ فایل وارد کړئ",
+            "error_password":"د حساب واردولو کې پاتې راغلل، دا ممکن ناسم شفر وي",
+            "remove_success":"بریالی شوی",
+            "create_success":"په بریالیتوب سره جوړ شو",
+            "acc_create_success_des":"د حساب پتې د CZR ترلاسه کولو لپاره کارول کیدی شي",
+            "acc_wallet_success_des":"خپل د والټ فایلونه بیرته پورته کړئ، هیڅوک مه مه وایئ",
+            "save":"لطفا خپل کليسټ وساتئ او له چا سره یې شریک نه کړئ!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"Pront",
     "close":"Magħluq",
     "confirm_you_active":"Jekk jogħġbok ikkonferma l-operazzjoni tiegħek",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Dar",
         "transfer":"Trasferiment",
         "contacts":"Kuntatti",
         "setting":"Settings",
         "total":"Totali"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Settings",
         "lang":"Lingwa",
         "select":"Jekk jogħġbok agħżel"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kuntatti",
         "add_dialog":"Żid kuntatt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Daħħal informazzjoni ta 'kuntatt",
             "tag":"Tags",
             "address":"Kuntatti",
             "tag_placeholder":"Jekk jogħġbok ikteb it-tikketta tal-kumment tal-kuntatt",
             "address_placeholder":"Jekk jogħġbok ikteb il-kont tal-kuntatt"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Int qed tneħħi"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Jekk jogħġbok daħħal l-isem tal-kont",
             "no_address":"Jekk jogħġbok daħħal l-indirizz tal-kont",
             "valid_address":"L-indirizz tal-kuntatt huwa illegali",
             "exist":"Il-kuntatt diġà jeżisti,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Trasferiment barra",
         "to_address":"Into",
         "amount":"Ammont",
@@ -50,97 +49,165 @@
         "total":"Totali",
         "select":"Jekk jogħġbok agħżel",
         "no_account_info":"L-ebda kont, jekk joħolqu jew jimportaw il-kont",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Jekk jogħġbok agħżel"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Jekk jogħġbok ikkonferma",
             "enter_passworld_tit":"Jekk jogħġbok daħħal il-password tiegħek",
             "enter_passworld_place":"Jekk jogħġbok daħħal il-password tiegħek"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
             "address_err":"Il-format ta 'l-indirizz li jmiss huwa illegali",
             "send_success":"Ibgħat suċċess",
             "send_error":"Tranżizzjoni naqset: Jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u l-miżata tal-minatur"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"L-istorja tat-tranżazzjoni",
         "transfer_log_null":"L-ebda storja ta 'transazzjoni",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Ibda t-trasferiment",
             "import_keystore":"Keystore",
             "qrcode":"Kodiċi QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Tibdel in-nota",
             "subtit":"Immarka nota għall-kont tiegħek"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Irsaq il-keystore",
             "copy":"Duplikat",
             "download":"Download keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"L-indirizz ġie kkupjat",
             "key_copy_success":"Kopja b'suċċess"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Kont ta 'importazzjoni",
         "add_account":"Kont ġdid",
         "acc":"Kont",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Oħloq kont",
             "backup_tit":"Iffrankar il-kont il-ġdid tiegħek",
-
             "create_tag":"Isem tal-kont",
             "create_pwd":"Set password",
             "create_repwd":"Ikkonferma l-password",
-
             "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont",
             "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kont",
             "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kont",
-            "strong_password":"Daħħal password soda, mill-inqas 8 ċifri",
-
+            "strong_password":"Daħħal password ta 'mill-inqas 8 ċifri",
             "account_address":"Kont",
             "account_privateKey":"Ċavetta privata",
-            "account_download_keystore":"Niżżel il-fajl keystore"
+            "account_download_keystore":"Fajl tal-kont Download"
         },
-        "import_dia":{
-            "tit":"Kont ta 'importazzjoni",
-            "select_type":"Jekk jogħġbok agħżel il-metodu tal-importazzjoni",
-            "type_private":"Ċavetta privata",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Jekk jogħġbok agħmel iċ-ċavetta privata hawnhekk",
-            "placeholder_keystore":"Jekk jogħġbok drag il-fajl keystore hawn",
-
-            "input_pwd":"Daħħal il-password",
-            "placeholder_pwd":"Jekk jogħġbok daħħal il-password tal-kont tiegħek"
-
+        "import_dia": {
+            "tit":"Kont ta 'importazzjoni",    
+            "placeholder_keystore":"Jekk jogħġbok drag il-fajl tal-kont hawn",
+            "create_tag":"Isem tal-kont",
+            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Int żgur li trid tneħħih?",
             "remove_confrim":"Jiena ċert li tneħħi",
-            "backup":"Jekk jogħġbok kun żgur li l-kont ġie sostnut biex tiġi evitata ħsara lill-proprjetà"
+            "backup":"Jekk jogħġbok innota l-backup ta 'dan il-kont biex tevita ħsara fil-proprjetà",
+            "input_pwd":"Password",
+            "placeholder_pwd":"Jekk jogħġbok daħħal il-password għal dan il-kont"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Dan il-kont diġà jeżisti, l-isem huwa",
             "enter_password":"Jekk jogħġbok daħħal il-password tiegħek",
             "incons_password":"Il-password mdaħħla darbtejn hija inkonsistenti",
             "error":"Żball:",
             "imported_success":"Importa fajl b'suċċess",
+            "imported_account_success":"Importat b'suċċess",
             "enter_private":"Jekk jogħġbok daħħal iċ-ċavetta",
             "error_private":"Fin-nuqqas ta 'importazzjoni tal-kont, jista' jkun il-kjavi żbaljat",
-            "enter_keystore":"Jekk jogħġbok importa l-fajl keystore l-ewwel",
+            "enter_keystore":"Jekk jogħġbok importa l-fajl tal-kont l-ewwel",
             "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
             "remove_success":"Mneħħija b'suċċess",
             "create_success":"Maħluq b'suċċess",
-            "save":"Jekk jogħġbok ħlief il-keystore jew iċ-ċavetta privata tiegħek u ma taqsamha ma 'ħaddieħor!"
+            "save":"Jekk jogħġbok salva l-fajl tal-kont tiegħek u ma taqsamha ma 'ħaddieħor!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Oħloq Wallet",
+        "import_wallet":"Kartiera għall-importazzjoni",
+        "back_up":"Kartuna ta 'sostenn",
+        "add_account":"Kont ġdid",
+        "acc":"Kont",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"Oħloq kont",
+            "backup_tit":"Iffrankar il-kont il-ġdid tiegħek",
+            "create_tag":"Isem tal-kont",
+            "create_pwd":"Set password",
+            "create_repwd":"Ikkonferma l-password",
+            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont",
+            "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kont",
+            "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kont",
+            "strong_password":"Daħħal password soda, mill-inqas 8 ċifri",
+            "account_address":"Kont",
+            "account_privateKey":"Ċavetta privata",
+            "account_download_keystore":"Niżżel il-fajl keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Oħloq Wallet",
+            "backup_tit":"Lura l-kartiera l-ġdida tiegħek",
+            "create_tag":"Isem tal-kartiera",
+            "create_pwd":"Set password",
+            "create_repwd":"Ikkonferma l-password",
+            "placeholder_tag":"Jekk jogħġbok issib l-isem tal-kartiera",
+            "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kartiera",
+            "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kartiera",
+            "strong_password":"Daħħal password soda, mill-inqas 8 ċifri",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"Niżżel il-fajl tal-kartiera"
+        },
+        "import_wallet_dia": {
+            "tit":"Kartiera għall-importazzjoni",
+            "placeholder_keystore":"Jekk jogħġbok iġbed il-fajls tal-kartiera hawn",
+            "placeholder_tag":"Jekk jogħġbok issib l-isem tal-kartiera",
+            "create_tag":"Isem tal-kartiera",
+            "input_pwd":"Daħħal il-password",
+            "placeholder_pwd":"Jekk jogħġbok daħħal il-password tal-kartiera tiegħek"
+        },
+        "remove_dia": {
+            "tit":"Int żgur li trid tneħħi l-kartiera?",
+            "remove_confrim":"Jiena ċert li tneħħi",
+            "backup":"Jekk jogħġbok kun żgur li l-kartiera ġiet appoġġjata biex tevita ħsara fil-proprjetà"
+        },
+        "remove_wallet_dia": {
+            "tit":"Int żgur li trid tneħħih?",
+            "remove_confrim":"Jiena ċert li tneħħi",
+            "backup":"Jekk jogħġbok kun żgur li l-kartiera ġiet appoġġjata biex tevita ħsara fil-proprjetà"
+        },
+        "backup_wallet_dia": {
+            "tit":"Lura l-fajl tal-kartiera tiegħek",
+            "remove_confrim":"Jiena ċert li tneħħi",
+            "backup":"Ikklikkja Download biex issostni l-fajl tal-kartiera tiegħek",
+            "download":"Niżżel"
+        },
+        "msg_info": {
+            "exist":"Diġà jeżisti, l-isem huwa",
+            "wallet_tag_error":"Jekk jogħġbok daħħal l-isem tal-kartiera",
+            "enter_password":"Jekk jogħġbok daħħal il-password tiegħek",
+            "incons_password":"Il-password mdaħħla darbtejn hija inkonsistenti",
+            "error":"Żball:",
+            "imported_success":"Importa fajl b'suċċess",
+            "imported_wallet_success":"Kartiera importat b'suċċess",
+            "enter_private":"Jekk jogħġbok daħħal iċ-ċavetta",
+            "error_private":"Fin-nuqqas ta 'importazzjoni tal-kont, jista' jkun il-kjavi żbaljat",
+            "enter_keystore":"Jekk jogħġbok l-ewwel timporta l-kartiera tal-kartiera",
+            "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
+            "remove_success":"Mneħħija b'suċċess",
+            "create_success":"Maħluq b'suċċess",
+            "acc_create_success_des":"L-indirizz tal-kont jista 'jintuża biex jirċievi CZR",
+            "acc_wallet_success_des":"L-appoġġ tal-fajls tal-kartiera tiegħek, ma tgħid lil ħaddieħor",
+            "save":"Jekk jogħġbok salva l-keystore tiegħek u ma taqsamha ma 'ħaddieħor!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"Захиалга",
     "close":"Хаалттай байна",
     "confirm_you_active":"Үйл ажиллагааг баталгаажуулна уу",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Нүүр хуудас",
         "transfer":"Шилжүүлэх",
         "contacts":"Харилцагчид",
         "setting":"Тохиргоо",
         "total":"Нийт"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Тохиргоо",
         "lang":"Хэл",
         "select":"Сонгоно уу"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Харилцагчид",
         "add_dialog":"Харилцагч нэмэх",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Харилцагчийн мэдээллийг оруулна уу",
             "tag":"Сэдвийн",
             "address":"Харилцагчид",
             "tag_placeholder":"Харилцагчийн коммандын тайлбарыг оруулна уу",
             "address_placeholder":"Харилцагчийн хаягаа оруулна уу"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Та устгаж байна"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Акаунтын нэрийг оруулна уу",
             "no_address":"Акаунтын хаяг оруулна уу",
             "valid_address":"Холбоо барих хаяг нь хууль бус юм",
             "exist":"Харилцагч аль хэдийн орсон байна,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Дамжуулалт",
         "to_address":"Руу",
         "amount":"Дүн",
@@ -50,97 +49,165 @@
         "total":"Нийт",
         "select":"Сонгоно уу",
         "no_account_info":"Харилцах данс үүсгэх эсвэл импорт хийх боломжтой",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Сонгоно уу"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Баталгаажуулна уу",
             "enter_passworld_tit":"Нууц үгээ оруулна уу",
             "enter_passworld_place":"Нууц үгээ оруулна уу"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Wallet түрийвч амжилтгүй болсон нь нууц үгийн алдаа байж болох юм",
             "address_err":"Ирж буй хаягийн хэлбэр нь хууль бус юм",
             "send_success":"Амжилтыг илгээх",
             "send_error":"Гүйлгээ амжилтгүй болсон: Баланс, уурхайчдын төлбөр хангалттай эсэхийг шалгана уу"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Гүйлгээний түүх",
         "transfer_log_null":"Ямар ч гүйлгээний түүх алга",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Шилжүүлгийг эхлүүлэх",
             "import_keystore":"Үндсэн дэлгүүр",
             "qrcode":"QR код"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Тэмдэглэлийг өөрчлөх",
             "subtit":"Өөрийн акаунтын тэмдэглэлийг тэмдэглэ"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Үндсэн цистернийг нөөцөл",
             "copy":"Давхардсан",
             "download":"Түлхүүр татаж авах"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Хаяг хуулагдсан байна",
             "key_copy_success":"Амжилттай хуулбарлав"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Дансыг импорт хийх",
         "add_account":"Шинэ данс",
         "acc":"Бүртгэл",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Бүртгэл үүсгэх",
             "backup_tit":"Шинэ дансаа нөөцлөх",
-
             "create_tag":"Дансны нэр",
             "create_pwd":"Нууц үгийг тохируулна уу",
             "create_repwd":"Нууц үгээ баталгаажуулна уу",
-
             "placeholder_tag":"Акаунтын нэрийг тохируулна уу",
             "placeholder_pwd":"Акаунтын нууц үгийг тохируулна уу",
             "placeholder_repwd":"Акаунтын нууц үгийг баталгаажуулна уу",
-            "strong_password":"Хүчтэй нууц үгээ оруулах, доод тал нь 8 цифр",
-
+            "strong_password":"Хамгийн багадаа 8 оронтой нууц үг оруулна уу",
             "account_address":"Бүртгэл",
             "account_privateKey":"Хувийн түлхүүр",
-            "account_download_keystore":"Keystore файлыг татаж авна уу"
+            "account_download_keystore":"Бүртгэлийн файлыг татаж авах"
         },
-        "import_dia":{
-            "tit":"Дансыг импорт хийх",
-            "select_type":"Импортын аргыг сонгоно уу",
-            "type_private":"Хувийн түлхүүр",
-            "type_keystore":"Үндсэн дэлгүүр",
-
-            "placeholder_private":"Хувийн түлхүүрийг энд дарна уу",
-            "placeholder_keystore":"Keystore файлыг эндээс татаж авна уу",
-
-            "input_pwd":"Нууц үгээ оруулна уу",
-            "placeholder_pwd":"Өөрийн акаунтын нууц үгийг оруулна уу"
-
+        "import_dia": {
+            "tit":"Дансыг импорт хийх",    
+            "placeholder_keystore":"Бүртгэлийн файлыг эндээс татаж авна уу",
+            "create_tag":"Дансны нэр",
+            "placeholder_tag":"Акаунтын нэрийг тохируулна уу"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Та үүнийг арилгахдаа итгэлтэй байна уу?",
             "remove_confrim":"Би устгах гэж байна",
-            "backup":"Хөрөнгийн хохирлыг арилгахын тулд бүртгэлийг нөөцлөгдсөн эсэхийг шалгана уу"
+            "backup":"Хөрөнгийн хохирлыг арилгахын тулд энэ дансны нөөцийг анхаарна уу",
+            "input_pwd":"Нууц үг",
+            "placeholder_pwd":"Энэ акаунтын нууц үгийг оруулна уу"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Энэ акаунт аль хэдийн орсон байна, нэр нь",
             "enter_password":"Нууц үгээ оруулна уу",
             "incons_password":"Нууц үг оруулсан хоёр удаа зөрүүтэй байна",
             "error":"Алдаа:",
             "imported_success":"Импортыг амжилттай болгох",
+            "imported_account_success":"Импорт амжилттай болсон",
             "enter_private":"Түлхүүрийг оруулна уу",
             "error_private":"Акаунтыг импортлож чадсангүй, энэ нь буруу түлхүүр байж магадгүй",
-            "enter_keystore":"Анхдагч гол файлыг импортло уу",
+            "enter_keystore":"Бүртгэлийн файлаа эхлээд оруулна уу",
             "error_password":"Акаунтыг импортлож чадсангүй, энэ нь буруу нууц үг байж магадгүй",
             "remove_success":"Амжилттай болсон",
             "create_success":"Амжилттай үүсгэсэн",
-            "save":"Өөрийн түлхүүрний цаана эсвэл хувийн түлхүүрийг хадгалж, хэнтэй ч хуваалцахгүй байх!"
+            "save":"Өөрийн бүртгэлийн файлыг хадгалж, хэнтэй ч хуваалцахгүй байх!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Wallet-г үүсгээрэй",
+        "import_wallet":"Импорт түрийвч",
+        "back_up":"Нөөцлөх түрийвч",
+        "add_account":"Шинэ данс",
+        "acc":"Бүртгэл",
+        "wallet":"Түрийвч",
+        "create_dia": {
+            "create_tit":"Бүртгэл үүсгэх",
+            "backup_tit":"Шинэ дансаа нөөцлөх",
+            "create_tag":"Дансны нэр",
+            "create_pwd":"Нууц үгийг тохируулна уу",
+            "create_repwd":"Нууц үгээ баталгаажуулна уу",
+            "placeholder_tag":"Акаунтын нэрийг тохируулна уу",
+            "placeholder_pwd":"Акаунтын нууц үгийг тохируулна уу",
+            "placeholder_repwd":"Акаунтын нууц үгийг баталгаажуулна уу",
+            "strong_password":"Хүчтэй нууц үгээ оруулах, доод тал нь 8 цифр",
+            "account_address":"Бүртгэл",
+            "account_privateKey":"Хувийн түлхүүр",
+            "account_download_keystore":"Keystore файлыг татаж авна уу"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Wallet-г үүсгээрэй",
+            "backup_tit":"Шинэ хэтэвчээ нөөцлөх",
+            "create_tag":"Түрийвч нэр",
+            "create_pwd":"Нууц үгийг тохируулна уу",
+            "create_repwd":"Нууц үгээ баталгаажуулна уу",
+            "placeholder_tag":"Түрийвч нэрийг тохируулна уу",
+            "placeholder_pwd":"Түрийвч нууц үгийг тохируулна уу",
+            "placeholder_repwd":"Дурын нууц үгийг баталгаажуулна уу",
+            "strong_password":"Хүчтэй нууц үгээ оруулах, доод тал нь 8 цифр",
+            "wallet_address":"Түрийвч",
+            "download_wallet_file":"Түрийвч файлыг татаж авах"
+        },
+        "import_wallet_dia": {
+            "tit":"Импорт түрийвч",
+            "placeholder_keystore":"Эндээс түрийвч файлыг татаж аваарай",
+            "placeholder_tag":"Түрийвч нэрийг тохируулна уу",
+            "create_tag":"Түрийвч нэр",
+            "input_pwd":"Нууц үгээ оруулна уу",
+            "placeholder_pwd":"Түрийвчээ нууц үгээ оруулна уу"
+        },
+        "remove_dia": {
+            "tit":"Та түрийвчээ хасахдаа итгэлтэй байна уу?",
+            "remove_confrim":"Би устгах гэж байна",
+            "backup":"Эд хөрөнгийг гэмтээхээс зайлсхийхийн тулд хэтэвчээ хадгалсан эсэхийг шалгана уу"
+        },
+        "remove_wallet_dia": {
+            "tit":"Та үүнийг арилгахдаа итгэлтэй байна уу?",
+            "remove_confrim":"Би устгах гэж байна",
+            "backup":"Эд хөрөнгийг гэмтээхээс зайлсхийхийн тулд хэтэвчээ хадгалсан эсэхийг шалгана уу"
+        },
+        "backup_wallet_dia": {
+            "tit":"Түрийвч файлаа нөөцлөх",
+            "remove_confrim":"Би устгах гэж байна",
+            "backup":"Түр хадгалагчийн файлаа нөөцөлж авахын тулд дарна уу",
+            "download":"Татаж авах"
+        },
+        "msg_info": {
+            "exist":"Аль хэдийн нэр гарсан байна",
+            "wallet_tag_error":"Түрийвч нэрийг оруулна уу",
+            "enter_password":"Нууц үгээ оруулна уу",
+            "incons_password":"Нууц үг оруулсан хоёр удаа зөрүүтэй байна",
+            "error":"Алдаа:",
+            "imported_success":"Импортыг амжилттай болгох",
+            "imported_wallet_success":"Түрийвч амжилттай импортлов",
+            "enter_private":"Түлхүүрийг оруулна уу",
+            "error_private":"Акаунтыг импортлож чадсангүй, энэ нь буруу түлхүүр байж магадгүй",
+            "enter_keystore":"Эхлээд түрийвч файлыг оруулна уу",
+            "error_password":"Акаунтыг импортлож чадсангүй, энэ нь буруу нууц үг байж магадгүй",
+            "remove_success":"Амжилттай болсон",
+            "create_success":"Амжилттай үүсгэсэн",
+            "acc_create_success_des":"Хаягны хаягийг CZR хүлээн авахад ашиглаж болно",
+            "acc_wallet_success_des":"Та түрийвчний файлаа нөөцлөе, хэн нэгэнд хэлэхгүй",
+            "save":"Өөрийн түлхүүрний дэлгүүрээ хадгалж, хэнтэй ч хуваалцахгүй байх!"
         }
     }
-
 }

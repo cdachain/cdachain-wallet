@@ -4,43 +4,42 @@
     "dialog_tit":"プロンプト",
     "close":"クローズド",
     "confirm_you_active":"あなたの操作を確認してください",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"ホーム",
         "transfer":"転送",
         "contacts":"連絡先",
         "setting":"設定",
         "total":"合計"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"設定",
         "lang":"言語",
         "select":"選択してください"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"連絡先",
         "add_dialog":"連絡先を追加",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"連絡先情報を入力してください",
             "tag":"タグ",
             "address":"連絡先",
             "tag_placeholder":"連絡先のコメントタグを入力してください",
             "address_placeholder":"連絡先のアカウントを入力してください"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"あなたは削除しています"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"アカウント名を入力してください",
             "no_address":"アカウントのアドレスを入力してください",
             "valid_address":"連絡先のアドレスが不正です",
             "exist":"連絡先は既に存在しますが、"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"転送する",
         "to_address":"入る",
         "amount":"金額",
@@ -50,97 +49,165 @@
         "total":"合計",
         "select":"選択してください",
         "no_account_info":"アカウントがありません。アカウントを作成またはインポートしてください",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"選択してください"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"確認してください",
             "enter_passworld_tit":"パスワードを入力してください",
             "enter_passworld_place":"パスワードを入力してください"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
             "address_err":"着信アドレス形式が不正です",
             "send_success":"成功を送る",
             "send_error":"取引に失敗しました：十分な残高と鉱夫の手数料があるかどうか確認してください"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"取引履歴",
         "transfer_log_null":"取引履歴はありません",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"転送を開始する",
             "import_keystore":"キーストア",
             "qrcode":"QRコード"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"メモを変更する",
             "subtit":"あなたのアカウントのメモをマークする"
         },
-        "keystore":{
+        "keystore": {
             "tit":"キーストアをバックアップする",
             "copy":"重複",
             "download":"キーストアをダウンロードする"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"アドレスがコピーされました",
             "key_copy_success":"コピーが成功しました"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"アカウントをインポートする",
         "add_account":"新しいアカウント",
         "acc":"アカウント",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"アカウントを作成する",
             "backup_tit":"新しいアカウントをバックアップする",
-
             "create_tag":"アカウント名",
             "create_pwd":"パスワードを設定する",
             "create_repwd":"パスワードを確認する",
-
             "placeholder_tag":"アカウント名を設定してください",
             "placeholder_pwd":"アカウントのパスワードを設定してください",
             "placeholder_repwd":"アカウントのパスワードを確認してください",
-            "strong_password":"パスワードを8桁以上入力してください",
-
+            "strong_password":"少なくとも8桁のパスワードを入力してください",
             "account_address":"アカウント",
             "account_privateKey":"秘密鍵",
-            "account_download_keystore":"キーストアファイルをダウンロードする"
+            "account_download_keystore":"アカウントファイルをダウンロードする"
         },
-        "import_dia":{
-            "tit":"アカウントをインポートする",
-            "select_type":"インポート方法を選択してください",
-            "type_private":"秘密鍵",
-            "type_keystore":"キーストア",
-
-            "placeholder_private":"ここに秘密鍵を貼り付けてください",
-            "placeholder_keystore":"ここにキーストアファイルをドラッグしてください",
-
-            "input_pwd":"パスワードを入力",
-            "placeholder_pwd":"アカウントのパスワードを入力してください"
-
+        "import_dia": {
+            "tit":"アカウントをインポートする",    
+            "placeholder_keystore":"ここにアカウントファイルをドラッグしてください",
+            "create_tag":"アカウント名",
+            "placeholder_tag":"アカウント名を設定してください"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"それを削除してもよろしいですか？",
             "remove_confrim":"私は必ず削除します",
-            "backup":"物的損害を防ぐためにアカウントがバックアップされていることを確認してください"
+            "backup":"物的損害を避けるため、このアカウントのバックアップに注意してください",
+            "input_pwd":"パスワード",
+            "placeholder_pwd":"このアカウントのパスワードを入力してください"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"このアカウントは既に存在し、その名前は",
             "enter_password":"パスワードを入力してください",
             "incons_password":"2回入力したパスワードが矛盾しています",
             "error":"エラー：",
             "imported_success":"ファイルを正常にインポートする",
+            "imported_account_success":"正しくインポートされました",
             "enter_private":"キーを入力してください",
             "error_private":"アカウントのインポートに失敗しました。間違ったキーである可能性があります",
-            "enter_keystore":"キーストアファイルを最初にインポートしてください",
+            "enter_keystore":"最初にアカウントファイルをインポートしてください",
             "error_password":"アカウントのインポートに失敗しました。パスワードが間違っている可能性があります",
             "remove_success":"削除されました",
             "create_success":"作成済み",
-            "save":"キーストアまたは秘密鍵を保存して、誰とも共有しないでください！"
+            "save":"あなたのアカウントファイルを保存し、誰とも共有しないでください！"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"ウォレットを作成",
+        "import_wallet":"ウォレットをインポートする",
+        "back_up":"バックアップウォレット",
+        "add_account":"新しいアカウント",
+        "acc":"アカウント",
+        "wallet":"ウォレット",
+        "create_dia": {
+            "create_tit":"アカウントを作成する",
+            "backup_tit":"新しいアカウントをバックアップする",
+            "create_tag":"アカウント名",
+            "create_pwd":"パスワードを設定する",
+            "create_repwd":"パスワードを確認する",
+            "placeholder_tag":"アカウント名を設定してください",
+            "placeholder_pwd":"アカウントのパスワードを設定してください",
+            "placeholder_repwd":"アカウントのパスワードを確認してください",
+            "strong_password":"パスワードを8桁以上入力してください",
+            "account_address":"アカウント",
+            "account_privateKey":"秘密鍵",
+            "account_download_keystore":"キーストアファイルをダウンロードする"
+        },
+        "create_wallet_dia": {
+            "create_tit":"ウォレットを作成",
+            "backup_tit":"新しいウォレットをバックアップする",
+            "create_tag":"ウォレット名",
+            "create_pwd":"パスワードを設定する",
+            "create_repwd":"パスワードを確認する",
+            "placeholder_tag":"ウォレット名を設定してください",
+            "placeholder_pwd":"ウォレットのパスワードを設定してください",
+            "placeholder_repwd":"ウォレットのパスワードを確認してください",
+            "strong_password":"パスワードを8桁以上入力してください",
+            "wallet_address":"ウォレット",
+            "download_wallet_file":"ウォレットファイルをダウンロードする"
+        },
+        "import_wallet_dia": {
+            "tit":"ウォレットをインポートする",
+            "placeholder_keystore":"ウォレットファイルをここに引っ張ってください",
+            "placeholder_tag":"ウォレット名を設定してください",
+            "create_tag":"ウォレット名",
+            "input_pwd":"パスワードを入力",
+            "placeholder_pwd":"ウォレットのパスワードを入力してください"
+        },
+        "remove_dia": {
+            "tit":"ウォレットを削除してもよろしいですか？",
+            "remove_confrim":"私は必ず削除します",
+            "backup":"物的損害を防ぐためにウォレットがバックアップされていることを確認してください"
+        },
+        "remove_wallet_dia": {
+            "tit":"それを削除してもよろしいですか？",
+            "remove_confrim":"私は必ず削除します",
+            "backup":"物的損害を防ぐためにウォレットがバックアップされていることを確認してください"
+        },
+        "backup_wallet_dia": {
+            "tit":"ウォレットファイルをバックアップする",
+            "remove_confrim":"私は必ず削除します",
+            "backup":"Walletファイルをバックアップするには、Downloadをクリックします。",
+            "download":"ダウンロード"
+        },
+        "msg_info": {
+            "exist":"すでに存在していますが、名前は",
+            "wallet_tag_error":"ウォレット名を入力してください",
+            "enter_password":"パスワードを入力してください",
+            "incons_password":"2回入力したパスワードが矛盾しています",
+            "error":"エラー：",
+            "imported_success":"ファイルを正常にインポートする",
+            "imported_wallet_success":"ウォレットが正常にインポートされました",
+            "enter_private":"キーを入力してください",
+            "error_private":"アカウントのインポートに失敗しました。間違ったキーである可能性があります",
+            "enter_keystore":"最初にウォレットファイルをインポートしてください",
+            "error_password":"アカウントのインポートに失敗しました。パスワードが間違っている可能性があります",
+            "remove_success":"削除されました",
+            "create_success":"作成済み",
+            "acc_create_success_des":"口座アドレスはCZRの受信に使用できます",
+            "acc_wallet_success_des":"ウォレットファイルをバックアップする、誰にも知らせない",
+            "save":"キーストアを保存して、誰とも共有しないでください！"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"Èd memwa",
     "close":"Fèmen",
     "confirm_you_active":"Tanpri konfime operasyon ou",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Kay",
         "transfer":"Transfè",
         "contacts":"Kontak",
         "setting":"Anviwònman",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Anviwònman",
         "lang":"Lang",
         "select":"Tanpri chwazi"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontak",
         "add_dialog":"Add yon kontak",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Mete enfòmasyon kontak",
             "tag":"Tags",
             "address":"Kontak",
             "tag_placeholder":"Tanpri antre nan kòmantè kòmantè kontak la",
             "address_placeholder":"Tanpri antre kont kontak la"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Ou yo retire"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Tanpri antre non kont lan",
             "no_address":"Tanpri antre adrès la kont",
             "valid_address":"Adrès kontak la se ilegal",
             "exist":"Kontak la deja egziste,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Transfè soti",
         "to_address":"Nan",
         "amount":"Kantite lajan",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Tanpri chwazi",
         "no_account_info":"Pa gen kont, tanpri kreye oswa enpòte kont",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Tanpri chwazi"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Tanpri konfime",
             "enter_passworld_tit":"Tanpri antre modpas ou",
             "enter_passworld_place":"Tanpri antre modpas ou"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Bous koule echwe, kapab yon erè modpas",
             "address_err":"Fòma adrès fèk ap rantre se ilegal",
             "send_success":"Voye siksè",
             "send_error":"Tranzaksyon echwe: Tanpri tcheke si gen ase balans ak frè minè a"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Istwa tranzaksyon",
         "transfer_log_null":"Pa gen istwa tranzaksyon",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Inisye transfè",
             "import_keystore":"Keystore",
             "qrcode":"QR kòd"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modifye nòt",
             "subtit":"Make yon nòt pou kont ou"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Tounen moute keystore la",
             "copy":"Diplikata",
             "download":"Download keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adrès ki te kopye",
             "key_copy_success":"Siksè kopye"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Enpòte kont",
         "add_account":"Nouvo kont",
         "acc":"Kont",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Kreye yon kont",
             "backup_tit":"Tounen moute nouvo kont ou",
-
             "create_tag":"Non kont",
             "create_pwd":"Mete modpas",
             "create_repwd":"Konfime modpas",
-
             "placeholder_tag":"Tanpri mete non kont",
             "placeholder_pwd":"Tanpri mete modpas kont",
             "placeholder_repwd":"Tanpri konfime modpas kont la",
-            "strong_password":"Mete yon modpas fò, omwen 8 chif",
-
+            "strong_password":"Mete yon modpas nan omwen 8 chif",
             "account_address":"Kont",
             "account_privateKey":"Prive kle",
-            "account_download_keystore":"Download dosye a Keystore"
+            "account_download_keystore":"Download dosye kont"
         },
-        "import_dia":{
-            "tit":"Enpòte kont",
-            "select_type":"Tanpri chwazi metòd enpòte",
-            "type_private":"Prive kle",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Tanpri kole kle a prive isit la",
-            "placeholder_keystore":"Tanpri, trennen dosye kle a isit la",
-
-            "input_pwd":"Mete modpas",
-            "placeholder_pwd":"Tanpri antre modpas kont ou"
-
+        "import_dia": {
+            "tit":"Enpòte kont",    
+            "placeholder_keystore":"Tanpri, trennen dosye a kont isit la",
+            "create_tag":"Non kont",
+            "placeholder_tag":"Tanpri mete non kont"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Èske ou sèten ou vle retire li?",
             "remove_confrim":"Mwen asire w ke yo retire",
-            "backup":"Tanpri, asire w ke kont la te apiye moute pou fè pou evite domaj nan pwopriyete"
+            "backup":"Tanpri sonje backup sa a kont pou fè pou evite domaj sou pwopriyete",
+            "input_pwd":"Modpas",
+            "placeholder_pwd":"Tanpri antre modpas la pou kont sa a"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Kont sa a deja egziste, non an se",
             "enter_password":"Tanpri antre modpas ou",
             "incons_password":"Modpas la antre nan de fwa se konsistan",
             "error":"Erè:",
             "imported_success":"Import dosye avèk siksè",
+            "imported_account_success":"Enpòte avèk siksè",
             "enter_private":"Tanpri antre kle a",
             "error_private":"Echwe pou enpòte kont lan, li ka kle a mal",
-            "enter_keystore":"Tanpri enpòte dosye a kle premye",
+            "enter_keystore":"Tanpri enpòte dosye a kont premye",
             "error_password":"Fayit enpòte kont, li ka yon modpas mal",
             "remove_success":"Retire siksè",
             "create_success":"Kreye avèk siksè",
-            "save":"Tanpri, sove keystore ou oswa kle prive epi pa pataje li avèk nenpòt moun!"
+            "save":"Tanpri sove dosye kont ou epi pa pataje li avèk nenpòt moun!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Kreye bous",
+        "import_wallet":"Import bous",
+        "back_up":"Backup bous",
+        "add_account":"Nouvo kont",
+        "acc":"Kont",
+        "wallet":"Bous",
+        "create_dia": {
+            "create_tit":"Kreye yon kont",
+            "backup_tit":"Tounen moute nouvo kont ou",
+            "create_tag":"Non kont",
+            "create_pwd":"Mete modpas",
+            "create_repwd":"Konfime modpas",
+            "placeholder_tag":"Tanpri mete non kont",
+            "placeholder_pwd":"Tanpri mete modpas kont",
+            "placeholder_repwd":"Tanpri konfime modpas kont la",
+            "strong_password":"Mete yon modpas fò, omwen 8 chif",
+            "account_address":"Kont",
+            "account_privateKey":"Prive kle",
+            "account_download_keystore":"Download dosye a Keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Kreye bous",
+            "backup_tit":"Tounen moute bous nouvo ou",
+            "create_tag":"Bous non",
+            "create_pwd":"Mete modpas",
+            "create_repwd":"Konfime modpas",
+            "placeholder_tag":"Tanpri mete non bous",
+            "placeholder_pwd":"Tanpri mete modpas bous",
+            "placeholder_repwd":"Tanpri konfime modpas bous",
+            "strong_password":"Mete yon modpas fò, omwen 8 chif",
+            "wallet_address":"Bous",
+            "download_wallet_file":"Download dosye bous"
+        },
+        "import_wallet_dia": {
+            "tit":"Import bous",
+            "placeholder_keystore":"Tanpri rale bous dosye isit la",
+            "placeholder_tag":"Tanpri mete non bous",
+            "create_tag":"Bous non",
+            "input_pwd":"Mete modpas",
+            "placeholder_pwd":"Tanpri antre modpas bous ou"
+        },
+        "remove_dia": {
+            "tit":"Èske ou sèten ou vle retire bous la?",
+            "remove_confrim":"Mwen asire w ke yo retire",
+            "backup":"Tanpri, asire w ke bous la te apiye moute pou fè pou evite domaj sou pwopriyete a"
+        },
+        "remove_wallet_dia": {
+            "tit":"Èske ou sèten ou vle retire li?",
+            "remove_confrim":"Mwen asire w ke yo retire",
+            "backup":"Tanpri, asire w ke bous la te apiye moute pou fè pou evite domaj sou pwopriyete a"
+        },
+        "backup_wallet_dia": {
+            "tit":"Tounen moute dosye bous ou",
+            "remove_confrim":"Mwen asire w ke yo retire",
+            "backup":"Klike sou Download Download backup dosye bous ou",
+            "download":"Download"
+        },
+        "msg_info": {
+            "exist":"Deja egziste, non an se",
+            "wallet_tag_error":"Tanpri antre non bous",
+            "enter_password":"Tanpri antre modpas ou",
+            "incons_password":"Modpas la antre nan de fwa se konsistan",
+            "error":"Erè:",
+            "imported_success":"Import dosye avèk siksè",
+            "imported_wallet_success":"Bous enpòte avèk siksè",
+            "enter_private":"Tanpri antre kle a",
+            "error_private":"Echwe pou enpòte kont lan, li ka kle a mal",
+            "enter_keystore":"Tanpri enpòte dosye bous premye",
+            "error_password":"Fayit enpòte kont, li ka yon modpas mal",
+            "remove_success":"Retire siksè",
+            "create_success":"Kreye avèk siksè",
+            "acc_create_success_des":"Kont adrès ou ka itilize pou resevwa CZR",
+            "acc_wallet_success_des":"Tounen moute dosye bous ou, pa di okenn moun",
+            "save":"Tanpri sove keystore ou epi pa pataje li ak nenpòt moun!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"Preguntar",
     "close":"Tancat",
     "confirm_you_active":"Confirmeu el vostre funcionament",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Inici",
         "transfer":"Transferència",
         "contacts":"Contactes",
         "setting":"Configuració",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Configuració",
         "lang":"Llengua",
         "select":"Seleccioneu"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Contactes",
         "add_dialog":"Afegiu un contacte",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Introduïu la informació de contacte",
             "tag":"Etiquetes",
             "address":"Contactes",
             "tag_placeholder":"Introduïu l'etiqueta de comentaris del contacte",
             "address_placeholder":"Introduïu el compte de contacte"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Estàs eliminant"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Introduïu el nom del compte",
             "no_address":"Introduïu l'adreça del compte",
             "valid_address":"L'adreça del contacte és il·legal",
             "exist":"El contacte ja existeix,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Trasllat",
         "to_address":"Into",
         "amount":"Import",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Seleccioneu",
         "no_account_info":"Sense compte, creeu o importeu un compte",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Seleccioneu"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Confirma",
             "enter_passworld_tit":"Introduïu la vostra contrasenya",
             "enter_passworld_place":"Introduïu la vostra contrasenya"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Error en l'anàlisi de la cartera, pot ser un error de contrasenya",
             "address_err":"El format d'adreça entrant és il·legal",
             "send_success":"Enviar èxit",
             "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i la tarifa del miner"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Historial de transaccions",
         "transfer_log_null":"Sense historial de transaccions",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Inicieu la transferència",
             "import_keystore":"Keystore",
             "qrcode":"Codi QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modifica nota",
             "subtit":"Marqueu una nota per al vostre compte"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Feu una còpia de seguretat del magatzem de claus",
             "copy":"Duplicat",
             "download":"Baixa el magatzem de claus"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"S'ha copiat l'adreça",
             "key_copy_success":"S'ha copiat correctament"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Importar compte",
         "add_account":"Nou compte",
         "acc":"Compte",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Crea un compte",
             "backup_tit":"Feu una còpia de seguretat del vostre compte nou",
-
             "create_tag":"Nom del compte",
             "create_pwd":"Estableix la contrasenya",
             "create_repwd":"Confirma la contrasenya",
-
             "placeholder_tag":"Estableix el nom del compte",
             "placeholder_pwd":"Estableix la contrasenya del compte",
             "placeholder_repwd":"Confirmeu la contrasenya del compte",
-            "strong_password":"Introduïu una contrasenya segura, com a mínim 8 dígits",
-
+            "strong_password":"Introduïu una contrasenya d'almenys 8 dígits",
             "account_address":"Compte",
             "account_privateKey":"Clau privada",
-            "account_download_keystore":"Descarregueu el fitxer de teclat"
+            "account_download_keystore":"Baixeu el fitxer del compte"
         },
-        "import_dia":{
-            "tit":"Importar compte",
-            "select_type":"Seleccioneu el mètode d'importació",
-            "type_private":"Clau privada",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Si us plau, enganxeu la clau privada aquí",
-            "placeholder_keystore":"Arrossegueu aquí el fitxer de teclat",
-
-            "input_pwd":"Introduïu la contrasenya",
-            "placeholder_pwd":"Introduïu la contrasenya del vostre compte"
-
+        "import_dia": {
+            "tit":"Importar compte",    
+            "placeholder_keystore":"Arrossegueu aquí el fitxer del compte",
+            "create_tag":"Nom del compte",
+            "placeholder_tag":"Estableix el nom del compte"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Esteu segur que voleu eliminar-lo?",
             "remove_confrim":"Estic segur d'eliminar",
-            "backup":"Assegureu-vos que el compte s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+            "backup":"Tingueu en compte la còpia de seguretat d'aquest compte per evitar danys a la propietat",
+            "input_pwd":"Contrasenya",
+            "placeholder_pwd":"Introduïu la contrasenya d'aquest compte"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Aquest compte ja existeix i el nom és",
             "enter_password":"Introduïu la vostra contrasenya",
             "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
             "error":"Error:",
             "imported_success":"Importa el fitxer amb èxit",
+            "imported_account_success":"S'ha importat correctament",
             "enter_private":"Introduïu la clau",
             "error_private":"No s'ha pogut importar el compte, pot ser que la clau sigui incorrecta",
-            "enter_keystore":"Importeu primer el fitxer de teclat",
+            "enter_keystore":"Importeu primer el fitxer del compte",
             "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
             "remove_success":"S'ha eliminat correctament",
             "create_success":"Creat amb èxit",
-            "save":"Deseu el botó de claus o la clau privada i no ho compartiu amb ningú."
+            "save":"Deseu el fitxer del vostre compte i no el compartiu amb ningú."
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Crea un moneder",
+        "import_wallet":"Importeu la cartera",
+        "back_up":"Moneder de seguretat",
+        "add_account":"Nou compte",
+        "acc":"Compte",
+        "wallet":"Cartera",
+        "create_dia": {
+            "create_tit":"Crea un compte",
+            "backup_tit":"Feu una còpia de seguretat del vostre compte nou",
+            "create_tag":"Nom del compte",
+            "create_pwd":"Estableix la contrasenya",
+            "create_repwd":"Confirma la contrasenya",
+            "placeholder_tag":"Estableix el nom del compte",
+            "placeholder_pwd":"Estableix la contrasenya del compte",
+            "placeholder_repwd":"Confirmeu la contrasenya del compte",
+            "strong_password":"Introduïu una contrasenya segura, com a mínim 8 dígits",
+            "account_address":"Compte",
+            "account_privateKey":"Clau privada",
+            "account_download_keystore":"Descarregueu el fitxer de teclat"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Crea un moneder",
+            "backup_tit":"Feu una còpia de seguretat de la vostra nova cartera",
+            "create_tag":"Nom de la cartera",
+            "create_pwd":"Estableix la contrasenya",
+            "create_repwd":"Confirma la contrasenya",
+            "placeholder_tag":"Establiu el nom de la cartera",
+            "placeholder_pwd":"Establiu la contrasenya de la cartera",
+            "placeholder_repwd":"Confirmeu la contrasenya de la cartera",
+            "strong_password":"Introduïu una contrasenya segura, com a mínim 8 dígits",
+            "wallet_address":"Cartera",
+            "download_wallet_file":"Descarregar el fitxer de cartera"
+        },
+        "import_wallet_dia": {
+            "tit":"Importeu la cartera",
+            "placeholder_keystore":"Poseu aquí els fitxers de la cartera",
+            "placeholder_tag":"Establiu el nom de la cartera",
+            "create_tag":"Nom de la cartera",
+            "input_pwd":"Introduïu la contrasenya",
+            "placeholder_pwd":"Introduïu la contrasenya de la vostra billetera"
+        },
+        "remove_dia": {
+            "tit":"Esteu segur que voleu eliminar la cartera?",
+            "remove_confrim":"Estic segur d'eliminar",
+            "backup":"Assegureu-vos que la cartera s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+        },
+        "remove_wallet_dia": {
+            "tit":"Esteu segur que voleu eliminar-lo?",
+            "remove_confrim":"Estic segur d'eliminar",
+            "backup":"Assegureu-vos que la cartera s'hagi realitzat una còpia de seguretat per evitar danys a la propietat"
+        },
+        "backup_wallet_dia": {
+            "tit":"Feu una còpia de seguretat del vostre fitxer de cartera",
+            "remove_confrim":"Estic segur d'eliminar",
+            "backup":"Feu clic a Descarrega per fer una còpia de seguretat del vostre fitxer de cartera",
+            "download":"Descarregar"
+        },
+        "msg_info": {
+            "exist":"Ja existeix, el nom és",
+            "wallet_tag_error":"Introduïu el nom de la cartera",
+            "enter_password":"Introduïu la vostra contrasenya",
+            "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
+            "error":"Error:",
+            "imported_success":"Importa el fitxer amb èxit",
+            "imported_wallet_success":"S'ha importat amb èxit la cartera",
+            "enter_private":"Introduïu la clau",
+            "error_private":"No s'ha pogut importar el compte, pot ser que la clau sigui incorrecta",
+            "enter_keystore":"Importeu primer el fitxer de cartera",
+            "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
+            "remove_success":"S'ha eliminat correctament",
+            "create_success":"Creat amb èxit",
+            "acc_create_success_des":"L'adreça del compte es pot utilitzar per rebre CZR",
+            "acc_wallet_success_des":"Feu una còpia de seguretat dels vostres fitxers de cartera, no us diguis a ningú",
+            "save":"Deseu el vostre magatzem de claus i no el compartiu amb ningú."
         }
     }
-
 }

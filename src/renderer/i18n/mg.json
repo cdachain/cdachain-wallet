@@ -4,43 +4,42 @@
     "dialog_tit":"avy hatrany",
     "close":"Close",
     "confirm_you_active":"Azafady manamarina ny asanao",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Contact",
         "setting":"Manangana",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Manangana",
         "lang":"fiteny",
         "select":"Mifantena azafady"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Contact",
         "add_dialog":"Hanampy fifandraisana",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Ampidiro ny fampahalalana amin'ny fifandraisana",
             "tag":"Tag",
             "address":"Contact",
             "tag_placeholder":"Ampidiro azafady ny valin-kevitra momba ny fifandraisana",
             "address_placeholder":"Ampidiro azafady ny kaonty fifandraisana"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Miala ianao"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Ampidiro azafady ny anaran'ny kaonty",
             "no_address":"Ampidiro azafady ny adiresy kaonty",
             "valid_address":"Ny adiresin'ny mpifandray dia tsy ara-dalàna",
             "exist":"Efa misy ny fifandraisana,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Mialà eo",
         "to_address":"Eo an-",
         "amount":"Money",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Mifantena azafady",
         "no_account_info":"Tsy misy kaonty, azafady manamboara na manafatra kaonty",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Mifantena azafady"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Miangavy azafady",
             "enter_passworld_tit":"Ampidiro azafady ny tenimiafinao",
             "enter_passworld_place":"Ampidiro azafady ny tenimiafinao"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Tsy nahomby ny fanesorana ny kitapo, mety ho fahadisoana anaty tenimiafina",
-            "address_err":"Tsy ara-dalàna ny endriky ny adiresy fanalahidy",
+            "address_err":"Tsy ara-dalàna ny endriky ny adiresy entana",
             "send_success":"Alefaso ny fahombiazana",
             "send_error":"Tsy nahomby ny fifanarahana: Tsidiho azafady raha misy ny salanisa sy ny karama fitrandrahana"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Tantaran'ny trosa",
         "transfer_log_null":"Tsy misy tantara momba ny raharaham-barotra",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Hanomboka handefasana",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Hanova fanamarihana",
             "subtit":"Mariho marika ho an'ny kaontinao"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Avereno ny kitaba",
             "copy":"Copy",
             "download":"Download keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adiresy dia nadika",
             "key_copy_success":"Navoaka tamim-pahombiazana"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Ampidiro ny kaonty",
         "add_account":"New account",
         "acc":"Account",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Mamorona kaonty",
             "backup_tit":"Avereno ny kaontinao vaovao",
-
             "create_tag":"Anaran'ny kaonty",
             "create_pwd":"Mametraka tenimiafina",
             "create_repwd":"Hamarino ny tenimiafina",
-
             "placeholder_tag":"Alefaso azafady anaran'ny kaonty",
             "placeholder_pwd":"Miangavy ny tenimiafina kaonty",
             "placeholder_repwd":"Manamarina ny tenimiafina kaonty",
-            "strong_password":"Ampidiro ny tenimiafina matanjaka, farafahakeliny 8 isa",
-
+            "strong_password":"Ampidiro ny tenimiafina farafahakeliny 8",
             "account_address":"Account",
             "account_privateKey":"Private key",
-            "account_download_keystore":"Afeno ny rakitra fanalahidy"
+            "account_download_keystore":"Download ny rakitra amin'ny kaonty"
         },
-        "import_dia":{
-            "tit":"Ampidiro ny kaonty",
-            "select_type":"Miangavy azafady mifidiana metaly",
-            "type_private":"Private key",
-            "type_keystore":"keystore",
-
-            "placeholder_private":"Alefaso azafady ny fanalahidin'ny tenanao eto",
-            "placeholder_keystore":"Azafady azafady eto ny rakitra fanalahidy",
-
-            "input_pwd":"Hampiditra tenimiafina",
-            "placeholder_pwd":"Ampidiro azafady ny tenimiafinao"
-
+        "import_dia": {
+            "tit":"Ampidiro ny kaonty",    
+            "placeholder_keystore":"Azafady azafady azafady eto",
+            "create_tag":"Anaran'ny kaonty",
+            "placeholder_tag":"Alefaso azafady anaran'ny kaonty"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Tena tianao ve ny manala azy?",
             "remove_confrim":"Azoko antoka fa tokony hesorina aho",
-            "backup":"Azafady azafady azafady ilay kaonty mba hialana amin'ny fahavoazana"
+            "backup":"Mariho ny famerenana ity kaonty ity mba hisorohana ny fahasimban'ny fananana",
+            "input_pwd":"Password",
+            "placeholder_pwd":"Ampidiro azafady ny tenimiafinao amin'ity kaonty ity"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Ity kaonty ity dia efa misy, ny anarany dia",
             "enter_password":"Ampidiro azafady ny tenimiafinao",
             "incons_password":"Ny tenimiafina niditra indroa dia tsy mifanaraka",
             "error":"Error:",
             "imported_success":"Hamafa ny rakitra mahomby",
+            "imported_account_success":"Nalefa soa aman-tsara",
             "enter_private":"Ampidiro azafady",
             "error_private":"Tsy mety ny mividy ny kaonty, mety ny fanalahidy diso",
-            "enter_keystore":"Alefaso azafady aloha ny rakitra fanalahidy",
+            "enter_keystore":"Miangavy aloha azafady aloha ny rakitra",
             "error_password":"Tsy mety ny mampiditra ny kaonty, mety ho teny tsy mety izany",
             "remove_success":"Nesorina tamim-pahombiazana",
             "create_success":"Noforonina tsara",
-            "save":"Azafady azafady ny fanalahidinao na ny fanalahidinao manokana ary aza zaranao amin'ny olona izany!"
+            "save":"Azafady saveo ny rakitra ao amin'ny kaontinao ary aza mizara izany amin'ny olona rehetra!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Create Wallet",
+        "import_wallet":"Import ny kitapo",
+        "back_up":"Kitapo backup",
+        "add_account":"New account",
+        "acc":"Account",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"Mamorona kaonty",
+            "backup_tit":"Avereno ny kaontinao vaovao",
+            "create_tag":"Anaran'ny kaonty",
+            "create_pwd":"Mametraka tenimiafina",
+            "create_repwd":"Hamarino ny tenimiafina",
+            "placeholder_tag":"Alefaso azafady anaran'ny kaonty",
+            "placeholder_pwd":"Miangavy ny tenimiafina kaonty",
+            "placeholder_repwd":"Manamarina ny tenimiafina kaonty",
+            "strong_password":"Ampidiro ny tenimiafina matanjaka, farafahakeliny 8 isa",
+            "account_address":"Account",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Afeno ny rakitra fanalahidy"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Create Wallet",
+            "backup_tit":"Avereno ny kitapo vaovao anao",
+            "create_tag":"Ny anaran'ny banky",
+            "create_pwd":"Mametraka tenimiafina",
+            "create_repwd":"Hamarino ny tenimiafina",
+            "placeholder_tag":"Alefaso ny anaran'ny baraingo azafady",
+            "placeholder_pwd":"Alefaso ny tenimiafina pasipaoro",
+            "placeholder_repwd":"Azafady manamarina ny tenimiafin'ny boot",
+            "strong_password":"Ampidiro ny tenimiafina matanjaka, farafahakeliny 8 isa",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"Download ny rakitra wallet"
+        },
+        "import_wallet_dia": {
+            "tit":"Import ny kitapo",
+            "placeholder_keystore":"Ampidino eto ny rakitra finday eto",
+            "placeholder_tag":"Alefaso ny anaran'ny baraingo azafady",
+            "create_tag":"Ny anaran'ny banky",
+            "input_pwd":"Hampiditra tenimiafina",
+            "placeholder_pwd":"Ampidiro azafady ny tenimiafinao boot"
+        },
+        "remove_dia": {
+            "tit":"Azonao antoka fa tianao ny manaisotra ilay poketrany?",
+            "remove_confrim":"Azoko antoka fa tokony hesorina aho",
+            "backup":"Azafady azafady azafady ny kitapo napetraka mba hisorohana ny fahasimban'ny trano"
+        },
+        "remove_wallet_dia": {
+            "tit":"Tena tianao ve ny manala azy?",
+            "remove_confrim":"Azoko antoka fa tokony hesorina aho",
+            "backup":"Azafady azafady azafady ny kitapo napetraka mba hisorohana ny fahasimban'ny trano"
+        },
+        "backup_wallet_dia": {
+            "tit":"Avereno atao ny rakitra boribory",
+            "remove_confrim":"Azoko antoka fa tokony hesorina aho",
+            "backup":"Tsindrio ny Download mba hamerina ny rakitra wallet",
+            "download":"Download"
+        },
+        "msg_info": {
+            "exist":"Efa misy ny anarana ankehitriny",
+            "wallet_tag_error":"Ampidiro azafady ny anarana biriky",
+            "enter_password":"Ampidiro azafady ny tenimiafinao",
+            "incons_password":"Ny tenimiafina niditra indroa dia tsy mifanaraka",
+            "error":"Error:",
+            "imported_success":"Hamafa ny rakitra mahomby",
+            "imported_wallet_success":"Venty nividy tapakila",
+            "enter_private":"Ampidiro azafady",
+            "error_private":"Tsy mety ny mividy ny kaonty, mety ny fanalahidy diso",
+            "enter_keystore":"Alefaso aloha ny rakitra finday",
+            "error_password":"Tsy mety ny mampiditra ny kaonty, mety ho teny tsy mety izany",
+            "remove_success":"Nesorina tamim-pahombiazana",
+            "create_success":"Noforonina tsara",
+            "acc_create_success_des":"Ny adiresin'ny kaonty dia azo ampiasaina mba handraisana CZR",
+            "acc_wallet_success_des":"Avereno atao ny rakitra birao, aza milaza na iza na iza",
+            "save":"Azafady azafady ny fanalahidinao ary aza mizara izany amin'ny olona rehetra!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"প্রম্পট",
     "close":"ঘনিষ্ঠ",
     "confirm_you_active":"আপনার অপারেশন নিশ্চিত করুন",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"বাড়ি",
         "transfer":"হস্তান্তর",
         "contacts":"যোগাযোগ",
         "setting":"সেট আপ করুন",
         "total":"মোট"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"সেট আপ করুন",
         "lang":"ভাষা",
         "select":"নির্বাচন করুন"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"যোগাযোগ",
         "add_dialog":"একটি পরিচিতি যোগ করুন",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"যোগাযোগের তথ্য লিখুন",
             "tag":"ট্যাগ",
             "address":"যোগাযোগ",
             "tag_placeholder":"দয়া করে যোগাযোগের মন্তব্য ট্যাগটি প্রবেশ করুন",
             "address_placeholder":"দয়া করে যোগাযোগ অ্যাকাউন্টটি লিখুন"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"আপনি সরানো হয়"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"অ্যাকাউন্টের নাম লিখুন দয়া করে",
             "no_address":"অ্যাকাউন্ট ঠিকানা লিখুন দয়া করে",
             "valid_address":"যোগাযোগের ঠিকানাটি অবৈধ",
             "exist":"যোগাযোগ ইতিমধ্যে বিদ্যমান,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"স্থানান্তর আউট",
         "to_address":"মধ্যে",
         "amount":"টাকা",
@@ -50,97 +49,165 @@
         "total":"মোট",
         "select":"নির্বাচন করুন",
         "no_account_info":"কোনও অ্যাকাউন্ট নেই, দয়া করে অ্যাকাউন্ট তৈরি করুন বা আমদানি করুন",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"নির্বাচন করুন"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"দয়া করে নিশ্চিত করুন",
             "enter_passworld_tit":"আপনার পাসওয়ার্ড লিখুন দয়া করে",
             "enter_passworld_place":"আপনার পাসওয়ার্ড লিখুন দয়া করে"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"ওয়ালেট পার্সিং ব্যর্থ হয়েছে, একটি পাসওয়ার্ড ত্রুটি হতে পারে",
             "address_err":"ইনকামিং ঠিকানা ফর্ম্যাটটি অবৈধ",
             "send_success":"সাফল্য পাঠান",
             "send_error":"লেনদেন ব্যর্থ: যথেষ্ট ব্যালেন্স এবং মাইনার এর ফি আছে কিনা তা পরীক্ষা করুন"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"লেনদেনের ইতিহাস",
         "transfer_log_null":"কোনও লেনদেনের ইতিহাস",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"স্থানান্তর আরম্ভ করুন",
             "import_keystore":"কীস্টোর",
             "qrcode":"QR কোড"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"নোট সংশোধন করুন",
             "subtit":"আপনার অ্যাকাউন্টের জন্য একটি নোট চিহ্নিত করুন"
         },
-        "keystore":{
+        "keystore": {
             "tit":"কীস্টোর ব্যাক আপ করুন",
             "copy":"কপি",
             "download":"কীস্টোর ডাউনলোড করুন"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"ঠিকানা কপি করা হয়েছে",
             "key_copy_success":"সফলভাবে অনুলিপি করা হয়েছে"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"অ্যাকাউন্ট আমদানি করুন",
         "add_account":"নতুন অ্যাকাউন্ট",
         "acc":"হিসাব",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"একটি অ্যাকাউন্ট তৈরি করুন",
             "backup_tit":"আপনার নতুন অ্যাকাউন্ট ব্যাক আপ",
-
             "create_tag":"অ্যাকাউন্টের নাম",
             "create_pwd":"পাসওয়ার্ড সেট করুন",
             "create_repwd":"পাসওয়ার্ড নিশ্চিত করুন",
-
             "placeholder_tag":"অনুগ্রহ করে অ্যাকাউন্ট নাম সেট করুন",
             "placeholder_pwd":"অ্যাকাউন্ট পাসওয়ার্ড সেট করুন",
             "placeholder_repwd":"অ্যাকাউন্ট পাসওয়ার্ড নিশ্চিত করুন",
-            "strong_password":"একটি শক্তিশালী পাসওয়ার্ড লিখুন, অন্তত 8 টি সংখ্যা",
-
+            "strong_password":"কমপক্ষে 8 সংখ্যাগুলির একটি পাসওয়ার্ড লিখুন",
             "account_address":"হিসাব",
             "account_privateKey":"ব্যক্তিগত কী",
-            "account_download_keystore":"কীস্টোর ফাইলটি ডাউনলোড করুন"
+            "account_download_keystore":"অ্যাকাউন্ট ফাইল ডাউনলোড করুন"
         },
-        "import_dia":{
-            "tit":"অ্যাকাউন্ট আমদানি করুন",
-            "select_type":"আমদানি পদ্ধতি নির্বাচন করুন",
-            "type_private":"ব্যক্তিগত কী",
-            "type_keystore":"কীস্টোর",
-
-            "placeholder_private":"এখানে ব্যক্তিগত কী পেস্ট করুন",
-            "placeholder_keystore":"দয়া করে এখানে keystore ফাইলটি টানুন",
-
-            "input_pwd":"পাসওয়ার্ড লিখুন",
-            "placeholder_pwd":"আপনার অ্যাকাউন্টের পাসওয়ার্ড লিখুন দয়া করে"
-
+        "import_dia": {
+            "tit":"অ্যাকাউন্ট আমদানি করুন",    
+            "placeholder_keystore":"দয়া করে এখানে অ্যাকাউন্ট ফাইলটি টেনে আনুন",
+            "create_tag":"অ্যাকাউন্টের নাম",
+            "placeholder_tag":"অনুগ্রহ করে অ্যাকাউন্ট নাম সেট করুন"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"আপনি কি তা সরাতে চান?",
             "remove_confrim":"আমি সরানো নিশ্চিত নই",
-            "backup":"সম্পত্তি ক্ষতি এড়ানোর জন্য অ্যাকাউন্ট ব্যাক আপ করা হয়েছে তা নিশ্চিত করুন"
+            "backup":"সম্পত্তি ক্ষতি এড়াতে এই অ্যাকাউন্টের ব্যাকআপ নোট করুন",
+            "input_pwd":"পাসওয়ার্ড",
+            "placeholder_pwd":"এই অ্যাকাউন্টের জন্য পাসওয়ার্ড লিখুন দয়া করে"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"এই অ্যাকাউন্টটি ইতিমধ্যে বিদ্যমান এবং নামটি হল",
             "enter_password":"আপনার পাসওয়ার্ড লিখুন দয়া করে",
             "incons_password":"দুবার প্রবেশ পাসওয়ার্ডটি অসঙ্গত",
             "error":"ত্রুটি:",
             "imported_success":"ফাইল সফলভাবে আমদানি করুন",
+            "imported_account_success":"সফলভাবে আমদানি করা হয়েছে",
             "enter_private":"কী লিখুন দয়া করে",
             "error_private":"অ্যাকাউন্টটি আমদানি করতে ব্যর্থ হয়েছে, এটি ভুল কী হতে পারে",
-            "enter_keystore":"প্রথম keystore ফাইল আমদানি করুন দয়া করে",
+            "enter_keystore":"দয়া করে প্রথমে প্রথম অ্যাকাউন্ট ফাইল আমদানি করুন",
             "error_password":"অ্যাকাউন্টটি আমদানি করতে ব্যর্থ, এটি একটি ভুল পাসওয়ার্ড হতে পারে",
             "remove_success":"সফলভাবে সরানো হয়েছে",
             "create_success":"সফলভাবে তৈরি করা হয়েছে",
-            "save":"আপনার keystore বা ব্যক্তিগত কী সংরক্ষণ করুন এবং এটি সঙ্গে ভাগ না কেউ!"
+            "save":"আপনার অ্যাকাউন্ট ফাইল সংরক্ষণ করুন এবং এটি সঙ্গে ভাগ না কেউ!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"ওয়ালেট তৈরি করুন",
+        "import_wallet":"আমদানি ওয়ালেট",
+        "back_up":"ব্যাকআপ ওয়ালেট",
+        "add_account":"নতুন অ্যাকাউন্ট",
+        "acc":"হিসাব",
+        "wallet":"মানিব্যাগ",
+        "create_dia": {
+            "create_tit":"একটি অ্যাকাউন্ট তৈরি করুন",
+            "backup_tit":"আপনার নতুন অ্যাকাউন্ট ব্যাক আপ",
+            "create_tag":"অ্যাকাউন্টের নাম",
+            "create_pwd":"পাসওয়ার্ড সেট করুন",
+            "create_repwd":"পাসওয়ার্ড নিশ্চিত করুন",
+            "placeholder_tag":"অনুগ্রহ করে অ্যাকাউন্ট নাম সেট করুন",
+            "placeholder_pwd":"অ্যাকাউন্ট পাসওয়ার্ড সেট করুন",
+            "placeholder_repwd":"অ্যাকাউন্ট পাসওয়ার্ড নিশ্চিত করুন",
+            "strong_password":"একটি শক্তিশালী পাসওয়ার্ড লিখুন, অন্তত 8 টি সংখ্যা",
+            "account_address":"হিসাব",
+            "account_privateKey":"ব্যক্তিগত কী",
+            "account_download_keystore":"কীস্টোর ফাইলটি ডাউনলোড করুন"
+        },
+        "create_wallet_dia": {
+            "create_tit":"ওয়ালেট তৈরি করুন",
+            "backup_tit":"আপনার নতুন মানিব্যাগ ব্যাক আপ",
+            "create_tag":"ওয়ালেট নাম",
+            "create_pwd":"পাসওয়ার্ড সেট করুন",
+            "create_repwd":"পাসওয়ার্ড নিশ্চিত করুন",
+            "placeholder_tag":"ওয়ালেট নাম সেট করুন দয়া করে",
+            "placeholder_pwd":"ওয়ালেট পাসওয়ার্ড সেট করুন দয়া করে",
+            "placeholder_repwd":"ওয়ালেট পাসওয়ার্ড নিশ্চিত করুন",
+            "strong_password":"একটি শক্তিশালী পাসওয়ার্ড লিখুন, অন্তত 8 টি সংখ্যা",
+            "wallet_address":"মানিব্যাগ",
+            "download_wallet_file":"ওয়ালেট ফাইল ডাউনলোড করুন"
+        },
+        "import_wallet_dia": {
+            "tit":"আমদানি ওয়ালেট",
+            "placeholder_keystore":"এখানে wallet ফাইলগুলি পেষ করুন দয়া করে",
+            "placeholder_tag":"ওয়ালেট নাম সেট করুন দয়া করে",
+            "create_tag":"ওয়ালেট নাম",
+            "input_pwd":"পাসওয়ার্ড লিখুন",
+            "placeholder_pwd":"দয়া করে আপনার wallet পাসওয়ার্ড লিখুন"
+        },
+        "remove_dia": {
+            "tit":"আপনি কি ওয়ালেট অপসারণ করতে চান?",
+            "remove_confrim":"আমি সরানো নিশ্চিত নই",
+            "backup":"সম্পত্তি ক্ষতি এড়ানোর জন্য ওয়ালেট ব্যাক আপ করা হয়েছে তা নিশ্চিত করুন"
+        },
+        "remove_wallet_dia": {
+            "tit":"আপনি কি তা সরাতে চান?",
+            "remove_confrim":"আমি সরানো নিশ্চিত নই",
+            "backup":"সম্পত্তি ক্ষতি এড়ানোর জন্য ওয়ালেট ব্যাক আপ করা হয়েছে তা নিশ্চিত করুন"
+        },
+        "backup_wallet_dia": {
+            "tit":"আপনার ওয়ালেট ফাইল ব্যাক আপ",
+            "remove_confrim":"আমি সরানো নিশ্চিত নই",
+            "backup":"আপনার ওয়ারলেট ফাইল ব্যাকআপ করার জন্য ডাউনলোড ক্লিক করুন",
+            "download":"ডাউনলোড"
+        },
+        "msg_info": {
+            "exist":"ইতিমধ্যে বিদ্যমান, নাম হল",
+            "wallet_tag_error":"ওয়ালেট নাম লিখুন দয়া করে",
+            "enter_password":"আপনার পাসওয়ার্ড লিখুন দয়া করে",
+            "incons_password":"দুবার প্রবেশ পাসওয়ার্ডটি অসঙ্গত",
+            "error":"ত্রুটি:",
+            "imported_success":"ফাইল সফলভাবে আমদানি করুন",
+            "imported_wallet_success":"ওয়ালেট সফলভাবে আমদানি করা হয়েছে",
+            "enter_private":"কী লিখুন দয়া করে",
+            "error_private":"অ্যাকাউন্টটি আমদানি করতে ব্যর্থ হয়েছে, এটি ভুল কী হতে পারে",
+            "enter_keystore":"দয়া করে প্রথমে ওয়ালেট ফাইল আমদানি করুন",
+            "error_password":"অ্যাকাউন্টটি আমদানি করতে ব্যর্থ, এটি একটি ভুল পাসওয়ার্ড হতে পারে",
+            "remove_success":"সফলভাবে সরানো হয়েছে",
+            "create_success":"সফলভাবে তৈরি করা হয়েছে",
+            "acc_create_success_des":"অ্যাকাউন্ট ঠিকানা CZR পেতে ব্যবহার করা যেতে পারে",
+            "acc_wallet_success_des":"আপনার ওয়ালেট ফাইল ব্যাক আপ, কাউকে বলবেন না",
+            "save":"আপনার keystore সংরক্ষণ করুন এবং এটি সঙ্গে ভাগ না কেউ!"
         }
     }
-
 }

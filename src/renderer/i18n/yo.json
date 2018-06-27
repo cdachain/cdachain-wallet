@@ -4,43 +4,42 @@
     "dialog_tit":"Gbọ",
     "close":"Ti pa",
     "confirm_you_active":"Jọwọ jẹrisi isẹ rẹ",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Ile",
         "transfer":"Gbigbe lọ",
         "contacts":"Awọn olubasọrọ",
         "setting":"Eto",
         "total":"Lapapọ"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Eto",
         "lang":"Ede",
         "select":"Jọwọ yan"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Awọn olubasọrọ",
         "add_dialog":"Fi olubasọrọ kun",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Tẹ alaye olubasọrọ",
             "tag":"Awọn afiwe",
             "address":"Awọn olubasọrọ",
             "tag_placeholder":"Jowo tẹ ami idaniloju olubasọrọ naa",
             "address_placeholder":"Jọwọ tẹ iroyin olubasọrọ sii"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"O n yọ kuro"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Jowo tẹ orukọ iroyin naa",
             "no_address":"Jọwọ tẹ adirẹsi adirẹsi sii",
             "valid_address":"Adirẹsi olubasọrọ naa jẹ arufin",
             "exist":"Olubasọrọ naa ti wa tẹlẹ,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Gbe jade",
         "to_address":"Sinu",
         "amount":"Iye",
@@ -50,97 +49,165 @@
         "total":"Lapapọ",
         "select":"Jọwọ yan",
         "no_account_info":"Ko si iroyin, jọwọ ṣẹda tabi gbe iroyin wọle",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Jọwọ yan"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Jọwọ jẹrisi",
             "enter_passworld_tit":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
             "enter_passworld_place":"Jọwọ tẹ ọrọigbaniwọle rẹ sii"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
             "address_err":"Orukọ adiresi ti nwọle jẹ arufin",
             "send_success":"Firanṣẹ aseyori",
             "send_error":"Ti kuna iṣẹ-ṣiṣe: Jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Itan iṣowo",
         "transfer_log_null":"Ko si idunadura itan",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Bẹrẹ gbigbe",
             "import_keystore":"Atilẹju ọja",
             "qrcode":"QR koodu"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Ṣe akọsilẹ atunṣe",
             "subtit":"Ṣe akọsilẹ akọsilẹ kan fun akọọlẹ rẹ"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Ṣe afẹyinti ile-iṣẹ bọtini",
             "copy":"Duplicate",
             "download":"Gba awọn oju-iwe ayelujara"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adirẹsi ti dakọ",
             "key_copy_success":"Ti ṣe ayẹwo daradara"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Ṣe akọọlẹ akọọlẹ",
         "add_account":"Iroyin titun",
         "acc":"Iroyin",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Ṣẹda iroyin kan",
             "backup_tit":"Ṣe afẹyinti iroyin titun rẹ",
-
             "create_tag":"Orukọ iroyin",
             "create_pwd":"Ṣeto ọrọigbaniwọle",
             "create_repwd":"Jẹrisi ọrọ igbaniwọle",
-
             "placeholder_tag":"Jowo ṣeto orukọ iroyin",
             "placeholder_pwd":"Jowo ṣeto ọrọ igbaniwọle iroyin",
             "placeholder_repwd":"Jọwọ jẹrisi ọrọigbaniwọle iroyin",
-            "strong_password":"Tẹ ọrọigbaniwọle to lagbara, o kere awọn nọmba mẹjọ",
-
+            "strong_password":"Tẹ ọrọigbaniwọle kan ti o kere ju nọmba 8 lọ",
             "account_address":"Iroyin",
             "account_privateKey":"Bọtini aladani",
-            "account_download_keystore":"Gba awọn faili keystore"
+            "account_download_keystore":"Gba faili akọọlẹ"
         },
-        "import_dia":{
-            "tit":"Ṣe akọọlẹ akọọlẹ",
-            "select_type":"Jowo yan ọna gbigbe wọle",
-            "type_private":"Bọtini aladani",
-            "type_keystore":"Atilẹju ọja",
-
-            "placeholder_private":"Jowo pa bọtini ikọkọ nihin",
-            "placeholder_keystore":"Jowo fa faili oju-iwe bọtini ni ibi",
-
-            "input_pwd":"Tẹ ọrọigbaniwọle sii",
-            "placeholder_pwd":"Jowo tẹ ọrọigbaniwọle igbaniwọle rẹ"
-
+        "import_dia": {
+            "tit":"Ṣe akọọlẹ akọọlẹ",    
+            "placeholder_keystore":"Jowo fa faili faili nibi",
+            "create_tag":"Orukọ iroyin",
+            "placeholder_tag":"Jowo ṣeto orukọ iroyin"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Ṣe o da ọ loju pe o fẹ yọ kuro?",
             "remove_confrim":"Mo daju lati yọ kuro",
-            "backup":"Jọwọ rii daju pe iroyin ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+            "backup":"Jọwọ ṣe akiyesi afẹyinti ti iroyin yii lati yago fun bibajẹ ohun-ini",
+            "input_pwd":"Ọrọigbaniwọle",
+            "placeholder_pwd":"Jọwọ tẹ ọrọigbaniwọle sii fun iroyin yii"
         },
-        "msg_info":{
-            "exist":"Iroyin yii wa tẹlẹ, orukọ naa jẹ",
+        "msg_info": {
+            "exist":"Iroyin yii ti wa tẹlẹ ati orukọ naa jẹ",
             "enter_password":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
             "incons_password":"Ọrọigbaniwọle ti tẹ lẹẹmeji jẹ aisedede",
             "error":"Aṣiṣe:",
             "imported_success":"Faijade faili ni ifijišẹ",
+            "imported_account_success":"Ti gbejade ni ifijišẹ",
             "enter_private":"Jowo tẹ bọtini naa",
             "error_private":"Ko kùn lati gbe akọọlẹ wọle, o le jẹ bọtini ti ko tọ",
-            "enter_keystore":"Jọwọ gbe faili faili bọtini ni akọkọ",
+            "enter_keystore":"Jọwọ gbe faili faili ni akọkọ",
             "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
             "remove_success":"Pa kuro ni ifijišẹ",
             "create_success":"Ṣẹda ni ifijišẹ",
-            "save":"Jowo fi oju-ipamọ bọtini rẹ tabi bọtini ikọkọ ti o ko pin pẹlu ẹnikẹni!"
+            "save":"Jowo fi faili akọọlẹ rẹ pamọ ki o ma ṣe pin pẹlu ẹnikẹni!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Ṣẹda apamọwọ",
+        "import_wallet":"Gbewe apamọwọ wọle",
+        "back_up":"Apamọwọ apamọwọ",
+        "add_account":"Iroyin titun",
+        "acc":"Iroyin",
+        "wallet":"Apamọwọ",
+        "create_dia": {
+            "create_tit":"Ṣẹda iroyin kan",
+            "backup_tit":"Ṣe afẹyinti iroyin titun rẹ",
+            "create_tag":"Orukọ iroyin",
+            "create_pwd":"Ṣeto ọrọigbaniwọle",
+            "create_repwd":"Jẹrisi ọrọ igbaniwọle",
+            "placeholder_tag":"Jowo ṣeto orukọ iroyin",
+            "placeholder_pwd":"Jowo ṣeto ọrọ igbaniwọle iroyin",
+            "placeholder_repwd":"Jọwọ jẹrisi ọrọigbaniwọle iroyin",
+            "strong_password":"Tẹ ọrọigbaniwọle to lagbara, o kere awọn nọmba mẹjọ",
+            "account_address":"Iroyin",
+            "account_privateKey":"Bọtini aladani",
+            "account_download_keystore":"Gba awọn faili keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Ṣẹda apamọwọ",
+            "backup_tit":"Ṣe afẹyinti apamọwọ tuntun rẹ",
+            "create_tag":"Orukọ apamọwọ",
+            "create_pwd":"Ṣeto ọrọigbaniwọle",
+            "create_repwd":"Jẹrisi ọrọ igbaniwọle",
+            "placeholder_tag":"Jọwọ ṣeto orukọ apamọwọ",
+            "placeholder_pwd":"Jọwọ ṣafidi ọrọigbaniwọle apamọwọ",
+            "placeholder_repwd":"Jowo jẹrisi ọrọigbaniwọle apamọwọ",
+            "strong_password":"Tẹ ọrọigbaniwọle to lagbara, o kere awọn nọmba mẹjọ",
+            "wallet_address":"Apamọwọ",
+            "download_wallet_file":"Gba faili apamọwọ"
+        },
+        "import_wallet_dia": {
+            "tit":"Gbewe apamọwọ wọle",
+            "placeholder_keystore":"Jowo fa awọn iwe apamọwọ nibi",
+            "placeholder_tag":"Jọwọ ṣeto orukọ apamọwọ",
+            "create_tag":"Orukọ apamọwọ",
+            "input_pwd":"Tẹ ọrọigbaniwọle sii",
+            "placeholder_pwd":"Jowo tẹ ọrọigbaniwọle apamọwọ rẹ"
+        },
+        "remove_dia": {
+            "tit":"Ṣe o da ọ loju pe o fẹ yọ apo apamọwọ kuro?",
+            "remove_confrim":"Mo daju lati yọ kuro",
+            "backup":"Jọwọ rii daju pe apamọwọ ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+        },
+        "remove_wallet_dia": {
+            "tit":"Ṣe o da ọ loju pe o fẹ yọ kuro?",
+            "remove_confrim":"Mo daju lati yọ kuro",
+            "backup":"Jọwọ rii daju pe apamọwọ ti ṣe afẹyinti lati yago fun bibajẹ ohun-ini"
+        },
+        "backup_wallet_dia": {
+            "tit":"Ṣe afẹyinti faili apamọwọ rẹ",
+            "remove_confrim":"Mo daju lati yọ kuro",
+            "backup":"Tẹ Download lati ṣe afẹyinti faili apamọwọ rẹ",
+            "download":"Gba lati ayelujara"
+        },
+        "msg_info": {
+            "exist":"Tẹlẹ ti wa, orukọ naa jẹ",
+            "wallet_tag_error":"Jọwọ tẹ orukọ apamọwọ",
+            "enter_password":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
+            "incons_password":"Ọrọigbaniwọle ti tẹ lẹẹmeji jẹ aisedede",
+            "error":"Aṣiṣe:",
+            "imported_success":"Faijade faili ni ifijišẹ",
+            "imported_wallet_success":"Apamọwọ ti wole wọle ni ifijišẹ",
+            "enter_private":"Jowo tẹ bọtini naa",
+            "error_private":"Ko kùn lati gbe akọọlẹ wọle, o le jẹ bọtini ti ko tọ",
+            "enter_keystore":"Jọwọ gbe faili apamọwọ akọkọ",
+            "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
+            "remove_success":"Pa kuro ni ifijišẹ",
+            "create_success":"Ṣẹda ni ifijišẹ",
+            "acc_create_success_des":"Adirẹsi idamu le ṣee lo lati gba CZR",
+            "acc_wallet_success_des":"Ṣe afẹyinti awọn faili apamọwọ rẹ, ko sọ fun ẹnikẹni",
+            "save":"Jowo fi oju-iṣẹ bọtini rẹ pamọ ki o ma ṣe pin pẹlu ẹnikẹni!"
         }
     }
-
 }

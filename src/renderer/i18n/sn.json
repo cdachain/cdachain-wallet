@@ -4,43 +4,42 @@
     "dialog_tit":"Kukurumidza",
     "close":"Yakavharwa",
     "confirm_you_active":"Ndapota simbisa kushanda kwako",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Musha",
         "transfer":"Dhinda",
         "contacts":"Vatengi",
         "setting":"Zvirongwa",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Zvirongwa",
         "lang":"Mutauro",
         "select":"Ndapota sarudza"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Vatengi",
         "add_dialog":"Wedzera kuonana",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Pinda mashoko ekutaurirana",
             "tag":"Tags",
             "address":"Vatengi",
             "tag_placeholder":"Ndapota tumira mukana wekutaura",
             "address_placeholder":"Ndapota pinda nhaurirano yako"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Iwe uri kubvisa"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Ndapota tumira zita rekombi",
             "no_address":"Ndapota nyora kero kero",
             "valid_address":"Kero yekambani yacho haisi pamutemo",
             "exist":"Kukurukurirana kwave kuripo,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Shandura",
         "to_address":"Into",
         "amount":"Nhamba",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Ndapota sarudza",
         "no_account_info":"Kwete nhamba, ndapota simbisa kana kutumira akaunti",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Ndapota sarudza"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Ndapota chengetedza",
             "enter_passworld_tit":"Ndapota nyora password yako",
             "enter_passworld_place":"Ndapota nyora password yako"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Chikwereti chekurapa chakakundikana, chinogona kunge chiri chipikiso chepa password",
             "address_err":"Inouya yero yemafomu maitiro haisi pamutemo",
             "send_success":"Tumira kubudirira",
             "send_error":"Transaction yakakundikana: Ndapota ona kana pane kukwana kwakakwana uye mari yemaminetsi"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Transaction history",
         "transfer_log_null":"Kwete nhoroondo yekutengesa",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Tanga kutumira",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Shandura nyora",
             "subtit":"Isa chinyorwa cheakaunti yako"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Dzorera kona yechikoni",
             "copy":"Duplicate",
             "download":"Dhaunirodha kststore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Tsamba yakanyorwa",
             "key_copy_success":"Akabudirira kubudirira"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Tumira nhoroondo",
         "add_account":"Nhoroondo itsva",
         "acc":"Akaunti",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Gadzira an account",
             "backup_tit":"Dzorera kero yako itsva",
-
             "create_tag":"Aunti yezita",
             "create_pwd":"Isai password",
             "create_repwd":"Tsimbisa password",
-
             "placeholder_tag":"Ndapota ita zita rekombi",
             "placeholder_pwd":"Ndapota chengetedza password yako",
             "placeholder_repwd":"Ndapota simbisai password password",
-            "strong_password":"Isa chinyorwa chakasimba, zvisingaverengi mazita 8",
-
+            "strong_password":"Tumira password yeanosvika 8 maverengi",
             "account_address":"Akaunti",
             "account_privateKey":"Private key",
-            "account_download_keystore":"Dhaunirodha foni yechikwereti"
+            "account_download_keystore":"Dhawisira faira reakaunti"
         },
-        "import_dia":{
-            "tit":"Tumira nhoroondo",
-            "select_type":"Ndapota sarudza nzira yekushandisa",
-            "type_private":"Private key",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Ndapota tanidza kiyi yega yega pano",
-            "placeholder_keystore":"Ndapota dragha faira yechikoni apa",
-
-            "input_pwd":"Pinda password",
-            "placeholder_pwd":"Ndapota tumira password yako"
-
+        "import_dia": {
+            "tit":"Tumira nhoroondo",    
+            "placeholder_keystore":"Ndapota dhonzai yekodhi faira apa",
+            "create_tag":"Aunti yezita",
+            "placeholder_tag":"Ndapota ita zita rekombi"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Une chokwadi here kuti unoda kuibvisa?",
             "remove_confrim":"Ndine chokwadi chokuti ndichabvisa",
-            "backup":"Ndapota onai kuti iyo nhoroondo yakatsigirwa kuti irege kuparadzwa kwemba"
+            "backup":"Ndapota cherechedza kushandiswa kwekambani iyi kuti urege kudzivirira pfuma",
+            "input_pwd":"Password",
+            "placeholder_pwd":"Ndapota nyora pasi password yeiyo account"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Iyi nhoroondo yave ikopo, zita racho",
             "enter_password":"Ndapota nyora password yako",
             "incons_password":"Izwi rakapinda kaviri harisi",
             "error":"Mhosva:",
             "imported_success":"Tumira faira zvakanaka",
+            "imported_account_success":"Yakatumirwa kubudirira",
             "enter_private":"Ndapota pindai kiyi",
             "error_private":"Yakakundikana kutumira account, inogona kunge yakakosha",
-            "enter_keystore":"Ndapota tumira chinyorwa chekinyora kutanga",
+            "enter_keystore":"Ndapota tumira mafeji eyokutanga kutanga",
             "error_password":"Yakakundikana kutumira account, inogona kunge iri password isina kururama",
             "remove_success":"Yakabviswa kubudirira",
             "create_success":"Yakagadzirwa zvakanaka",
-            "save":"Ndapota chengetedza keseti yako yekodhi kana kiyi yega yega uye usagovana nayo kune ani zvake!"
+            "save":"Ndapota chengetedza kadhi yako yekodha uye usagovana nayo kune ani zvake!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Gadzira Wallet",
+        "import_wallet":"Tumira chikwereti",
+        "back_up":"Backup chikwama",
+        "add_account":"Nhoroondo itsva",
+        "acc":"Akaunti",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"Gadzira an account",
+            "backup_tit":"Dzorera kero yako itsva",
+            "create_tag":"Aunti yezita",
+            "create_pwd":"Isai password",
+            "create_repwd":"Tsimbisa password",
+            "placeholder_tag":"Ndapota ita zita rekombi",
+            "placeholder_pwd":"Ndapota chengetedza password yako",
+            "placeholder_repwd":"Ndapota simbisai password password",
+            "strong_password":"Isa chinyorwa chakasimba, zvisingaverengi mazita 8",
+            "account_address":"Akaunti",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Dhaunirodha foni yechikwereti"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Gadzira Wallet",
+            "backup_tit":"Dzorera chikwereti chako chitsva",
+            "create_tag":"Zita rechikwama",
+            "create_pwd":"Isai password",
+            "create_repwd":"Tsimbisa password",
+            "placeholder_tag":"Ndapota chengetedza zita rechikwama",
+            "placeholder_pwd":"Ndapota chengetedza chikwereti chepaiti",
+            "placeholder_repwd":"Ndapota chengetedza password yechikwama",
+            "strong_password":"Isa chinyorwa chakasimba, zvisingaverengi mazita 8",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"Dhawuni yefodhoro faira"
+        },
+        "import_wallet_dia": {
+            "tit":"Tumira chikwereti",
+            "placeholder_keystore":"Ndapota tora chikwereti mafaira apa",
+            "placeholder_tag":"Ndapota chengetedza zita rechikwama",
+            "create_tag":"Zita rechikwama",
+            "input_pwd":"Pinda password",
+            "placeholder_pwd":"Ndapota pinda muhomwe yako password"
+        },
+        "remove_dia": {
+            "tit":"Unofunga kuti unoda kubvisa chikwereti here?",
+            "remove_confrim":"Ndine chokwadi chokuti ndichabvisa",
+            "backup":"Ndapota onai kuti chikwama chacho chave chakatsigirwa kuti chidzivirire pfuma"
+        },
+        "remove_wallet_dia": {
+            "tit":"Une chokwadi here kuti unoda kuibvisa?",
+            "remove_confrim":"Ndine chokwadi chokuti ndichabvisa",
+            "backup":"Ndapota onai kuti chikwama chacho chave chakatsigirwa kuti chidzivirire pfuma"
+        },
+        "backup_wallet_dia": {
+            "tit":"Dzorera chikwereti chako chechikwama",
+            "remove_confrim":"Ndine chokwadi chokuti ndichabvisa",
+            "backup":"Dhura Download kuti uchengetedze pepa rako remba",
+            "download":"Download"
+        },
+        "msg_info": {
+            "exist":"Yatovapo, zita racho",
+            "wallet_tag_error":"Ndapota tumira zita rechikwama",
+            "enter_password":"Ndapota nyora password yako",
+            "incons_password":"Izwi rakapinda kaviri harisi",
+            "error":"Mhosva:",
+            "imported_success":"Tumira faira zvakanaka",
+            "imported_wallet_success":"Chikwereti chinotumirwa kubudirira",
+            "enter_private":"Ndapota pindai kiyi",
+            "error_private":"Yakakundikana kutumira account, inogona kunge yakakosha",
+            "enter_keystore":"Ndapota tumira iwe wefayili faira kutanga",
+            "error_password":"Yakakundikana kutumira account, inogona kunge iri password isina kururama",
+            "remove_success":"Yakabviswa kubudirira",
+            "create_success":"Yakagadzirwa zvakanaka",
+            "acc_create_success_des":"Adresi yeAunti ingashandiswa kugamuchira CZR",
+            "acc_wallet_success_des":"Dzorera mapepa ako, usaudze chero munhu",
+            "save":"Ndapota chengetedza keseti yako yekodhi uye urege kugovana nayo kune ani zvake!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"ਪੁੱਛੋ",
     "close":"ਬੰਦ ਹੋਇਆ",
     "confirm_you_active":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਅਪਰੇਸ਼ਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"ਘਰ",
         "transfer":"ਟ੍ਰਾਂਸਫਰ ਕਰੋ",
         "contacts":"ਸੰਪਰਕ",
         "setting":"ਸੈਟਿੰਗਾਂ",
         "total":"ਕੁੱਲ"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"ਸੈਟਿੰਗਾਂ",
         "lang":"ਭਾਸ਼ਾ",
         "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"ਸੰਪਰਕ",
         "add_dialog":"ਇੱਕ ਸੰਪਰਕ ਜੋੜੋ",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"ਸੰਪਰਕ ਜਾਣਕਾਰੀ ਦਰਜ ਕਰੋ",
             "tag":"ਟੈਗਸ",
             "address":"ਸੰਪਰਕ",
             "tag_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਸੰਪਰਕ ਦੀ ਟਿੱਪਣੀ ਟੈਗ ਦਾਖਲ ਕਰੋ",
             "address_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਸੰਪਰਕ ਅਕਾਊਂਟ ਦਾਖਲ ਕਰੋ"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"ਤੁਸੀਂ ਹਟਾ ਰਹੇ ਹੋ"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਨਾਂ ਦਾਖਲ ਕਰੋ",
             "no_address":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਪਤਾ ਦਰਜ ਕਰੋ",
             "valid_address":"ਸੰਪਰਕ ਦਾ ਪਤਾ ਨਾਜਾਇਜ਼ ਹੈ",
             "exist":"ਸੰਪਰਕ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"ਬਾਹਰ ਤਬਦੀਲ ਕਰੋ",
         "to_address":"ਵਿੱਚ",
         "amount":"ਰਕਮ",
@@ -50,97 +49,165 @@
         "total":"ਕੁੱਲ",
         "select":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ",
         "no_account_info":"ਕੋਈ ਖਾਤਾ ਨਹੀਂ, ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਬਣਾਉ ਜਾਂ ਆਯਾਤ ਕਰੋ",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"ਕਿਰਪਾ ਕਰਕੇ ਚੁਣੋ"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"ਕਿਰਪਾ ਕਰਕੇ ਪੁਸ਼ਟੀ ਕਰੋ",
             "enter_passworld_tit":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
             "enter_passworld_place":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"ਵਾਲਿਟ ਪਾਰਸਿੰਗ ਅਸਫਲ, ਇੱਕ ਪਾਸਵਰਡ ਗਲਤੀ ਹੋ ਸਕਦੀ ਹੈ",
             "address_err":"ਆਉਣ ਵਾਲਾ ਪਤਾ ਫਾਰਮੈਟ ਗੈਰ-ਕਾਨੂੰਨੀ ਹੈ",
             "send_success":"ਸਫਲਤਾ ਭੇਜੋ",
             "send_error":"ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਅਸਫਲ: ਕਿਰਪਾ ਕਰਕੇ ਚੈੱਕ ਕਰੋ ਕਿ ਕੀ ਲੋੜੀਂਦੀ ਬਕਾਇਆ ਹੈ ਅਤੇ ਖਾਨਾਂ ਦੀ ਫੀਸ"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"ਲੈਣਦੇਣ ਦਾ ਇਤਿਹਾਸ",
         "transfer_log_null":"ਕੋਈ ਟ੍ਰਾਂਜੈਕਸ਼ਨ ਇਤਿਹਾਸ ਨਹੀਂ",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"ਟ੍ਰਾਂਸਫਰ ਸ਼ੁਰੂ ਕਰੋ",
             "import_keystore":"ਕੀਸਟੋਰ",
             "qrcode":"QR ਕੋਡ"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"ਨੋਟ ਸੰਸ਼ੋਧਿਤ ਕਰੋ",
             "subtit":"ਆਪਣੇ ਖਾਤੇ ਲਈ ਇੱਕ ਨੋਟ ਨੂੰ ਚਿੰਨ੍ਹਿਤ ਕਰੋ"
         },
-        "keystore":{
+        "keystore": {
             "tit":"ਮੁੱਖ ਸਟੋਰ ਬੈਕ ਅਪ ਕਰੋ",
             "copy":"ਡੁਪਲੀਕੇਟ",
             "download":"ਕੀਸਟੋਰ ਡਾਉਨਲੋਡ ਕਰੋ"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"ਪਤਾ ਨਕਲ ਕੀਤਾ ਗਿਆ ਹੈ",
             "key_copy_success":"ਸਫਲਤਾਪੂਰਵਕ ਕਾਪੀ ਕੀਤੇ ਗਏ"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"ਅਕਾਊਂਟ ਇੰਪੋਰਟ ਕਰੋ",
         "add_account":"ਨਵਾਂ ਖਾਤਾ",
         "acc":"ਖਾਤਾ",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"ਇੱਕ ਖਾਤਾ ਬਣਾਓ",
             "backup_tit":"ਆਪਣਾ ਨਵਾਂ ਖਾਤਾ ਬੈਕ ਅਪ ਕਰੋ",
-
             "create_tag":"ਖਾਤਾ ਨਾਂ",
             "create_pwd":"ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ",
             "create_repwd":"ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
-
             "placeholder_tag":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਨਾਂ ਸੈਟ ਕਰੋ",
             "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ",
             "placeholder_repwd":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
-            "strong_password":"ਇੱਕ ਮਜ਼ਬੂਤ ​​ਪਾਸਵਰਡ ਦਿਓ, ਘੱਟੋ ਘੱਟ 8 ਅੰਕ",
-
+            "strong_password":"ਘੱਟ ਤੋਂ ਘੱਟ 8 ਅੰਕ ਦਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
             "account_address":"ਖਾਤਾ",
             "account_privateKey":"ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ",
-            "account_download_keystore":"ਕੀਸਟੋਰ ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰੋ"
+            "account_download_keystore":"ਅਕਾਊਂਟ ਫਾਇਲ ਡਾਊਨਲੋਡ ਕਰੋ"
         },
-        "import_dia":{
-            "tit":"ਅਕਾਊਂਟ ਇੰਪੋਰਟ ਕਰੋ",
-            "select_type":"ਕਿਰਪਾ ਕਰਕੇ ਆਯਾਤ ਵਿਧੀ ਦੀ ਚੋਣ ਕਰੋ",
-            "type_private":"ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ",
-            "type_keystore":"ਕੀਸਟੋਰ",
-
-            "placeholder_private":"ਕਿਰਪਾ ਕਰਕੇ ਇੱਥੇ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਪੇਸਟ ਕਰੋ",
-            "placeholder_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਇੱਥੇ ਕੁੰਜੀਸਟੋਰ ਫਾਈਲ ਨੂੰ ਖਿੱਚੋ",
-
-            "input_pwd":"ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
-            "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਖਾਤਾ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ"
-
+        "import_dia": {
+            "tit":"ਅਕਾਊਂਟ ਇੰਪੋਰਟ ਕਰੋ",    
+            "placeholder_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਇੱਥੇ ਖਾਤਾ ਫਾਈਲ ਡ੍ਰੈਗ ਕਰੋ",
+            "create_tag":"ਖਾਤਾ ਨਾਂ",
+            "placeholder_tag":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਨਾਂ ਸੈਟ ਕਰੋ"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਰੂਪ ਤੋਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
             "remove_confrim":"ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਮੈਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦਾ ਹਾਂ",
-            "backup":"ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਉ ਕਿ ਸੰਪਤੀ ਨੂੰ ਨੁਕਸਾਨ ਤੋਂ ਬਚਣ ਲਈ ਖਾਤੇ ਦਾ ਬੈਕਅੱਪ ਕੀਤਾ ਗਿਆ ਹੈ"
+            "backup":"ਜਾਇਦਾਦ ਨੂੰ ਨੁਕਸਾਨ ਤੋਂ ਬਚਣ ਲਈ ਇਸ ਖਾਤੇ ਦੇ ਬੈਕਅੱਪ ਨੂੰ ਨੋਟ ਕਰੋ",
+            "input_pwd":"ਪਾਸਵਰਡ",
+            "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਖਾਤੇ ਲਈ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"ਇਹ ਖਾਤਾ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ, ਨਾਮ ਹੈ",
             "enter_password":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
             "incons_password":"ਦੋ ਵਾਰ ਦਾਖਲ ਕੀਤਾ ਪਾਸਵਰਡ ਅਸੰਗਤ ਹੈ",
             "error":"ਗਲਤੀ:",
             "imported_success":"ਫਾਇਲ ਨੂੰ ਸਫਲਤਾਪੂਰਵਕ ਆਯਾਤ ਕਰੋ",
+            "imported_account_success":"ਸਫਲਤਾਪੂਰਵਕ ਆਯਾਤ ਕੀਤਾ ਗਿਆ",
             "enter_private":"ਕਿਰਪਾ ਕਰਕੇ ਕੁੰਜੀ ਦਾਖਲ ਕਰੋ",
             "error_private":"ਖਾਤਾ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ, ਇਹ ਗਲਤ ਕੁੰਜੀ ਹੋ ਸਕਦੀ ਹੈ",
-            "enter_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਕੁੰਜੀਸਟੋਰ ਫਾਈਲ ਆਯਾਤ ਕਰੋ",
+            "enter_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਪਹਿਲੀ ਖਾਤਾ ਫਾਈਲ ਆਯਾਤ ਕਰੋ",
             "error_password":"ਖਾਤੇ ਨੂੰ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ, ਇਹ ਗਲਤ ਪਾਸਵਰਡ ਹੋ ਸਕਦਾ ਹੈ",
             "remove_success":"ਸਫਲਤਾਪੂਰਵਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ",
             "create_success":"ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ",
-            "save":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਕੁੰਜੀਸਟੋਰ ਜਾਂ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ ਅਤੇ ਕਿਸੇ ਨਾਲ ਵੀ ਇਸ ਨੂੰ ਸਾਂਝਾ ਨਾ ਕਰੋ!"
+            "save":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਖਾਤਾ ਫਾਈਲ ਸੁਰੱਖਿਅਤ ਕਰੋ ਅਤੇ ਇਸਨੂੰ ਕਿਸੇ ਨਾਲ ਸਾਂਝਾ ਨਾ ਕਰੋ!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"ਵਾਲਿਟ ਬਣਾਓ",
+        "import_wallet":"ਅਯਾਤ ਵਾਲਿਟ",
+        "back_up":"ਬੈਕਅਪ ਵਾਲਿਟ",
+        "add_account":"ਨਵਾਂ ਖਾਤਾ",
+        "acc":"ਖਾਤਾ",
+        "wallet":"ਵਾਲਿਟ",
+        "create_dia": {
+            "create_tit":"ਇੱਕ ਖਾਤਾ ਬਣਾਓ",
+            "backup_tit":"ਆਪਣਾ ਨਵਾਂ ਖਾਤਾ ਬੈਕ ਅਪ ਕਰੋ",
+            "create_tag":"ਖਾਤਾ ਨਾਂ",
+            "create_pwd":"ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ",
+            "create_repwd":"ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "placeholder_tag":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਨਾਂ ਸੈਟ ਕਰੋ",
+            "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ",
+            "placeholder_repwd":"ਕਿਰਪਾ ਕਰਕੇ ਖਾਤਾ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "strong_password":"ਇੱਕ ਮਜ਼ਬੂਤ ​​ਪਾਸਵਰਡ ਦਿਓ, ਘੱਟੋ ਘੱਟ 8 ਅੰਕ",
+            "account_address":"ਖਾਤਾ",
+            "account_privateKey":"ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ",
+            "account_download_keystore":"ਕੀਸਟੋਰ ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰੋ"
+        },
+        "create_wallet_dia": {
+            "create_tit":"ਵਾਲਿਟ ਬਣਾਓ",
+            "backup_tit":"ਆਪਣੇ ਨਵੇਂ ਵਾਲਿਟ ਦਾ ਬੈਕਅੱਪ ਲਵੋ",
+            "create_tag":"ਵਾਲਿਟ ਦਾ ਨਾਮ",
+            "create_pwd":"ਪਾਸਵਰਡ ਸੈੱਟ ਕਰੋ",
+            "create_repwd":"ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "placeholder_tag":"ਕਿਰਪਾ ਕਰਕੇ ਵਾਲਿਟ ਨਾਮ ਸੈਟ ਕਰੋ",
+            "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਵਾਲਿਟ ਪਾਸਵਰਡ ਸੈਟ ਕਰੋ",
+            "placeholder_repwd":"ਕਿਰਪਾ ਕਰਕੇ ਵਾੱਲਟ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ",
+            "strong_password":"ਇੱਕ ਮਜ਼ਬੂਤ ​​ਪਾਸਵਰਡ ਦਿਓ, ਘੱਟੋ ਘੱਟ 8 ਅੰਕ",
+            "wallet_address":"ਵਾਲਿਟ",
+            "download_wallet_file":"ਵਾਲਿਟ ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰੋ"
+        },
+        "import_wallet_dia": {
+            "tit":"ਅਯਾਤ ਵਾਲਿਟ",
+            "placeholder_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਇੱਥੇ ਵਾੱਲਟ ਫਾਈਲਾਂ ਨੂੰ ਚੁੱਕੋ",
+            "placeholder_tag":"ਕਿਰਪਾ ਕਰਕੇ ਵਾਲਿਟ ਨਾਮ ਸੈਟ ਕਰੋ",
+            "create_tag":"ਵਾਲਿਟ ਦਾ ਨਾਮ",
+            "input_pwd":"ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+            "placeholder_pwd":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਵਾਲਿਟ ਪਾਸਵਰਡ ਦਾਖਲ ਕਰੋ"
+        },
+        "remove_dia": {
+            "tit":"ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਰੂਪ ਤੋਂ ਵਾਲਿਟ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+            "remove_confrim":"ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਮੈਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦਾ ਹਾਂ",
+            "backup":"ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਸੰਪਤੀ ਦੇ ਨੁਕਸਾਨ ਤੋਂ ਬਚਣ ਲਈ ਵਾਲਿਟ ਦਾ ਬੈਕਅੱਪ ਕੀਤਾ ਗਿਆ ਹੈ"
+        },
+        "remove_wallet_dia": {
+            "tit":"ਕੀ ਤੁਸੀਂ ਨਿਸ਼ਚਤ ਰੂਪ ਤੋਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+            "remove_confrim":"ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਮੈਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦਾ ਹਾਂ",
+            "backup":"ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਸੰਪਤੀ ਦੇ ਨੁਕਸਾਨ ਤੋਂ ਬਚਣ ਲਈ ਵਾਲਿਟ ਦਾ ਬੈਕਅੱਪ ਕੀਤਾ ਗਿਆ ਹੈ"
+        },
+        "backup_wallet_dia": {
+            "tit":"ਆਪਣੀ ਵਾਲਿਟ ਫਾਈਲ ਦਾ ਬੈਕਅੱਪ ਲਵੋ",
+            "remove_confrim":"ਮੈਨੂੰ ਯਕੀਨ ਹੈ ਕਿ ਮੈਂ ਇਸ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦਾ ਹਾਂ",
+            "backup":"ਆਪਣੀ ਵਾਲਿਟ ਫਾਈਲ ਦਾ ਬੈਕਅੱਪ ਕਰਨ ਲਈ ਡਾਊਨਲੋਡ ਤੇ ਕਲਿਕ ਕਰੋ",
+            "download":"ਡਾਊਨਲੋਡ ਕਰੋ"
+        },
+        "msg_info": {
+            "exist":"ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ, ਨਾਮ ਹੈ",
+            "wallet_tag_error":"ਕਿਰਪਾ ਕਰਕੇ ਵਾਲਿਟ ਨਾਮ ਦਰਜ ਕਰੋ",
+            "enter_password":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਪਾਸਵਰਡ ਦਰਜ ਕਰੋ",
+            "incons_password":"ਦੋ ਵਾਰ ਦਾਖਲ ਕੀਤਾ ਪਾਸਵਰਡ ਅਸੰਗਤ ਹੈ",
+            "error":"ਗਲਤੀ:",
+            "imported_success":"ਫਾਇਲ ਨੂੰ ਸਫਲਤਾਪੂਰਵਕ ਆਯਾਤ ਕਰੋ",
+            "imported_wallet_success":"ਵਾਲਿਟ ਸਫਲਤਾਪੂਰਵਕ ਆਯਾਤ ਕੀਤਾ ਗਿਆ",
+            "enter_private":"ਕਿਰਪਾ ਕਰਕੇ ਕੁੰਜੀ ਦਾਖਲ ਕਰੋ",
+            "error_private":"ਖਾਤਾ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ, ਇਹ ਗਲਤ ਕੁੰਜੀ ਹੋ ਸਕਦੀ ਹੈ",
+            "enter_keystore":"ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਵਾਲਿਟ ਫਾਈਲ ਆਯਾਤ ਕਰੋ",
+            "error_password":"ਖਾਤੇ ਨੂੰ ਆਯਾਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ, ਇਹ ਗਲਤ ਪਾਸਵਰਡ ਹੋ ਸਕਦਾ ਹੈ",
+            "remove_success":"ਸਫਲਤਾਪੂਰਵਕ ਹਟਾ ਦਿੱਤਾ ਗਿਆ",
+            "create_success":"ਸਫਲਤਾਪੂਰਵਕ ਬਣਾਇਆ ਗਿਆ",
+            "acc_create_success_des":"CZR ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਖਾਤਾ ਪਤੇ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ",
+            "acc_wallet_success_des":"ਆਪਣੀਆਂ ਵਾਲਿਟ ਫਾਈਲਾਂ ਦਾ ਬੈਕਅੱਪ ਲਵੋ, ਕਿਸੇ ਨੂੰ ਨਾ ਦੱਸੋ",
+            "save":"ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਮੁੱਖ ਸਟੋਰ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰੋ ਅਤੇ ਇਸਨੂੰ ਕਿਸੇ ਨਾਲ ਸਾਂਝਾ ਨਾ ਕਰੋ!"
         }
     }
-
 }

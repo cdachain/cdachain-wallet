@@ -4,43 +4,42 @@
     "dialog_tit":"Uzvedne",
     "close":"Slēgts",
     "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Mājas",
         "transfer":"Pārsūtīšana",
         "contacts":"Kontakti",
         "setting":"Iestatījumi",
         "total":"Kopā"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Iestatījumi",
         "lang":"Valoda",
         "select":"Lūdzu, izvēlieties"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontakti",
         "add_dialog":"Pievienojiet kontaktu",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Ievadiet kontaktinformāciju",
             "tag":"Birkas",
             "address":"Kontakti",
             "tag_placeholder":"Lūdzu, ievadiet kontaktpersonas komentāru tagu",
             "address_placeholder":"Lūdzu, ievadiet kontakta kontu"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Jūs noņemat"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Lūdzu, ievadiet konta nosaukumu",
             "no_address":"Lūdzu, ievadiet konta adresi",
             "valid_address":"Kontaktpersonas adrese ir nelikumīga",
             "exist":"Kontaktpersona jau pastāv"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Pārskaitīt",
         "to_address":"Into",
         "amount":"Summa",
@@ -50,97 +49,165 @@
         "total":"Kopā",
         "select":"Lūdzu, izvēlieties",
         "no_account_info":"Nav konta, lūdzu, izveidojiet vai importējiet kontu",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Lūdzu, izvēlieties"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Lūdzu, apstipriniet",
             "enter_passworld_tit":"Lūdzu, ievadiet savu paroli",
             "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Nevarēja veikt maketa parsēšanu, iespējams, ir paroles kļūda",
             "address_err":"Ienākošā adreses formāts ir nelikumīgs",
             "send_success":"Nosūtiet veiksmi",
             "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekams atlikums un ieguvējs maksa"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Darījumu vēsture",
         "transfer_log_null":"Nav darījumu vēstures",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Uzsākt pārskaitījumu;",
             "import_keystore":"Keystore",
             "qrcode":"QR kods"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Mainīt piezīmi",
             "subtit":"Atzīmējiet piezīmi savam kontam"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Rezerves atslēga",
             "copy":"Dublikāts",
             "download":"Lejupielādēt taustiņu krājumu"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adrese ir kopēta",
             "key_copy_success":"Veiksmīgi nokopēts"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Importēt kontu",
         "add_account":"Jauns konts",
         "acc":"Konts",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Izveidot kontu",
             "backup_tit":"Dublējat savu jauno kontu",
-
             "create_tag":"Konta nosaukums",
             "create_pwd":"Iestatīt paroli",
             "create_repwd":"Apstipriniet paroli",
-
             "placeholder_tag":"Lūdzu, norādiet konta nosaukumu",
             "placeholder_pwd":"Lūdzu, iestatiet konta paroli",
             "placeholder_repwd":"Lūdzu, apstipriniet konta paroli",
-            "strong_password":"Ievadiet spēcīgu paroli, vismaz 8 ciparus",
-
+            "strong_password":"Ievadiet vismaz 8 ciparu paroli",
             "account_address":"Konts",
             "account_privateKey":"Privātā atslēga",
-            "account_download_keystore":"Lejupielādējiet taustiņu saglabāšanas failu"
+            "account_download_keystore":"Lejupielādējiet konta failu"
         },
-        "import_dia":{
-            "tit":"Importēt kontu",
-            "select_type":"Lūdzu, atlasiet importēšanas metodi",
-            "type_private":"Privātā atslēga",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Lūdzu, ielīmējiet privāto atslēgu šeit",
-            "placeholder_keystore":"Lūdzu, velciet taustiņu saglabāšanas failu šeit",
-
-            "input_pwd":"Ievadiet paroli",
-            "placeholder_pwd":"Lūdzu, ievadiet sava konta paroli"
-
+        "import_dia": {
+            "tit":"Importēt kontu",    
+            "placeholder_keystore":"Lūdzu, velciet konta failu šeit",
+            "create_tag":"Konta nosaukums",
+            "placeholder_tag":"Lūdzu, norādiet konta nosaukumu"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Vai tiešām vēlaties to noņemt?",
             "remove_confrim":"Es esmu pārliecināts, ka noņems",
-            "backup":"Lūdzu, pārliecinieties, ka konts ir dublēts, lai izvairītos no īpašuma bojājumiem"
+            "backup":"Lūdzu, ņemiet vērā šī konta dublējumu, lai izvairītos no īpašuma bojājumiem",
+            "input_pwd":"Parole",
+            "placeholder_pwd":"Lūdzu, ievadiet šī konta paroli"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Šis konts jau pastāv, vārds ir",
             "enter_password":"Lūdzu, ievadiet savu paroli",
             "incons_password":"Divreiz ievadītā parole ir pretrunā",
             "error":"Kļūda:",
             "imported_success":"Importēt failu veiksmīgi",
+            "imported_account_success":"Importēti veiksmīgi",
             "enter_private":"Lūdzu, ievadiet atslēgu",
             "error_private":"Nevar importēt kontu, tas var būt nepareiza atslēga",
-            "enter_keystore":"Lūdzu, importējiet galveno datņu failu",
+            "enter_keystore":"Vispirms importējiet konta failu",
             "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
             "remove_success":"Noņemta veiksmīgi",
             "create_success":"Veidots veiksmīgi",
-            "save":"Lūdzu, saglabājiet savu taustiņu vai privāto atslēgu un nedodiet to citiem!"
+            "save":"Lūdzu, saglabājiet sava konta failu un nedodiet to citiem!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Izveidojiet maku",
+        "import_wallet":"Importēt kabeli",
+        "back_up":"Rezerves seifs",
+        "add_account":"Jauns konts",
+        "acc":"Konts",
+        "wallet":"Seifs",
+        "create_dia": {
+            "create_tit":"Izveidot kontu",
+            "backup_tit":"Dublējat savu jauno kontu",
+            "create_tag":"Konta nosaukums",
+            "create_pwd":"Iestatīt paroli",
+            "create_repwd":"Apstipriniet paroli",
+            "placeholder_tag":"Lūdzu, norādiet konta nosaukumu",
+            "placeholder_pwd":"Lūdzu, iestatiet konta paroli",
+            "placeholder_repwd":"Lūdzu, apstipriniet konta paroli",
+            "strong_password":"Ievadiet spēcīgu paroli, vismaz 8 ciparus",
+            "account_address":"Konts",
+            "account_privateKey":"Privātā atslēga",
+            "account_download_keystore":"Lejupielādējiet taustiņu saglabāšanas failu"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Izveidojiet maku",
+            "backup_tit":"Dublējiet savu jauno seifu",
+            "create_tag":"Maka nosaukumu",
+            "create_pwd":"Iestatīt paroli",
+            "create_repwd":"Apstipriniet paroli",
+            "placeholder_tag":"Lūdzu, iestatiet seifa nosaukumu",
+            "placeholder_pwd":"Lūdzu, iestatiet seifa paroli",
+            "placeholder_repwd":"Lūdzu, apstipriniet seifa paroli",
+            "strong_password":"Ievadiet spēcīgu paroli, vismaz 8 ciparus",
+            "wallet_address":"Seifs",
+            "download_wallet_file":"Lejupielādējiet seifa failu"
+        },
+        "import_wallet_dia": {
+            "tit":"Importēt kabeli",
+            "placeholder_keystore":"Lūdzu, velciet seifa failus šeit",
+            "placeholder_tag":"Lūdzu, iestatiet seifa nosaukumu",
+            "create_tag":"Maka nosaukumu",
+            "input_pwd":"Ievadiet paroli",
+            "placeholder_pwd":"Lūdzu, ievadiet savu seifa paroli"
+        },
+        "remove_dia": {
+            "tit":"Vai tiešām vēlaties noņemt kuponu?",
+            "remove_confrim":"Es esmu pārliecināts, ka noņems",
+            "backup":"Lūdzu, pārliecinieties, ka seifs ir papildināts, lai izvairītos no īpašuma bojājumiem"
+        },
+        "remove_wallet_dia": {
+            "tit":"Vai tiešām vēlaties to noņemt?",
+            "remove_confrim":"Es esmu pārliecināts, ka noņems",
+            "backup":"Lūdzu, pārliecinieties, ka seifs ir papildināts, lai izvairītos no īpašuma bojājumiem"
+        },
+        "backup_wallet_dia": {
+            "tit":"Dublējiet sava seifa failu",
+            "remove_confrim":"Es esmu pārliecināts, ka noņems",
+            "backup":"Noklikšķiniet uz Lejupielādēt, lai dublētu savu seifa failu",
+            "download":"Lejupielādēt"
+        },
+        "msg_info": {
+            "exist":"Jau pastāv, nosaukums ir",
+            "wallet_tag_error":"Lūdzu, ievadiet seifa nosaukumu",
+            "enter_password":"Lūdzu, ievadiet savu paroli",
+            "incons_password":"Divreiz ievadītā parole ir pretrunā",
+            "error":"Kļūda:",
+            "imported_success":"Importēt failu veiksmīgi",
+            "imported_wallet_success":"Seifs ir veiksmīgi importēts",
+            "enter_private":"Lūdzu, ievadiet atslēgu",
+            "error_private":"Nevar importēt kontu, tas var būt nepareiza atslēga",
+            "enter_keystore":"Vispirms importējiet seifa failu",
+            "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
+            "remove_success":"Noņemta veiksmīgi",
+            "create_success":"Veidots veiksmīgi",
+            "acc_create_success_des":"Konta adresi var izmantot CZR saņemšanai",
+            "acc_wallet_success_des":"Dublējiet savus seifa failus, nerunājiet citiem",
+            "save":"Lūdzu, saglabājiet savu atslēgu laukumu un nedodiet to citiem!"
         }
     }
-
 }

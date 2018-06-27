@@ -1,7 +1,9 @@
 import Vue      from 'vue'
 import Router   from 'vue-router'
 import Home     from '@/components/Home/Home'
+import Home2     from '@/components/Home2/Home'
 import Config     from '@/components/Config/Config'
+import Test     from '@/components/test'
 import Account  from '@/components/Account/Account'
 import Contacts from '@/components/Contacts/Contacts'
 import Setting  from '@/components/Setting/Setting'
@@ -12,8 +14,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Config',
-      component: Config
+      name: 'Home',
+      component: Home
     },
     {
       path: '/home',

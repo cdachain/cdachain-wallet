@@ -4,43 +4,42 @@
     "dialog_tit":"prompt",
     "close":"shut down",
     "confirm_you_active":"Please confirm your operation",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Contacts",
         "setting":"Settings",
         "total":"total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Settings",
         "lang":"Language",
         "select":"please choose"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Contacts",
         "add_dialog":"Add contacts",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Enter contact information",
             "tag":"label",
             "address":"Contacts",
             "tag_placeholder":"Please enter the contact's comment tag",
             "address_placeholder":"Please enter the contact account"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"You are removing"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Please enter the account name",
             "no_address":"Please enter the account address",
             "valid_address":"The contact's address is illegal",
             "exist":"The contact already exists,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Transfer out",
         "to_address":"Into",
         "amount":"Amount",
@@ -50,97 +49,165 @@
         "total":"total",
         "select":"please choose",
         "no_account_info":"No account, please create or import account",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"please choose"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"please confirm",
             "enter_passworld_tit":"Please enter your password",
             "enter_passworld_place":"Please enter your password"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Wallet parsing failed, may be a password error",
             "address_err":"Incoming address format is illegal",
             "send_success":"Sent successfully",
             "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Transaction Record",
         "transfer_log_null":"No transaction history",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Initiate transfer",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Modify note",
             "subtit":"Mark a note for your account"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Back up the keystore",
             "copy":"copy",
             "download":"Download keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Address has been copied",
             "key_copy_success":"Successfully copied"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Import account",
         "add_account":"New account",
         "acc":"Account",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"create Account",
             "backup_tit":"Back up your new account",
-
             "create_tag":"account name",
             "create_pwd":"set password",
             "create_repwd":"confirm password",
-
             "placeholder_tag":"Please set account name",
             "placeholder_pwd":"Please set account password",
             "placeholder_repwd":"Please confirm the account password",
-            "strong_password":"Enter a strong password, at least 8 digits",
-
+            "strong_password":"Enter a password of at least 8 digits",
             "account_address":"Account",
             "account_privateKey":"Private key",
-            "account_download_keystore":"Download the keystore file"
+            "account_download_keystore":"Download account file"
         },
-        "import_dia":{
-            "tit":"Import account",
-            "select_type":"Please select import method",
-            "type_private":"Private key",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Please paste the private key here",
-            "placeholder_keystore":"Please drag the keystore file here",
-
-            "input_pwd":"enter password",
-            "placeholder_pwd":"Please enter your account password"
-
+        "import_dia": {
+            "tit":"Import account",    
+            "placeholder_keystore":"Please drag the account file here",
+            "create_tag":"account name",
+            "placeholder_tag":"Please set account name"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Are you sure you want to remove it?",
             "remove_confrim":"I am sure to remove",
-            "backup":"Please make sure the account has been backed up to avoid property damage"
+            "backup":"Please note the backup of this account to avoid property damage",
+            "input_pwd":"password",
+            "placeholder_pwd":"Please enter the password for this account"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"This account already exists, the name is",
             "enter_password":"Please enter your password",
             "incons_password":"The password entered twice is inconsistent",
             "error":"error:",
             "imported_success":"Import file successfully",
+            "imported_account_success":"Imported successfully",
             "enter_private":"Please enter the key",
             "error_private":"Failed to import the account, it may be the wrong key",
-            "enter_keystore":"Please import the keystore file first",
+            "enter_keystore":"Please import the account file first",
             "error_password":"Failed to import account, it may be a wrong password",
             "remove_success":"Removed successfully",
             "create_success":"Created successfully",
-            "save":"Please save your keystore or private key and don't share it with anyone!"
+            "save":"Please save your account file and don't share it with anyone!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Create Wallet",
+        "import_wallet":"Import wallet",
+        "back_up":"Backup wallet",
+        "add_account":"New account",
+        "acc":"Account",
+        "wallet":"wallet",
+        "create_dia": {
+            "create_tit":"create Account",
+            "backup_tit":"Back up your new account",
+            "create_tag":"account name",
+            "create_pwd":"set password",
+            "create_repwd":"confirm password",
+            "placeholder_tag":"Please set account name",
+            "placeholder_pwd":"Please set account password",
+            "placeholder_repwd":"Please confirm the account password",
+            "strong_password":"Enter a strong password, at least 8 digits",
+            "account_address":"Account",
+            "account_privateKey":"Private key",
+            "account_download_keystore":"Download the keystore file"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Create Wallet",
+            "backup_tit":"Back up your new wallet",
+            "create_tag":"Wallet name",
+            "create_pwd":"set password",
+            "create_repwd":"confirm password",
+            "placeholder_tag":"Please set wallet name",
+            "placeholder_pwd":"Please set wallet password",
+            "placeholder_repwd":"Please confirm wallet password",
+            "strong_password":"Enter a strong password, at least 8 digits",
+            "wallet_address":"wallet",
+            "download_wallet_file":"Download wallet file"
+        },
+        "import_wallet_dia": {
+            "tit":"Import wallet",
+            "placeholder_keystore":"Please pull wallet files here",
+            "placeholder_tag":"Please set wallet name",
+            "create_tag":"Wallet name",
+            "input_pwd":"enter password",
+            "placeholder_pwd":"Please enter your wallet password"
+        },
+        "remove_dia": {
+            "tit":"Are you sure you want to remove the wallet?",
+            "remove_confrim":"I am sure to remove",
+            "backup":"Please make sure the wallet has been backed up to avoid property damage"
+        },
+        "remove_wallet_dia": {
+            "tit":"Are you sure you want to remove it?",
+            "remove_confrim":"I am sure to remove",
+            "backup":"Please make sure the wallet has been backed up to avoid property damage"
+        },
+        "backup_wallet_dia": {
+            "tit":"Back up your wallet file",
+            "remove_confrim":"I am sure to remove",
+            "backup":"Click Download to backup your wallet file",
+            "download":"download"
+        },
+        "msg_info": {
+            "exist":"Already exists, the name is",
+            "wallet_tag_error":"Please enter wallet name",
+            "enter_password":"Please enter your password",
+            "incons_password":"The password entered twice is inconsistent",
+            "error":"error:",
+            "imported_success":"Import file successfully",
+            "imported_wallet_success":"Wallet imported successfully",
+            "enter_private":"Please enter the key",
+            "error_private":"Failed to import the account, it may be the wrong key",
+            "enter_keystore":"Please import wallet file first",
+            "error_password":"Failed to import account, it may be a wrong password",
+            "remove_success":"Removed successfully",
+            "create_success":"Created successfully",
+            "acc_create_success_des":"Account address can be used to receive CZR",
+            "acc_wallet_success_des":"Back up your wallet files, don’t tell anyone",
+            "save":"Please save your keystore and don't share it with anyone!"
         }
     }
-
 }

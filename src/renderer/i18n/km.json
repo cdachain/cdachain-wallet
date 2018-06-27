@@ -4,43 +4,42 @@
     "dialog_tit":"ប្រអប់បញ្ចូល",
     "close":"បានបិទ",
     "confirm_you_active":"សូមបញ្ជាក់ប្រតិបត្តិការរបស់អ្នក",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"ផ្ទះ",
         "transfer":"ផ្ទេរ",
         "contacts":"ទំនាក់ទំនង",
         "setting":"ការកំណត់",
         "total":"សរុប"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"ការកំណត់",
         "lang":"ភាសា",
         "select":"សូមជ្រើសរើស"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"ទំនាក់ទំនង",
         "add_dialog":"បន្ថែមទំនាក់ទំនង",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"បញ្ចូលព័ត៌មានទំនាក់ទំនង",
             "tag":"ស្លាក",
             "address":"ទំនាក់ទំនង",
             "tag_placeholder":"សូមបញ្ចូលស្លាកមតិយោបល់របស់ទំនាក់ទំនង",
             "address_placeholder":"សូមបញ្ចូលគណនីទំនាក់ទំនង"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"អ្នកកំពុងដកចេញ"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"សូមបញ្ចូលឈ្មោះគណនី",
             "no_address":"សូមបញ្ចូលអាសយដ្ឋានគណនី",
             "valid_address":"អាសយដ្ឋានទំនាក់ទំនងគឺខុសច្បាប់",
             "exist":"ទំនាក់ទំនងមានរួចហើយ,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"ផ្ទេរចេញ",
         "to_address":"ចូលទៅ",
         "amount":"ចំនួន",
@@ -50,97 +49,165 @@
         "total":"សរុប",
         "select":"សូមជ្រើសរើស",
         "no_account_info":"គ្មានគណនីទេសូមបង្កើតឬនាំចូលគណនី",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"សូមជ្រើសរើស"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"សូមបញ្ជាក់",
             "enter_passworld_tit":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក",
             "enter_passworld_place":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"ការវិភាគកាបូបបានបរាជ័យ, អាចជាកំហុសពាក្យសម្ងាត់",
             "address_err":"ទ្រង់ទ្រាយអាសយដ្ឋានចូលគឺខុសច្បាប់",
             "send_success":"ផ្ញើជោគជ័យ",
-            "send_error":"ប្រតិបត្តិការបានបរាជ័យ: សូមពិនិត្យមើលថាតើមានសមតុល្យគ្រប់គ្រាន់និងកម្រៃសេវារបស់អ្នករ៉ាប់រង"
+            "send_error":"ប្រតិបត្តិការនេះបានបរាជ័យ: សូមពិនិត្យមើលដើម្បីមើលថាតើមានតុល្យភាពនិងការជីករ៉ែថ្លៃឱ្យបានគ្រប់គ្រាន់"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"ប្រវត្តិប្រតិបត្តិការ",
         "transfer_log_null":"មិនមានប្រវត្តិប្រតិបត្តិការ",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"ចាប់ផ្តើមផ្ទេរ",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"កែប្រែចំណាំ",
             "subtit":"សម្គាល់ចំណាំសម្រាប់គណនីរបស់អ្នក"
         },
-        "keystore":{
+        "keystore": {
             "tit":"បម្រុងទុក keystore",
             "copy":"ស្ទួន",
             "download":"ទាញយកឃ្លាំងសម្ងាត់"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"អាសយដ្ឋានត្រូវបានចម្លង",
             "key_copy_success":"បានចម្លងដោយជោគជ័យ"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"នាំចូលគណនី",
         "add_account":"គណនីថ្មី",
         "acc":"គណនី",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"បង្កើតគណនី",
             "backup_tit":"បម្រុងទុកគណនីថ្មីរបស់អ្នក",
-
             "create_tag":"ឈ្មោះគណនី",
             "create_pwd":"កំណត់ពាក្យសម្ងាត់",
             "create_repwd":"បញ្ជាក់ពាក្យសម្ងាត់",
-
             "placeholder_tag":"សូមកំណត់ឈ្មោះគណនី",
             "placeholder_pwd":"សូមកំណត់ពាក្យសម្ងាត់គណនី",
             "placeholder_repwd":"សូមបញ្ជាក់ពាក្យសម្ងាត់គណនី",
-            "strong_password":"បញ្ចូលលេខសំងាត់យ៉ាងហោចណាស់ 8 ខ្ទង់",
-
+            "strong_password":"បញ្ចូលពាក្យសម្ងាត់យ៉ាងតិច 8 ខ្ទង់",
             "account_address":"គណនី",
             "account_privateKey":"កូនសោឯកជន",
-            "account_download_keystore":"ទាញយកឯកសារឃ្លាំងសម្ងាត់"
+            "account_download_keystore":"ទាញយកឯកសារគណនី"
         },
-        "import_dia":{
-            "tit":"នាំចូលគណនី",
-            "select_type":"សូមជ្រើសវិធីសាស្ត្រនាំចូល",
-            "type_private":"កូនសោឯកជន",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"សូមបិទភ្ជាប់កូនសោឯកជននៅទីនេះ",
-            "placeholder_keystore":"សូមអូសឯកសារឃ្លាំងសម្ងាត់នៅទីនេះ",
-
-            "input_pwd":"បញ្ចូលពាក្យសម្ងាត់",
-            "placeholder_pwd":"សូមបញ្ចូលពាក្យសម្ងាត់គណនីរបស់អ្នក"
-
+        "import_dia": {
+            "tit":"នាំចូលគណនី",    
+            "placeholder_keystore":"សូមទាញឯកសារគណនីនៅទីនេះ",
+            "create_tag":"ឈ្មោះគណនី",
+            "placeholder_tag":"សូមកំណត់ឈ្មោះគណនី"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"តើអ្នកប្រាកដជាចង់លុបវាចោលមែនទេ?",
             "remove_confrim":"ខ្ញុំប្រាកដក្នុងការដកចេញ",
-            "backup":"សូមប្រាកដថាគណនីត្រូវបានបម្រុងទុកដើម្បីជៀសវាងការខូចខាតទ្រព្យសម្បត្តិ"
+            "backup":"សូមចំណាំការបម្រុងទុកនៃគណនីនេះដើម្បីជៀសវាងការខូចខាតទ្រព្យសម្បត្តិ",
+            "input_pwd":"ពាក្យសម្ងាត់",
+            "placeholder_pwd":"សូមបញ្ចូលពាក្យសម្ងាត់សម្រាប់គណនីនេះ"
         },
-        "msg_info":{
-            "exist":"គណនីនេះមានរួចហើយឈ្មោះគឺ",
+        "msg_info": {
+            "exist":"គណនីនេះមានរួចហើយហើយឈ្មោះគឺ",
             "enter_password":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក",
             "incons_password":"ពាក្យសម្ងាត់ដែលបានបញ្ចូលពីរដងមិនជាប់លាប់ទេ",
             "error":"កំហុស:",
             "imported_success":"នាំឯកសារដោយជោគជ័យ",
+            "imported_account_success":"បាននាំចូលដោយជោគជ័យ",
             "enter_private":"សូមបញ្ចូលលេខកូដ",
             "error_private":"បានបរាជ័យក្នុងការនាំចូលគណនីវាអាចជាគន្លឹះខុស",
-            "enter_keystore":"សូមនាំចូលឯកសារ keystore ជាមុនសិន",
+            "enter_keystore":"សូមបញ្ចូលឯកសារគណនីជាមុនសិន",
             "error_password":"បានបរាជ័យក្នុងការនាំចូលគណនីវាអាចជាពាក្យសម្ងាត់ខុស",
             "remove_success":"បានយកចេញដោយជោគជ័យ",
             "create_success":"បានបង្កើតដោយជោគជ័យ",
-            "save":"សូមរក្សាទុក keystore ឬកូនសោឯកជនរបស់អ្នកហើយកុំចែករំលែកវាជាមួយនរណាម្នាក់!"
+            "save":"សូមរក្សាទុកឯកសារគណនីរបស់អ្នកហើយកុំចែករំលែកវាជាមួយនរណាម្នាក់!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"បង្កើតកាបូប",
+        "import_wallet":"នាំកាបូប",
+        "back_up":"កាបូបបម្រុងទុក",
+        "add_account":"គណនីថ្មី",
+        "acc":"គណនី",
+        "wallet":"កាបូប",
+        "create_dia": {
+            "create_tit":"បង្កើតគណនី",
+            "backup_tit":"បម្រុងទុកគណនីថ្មីរបស់អ្នក",
+            "create_tag":"ឈ្មោះគណនី",
+            "create_pwd":"កំណត់ពាក្យសម្ងាត់",
+            "create_repwd":"បញ្ជាក់ពាក្យសម្ងាត់",
+            "placeholder_tag":"សូមកំណត់ឈ្មោះគណនី",
+            "placeholder_pwd":"សូមកំណត់ពាក្យសម្ងាត់គណនី",
+            "placeholder_repwd":"សូមបញ្ជាក់ពាក្យសម្ងាត់គណនី",
+            "strong_password":"បញ្ចូលលេខសំងាត់យ៉ាងហោចណាស់ 8 ខ្ទង់",
+            "account_address":"គណនី",
+            "account_privateKey":"កូនសោឯកជន",
+            "account_download_keystore":"ទាញយកឯកសារឃ្លាំងសម្ងាត់"
+        },
+        "create_wallet_dia": {
+            "create_tit":"បង្កើតកាបូប",
+            "backup_tit":"បម្រុងទុកកាបូបថ្មីរបស់អ្នក",
+            "create_tag":"ឈ្មោះកាបូប",
+            "create_pwd":"កំណត់ពាក្យសម្ងាត់",
+            "create_repwd":"បញ្ជាក់ពាក្យសម្ងាត់",
+            "placeholder_tag":"សូមកំណត់ឈ្មោះកាបូប",
+            "placeholder_pwd":"សូមកំណត់ពាក្យសម្ងាត់កាបូប",
+            "placeholder_repwd":"សូមបញ្ជាក់ពាក្យសម្ងាត់កាបូប",
+            "strong_password":"បញ្ចូលលេខសំងាត់យ៉ាងហោចណាស់ 8 ខ្ទង់",
+            "wallet_address":"កាបូប",
+            "download_wallet_file":"ទាញយកឯកសារកាបូប"
+        },
+        "import_wallet_dia": {
+            "tit":"នាំកាបូប",
+            "placeholder_keystore":"សូមទាញឯកសារកាបូបនៅទីនេះ",
+            "placeholder_tag":"សូមកំណត់ឈ្មោះកាបូប",
+            "create_tag":"ឈ្មោះកាបូប",
+            "input_pwd":"បញ្ចូលពាក្យសម្ងាត់",
+            "placeholder_pwd":"សូមបញ្ចូលពាក្យសម្ងាត់កាបូបរបស់អ្នក"
+        },
+        "remove_dia": {
+            "tit":"តើអ្នកប្រាកដជាចង់លុបកាបូបមែនទេ?",
+            "remove_confrim":"ខ្ញុំប្រាកដក្នុងការដកចេញ",
+            "backup":"សូមប្រាកដថាកាបូបត្រូវបានបម្រុងទុកដើម្បីជៀសវាងការខូចខាតទ្រព្យសម្បត្តិ"
+        },
+        "remove_wallet_dia": {
+            "tit":"តើអ្នកប្រាកដជាចង់លុបវាចោលមែនទេ?",
+            "remove_confrim":"ខ្ញុំប្រាកដក្នុងការដកចេញ",
+            "backup":"សូមប្រាកដថាកាបូបត្រូវបានបម្រុងទុកដើម្បីជៀសវាងការខូចខាតទ្រព្យសម្បត្តិ"
+        },
+        "backup_wallet_dia": {
+            "tit":"បម្រុងទុកឯកសារកាបូបរបស់អ្នក",
+            "remove_confrim":"ខ្ញុំប្រាកដក្នុងការដកចេញ",
+            "backup":"សូមចុចទាញយកដើម្បីបម្រុងទុកឯកសារកាបូបរបស់អ្នក",
+            "download":"ទាញយក"
+        },
+        "msg_info": {
+            "exist":"មានរួចហើយឈ្មោះគឺ",
+            "wallet_tag_error":"សូមបញ្ចូលឈ្មោះកាបូប",
+            "enter_password":"សូមបញ្ចូលពាក្យសម្ងាត់របស់អ្នក",
+            "incons_password":"ពាក្យសម្ងាត់ដែលបានបញ្ចូលពីរដងមិនជាប់លាប់ទេ",
+            "error":"កំហុស:",
+            "imported_success":"នាំឯកសារដោយជោគជ័យ",
+            "imported_wallet_success":"កាបូបបាននាំចូលដោយជោគជ័យ",
+            "enter_private":"សូមបញ្ចូលលេខកូដ",
+            "error_private":"បានបរាជ័យក្នុងការនាំចូលគណនីវាអាចជាគន្លឹះខុស",
+            "enter_keystore":"សូមបញ្ចូលឯកសារកាបូបជាមុន",
+            "error_password":"បានបរាជ័យក្នុងការនាំចូលគណនីវាអាចជាពាក្យសម្ងាត់ខុស",
+            "remove_success":"បានយកចេញដោយជោគជ័យ",
+            "create_success":"បានបង្កើតដោយជោគជ័យ",
+            "acc_create_success_des":"អាសយដ្ឋានគណនីអាចត្រូវបានប្រើដើម្បីទទួលបាន CZR",
+            "acc_wallet_success_des":"បម្រុងទុកឯកសារកាបូបរបស់អ្នកកុំប្រាប់នរណាម្នាក់",
+            "save":"សូមរក្សាទុកឃ្លាំងសម្ងាត់របស់អ្នកហើយកុំចែករំលែកវាជាមួយនរណាម្នាក់!"
         }
     }
-
 }

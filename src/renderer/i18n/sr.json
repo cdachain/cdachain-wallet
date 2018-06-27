@@ -4,43 +4,42 @@
     "dialog_tit":"Промпт",
     "close":"Затворено",
     "confirm_you_active":"Потврдите своју операцију",
-    "unit":{
+    "unit": {
         "czr":"ЦЗР"
     },
-    "model_header":{
+    "model_header": {
         "home":"Хоме",
         "transfer":"Трансфер",
         "contacts":"Контакти",
         "setting":"Подешавања",
         "total":"Укупно"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Подешавања",
         "lang":"Језик",
         "select":"Изаберите"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Контакти",
         "add_dialog":"Додајте контакт",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Унесите информације о контакту",
             "tag":"Ознаке",
             "address":"Контакти",
             "tag_placeholder":"Молимо унесите ознаку за коментаре",
             "address_placeholder":"Молимо унесите контактни налог"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Ви уклањате"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Унесите име налога",
             "no_address":"Молимо унесите адресу рачуна",
             "valid_address":"Адреса контакта је незаконита",
             "exist":"Контакт већ постоји,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Пренеси",
         "to_address":"Инто",
         "amount":"Износ",
@@ -50,97 +49,165 @@
         "total":"Укупно",
         "select":"Изаберите",
         "no_account_info":"Нема налога, направите или увезите рачун",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Изаберите"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Потврдите",
             "enter_passworld_tit":"Унесите своју лозинку",
             "enter_passworld_place":"Унесите своју лозинку"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Анализирање новчаника није успело, можда грешка грешке",
             "address_err":"Формат улазне адресе је незаконит",
             "send_success":"Пошаљи успех",
             "send_error":"Трансакција није успела: проверите да ли постоји довољна равнотежа и рударска накнада"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Историја трансакција",
         "transfer_log_null":"Нема историје трансакција",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Покрените трансфер",
             "import_keystore":"Кеисторе",
             "qrcode":"КР код"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Измените белешку",
             "subtit":"Означите белешку за свој налог"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Направите резервну копију",
             "copy":"Дупликат",
             "download":"Преузмите кеисторе"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Адреса је копирана",
             "key_copy_success":"Успешно копиран"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Увоз налога",
         "add_account":"Нови рачун",
         "acc":"Рачун",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Направите налог",
             "backup_tit":"Направите резервну копију новог налога",
-
             "create_tag":"Име налога",
             "create_pwd":"Поставите лозинку",
             "create_repwd":"Потврдите лозинку",
-
             "placeholder_tag":"Поставите име налога",
             "placeholder_pwd":"Поставите лозинку за рачун",
             "placeholder_repwd":"Потврдите лозинку налога",
-            "strong_password":"Унесите јаку лозинку, најмање 8 цифара",
-
+            "strong_password":"Унесите лозинку од најмање 8 цифара",
             "account_address":"Рачун",
             "account_privateKey":"Приватни кључ",
-            "account_download_keystore":"Преузмите датотеку кеисторе"
+            "account_download_keystore":"Преузмите датотеку налога"
         },
-        "import_dia":{
-            "tit":"Увоз налога",
-            "select_type":"Изаберите начин увоза",
-            "type_private":"Приватни кључ",
-            "type_keystore":"Кеисторе",
-
-            "placeholder_private":"Молимо вас да прилепите приватни кључ овдје",
-            "placeholder_keystore":"Молим вас превуците датотеку кеисторе овде",
-
-            "input_pwd":"Унесите лозинку",
-            "placeholder_pwd":"Молимо унесите лозинку вашег рачуна"
-
+        "import_dia": {
+            "tit":"Увоз налога",    
+            "placeholder_keystore":"Молим вас превуците датотеку налога овде",
+            "create_tag":"Име налога",
+            "placeholder_tag":"Поставите име налога"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Да ли сте сигурни да желите да га уклоните?",
             "remove_confrim":"Сигуран сам да га уклоним",
-            "backup":"Уверите се да је рачун направљен да бисте избегли имовинску штету"
+            "backup":"Имајте на уму сигурносну копију овог налога како бисте избјегли оштећења имовине",
+            "input_pwd":"Лозинка",
+            "placeholder_pwd":"Унесите лозинку за овај налог"
         },
-        "msg_info":{
-            "exist":"Овај налог већ постоји, име је",
+        "msg_info": {
+            "exist":"Овај налог већ постоји и име је",
             "enter_password":"Унесите своју лозинку",
             "incons_password":"Уписана лозинка је недоследна",
             "error":"Грешка:",
             "imported_success":"Увезите датотеку успешно",
+            "imported_account_success":"Увезено успешно",
             "enter_private":"Молимо унесите кључ",
             "error_private":"Неуспело је увести рачун, можда је погрешан кључ",
-            "enter_keystore":"Прво импортирајте датотеку кеисторе",
+            "enter_keystore":"Прво унесите датотеку налога",
             "error_password":"Није успело увозити рачун, можда је погрешна лозинка",
             "remove_success":"Успешно уклоњено",
             "create_success":"Створено успешно",
-            "save":"Молимо вас да сачувате кључеве или приватни кључ и не делите никоме!"
+            "save":"Молимо вас да сачувате датотеку налога и не делите ни са ким!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Креирај новчаник",
+        "import_wallet":"Увезите новчаник",
+        "back_up":"Бацкуп новчаник",
+        "add_account":"Нови рачун",
+        "acc":"Рачун",
+        "wallet":"Новчаник",
+        "create_dia": {
+            "create_tit":"Направите налог",
+            "backup_tit":"Направите резервну копију новог налога",
+            "create_tag":"Име налога",
+            "create_pwd":"Поставите лозинку",
+            "create_repwd":"Потврдите лозинку",
+            "placeholder_tag":"Поставите име налога",
+            "placeholder_pwd":"Поставите лозинку за рачун",
+            "placeholder_repwd":"Потврдите лозинку налога",
+            "strong_password":"Унесите јаку лозинку, најмање 8 цифара",
+            "account_address":"Рачун",
+            "account_privateKey":"Приватни кључ",
+            "account_download_keystore":"Преузмите датотеку кеисторе"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Креирај новчаник",
+            "backup_tit":"Направите резервну копију новог новчаника",
+            "create_tag":"Име новчаника",
+            "create_pwd":"Поставите лозинку",
+            "create_repwd":"Потврдите лозинку",
+            "placeholder_tag":"Поставите име новчаника",
+            "placeholder_pwd":"Молимо поставите лозинку за новчаник",
+            "placeholder_repwd":"Потврдите лозинку за новчаник",
+            "strong_password":"Унесите јаку лозинку, најмање 8 цифара",
+            "wallet_address":"Новчаник",
+            "download_wallet_file":"Преузмите датотеку новчаника"
+        },
+        "import_wallet_dia": {
+            "tit":"Увезите новчаник",
+            "placeholder_keystore":"Молим вас извадите датотеке новчаника овде",
+            "placeholder_tag":"Поставите име новчаника",
+            "create_tag":"Име новчаника",
+            "input_pwd":"Унесите лозинку",
+            "placeholder_pwd":"Унесите лозинку новчаника"
+        },
+        "remove_dia": {
+            "tit":"Да ли сте сигурни да желите уклонити новчаник?",
+            "remove_confrim":"Сигуран сам да га уклоним",
+            "backup":"Проверите да ли је новчаник резервисан како би се избегло оштећење имовине"
+        },
+        "remove_wallet_dia": {
+            "tit":"Да ли сте сигурни да желите да га уклоните?",
+            "remove_confrim":"Сигуран сам да га уклоним",
+            "backup":"Проверите да ли је новчаник резервисан како би се избегло оштећење имовине"
+        },
+        "backup_wallet_dia": {
+            "tit":"Направите резервну копију датотеке новчаника",
+            "remove_confrim":"Сигуран сам да га уклоним",
+            "backup":"Кликните на Преузми да бисте направили резервну копију датотеке новчаника",
+            "download":"Преузми"
+        },
+        "msg_info": {
+            "exist":"Већ постоји, име је",
+            "wallet_tag_error":"Унесите име новчаника",
+            "enter_password":"Унесите своју лозинку",
+            "incons_password":"Уписана лозинка је недоследна",
+            "error":"Грешка:",
+            "imported_success":"Увезите датотеку успешно",
+            "imported_wallet_success":"Новчаник је успешно увезен",
+            "enter_private":"Молимо унесите кључ",
+            "error_private":"Неуспело је увести рачун, можда је погрешан кључ",
+            "enter_keystore":"Најприје увозите новчаник",
+            "error_password":"Није успело увозити рачун, можда је погрешна лозинка",
+            "remove_success":"Успешно уклоњено",
+            "create_success":"Створено успешно",
+            "acc_create_success_des":"Адреса рачуна може се користити за пријем ЦЗР-а",
+            "acc_wallet_success_des":"Направите резервне копије својих новчаника, ником не причајте",
+            "save":"Молим вас сачувајте свој кеисторе и не делите то никоме!"
         }
     }
-
 }

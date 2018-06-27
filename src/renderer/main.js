@@ -6,6 +6,7 @@ import ElementUI from 'element-ui';
 import './assets/css/element-ui.css';
 
 import Web3 from 'web3'
+import Czr from './czr'
 
 //Introducing db database
 import db from '../datastore/index'
@@ -19,6 +20,7 @@ import languges from '../../i18n/languges_conf'
 const path = require("path");
 const log4js = require('log4js')
 import utility from '../setting/settings'
+
 const logPath=path.join(utility.userDataPath,'logs',"error.log")
 log4js.configure({
   appenders: { cheese: { type: 'file', filename: logPath } },
@@ -32,7 +34,6 @@ Vue.use(VueI18n);
 Vue.use(ElementUI);
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 
-// javascript lib
 let web3;
 if (typeof web3 !== 'undefined') {
     web3 = new Web3(web3.currentProvider);
@@ -40,10 +41,12 @@ if (typeof web3 !== 'undefined') {
     //https://mainnet.infura.io/uIkf4qZgOSqDV0Ir5np1 
     //http://localhost:8545
     // web3 = new Web3(new Web3.providers.HttpProvider("https://mainnet.infura.io/uIkf4qZgOSqDV0Ir5np1"));
-    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+    web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:7076"));
 }
-
 Vue.web3 = Vue.prototype.$web3 = web3
+
+let czr=new Czr();
+Vue.czr = Vue.prototype.$czr = czr;
 // web3.eth.net.getNetworkType().then(type => {console.log('NetworkType', type)})
 // web3.eth.isSyncing().then(data =>{console.log('isSyncing', data)})
 

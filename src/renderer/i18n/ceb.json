@@ -4,43 +4,42 @@
     "dialog_tit":"Gipangayo",
     "close":"Sulud",
     "confirm_you_active":"Palihug kumpirmahi ang imong operasyon",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Panimalay",
         "transfer":"Pagbalhin",
         "contacts":"Mga kontak",
         "setting":"Mga Setting",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Mga Setting",
         "lang":"Pinulongan",
         "select":"Palihug pagpili"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Mga kontak",
         "add_dialog":"Pagdugang usa ka kontak",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Pagsulod sa impormasyon sa kontak",
             "tag":"Mga Tag",
             "address":"Mga kontak",
             "tag_placeholder":"Palihug ibutang ang comment tag sa kontak",
             "address_placeholder":"Palihug pagsulod sa contact account"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Gikuha nimo"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Palihug pagsulod sa ngalan sa account",
             "no_address":"Palihug pagsulod sa address sa account",
             "valid_address":"Ang address sa contact maoy ilegal",
             "exist":"Ang kontak nga anaa na,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Pagbalhin",
         "to_address":"Sa",
         "amount":"Amgo",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Palihug pagpili",
         "no_account_info":"Wala'y asoy, palihug paghimo o pag-import nga account",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Palihug pagpili"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Palihug kumpirma",
             "enter_passworld_tit":"Palihug pasabta ang imong password",
             "enter_passworld_place":"Palihug pasabta ang imong password"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Ang pagwagtang sa pitaka napakyas, tingali usa ka sayop nga password",
             "address_err":"Ang umaabot nga format sa address ilegal",
             "send_success":"Ipadala ang kalampusan",
             "send_error":"Ang transaksyon napakyas: Palihug susiha kung adunay igong balanse ug bayad sa minero"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Kasaysayan sa transaksyon",
         "transfer_log_null":"Walay kasaysayan sa transaksyon",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Pagsugod sa pagbalhin",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Usba ang mubo nga sulat",
             "subtit":"Markahi ang usa ka mubo nga sulat alang sa imong account"
         },
-        "keystore":{
+        "keystore": {
             "tit":"I-back up ang keystore",
             "copy":"Pagdoble",
             "download":"I-download ang keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Gikopya ang adres",
             "key_copy_success":"Malampuson nga gikopya"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Import account",
         "add_account":"Bag-ong asoy",
         "acc":"Account",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Paghimo og usa ka account",
             "backup_tit":"I-backup ang imong bag-ong account",
-
             "create_tag":"Ngalan sa account",
             "create_pwd":"Pagpili og password",
             "create_repwd":"Kumpirmahan ang password",
-
             "placeholder_tag":"Palihug isulat ang ngalan sa account",
             "placeholder_pwd":"Palihug paghatag password sa account",
             "placeholder_repwd":"Palihug kumpirmahi ang password sa account",
-            "strong_password":"Pagsulod sa usa ka lig-on nga password, labing menos 8 digit",
-
+            "strong_password":"Pagsulod sa password nga labing menos 8 ka digit",
             "account_address":"Account",
             "account_privateKey":"Pribado nga yawe",
-            "account_download_keystore":"I-download ang file sa keystore"
+            "account_download_keystore":"Pag-download sa file sa account"
         },
-        "import_dia":{
-            "tit":"Import account",
-            "select_type":"Palihug pagpili sa pamaagi sa pag-import",
-            "type_private":"Pribado nga yawe",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Palihug i-paste ang pribadong yawe dinhi",
-            "placeholder_keystore":"Palihug i-drag ang keystore file dinhi",
-
-            "input_pwd":"Pagsulod sa pasword",
-            "placeholder_pwd":"Palihug pagsulod sa password sa imong account"
-
+        "import_dia": {
+            "tit":"Import account",    
+            "placeholder_keystore":"Palihug i-drag ang account file dinhi",
+            "create_tag":"Ngalan sa account",
+            "placeholder_tag":"Palihug isulat ang ngalan sa account"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Sigurado ba nga gusto nimong kuhaon kini?",
             "remove_confrim":"Sigurado ko nga kuhaon",
-            "backup":"Palihog siguroha nga ang account gipaluyohan aron malikayan ang kadaot sa propyedad"
+            "backup":"Palihug timan-i ang backup sa niini nga account aron malikayan ang kadaot sa propyedad",
+            "input_pwd":"Sala",
+            "placeholder_pwd":"Palihug pasabta ang pasword alang niini nga account"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Adunay kini nga asoy, ang ngalan mao",
             "enter_password":"Palihug pasabta ang imong password",
             "incons_password":"Ang duha ka password nga gisudlan sa duha dili magkasumpaki",
             "error":"Sayop:",
             "imported_success":"Import nga file nga malampuson",
+            "imported_account_success":"Malampuson ang pag-import",
             "enter_private":"Palihug pagsulod sa yawe",
             "error_private":"Napakyas sa pag-import sa account, kini mahimong sayop nga yawe",
-            "enter_keystore":"Palihug i-import una ang keystore file una",
+            "enter_keystore":"Palihug i-import una ang account file",
             "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
             "remove_success":"Malampuson nga nahuman",
             "create_success":"Nahimo nga malampuson",
-            "save":"Palihog luwasa ang imong keystore o pribadong yawe ug ayaw ipaambit kini sa bisan kinsa!"
+            "save":"Palihug i-save ang file sa imong account ug ayaw ipaambit kini sa bisan kinsa!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Paghimo og Wallet",
+        "import_wallet":"Import nga pitaka",
+        "back_up":"I-backup ang pitaka",
+        "add_account":"Bag-ong asoy",
+        "acc":"Account",
+        "wallet":"Pasalig",
+        "create_dia": {
+            "create_tit":"Paghimo og usa ka account",
+            "backup_tit":"I-backup ang imong bag-ong account",
+            "create_tag":"Ngalan sa account",
+            "create_pwd":"Pagpili og password",
+            "create_repwd":"Kumpirmahan ang password",
+            "placeholder_tag":"Palihug isulat ang ngalan sa account",
+            "placeholder_pwd":"Palihug paghatag password sa account",
+            "placeholder_repwd":"Palihug kumpirmahi ang password sa account",
+            "strong_password":"Pagsulod sa usa ka lig-on nga password, labing menos 8 digit",
+            "account_address":"Account",
+            "account_privateKey":"Pribado nga yawe",
+            "account_download_keystore":"I-download ang file sa keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Paghimo og Wallet",
+            "backup_tit":"Ibaligya ang imong bag-ong pitaka",
+            "create_tag":"Ngalan sa pitaka",
+            "create_pwd":"Pagpili og password",
+            "create_repwd":"Kumpirmahan ang password",
+            "placeholder_tag":"Palihug ibutang ang pitaka ngalan",
+            "placeholder_pwd":"Palihog ipahimutang ang pitaka nga password",
+            "placeholder_repwd":"Palihug kumpirma ang pitaka nga pitaka",
+            "strong_password":"Pagsulod sa usa ka lig-on nga password, labing menos 8 digit",
+            "wallet_address":"Pasalig",
+            "download_wallet_file":"Pag-download sa wallet file"
+        },
+        "import_wallet_dia": {
+            "tit":"Import nga pitaka",
+            "placeholder_keystore":"Palihug paggunit sa mga file sa wallet dinhi",
+            "placeholder_tag":"Palihug ibutang ang pitaka ngalan",
+            "create_tag":"Ngalan sa pitaka",
+            "input_pwd":"Pagsulod sa pasword",
+            "placeholder_pwd":"Palihug ibutang ang imong pitaka nga password"
+        },
+        "remove_dia": {
+            "tit":"Sigurado ba nga gusto nimong kuhaon ang pitaka?",
+            "remove_confrim":"Sigurado ko nga kuhaon",
+            "backup":"Palihug siguroha nga ang pitaka gipaluyo aron malikayan ang kadaot sa propyedad"
+        },
+        "remove_wallet_dia": {
+            "tit":"Sigurado ba nga gusto nimong kuhaon kini?",
+            "remove_confrim":"Sigurado ko nga kuhaon",
+            "backup":"Palihug siguroha nga ang pitaka gipaluyo aron malikayan ang kadaot sa propyedad"
+        },
+        "backup_wallet_dia": {
+            "tit":"I-back up ang imong wallet file",
+            "remove_confrim":"Sigurado ko nga kuhaon",
+            "backup":"I-klik ang Download aron i-backup ang imong wallet file",
+            "download":"Pag-download"
+        },
+        "msg_info": {
+            "exist":"Anaa na, ang ngalan mao",
+            "wallet_tag_error":"Palihug pagsulat sa pitaka",
+            "enter_password":"Palihug pasabta ang imong password",
+            "incons_password":"Ang duha ka password nga gisudlan sa duha dili magkasumpaki",
+            "error":"Sayop:",
+            "imported_success":"Import nga file nga malampuson",
+            "imported_wallet_success":"Malampuson ang pag-import sa tibud",
+            "enter_private":"Palihug pagsulod sa yawe",
+            "error_private":"Napakyas sa pag-import sa account, kini mahimong sayop nga yawe",
+            "enter_keystore":"Palihug pag-import una sa wallet file una",
+            "error_password":"Napakyas sa pag-import sa account, mahimong sayop ang password",
+            "remove_success":"Malampuson nga nahuman",
+            "create_success":"Nahimo nga malampuson",
+            "acc_create_success_des":"Ang address sa account mahimong gamiton aron makadawat sa CZR",
+            "acc_wallet_success_des":"Ibalig ang imong mga file sa pitaka, ayaw isulti kang bisan kinsa",
+            "save":"Palihug luwasa ang imong keystore ug ayaw ipaambit kini sa bisan kinsa!"
         }
     }
-
 }

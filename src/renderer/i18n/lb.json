@@ -4,43 +4,42 @@
     "dialog_tit":"Prompéiert",
     "close":"Zou",
     "confirm_you_active":"Bestätegt Är Operatioun confirméiert",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Kontakter",
         "setting":"Astellungen",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Astellungen",
         "lang":"Sprooch",
         "select":"Wielt we g"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontakter",
         "add_dialog":"Fügt e Kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Gitt Kontact Informatioun",
             "tag":"Tags",
             "address":"Kontakter",
             "tag_placeholder":"Gitt weg den Commentairen vum Kontakt",
             "address_placeholder":"Gidd weg den Kontaktkonto"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Dir sidd ewechhuelen"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Gidd weg den Numm vum Kont un",
             "no_address":"Gidd weg d'Adress Adress",
             "valid_address":"D'Adress vun der Persoun ass illegal",
             "exist":"De Kontakt existéiert schonn,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Transfer aus",
         "to_address":"Into",
         "amount":"Betrag",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Wielt we g",
         "no_account_info":"Keen Account, erfëllt oder Konto kaafen",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Wielt we g"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Confirméiert weg",
             "enter_passworld_tit":"Gidd weg Äert Passwuert",
             "enter_passworld_place":"Gidd weg Äert Passwuert"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Portemonnaie vu Portemonnaie konnt net e Passwuertfehler sinn",
             "address_err":"Incoming Adressform ass illegal",
             "send_success":"Sende Erfolleg",
             "send_error":"Transaktioun ofgeschalt: Préift weg, ob et genuch Ausbezuelen a Biergermesser ass"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Transaktiounsgeschicht",
         "transfer_log_null":"Keng Transaktiounsgeschicht",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Initiatioun transferéieren",
             "import_keystore":"Keystore",
             "qrcode":"QR code"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Änneren",
             "subtit":"Mark eng Notiz fir Äre Kont"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Zréck op den Tastekär",
             "copy":"Duplizéieren",
             "download":"Eroflueden"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Adress gouf kopéiert",
             "key_copy_success":"Erfolleg kopéiert"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Konto importéieren",
         "add_account":"Neie Kont",
         "acc":"Account",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Account erstellen",
             "backup_tit":"Reservéiert Äre neie Kont",
-
             "create_tag":"Account Numm",
             "create_pwd":"Passwuert aginn",
             "create_repwd":"Confirmatioun vum Passwuert",
-
             "placeholder_tag":"Nëmme Kontosnumm umellen",
             "placeholder_pwd":"Passwuert Passwuert aginn",
             "placeholder_repwd":"Bestätegt de Kontpasswuert",
-            "strong_password":"Gitt e staarkt Passwuert, op d'mannst 8 Zifferen",
-
+            "strong_password":"Gitt e Passwuert vun mindestens 8 Zifferen",
             "account_address":"Account",
             "account_privateKey":"Privatsphär",
-            "account_download_keystore":"De Passwuert-Datei lueden"
+            "account_download_keystore":"Luet de Kont Datei"
         },
-        "import_dia":{
-            "tit":"Konto importéieren",
-            "select_type":"Wielt weg Importmethod",
-            "type_private":"Privatsphär",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Gitt weg den privaten Schlüssel hei",
-            "placeholder_keystore":"Ziedleet der Beschreiwungsdatei hier",
-
-            "input_pwd":"Passwuert aginn",
-            "placeholder_pwd":"Gidd weg Äert Passwuert"
-
+        "import_dia": {
+            "tit":"Konto importéieren",    
+            "placeholder_keystore":"Zéckt weg d'Accountfichier hier",
+            "create_tag":"Account Numm",
+            "placeholder_tag":"Nëmme Kontosnumm umellen"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Sidd Dir sécher, datt Dir se ewechhuelt?",
             "remove_confrim":"Ech si sécher si ze läschen",
-            "backup":"Gitt weg datt Dir Äert Kont gemaach hutt fir e Schued ze verhënneren"
+            "backup":"Den Notzung vun dësem Kont bemierkt fir e Schued ze verhënneren",
+            "input_pwd":"Passwuert",
+            "placeholder_pwd":"Gidd weg Äert Passwuert fir dësen Account"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Dëse Kont gëtt schonn existéiert an de Numm heescht",
             "enter_password":"Gidd weg Äert Passwuert",
             "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
             "error":"Feeler:",
             "imported_success":"Datei importéieren Successioun",
+            "imported_account_success":"Wichteg importéiert",
             "enter_private":"Gidd weg d'Schlëssel",
             "error_private":"Konnt de Account net importéieren, kann et de falsche Schlësselen sinn",
-            "enter_keystore":"Kuckt weg un d'Tastekonto Datei zuerst",
+            "enter_keystore":"Kuckt d'Eklicken first ofzehalen",
             "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
             "remove_success":"Erofgeholl",
             "create_success":"Erfolleg gemaach",
-            "save":"Dir kënnt Äre Keystore oder Äre privaten Schlëssel späicheren an net mat jiddereen ze deelen!"
+            "save":"Dir kënnt Är Kontaccount späicheren an net mat jiddereen ze deelen!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Create Wallet",
+        "import_wallet":"Import Portemonnaie",
+        "back_up":"Backup-Portemonnaie",
+        "add_account":"Neie Kont",
+        "acc":"Account",
+        "wallet":"Wallet",
+        "create_dia": {
+            "create_tit":"Account erstellen",
+            "backup_tit":"Reservéiert Äre neie Kont",
+            "create_tag":"Account Numm",
+            "create_pwd":"Passwuert aginn",
+            "create_repwd":"Confirmatioun vum Passwuert",
+            "placeholder_tag":"Nëmme Kontosnumm umellen",
+            "placeholder_pwd":"Passwuert Passwuert aginn",
+            "placeholder_repwd":"Bestätegt de Kontpasswuert",
+            "strong_password":"Gitt e staarkt Passwuert, op d'mannst 8 Zifferen",
+            "account_address":"Account",
+            "account_privateKey":"Privatsphär",
+            "account_download_keystore":"De Passwuert-Datei lueden"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Create Wallet",
+            "backup_tit":"Zréck Är neit Portemonnaie",
+            "create_tag":"Portemonnaie name",
+            "create_pwd":"Passwuert aginn",
+            "create_repwd":"Confirmatioun vum Passwuert",
+            "placeholder_tag":"Sichtbar Portemonnaie name",
+            "placeholder_pwd":"Pass op de Portemonnaie Passwuert",
+            "placeholder_repwd":"Bestätegt Portemonnaie Passwuert",
+            "strong_password":"Gitt e staarkt Passwuert, op d'mannst 8 Zifferen",
+            "wallet_address":"Wallet",
+            "download_wallet_file":"Download vun der Portemonnaie"
+        },
+        "import_wallet_dia": {
+            "tit":"Import Portemonnaie",
+            "placeholder_keystore":"Kuckt weg Portemonnaie Dateien hei",
+            "placeholder_tag":"Sichtbar Portemonnaie name",
+            "create_tag":"Portemonnaie name",
+            "input_pwd":"Passwuert aginn",
+            "placeholder_pwd":"Gitt weg Äre Portemonnaie Passwuert"
+        },
+        "remove_dia": {
+            "tit":"Sidd Dir sécher datt Dir de Portemonnaie läschen wëllt?",
+            "remove_confrim":"Ech si sécher si ze läschen",
+            "backup":"Gitt weg datt Äert Portemonnaie opgeriicht gouf fir e Schued ze verhënneren"
+        },
+        "remove_wallet_dia": {
+            "tit":"Sidd Dir sécher, datt Dir se ewechhuelt?",
+            "remove_confrim":"Ech si sécher si ze läschen",
+            "backup":"Gitt weg datt Äert Portemonnaie opgeriicht gouf fir e Schued ze verhënneren"
+        },
+        "backup_wallet_dia": {
+            "tit":"Zréck Är Portemonnaie opmaachen",
+            "remove_confrim":"Ech si sécher si ze läschen",
+            "backup":"Klickt Download fir Äert Portemonnaie Backup z'änneren",
+            "download":"Download"
+        },
+        "msg_info": {
+            "exist":"Scho schonn existéiert de Numm",
+            "wallet_tag_error":"Bitte gitt d'Bréifform",
+            "enter_password":"Gidd weg Äert Passwuert",
+            "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
+            "error":"Feeler:",
+            "imported_success":"Datei importéieren Successioun",
+            "imported_wallet_success":"Wallet importéiert",
+            "enter_private":"Gidd weg d'Schlëssel",
+            "error_private":"Konnt de Account net importéieren, kann et de falsche Schlësselen sinn",
+            "enter_keystore":"Kuckt éischt Portemonnaie Datei",
+            "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
+            "remove_success":"Erofgeholl",
+            "create_success":"Erfolleg gemaach",
+            "acc_create_success_des":"Konto Adress kann benotzt ginn fir CZR ze kréien",
+            "acc_wallet_success_des":"Setzt Är Portemonnaie zeréck, soen ech näischt",
+            "save":"Dir kënnt Är Tastekonto späicheren an net mat jiddereen ze deelen!"
         }
     }
-
 }

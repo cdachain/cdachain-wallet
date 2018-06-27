@@ -4,43 +4,42 @@
     "dialog_tit":"Tez so'raladigan",
     "close":"Yopiq",
     "confirm_you_active":"Iltimos, amaliyotingizni tasdiqlang",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Bosh sahifa",
         "transfer":"Transfer",
         "contacts":"Kontaktlar",
         "setting":"Sozlamalar",
         "total":"Jami"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Sozlamalar",
         "lang":"Til",
         "select":"Iltimos, tanlang"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontaktlar",
         "add_dialog":"Kontakt qo'shing",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Kontakt ma'lumotlarini kiriting",
             "tag":"Teglar",
             "address":"Kontaktlar",
             "tag_placeholder":"Iltimos, kontaktning sanasi yorlig'ini kiriting",
             "address_placeholder":"Iltimos, kontaktni kiriting"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Siz olib tashlayapsiz"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Iltimos, hisob nomini kiriting",
             "no_address":"Hisob manzilini kiriting",
             "valid_address":"Kontakt manzili noqonuniydir",
             "exist":"Kontakt allaqachon mavjud,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Ko'chiring",
         "to_address":"Into",
         "amount":"Miqdori",
@@ -50,97 +49,165 @@
         "total":"Jami",
         "select":"Iltimos, tanlang",
         "no_account_info":"Hech qanday hisob qaydnomasi yo'q, hisobni yaratib, import qiling",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Iltimos, tanlang"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Iltimos, tasdiqlang",
             "enter_passworld_tit":"Iltimos, parolingizni kiriting",
             "enter_passworld_place":"Iltimos, parolingizni kiriting"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, parol xato bo'lishi mumkin",
             "address_err":"Kirish manzil formati noqonuniy hisoblanadi",
             "send_success":"Muvaffaqiyatli yuboring",
             "send_error":"Transaction failed: Iltimos, balans va miner ish haqi mavjudligini tekshiring"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Jurnal tarixi",
         "transfer_log_null":"Jurnal tarixi yo'q",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"O'tkazishni boshlang",
             "import_keystore":"Keystore",
             "qrcode":"QR kodi"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Qaydni o'zgartiring",
             "subtit":"Hisobingiz uchun eslatma belgilang"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Klaviaturani zaxiralash",
             "copy":"Duplikat",
             "download":"Klaviaturani yuklab olish"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Manzil ko'chirildi",
             "key_copy_success":"Muvaffaqiyatli ko'chirildi"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Hisobni import qilish",
         "add_account":"Yangi hisob",
         "acc":"Hisob",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Hisob yarating",
             "backup_tit":"Yangi hisob qaydnomangizni zaxiralang",
-
             "create_tag":"Hisob nomi",
             "create_pwd":"Parolni o'rnating",
             "create_repwd":"Parolni tasdiqlang",
-
             "placeholder_tag":"Iltimos, hisob nomini tanlang",
             "placeholder_pwd":"Hisob qaydnomangiz parolini o'rnating",
             "placeholder_repwd":"Iltimos, parolni tasdiqlang",
-            "strong_password":"Kuchli parolni kiriting, kamida 8 ta raqam",
-
+            "strong_password":"Parolni kamida 8 ta raqam kiriting",
             "account_address":"Hisob",
             "account_privateKey":"Xususiy kalit",
-            "account_download_keystore":"Klaviatura faylini yuklab oling"
+            "account_download_keystore":"Hisob faylini yuklab oling"
         },
-        "import_dia":{
-            "tit":"Hisobni import qilish",
-            "select_type":"Import usulini tanlang",
-            "type_private":"Xususiy kalit",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Iltimos, maxfiy kalitni bu erga joylashtiring",
-            "placeholder_keystore":"Iltimos, keystore faylini bu erga ko'chiring",
-
-            "input_pwd":"Parolni kiriting",
-            "placeholder_pwd":"Iltimos, hisobingizni parolini kiriting"
-
+        "import_dia": {
+            "tit":"Hisobni import qilish",    
+            "placeholder_keystore":"Iltimos, qayd yozuvini bu erga ko'chiring",
+            "create_tag":"Hisob nomi",
+            "placeholder_tag":"Iltimos, hisob nomini tanlang"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Uni olib tashlashni xohlaysizmi?",
             "remove_confrim":"Ishonchim komilki",
-            "backup":"Mol-mulkka zarar yetkazmaslik uchun hisob qaydnomasi zaxira qilinganligiga ishonch hosil qiling"
+            "backup":"Mol-mulkka zarar yetkazmaslik uchun ushbu hisobning zaxira nusxasini ko'rib chiqing",
+            "input_pwd":"Parol",
+            "placeholder_pwd":"Iltimos, ushbu hisob uchun parolni kiriting"
         },
-        "msg_info":{
-            "exist":"Ushbu hisob allaqachon mavjud, ism bor",
+        "msg_info": {
+            "exist":"Ushbu hisob allaqachon mavjud va ism bor",
             "enter_password":"Iltimos, parolingizni kiriting",
             "incons_password":"Ikki marta kiritilgan parol barqaror emas",
             "error":"Xato:",
             "imported_success":"Faylni muvaffaqiyatli import qiling",
+            "imported_account_success":"Muvaffaqiyatli import qilindi",
             "enter_private":"Iltimos, kalitni kiriting",
             "error_private":"Hisobni import qilish amalga oshmadi, bu noto'g'ri kalit bo'lishi mumkin",
-            "enter_keystore":"Avval keystore faylini import qiling",
+            "enter_keystore":"Iltimos, oldin hisob faylini import qiling",
             "error_password":"Hisobni import qilish amalga oshmadi, u noto'g'ri parol bo'lishi mumkin",
             "remove_success":"Muvaffaqiyatli olib tashlandi",
             "create_success":"Muvaffaqiyatli yaratildi",
-            "save":"Klaviaturani yoki shaxsiy kalitingizni saqlang va uni hech kim bilan baham ko'rmang!"
+            "save":"Iltimos, hisob qaydnomangizni saqlang va uni hech kim bilan baham ko'rmang!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Hamyonni yaratish",
+        "import_wallet":"Hamyonni import qilish",
+        "back_up":"Zaxiralash hamyoni",
+        "add_account":"Yangi hisob",
+        "acc":"Hisob",
+        "wallet":"Hamyon",
+        "create_dia": {
+            "create_tit":"Hisob yarating",
+            "backup_tit":"Yangi hisob qaydnomangizni zaxiralang",
+            "create_tag":"Hisob nomi",
+            "create_pwd":"Parolni o'rnating",
+            "create_repwd":"Parolni tasdiqlang",
+            "placeholder_tag":"Iltimos, hisob nomini tanlang",
+            "placeholder_pwd":"Hisob qaydnomangiz parolini o'rnating",
+            "placeholder_repwd":"Iltimos, parolni tasdiqlang",
+            "strong_password":"Kuchli parolni kiriting, kamida 8 ta raqam",
+            "account_address":"Hisob",
+            "account_privateKey":"Xususiy kalit",
+            "account_download_keystore":"Klaviatura faylini yuklab oling"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Hamyonni yaratish",
+            "backup_tit":"Yangi hamyonni zaxiralash",
+            "create_tag":"Hamyon nomi",
+            "create_pwd":"Parolni o'rnating",
+            "create_repwd":"Parolni tasdiqlang",
+            "placeholder_tag":"Iltimos, hamyon nomini belgilang",
+            "placeholder_pwd":"Iltimos, hamyoncha parolini belgilang",
+            "placeholder_repwd":"Iltimos, hamyonni parolini tasdiqlang",
+            "strong_password":"Kuchli parolni kiriting, kamida 8 ta raqam",
+            "wallet_address":"Hamyon",
+            "download_wallet_file":"Hamyon faylini yuklab oling"
+        },
+        "import_wallet_dia": {
+            "tit":"Hamyonni import qilish",
+            "placeholder_keystore":"Iltimos, pul solingan fayllarni bu yerdan oling",
+            "placeholder_tag":"Iltimos, hamyon nomini belgilang",
+            "create_tag":"Hamyon nomi",
+            "input_pwd":"Parolni kiriting",
+            "placeholder_pwd":"Iltimos, hamyoningiz parolini kiriting"
+        },
+        "remove_dia": {
+            "tit":"Hamyonni olib tashlamoqchimisiz?",
+            "remove_confrim":"Ishonchim komilki",
+            "backup":"Mo'maygina zararni bartaraf etish uchun mo'ylovni zaxiralab qo'yganligiga ishonch hosil qiling"
+        },
+        "remove_wallet_dia": {
+            "tit":"Uni olib tashlashni xohlaysizmi?",
+            "remove_confrim":"Ishonchim komilki",
+            "backup":"Mo'maygina zararni bartaraf etish uchun mo'ylovni zaxiralab qo'yganligiga ishonch hosil qiling"
+        },
+        "backup_wallet_dia": {
+            "tit":"Hamyon faylini zaxiralash",
+            "remove_confrim":"Ishonchim komilki",
+            "backup":"Cüzdan faylini zaxiralash uchun Yuklab tugmasini bosing",
+            "download":"Yuklab oling"
+        },
+        "msg_info": {
+            "exist":"U allaqachon mavjud, ism bor",
+            "wallet_tag_error":"Iltimos, hamyon nomini kiriting",
+            "enter_password":"Iltimos, parolingizni kiriting",
+            "incons_password":"Ikki marta kiritilgan parol barqaror emas",
+            "error":"Xato:",
+            "imported_success":"Faylni muvaffaqiyatli import qiling",
+            "imported_wallet_success":"Hamyon muvaffaqiyatli import qilindi",
+            "enter_private":"Iltimos, kalitni kiriting",
+            "error_private":"Hisobni import qilish amalga oshmadi, bu noto'g'ri kalit bo'lishi mumkin",
+            "enter_keystore":"Avval hamyonni faylini import qiling",
+            "error_password":"Hisobni import qilish amalga oshmadi, u noto'g'ri parol bo'lishi mumkin",
+            "remove_success":"Muvaffaqiyatli olib tashlandi",
+            "create_success":"Muvaffaqiyatli yaratildi",
+            "acc_create_success_des":"Hisob manzili CZR olish uchun ishlatilishi mumkin",
+            "acc_wallet_success_des":"Hamyon fayllarini zaxirangiz, hech kimga aytmang",
+            "save":"Klaviaturani saqlang va uni hech kim bilan baham ko'rmang!"
         }
     }
-
 }

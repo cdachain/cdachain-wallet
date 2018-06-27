@@ -4,43 +4,42 @@
     "dialog_tit":"प्रॉम्प्ट",
     "close":"बंद",
     "confirm_you_active":"कृपया आपल्या ऑपरेशनची पुष्टी करा",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"मुख्यपृष्ठ",
         "transfer":"हस्तांतरण",
         "contacts":"संपर्क",
         "setting":"सेटिंग्ज",
         "total":"एकूण"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"सेटिंग्ज",
         "lang":"भाषा",
         "select":"कृपया निवडा"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"संपर्क",
         "add_dialog":"एक संपर्क जोडा",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"संपर्क माहिती प्रविष्ट करा",
             "tag":"टॅग्ज",
             "address":"संपर्क",
             "tag_placeholder":"कृपया संपर्काचे टिप्पणी टॅग प्रविष्ट करा",
             "address_placeholder":"कृपया संपर्क खाते प्रविष्ट करा"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"आपण काढत आहात"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"कृपया खाते नाव प्रविष्ट करा",
             "no_address":"कृपया खाते पत्ता प्रविष्ट करा",
             "valid_address":"संपर्काचे पत्ता बेकायदेशीर आहे",
             "exist":"संपर्क आधीच अस्तित्वात आहे,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"हस्तांतरण",
         "to_address":"मध्ये",
         "amount":"रक्कम",
@@ -50,97 +49,165 @@
         "total":"एकूण",
         "select":"कृपया निवडा",
         "no_account_info":"खाते नाही, कृपया खाते तयार करा किंवा आयात करा",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"कृपया निवडा"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"कृपया पुष्टी करा",
             "enter_passworld_tit":"कृपया आपला संकेतशब्द प्रविष्ट करा",
             "enter_passworld_place":"कृपया आपला संकेतशब्द प्रविष्ट करा"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"वॉलेट पार्स करणे अयशस्वी झाले, कदाचित एक संकेतशब्द त्रुटी असू शकते",
             "address_err":"इनकमिंग अॅड्रेस फॉर्मेट बेकायदेशीर आहे",
             "send_success":"यश पाठवा",
             "send_error":"व्यवहार अयशस्वी: कृपया पुरेसे शिल्लक आणि खाण कामगारांची फी असल्याचे तपासून पहा"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"व्यवहार इतिहास",
         "transfer_log_null":"व्यवहार इतिहास नाही",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"हस्तांतरण आरंभ करा",
             "import_keystore":"कीस्टोअर",
             "qrcode":"QR कोड"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"टीप सुधारित करा",
             "subtit":"आपल्या खात्यासाठी एक टीप चिन्हांकित करा"
         },
-        "keystore":{
+        "keystore": {
             "tit":"कीस्टोअरचा बॅक अप घ्या",
             "copy":"डुप्लिकेट",
             "download":"कीस्टोअर डाउनलोड करा"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"पत्ता कॉपी केला गेला आहे",
             "key_copy_success":"यशस्वीरित्या कॉपी केले"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"खाते आयात करा",
         "add_account":"नवीन खाते",
         "acc":"खाते",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"एक खाते तयार करा",
             "backup_tit":"आपल्या नवीन खात्याचा बॅक अप घ्या",
-
             "create_tag":"खाते नाव",
             "create_pwd":"संकेतशब्द सेट करा",
             "create_repwd":"पासवर्डची पुष्टी करा",
-
             "placeholder_tag":"कृपया खाते नाव सेट करा",
             "placeholder_pwd":"कृपया खाते संकेतशब्द सेट करा",
             "placeholder_repwd":"कृपया खाते संकेतशब्द पुष्टी करा",
-            "strong_password":"एक मजबूत पासवर्ड प्रविष्ट करा, किमान 8 अंक",
-
+            "strong_password":"किमान 8 अंकांचा संकेतशब्द प्रविष्ट करा",
             "account_address":"खाते",
             "account_privateKey":"खासगी की",
-            "account_download_keystore":"कीस्टोर फाइल डाऊनलोड करा"
+            "account_download_keystore":"खाते फाइल डाउनलोड करा"
         },
-        "import_dia":{
-            "tit":"खाते आयात करा",
-            "select_type":"कृपया आयात पद्धत निवडा",
-            "type_private":"खासगी की",
-            "type_keystore":"कीस्टोअर",
-
-            "placeholder_private":"कृपया येथे खाजगी की पेस्ट करा",
-            "placeholder_keystore":"कृपया येथे कीस्टॉर फाइल ड्रॅग करा",
-
-            "input_pwd":"पासवर्ड प्रविष्ट करा",
-            "placeholder_pwd":"कृपया आपला खाते संकेतशब्द प्रविष्ट करा"
-
+        "import_dia": {
+            "tit":"खाते आयात करा",    
+            "placeholder_keystore":"कृपया येथे खाते फाईल ड्रॅग करा",
+            "create_tag":"खाते नाव",
+            "placeholder_tag":"कृपया खाते नाव सेट करा"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"आपली खात्री आहे की आपण ते काढू इच्छिता?",
             "remove_confrim":"मी काढू खात्री आहे",
-            "backup":"मालमत्ता नुकसान टाळण्यासाठी कृपया खाते बॅक अप केले असल्याचे सुनिश्चित करा"
+            "backup":"मालमत्ता नुकसान टाळण्यासाठी या खात्याचा बॅकअप कृपया लक्षात घ्या",
+            "input_pwd":"पासवर्ड",
+            "placeholder_pwd":"कृपया या खात्यासाठी संकेतशब्द प्रविष्ट करा"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"हे खाते आधीच अस्तित्वात आहे, हे नाव आहे",
             "enter_password":"कृपया आपला संकेतशब्द प्रविष्ट करा",
             "incons_password":"दुहेरी प्रविष्ट केलेला संकेतशब्द विसंगत आहे",
             "error":"त्रुटी:",
             "imported_success":"फाईल यशस्वीरित्या आयात करा",
+            "imported_account_success":"यशस्वीरित्या आयात केले",
             "enter_private":"कृपया की प्रविष्ट करा",
             "error_private":"खाते आयात करण्यात अयशस्वी, हे चुकीचे की असू शकते",
-            "enter_keystore":"कृपया प्रथम कीस्टोअर फाइल आयात करा",
+            "enter_keystore":"कृपया प्रथम खाते फाइल आयात करा",
             "error_password":"खाते आयात करण्यात अयशस्वी, हे कदाचित चुकीचे संकेतशब्द असू शकते",
             "remove_success":"यशस्वीरित्या काढले",
             "create_success":"यशस्वीरित्या तयार केले",
-            "save":"कृपया आपली कीस्टोअर किंवा खाजगी की जतन करा आणि त्यास कोणाशीही सामायिक करू नका!"
+            "save":"कृपया आपल्या खाते फाइल जतन करा आणि त्यास कोणाशीही सामायिक करू नका!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"वॉलेट तयार करा",
+        "import_wallet":"आयात पाकीट",
+        "back_up":"बॅकअप वॉलेट",
+        "add_account":"नवीन खाते",
+        "acc":"खाते",
+        "wallet":"वॉलेट",
+        "create_dia": {
+            "create_tit":"एक खाते तयार करा",
+            "backup_tit":"आपल्या नवीन खात्याचा बॅक अप घ्या",
+            "create_tag":"खाते नाव",
+            "create_pwd":"संकेतशब्द सेट करा",
+            "create_repwd":"पासवर्डची पुष्टी करा",
+            "placeholder_tag":"कृपया खाते नाव सेट करा",
+            "placeholder_pwd":"कृपया खाते संकेतशब्द सेट करा",
+            "placeholder_repwd":"कृपया खाते संकेतशब्द पुष्टी करा",
+            "strong_password":"एक मजबूत पासवर्ड प्रविष्ट करा, किमान 8 अंक",
+            "account_address":"खाते",
+            "account_privateKey":"खासगी की",
+            "account_download_keystore":"कीस्टोर फाइल डाऊनलोड करा"
+        },
+        "create_wallet_dia": {
+            "create_tit":"वॉलेट तयार करा",
+            "backup_tit":"आपल्या नवीन पाकीटचा बॅक अप घ्या",
+            "create_tag":"वॉलेटचे नाव",
+            "create_pwd":"संकेतशब्द सेट करा",
+            "create_repwd":"पासवर्डची पुष्टी करा",
+            "placeholder_tag":"कृपया वॉलेट नाव सेट करा",
+            "placeholder_pwd":"कृपया वॅलेट संकेतशब्द सेट करा",
+            "placeholder_repwd":"कृपया व्हाटलेट संकेतशब्द पुष्टी करा",
+            "strong_password":"एक मजबूत पासवर्ड प्रविष्ट करा, किमान 8 अंक",
+            "wallet_address":"वॉलेट",
+            "download_wallet_file":"वॉलेट फाईल डाउनलोड करा"
+        },
+        "import_wallet_dia": {
+            "tit":"आयात पाकीट",
+            "placeholder_keystore":"कृपया येथे वॉलेट फाइल्स पुल करा",
+            "placeholder_tag":"कृपया वॉलेट नाव सेट करा",
+            "create_tag":"वॉलेटचे नाव",
+            "input_pwd":"पासवर्ड प्रविष्ट करा",
+            "placeholder_pwd":"कृपया आपला वॉलेट संकेतशब्द प्रविष्ट करा"
+        },
+        "remove_dia": {
+            "tit":"आपली खात्री आहे की आपण वॉलेट काढू इच्छिता?",
+            "remove_confrim":"मी काढू खात्री आहे",
+            "backup":"कृपया हे सुनिश्चित करा की मालमत्ता नुकसान टाळण्यासाठी पाकीटांचा बॅक अप घेतला गेला आहे"
+        },
+        "remove_wallet_dia": {
+            "tit":"आपली खात्री आहे की आपण ते काढू इच्छिता?",
+            "remove_confrim":"मी काढू खात्री आहे",
+            "backup":"कृपया हे सुनिश्चित करा की मालमत्ता नुकसान टाळण्यासाठी पाकीटांचा बॅक अप घेतला गेला आहे"
+        },
+        "backup_wallet_dia": {
+            "tit":"आपल्या वॉलेट फाइलचा बॅक अप घ्या",
+            "remove_confrim":"मी काढू खात्री आहे",
+            "backup":"आपल्या वॉलेट फाइलची बॅकअप घेण्यासाठी डाउनलोड करा वर क्लिक करा",
+            "download":"डाउनलोड करा"
+        },
+        "msg_info": {
+            "exist":"आधीच अस्तित्वात आहे, नाव आहे",
+            "wallet_tag_error":"कृपया वॉलेट नाव प्रविष्ट करा",
+            "enter_password":"कृपया आपला संकेतशब्द प्रविष्ट करा",
+            "incons_password":"दुहेरी प्रविष्ट केलेला संकेतशब्द विसंगत आहे",
+            "error":"त्रुटी:",
+            "imported_success":"फाईल यशस्वीरित्या आयात करा",
+            "imported_wallet_success":"वॉलेट यशस्वीरित्या आयात केले",
+            "enter_private":"कृपया की प्रविष्ट करा",
+            "error_private":"खाते आयात करण्यात अयशस्वी, हे चुकीचे की असू शकते",
+            "enter_keystore":"कृपया प्रथम वॉलेट फाईल आयात करा",
+            "error_password":"खाते आयात करण्यात अयशस्वी, हे कदाचित चुकीचे संकेतशब्द असू शकते",
+            "remove_success":"यशस्वीरित्या काढले",
+            "create_success":"यशस्वीरित्या तयार केले",
+            "acc_create_success_des":"CZR प्राप्त करण्यासाठी खाते पत्ता वापरला जाऊ शकतो",
+            "acc_wallet_success_des":"आपल्या वॉलेट फाइलचा बॅकअप घ्या, कोणालाही सांगू नका",
+            "save":"कृपया आपल्या मुख्यस्टोअर जतन करा आणि त्यास कोणाशीही सामायिक करू नका!"
         }
     }
-
 }

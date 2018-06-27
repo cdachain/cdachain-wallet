@@ -353,8 +353,8 @@ export default {
   },
   filters: {
     toEthVal:function(val){
-      let tempVal=self.$web3.utils.fromWei(val, 'ether');
-      return tempVal;//TODO 保留4位小数
+      let tempVal=self.$web3.utils.fromWei(val.toString(), 'ether');
+      return tempVal;//TODO 保留4位小数 
     }
   },
 };

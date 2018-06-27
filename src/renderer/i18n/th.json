@@ -4,43 +4,42 @@
     "dialog_tit":"รวดเร็ว",
     "close":"ใกล้",
     "confirm_you_active":"โปรดยืนยันการดำเนินการของคุณ",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"บ้าน",
         "transfer":"โอน",
         "contacts":"ติดต่อ",
         "setting":"จัดตั้งขึ้น",
         "total":"ทั้งหมด"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"จัดตั้งขึ้น",
         "lang":"ภาษา",
         "select":"โปรดเลือก"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"ติดต่อ",
         "add_dialog":"เพิ่มผู้ติดต่อ",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"ป้อนข้อมูลการติดต่อ",
             "tag":"แท็ก",
             "address":"ติดต่อ",
             "tag_placeholder":"โปรดป้อนแท็กความคิดเห็นของผู้ติดต่อ",
             "address_placeholder":"โปรดป้อนบัญชีผู้ติดต่อ"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"คุณกำลังนำออก"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"โปรดป้อนชื่อบัญชี",
             "no_address":"โปรดป้อนที่อยู่ของบัญชี",
             "valid_address":"ที่อยู่ติดต่อนั้นผิดกฎหมาย",
             "exist":"การติดต่อนี้มีอยู่แล้ว"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"โอนออก",
         "to_address":"เข้าไป",
         "amount":"เงิน",
@@ -50,97 +49,165 @@
         "total":"ทั้งหมด",
         "select":"โปรดเลือก",
         "no_account_info":"ไม่มีบัญชีโปรดสร้างหรือนำเข้าบัญชี",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"โปรดเลือก"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"โปรดยืนยัน",
             "enter_passworld_tit":"โปรดป้อนรหัสผ่านของคุณ",
             "enter_passworld_place":"โปรดป้อนรหัสผ่านของคุณ"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"การแยกวิเคราะห์ Wallet ไม่สำเร็จอาจเป็นข้อผิดพลาดเกี่ยวกับรหัสผ่าน",
             "address_err":"รูปแบบที่อยู่ขาเข้าผิดกฎหมาย",
             "send_success":"ส่งความสำเร็จ",
             "send_error":"การทำธุรกรรมล้มเหลว: โปรดตรวจสอบว่ามียอดเงินคงเหลือและค่าขุดแร่เพียงพอหรือไม่"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"ประวัติการทำธุรกรรม",
         "transfer_log_null":"ไม่มีประวัติการทำธุรกรรม",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"เริ่มการถ่ายโอน",
             "import_keystore":"keystore",
             "qrcode":"รหัส QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"แก้ไขบันทึก",
             "subtit":"ทำเครื่องหมายบันทึกสำหรับบัญชีของคุณ"
         },
-        "keystore":{
+        "keystore": {
             "tit":"สำรองสตาร์ทคีย์",
             "copy":"สำเนา",
             "download":"ดาวน์โหลด keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"คัดลอกที่อยู่แล้ว",
             "key_copy_success":"คัดลอกเรียบร้อยแล้ว"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"นำเข้าบัญชี",
         "add_account":"บัญชีใหม่",
         "acc":"บัญชี",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"สร้างบัญชี",
             "backup_tit":"สำรองข้อมูลบัญชีใหม่ของคุณ",
-
             "create_tag":"ชื่อบัญชี",
             "create_pwd":"ตั้งรหัสผ่าน",
             "create_repwd":"ยืนยันรหัสผ่าน",
-
             "placeholder_tag":"โปรดตั้งชื่อบัญชี",
             "placeholder_pwd":"โปรดตั้งรหัสผ่านบัญชี",
             "placeholder_repwd":"โปรดยืนยันรหัสผ่านบัญชี",
-            "strong_password":"ป้อนรหัสผ่านที่มีความยาวอย่างน้อย 8 หลัก",
-
+            "strong_password":"ป้อนรหัสผ่านอย่างน้อย 8 หลัก",
             "account_address":"บัญชี",
             "account_privateKey":"คีย์ส่วนตัว",
-            "account_download_keystore":"ดาวน์โหลดไฟล์ keystore"
+            "account_download_keystore":"ดาวน์โหลดไฟล์บัญชี"
         },
-        "import_dia":{
-            "tit":"นำเข้าบัญชี",
-            "select_type":"โปรดเลือกวิธีการนำเข้า",
-            "type_private":"คีย์ส่วนตัว",
-            "type_keystore":"เก็บคีย์",
-
-            "placeholder_private":"โปรดวางคีย์ส่วนตัวที่นี่",
-            "placeholder_keystore":"โปรดลากไฟล์ keystore ที่นี่",
-
-            "input_pwd":"ป้อนรหัสผ่าน",
-            "placeholder_pwd":"โปรดป้อนรหัสผ่านบัญชีของคุณ"
-
+        "import_dia": {
+            "tit":"นำเข้าบัญชี",    
+            "placeholder_keystore":"โปรดลากไฟล์บัญชีที่นี่",
+            "create_tag":"ชื่อบัญชี",
+            "placeholder_tag":"โปรดตั้งชื่อบัญชี"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"คุณแน่ใจหรือไม่ว่าต้องการนำออก",
             "remove_confrim":"ฉันแน่ใจว่าจะลบออก",
-            "backup":"โปรดตรวจสอบให้แน่ใจว่าบัญชีได้รับการสำรองเพื่อหลีกเลี่ยงความเสียหายต่อทรัพย์สิน"
+            "backup":"โปรดทราบการสำรองข้อมูลของบัญชีนี้เพื่อหลีกเลี่ยงความเสียหายต่อทรัพย์สิน",
+            "input_pwd":"รหัสผ่าน",
+            "placeholder_pwd":"โปรดป้อนรหัสผ่านสำหรับบัญชีนี้"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"บัญชีนี้มีอยู่แล้วชื่อคือ",
             "enter_password":"โปรดป้อนรหัสผ่านของคุณ",
             "incons_password":"รหัสผ่านที่ป้อนสองครั้งไม่สอดคล้องกัน",
             "error":"ข้อผิดพลาด:",
             "imported_success":"นำเข้าไฟล์สำเร็จ",
+            "imported_account_success":"นำเข้าเรียบร้อยแล้ว",
             "enter_private":"โปรดป้อนคีย์",
             "error_private":"ไม่สามารถนำเข้าบัญชีได้อาจเป็นคีย์ที่ไม่ถูกต้อง",
-            "enter_keystore":"โปรดนำเข้าไฟล์ keystore ก่อน",
+            "enter_keystore":"โปรดนำเข้าไฟล์บัญชีก่อน",
             "error_password":"ไม่สามารถนำเข้าบัญชีอาจเป็นรหัสผ่านผิด",
             "remove_success":"นำออกเรียบร้อยแล้ว",
             "create_success":"สร้างเรียบร้อยแล้ว",
-            "save":"โปรดบันทึกคีย์หรือคีย์ส่วนตัวของคุณและอย่าแชร์คีย์กับบุคคลอื่น!"
+            "save":"โปรดบันทึกไฟล์บัญชีของคุณและอย่าแชร์กับทุกคน!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"สร้าง Wallet",
+        "import_wallet":"นำเข้ากระเป๋าสตางค์",
+        "back_up":"กระเป๋าเงินสำรอง",
+        "add_account":"บัญชีใหม่",
+        "acc":"บัญชี",
+        "wallet":"กระเป๋าสตางค์",
+        "create_dia": {
+            "create_tit":"สร้างบัญชี",
+            "backup_tit":"สำรองข้อมูลบัญชีใหม่ของคุณ",
+            "create_tag":"ชื่อบัญชี",
+            "create_pwd":"ตั้งรหัสผ่าน",
+            "create_repwd":"ยืนยันรหัสผ่าน",
+            "placeholder_tag":"โปรดตั้งชื่อบัญชี",
+            "placeholder_pwd":"โปรดตั้งรหัสผ่านบัญชี",
+            "placeholder_repwd":"โปรดยืนยันรหัสผ่านบัญชี",
+            "strong_password":"ป้อนรหัสผ่านที่มีความยาวอย่างน้อย 8 หลัก",
+            "account_address":"บัญชี",
+            "account_privateKey":"คีย์ส่วนตัว",
+            "account_download_keystore":"ดาวน์โหลดไฟล์ keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"สร้าง Wallet",
+            "backup_tit":"สำรองกระเป๋าเงินใหม่ของคุณ",
+            "create_tag":"ชื่อกระเป๋าเงิน",
+            "create_pwd":"ตั้งรหัสผ่าน",
+            "create_repwd":"ยืนยันรหัสผ่าน",
+            "placeholder_tag":"โปรดตั้งชื่อกระเป๋าสตางค์",
+            "placeholder_pwd":"โปรดตั้งรหัสผ่านกระเป๋าเงิน",
+            "placeholder_repwd":"โปรดยืนยันรหัสผ่านกระเป๋าเงิน",
+            "strong_password":"ป้อนรหัสผ่านที่มีความยาวอย่างน้อย 8 หลัก",
+            "wallet_address":"กระเป๋าสตางค์",
+            "download_wallet_file":"ดาวน์โหลดไฟล์กระเป๋าสตางค์"
+        },
+        "import_wallet_dia": {
+            "tit":"นำเข้ากระเป๋าสตางค์",
+            "placeholder_keystore":"โปรดดึงไฟล์กระเป๋าสตางค์มาที่นี่",
+            "placeholder_tag":"โปรดตั้งชื่อกระเป๋าสตางค์",
+            "create_tag":"ชื่อกระเป๋าเงิน",
+            "input_pwd":"ป้อนรหัสผ่าน",
+            "placeholder_pwd":"โปรดป้อนรหัสผ่านกระเป๋าเงินของคุณ"
+        },
+        "remove_dia": {
+            "tit":"คุณแน่ใจหรือไม่ว่าต้องการนำกระเป๋าสตางค์ออก",
+            "remove_confrim":"ฉันแน่ใจว่าจะลบออก",
+            "backup":"โปรดตรวจสอบให้แน่ใจว่ากระเป๋าสตางค์ได้รับการสำรองเพื่อหลีกเลี่ยงความเสียหายต่อทรัพย์สิน"
+        },
+        "remove_wallet_dia": {
+            "tit":"คุณแน่ใจหรือไม่ว่าต้องการนำออก",
+            "remove_confrim":"ฉันแน่ใจว่าจะลบออก",
+            "backup":"โปรดตรวจสอบให้แน่ใจว่ากระเป๋าสตางค์ได้รับการสำรองเพื่อหลีกเลี่ยงความเสียหายต่อทรัพย์สิน"
+        },
+        "backup_wallet_dia": {
+            "tit":"สำรองไฟล์กระเป๋าสตางค์ของคุณ",
+            "remove_confrim":"ฉันแน่ใจว่าจะลบออก",
+            "backup":"คลิกดาวน์โหลดเพื่อสำรองข้อมูลกระเป๋าสตางค์ของคุณ",
+            "download":"ดาวน์โหลด"
+        },
+        "msg_info": {
+            "exist":"มีอยู่แล้วชื่อคือ",
+            "wallet_tag_error":"โปรดใส่ชื่อกระเป๋าสตางค์",
+            "enter_password":"โปรดป้อนรหัสผ่านของคุณ",
+            "incons_password":"รหัสผ่านที่ป้อนสองครั้งไม่สอดคล้องกัน",
+            "error":"ข้อผิดพลาด:",
+            "imported_success":"นำเข้าไฟล์สำเร็จ",
+            "imported_wallet_success":"Wallet ถูกนำเข้าสำเร็จแล้ว",
+            "enter_private":"โปรดป้อนคีย์",
+            "error_private":"ไม่สามารถนำเข้าบัญชีได้อาจเป็นคีย์ที่ไม่ถูกต้อง",
+            "enter_keystore":"โปรดนำเข้าไฟล์กระเป๋าสตางค์ก่อน",
+            "error_password":"ไม่สามารถนำเข้าบัญชีอาจเป็นรหัสผ่านผิด",
+            "remove_success":"นำออกเรียบร้อยแล้ว",
+            "create_success":"สร้างเรียบร้อยแล้ว",
+            "acc_create_success_des":"สามารถใช้ที่อยู่ของบัญชีเพื่อรับ CZR ได้",
+            "acc_wallet_success_des":"สำรองไฟล์กระเป๋าสตางค์ของคุณอย่าบอกใคร",
+            "save":"โปรดบันทึก keystore ของคุณและอย่าแชร์กับทุกคน!"
         }
     }
-
 }

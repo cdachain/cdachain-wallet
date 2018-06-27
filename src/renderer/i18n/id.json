@@ -4,43 +4,42 @@
     "dialog_tit":"Prompt",
     "close":"Tertutup",
     "confirm_you_active":"Harap konfirmasi operasi Anda",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Rumah",
         "transfer":"Transfer",
         "contacts":"Kontak",
         "setting":"Pengaturan",
         "total":"Total"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Pengaturan",
         "lang":"Bahasa",
         "select":"Silakan pilih"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontak",
         "add_dialog":"Tambahkan kontak",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Masukkan informasi kontak",
             "tag":"Tag",
             "address":"Kontak",
             "tag_placeholder":"Silakan masukkan tag komentar kontak",
             "address_placeholder":"Silakan masukkan akun kontak"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Anda menghapus"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Silakan masukkan nama akun",
             "no_address":"Silakan masukkan alamat akun",
             "valid_address":"Alamat kontak itu ilegal",
             "exist":"Kontak sudah ada,"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Transfer keluar",
         "to_address":"Ke",
         "amount":"Jumlah",
@@ -50,97 +49,165 @@
         "total":"Total",
         "select":"Silakan pilih",
         "no_account_info":"Tanpa akun, silakan buat atau impor akun",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Silakan pilih"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Tolong konfirmasi",
             "enter_passworld_tit":"Silakan masukkan kata sandi Anda",
             "enter_passworld_place":"Silakan masukkan kata sandi Anda"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Gagal menguraikan dompet, mungkin merupakan kesalahan kata sandi",
             "address_err":"Format alamat masuk adalah ilegal",
             "send_success":"Kirim sukses",
             "send_error":"Transaksi gagal: Silakan periksa apakah ada saldo yang cukup dan biaya penambang"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Riwayat transaksi",
         "transfer_log_null":"Tidak ada riwayat transaksi",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Mulai transfer",
             "import_keystore":"Keystore",
             "qrcode":"Kode QR"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Ubah catatan",
             "subtit":"Tandai catatan untuk akun Anda"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Cadangkan keystore",
             "copy":"Duplikat",
             "download":"Unduh keystore"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Alamat telah disalin",
             "key_copy_success":"Berhasil disalin"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Impor akun",
         "add_account":"Akun baru",
         "acc":"Akun",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Buat akun",
             "backup_tit":"Cadangkan akun baru Anda",
-
             "create_tag":"Nama akun",
             "create_pwd":"Setel kata sandi",
             "create_repwd":"Konfirmasi kata sandi",
-
             "placeholder_tag":"Silakan tentukan nama akun",
             "placeholder_pwd":"Silakan atur kata sandi akun",
             "placeholder_repwd":"Silakan konfirmasi kata sandi akun",
-            "strong_password":"Masukkan kata sandi yang kuat, minimal 8 digit",
-
+            "strong_password":"Masukkan kata sandi minimal 8 digit",
             "account_address":"Akun",
             "account_privateKey":"Kunci pribadi",
-            "account_download_keystore":"Unduh file keystore"
+            "account_download_keystore":"Unduh file akun"
         },
-        "import_dia":{
-            "tit":"Impor akun",
-            "select_type":"Silakan pilih metode impor",
-            "type_private":"Kunci pribadi",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Silakan tempelkan kunci pribadi di sini",
-            "placeholder_keystore":"Harap seret file keystore di sini",
-
-            "input_pwd":"Masukkan kata sandi",
-            "placeholder_pwd":"Silakan masukkan kata sandi akun Anda"
-
+        "import_dia": {
+            "tit":"Impor akun",    
+            "placeholder_keystore":"Silakan seret file akun di sini",
+            "create_tag":"Nama akun",
+            "placeholder_tag":"Silakan tentukan nama akun"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Anda yakin ingin menghapusnya?",
             "remove_confrim":"Saya yakin untuk menghapus",
-            "backup":"Harap pastikan akun telah dicadangkan untuk menghindari kerusakan properti"
+            "backup":"Harap catat cadangan akun ini untuk menghindari kerusakan properti",
+            "input_pwd":"Kata sandi",
+            "placeholder_pwd":"Silakan masukkan kata sandi untuk akun ini"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"Akun ini sudah ada, namanya",
             "enter_password":"Silakan masukkan kata sandi Anda",
             "incons_password":"Kata sandi yang dimasukkan dua kali tidak konsisten",
             "error":"Galat:",
             "imported_success":"Impor file berhasil",
+            "imported_account_success":"Berhasil diimpor",
             "enter_private":"Silakan masukkan kunci",
-            "error_private":"Gagal mengimpor akun, itu mungkin kunci yang salah",
-            "enter_keystore":"Harap impor file keystore terlebih dahulu",
+            "error_private":"Gagal mengimpor akun, mungkin itu kunci yang salah",
+            "enter_keystore":"Harap impor file akun terlebih dahulu",
             "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
             "remove_success":"Berhasil dihapus",
             "create_success":"Berhasil dibuat",
-            "save":"Simpan kunci keystore atau pribadi Anda dan jangan bagikan dengan siapa pun!"
+            "save":"Harap simpan file akun Anda dan jangan bagikan dengan siapa pun!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Buat Wallet",
+        "import_wallet":"Impor dompet",
+        "back_up":"Dompet cadangan",
+        "add_account":"Akun baru",
+        "acc":"Akun",
+        "wallet":"Dompet",
+        "create_dia": {
+            "create_tit":"Buat akun",
+            "backup_tit":"Cadangkan akun baru Anda",
+            "create_tag":"Nama akun",
+            "create_pwd":"Setel kata sandi",
+            "create_repwd":"Konfirmasi kata sandi",
+            "placeholder_tag":"Silakan tentukan nama akun",
+            "placeholder_pwd":"Silakan atur kata sandi akun",
+            "placeholder_repwd":"Silakan konfirmasi kata sandi akun",
+            "strong_password":"Masukkan kata sandi yang kuat, minimal 8 digit",
+            "account_address":"Akun",
+            "account_privateKey":"Kunci pribadi",
+            "account_download_keystore":"Unduh file keystore"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Buat Wallet",
+            "backup_tit":"Cadangkan dompet baru Anda",
+            "create_tag":"Nama dompet",
+            "create_pwd":"Setel kata sandi",
+            "create_repwd":"Konfirmasi kata sandi",
+            "placeholder_tag":"Silakan atur nama dompet",
+            "placeholder_pwd":"Silakan tentukan kata sandi dompet",
+            "placeholder_repwd":"Silakan konfirmasi kata sandi dompet",
+            "strong_password":"Masukkan kata sandi yang kuat, minimal 8 digit",
+            "wallet_address":"Dompet",
+            "download_wallet_file":"Unduh file dompet"
+        },
+        "import_wallet_dia": {
+            "tit":"Impor dompet",
+            "placeholder_keystore":"Silakan tarik file dompet di sini",
+            "placeholder_tag":"Silakan atur nama dompet",
+            "create_tag":"Nama dompet",
+            "input_pwd":"Masukkan kata sandi",
+            "placeholder_pwd":"Silakan masukkan kata sandi dompet Anda"
+        },
+        "remove_dia": {
+            "tit":"Anda yakin ingin menghapus dompet?",
+            "remove_confrim":"Saya yakin untuk menghapus",
+            "backup":"Pastikan dompet telah dicadangkan untuk menghindari kerusakan properti"
+        },
+        "remove_wallet_dia": {
+            "tit":"Anda yakin ingin menghapusnya?",
+            "remove_confrim":"Saya yakin untuk menghapus",
+            "backup":"Pastikan dompet telah dicadangkan untuk menghindari kerusakan properti"
+        },
+        "backup_wallet_dia": {
+            "tit":"Cadangkan file dompet Anda",
+            "remove_confrim":"Saya yakin untuk menghapus",
+            "backup":"Klik Unduh untuk mencadangkan file dompet Anda",
+            "download":"Unduh"
+        },
+        "msg_info": {
+            "exist":"Sudah ada, namanya",
+            "wallet_tag_error":"Silakan masukkan nama dompet",
+            "enter_password":"Silakan masukkan kata sandi Anda",
+            "incons_password":"Kata sandi yang dimasukkan dua kali tidak konsisten",
+            "error":"Galat:",
+            "imported_success":"Impor file berhasil",
+            "imported_wallet_success":"Dompet berhasil diimpor",
+            "enter_private":"Silakan masukkan kunci",
+            "error_private":"Gagal mengimpor akun, mungkin itu kunci yang salah",
+            "enter_keystore":"Silakan impor file dompet terlebih dahulu",
+            "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
+            "remove_success":"Berhasil dihapus",
+            "create_success":"Berhasil dibuat",
+            "acc_create_success_des":"Alamat akun dapat digunakan untuk menerima CZR",
+            "acc_wallet_success_des":"Cadangkan file dompet Anda, jangan beri tahu siapa pun",
+            "save":"Harap simpan keystore Anda dan jangan bagikan dengan siapa pun!"
         }
     }
-
 }

@@ -4,43 +4,42 @@
     "dialog_tit":"Küsi",
     "close":"Suletud",
     "confirm_you_active":"Palun kinnitage oma toiming",
-    "unit":{
+    "unit": {
         "czr":"CZR"
     },
-    "model_header":{
+    "model_header": {
         "home":"Kodu",
         "transfer":"Üleandmine",
         "contacts":"Kontaktid",
         "setting":"Seaded",
         "total":"Kokku"
     },
-    "page_setting":{
+    "page_setting": {
         "tit":"Seaded",
         "lang":"Keel",
         "select":"Palun vali"
     },
-    "page_contacts":{
+    "page_contacts": {
         "tit":"Kontaktid",
         "add_dialog":"Lisage kontakt",
-
-        "add_cont":{
+        "add_cont": {
             "tit":"Sisestage kontaktandmed",
             "tag":"Sildid",
             "address":"Kontaktid",
             "tag_placeholder":"Sisestage kontakti kommentaarimärk",
             "address_placeholder":"Palun sisestage kontaktisik"
         },
-        "delete_dialog":{
+        "delete_dialog": {
             "title":"Te eemaldate"
         },
-        "msg_info":{
+        "msg_info": {
             "no_tag":"Palun sisestage konto nimi",
             "no_address":"Palun sisestage konto aadress",
             "valid_address":"Kontaktisiku aadress on ebaseaduslik",
             "exist":"Kontakti on juba olemas"
         }
     },
-    "page_transfer":{
+    "page_transfer": {
         "from_address":"Üle kanda",
         "to_address":"Into",
         "amount":"Summa",
@@ -50,97 +49,165 @@
         "total":"Kokku",
         "select":"Palun vali",
         "no_account_info":"Konto pole, looge või importige konto",
-        "contacts_dig":{
+        "contacts_dig": {
             "select_placeholder":"Palun vali"
         },
-        "confirm_dia":{
+        "confirm_dia": {
             "title":"Palun kinnitage",
             "enter_passworld_tit":"Palun sisesta oma parool",
             "enter_passworld_place":"Palun sisesta oma parool"
         },
-        "msg_info":{
+        "msg_info": {
             "decrypt_err":"Rahakoti parsing ebaõnnestus, võib olla parooli viga",
             "address_err":"Saabuva aadressi formaat on ebaseaduslik",
             "send_success":"Saada edu",
             "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja kaevandamise tasu"
         }
     },
-    "page_account":{
+    "page_account": {
         "transfer_log":"Tehinguajalugu",
         "transfer_log_null":"Tehingute ajalugu pole",
-
-        "active_icon":{
+        "active_icon": {
             "go_transfer":"Käivita üleandmine",
             "import_keystore":"Keystore",
             "qrcode":"QR-kood"
         },
-        "edit_dia":{
+        "edit_dia": {
             "tit":"Muuda märkmeid",
             "subtit":"Märkige märkus oma konto jaoks"
         },
-        "keystore":{
+        "keystore": {
             "tit":"Varundage võtmehoidja",
             "copy":"Duplicate",
             "download":"Laadi võtmestik alla"
         },
-        "msg_info":{
+        "msg_info": {
             "ads_copy_success":"Aadress on kopeeritud",
             "key_copy_success":"Edukalt kopeeritud"
         }
     },
-    "page_home":{
+    "page_home": {
         "import_account":"Impordi konto",
         "add_account":"Uus konto",
         "acc":"Konto",
-        "create_dia":{
+        "create_dia": {
             "create_tit":"Loo konto",
             "backup_tit":"Varundage oma uus konto",
-
             "create_tag":"Konto nimi",
             "create_pwd":"Määra parool",
             "create_repwd":"Kinnitage parool",
-
             "placeholder_tag":"Palun määra konto nimi",
             "placeholder_pwd":"Palun määrake konto parool",
             "placeholder_repwd":"Kinnitage konto parool",
-            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
-
+            "strong_password":"Sisestage vähemalt kaheksa numbrit sisaldav parool",
             "account_address":"Konto",
             "account_privateKey":"Privaatvõti",
-            "account_download_keystore":"Laadige võtmehoidla fail alla"
+            "account_download_keystore":"Konto faili allalaadimine"
         },
-        "import_dia":{
-            "tit":"Impordi konto",
-            "select_type":"Palun valige importimise meetod",
-            "type_private":"Privaatvõti",
-            "type_keystore":"Keystore",
-
-            "placeholder_private":"Palun kleepige privaatvõtme siia",
-            "placeholder_keystore":"Palun lohistage võtmehoidja fail siit",
-
-            "input_pwd":"Sisestage parool",
-            "placeholder_pwd":"Palun sisesta oma konto parool"
-
+        "import_dia": {
+            "tit":"Impordi konto",    
+            "placeholder_keystore":"Palun lohistage konto fail siit",
+            "create_tag":"Konto nimi",
+            "placeholder_tag":"Palun määra konto nimi"
         },
-        "remove_dia":{
+        "remove_dia": {
             "tit":"Kas olete kindel, et soovite selle eemaldada?",
             "remove_confrim":"Ma kindlasti eemaldan",
-            "backup":"Veenduge, et konto on varundatud, et vältida varakahju"
+            "backup":"Pange tähele selle konto varukoopia, et vältida varalise kahju tekkimist",
+            "input_pwd":"Parool",
+            "placeholder_pwd":"Palun sisesta selle konto parool"
         },
-        "msg_info":{
+        "msg_info": {
             "exist":"See konto on juba olemas ja nimi on",
             "enter_password":"Palun sisesta oma parool",
             "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
             "error":"Viga:",
             "imported_success":"Impordi fail edukalt",
+            "imported_account_success":"Imporditud edukalt",
             "enter_private":"Palun sisestage võti",
             "error_private":"Konto importimine ebaõnnestus, see võib olla vale võti",
-            "enter_keystore":"Palun importige esmalt võtmesalvestusfail",
+            "enter_keystore":"Palun importige konto faili kõigepealt",
             "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
             "remove_success":"Eemaldati edukalt",
             "create_success":"Loodud edukalt",
-            "save":"Palun salvestage oma võtmehoidja või privaatvõti ja ärge seda kellelgigi jagage!"
+            "save":"Palun salvestage oma konto fail ja ärge seda kellelgigi jagage!"
+        }
+    },
+    "page_home2": {
+        "create_wallet":"Rahakoti loomine",
+        "import_wallet":"Rahakoti importimine",
+        "back_up":"Varunduskott",
+        "add_account":"Uus konto",
+        "acc":"Konto",
+        "wallet":"Rahakott",
+        "create_dia": {
+            "create_tit":"Loo konto",
+            "backup_tit":"Varundage oma uus konto",
+            "create_tag":"Konto nimi",
+            "create_pwd":"Määra parool",
+            "create_repwd":"Kinnitage parool",
+            "placeholder_tag":"Palun määra konto nimi",
+            "placeholder_pwd":"Palun määrake konto parool",
+            "placeholder_repwd":"Kinnitage konto parool",
+            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
+            "account_address":"Konto",
+            "account_privateKey":"Privaatvõti",
+            "account_download_keystore":"Laadige võtmehoidla fail alla"
+        },
+        "create_wallet_dia": {
+            "create_tit":"Rahakoti loomine",
+            "backup_tit":"Varundage oma uus rahakott",
+            "create_tag":"Rahakoti nimi",
+            "create_pwd":"Määra parool",
+            "create_repwd":"Kinnitage parool",
+            "placeholder_tag":"Palun määra rahakoti nimi",
+            "placeholder_pwd":"Palun sisestage rahakoti parool",
+            "placeholder_repwd":"Kinnitage rahakoti parool",
+            "strong_password":"Sisestage tugev parool, vähemalt 8 numbrit",
+            "wallet_address":"Rahakott",
+            "download_wallet_file":"Laadige fail alla"
+        },
+        "import_wallet_dia": {
+            "tit":"Rahakoti importimine",
+            "placeholder_keystore":"Palun tõmmake rahakoti faile siia",
+            "placeholder_tag":"Palun määra rahakoti nimi",
+            "create_tag":"Rahakoti nimi",
+            "input_pwd":"Sisestage parool",
+            "placeholder_pwd":"Palun sisestage oma rahakoti parool"
+        },
+        "remove_dia": {
+            "tit":"Kas soovite kindlasti rahakoti eemaldada?",
+            "remove_confrim":"Ma kindlasti eemaldan",
+            "backup":"Palun veenduge, et rahakott oleks tagatud, et vältida varalise kahju tekkimist"
+        },
+        "remove_wallet_dia": {
+            "tit":"Kas olete kindel, et soovite selle eemaldada?",
+            "remove_confrim":"Ma kindlasti eemaldan",
+            "backup":"Palun veenduge, et rahakott oleks tagatud, et vältida varalise kahju tekkimist"
+        },
+        "backup_wallet_dia": {
+            "tit":"Varundage oma rahakoti fail",
+            "remove_confrim":"Ma kindlasti eemaldan",
+            "backup":"Rahakoti faili varundamiseks klõpsake käsul Laadi alla",
+            "download":"Laadige alla"
+        },
+        "msg_info": {
+            "exist":"Juba eksisteerib nimi on",
+            "wallet_tag_error":"Palun sisestage rahakoti nimi",
+            "enter_password":"Palun sisesta oma parool",
+            "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
+            "error":"Viga:",
+            "imported_success":"Impordi fail edukalt",
+            "imported_wallet_success":"Rahakott imporditi edukalt",
+            "enter_private":"Palun sisestage võti",
+            "error_private":"Konto importimine ebaõnnestus, see võib olla vale võti",
+            "enter_keystore":"Palun importige rahakoti faili kõigepealt",
+            "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
+            "remove_success":"Eemaldati edukalt",
+            "create_success":"Loodud edukalt",
+            "acc_create_success_des":"Konto aadressi saab kasutada CZRi vastuvõtmiseks",
+            "acc_wallet_success_des":"Varundage oma rahakoti failid, ärge ütle kellelegi",
+            "save":"Palun salvestage oma võtmehoidja ja ärge seda kellegagi jagage!"
         }
     }
-
 }
