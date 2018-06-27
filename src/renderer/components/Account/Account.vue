@@ -155,11 +155,16 @@ export default {
             this.editTag = this.accountInfo.tag;
         },
         initDatabase() {
+            var keystoreFile;
+            if(this.accountInfo){
+                keystoreFile=this.accountInfo.keystore;
+            }
             this.accountInfo = this.$db
                 .read()
                 .get("czr_accounts")
                 .filter({ address: this.address })
                 .value()[0];
+            this.accountInfo.keystore=keystoreFile
         },
 
         //Copy Address
