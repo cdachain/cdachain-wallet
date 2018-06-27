@@ -44,7 +44,8 @@
         "to_address":"ind i",
         "amount":"penge",
         "send_all":"Send alle",
-        "remark":"bemærkning",
+        "data":"dato",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Gebyrer",
         "total":"I alt",
         "select":"Vælg venligst",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Palletparsing mislykkedes, det kan være en adgangskodefejl",
+            "amount_zero":"Manglende balance for at fortsætte",
+            "address_null":"Indtast venligst kontoen",
             "address_err":"Indgående adresseformat er ulovligt",
             "send_success":"Send succes",
             "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejderens gebyr"

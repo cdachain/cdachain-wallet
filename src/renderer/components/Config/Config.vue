@@ -1,8 +1,8 @@
 <template>
-    <div class="page-config">
+    <div class="page-config" :style="{backgroundImage:backgroundImage}">
         <div class="icon-config">
             <i class="el-icon-loading"></i>
-            <p>配置检测中…</p>
+            <p class="config-test">配置检测中…</p>
             <p class="message">{{conMsg}}</p>
         </div>
     </div>
@@ -15,6 +15,7 @@ const { remote, app } = require("electron");
 const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
+// const banner=require("@/assets/img/banner.png")
 
 export default {
     name: "Config",
@@ -25,6 +26,7 @@ export default {
             node_info: {},
             userDataPath: "",
             conMsg: "",
+            backgroundImage:"url(" + require("@/assets/img/banner.png") + ")",
             binariesIsDownloaded: false
         };
     },
@@ -37,11 +39,10 @@ export default {
     computed: {},
     methods: {
         initConfig() {
+            var radom=Math.random();
             this.latest_config = {
                 content: "",
-                BINARY_URL:
-                    "http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json"
-                // BINARY_URL:"http://127.0.0.1:3000/assets/clientBinaries.json",
+                BINARY_URL:"http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json"+"?radom="+radom
             };
             this.node_info = {
                 NODE_TYPE: "CanonChain",
@@ -115,14 +116,14 @@ export default {
             var localVer = this.local_config.clients[this.node_info.NODE_TYPE]
                 .version;
             this.conMsg = "检测是否需要更新";
-            console.log("检测是否需要更新");
+            console.log("检测是否需要更新",latestVer,localVer);
             if (latestVer == localVer) {
-                this.conMsg = "本地 CanonChain 是最新的";
-                console.log("本地 CanonChain 是最新的");
+                this.conMsg = "本地 CanonChain 配置是最新的";
+                console.log("本地 CanonChain 配置是最新的");
                 this.isDownload();
             } else {
-                this.conMsg = "本地 CanonChain 是老版本";
-                console.log("本地 CanonChain 是老版本");
+                this.conMsg = "本地 CanonChain 配置是老版本";
+                console.log("本地 CanonChain 配置是老版本");
                 this.writeLocalConfig(this.latest_config.content);
                 this.isDownload();
             }
@@ -151,6 +152,10 @@ export default {
             this.conMsg = "判断是否有 CanonChain 应用程序";
             console.log("判断是否有 CanonChain 应用程序");
             try {
+                console.log("本地的节点文件",path.join(
+                        options.directory,
+                        this.node_info.binaryVersion.bin
+                    ))
                 var stats = fs.statSync(
                     path.join(
                         options.directory,
@@ -161,8 +166,8 @@ export default {
                 console.log("存在的");
                 self.runCanonChain();
             } catch (err) {
-                this.conMsg = "不存在的";
-                console.log("不存在的",this.node_info.binaryVersion.url,
+                this.conMsg = "正在下载节点程序,请耐心等待";
+                console.log("正在下载节点程序,请耐心等待",this.node_info.binaryVersion.url,
                     options.directory);
 
                 download(
@@ -170,8 +175,8 @@ export default {
                     options.directory,
                     options
                 ).then(() => {
-                    this.conMsg = "已经下载好了";
-                    console.log("已经下载好了");
+                    this.conMsg = "节点程序已经下载好";
+                    console.log("节点程序已经下载好");
                     self.runCanonChain();
                 });
             }
@@ -201,7 +206,12 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #f2f2f2;
+    color: #fff;
+    /* background-image: radial-gradient(50% 50%, #57509E 29%, #353469 93%, #333366 100%); */
+    /* background-color: #333366; */
+    /* background: url("../img/banner.png") no-repeat center center; */
+    background:  no-repeat center center;
+
     color: #000;
     width: 100%;
     -webkit-user-select: none;
@@ -214,9 +224,14 @@ export default {
 .icon-config .el-icon-loading {
     font-size: 64px;
     margin-bottom: 10px;
+    color: #fff;
+}
+.config-test {
+    color: #fff;
+    font-size: 16px;
 }
 .icon-config .message {
     margin-top: 50px;
-    color: rgb(34, 34, 34);
+    color: #fff;
 }
 </style>

@@ -44,7 +44,8 @@
         "to_address":"入る",
         "amount":"金額",
         "send_all":"すべてを送る",
-        "remark":"ノート",
+        "data":"日付",
+        "data_placeholder":"16進データ",
         "fees":"料金",
         "total":"合計",
         "select":"選択してください",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
+            "amount_zero":"続行が不十分です",
+            "address_null":"アカウントを入力してください",
             "address_err":"着信アドレス形式が不正です",
             "send_success":"成功を送る",
             "send_error":"取引に失敗しました：十分な残高と鉱夫の手数料があるかどうか確認してください"

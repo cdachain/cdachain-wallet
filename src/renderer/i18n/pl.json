@@ -44,7 +44,8 @@
         "to_address":"Do",
         "amount":"Kwota",
         "send_all":"Wyślij wszystko",
-        "remark":"Uwaga",
+        "data":"Data",
+        "data_placeholder":"Dane szesnastkowe",
         "fees":"Opłaty",
         "total":"Razem",
         "select":"Proszę wybrać",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Przetwarzanie portfela nie powiodło się, może to być błąd hasła",
+            "amount_zero":"Niewystarczające saldo do kontynuowania",
+            "address_null":"Proszę podać konto",
             "address_err":"Format przychodzącego adresu jest nielegalny",
             "send_success":"Wyślij sukces",
             "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy jest wystarczająca opłata bilansowa i górnicza"

@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Ammont",
         "send_all":"Ibgħat kollha",
-        "remark":"Nota",
+        "data":"Data",
+        "data_placeholder":"Dejta hexadecimali",
         "fees":"Drittijiet",
         "total":"Totali",
         "select":"Jekk jogħġbok agħżel",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
+            "amount_zero":"Bilanċ insuffiċjenti biex titkompla",
+            "address_null":"Jekk jogħġbok daħħal il-kont",
             "address_err":"Il-format ta 'l-indirizz li jmiss huwa illegali",
             "send_success":"Ibgħat suċċess",
             "send_error":"Tranżizzjoni naqset: Jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u l-miżata tal-minatur"

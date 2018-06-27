@@ -44,7 +44,8 @@
         "to_address":"Cikin",
         "amount":"Adadin",
         "send_all":"Aika duk",
-        "remark":"Lura",
+        "data":"Kwanan wata",
+        "data_placeholder":"Bayanin Hexadecimal",
         "fees":"Kudin",
         "total":"Jimlar",
         "select":"Da fatan a zaɓi",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
+            "amount_zero":"Balance mara inganci don ci gaba",
+            "address_null":"Da fatan a shigar da asusun",
             "address_err":"Tsarin adireshin mai shiga ba bisa doka bane",
             "send_success":"Aika nasara",
             "send_error":"An gama aiki: Da fatan a bincika idan akwai cikakken ma'auni da kudin kuɗi"

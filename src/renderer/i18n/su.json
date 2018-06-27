@@ -44,7 +44,8 @@
         "to_address":"kana",
         "amount":"duit",
         "send_all":"Kirim sadaya",
-        "remark":"nyarios",
+        "data":"tanggal",
+        "data_placeholder":"data Hexadecimal",
         "fees":"waragad",
         "total":"total",
         "select":"Mangga pilih",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
+            "amount_zero":"baki anu cukup, teu tiasa neraskeun",
+            "address_null":"Mangga lebetkeun rekening silih urang",
             "address_err":"Kana format alamat henteu sah",
             "send_success":"Kirim surélék ayaan",
             "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"

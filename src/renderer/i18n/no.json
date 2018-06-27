@@ -44,7 +44,8 @@
         "to_address":"til",
         "amount":"penger",
         "send_all":"Send alle",
-        "remark":"bemerkning",
+        "data":"dato",
+        "data_placeholder":"Hexadecimal data",
         "fees":"avgifter",
         "total":"total",
         "select":"Vennligst velg",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Wallet-parsing mislyktes, kan være en passordfeil",
+            "amount_zero":"Mangelfull balanse for å fortsette",
+            "address_null":"Vennligst skriv inn kontoen",
             "address_err":"Innkommende adresseformat er ulovlig",
             "send_success":"Send suksess",
             "send_error":"Transaksjonen feilet: Vennligst sjekk om det er tilstrekkelig balanse og minerens gebyr"

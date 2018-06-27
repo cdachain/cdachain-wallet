@@ -44,7 +44,8 @@
         "to_address":"Isteach",
         "amount":"Méid",
         "send_all":"Seol go léir",
-        "remark":"Nóta",
+        "data":"Dáta",
+        "data_placeholder":"Sonraí heicteachta",
         "fees":"Táillí",
         "total":"Iomlán",
         "select":"Roghnaigh",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"D'fhéadfadh earráid phasfhocal a bheith i gceist le parsáil sa sparán",
+            "amount_zero":"Gan cothrom leordhóthanach leanúint ar aghaidh",
+            "address_null":"Cuir isteach an cuntas",
             "address_err":"Tá formáid seoladh isteach mídhleathach",
             "send_success":"Seol rath",
             "send_error":"Theip ar an Idirbheart: Seiceáil le do thoil má tá cothromaíocht leordhóthanach agus táille an mhinéir"

@@ -44,7 +44,8 @@
         "to_address":"Rau hauv",
         "amount":"Tus nqi",
         "send_all":"Xa tag nrho",
-        "remark":"Lus Cim",
+        "data":"Hnub tim",
+        "data_placeholder":"Hexadecimal cov ntaub ntawv",
         "fees":"Tus Nqi",
         "total":"Tag nrho",
         "select":"Thov xaiv",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Cov hnab parsing puav tsis tau, tej zaum yuav ua yuam kev password",
+            "amount_zero":"Kev txaus siab tsis txaus siv mus ntxiv",
+            "address_null":"Thov sau tus account",
             "address_err":"Cov chaw nyob tuaj yeem tsis raug cai",
             "send_success":"Xa ntawv zoo",
             "send_error":"Kev Them Xam Xaj: Thov saib xyuas seb puas muaj nyiaj txaus thiab me me tus nqi"

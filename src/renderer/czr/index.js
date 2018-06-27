@@ -4,7 +4,6 @@ var utils = require('./utils');
 // var Account = require('./web3-eth');
 var HttpRequest = require('./httprequest');
 
-console.log("自定义的Czr")
 var Czr = function Czr(request) {
     if (request) {
 		this._request = request;

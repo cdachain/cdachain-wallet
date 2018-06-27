@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Summa",
         "send_all":"Saada kõik",
-        "remark":"Märkus",
+        "data":"Kuupäev",
+        "data_placeholder":"Kuueteistkümnendsüsteemilised andmed",
         "fees":"Tasud",
         "total":"Kokku",
         "select":"Palun vali",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Rahakoti parsing ebaõnnestus, võib olla parooli viga",
+            "amount_zero":"Ebapiisav tasakaalu jätkamine",
+            "address_null":"Palun sisestage konto",
             "address_err":"Saabuva aadressi formaat on ebaseaduslik",
             "send_success":"Saada edu",
             "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja kaevandamise tasu"

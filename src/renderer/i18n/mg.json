@@ -44,7 +44,8 @@
         "to_address":"Eo an-",
         "amount":"Money",
         "send_all":"Alefaso ny rehetra",
-        "remark":"fanamarihana",
+        "data":"Date",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Fees",
         "total":"Total",
         "select":"Mifantena azafady",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Tsy nahomby ny fanesorana ny kitapo, mety ho fahadisoana anaty tenimiafina",
+            "amount_zero":"Tsy mahay mandanjalanja hanohy",
+            "address_null":"Ampidiro azafady ny kaonty",
             "address_err":"Tsy ara-dalàna ny endriky ny adiresy entana",
             "send_success":"Alefaso ny fahombiazana",
             "send_error":"Tsy nahomby ny fifanarahana: Tsidiho azafady raha misy ny salanisa sy ny karama fitrandrahana"

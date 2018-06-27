@@ -44,7 +44,8 @@
         "to_address":"in",
         "amount":"geld",
         "send_all":"Stuur alles",
-        "remark":"opmerking",
+        "data":"datum",
+        "data_placeholder":"Hexadecimale gegevens",
         "fees":"vergoedingen",
         "total":"totaal",
         "select":"Selecteer alstublieft",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Portefeuille parseren mislukt, mogelijk een wachtwoordfout",
+            "amount_zero":"Onvoldoende saldo om door te gaan",
+            "address_null":"Voer alstublieft het account in",
             "address_err":"Inkomend adresformaat is illegaal",
             "send_success":"Stuur succes",
             "send_error":"Transactie mislukt: controleer of er voldoende saldo en mijnwerkerskosten zijn"

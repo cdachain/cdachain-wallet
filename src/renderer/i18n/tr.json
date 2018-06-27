@@ -44,7 +44,8 @@
         "to_address":"içine",
         "amount":"para",
         "send_all":"Tümünü gönder",
-        "remark":"düşünce",
+        "data":"tarih",
+        "data_placeholder":"Onaltılık veri",
         "fees":"harç",
         "total":"toplam",
         "select":"Seçiniz",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
+            "amount_zero":"Devam etmek için yeterli bakiye yok",
+            "address_null":"Lütfen hesabı giriniz",
             "address_err":"Gelen adres biçimi yasa dışı",
             "send_success":"Başarı gönder",
             "send_error":"İşlem başarısız oldu: Lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"

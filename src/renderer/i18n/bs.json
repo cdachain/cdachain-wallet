@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Iznos",
         "send_all":"Pošaljite sve",
-        "remark":"Napomena",
+        "data":"Datum",
+        "data_placeholder":"Hexadecimalni podaci",
         "fees":"Naknade",
         "total":"Ukupno",
         "select":"Molimo izaberite",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
+            "amount_zero":"Nedostatak balansa se nastavlja",
+            "address_null":"Unesite račun",
             "address_err":"Format ulazne adrese je nezakonit",
             "send_success":"Pošalji uspeh",
             "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
@@ -118,7 +121,7 @@
             "placeholder_pwd":"Unesite lozinku za ovaj nalog"
         },
         "msg_info": {
-            "exist":"Ovaj nalog već postoji, ime je",
+            "exist":"Ovaj nalog već postoji i ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",

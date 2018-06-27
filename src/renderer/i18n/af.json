@@ -44,7 +44,8 @@
         "to_address":"in",
         "amount":"geld",
         "send_all":"Stuur alles",
-        "remark":"opmerking",
+        "data":"datum",
+        "data_placeholder":"Hexadecimale data",
         "fees":"fooie",
         "total":"totale",
         "select":"Kies asseblief",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Wallet parsing misluk, kan 'n wagwoord fout wees",
+            "amount_zero":"Onvoldoende balans om voort te gaan",
+            "address_null":"Voer asseblief die rekening in",
             "address_err":"Inkomende adresformaat is onwettig",
             "send_success":"Stuur sukses",
             "send_error":"Transaksie misluk: Kontroleer asseblief of daar voldoende balans en mynwerker se fooi is"

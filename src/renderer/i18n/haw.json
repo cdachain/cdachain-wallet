@@ -44,7 +44,8 @@
         "to_address":"Komo i loko",
         "amount":"Ka nui",
         "send_all":"Hoʻouna i nā mea a pau",
-        "remark":"Kākau",
+        "data":"ʻO ka lā",
+        "data_placeholder":"Heʻikeʻike hexadecimal",
         "fees":"Nā uku",
         "total":"Hōʻuluʻulu",
         "select":"E koho",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"ʻAʻole i pohō ka wallet, hiki paha i kahi kuhi hewa",
+            "amount_zero":"ʻO ka palekana kūponoʻole e hoʻomau",
+            "address_null":"Eʻoluʻolu e helu i ka helu",
             "address_err":"He kūponoʻole ka hōʻailona kuhi",
             "send_success":"E hoʻouna i ka holomua",
             "send_error":"Ua pau ka hana: Eʻoluʻolu e nānā inā loaʻa ka uku kūpono a me ka uku o ka miner"

@@ -196,6 +196,46 @@ HttpRequest.prototype.accountsBalances = async function(accountAry) {
     return ret;
 };
 
+/* 
+发送交易： send()
+@parm:
+    - from
+    - to
+    - amount
+    - password
+    - data:"ssss"
+    - id
+@return:
+     {block:""}
+*/
+HttpRequest.prototype.send = async function(sendObj) {
+    if(!sendObj){
+        return 0//没有参数
+    }
+    var opt = {
+        "action": "send",
+        "from": sendObj.from,
+        "to": sendObj.to,
+        "amount": sendObj.amount,
+        "password": sendObj.password,
+        "data": sendObj.data,
+        "id": sendObj.id
+    };
+    let ret = await asyncfunc(opt);
+    return ret;
+};
+
+HttpRequest.prototype.getBlock = async function(blockHash) {
+    if(!blockHash){
+        return 0//没有参数
+    }
+    var opt = {
+        "action": "block",
+        "hash": blockHash
+    };
+    let ret = await asyncfunc(opt);
+    return ret;
+};
 
 
 module.exports = HttpRequest;

@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Betrag",
         "send_all":"Schéckt all",
-        "remark":"Notéieren",
+        "data":"Datum",
+        "data_placeholder":"Hexadezimal Daten",
         "fees":"Bénévolat",
         "total":"Total",
         "select":"Wielt we g",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Portemonnaie vu Portemonnaie konnt net e Passwuertfehler sinn",
+            "amount_zero":"Net genuch Balance fir weider ze maachen",
+            "address_null":"Gidd weg den Account",
             "address_err":"Incoming Adressform ass illegal",
             "send_success":"Sende Erfolleg",
             "send_error":"Transaktioun ofgeschalt: Préift weg, ob et genuch Ausbezuelen a Biergermesser ass"

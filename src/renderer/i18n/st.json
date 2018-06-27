@@ -44,7 +44,8 @@
         "to_address":"Kena",
         "amount":"Chelete",
         "send_all":"Romela tsohle",
-        "remark":"Hlokomela",
+        "data":"Letsatsi",
+        "data_placeholder":"Dintlha tsa hexadecimal",
         "fees":"Litefiso",
         "total":"Kakaretso",
         "select":"Ka kopo khetha",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Ho fapana ha lichelete ho hlōlehile, e ka 'na ea e-ba phoso ea password",
+            "amount_zero":"Boemo bo sa lekaneng bo tsoelang pele",
+            "address_null":"Ka kopo kenya tlaleho",
             "address_err":"Tsela e aterese ea aterese e seng molaong",
             "send_success":"Romela katleho",
             "send_error":"Transaction e ile ea hlōleha: Ka kōpo hlahloba hore na ho na le tekanyo e lekaneng ea tekanyo le tefo ea merafo"

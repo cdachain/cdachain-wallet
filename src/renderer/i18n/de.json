@@ -44,7 +44,8 @@
         "to_address":"In",
         "amount":"Betrag",
         "send_all":"Sende alles",
-        "remark":"Hinweis",
+        "data":"Datum",
+        "data_placeholder":"Hexadezimale Daten",
         "fees":"Gebühren",
         "total":"Summe",
         "select":"Bitte auswählen",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise ein Kennwortfehler",
+            "amount_zero":"Unzureichendes Gleichgewicht, um fortzufahren",
+            "address_null":"Bitte geben Sie das Konto ein",
             "address_err":"Das Format der eingehenden Adresse ist illegal",
             "send_success":"Senden Sie Erfolg",
             "send_error":"Transaktion fehlgeschlagen: Bitte prüfen Sie, ob genügend Guthaben und Bergarbeitergeld vorhanden sind"

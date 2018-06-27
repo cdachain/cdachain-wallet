@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Cantidade",
         "send_all":"Enviar todo",
-        "remark":"Nota",
+        "data":"Data",
+        "data_placeholder":"Datos hexadecimales",
         "fees":"Taxas",
         "total":"Total",
         "select":"Selecciona",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
+            "amount_zero":"Insuficiente equilibrio para continuar",
+            "address_null":"Introduce a conta",
             "address_err":"O formato de enderezo entrante é ilegal",
             "send_success":"Enviar éxito",
             "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"

@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Amount",
         "send_all":"Mandate tuttu",
-        "remark":"Nota",
+        "data":"Data",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Puli",
         "total":"Tuttu",
         "select":"Sceglite puru",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
+            "amount_zero":"Un equilibru insufficientu per continuà",
+            "address_null":"Per piacè inserite u cuntu",
             "address_err":"A forma di indirizzu entrant hè illegale",
             "send_success":"Fate successu",
             "send_error":"A transaczione falleva: Verificate puru si ci hè u bilanciu equilibru è a crescita di minore"

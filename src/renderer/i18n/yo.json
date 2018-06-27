@@ -44,7 +44,8 @@
         "to_address":"Sinu",
         "amount":"Iye",
         "send_all":"Firanṣẹ gbogbo",
-        "remark":"Akiyesi",
+        "data":"Ọjọ",
+        "data_placeholder":"Data hexadecimal",
         "fees":"Owo sisan",
         "total":"Lapapọ",
         "select":"Jọwọ yan",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
+            "amount_zero":"Iwontunwonsi ti ko to lati tẹsiwaju",
+            "address_null":"Jowo tẹ iroyin naa wọle",
             "address_err":"Orukọ adiresi ti nwọle jẹ arufin",
             "send_success":"Firanṣẹ aseyori",
             "send_error":"Ti kuna iṣẹ-ṣiṣe: Jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"

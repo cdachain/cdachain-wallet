@@ -44,7 +44,8 @@
         "to_address":"Nan",
         "amount":"Kantite lajan",
         "send_all":"Voye tout",
-        "remark":"Remak",
+        "data":"Dat",
+        "data_placeholder":"Hexadecimal done",
         "fees":"Frè",
         "total":"Total",
         "select":"Tanpri chwazi",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Bous koule echwe, kapab yon erè modpas",
+            "amount_zero":"Ensifizan balans kontinye",
+            "address_null":"Tanpri antre nan kont lan",
             "address_err":"Fòma adrès fèk ap rantre se ilegal",
             "send_success":"Voye siksè",
             "send_error":"Tranzaksyon echwe: Tanpri tcheke si gen ase balans ak frè minè a"

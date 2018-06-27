@@ -1,8 +1,5 @@
-
-
 var BigNumber = require('bignumber.js').default;
 
-console.log(BigNumber) 
 var unitMap = {
     'none':       '0',
     'None':       '0',

@@ -44,7 +44,8 @@
         "to_address":"İnto",
         "amount":"Məbləğ",
         "send_all":"Hamısını göndər",
-        "remark":"Qeyd",
+        "data":"Tarix",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Ücretler",
         "total":"Ümumi",
         "select":"Xahiş edirik seçin",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Cüzdan ayırma başarısız oldu, parol hatası ola bilər",
+            "amount_zero":"Davam etməmək üçün kifayət qədər tarazlıq",
+            "address_null":"Xahiş edirik hesabı daxil edin",
             "address_err":"Gələn ünvan formatı qanunsuzdur",
             "send_success":"Uğur göndərin",
             "send_error":"Əməliyyat başarısız: Xahiş edirik balansın və madencinin haqqını yoxlayın"

@@ -44,7 +44,8 @@
         "to_address":"Yntocht",
         "amount":"Beleanne",
         "send_all":"Alle stjoere",
-        "remark":"Notysje",
+        "data":"Datum",
+        "data_placeholder":"Hexadezimal gegevens",
         "fees":"Fees",
         "total":"Totaal",
         "select":"Please select",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Portemonneare parsing mislearre, kin in wachtwurd fout wêze",
+            "amount_zero":"Net genôch balâns om troch te gean",
+            "address_null":"Fier it akkount yn",
             "address_err":"Ynkommend adresformaat is illegaal",
             "send_success":"Stjoer sukses",
             "send_error":"Ferkearing mislearre: Kontrolearje oft der foldwaande balâns en mineraske fergoeding is"

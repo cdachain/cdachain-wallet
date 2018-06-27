@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Amount",
         "send_all":"Send all",
-        "remark":"Note",
+        "data":"Date",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Fees",
         "total":"total",
         "select":"please choose",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Wallet parsing failed, may be a password error",
+            "amount_zero":"Insufficient balance to continue",
+            "address_null":"Please enter the account",
             "address_err":"Incoming address format is illegal",
             "send_success":"Sent successfully",
             "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"

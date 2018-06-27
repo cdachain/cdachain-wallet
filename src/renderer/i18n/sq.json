@@ -44,7 +44,8 @@
         "to_address":"në",
         "amount":"para",
         "send_all":"Dërgo te gjitha",
-        "remark":"vërejtje",
+        "data":"data",
+        "data_placeholder":"Të dhëna hexadecimal",
         "fees":"tarifat",
         "total":"total",
         "select":"Ju lutem zgjidhni",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
+            "amount_zero":"Bilanci i pamjaftueshëm për të vazhduar",
+            "address_null":"Ju lutemi shkruani llogarinë",
             "address_err":"Formati i adresës së hyrjes është i paligjshëm",
             "send_success":"Dërgo sukses",
             "send_error":"Transaksioni dështoi: Ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"

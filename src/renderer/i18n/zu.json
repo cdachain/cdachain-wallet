@@ -44,7 +44,8 @@
         "to_address":"Ngena",
         "amount":"Inani",
         "send_all":"Thumela konke",
-        "remark":"Qaphela",
+        "data":"Usuku",
+        "data_placeholder":"Idatha ye-Hexadecimal",
         "fees":"Imali",
         "total":"Inani",
         "select":"Sicela ukhethe",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Ukukhishwa kwe-Wallet kuhlulekile, kungenzeka kube yiphutha lephasiwedi",
+            "amount_zero":"Ibhalansi enganele ukuqhubeka",
+            "address_null":"Sicela ufake i-akhawunti",
             "address_err":"Ifomethi yekheli engenayo ayikho emthethweni",
             "send_success":"Thumela impumelelo",
             "send_error":"Ukuthengiswa kwehlulekile: Sicela uhlole ukuthi kukhona imali ebhalansi kanye nemali yommbizi"

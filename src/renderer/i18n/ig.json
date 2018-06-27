@@ -44,7 +44,8 @@
         "to_address":"Banye",
         "amount":"Ọnụ",
         "send_all":"Ziga niile",
-        "remark":"Rịba ama",
+        "data":"Ụbọchị",
+        "data_placeholder":"Data hexadecimal",
         "fees":"Ụgwọ",
         "total":"Ọnụ",
         "select":"Biko họrọ",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Ikwusi obere akpa wuru, nwere ike ịbụ njehie paswọọdụ",
+            "amount_zero":"Enweghi ike ịkwagide",
+            "address_null":"Biko tinye akaụntụ ahụ",
             "address_err":"Ụdị adreesị abata na-akwadoghị",
             "send_success":"Zipụ ihe ịga nke ọma",
             "send_error":"Azụmahịa ejirila: Biko lelee ma ọ bụrụ na ego zuru oke na ego onye na-egwuputa ego"

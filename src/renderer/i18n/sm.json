@@ -44,7 +44,8 @@
         "to_address":"Totonu",
         "amount":"Aofaʻi",
         "send_all":"Auina uma",
-        "remark":"Manatua",
+        "data":"Aso",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Totogi",
         "total":"Aofaʻi",
         "select":"Faamolemole filifili",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Ua le manuia le faila o le faila, atonu o se faʻasologa sese",
+            "amount_zero":"Le paleni le lava e faaauau",
+            "address_null":"Faʻamolemole tuʻu le tala",
             "address_err":"O le faʻauigaina o le tuatusi o le tuatusi e le tulafono",
             "send_success":"Auina atu le manuia",
             "send_error":"Ua le manuia le gaioiga: Faamolemole siaki pe a lava le paleni paleni ma le totogi o le tagata"

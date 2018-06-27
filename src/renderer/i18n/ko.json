@@ -44,7 +44,8 @@
         "to_address":"들어가기",
         "amount":"금액",
         "send_all":"모두 보내기",
-        "remark":"참고",
+        "data":"날짜",
+        "data_placeholder":"16 진수 데이터",
         "fees":"수수료",
         "total":"합계",
         "select":"선택하십시오",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"월렛 파싱에 실패했습니다. 비밀번호 오류 일 수 있습니다.",
+            "amount_zero":"계속하기에 불충분 한 균형",
+            "address_null":"계정을 입력하십시오.",
             "address_err":"받는 주소 형식이 잘못되었습니다.",
             "send_success":"성공을 보낸다.",
             "send_error":"거래 실패 : 충분한 잔액 및 광부 수수료가 있는지 확인하십시오."

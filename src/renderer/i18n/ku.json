@@ -44,7 +44,8 @@
         "to_address":"Li",
         "amount":"Amount",
         "send_all":"Hemî bişînin",
-        "remark":"Têbînî",
+        "data":"Dîrok",
+        "data_placeholder":"Daneyên hexadecimal",
         "fees":"Fees",
         "total":"Tevahî",
         "select":"Ji kerema xwe hilbijêrin",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Parsing failed, dibe ku çewtiyek şîfre be",
+            "amount_zero":"Bêguman ne hêsantir berdewam dike",
+            "address_null":"Ji kerema xwe re hesab bike",
             "address_err":"Forma adresa neyê qanûn e",
             "send_success":"Serkeftî bişînin",
             "send_error":"Veguhastin têkelî: Ji kerema xwe hebe ku heger heya heqê heqê û heqê minerek hebe"

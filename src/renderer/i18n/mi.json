@@ -44,7 +44,8 @@
         "to_address":"Haere ki roto",
         "amount":"Te nui",
         "send_all":"Tukua katoatia",
-        "remark":"Tuhipoka",
+        "data":"Rā",
+        "data_placeholder":"He raraunga Hexadecimal",
         "fees":"Nga utu",
         "total":"Te tapeke",
         "select":"Tono koa",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Kua rahua te taraipa taraiwa, he hapa hapa kupuhipa",
+            "amount_zero":"He iti te toenga ki te haere tonu",
+            "address_null":"Tomo koa mai ki te kaute",
             "address_err":"Ko te hōputu wāhitau taumai he ture",
             "send_success":"Tukua he angitu",
             "send_error":"Kua rahua te mahi: Titiro koa mēnā he nui te utu me te utu a te minita"

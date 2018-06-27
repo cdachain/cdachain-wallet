@@ -44,7 +44,8 @@
         "to_address":"bele",
         "amount":"pénz",
         "send_all":"Küldj mindent",
-        "remark":"megjegyzés",
+        "data":"dátum",
+        "data_placeholder":"Hexadecimális adatok",
         "fees":"díjak",
         "total":"teljes",
         "select":"Kérem válasszon",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"A Wallet-elemzés sikertelen, jelszóhiba lehet",
+            "amount_zero":"Nem megfelelő egyensúly a folytatáshoz",
+            "address_null":"Kérjük, adja meg a fiókot",
             "address_err":"A bejövő címformátum illegális",
             "send_success":"Küldje el sikerét",
             "send_error":"A tranzakció sikertelen: Ellenőrizze, van-e elegendő egyensúly és bányász díja"

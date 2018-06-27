@@ -44,7 +44,8 @@
         "to_address":"Kulowa",
         "amount":"Zambiri",
         "send_all":"Tumizani zonse",
-        "remark":"Zindikirani",
+        "data":"Tsiku",
+        "data_placeholder":"Deta ya hexadecimal",
         "fees":"Malipiro",
         "total":"Chiwerengero",
         "select":"Chonde sankhani",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Kusungidwa kwa ngongole kunalephera, kukhoza kukhala chinsinsi chachinsinsi",
+            "amount_zero":"Kusayenerera kokwanira kuti mupitirize",
+            "address_null":"Chonde lowetsani akaunti",
             "address_err":"Mafomu adilesi olowera ndi osaloleka",
             "send_success":"Tumizani kupambana",
             "send_error":"Kugulitsa kunalephera: Chonde onani ngati pali malipiro okwanira komanso malipiro a minera"

@@ -44,7 +44,8 @@
         "to_address":"Sa",
         "amount":"Halaga",
         "send_all":"Ipadala lahat",
-        "remark":"Tandaan",
+        "data":"Petsa",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Bayad",
         "total":"Kabuuang",
         "select":"Mangyaring piliin",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring isang error sa password",
+            "amount_zero":"Hindi sapat ang balanse upang magpatuloy",
+            "address_null":"Mangyaring ipasok ang account",
             "address_err":"Ang papalapit na format ng address ay labag sa batas",
             "send_success":"Magpadala ng tagumpay",
             "send_error":"Nabigo ang transaksyon: Mangyaring suriin kung may sapat na balanse at bayad sa minero"

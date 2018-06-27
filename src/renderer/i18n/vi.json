@@ -44,7 +44,8 @@
         "to_address":"Vào",
         "amount":"Số tiền",
         "send_all":"Gửi tất cả",
-        "remark":"Lưu ý",
+        "data":"Ngày tháng",
+        "data_placeholder":"Dữ liệu thập lục phân",
         "fees":"Phí",
         "total":"Tổng số",
         "select":"Vui lòng chọn",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Phân tích cú pháp trên Wallet không thành công, có thể là lỗi mật khẩu",
+            "amount_zero":"Không đủ số dư để tiếp tục",
+            "address_null":"Vui lòng nhập tài khoản",
             "address_err":"Định dạng địa chỉ đến là bất hợp pháp",
             "send_success":"Gửi thành công",
             "send_error":"Giao dịch không thành công: Vui lòng kiểm tra xem có đủ số dư và phí của thợ mỏ không"

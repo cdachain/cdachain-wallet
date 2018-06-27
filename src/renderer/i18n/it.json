@@ -44,7 +44,8 @@
         "to_address":"in",
         "amount":"soldi",
         "send_all":"Invia tutto",
-        "remark":"osservazione",
+        "data":"data",
+        "data_placeholder":"Dati esadecimali",
         "fees":"tasse",
         "total":"totale",
         "select":"Per favore seleziona",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe essere un errore della password",
+            "amount_zero":"Equilibrio insufficiente per continuare",
+            "address_null":"Si prega di inserire l'account",
             "address_err":"Il formato degli indirizzi in arrivo è illegale",
             "send_success":"Invia successo",
             "send_error":"Transazione fallita: si prega di verificare se vi è sufficiente equilibrio e tassa del minatore"

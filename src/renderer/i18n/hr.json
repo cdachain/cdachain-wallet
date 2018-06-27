@@ -44,7 +44,8 @@
         "to_address":"u",
         "amount":"novac",
         "send_all":"Pošalji sve",
-        "remark":"primjedba",
+        "data":"datum",
+        "data_placeholder":"Hexadecimalni podaci",
         "fees":"naknade",
         "total":"ukupno",
         "select":"Molimo odaberite",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Analiza novčanika nije uspjela, može biti pogreška u zaporci",
+            "amount_zero":"Nedovoljna ravnoteža za nastavak",
+            "address_null":"Unesite račun",
             "address_err":"Format dolazne adrese je ilegalan",
             "send_success":"Pošaljite uspjeh",
             "send_error":"Transakcija nije uspjela: provjerite ima li dovoljno ravnoteže i naknadu rudara"

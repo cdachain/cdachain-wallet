@@ -44,7 +44,8 @@
         "to_address":"Ke dalam",
         "amount":"Jumlah",
         "send_all":"Hantar semua",
-        "remark":"Nota",
+        "data":"Tarikh",
+        "data_placeholder":"Data heksadesimal",
         "fees":"Bayaran",
         "total":"Jumlah",
         "select":"Sila pilih",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
+            "amount_zero":"Baki tidak mencukupi untuk diteruskan",
+            "address_null":"Sila masukkan akaun",
             "address_err":"Format alamat masuk adalah tidak sah",
             "send_success":"Hantar kejayaan",
             "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"

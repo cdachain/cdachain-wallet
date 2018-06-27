@@ -124,7 +124,7 @@ function getAccounts(){
     });
 }
 
-setInterval(function(){
+var timer = setInterval(function(){
     getAccounts();
 },2000)
 

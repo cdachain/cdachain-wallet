@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Tirada",
         "send_all":"Soo dir dhammaan",
-        "remark":"Ogow",
+        "data":"Taariikhda",
+        "data_placeholder":"Macluumaadka Hexadecimal",
         "fees":"Khidmadaha",
         "total":"Wadarta",
         "select":"Fadlan dooro",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Qashin khatarta ah ayaa ku fashilantay, waxay noqon kartaa qalad sir ah",
+            "amount_zero":"Miisaanka aan ku filnayn sii wadida",
+            "address_null":"Fadlan gali koontada",
             "address_err":"Nooca cinwaanka soo socda waa sharci daro",
             "send_success":"U soo dir guul",
             "send_error":"Hawlgalku wuu ku fashilmay: Fadlan hubi haddii ay jirto dheelitir ku filan iyo kharashka macdanta"

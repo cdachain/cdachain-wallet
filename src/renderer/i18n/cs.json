@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Částka",
         "send_all":"Pošlete vše",
-        "remark":"Poznámka:",
+        "data":"Datum",
+        "data_placeholder":"Hexadecimální data",
         "fees":"Poplatky",
         "total":"Celkem",
         "select":"Vyberte prosím",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
+            "amount_zero":"Nedostatečný zůstatek pokračujte",
+            "address_null":"Zadejte prosím účet",
             "address_err":"Formát příchozí adresy je neplatný",
             "send_success":"Pošlete úspěch",
             "send_error":"Transakce se nezdařila: Zkontrolujte prosím, zda je dostatečný zůstatek a hornický poplatek"

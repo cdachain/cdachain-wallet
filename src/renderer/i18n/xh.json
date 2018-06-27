@@ -44,7 +44,8 @@
         "to_address":"Ngaphakathi",
         "amount":"Isixa",
         "send_all":"Thumela konke",
-        "remark":"Qaphela",
+        "data":"Umhla",
+        "data_placeholder":"Idatha yeHexadecimal",
         "fees":"Imali",
         "total":"Iyonke",
         "select":"Nceda ukhethe",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"I-Wallet parsing yahluleka, ingaba yimpazamo yephasiwedi",
+            "amount_zero":"Ubhalansi obunganeleyo ukuqhubeka",
+            "address_null":"Nceda ufake i-akhawunti",
             "address_err":"Ifomathi yedilesi engenayo ayikho mthethweni",
             "send_success":"Thumela impumelelo",
             "send_error":"Ukuthengiswa kwehlulekile: Nceda uqaphele ukuba kukho ukulingana okwaneleyo nemirhumo yommbizi"

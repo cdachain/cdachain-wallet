@@ -44,7 +44,8 @@
         "to_address":"Ingia",
         "amount":"Kiasi",
         "send_all":"Tuma yote",
-        "remark":"Kumbuka",
+        "data":"Tarehe",
+        "data_placeholder":"Data ya hexadecimal",
         "fees":"Malipo",
         "total":"Jumla",
         "select":"Tafadhali chagua",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
+            "amount_zero":"Usawa haitoshi kuendelea",
+            "address_null":"Tafadhali ingiza akaunti",
             "address_err":"Fomu ya anwani inayoingia ni kinyume cha sheria",
             "send_success":"Tuma mafanikio",
             "send_error":"Shughuli imeshindwa: Tafadhali angalia ikiwa kuna usawa wa kutosha na ada ya mchimbaji"

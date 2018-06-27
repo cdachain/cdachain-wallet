@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Miqdori",
         "send_all":"Barchasini jo'natish",
-        "remark":"Eslatma",
+        "data":"Sana",
+        "data_placeholder":"O'nta o'lchovli ma'lumotlar",
         "fees":"Narxlar",
         "total":"Jami",
         "select":"Iltimos, tanlang",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, parol xato bo'lishi mumkin",
+            "amount_zero":"Davom etish uchun yetarli muvozanat",
+            "address_null":"Iltimos, hisobni kiriting",
             "address_err":"Kirish manzil formati noqonuniy hisoblanadi",
             "send_success":"Muvaffaqiyatli yuboring",
             "send_error":"Transaction failed: Iltimos, balans va miner ish haqi mavjudligini tekshiring"

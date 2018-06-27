@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Znesek",
         "send_all":"Pošlji vse",
-        "remark":"Opomba",
+        "data":"Datum",
+        "data_placeholder":"Šestnajstiški podatki",
         "fees":"Pristojbine",
         "total":"Skupaj",
         "select":"Prosim izberite",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, je lahko napaka gesla",
+            "amount_zero":"Nadaljevati je treba premalo ravnotežja",
+            "address_null":"Vnesite račun",
             "address_err":"Oblika naslova naslova je nezakonita",
             "send_success":"Pošlji uspeh",
             "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"

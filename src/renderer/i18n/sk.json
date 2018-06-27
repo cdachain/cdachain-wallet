@@ -44,7 +44,8 @@
         "to_address":"do",
         "amount":"peniaze",
         "send_all":"Odoslať všetko",
-        "remark":"poznámka",
+        "data":"dátum",
+        "data_placeholder":"Hexadecimálne údaje",
         "fees":"poplatky",
         "total":"totálnej",
         "select":"Vyberte prosím",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Parsovanie služby Peňaženka zlyhalo, môže to byť chyba hesla",
+            "amount_zero":"Nepokračujte v nedostatku",
+            "address_null":"Zadajte účet",
             "address_err":"Formát prichádzajúcej adresy je nezákonný",
             "send_success":"Poslať úspech",
             "send_error":"Transakcia zlyhala: skontrolujte, či je dostatočný zostatok a horník"

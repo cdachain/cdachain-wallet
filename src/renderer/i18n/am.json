@@ -44,7 +44,8 @@
         "to_address":"ወደ ውስጥ",
         "amount":"መጠን",
         "send_all":"ሁሉንም ላክ",
-        "remark":"ማስታወሻ",
+        "data":"ቀን",
+        "data_placeholder":"የሄክሳዴሲማል ውሂብ",
         "fees":"ክፍያዎች",
         "total":"ጠቅላላ",
         "select":"እባክዎ ይምረጡ",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Wallet መተንተን አልተሳካም የይለፍ ቃል ስህተት ሊሆን ይችላል",
+            "amount_zero":"ለመቀጠል በቂ ያልሆነ ሂሳብ",
+            "address_null":"እባክዎ መለያውን ያስገቡ",
             "address_err":"ገቢ አድራሻ ቅርጸት ሕገ ወጥ ነው",
             "send_success":"ስኬት ላክ",
             "send_error":"ግብይቱ አልተሳካም: እባክዎ በቂ ሚዛን እና የአሠሪዎች ክፍያ ካለ ያረጋግጡ"

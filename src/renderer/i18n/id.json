@@ -44,7 +44,8 @@
         "to_address":"Ke",
         "amount":"Jumlah",
         "send_all":"Kirim semua",
-        "remark":"Catatan",
+        "data":"Date",
+        "data_placeholder":"Data heksadesimal",
         "fees":"Biaya",
         "total":"Total",
         "select":"Silakan pilih",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Gagal menguraikan dompet, mungkin merupakan kesalahan kata sandi",
+            "amount_zero":"Saldo tidak mencukupi untuk melanjutkan",
+            "address_null":"Silakan masukkan akun",
             "address_err":"Format alamat masuk adalah ilegal",
             "send_success":"Kirim sukses",
             "send_error":"Transaksi gagal: Silakan periksa apakah ada saldo yang cukup dan biaya penambang"

@@ -44,7 +44,8 @@
         "to_address":"Sa",
         "amount":"Amgo",
         "send_all":"Ipadala ang tanan",
-        "remark":"Mubo nga sulat",
+        "data":"Petsa",
+        "data_placeholder":"Hexadecimal data",
         "fees":"Bayad",
         "total":"Total",
         "select":"Palihug pagpili",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Ang pagwagtang sa pitaka napakyas, tingali usa ka sayop nga password",
+            "amount_zero":"Dili igo nga balanse nga magpadayon",
+            "address_null":"Palihug pagsulod sa account",
             "address_err":"Ang umaabot nga format sa address ilegal",
             "send_success":"Ipadala ang kalampusan",
             "send_error":"Ang transaksyon napakyas: Palihug susiha kung adunay igong balanse ug bayad sa minero"

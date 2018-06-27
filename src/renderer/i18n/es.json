@@ -44,7 +44,8 @@
         "to_address":"En",
         "amount":"Monto",
         "send_all":"Enviar todo",
-        "remark":"Nota",
+        "data":"Fecha",
+        "data_placeholder":"Datos hexadecimales",
         "fees":"Honorarios",
         "total":"Total",
         "select":"Por favor selecciona",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"El análisis de Wallet falló, puede haber un error de contraseña",
+            "amount_zero":"Equilibrio insuficiente para continuar",
+            "address_null":"Por favor ingrese la cuenta",
             "address_err":"El formato de dirección entrante es ilegal",
             "send_success":"Enviar el exito",
             "send_error":"Transacción fallida: verifique si hay saldo suficiente y la tarifa del minero"

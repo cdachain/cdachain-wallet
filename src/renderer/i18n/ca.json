@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Import",
         "send_all":"Envieu-ho tot",
-        "remark":"Nota",
+        "data":"Data",
+        "data_placeholder":"Dades hexadecimals",
         "fees":"Honoraris",
         "total":"Total",
         "select":"Seleccioneu",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Error en l'anàlisi de la cartera, pot ser un error de contrasenya",
+            "amount_zero":"Balanç insuficient per continuar",
+            "address_null":"Introduïu el compte",
             "address_err":"El format d'adreça entrant és il·legal",
             "send_success":"Enviar èxit",
             "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i la tarifa del miner"

@@ -44,7 +44,8 @@
         "to_address":"till",
         "amount":"pengar",
         "send_all":"Skicka allt",
-        "remark":"anmärkning",
+        "data":"datum",
+        "data_placeholder":"Hexadecimal data",
         "fees":"avgifter",
         "total":"total",
         "select":"Vänligen välj",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Pappersparsning misslyckades, kan vara ett lösenordsfel",
+            "amount_zero":"Otillräcklig balans för att fortsätta",
+            "address_null":"Vänligen ange kontot",
             "address_err":"Inkommande adressformat är olagligt",
             "send_success":"Skicka framgång",
             "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och minimilön"

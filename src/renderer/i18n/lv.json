@@ -44,7 +44,8 @@
         "to_address":"Into",
         "amount":"Summa",
         "send_all":"Sūtīt visus",
-        "remark":"Piezīme",
+        "data":"Datums",
+        "data_placeholder":"Heksadecimālie dati",
         "fees":"Maksas",
         "total":"Kopā",
         "select":"Lūdzu, izvēlieties",
@@ -59,6 +60,8 @@
         },
         "msg_info": {
             "decrypt_err":"Nevarēja veikt maketa parsēšanu, iespējams, ir paroles kļūda",
+            "amount_zero":"Nepietiekams atlikums, lai turpinātu",
+            "address_null":"Lūdzu, ievadiet kontu",
             "address_err":"Ienākošā adreses formāts ir nelikumīgs",
             "send_success":"Nosūtiet veiksmi",
             "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekams atlikums un ieguvējs maksa"
