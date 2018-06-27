@@ -252,7 +252,8 @@ export default {
                     let link = document.createElement("a");
                     link.download = self.getNowTime() + "--" + accVal;
                     link.style.display = "none";
-                    let blob = new Blob([JSON.stringify(accJson)]);
+                    // let blob = new Blob([JSON.stringify(accJson)]);
+                    let blob = new Blob([accJson]);
                     link.href = URL.createObjectURL(blob);
                     document.body.appendChild(link);
                     link.click();
