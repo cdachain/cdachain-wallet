@@ -21,11 +21,12 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
-const winWidth=process.env.NODE_ENV === 'development' ? (810+580) : 810;
+const winWidth=process.env.NODE_ENV === 'development' ? (815+580) : 815;
 
 app.on('ready', createWindow);// Called when Electron finishes, initializes and prepares to create a browser window. Some APIs can only be used after this event occurs.
 app.on('window-all-closed', windowAllClose);// Exit when all windows are closed.
 app.on('activate', activateFn);//On OS X, when you click the Dock icon and no other window is open, a window is usually recreated in the application.
+
 
 
 function createWindow () {
@@ -37,6 +38,7 @@ function createWindow () {
         title:"CZR Walleti Default",
         resizable:false,
         fullscreenable:false,
+        autoHideMenuBar:true,
         useContentSize:true
     });
 

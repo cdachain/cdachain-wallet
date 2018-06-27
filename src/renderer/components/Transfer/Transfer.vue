@@ -304,7 +304,7 @@ export default {
                                         .write();
                                 }
                                 self.$message.success(
-                                    this.$t(
+                                    self.$t(
                                         "page_transfer.msg_info.send_success"
                                     )
                                 );
