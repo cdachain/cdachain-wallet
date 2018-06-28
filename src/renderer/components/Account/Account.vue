@@ -151,7 +151,7 @@
 <script>
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
-import { setInterval } from "timers";
+import { setInterval ,clearInterval} from "timers";
 
 let self = null;
 
@@ -186,23 +186,29 @@ export default {
         self.pollingBlock();
         self.initTag();
         self.initTransactionInfo();
-        self.intervalId = setInterval(() => {
+
+        this.accountIntervalId = setInterval(() => {
+            console.log("Account")
             self.initDatabase();
+            self.pollingBlock();
         }, 2000);
     },
-
     computed: {},
+    beforeDestroy() {
+        clearInterval(this.accountIntervalId);
+    },
     methods: {
         //pollingTx
         pollingBlock() {
             var self = this;
             var txList = this.accountInfo.tx_list;
             txList.forEach(element => {
-                if (element.is_stable == "0") {
-                    //不稳定  getBlock  
+                if (element.is_stable == "1") {
+                    //不稳定  getBlock
                     self.$czr.request
                         .getBlock(element.blockHash)
                         .then(function(blockInfo) {
+                            console.log("blockInfo-->", blockInfo);
                             return blockInfo;
                         })
                         .then(function(blockInfo) {
@@ -509,7 +515,7 @@ export default {
     font-size: 18px;
     height: 42px;
     line-height: 42px;
-    width: 220px;
+    width: 200px;
     text-align: right;
 }
 .plus-assets .assets {

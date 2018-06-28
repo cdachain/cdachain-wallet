@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import { setInterval } from "timers";
+import { setInterval ,clearInterval} from "timers";
 let self = null;
 export default {
     name: "Transfer",
@@ -144,12 +144,15 @@ export default {
                     this.$route.query.account || this.database[0].address || "",
                 password: ""
             };
-            this.intervalId = setInterval(() => {
+            self.intervalId = setInterval(() => {
+                console.log("交易区")
                 self.initDatabase();
             }, 2000);
         }
     },
-
+    beforeDestroy() {
+        clearInterval(self.intervalId);
+    },
     computed: {
         //Init
         accountInfo() {

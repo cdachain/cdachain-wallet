@@ -113,7 +113,7 @@
 
 <script>
 const fs = require("fs");
-import { setInterval } from 'timers';
+import { setInterval ,clearInterval} from "timers";
 let self = null;
 
 export default {
@@ -136,10 +136,14 @@ export default {
         this.database = this.$db.get("czr_accounts").value();
         self.initDatabase();
         this.intervalId = setInterval(() => {
+            console.log("Home initDatabase");
             self.initDatabase();
         }, 1500);
     },
     computed: {},
+    beforeDestroy() {
+        clearInterval(this.intervalId);
+    },
     methods: {
         initDatabase() {
             this.database = this.$db.get("czr_accounts").value();
