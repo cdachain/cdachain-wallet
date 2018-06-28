@@ -16,7 +16,7 @@ const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
 // const banner=require("@/assets/img/banner.png")
-
+var self=null;
 export default {
     name: "Config",
     data() {
@@ -31,6 +31,7 @@ export default {
         };
     },
     created() {
+        self=this;
         const APP = process.type === "renderer" ? remote.app : app;
         this.userDataPath = APP.getPath("userData");
         this.initConfig();
@@ -49,20 +50,20 @@ export default {
                 binaryVersion: ""
             };
             this.conMsg = "配置文件初始化完成";
-            console.log("配置文件初始化完成");
+            self.$logger.info("配置文件初始化完成");
         },
 
         checkForNewConfig() {
             var self = this;
             this.conMsg = "检测是否有新的 CanonChain 文件";
-            console.log("检测是否有新的 CanonChain 文件 ");
+            self.$logger.info("检测是否有新的 CanonChain 文件 ");
 
             axios
                 .get(self.latest_config.BINARY_URL)
                 .then(function(response) {
                     self.latest_config.content = response.data;
                     self.conMsg = "已获取到远程配置文件";
-                    console.log("已获取到远程配置文件", response.data);
+                    self.$logger.info("已获取到远程配置文件", response.data);
                     self.checkLocalConfig();
                 })
                 .catch(function(error) {
@@ -72,7 +73,7 @@ export default {
         checkLocalConfig() {
             var self = this;
             this.conMsg = "检测本地的配置文件";
-            console.log("检测本地的配置文件");
+            self.$logger.info("检测本地的配置文件");
             //读取本地二进制配置文件
             try {
                 // 现在加载本地json
@@ -84,16 +85,16 @@ export default {
                         .toString()
                 );
                 this.conMsg = "本地配置文件存在";
-                console.log("本地配置文件存在");
+                self.$logger.info("本地配置文件存在");
             } catch (err) {
                 this.conMsg = "没有检测到本地配置文件，可能是第一次运行";
-                console.log("没有检测到本地配置文件，可能是第一次运行");
+                self.$logger.info("没有检测到本地配置文件，可能是第一次运行");
                 if (self.latest_config.content) {
                     self.local_config = self.latest_config.content;
                     self.writeLocalConfig(self.latest_config.content);
                 } else {
                     this.conMsg = "无法加载本地或远程配置 无法继续!"; //TODO 加载安装包的配置
-                    console.log("无法加载本地或远程配置 无法继续!");
+                    self.$logger.info("无法加载本地或远程配置 无法继续!");
                 }
             }
             self.isUpdate();
@@ -101,7 +102,7 @@ export default {
         writeLocalConfig(json) {
             this.conMsg =
                 "将Github上获取的客户端二进制配置文件，写入磁盘的本地配";
-                console.log("将Github上获取的客户端二进制配置文件，写入磁盘的本地配");
+                self.$logger.info("将Github上获取的客户端二进制配置文件，写入磁盘的本地配");
 
             fs.writeFileSync(
                 path.join(this.userDataPath, "clientBinaries.json"),
@@ -116,14 +117,14 @@ export default {
             var localVer = this.local_config.clients[this.node_info.NODE_TYPE]
                 .version;
             this.conMsg = "检测是否需要更新";
-            console.log("检测是否需要更新",latestVer,localVer);
+            self.$logger.info("检测是否需要更新",latestVer,localVer);
             if (latestVer == localVer) {
                 this.conMsg = "本地 CanonChain 配置是最新的";
-                console.log("本地 CanonChain 配置是最新的");
+                self.$logger.info("本地 CanonChain 配置是最新的");
                 this.isDownload();
             } else {
                 this.conMsg = "本地 CanonChain 配置是老版本";
-                console.log("本地 CanonChain 配置是老版本");
+                self.$logger.info("本地 CanonChain 配置是老版本");
                 this.writeLocalConfig(this.latest_config.content);
                 this.isDownload();
             }
@@ -150,9 +151,9 @@ export default {
 
             //TODO 判断是否有 CanonChain
             this.conMsg = "判断是否有 CanonChain 应用程序";
-            console.log("判断是否有 CanonChain 应用程序");
+            self.$logger.info("判断是否有 CanonChain 应用程序");
             try {
-                console.log("本地的节点文件",path.join(
+                self.$logger.info("本地的节点文件",path.join(
                         options.directory,
                         this.node_info.binaryVersion.bin
                     ))
@@ -163,11 +164,11 @@ export default {
                     )
                 );
                 this.conMsg = "存在的";
-                console.log("存在的");
+                self.$logger.info("存在的");
                 self.runCanonChain();
             } catch (err) {
                 this.conMsg = "正在下载节点程序,请耐心等待";
-                console.log("正在下载节点程序,请耐心等待",this.node_info.binaryVersion.url,
+                self.$logger.info("正在下载节点程序,请耐心等待",this.node_info.binaryVersion.url,
                     options.directory);
 
                 download(
@@ -176,13 +177,14 @@ export default {
                     options
                 ).then(() => {
                     this.conMsg = "节点程序已经下载好";
-                    console.log("节点程序已经下载好");
+                    self.$logger.info("节点程序已经下载好");
                     self.runCanonChain();
                 });
             }
         },
         runCanonChain() {
-            console.log("启动 CanonChain ", this.node_info.binaryVersion.bin);
+            self.$logger.info("启动 CanonChain :",this.userDataPath,
+                    "download", this.node_info.binaryVersion.bin);
             this.conMsg = "启动 CanonChain";
             let instance = spawn(
                 path.join(

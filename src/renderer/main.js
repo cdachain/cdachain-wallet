@@ -23,11 +23,11 @@ import utility from '../setting/settings'
 const logPath = path.join(utility.userDataPath, 'logs', "error.log")
 log4js.configure({
     appenders: { cheese: { type: 'file', filename: logPath } },
-    categories: { default: { appenders: ['cheese'], level: 'error' } }
+    categories: { default: { appenders: ['cheese'], level: 'info' } }
 });
 Vue.log4js = Vue.prototype.$log4js = log4js
-const logger = log4js.getLogger('src/renderer/main.js');
-logger.error(" *********** RUN MAIN *********** ");
+const logger = log4js.getLogger('=>>');
+logger.info(" ********** RUN MAIN ********** ");
 
 Vue.use(VueI18n);
 Vue.use(ElementUI);
