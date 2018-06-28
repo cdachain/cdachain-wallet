@@ -186,13 +186,13 @@ export default {
             self.$logger.info("启动 CanonChain :",this.userDataPath,
                     "download", this.node_info.binaryVersion.bin);
             this.conMsg = "启动 CanonChain";
-            let instance = spawn(
+            spawn(
                 path.join(
                     this.userDataPath,
                     "download",
                     this.node_info.binaryVersion.bin
                 ),
-                ["--daemon  --rpc_enable --rpc_enable_control"]
+                ["--daemon","--rpc_enable","--rpc_enable_control"]
             );
             this.conMsg = "CanonChain 已经启动 ";
             this.$router.push({ path: "home" });
