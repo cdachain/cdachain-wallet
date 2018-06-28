@@ -1,102 +1,102 @@
 <template>
-  <div class="page-transfer">
-    <div class="transfer-cont">
-      <el-form ref="form" label-width="100px" v-if="this.database.length>0">
-        <el-form-item :label="$t('page_transfer.from_address')">
-          <el-select v-model="fromInfo.account" :placeholder="$t('page_transfer.select')" style="width:100%;">
-            <el-option v-for="item in database" :key="item.address" :label="item.address" :value="item.address">
-              <span style="float: left">{{ item.tag }}</span>
-              <span style="float: right; color: #8492a6; font-size: 13px">{{ item.address }}</span>
-            </el-option>
-          </el-select>
-        </el-form-item>
-        <el-form-item :label="$t('page_transfer.to_address')">
-          <div class="trigger-contacts" @click="dialogSwitch.contacts = true">
-            <i class="el-icon-tickets"></i>
-          </div>
-          <el-input v-model="toAccount"></el-input>
-        </el-form-item>
+    <div class="page-transfer">
+        <div class="transfer-cont">
+            <el-form ref="form" label-width="100px" v-if="this.database.length>0">
+                <el-form-item :label="$t('page_transfer.from_address')">
+                    <el-select v-model="fromInfo.account" :placeholder="$t('page_transfer.select')" style="width:100%;">
+                        <el-option v-for="item in database" :key="item.address" :label="item.address" :value="item.address">
+                            <span style="float: left">{{ item.tag }}</span>
+                            <span style="float: right; color: #8492a6; font-size: 13px">{{ item.address }}</span>
+                        </el-option>
+                    </el-select>
+                </el-form-item>
+                <el-form-item :label="$t('page_transfer.to_address')">
+                    <div class="trigger-contacts" @click="dialogSwitch.contacts = true">
+                        <i class="el-icon-tickets"></i>
+                    </div>
+                    <el-input v-model="toAccount"></el-input>
+                </el-form-item>
 
-        <el-form-item :label="$t('page_transfer.amount')">
-          <el-input v-model="amount" min="0" :max="accountInfo.balance" class="width-180"></el-input>
-          <span>{{$t('unit.czr')}}</span>
-          <el-checkbox v-model="checkedAll" @change='sendAllAmount' class="send-all-assets">
-            {{$t('page_transfer.send_all')}}&nbsp;
-            <span class="czr-txt-muted">
-              (&nbsp;{{accountInfo.balance | toEthVal}} {{$t('unit.czr')}}&nbsp;)
-            </span>
+                <el-form-item :label="$t('page_transfer.amount')">
+                    <el-input v-model="amount" min="0" :max="accountInfo.balance" class="width-180"></el-input>
+                    <span>{{$t('unit.czr')}}</span>
+                    <el-checkbox v-model="checkedAll" @change='sendAllAmount' class="send-all-assets">
+                        {{$t('page_transfer.send_all')}}&nbsp;
+                        <span class="czr-txt-muted">
+                            (&nbsp;{{accountInfo.balance | toEthVal}} {{$t('unit.czr')}}&nbsp;)
+                        </span>
 
-          </el-checkbox>
-        </el-form-item>
-        <el-form-item :label="$t('page_transfer.data')">
-          <el-input type="textarea" :placeholder="$t('page_transfer.data_placeholder')" v-model="extraData"></el-input>
-        </el-form-item>
+                    </el-checkbox>
+                </el-form-item>
+                <el-form-item :label="$t('page_transfer.data')">
+                    <el-input type="textarea" :placeholder="$t('page_transfer.data_placeholder')" v-model="extraData"></el-input>
+                </el-form-item>
 
-        <el-form-item>
-          <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
+                <el-form-item>
+                    <el-button type="primary" @click="validateForm">{{$t('confirm')}}</el-button>
 
-        </el-form-item>
-      </el-form>
-      <div v-else>
-        <i class="el-icon-circle-close-outline no-account-icon"></i>
-        <p class="no-account-des">{{$t('page_transfer.no_account_info')}}</p>
-      </div>
-    </div>
-
-    <!-- Dialog select contacts -->
-    <el-dialog :title="$t('dialog_tit')" :visible.sync="dialogSwitch.contacts" width="70%">
-      <span>
-        <el-select v-model="selectedContact" :placeholder="$t('page_transfer.contacts_dig.select_placeholder')" style="width:100%;">
-          <el-option v-for="item in contacts" :key="item.address" :label="item.tag" :value="item.address">
-            <span style="float: left">{{ item.tag }}</span>
-            <span style="float: right; color: #8492a6; font-size: 13px">{{ item.address }}</span>
-          </el-option>
-        </el-select>
-      </span>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogSwitch.contacts = false">{{$t('cancel')}}</el-button>
-        <el-button type="primary" @click="confrimContacts">{{$t('confirm')}}</el-button>
-      </span>
-    </el-dialog>
-
-    <!-- confirm tran -->
-    <template>
-      <el-dialog :title="$t('page_transfer.confirm_dia.title')" width="85%" :visible.sync="dialogSwitch.confrim">
-
-        <el-form ref="form" label-width="120px">
-          <el-form-item :label="$t('page_transfer.from_address')">
-            <p>{{fromInfo.account}}</p>
-          </el-form-item>
-          <el-form-item :label="$t('page_transfer.to_address')">
-            <p>{{toAccount || "-"}}</p>
-          </el-form-item>
-          <el-form-item :label="$t('page_transfer.amount')">
-            <p>{{amount}} {{$t('unit.czr')}}</p>
-          </el-form-item>
-          <el-form-item :label="$t('page_transfer.data')">
-            <p>{{extraData || '-'}}</p>
-          </el-form-item>
-        </el-form>
-        <div slot="footer" class="dialog-footer">
-          <el-button @click="dialogSwitch.confrim = false">{{$t('cancel')}}</el-button>
-          <el-button type="primary" @click="dialogSwitch.password = true">{{$t('confirm')}}</el-button>
+                </el-form-item>
+            </el-form>
+            <div v-else>
+                <i class="el-icon-circle-close-outline no-account-icon"></i>
+                <p class="no-account-des">{{$t('page_transfer.no_account_info')}}</p>
+            </div>
         </div>
 
-        <el-dialog width="60%" :title="$t('page_transfer.confirm_dia.enter_passworld_tit')" :visible.sync="dialogSwitch.password" append-to-body>
-          <el-form ref="form" label-width="100px">
-            <el-input v-model="fromInfo.password" :placeholder="$t('page_transfer.confirm_dia.enter_passworld_place')" type="password"></el-input>
-          </el-form>
-
-          <div slot="footer" class="dialog-footer">
-            <el-button @click="dialogSwitch.password = false">{{$t('cancel')}}</el-button>
-            <el-button type="primary" @click="sendTransaction">{{$t('confirm')}}</el-button>
-          </div>
+        <!-- Dialog select contacts -->
+        <el-dialog :title="$t('dialog_tit')" :visible.sync="dialogSwitch.contacts" width="70%">
+            <span>
+                <el-select v-model="selectedContact" :placeholder="$t('page_transfer.contacts_dig.select_placeholder')" style="width:100%;">
+                    <el-option v-for="item in contacts" :key="item.address" :label="item.tag" :value="item.address">
+                        <span style="float: left">{{ item.tag }}</span>
+                        <span style="float: right; color: #8492a6; font-size: 13px">{{ item.address }}</span>
+                    </el-option>
+                </el-select>
+            </span>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="dialogSwitch.contacts = false">{{$t('cancel')}}</el-button>
+                <el-button type="primary" @click="confrimContacts">{{$t('confirm')}}</el-button>
+            </span>
         </el-dialog>
 
-      </el-dialog>
-    </template>
+        <!-- confirm tran -->
+        <template>
+            <el-dialog :title="$t('page_transfer.confirm_dia.title')" width="85%" :visible.sync="dialogSwitch.confrim">
 
-  </div>
+                <el-form ref="form" label-width="120px">
+                    <el-form-item :label="$t('page_transfer.from_address')">
+                        <p>{{fromInfo.account}}</p>
+                    </el-form-item>
+                    <el-form-item :label="$t('page_transfer.to_address')">
+                        <p>{{toAccount || "-"}}</p>
+                    </el-form-item>
+                    <el-form-item :label="$t('page_transfer.amount')">
+                        <p>{{amount}} {{$t('unit.czr')}}</p>
+                    </el-form-item>
+                    <el-form-item :label="$t('page_transfer.data')">
+                        <p>{{extraData || '-'}}</p>
+                    </el-form-item>
+                </el-form>
+                <div slot="footer" class="dialog-footer">
+                    <el-button @click="dialogSwitch.confrim = false">{{$t('cancel')}}</el-button>
+                    <el-button type="primary" @click="dialogSwitch.password = true">{{$t('confirm')}}</el-button>
+                </div>
+
+                <el-dialog width="60%" :title="$t('page_transfer.confirm_dia.enter_passworld_tit')" :visible.sync="dialogSwitch.password" append-to-body>
+                    <el-form ref="form" label-width="100px">
+                        <el-input v-model="fromInfo.password" :placeholder="$t('page_transfer.confirm_dia.enter_passworld_place')" type="password"></el-input>
+                    </el-form>
+
+                    <div slot="footer" class="dialog-footer">
+                        <el-button @click="dialogSwitch.password = false">{{$t('cancel')}}</el-button>
+                        <el-button type="primary" @click="sendTransaction">{{$t('confirm')}}</el-button>
+                    </div>
+                </el-dialog>
+
+            </el-dialog>
+        </template>
+
+    </div>
 </template>
 
 <script>
@@ -205,7 +205,6 @@ export default {
             self.$czr.request
                 .accountValidate(self.toAccount)
                 .then(function(data) {
-                    console.log(self.toAccount, "++", data);
                     return data.valid;
                 })
                 .then(function(data) {
@@ -234,17 +233,14 @@ export default {
                 data: self.extraData,
                 id: id
             };
-            console.log("send", sendObj);
 
             self.$czr.request
                 .send(sendObj)
                 .then(function(data) {
-                    console.log("data", data);
                     return data;
                 })
                 .then(function(data) {
                     if (!data.error) {
-                        console.log("hahahaah", data.block);
                         let receiptData = {
                             blockHash: data.block
                         };
@@ -277,11 +273,40 @@ export default {
                         self.$czr.request
                             .getBlock(data.block)
                             .then(function(blockInfo) {
-                                console.log("data", blockInfo);
                                 return blockInfo;
                             })
                             .then(function(blockInfo) {
                                 // receiptData 是返回数据
+                                // 处理blockInfo
+                                if (!blockInfo.from) {
+                                    blockInfo = {
+                                        from:sendObj.from,
+                                        to:sendObj.to,
+                                        amount: sendObj.amount,
+                                        previous:"",
+                                        parents:"",
+                                        witness_list_block:"",
+                                        witness_list: "",
+                                        last_summary: "",
+                                        last_summary_block:"",
+                                        data: "",
+                                        exec_timestamp: "",
+                                        signature: "",
+                                        is_free: "",
+                                        level: "0",
+                                        witnessed_level: "0",
+                                        best_parent:"",
+                                        is_stable: "0",
+                                        is_fork: "0",
+                                        is_invalid: "0",
+                                        is_fail: "0",
+                                        is_on_mc: "0",
+                                        mci: "0",
+                                        latest_included_mci: "0",
+                                        mc_timestamp: "0"
+                                    };
+                                }
+
                                 // receiptData.timestamp = blockObj.timestamp;
                                 if (testFrom) {
                                     self.$db
@@ -290,7 +315,9 @@ export default {
                                             address: self.fromInfo.account
                                         })
                                         .get("tx_list")
-                                        .find({ blockHash: receiptData.blockHash })
+                                        .find({
+                                            blockHash: receiptData.blockHash
+                                        })
                                         .assign(blockInfo)
                                         .write();
                                 }
@@ -299,7 +326,9 @@ export default {
                                         .get("czr_accounts")
                                         .find({ address: self.toAccount })
                                         .get("tx_list")
-                                        .find({ blockHash: receiptData.blockHash })
+                                        .find({
+                                            blockHash: receiptData.blockHash
+                                        })
                                         .unshift(blockInfo)
                                         .write();
                                 }
@@ -319,12 +348,6 @@ export default {
                         self.$message.error(data.error);
                     }
                 });
-            // .catch(err => {
-            //     console.log(err);
-            //     self.$message.error(
-            //         this.$t("page_transfer.msg_info.send_error")
-            //     );
-            // });
         }
     },
     filters: {
