@@ -100,7 +100,7 @@
 </template>
 
 <script>
-import { setInterval ,clearInterval} from "timers";
+import { setInterval, clearInterval } from "timers";
 let self = null;
 export default {
     name: "Transfer",
@@ -243,109 +243,13 @@ export default {
                 })
                 .then(function(data) {
                     if (!data.error) {
-                        let receiptData = {
-                            blockHash: data.block
-                        };
-                        let testFrom = self.$db
-                            .get("czr_accounts")
-                            .find({ address: self.fromInfo.account })
-                            .value();
-                        let testTo = self.$db
-                            .get("czr_accounts")
-                            .find({ address: self.toAccount })
-                            .value();
-                        if (testFrom) {
-                            self.$db
-                                .get("czr_accounts")
-                                .find({ address: self.fromInfo.account })
-                                .get("tx_list")
-                                .unshift(receiptData)
-                                .write();
-                        }
-                        if (testTo) {
-                            self.$db
-                                .get("czr_accounts")
-                                .find({ address: self.toAccount })
-                                .get("tx_list")
-                                .unshift(receiptData)
-                                .write();
-                        }
-
-                        //getBlock
-                        self.$czr.request
-                            .getBlock(data.block)
-                            .then(function(blockInfo) {
-                                return blockInfo;
-                            })
-                            .then(function(blockInfo) {
-                                // receiptData 是返回数据
-                                // 处理blockInfo
-                                if (!blockInfo.from) {
-                                    blockInfo = {
-                                        from:sendObj.from,
-                                        to:sendObj.to,
-                                        amount: sendObj.amount,
-                                        previous:"",
-                                        parents:"",
-                                        witness_list_block:"",
-                                        witness_list: "",
-                                        last_summary: "",
-                                        last_summary_block:"",
-                                        data: "",
-                                        exec_timestamp: "",
-                                        signature: "",
-                                        is_free: "",
-                                        level: "0",
-                                        witnessed_level: "0",
-                                        best_parent:"",
-                                        is_stable: "0",
-                                        is_fork: "0",
-                                        is_invalid: "0",
-                                        is_fail: "0",
-                                        is_on_mc: "0",
-                                        mci: "0",
-                                        latest_included_mci: "0",
-                                        mc_timestamp: "0"
-                                    };
-                                }
-
-                                // receiptData.timestamp = blockObj.timestamp;
-                                if (testFrom) {
-                                    self.$db
-                                        .get("czr_accounts")
-                                        .find({
-                                            address: self.fromInfo.account
-                                        })
-                                        .get("tx_list")
-                                        .find({
-                                            blockHash: receiptData.blockHash
-                                        })
-                                        .assign(blockInfo)
-                                        .write();
-                                }
-                                if (testTo) {
-                                    self.$db
-                                        .get("czr_accounts")
-                                        .find({ address: self.toAccount })
-                                        .get("tx_list")
-                                        .find({
-                                            blockHash: receiptData.blockHash
-                                        })
-                                        .unshift(blockInfo)
-                                        .write();
-                                }
-                                self.$message.success(
-                                    self.$t(
-                                        "page_transfer.msg_info.send_success"
-                                    )
-                                );
-                                //Clear data
-                                self.dialogSwitch.confrim = false;
-                                self.dialogSwitch.password = false;
-                                self.$router.push(
-                                    "/account/" + self.fromInfo.account
-                                );
-                            });
+                        self.$message.success(
+                            self.$t("page_transfer.msg_info.send_success")
+                        );
+                        //Clear data
+                        self.dialogSwitch.confrim = false;
+                        self.dialogSwitch.password = false;
+                        self.$router.push("/account/" + self.fromInfo.account);
                     } else {
                         self.$message.error(data.error);
                     }

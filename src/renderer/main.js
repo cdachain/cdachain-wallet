@@ -106,7 +106,6 @@ function getAccounts() {
                     let params = {
                         address: reqAry,
                         tag: '账号-' + (++flagLeng),
-                        tx_list: [],
                         balance: 0
                     };
                     db.get("czr_accounts")

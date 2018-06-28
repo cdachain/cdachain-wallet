@@ -20,5 +20,17 @@
     </script>
 
     <!-- webpack builds are automatically injected -->
+    <script>
+      window.ondragover=function(e) { e.preventDefault(); return false };
+      window.ondrop=function(e) { e.preventDefault(); return false };
+
+      document.onkeydown = function(e){
+        var keycode = e.keyCode;
+        if(keycode == 116 || keycode == 13  ){
+          e.preventDefault();
+          return false;
+        }
+    };
+    </script>
   </body>
 </html>

@@ -68,6 +68,10 @@
                         </div>
                     </div>
                 </template>
+                <div class="pagin-wrap b-flex b-flex-justify" v-if="accountInfo.tx_list.length>2">
+                    <el-button :disabled="pagingSwitch.before" class="before-btn">上一页</el-button>
+                    <el-button  :disabled="pagingSwitch.next" class="next-btn">下一页</el-button>
+                </div>
             </div>
 
             <!--  No transaction record  -->
@@ -87,7 +91,7 @@
       </span> -->
         </el-dialog>
 
-        <el-dialog :title="$t('page_account.edit_dia.tit')" :visible.sync="dialogSwitch.editName" width="65%" center>
+        <el-dialog :title="$t('page_account.edit_dia.tit')" :visible.sync="dialogSwitch.editName" width="35%" center>
             <span>
                 <p class="edit-name-subtit">{{$t('page_account.edit_dia.subtit')}}</p>
                 <el-input v-model="editTag"></el-input>
@@ -116,7 +120,20 @@
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.status')}}</strong>
-                    <span class="tx-item-info">--</span>
+                    <span class="tx-item-info">
+                        <span v-if="txStatus === -1" class="txt-warning">
+                            不稳定
+                        </span>
+                        <span v-else-if="txStatus === 200" class="txt-success">
+                            成功
+                        </span>
+                        <span v-else-if="txStatus === 300" class="txt-info">
+                            作废
+                        </span>
+                        <span v-else-if="txStatus === 400" class="txt-danger">
+                            失败
+                        </span>
+                    </span>
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.from')}}</strong>
@@ -151,7 +168,7 @@
 <script>
 const { clipboard } = require("electron");
 import QRCode from "qrcode";
-import { setInterval ,clearInterval} from "timers";
+import { setInterval, clearInterval } from "timers";
 
 let self = null;
 
@@ -165,11 +182,16 @@ export default {
                 keystore: false,
                 txInfo: false
             },
+            pagingSwitch: {
+                before:true,
+                next:false
+            },
             address: this.$route.params.id,
             accountInfo: null,
             transactionInfo: null,
             pollingAry: null,
             qrImgUrl: "",
+            txStatus: "-",
             editTag: ""
         };
     },
@@ -183,13 +205,11 @@ export default {
             self.qrImgUrl = url;
         });
         self.initDatabase();
-        self.pollingBlock();
         self.initTag();
         self.initTransactionInfo();
 
         this.accountIntervalId = setInterval(() => {
             self.initDatabase();
-            self.pollingBlock();
         }, 2000);
     },
     computed: {},
@@ -197,33 +217,6 @@ export default {
         clearInterval(this.accountIntervalId);
     },
     methods: {
-        //pollingTx
-        pollingBlock() {
-            var self = this;
-            var txList = this.accountInfo.tx_list;
-            txList.forEach(element => {
-                if (element.is_stable == "0") {
-                    //不稳定  getBlock
-                    self.$czr.request
-                        .getBlock(element.blockHash)
-                        .then(function(blockInfo) {
-                            return blockInfo;
-                        })
-                        .then(function(blockInfo) {
-                            // receiptData 是返回数据
-                            self.$db
-                                .get("czr_accounts")
-                                .find({
-                                    address: self.address
-                                })
-                                .get("tx_list")
-                                .find({ blockHash: element.blockHash })
-                                .assign(blockInfo)
-                                .write();
-                        });
-                }
-            });
-        },
         //Ini
         initTag: function() {
             this.editTag = this.accountInfo.tag;
@@ -256,6 +249,9 @@ export default {
                 .filter({ address: this.address })
                 .value()[0];
             this.accountInfo.keystore = keystoreFile;
+            // this.accountInfo.tx_list = [
+            //     //get List
+            // ];
         },
 
         //Copy Address
@@ -270,6 +266,24 @@ export default {
         //SHOW tx info
         showTxInfo(item) {
             this.transactionInfo = item;
+            //判断 this.txStatus
+            if (item.is_stable == "0") {
+                //不稳定
+                this.txStatus = -1; //不稳定
+            } else if (item.is_stable == "1") {
+                //稳定
+                if (item.is_fork == "1" || item.is_invalid == "1") {
+                    this.txStatus = 300; //作废
+                    //
+                } else {
+                    if (item.is_fail == "1") {
+                        this.txStatus = 400; //失败
+                    } else {
+                        this.txStatus = 200; //成功
+                    }
+                }
+            }
+
             this.dialogSwitch.txInfo = true;
         },
 
@@ -513,7 +527,7 @@ export default {
     font-size: 18px;
     height: 42px;
     line-height: 42px;
-    width: 200px;
+    width: 170px;
     text-align: right;
 }
 .plus-assets .assets {
@@ -553,5 +567,20 @@ export default {
     table-layout: fixed;
     word-break: break-all;
     overflow: hidden;
+}
+.pagin-wrap {
+    padding: 15px 0;
+}
+.txt-warning {
+    color: #e6a23c;
+}
+.txt-info {
+    color: #909399;
+}
+.txt-success {
+    color: #67c23a;
+}
+.txt-danger {
+    color: #f56c6c;
 }
 </style>

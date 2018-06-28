@@ -39,11 +39,11 @@ export default {
   /* background-color: #f4f4f4; */
 }
 .header-nav {
-  width: 70%;
+  width: 80%;
   text-align: left;
 }
 .has-assets-czr {
-  width: 30%;
+  width: 20%;
   text-align: right;
   font-size: 16px;
 }

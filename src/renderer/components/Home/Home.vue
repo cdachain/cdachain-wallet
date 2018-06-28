@@ -235,7 +235,6 @@ export default {
                             self.createInfo.tag ||
                             self.$t("page_home.acc") +
                                 (self.database.length + 1),
-                        tx_list: [],
                         balance: 0
                     };
 
@@ -334,7 +333,6 @@ export default {
                                 self.importInfo.tag ||
                                 self.$t("page_home.acc") +
                                     (self.database.length + 1),
-                            tx_list: [],
                             balance: 0
                         };
 
