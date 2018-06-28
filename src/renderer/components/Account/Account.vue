@@ -177,7 +177,7 @@ export default {
         self = this;
         QRCode.toDataURL(this.address, { width: 800 }, function(err, url) {
             if (err) {
-                console.log(err);
+                self.$logger.info(err);
                 return;
             }
             self.qrImgUrl = url;
@@ -188,7 +188,6 @@ export default {
         self.initTransactionInfo();
 
         this.accountIntervalId = setInterval(() => {
-            console.log("Account")
             self.initDatabase();
             self.pollingBlock();
         }, 2000);
@@ -203,12 +202,11 @@ export default {
             var self = this;
             var txList = this.accountInfo.tx_list;
             txList.forEach(element => {
-                if (element.is_stable == "1") {
+                if (element.is_stable == "0") {
                     //不稳定  getBlock
                     self.$czr.request
                         .getBlock(element.blockHash)
                         .then(function(blockInfo) {
-                            console.log("blockInfo-->", blockInfo);
                             return blockInfo;
                         })
                         .then(function(blockInfo) {

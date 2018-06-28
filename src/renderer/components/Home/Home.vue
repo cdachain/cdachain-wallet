@@ -136,7 +136,6 @@ export default {
         this.database = this.$db.get("czr_accounts").value();
         self.initDatabase();
         this.intervalId = setInterval(() => {
-            console.log("Home initDatabase");
             self.initDatabase();
         }, 1500);
     },
@@ -226,7 +225,6 @@ export default {
             self.$czr.request
                 .accountCreate(self.createInfo.pwd)
                 .then(function(data) {
-                    console.log("data:", self.createInfo.pwd, data);
                     self.createInfo.address = data.account;
                     return data.account;
                 })
@@ -250,7 +248,6 @@ export default {
             self.$czr.request
                 .accountExport(accVal)
                 .then(function(data) {
-                    console.log("data", data);
                     return data.json;
                 })
                 .then(function(accJson) {
@@ -317,7 +314,6 @@ export default {
             self.$czr.request
                 .accountImport(self.importInfo.keystore)
                 .then(function(data) {
-                    console.log("accountImport", data);
                     if (data.success == "1") {
                         self.importInfo.address = data.account;
                         return data.account;
@@ -365,7 +361,6 @@ export default {
         },
         removeAccountFn: function() {
             var self = this;
-            console.log(self.removeInfo.address, self.removeInfo.pwd);
             if (!this.removeInfo.pwd) {
                 this.removeInfo.alert = {
                     content: this.$t("page_home.msg_info.enter_password"),
@@ -376,7 +371,6 @@ export default {
             self.$czr.request
                 .accountRemove(self.removeInfo.address, self.removeInfo.pwd)
                 .then(function(data) {
-                    console.log("OK", data);
                     return data;
                 })
                 .then(function(data) {

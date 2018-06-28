@@ -145,7 +145,6 @@ export default {
                 password: ""
             };
             self.intervalId = setInterval(() => {
-                console.log("交易区")
                 self.initDatabase();
             }, 2000);
         }
