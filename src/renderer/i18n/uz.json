@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontaktlar",
         "setting":"Sozlamalar",
-        "total":"Jami"
+        "total":"Jami",
+        "testnet":"Viktorina tarmog'i"
     },
     "page_setting": {
         "tit":"Sozlamalar",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Qaydni o'zgartiring",
             "subtit":"Hisobingiz uchun eslatma belgilang"
+        },
+        "dia_tx":{
+            "tit":"Jurnal haqida ma'lumot",
+            "block_hash":"Jurnal raqami",
+            "status":"Holat",
+            "from":"Yuboruvchi",
+            "to":"Qabul qiluvchisi",
+            "amount":"Miqdori",
+            "data":"Ma'lumotlar",
+            "send_time":"Vaqt yuborilmoqda",
+            "mac_time":"Asosiy tarmoq vaqti"
         },
         "keystore": {
             "tit":"Cüzdan faylini zaxiralash",

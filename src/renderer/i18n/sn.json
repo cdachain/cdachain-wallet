@@ -12,7 +12,8 @@
         "transfer":"Dhinda",
         "contacts":"Vatengi",
         "setting":"Zvirongwa",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Test network"
     },
     "page_setting": {
         "tit":"Zvirongwa",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Shandura nyora",
             "subtit":"Isa chinyorwa cheakaunti yako"
+        },
+        "dia_tx":{
+            "tit":"Transaction information",
+            "block_hash":"Transaction number",
+            "status":"Mamiriro ezvinhu",
+            "from":"Sender",
+            "to":"Receiver",
+            "amount":"Nhamba",
+            "data":"The data",
+            "send_time":"Kutumira nguva",
+            "mac_time":"Main network network"
         },
         "keystore": {
             "tit":"Backup wallet file",

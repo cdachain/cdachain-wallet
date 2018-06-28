@@ -12,7 +12,8 @@
         "transfer":"prijenos",
         "contacts":"kontakt",
         "setting":"postaviti",
-        "total":"ukupno"
+        "total":"ukupno",
+        "testnet":"Provjerite mrežu"
     },
     "page_setting": {
         "tit":"postaviti",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Izmijenite bilješku",
             "subtit":"Označite bilješku za svoj račun"
+        },
+        "dia_tx":{
+            "tit":"Informacije o transakciji",
+            "block_hash":"Broj transakcije",
+            "status":"stanje",
+            "from":"Slanje novca zabavu",
+            "to":"primalac",
+            "amount":"novac",
+            "data":"Podaci",
+            "send_time":"Slanje vremena",
+            "mac_time":"Glavno vrijeme mreže"
         },
         "keystore": {
             "tit":"Sigurnosna kopija datoteke lisnice",

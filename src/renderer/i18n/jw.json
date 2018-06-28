@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontak",
         "setting":"Setelan",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Jaringan uji"
     },
     "page_setting": {
         "tit":"Setelan",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Ngowahi cathetan",
             "subtit":"Tandai cathetan kanggo akun sampeyan"
+        },
+        "dia_tx":{
+            "tit":"Informasi transaksi",
+            "block_hash":"Nomer transaksi",
+            "status":"Status",
+            "from":"Pangirim",
+            "to":"Penerima",
+            "amount":"Jumlah",
+            "data":"Data kasebut",
+            "send_time":"Ngirim wektu",
+            "mac_time":"Wektu jaringan utama"
         },
         "keystore": {
             "tit":"Nggawe file dompet",

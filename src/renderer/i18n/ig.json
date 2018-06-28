@@ -12,7 +12,8 @@
         "transfer":"Nyefee",
         "contacts":"Ndi ana-akpo",
         "setting":"Ntọala",
-        "total":"Ọnụ"
+        "total":"Ọnụ",
+        "testnet":"Ule nyocha"
     },
     "page_setting": {
         "tit":"Ntọala",
@@ -79,6 +80,17 @@
             "tit":"Gbanwee ederede",
             "subtit":"Dee ederede maka akaụntụ gị"
         },
+        "dia_tx":{
+            "tit":"Ozi ahia",
+            "block_hash":"Nọmba ọnụahịa",
+            "status":"Ọnọdụ",
+            "from":"Sender",
+            "to":"Onye natara",
+            "amount":"Ọnụ",
+            "data":"Ihe data",
+            "send_time":"Na-eziga oge",
+            "mac_time":"Oge nhazi oge"
+        },
         "keystore": {
             "tit":"Akpa akpa ego",
             "copy":"Ntughari",
@@ -121,7 +133,7 @@
             "placeholder_pwd":"Biko tinye paswọọdụ maka akaụntụ a"
         },
         "msg_info": {
-            "exist":"Ihe ndekọ a adịlarị, aha ahụ bụ",
+            "exist":"Ihe ndekọ a adịlarị ma aha ahụ bụ",
             "enter_password":"Biko tinye paswọọdụ gị",
             "incons_password":"Okwuntughe abanye ugboro abuo ekwenyeghi",
             "error":"Njehie:",

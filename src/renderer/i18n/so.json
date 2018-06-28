@@ -12,7 +12,8 @@
         "transfer":"Bedelka",
         "contacts":"Xiriirrada",
         "setting":"Goobaha",
-        "total":"Wadarta"
+        "total":"Wadarta",
+        "testnet":"Shabakad tijaabo ah"
     },
     "page_setting": {
         "tit":"Goobaha",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Bedel qoraalka",
             "subtit":"Calaamad ku qor xisaabtaada"
+        },
+        "dia_tx":{
+            "tit":"Macluumaadka macaamilka",
+            "block_hash":"Lambarka macaamilka",
+            "status":"Xaaladda",
+            "from":"Sender",
+            "to":"Bixiyaha",
+            "amount":"Tirada",
+            "data":"Macluumaadka",
+            "send_time":"Waqtiga dirista",
+            "mac_time":"Wakhtiga shabakadda ee ugu weyn"
         },
         "keystore": {
             "tit":"Faylka canshuur celinta",

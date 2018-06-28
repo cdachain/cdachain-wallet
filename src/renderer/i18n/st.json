@@ -12,7 +12,8 @@
         "transfer":"Fetisetsa",
         "contacts":"Mabitso",
         "setting":"Lisebelisoa",
-        "total":"Kakaretso"
+        "total":"Kakaretso",
+        "testnet":"Inthanete ea teko"
     },
     "page_setting": {
         "tit":"Lisebelisoa",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Fetola tsebiso",
             "subtit":"Ngola lengolo bakeng sa akhaonto ea hau"
+        },
+        "dia_tx":{
+            "tit":"Boitsebiso ba transaction",
+            "block_hash":"Nomoro ea transaction",
+            "status":"Boemo",
+            "from":"Romela",
+            "to":"Receiver",
+            "amount":"Chelete",
+            "data":"Dintlha",
+            "send_time":"Ho romella nako",
+            "mac_time":"Nako e kholo ea marang-rang"
         },
         "keystore": {
             "tit":"Boloka file ea sepache",

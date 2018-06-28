@@ -39,31 +39,31 @@
             <div class="transfer-log">
                 <template v-for="item in accountInfo.tx_list">
                     <div v-if="item.to == address">
-                        <div class="transfer-item b-flex b-flex-justify plus-assets">
+                        <div class="transfer-item b-flex b-flex-justify tx-item plus-assets" @click="showTxInfo(item)">
                             <div class="icon-wrap">
                                 <i class="iconfont icon-transfer">&#xe639;</i>
                             </div>
                             <div class="transfer-info">
                                 <p class="by-address">{{item.from}}</p>
-                                <p class="transfer-time">{{item.timestamp |toDate }}</p>
+                                <p class="transfer-time">{{item.exec_timestamp |toDate }}</p>
                             </div>
                             <div class="transfer-assets">
-                                <div class="assets">+ {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                                <div class="assets">+ {{item.amount | toCZRVal }}</div>
                             </div>
                         </div>
                     </div>
 
                     <div v-if="item.from == address">
-                        <div class="transfer-item b-flex b-flex-justify less-assets">
+                        <div class="transfer-item b-flex b-flex-justify tx-item less-assets" @click="showTxInfo(item)">
                             <div class="icon-wrap">
                                 <i class="iconfont icon-transfer">&#xe638;</i>
                             </div>
                             <div class="transfer-info">
                                 <p class="by-address">{{item.to}}</p>
-                                <p class="transfer-time">{{item.timestamp |toDate }}</p>
+                                <p class="transfer-time">{{item.exec_timestamp |toDate }}</p>
                             </div>
                             <div class="transfer-assets">
-                                <div class="assets">- {{item.value | toCZRVal }} {{ $t('unit.czr') }}</div>
+                                <div class="assets">- {{item.amount | toCZRVal }}</div>
                             </div>
                         </div>
                     </div>
@@ -107,6 +107,44 @@
             </div>
         </el-dialog>
 
+        <!-- tx info -->
+        <el-dialog :title="$t('page_account.dia_tx.tit')" :visible.sync="dialogSwitch.txInfo" width="70%">
+            <ul class="dialog-tx-wap">
+                <li class="b-flex b-flex-justify tx-item tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.block_hash')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.blockHash}}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.status')}}</strong>
+                    <span class="tx-item-info">--</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.from')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.from}}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.to')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.to}}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.amount')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.amount| toCZRVal}} {{ $t('unit.czr') }}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.data')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.data}}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.send_time')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.exec_timestamp|toDate}}</span>
+                </li>
+                <li class="b-flex b-flex-justify tx-item">
+                    <strong class="tx-item-des">{{$t('page_account.dia_tx.mac_time')}}</strong>
+                    <span class="tx-item-info">{{transactionInfo.mc_timestamp|toDate}}</span>
+                </li>
+            </ul>
+        </el-dialog>
+
     </div>
 </template>
 
@@ -124,10 +162,13 @@ export default {
             dialogSwitch: {
                 qrCode: false,
                 editName: false,
-                keystore: false
+                keystore: false,
+                txInfo: false
             },
             address: this.$route.params.id,
             accountInfo: null,
+            transactionInfo: null,
+            pollingAry: null,
             qrImgUrl: "",
             editTag: ""
         };
@@ -142,7 +183,9 @@ export default {
             self.qrImgUrl = url;
         });
         self.initDatabase();
+        self.pollingBlock();
         self.initTag();
+        self.initTransactionInfo();
         self.intervalId = setInterval(() => {
             self.initDatabase();
         }, 2000);
@@ -150,21 +193,65 @@ export default {
 
     computed: {},
     methods: {
+        //pollingTx
+        pollingBlock() {
+            var self = this;
+            var txList = this.accountInfo.tx_list;
+            txList.forEach(element => {
+                if (element.is_stable == "0") {
+                    //不稳定  getBlock  
+                    self.$czr.request
+                        .getBlock(element.blockHash)
+                        .then(function(blockInfo) {
+                            return blockInfo;
+                        })
+                        .then(function(blockInfo) {
+                            // receiptData 是返回数据
+                            self.$db
+                                .get("czr_accounts")
+                                .find({
+                                    address: self.address
+                                })
+                                .get("tx_list")
+                                .find({ blockHash: element.blockHash })
+                                .assign(blockInfo)
+                                .write();
+                        });
+                }
+            });
+        },
         //Ini
         initTag: function() {
             this.editTag = this.accountInfo.tag;
         },
+        initTransactionInfo() {
+            this.transactionInfo = {
+                blockHash: "", //哈希值
+                from: "",
+                to: "",
+                amount: "",
+                previous: "",
+                parents: "",
+                witness_list: "",
+                witness_list_block: "",
+                last_summary: "",
+                last_summary_block: "",
+                data: "",
+                exec_timestamp: "",
+                signature: ""
+            };
+        },
         initDatabase() {
             var keystoreFile;
-            if(this.accountInfo){
-                keystoreFile=this.accountInfo.keystore;
+            if (this.accountInfo) {
+                keystoreFile = this.accountInfo.keystore;
             }
             this.accountInfo = this.$db
                 .read()
                 .get("czr_accounts")
                 .filter({ address: this.address })
                 .value()[0];
-            this.accountInfo.keystore=keystoreFile
+            this.accountInfo.keystore = keystoreFile;
         },
 
         //Copy Address
@@ -174,6 +261,12 @@ export default {
                 message: this.$t("page_account.msg_info.ads_copy_success"),
                 type: "success"
             });
+        },
+
+        //SHOW tx info
+        showTxInfo(item) {
+            this.transactionInfo = item;
+            this.dialogSwitch.txInfo = true;
         },
 
         //Show Qrcode
@@ -200,7 +293,6 @@ export default {
             self.$czr.request
                 .accountExport(self.accountInfo.address)
                 .then(function(data) {
-                    console.log("data", data);
                     return data.json;
                 })
                 .then(function(accJson) {
@@ -257,25 +349,27 @@ export default {
             return tempVal; //TODO Keep 4 decimal places
         },
         toDate: function(val) {
+            if (val == "0" || !val) {
+                return "-";
+            }
             let newDate = new Date();
             newDate.setTime(val * 1000);
+            let addZero = function(val) {
+                return val < 10 ? "0" + val : val;
+            };
             return (
-                newDate.getMonth() +
-                1 +
-                "/" +
-                newDate.getDate() +
-                " / " +
                 newDate.getFullYear() +
+                " / " +
+                addZero(newDate.getMonth() + 1) +
+                " / " +
+                addZero(newDate.getDate()) +
                 " " +
-                newDate.getHours() +
+                addZero(newDate.getHours()) +
                 ":" +
-                newDate.getMinutes() +
+                addZero(newDate.getMinutes()) +
                 ":" +
-                newDate.getSeconds()
+                addZero(newDate.getSeconds())
             );
-            // console.log(newDate);
-            // console.log(newDate.getFullYear());
-            // console.log(newDate.getMonth()+1);
         }
     }
 };
@@ -379,7 +473,7 @@ export default {
     -webkit-user-select: none;
 }
 .account-content .transfer-log .transfer-info {
-    width: 300px;
+    width: 480px;
     text-align: left;
 }
 .transfer-log .icon-wrap {
@@ -401,6 +495,11 @@ export default {
     background-color: rgba(255, 153, 0, 0.555);
 }
 .transfer-log .by-address {
+    width: 100%;
+    color: #9a9c9d;
+    table-layout: fixed;
+    word-break: break-all;
+    overflow: hidden;
     color: rgb(54, 54, 54);
 }
 .transfer-log .transfer-time {
@@ -410,7 +509,7 @@ export default {
     font-size: 18px;
     height: 42px;
     line-height: 42px;
-    width: 300px;
+    width: 220px;
     text-align: right;
 }
 .plus-assets .assets {
@@ -433,5 +532,22 @@ export default {
 .edit-name-subtit {
     margin-bottom: 30px;
     text-align: center;
+}
+
+.dialog-tx-wap .tx-item {
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.tx-item-des {
+    width: 160px;
+}
+.tx-item-info {
+    width: 80%;
+    padding-left: 10px;
+    text-align: right;
+    color: #9a9c9d;
+    table-layout: fixed;
+    word-break: break-all;
+    overflow: hidden;
 }
 </style>

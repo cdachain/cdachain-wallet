@@ -12,7 +12,8 @@
         "transfer":"転送",
         "contacts":"連絡先",
         "setting":"設定",
-        "total":"合計"
+        "total":"合計",
+        "testnet":"テストネットワーク"
     },
     "page_setting": {
         "tit":"設定",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"メモを変更する",
             "subtit":"あなたのアカウントのメモをマークする"
+        },
+        "dia_tx":{
+            "tit":"取引情報",
+            "block_hash":"取引番号",
+            "status":"ステータス",
+            "from":"送信者",
+            "to":"受信機",
+            "amount":"金額",
+            "data":"データ",
+            "send_time":"送信時間",
+            "mac_time":"メインネットワーク時間"
         },
         "keystore": {
             "tit":"バックアップ・ウォレット・ファイル",

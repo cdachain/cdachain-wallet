@@ -12,7 +12,8 @@
         "transfer":"Aistriú",
         "contacts":"Teagmhálacha",
         "setting":"Socruithe",
-        "total":"Iomlán"
+        "total":"Iomlán",
+        "testnet":"Líonra tástála"
     },
     "page_setting": {
         "tit":"Socruithe",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Nóta a mhodhnú",
             "subtit":"Nóta a mharcáil le do chuntas"
+        },
+        "dia_tx":{
+            "tit":"Faisnéis idirbhirt",
+            "block_hash":"Uimhir idirbhirt",
+            "status":"Stádas",
+            "from":"Seoltóir",
+            "to":"Glacadóir",
+            "amount":"Méid",
+            "data":"Na sonraí",
+            "send_time":"Am seolta",
+            "mac_time":"Príomh-am líonra"
         },
         "keystore": {
             "tit":"Comhad sparán cúltaca",

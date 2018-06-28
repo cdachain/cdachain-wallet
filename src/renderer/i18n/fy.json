@@ -12,7 +12,8 @@
         "transfer":"Oerstap",
         "contacts":"Kontakten",
         "setting":"Ynstellings",
-        "total":"Totaal"
+        "total":"Totaal",
+        "testnet":"Testnetwurk"
     },
     "page_setting": {
         "tit":"Ynstellings",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Wizigje notysje",
             "subtit":"Markje in nota foar jo akkount"
+        },
+        "dia_tx":{
+            "tit":"Ferkearings ynformaasje",
+            "block_hash":"Transaksje nûmer",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Receiver",
+            "amount":"Beleanne",
+            "data":"De gegevens",
+            "send_time":"Stjoere tiid",
+            "mac_time":"Main netwurk tiid"
         },
         "keystore": {
             "tit":"Backup wallet bestân",

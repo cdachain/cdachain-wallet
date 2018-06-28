@@ -12,7 +12,8 @@
         "transfer":"אַריבערפירן",
         "contacts":"קאָנטאַקטן",
         "setting":"Settings",
-        "total":"גאַנץ"
+        "total":"גאַנץ",
+        "testnet":"פּרובירן נעץ"
     },
     "page_setting": {
         "tit":"Settings",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modify note",
             "subtit":"מארק אַ טאָן פֿאַר דיין חשבון"
+        },
+        "dia_tx":{
+            "tit":"טראַנסאַקטיאָן אינפֿאָרמאַציע",
+            "block_hash":"טראַנסאַקטיאָן נומער",
+            "status":"סטאַטוס",
+            "from":"סענדער",
+            "to":"Receiver",
+            "amount":"Amount",
+            "data":"די דאַטן",
+            "send_time":"שיקט צייט",
+            "mac_time":"הויפּט נעץ צייַט"
         },
         "keystore": {
             "tit":"באַקקופּ בייַטל טעקע",

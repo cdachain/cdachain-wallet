@@ -12,7 +12,8 @@
         "transfer":"transfer",
         "contacts":"temas",
         "setting":"kurmak",
-        "total":"toplam"
+        "total":"toplam",
+        "testnet":"Test ağı"
     },
     "page_setting": {
         "tit":"kurmak",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Notu değiştir",
             "subtit":"Hesabınız için bir notu işaretle"
+        },
+        "dia_tx":{
+            "tit":"İşlem bilgisi",
+            "block_hash":"Işlem numarası",
+            "status":"devlet",
+            "from":"Para parti gönder",
+            "to":"alacaklı",
+            "amount":"para",
+            "data":"Veri",
+            "send_time":"Zaman gönderme",
+            "mac_time":"Ana ağ zamanı"
         },
         "keystore": {
             "tit":"Yedekleme cüzdan dosyası",

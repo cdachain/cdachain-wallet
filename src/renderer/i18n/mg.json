@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Contact",
         "setting":"Manangana",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Tetikasa fitsapana"
     },
     "page_setting": {
         "tit":"Manangana",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Hanova fanamarihana",
             "subtit":"Mariho marika ho an'ny kaontinao"
+        },
+        "dia_tx":{
+            "tit":"Fampahalalana momba ny trosa",
+            "block_hash":"Tranonkala fifaneraserana",
+            "status":"State",
+            "from":"Alefaso antoko-bola",
+            "to":"Payee",
+            "amount":"Money",
+            "data":"Ny angona",
+            "send_time":"Mandefa fotoana",
+            "mac_time":"Ny tambajotra lehibe indrindra"
         },
         "keystore": {
             "tit":"Kitapo backup backup",

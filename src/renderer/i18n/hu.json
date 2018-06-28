@@ -12,7 +12,8 @@
         "transfer":"átutalás",
         "contacts":"érintkezés",
         "setting":"beállítása",
-        "total":"teljes"
+        "total":"teljes",
+        "testnet":"Teszt hálózat"
     },
     "page_setting": {
         "tit":"beállítása",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Jegyzet módosítása",
             "subtit":"Jelöljön meg egy jegyzetet fiókjához"
+        },
+        "dia_tx":{
+            "tit":"Tranzakciós információk",
+            "block_hash":"Tranzakció száma",
+            "status":"állami",
+            "from":"Küldjön pénzt party",
+            "to":"kedvezményezett",
+            "amount":"pénz",
+            "data":"Az adatok",
+            "send_time":"Küldési idő",
+            "mac_time":"Fő hálózati idő"
         },
         "keystore": {
             "tit":"Biztonsági másolat fájl",

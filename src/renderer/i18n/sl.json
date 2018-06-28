@@ -12,7 +12,8 @@
         "transfer":"Prenos",
         "contacts":"Stiki",
         "setting":"Nastavitve",
-        "total":"Skupaj"
+        "total":"Skupaj",
+        "testnet":"Preskusno omrežje"
     },
     "page_setting": {
         "tit":"Nastavitve",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Spremeni beležko",
             "subtit":"Označite opombo za svoj račun"
+        },
+        "dia_tx":{
+            "tit":"Podatki o transakcijah",
+            "block_hash":"Številka transakcije",
+            "status":"Stanje",
+            "from":"Pošiljatelj",
+            "to":"Sprejemnik",
+            "amount":"Znesek",
+            "data":"Podatki",
+            "send_time":"Pošiljanje časa",
+            "mac_time":"Glavni čas omrežja"
         },
         "keystore": {
             "tit":"Datoteka varnostne kopije",

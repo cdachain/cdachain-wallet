@@ -12,7 +12,8 @@
         "transfer":"Flytja",
         "contacts":"Tengiliðir",
         "setting":"Stillingar",
-        "total":"Samtals"
+        "total":"Samtals",
+        "testnet":"Prófunarnet"
     },
     "page_setting": {
         "tit":"Stillingar",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Breyta athugasemd",
             "subtit":"Merktu athugasemd fyrir reikninginn þinn"
+        },
+        "dia_tx":{
+            "tit":"Upplýsingar um viðskipti",
+            "block_hash":"Viðskiptarnúmer",
+            "status":"Staða",
+            "from":"Sendandi",
+            "to":"Móttakari",
+            "amount":"Upphæð",
+            "data":"Gögnin",
+            "send_time":"Sendingartími",
+            "mac_time":"Aðal net tími"
         },
         "keystore": {
             "tit":"Veggfóður fyrir öryggisafrit",

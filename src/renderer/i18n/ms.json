@@ -12,7 +12,8 @@
         "transfer":"Pemindahan",
         "contacts":"Kenalan",
         "setting":"Tetapan",
-        "total":"Jumlah"
+        "total":"Jumlah",
+        "testnet":"Rangkaian ujian"
     },
     "page_setting": {
         "tit":"Tetapan",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Ubah nota",
             "subtit":"Tandakan nota untuk akaun anda"
+        },
+        "dia_tx":{
+            "tit":"Maklumat urus niaga",
+            "block_hash":"Nombor urus niaga",
+            "status":"Status",
+            "from":"Pengirim",
+            "to":"Penerima",
+            "amount":"Jumlah",
+            "data":"Data",
+            "send_time":"Menghantar masa",
+            "mac_time":"Masa rangkaian utama"
         },
         "keystore": {
             "tit":"Fail dompet sandaran",

@@ -79,6 +79,17 @@
             "tit":"Modificar nota",
             "subtit":"Marque una nota para su cuenta"
         },
+        "dia_tx":{
+            "tit":"Información de transacción",
+            "block_hash":"Número de transacción",
+            "status":"Estado",
+            "from":"Remitente",
+            "to":"Receptor",
+            "amount":"Monto",
+            "data":"Los datos",
+            "send_time":"Tiempo de envío",
+            "mac_time":"Hora de la red principal"
+        },
         "keystore": {
             "tit":"Archivo de la carpeta de respaldo",
             "copy":"Duplicado",

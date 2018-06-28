@@ -12,7 +12,8 @@
         "transfer":"ዝውውር",
         "contacts":"እውቂያዎች",
         "setting":"ቅንብሮች",
-        "total":"ጠቅላላ"
+        "total":"ጠቅላላ",
+        "testnet":"አውታረ መረብ ይሞክሩ"
     },
     "page_setting": {
         "tit":"ቅንብሮች",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"ማስታወሻን ያሻሽሉ",
             "subtit":"ለመለያዎ ማስታወሻ ያመልክቱ"
+        },
+        "dia_tx":{
+            "tit":"የግብይት መረጃ",
+            "block_hash":"የግብይት ቁጥር",
+            "status":"ሁኔታ",
+            "from":"የላኪ",
+            "to":"ተቀባይ",
+            "amount":"መጠን",
+            "data":"ውሂቡ",
+            "send_time":"ጊዜ በመላክ ላይ",
+            "mac_time":"ዋናው የአውታረ መረብ ጊዜ"
         },
         "keystore": {
             "tit":"ምትኬ የፓስፖርት ፋይል",

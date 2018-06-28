@@ -12,7 +12,8 @@
         "transfer":"Whakawhiti",
         "contacts":"Ngā Hoapā",
         "setting":"Tautuhinga",
-        "total":"Te tapeke"
+        "total":"Te tapeke",
+        "testnet":"He whatunga whakamatautau"
     },
     "page_setting": {
         "tit":"Tautuhinga",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Whakakēhia te tuhinga",
             "subtit":"Tuhia he tuhi mo to korero"
+        },
+        "dia_tx":{
+            "tit":"Mōhiohio mahi",
+            "block_hash":"Tau nama",
+            "status":"Tūnga",
+            "from":"Kaituku",
+            "to":"Kaiwhiwhi",
+            "amount":"Te nui",
+            "data":"Ko te raraunga",
+            "send_time":"Tukuna te wa",
+            "mac_time":"Te waitohu matua"
         },
         "keystore": {
             "tit":"Kōnae putea putea",

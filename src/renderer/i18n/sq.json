@@ -12,7 +12,8 @@
         "transfer":"transferim",
         "contacts":"kontakt",
         "setting":"ngritur",
-        "total":"total"
+        "total":"total",
+        "testnet":"Rrjeti i testimit"
     },
     "page_setting": {
         "tit":"ngritur",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifiko shënimin",
             "subtit":"Shënoni një shënim për llogarinë tuaj"
+        },
+        "dia_tx":{
+            "tit":"Informacion mbi transaksionet",
+            "block_hash":"Numri i transaksionit",
+            "status":"shtet",
+            "from":"Dërgo parti parave",
+            "to":"i paguari",
+            "amount":"para",
+            "data":"Të dhënat",
+            "send_time":"Dërgimi i kohës",
+            "mac_time":"Koha e rrjetit kryesor"
         },
         "keystore": {
             "tit":"Dosja e portofolit të kopjimit",

@@ -12,7 +12,8 @@
         "transfer":"Trasferiment",
         "contacts":"Kuntatti",
         "setting":"Settings",
-        "total":"Totali"
+        "total":"Totali",
+        "testnet":"Netwerk tat-test"
     },
     "page_setting": {
         "tit":"Settings",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Tibdel in-nota",
             "subtit":"Immarka nota għall-kont tiegħek"
+        },
+        "dia_tx":{
+            "tit":"Informazzjoni dwar it-tranżazzjonijiet",
+            "block_hash":"In-numru tat-tranżazzjoni",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Riċevitur",
+            "amount":"Ammont",
+            "data":"Id-data",
+            "send_time":"Ħin li jintbagħat",
+            "mac_time":"Żmien ewlieni tan-netwerk"
         },
         "keystore": {
             "tit":"Fajl ta 'portafoll ta' riżerva",

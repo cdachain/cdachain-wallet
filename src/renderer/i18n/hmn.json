@@ -12,7 +12,8 @@
         "transfer":"Hloov mus",
         "contacts":"Hu rau",
         "setting":"Chaw",
-        "total":"Tag nrho"
+        "total":"Tag nrho",
+        "testnet":"Kuaj kev sib tw"
     },
     "page_setting": {
         "tit":"Chaw",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Hloov ntawv",
             "subtit":"Kos cim rau koj tus account"
+        },
+        "dia_tx":{
+            "tit":"Cov ntaub ntawv xov xwm",
+            "block_hash":"Tus xov tooj lw",
+            "status":"Raws li txoj cai",
+            "from":"Xa ntawv",
+            "to":"Txais neeg",
+            "amount":"Tus nqi",
+            "data":"Cov ntaub ntawv",
+            "send_time":"Xa sij hawm",
+            "mac_time":"Lub sij hawm hauv paus loj"
         },
         "keystore": {
             "tit":"Cov hnab ntawv thaub qab",

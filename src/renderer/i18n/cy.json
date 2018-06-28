@@ -12,7 +12,8 @@
         "transfer":"Trosglwyddo",
         "contacts":"Cysylltiadau",
         "setting":"Gosodiadau",
-        "total":"Cyfanswm"
+        "total":"Cyfanswm",
+        "testnet":"Rhwydwaith profi"
     },
     "page_setting": {
         "tit":"Gosodiadau",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Addasu nodyn",
             "subtit":"Nodwch nodyn ar gyfer eich cyfrif"
+        },
+        "dia_tx":{
+            "tit":"Gwybodaeth am drafodion",
+            "block_hash":"Rhif trafodion",
+            "status":"Statws",
+            "from":"Anfonwr",
+            "to":"Derbynnydd",
+            "amount":"Swm",
+            "data":"Y data",
+            "send_time":"Anfon amser",
+            "mac_time":"Prif amser y rhwydwaith"
         },
         "keystore": {
             "tit":"Ffeil waled wrth gefn",

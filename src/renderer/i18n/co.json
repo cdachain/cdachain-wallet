@@ -12,7 +12,8 @@
         "transfer":"Trasferimentu",
         "contacts":"Cuntatti",
         "setting":"Settings",
-        "total":"Tuttu"
+        "total":"Tuttu",
+        "testnet":"Test Network"
     },
     "page_setting": {
         "tit":"Settings",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifiche nota",
             "subtit":"Marcate una nota per u vostru contu"
+        },
+        "dia_tx":{
+            "tit":"Informazioni transaccione",
+            "block_hash":"Unità di transaccione",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Receiver",
+            "amount":"Amount",
+            "data":"I dati",
+            "send_time":"Mandatu à tempu",
+            "mac_time":"Tempu di a retazione principali"
         },
         "keystore": {
             "tit":"Backup wallet file",

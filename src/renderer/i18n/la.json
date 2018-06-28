@@ -12,7 +12,8 @@
         "transfer":"De translatione",
         "contacts":"Contact",
         "setting":"eriges",
-        "total":"summa"
+        "total":"summa",
+        "testnet":"test Network"
     },
     "page_setting": {
         "tit":"eriges",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Nota Edit",
             "subtit":"Nam designat quiddam ob gratiam tui"
+        },
+        "dia_tx":{
+            "tit":"Trading Information",
+            "block_hash":"transaction numerus",
+            "status":"rei publicae",
+            "from":"Mitte argentum pars",
+            "to":"payee",
+            "amount":"pecunia",
+            "data":"Data",
+            "send_time":"mitte Tempus",
+            "mac_time":"Principalis tempus network"
         },
         "keystore": {
             "tit":"Vidulum tergum lima",

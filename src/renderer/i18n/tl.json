@@ -12,7 +12,8 @@
         "transfer":"Maglipat",
         "contacts":"Mga contact",
         "setting":"Mga Setting",
-        "total":"Kabuuang"
+        "total":"Kabuuang",
+        "testnet":"Test network"
     },
     "page_setting": {
         "tit":"Mga Setting",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Baguhin ang tala",
             "subtit":"Markahan ang isang tala para sa iyong account"
+        },
+        "dia_tx":{
+            "tit":"Impormasyon sa transaksyon",
+            "block_hash":"Numero ng transaksyon",
+            "status":"Katayuan",
+            "from":"Nagpadala",
+            "to":"Tatanggap",
+            "amount":"Halaga",
+            "data":"Ang data",
+            "send_time":"Nagpapadala ng oras",
+            "mac_time":"Pangunahing oras ng network"
         },
         "keystore": {
             "tit":"Backup wallet file",

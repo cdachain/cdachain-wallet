@@ -12,7 +12,8 @@
         "transfer":"Overførsel",
         "contacts":"Kontakt",
         "setting":"Opsæt",
-        "total":"I alt"
+        "total":"I alt",
+        "testnet":"Test netværk"
     },
     "page_setting": {
         "tit":"Opsæt",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Rediger note",
             "subtit":"Marker en note til din konto"
+        },
+        "dia_tx":{
+            "tit":"Transaktionsoplysninger",
+            "block_hash":"Transaktionsnummer",
+            "status":"stat",
+            "from":"Send penge fest",
+            "to":"betalingsmodtager",
+            "amount":"penge",
+            "data":"Dataene",
+            "send_time":"Afsendelsestidspunkt",
+            "mac_time":"Hovednetværkstid"
         },
         "keystore": {
             "tit":"Backup wallet-fil",

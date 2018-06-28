@@ -12,7 +12,8 @@
         "transfer":"overdracht",
         "contacts":"contact",
         "setting":"oprichten",
-        "total":"totaal"
+        "total":"totaal",
+        "testnet":"Test het netwerk"
     },
     "page_setting": {
         "tit":"oprichten",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Wijzig opmerking",
             "subtit":"Markeer een notitie voor uw account"
+        },
+        "dia_tx":{
+            "tit":"Transactie informatie",
+            "block_hash":"Transactienummer",
+            "status":"staat",
+            "from":"Stuur geld partij",
+            "to":"begunstigde",
+            "amount":"geld",
+            "data":"De gegevens",
+            "send_time":"Het verzenden van tijd",
+            "mac_time":"Belangrijkste netwerk tijd"
         },
         "keystore": {
             "tit":"Back-upportefeuillebestand",

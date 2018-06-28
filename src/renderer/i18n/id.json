@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontak",
         "setting":"Pengaturan",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Uji jaringan"
     },
     "page_setting": {
         "tit":"Pengaturan",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Ubah catatan",
             "subtit":"Tandai catatan untuk akun Anda"
+        },
+        "dia_tx":{
+            "tit":"Informasi transaksi",
+            "block_hash":"Nomor transaksi",
+            "status":"Status",
+            "from":"Pengirim",
+            "to":"Penerima",
+            "amount":"Jumlah",
+            "data":"Datanya",
+            "send_time":"Waktu pengiriman",
+            "mac_time":"Waktu jaringan utama"
         },
         "keystore": {
             "tit":"Cadangkan file dompet",

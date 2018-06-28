@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontakti",
         "setting":"Postavke",
-        "total":"Ukupno"
+        "total":"Ukupno",
+        "testnet":"Test mreža"
     },
     "page_setting": {
         "tit":"Postavke",
@@ -79,6 +80,17 @@
             "tit":"Izmenite belešku",
             "subtit":"Označite napomenu za svoj račun"
         },
+        "dia_tx":{
+            "tit":"Informacije o transakciji",
+            "block_hash":"Broj transakcije",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Prijemnik",
+            "amount":"Iznos",
+            "data":"Podaci",
+            "send_time":"Vrijeme slanja",
+            "mac_time":"Glavno vreme mreže"
+        },
         "keystore": {
             "tit":"Datoteka za kopiranje novčanika",
             "copy":"Duplikat",
@@ -121,7 +133,7 @@
             "placeholder_pwd":"Unesite lozinku za ovaj nalog"
         },
         "msg_info": {
-            "exist":"Ovaj nalog već postoji i ime je",
+            "exist":"Ovaj nalog već postoji, ime je",
             "enter_password":"Unesite svoju lozinku",
             "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
             "error":"Greška:",

@@ -134,9 +134,10 @@ export default {
     created() {
         self = this;
         this.database = this.$db.get("czr_accounts").value();
+        self.initDatabase();
         this.intervalId = setInterval(() => {
             self.initDatabase();
-        }, 2000);
+        }, 1500);
     },
     computed: {},
     methods: {

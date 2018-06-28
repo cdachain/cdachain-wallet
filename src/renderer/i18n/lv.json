@@ -12,7 +12,8 @@
         "transfer":"Pārsūtīšana",
         "contacts":"Kontakti",
         "setting":"Iestatījumi",
-        "total":"Kopā"
+        "total":"Kopā",
+        "testnet":"Pārbaudes tīkls"
     },
     "page_setting": {
         "tit":"Iestatījumi",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Mainīt piezīmi",
             "subtit":"Atzīmējiet piezīmi savam kontam"
+        },
+        "dia_tx":{
+            "tit":"Darījuma informācija",
+            "block_hash":"Darījuma numurs",
+            "status":"Statuss",
+            "from":"Sūtītājs",
+            "to":"Uztvērējs",
+            "amount":"Summa",
+            "data":"Dati",
+            "send_time":"Nosūtīšanas laiks",
+            "mac_time":"Galvenā tīkla laiks"
         },
         "keystore": {
             "tit":"Rezerves seifa fails",

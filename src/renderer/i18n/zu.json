@@ -12,7 +12,8 @@
         "transfer":"Kudluliselwa",
         "contacts":"Oxhumana nabo",
         "setting":"Izilungiselelo",
-        "total":"Inani"
+        "total":"Inani",
+        "testnet":"Inethiwekhi yokuhlola"
     },
     "page_setting": {
         "tit":"Izilungiselelo",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Shintsha inothi",
             "subtit":"Maka inothi ye-akhawunti yakho"
+        },
+        "dia_tx":{
+            "tit":"Ulwazi lokuthengiselana",
+            "block_hash":"Inombolo yokuthengiselana",
+            "status":"Isimo",
+            "from":"Sender",
+            "to":"Umamukeli",
+            "amount":"Inani",
+            "data":"Idatha",
+            "send_time":"Ithumela isikhathi",
+            "mac_time":"Isikhathi esikhulu senethiwekhi"
         },
         "keystore": {
             "tit":"Ifayela lesipele lesipele",

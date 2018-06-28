@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontakter",
         "setting":"Astellungen",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Testnetz"
     },
     "page_setting": {
         "tit":"Astellungen",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Änneren",
             "subtit":"Mark eng Notiz fir Äre Kont"
+        },
+        "dia_tx":{
+            "tit":"Transaktiounsinformatioun",
+            "block_hash":"Transaktiounsnummer",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Receiver",
+            "amount":"Betrag",
+            "data":"D 'Daten",
+            "send_time":"Sending time",
+            "mac_time":"Haaptnetz Zäit"
         },
         "keystore": {
             "tit":"Backup - Portemonnaie",

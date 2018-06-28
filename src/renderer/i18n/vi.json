@@ -12,7 +12,8 @@
         "transfer":"Chuyển khoản",
         "contacts":"Danh bạ",
         "setting":"Cài đặt",
-        "total":"Tổng số"
+        "total":"Tổng số",
+        "testnet":"Mạng kiểm tra"
     },
     "page_setting": {
         "tit":"Cài đặt",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Sửa đổi ghi chú",
             "subtit":"Đánh dấu ghi chú cho tài khoản của bạn"
+        },
+        "dia_tx":{
+            "tit":"Thông tin giao dịch",
+            "block_hash":"Số giao dịch",
+            "status":"Tình trạng",
+            "from":"Người gửi",
+            "to":"Người nhận",
+            "amount":"Số tiền",
+            "data":"Dữ liệu",
+            "send_time":"Gửi thời gian",
+            "mac_time":"Thời gian mạng chính"
         },
         "keystore": {
             "tit":"Tệp ví tiền dự phòng",

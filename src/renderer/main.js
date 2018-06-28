@@ -84,23 +84,28 @@ function getAccounts() {
             //先把本地数据库存在，但是 data 里不存在的账户 删除
             var database = db.get("czr_accounts").value();
             var databaseAry = [];
-            database.forEach((localAcc) => {
+            var localAcc;
+            for(var i=0;i<database.length;i++){
+                localAcc = database[i]
                 if (data.indexOf(localAcc.address) < 0) {
-                    //不存在
+                    //不存在 
                     db.get("czr_accounts")
                         .remove({ address: localAcc.address })
                         .write();
+                    i --;
                 } else {
                     databaseAry.push(localAcc.address)
                 }
-            });
+            }
+
+
             var flagLeng = databaseAry.length;
             data.forEach((reqAry, index) => {
                 if (databaseAry.indexOf(reqAry) < 0) {
-                    //数据库不存在 
+                    //数据库不存 在 
                     let params = {
                         address: reqAry,
-                        tag: '账号' + (++flagLeng),
+                        tag: '账号-' + (++flagLeng),
                         tx_list: [],
                         balance: 0
                     };
@@ -115,9 +120,10 @@ function getAccounts() {
         });
 }
 
+getAccounts();
 var timer = setInterval(function () {
     getAccounts();
-}, 2000)
+}, 5000)
 
 //account list End
 

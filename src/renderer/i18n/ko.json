@@ -12,7 +12,8 @@
         "transfer":"전송",
         "contacts":"연락처",
         "setting":"설정",
-        "total":"합계"
+        "total":"합계",
+        "testnet":"네트워크 테스트"
     },
     "page_setting": {
         "tit":"설정",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"메모 수정",
             "subtit":"내 계정에 메모 쓰기"
+        },
+        "dia_tx":{
+            "tit":"거래 정보",
+            "block_hash":"거래 번호",
+            "status":"상태",
+            "from":"보낸 사람",
+            "to":"수신기",
+            "amount":"금액",
+            "data":"데이터",
+            "send_time":"보내는 시간",
+            "mac_time":"주요 네트워크 시간"
         },
         "keystore": {
             "tit":"백업 지갑 파일",

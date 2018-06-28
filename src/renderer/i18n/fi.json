@@ -12,7 +12,8 @@
         "transfer":"siirto",
         "contacts":"kosketus",
         "setting":"perustettu",
-        "total":"kokonais-"
+        "total":"kokonais-",
+        "testnet":"Testausverkko"
     },
     "page_setting": {
         "tit":"perustettu",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Muokkaa huomautusta",
             "subtit":"Merkitse tiliisi merkintä"
+        },
+        "dia_tx":{
+            "tit":"Tapahtumatiedot",
+            "block_hash":"Tapahtumien numero",
+            "status":"tila",
+            "from":"Lähetä rahaa puolue",
+            "to":"saaja",
+            "amount":"raha",
+            "data":"Tiedot",
+            "send_time":"Lähetys aika",
+            "mac_time":"Pää verkkoaika"
         },
         "keystore": {
             "tit":"Backup lompakon tiedosto",

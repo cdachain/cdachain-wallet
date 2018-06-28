@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Contacts",
         "setting":"Settings",
-        "total":"total"
+        "total":"total",
+        "testnet":"Test network"
     },
     "page_setting": {
         "tit":"Settings",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modify note",
             "subtit":"Mark a note for your account"
+        },
+        "dia_tx":{
+            "tit":"Trading Information",
+            "block_hash":"Transaction number",
+            "status":"status",
+            "from":"Sender",
+            "to":"Beneficiary",
+            "amount":"Amount",
+            "data":"data",
+            "send_time":"Sending time",
+            "mac_time":"Main network time"
         },
         "keystore": {
             "tit":"Backup wallet file",

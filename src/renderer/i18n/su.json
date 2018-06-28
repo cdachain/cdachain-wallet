@@ -12,7 +12,8 @@
         "transfer":"mindahkeun",
         "contacts":"hubungan",
         "setting":"nyetél",
-        "total":"total"
+        "total":"total",
+        "testnet":"test Network"
     },
     "page_setting": {
         "tit":"nyetél",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Edit Catetan",
             "subtit":"Pikeun akun Anjeun nandaan nyarios a"
+        },
+        "dia_tx":{
+            "tit":"Émbaran dagang",
+            "block_hash":"jumlah urus",
+            "status":"kaayaan",
+            "from":"Kirim surélék pihak duit",
+            "to":"Payee",
+            "amount":"duit",
+            "data":"data",
+            "send_time":"Kirim surélék Time",
+            "mac_time":"waktos jaringan utama"
         },
         "keystore": {
             "tit":"file dompét cadangan",

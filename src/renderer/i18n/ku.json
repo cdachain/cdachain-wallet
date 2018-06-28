@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Têkilî",
         "setting":"Mîhengên",
-        "total":"Tevahî"
+        "total":"Tevahî",
+        "testnet":"Torê testê"
     },
     "page_setting": {
         "tit":"Mîhengên",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Şirovekirin",
             "subtit":"Ji bo hesabê we re gotarek binivîse"
+        },
+        "dia_tx":{
+            "tit":"Agahdariya danûstendinê",
+            "block_hash":"Hejmara Transaction",
+            "status":"Status",
+            "from":"Sender",
+            "to":"Receiver",
+            "amount":"Amount",
+            "data":"Daneyên",
+            "send_time":"Wext şandin",
+            "mac_time":"Demjimara sereke"
         },
         "keystore": {
             "tit":"Pelê wallet",

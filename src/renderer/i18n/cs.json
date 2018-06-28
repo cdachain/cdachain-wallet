@@ -12,7 +12,8 @@
         "transfer":"Přenos",
         "contacts":"Kontakty",
         "setting":"Nastavení",
-        "total":"Celkem"
+        "total":"Celkem",
+        "testnet":"Testovací síť"
     },
     "page_setting": {
         "tit":"Nastavení",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Upravit poznámku",
             "subtit":"Označte poznámku k účtu"
+        },
+        "dia_tx":{
+            "tit":"Informace o transakcích",
+            "block_hash":"Číslo transakce",
+            "status":"Stav",
+            "from":"Odesílatel",
+            "to":"Přijímač",
+            "amount":"Částka",
+            "data":"Data",
+            "send_time":"Odeslání času",
+            "mac_time":"Hlavní čas sítě"
         },
         "keystore": {
             "tit":"Záložní soubor peněženky",

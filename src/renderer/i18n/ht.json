@@ -12,7 +12,8 @@
         "transfer":"Transfè",
         "contacts":"Kontak",
         "setting":"Anviwònman",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Rezo tès"
     },
     "page_setting": {
         "tit":"Anviwònman",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifye nòt",
             "subtit":"Make yon nòt pou kont ou"
+        },
+        "dia_tx":{
+            "tit":"Enfòmasyon tranzaksyon",
+            "block_hash":"Nimewo Tranzaksyon",
+            "status":"Ki dènye nouvèl",
+            "from":"Sender",
+            "to":"Reseptè",
+            "amount":"Kantite lajan",
+            "data":"Done yo",
+            "send_time":"Voye tan",
+            "mac_time":"Tan rezo prensipal la"
         },
         "keystore": {
             "tit":"Fichye dosye bous",

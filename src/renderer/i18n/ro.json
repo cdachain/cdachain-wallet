@@ -12,7 +12,8 @@
         "transfer":"transfer",
         "contacts":"contact",
         "setting":"Configurarea",
-        "total":"total"
+        "total":"total",
+        "testnet":"Rețeaua de testare"
     },
     "page_setting": {
         "tit":"Configurarea",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modificați nota",
             "subtit":"Marcați o notă pentru contul dvs."
+        },
+        "dia_tx":{
+            "tit":"Informații despre tranzacții",
+            "block_hash":"Numărul de tranzacție",
+            "status":"stat",
+            "from":"Trimite parte bani",
+            "to":"Payee",
+            "amount":"bani",
+            "data":"Datele",
+            "send_time":"Trimiterea timpului",
+            "mac_time":"Durata principală a rețelei"
         },
         "keystore": {
             "tit":"Fișierul portofelului de rezervă",

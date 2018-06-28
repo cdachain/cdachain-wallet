@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Əlaqə",
         "setting":"Ayarlar",
-        "total":"Ümumi"
+        "total":"Ümumi",
+        "testnet":"Test şəbəkəsi"
     },
     "page_setting": {
         "tit":"Ayarlar",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Notu dəyişdirin",
             "subtit":"Hesabınız üçün qeyd yaz"
+        },
+        "dia_tx":{
+            "tit":"Əməliyyat məlumatları",
+            "block_hash":"Əməliyyat nömrəsi",
+            "status":"Status",
+            "from":"Göndərən",
+            "to":"Alıcı",
+            "amount":"Məbləğ",
+            "data":"Məlumatlar",
+            "send_time":"Vaxt göndərmə",
+            "mac_time":"Əsas şəbəkə saatı"
         },
         "keystore": {
             "tit":"Backup cüzdan fayl",

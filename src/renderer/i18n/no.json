@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontakt",
         "setting":"Sett opp",
-        "total":"total"
+        "total":"total",
+        "testnet":"Testnettverk"
     },
     "page_setting": {
         "tit":"Sett opp",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Endre notat",
             "subtit":"Merk et notat for kontoen din"
+        },
+        "dia_tx":{
+            "tit":"Transaksjonsinformasjon",
+            "block_hash":"Transaksjonsnummer",
+            "status":"stat",
+            "from":"Send penger fest",
+            "to":"betalingsmottaker",
+            "amount":"penger",
+            "data":"Dataene",
+            "send_time":"Sende tid",
+            "mac_time":"Hovednettverkstid"
         },
         "keystore": {
             "tit":"Sikkerhetskopi lommebokfil",

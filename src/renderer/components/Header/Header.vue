@@ -7,8 +7,7 @@
           <li><router-link to="/setting">{{ $t('model_header.setting') }}</router-link></li>
       </ul>
       <div class="has-assets-czr">
-          {{ $t('model_header.total') }}
-          {{ $t('unit.czr') }}
+          <span class="testnet">{{ $t('model_header.testnet') }}</span>
       </div>
   </header>
 </template>
@@ -44,10 +43,12 @@ export default {
   text-align: left;
 }
 .has-assets-czr {
-  display: none;
   width: 30%;
   text-align: right;
   font-size: 16px;
+}
+.has-assets-czr  .testnet{
+  color: #909399;
 }
 .header-nav > li {
   display: inline-block;

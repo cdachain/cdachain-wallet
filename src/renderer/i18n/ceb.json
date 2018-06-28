@@ -12,7 +12,8 @@
         "transfer":"Pagbalhin",
         "contacts":"Mga kontak",
         "setting":"Mga Setting",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Pagsulay sa network"
     },
     "page_setting": {
         "tit":"Mga Setting",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Usba ang mubo nga sulat",
             "subtit":"Markahi ang usa ka mubo nga sulat alang sa imong account"
+        },
+        "dia_tx":{
+            "tit":"Impormasyon sa transaksyon",
+            "block_hash":"Numero sa transaksiyon",
+            "status":"Status",
+            "from":"Pagpadala",
+            "to":"Tigdawat",
+            "amount":"Amgo",
+            "data":"Ang datos",
+            "send_time":"Pagpadala panahon",
+            "mac_time":"Main nga oras sa network"
         },
         "keystore": {
             "tit":"I-backup ang wallet file",

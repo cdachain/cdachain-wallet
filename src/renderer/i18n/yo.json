@@ -12,7 +12,8 @@
         "transfer":"Gbigbe lọ",
         "contacts":"Awọn olubasọrọ",
         "setting":"Eto",
-        "total":"Lapapọ"
+        "total":"Lapapọ",
+        "testnet":"Nẹtiwọki idanwo"
     },
     "page_setting": {
         "tit":"Eto",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Ṣe akọsilẹ atunṣe",
             "subtit":"Ṣe akọsilẹ akọsilẹ kan fun akọọlẹ rẹ"
+        },
+        "dia_tx":{
+            "tit":"Alaye iṣowo",
+            "block_hash":"Nọmba iṣiro",
+            "status":"Ipo",
+            "from":"Oluṣẹ",
+            "to":"Gbigba",
+            "amount":"Iye",
+            "data":"Awọn data",
+            "send_time":"Fifiranṣẹ akoko",
+            "mac_time":"Aago nẹtiwọki akọkọ"
         },
         "keystore": {
             "tit":"Iwe apamọwọ apamọwọ",

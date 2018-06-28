@@ -12,7 +12,8 @@
         "transfer":"Fesuiaiga",
         "contacts":"Fesoʻotaʻiga",
         "setting":"Faʻasologa",
-        "total":"Aofaʻi"
+        "total":"Aofaʻi",
+        "testnet":"Tofiga o suʻega"
     },
     "page_setting": {
         "tit":"Faʻasologa",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Suia le tusi",
             "subtit":"Faailoga se tusi mo lau teugatupe"
+        },
+        "dia_tx":{
+            "tit":"Faamatalaga o galuega",
+            "block_hash":"Numera o galuega",
+            "status":"Tulaga",
+            "from":"Tagata e auina atu",
+            "to":"Taliaina",
+            "amount":"Aofaʻi",
+            "data":"O faʻamatalaga",
+            "send_time":"Tuuina atu taimi",
+            "mac_time":"Taimi autu fesoʻotaiga"
         },
         "keystore": {
             "tit":"Lautusi faila tuatusi",

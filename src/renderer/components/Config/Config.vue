@@ -190,7 +190,7 @@ export default {
                     "download",
                     this.node_info.binaryVersion.bin
                 ),
-                ["--daemon"]
+                ["--daemon  --rpc_enable --rpc_enable_control"]
             );
             this.conMsg = "CanonChain 已经启动 ";
             this.$router.push({ path: "home" });

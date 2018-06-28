@@ -12,7 +12,8 @@
         "transfer":"Üleandmine",
         "contacts":"Kontaktid",
         "setting":"Seaded",
-        "total":"Kokku"
+        "total":"Kokku",
+        "testnet":"Testvõrk"
     },
     "page_setting": {
         "tit":"Seaded",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Muuda märkmeid",
             "subtit":"Märkige märkus oma konto jaoks"
+        },
+        "dia_tx":{
+            "tit":"Tehingu teave",
+            "block_hash":"Tehingu number",
+            "status":"Olek",
+            "from":"Saatja",
+            "to":"Vastuvõtja",
+            "amount":"Summa",
+            "data":"Andmed",
+            "send_time":"Saatmise aeg",
+            "mac_time":"Põhivõrgu aeg"
         },
         "keystore": {
             "tit":"Backup rahakoti fail",

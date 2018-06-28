@@ -12,7 +12,8 @@
         "transfer":"trasferimento",
         "contacts":"contatto",
         "setting":"impostare",
-        "total":"totale"
+        "total":"totale",
+        "testnet":"Testare la rete"
     },
     "page_setting": {
         "tit":"impostare",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifica nota",
             "subtit":"Contrassegna una nota per il tuo account"
+        },
+        "dia_tx":{
+            "tit":"Informazioni sulla transazione",
+            "block_hash":"Numero di transazione",
+            "status":"stato",
+            "from":"Invia partito denaro",
+            "to":"beneficiario",
+            "amount":"soldi",
+            "data":"I dati",
+            "send_time":"Invio del tempo",
+            "mac_time":"Tempo di rete principale"
         },
         "keystore": {
             "tit":"File di portafoglio di backup",

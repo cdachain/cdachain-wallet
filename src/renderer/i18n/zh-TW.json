@@ -12,7 +12,8 @@
         "transfer":"轉賬",
         "contacts":"聯繫人",
         "setting":"設置",
-        "total":"合計"
+        "total":"合計",
+        "testnet":"測試網絡"
     },
     "page_setting": {
         "tit":"設置",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"修改備註",
             "subtit":"為您的賬戶標記一個備註"
+        },
+        "dia_tx":{
+            "tit":"交易信息",
+            "block_hash":"交易號",
+            "status":"狀態",
+            "from":"發款方",
+            "to":"收款方",
+            "amount":"金額",
+            "data":"數據",
+            "send_time":"發送時間",
+            "mac_time":"主網時間"
         },
         "keystore": {
             "tit":"備份錢包文件",

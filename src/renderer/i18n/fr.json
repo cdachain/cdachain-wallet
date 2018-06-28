@@ -12,7 +12,8 @@
         "transfer":"Transfert",
         "contacts":"Contacts",
         "setting":"Paramètres",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Réseau de test"
     },
     "page_setting": {
         "tit":"Paramètres",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifier la note",
             "subtit":"Marquer une note pour votre compte"
+        },
+        "dia_tx":{
+            "tit":"Informations sur la transaction",
+            "block_hash":"Numéro de transaction",
+            "status":"Statut",
+            "from":"Expéditeur",
+            "to":"Récepteur",
+            "amount":"Montant",
+            "data":"Les données",
+            "send_time":"Envoi de temps",
+            "mac_time":"Heure du réseau principal"
         },
         "keystore": {
             "tit":"Fichier de portefeuille de sauvegarde",

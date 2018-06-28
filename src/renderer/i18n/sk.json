@@ -12,7 +12,8 @@
         "transfer":"prevod",
         "contacts":"kontakt",
         "setting":"založiť",
-        "total":"totálnej"
+        "total":"totálnej",
+        "testnet":"Testovať sieť"
     },
     "page_setting": {
         "tit":"založiť",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Upraviť poznámku",
             "subtit":"Označte poznámku pre svoj účet"
+        },
+        "dia_tx":{
+            "tit":"Transakčné informácie",
+            "block_hash":"Číslo transakcie",
+            "status":"stáť",
+            "from":"Poslať peniaze párty",
+            "to":"veriteľ",
+            "amount":"peniaze",
+            "data":"Údaje",
+            "send_time":"Čas odoslania",
+            "mac_time":"Hlavný čas siete"
         },
         "keystore": {
             "tit":"Záložný súbor peňaženky",

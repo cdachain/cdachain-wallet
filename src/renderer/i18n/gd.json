@@ -12,7 +12,8 @@
         "transfer":"Aistridh",
         "contacts":"Caraidean",
         "setting":"Roghainnean",
-        "total":"Iomlan"
+        "total":"Iomlan",
+        "testnet":"Deuchainn lìonra"
     },
     "page_setting": {
         "tit":"Roghainnean",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Nòta atharrachaidh",
             "subtit":"Dèan nota airson do chunntas"
+        },
+        "dia_tx":{
+            "tit":"Fiosrachadh gluasadach",
+            "block_hash":"Àireamh gluasad",
+            "status":"Inbhe",
+            "from":"Seoltadair",
+            "to":"Receiver",
+            "amount":"Suim",
+            "data":"An dàta",
+            "send_time":"A 'cur seachad ùine",
+            "mac_time":"Prìomh ùine lìonra"
         },
         "keystore": {
             "tit":"Faidhle cùl-taice",

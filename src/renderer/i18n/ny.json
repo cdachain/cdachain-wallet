@@ -12,7 +12,8 @@
         "transfer":"Tumizani",
         "contacts":"Othandizira",
         "setting":"Makhalidwe",
-        "total":"Chiwerengero"
+        "total":"Chiwerengero",
+        "testnet":"Kuyesera kwa mayesero"
     },
     "page_setting": {
         "tit":"Makhalidwe",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Sinthani mawu",
             "subtit":"Lembani chizindikiro cha akaunti yanu"
+        },
+        "dia_tx":{
+            "tit":"Zosintha zamalonda",
+            "block_hash":"Nambala yogulitsa",
+            "status":"Chikhalidwe",
+            "from":"Sender",
+            "to":"Wopatsa",
+            "amount":"Zambiri",
+            "data":"Deta",
+            "send_time":"Kutumiza nthawi",
+            "mac_time":"Nthawi yambiri yogwiritsira ntchito"
         },
         "keystore": {
             "tit":"Zosungira thumba lapale fayilo",

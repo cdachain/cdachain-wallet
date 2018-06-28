@@ -12,7 +12,8 @@
         "transfer":"U tshintshelo",
         "contacts":"Ifowuni",
         "setting":"Izicwangciso",
-        "total":"Iyonke"
+        "total":"Iyonke",
+        "testnet":"Inethiwekhi yokuhlola"
     },
     "page_setting": {
         "tit":"Izicwangciso",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Shintsha ingqalelo",
             "subtit":"Maka uphawu kwiakhawunti yakho"
+        },
+        "dia_tx":{
+            "tit":"Ulwazi lomthengi",
+            "block_hash":"Inombolo yentengiso",
+            "status":"Isimo",
+            "from":"Sender",
+            "to":"Umkeli",
+            "amount":"Isixa",
+            "data":"Idatha",
+            "send_time":"Ukuthumela ixesha",
+            "mac_time":"Ixesha lenethiwekhi"
         },
         "keystore": {
             "tit":"Ifayile yekhredithi yecala",

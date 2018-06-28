@@ -12,7 +12,8 @@
         "transfer":"Hoʻololi",
         "contacts":"Nāʻike",
         "setting":"Nā Papa",
-        "total":"Hōʻuluʻulu"
+        "total":"Hōʻuluʻulu",
+        "testnet":"Ka ho'āʻo ho'āʻo"
     },
     "page_setting": {
         "tit":"Nā Papa",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Hoʻololi i ka memo",
             "subtit":"E kākau i kahi leka no kāu helu"
+        },
+        "dia_tx":{
+            "tit":"Kaʻike pilina",
+            "block_hash":"Helu helu",
+            "status":"Kūlana",
+            "from":"Hoʻouna",
+            "to":"Loaʻa",
+            "amount":"Ka nui",
+            "data":"ʻO kaʻikepili",
+            "send_time":"Hāʻawi manawa",
+            "mac_time":"Ka manawa pūnaewele nui"
         },
         "keystore": {
             "tit":"Kōnae putele pūnaewele",

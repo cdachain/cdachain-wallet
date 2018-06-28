@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Kontakta",
         "setting":"Ställ in",
-        "total":"total"
+        "total":"total",
+        "testnet":"Test nätverk"
     },
     "page_setting": {
         "tit":"Ställ in",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Ändra anteckning",
             "subtit":"Markera en anteckning för ditt konto"
+        },
+        "dia_tx":{
+            "tit":"Transaktionsinformation",
+            "block_hash":"Transaktionsnummer",
+            "status":"State",
+            "from":"Skicka pengar party",
+            "to":"Betalningsmottagare",
+            "amount":"pengar",
+            "data":"Uppgifterna",
+            "send_time":"Sändningstid",
+            "mac_time":"Huvud nätverkstid"
         },
         "keystore": {
             "tit":"Backup-plånbokfilen",

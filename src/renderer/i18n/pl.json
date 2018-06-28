@@ -12,7 +12,8 @@
         "transfer":"Przenieś",
         "contacts":"Kontakty",
         "setting":"Ustawienia",
-        "total":"Razem"
+        "total":"Razem",
+        "testnet":"Sieć testowa"
     },
     "page_setting": {
         "tit":"Ustawienia",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Zmodyfikuj notatkę",
             "subtit":"Zaznacz notatkę dla swojego konta"
+        },
+        "dia_tx":{
+            "tit":"Informacje o transakcji",
+            "block_hash":"Numer transakcji",
+            "status":"Status",
+            "from":"Nadawca",
+            "to":"Odbiornik",
+            "amount":"Kwota",
+            "data":"Dane",
+            "send_time":"Wysyłanie czasu",
+            "mac_time":"Główny czas sieci"
         },
         "keystore": {
             "tit":"Utwórz kopię zapasową pliku portfela",

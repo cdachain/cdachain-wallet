@@ -12,7 +12,8 @@
         "transfer":"Übertragung",
         "contacts":"Kontakte",
         "setting":"Einstellungen",
-        "total":"Summe"
+        "total":"Summe",
+        "testnet":"Netzwerk testen"
     },
     "page_setting": {
         "tit":"Einstellungen",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Notiz ändern",
             "subtit":"Markieren Sie eine Notiz für Ihr Konto"
+        },
+        "dia_tx":{
+            "tit":"Transaktionsinformationen",
+            "block_hash":"Transaktionsnummer",
+            "status":"Status",
+            "from":"Absender",
+            "to":"Empfänger",
+            "amount":"Betrag",
+            "data":"Die Daten",
+            "send_time":"Sendezeit",
+            "mac_time":"Hauptnetzwerkzeit"
         },
         "keystore": {
             "tit":"Backup-Brieftasche-Datei",

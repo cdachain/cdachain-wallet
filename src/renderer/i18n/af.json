@@ -12,7 +12,8 @@
         "transfer":"oordrag",
         "contacts":"Kontak",
         "setting":"opstel",
-        "total":"totale"
+        "total":"totale",
+        "testnet":"Toets netwerk"
     },
     "page_setting": {
         "tit":"opstel",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Wysig nota",
             "subtit":"Merk 'n nota vir jou rekening"
+        },
+        "dia_tx":{
+            "tit":"Transaksie-inligting",
+            "block_hash":"Transaksienommer",
+            "status":"staat",
+            "from":"Stuur geld partytjie",
+            "to":"nemer",
+            "amount":"geld",
+            "data":"Die data",
+            "send_time":"Stuur tyd",
+            "mac_time":"Hoofnetwerk tyd"
         },
         "keystore": {
             "tit":"Rugsteun-beursie-lêer",

@@ -12,7 +12,8 @@
         "transfer":"Canja wurin",
         "contacts":"Lambobi",
         "setting":"Saituna",
-        "total":"Jimlar"
+        "total":"Jimlar",
+        "testnet":"Cibiyar gwadawa"
     },
     "page_setting": {
         "tit":"Saituna",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Sauya bayanin kula",
             "subtit":"Rubuta bayanin kula don asusunku"
+        },
+        "dia_tx":{
+            "tit":"Bayaniyar bayani",
+            "block_hash":"Lambar kuɗi",
+            "status":"Matsayi",
+            "from":"Mai aikawa",
+            "to":"Mai karɓar",
+            "amount":"Adadin",
+            "data":"Bayanan",
+            "send_time":"Aika lokaci",
+            "mac_time":"Babban lokaci na cibiyar sadarwa"
         },
         "keystore": {
             "tit":"Fayil ɗin ajiyayyen ajiya",

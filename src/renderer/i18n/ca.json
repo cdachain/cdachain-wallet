@@ -12,7 +12,8 @@
         "transfer":"Transferència",
         "contacts":"Contactes",
         "setting":"Configuració",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Xarxa de proves"
     },
     "page_setting": {
         "tit":"Configuració",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifica nota",
             "subtit":"Marqueu una nota per al vostre compte"
+        },
+        "dia_tx":{
+            "tit":"Informació sobre la transacció",
+            "block_hash":"Número de transacció",
+            "status":"Estat",
+            "from":"Remitent",
+            "to":"Receptor",
+            "amount":"Import",
+            "data":"Les dades",
+            "send_time":"S'està enviant el temps",
+            "mac_time":"Temps principal de la xarxa"
         },
         "keystore": {
             "tit":"Arxiu de cartera de còpia de seguretat",

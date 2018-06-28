@@ -12,7 +12,8 @@
         "transfer":"Transferencia",
         "contacts":"Contactos",
         "setting":"Configuración",
-        "total":"Total"
+        "total":"Total",
+        "testnet":"Rede de probas"
     },
     "page_setting": {
         "tit":"Configuración",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modificar nota",
             "subtit":"Marca unha nota para a túa conta"
+        },
+        "dia_tx":{
+            "tit":"Información de transaccións",
+            "block_hash":"Número de transacción",
+            "status":"Estado",
+            "from":"Remitente",
+            "to":"Receptor",
+            "amount":"Cantidade",
+            "data":"Os datos",
+            "send_time":"Enviando tempo",
+            "mac_time":"Tempo de rede principal"
         },
         "keystore": {
             "tit":"Ficheiro de carteira de respaldo",

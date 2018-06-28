@@ -12,7 +12,8 @@
         "transfer":"Translokigo",
         "contacts":"Kontaktoj",
         "setting":"Agordoj",
-        "total":"Tuta"
+        "total":"Tuta",
+        "testnet":"Testa reto"
     },
     "page_setting": {
         "tit":"Agordoj",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Modifi noton",
             "subtit":"Marki noton por via konto"
+        },
+        "dia_tx":{
+            "tit":"Informo pri transakcio",
+            "block_hash":"Numero de transakcio",
+            "status":"Statuso",
+            "from":"Sendinto",
+            "to":"Ricevilo",
+            "amount":"Kvanto",
+            "data":"La datumoj",
+            "send_time":"Sendante tempon",
+            "mac_time":"Ĉefa reto tempo"
         },
         "keystore": {
             "tit":"Rezerva barata dosiero",

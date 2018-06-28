@@ -12,7 +12,8 @@
         "transfer":"Transfer",
         "contacts":"Harremanetarako",
         "setting":"Ezarri",
-        "total":"Guztira"
+        "total":"Guztira",
+        "testnet":"Proba sarea"
     },
     "page_setting": {
         "tit":"Ezarri",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Aldatu oharra",
             "subtit":"Markatu ohar bat zure konturako"
+        },
+        "dia_tx":{
+            "tit":"Transakzio informazioa",
+            "block_hash":"Transakzio zenbakia",
+            "status":"Estatuko",
+            "from":"Bidali dirua festa",
+            "to":"payee",
+            "amount":"Dirua",
+            "data":"Datuak",
+            "send_time":"Denbora bidaltzen",
+            "mac_time":"Sarearen denbora nagusia"
         },
         "keystore": {
             "tit":"Babeskopiaren zorro fitxategia",

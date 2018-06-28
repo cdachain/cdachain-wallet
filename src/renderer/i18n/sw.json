@@ -12,7 +12,8 @@
         "transfer":"Uhamisho",
         "contacts":"Mawasiliano",
         "setting":"Mipangilio",
-        "total":"Jumla"
+        "total":"Jumla",
+        "testnet":"Mtihani wa mtandao"
     },
     "page_setting": {
         "tit":"Mipangilio",
@@ -78,6 +79,17 @@
         "edit_dia": {
             "tit":"Badilisha maelezo",
             "subtit":"Andika alama kwa akaunti yako"
+        },
+        "dia_tx":{
+            "tit":"Maelezo ya ushirikiano",
+            "block_hash":"Namba ya ushirikiano",
+            "status":"Hali",
+            "from":"Sender",
+            "to":"Mpokeaji",
+            "amount":"Kiasi",
+            "data":"Data",
+            "send_time":"Inatuma muda",
+            "mac_time":"Saa kuu ya mtandao"
         },
         "keystore": {
             "tit":"Faili ya mkoba wa Backup",
