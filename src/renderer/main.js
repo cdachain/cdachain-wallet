@@ -20,10 +20,10 @@ const path = require("path");
 const log4js = require('log4js')
 import utility from '../setting/settings'
 
-const logPath=path.join(utility.userDataPath,'logs',"error.log")
+const logPath = path.join(utility.userDataPath, 'logs', "error.log")
 log4js.configure({
-  appenders: { cheese: { type: 'file', filename: logPath } },
-  categories: { default: { appenders: ['cheese'], level: 'error' } }
+    appenders: { cheese: { type: 'file', filename: logPath } },
+    categories: { default: { appenders: ['cheese'], level: 'error' } }
 });
 Vue.log4js = Vue.prototype.$log4js = log4js
 const logger = log4js.getLogger('src/renderer/main.js');
@@ -33,90 +33,91 @@ Vue.use(VueI18n);
 Vue.use(ElementUI);
 if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 
-let czr=new Czr();
+let czr = new Czr();
 Vue.czr = Vue.prototype.$czr = czr;
 
 
 Vue.prototype.$db = db
+Vue.prototype.$logger = logger
 
 
 // Loading i18 language
-const messages={};
-for(const languge in languges){
-    messages[languge]=require("@/i18n/"+languge+".json");
+const messages = {};
+for (const languge in languges) {
+    messages[languge] = require("@/i18n/" + languge + ".json");
 }
 //Determine the user's language
-let locale =db.get('czr_setting.lang').value() ;
+let locale = db.get('czr_setting.lang').value();
 const i18n = new VueI18n({
-    locale: locale ,// set locale
+    locale: locale,// set locale
     messages,       // set locale messages 
 });
 
 
 //account list Start
-function getAccountsBalances(accountAry){
+function getAccountsBalances(accountAry) {
     czr.request
-    .accountsBalances(accountAry)
-    .then(function(data) {
-        return data.balances;
-    }).then(function(data){
-        for( var acc in data){
-            db
-            .read()
-            .get("czr_accounts")
-            .find({ address: acc })
-            .assign({ balance: parseInt(data[acc]['balance'])})
-            .write();
-        }
-    });
-}
-
-function getAccounts(){
-    czr.request
-    .accountList()
-    .then(function(data) {
-        return data.accounts;
-    }).then(function(data){
-        if(data==""){
-            data=[];
-        }
-        //先把本地数据库存在，但是 data 里不存在的账户 删除
-        var database= db.get("czr_accounts").value();
-        var databaseAry=[];
-        database.forEach((localAcc) => {
-            if ( data.indexOf(localAcc.address) < 0 ) {
-                //不存在
-                db.get("czr_accounts")
-                .remove({ address: localAcc.address })
-                .write();
-            }else{
-                databaseAry.push(localAcc.address)
+        .accountsBalances(accountAry)
+        .then(function (data) {
+            return data.balances;
+        }).then(function (data) {
+            for (var acc in data) {
+                db
+                    .read()
+                    .get("czr_accounts")
+                    .find({ address: acc })
+                    .assign({ balance: parseInt(data[acc]['balance']) })
+                    .write();
             }
         });
-        var flagLeng=databaseAry.length;
-        data.forEach((reqAry,index) => {
-            if ( databaseAry.indexOf(reqAry) < 0 ) {
-                //数据库不存在 
-                let params = {
-                    address: reqAry,
-                    tag: '账号'+(++flagLeng),
-                    tx_list: [],
-                    balance: 0
-                };
-                db.get("czr_accounts")
-                .push(params)
-                .write();
-            }
-        })
-        //再把data中有，但是数据库里没有的账户添 加 
-        getAccountsBalances(data)
-        //获取余额
-    });
 }
 
-var timer = setInterval(function(){
+function getAccounts() {
+    czr.request
+        .accountList()
+        .then(function (data) {
+            return data.accounts;
+        }).then(function (data) {
+            if (data == "") {
+                data = [];
+            }
+            //先把本地数据库存在，但是 data 里不存在的账户 删除
+            var database = db.get("czr_accounts").value();
+            var databaseAry = [];
+            database.forEach((localAcc) => {
+                if (data.indexOf(localAcc.address) < 0) {
+                    //不存在
+                    db.get("czr_accounts")
+                        .remove({ address: localAcc.address })
+                        .write();
+                } else {
+                    databaseAry.push(localAcc.address)
+                }
+            });
+            var flagLeng = databaseAry.length;
+            data.forEach((reqAry, index) => {
+                if (databaseAry.indexOf(reqAry) < 0) {
+                    //数据库不存在 
+                    let params = {
+                        address: reqAry,
+                        tag: '账号' + (++flagLeng),
+                        tx_list: [],
+                        balance: 0
+                    };
+                    db.get("czr_accounts")
+                        .push(params)
+                        .write();
+                }
+            })
+            //再把data中有，但是数据库里没有的账户添 加 
+            getAccountsBalances(data)
+            //获取余额
+        });
+}
+
+var timer = setInterval(function () {
     getAccounts();
-},2000)
+}, 2000)
 
 //account list End
 
@@ -126,5 +127,5 @@ new Vue({
     el: '#app',
     router,
     i18n,
-    render:h=>h(App)
+    render: h => h(App)
 })
