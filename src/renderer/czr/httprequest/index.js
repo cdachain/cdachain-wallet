@@ -238,5 +238,31 @@ HttpRequest.prototype.getBlock = async function(blockHash) {
     return ret;
 };
 
+HttpRequest.prototype.blockList = async function(account, limit, last_hash) {
+    var opt;
+    if(!account){
+        return 0//没有参数 
+    }
+    if(!limit){
+        return 1//没有参数 
+    }
+    if(!last_hash){
+        opt = {
+            "action": "block_list",
+            "account": account,
+            "limit": limit
+        };
+    }else{
+        opt = {
+            "action": "block_list",
+            "account": account,
+            "limit": limit,
+            "last_hash": last_hash
+        };
+    }
+    let ret = await asyncfunc(opt);
+    return ret;
+};
+
 
 module.exports = HttpRequest;

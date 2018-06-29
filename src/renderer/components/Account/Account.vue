@@ -36,8 +36,8 @@
 
         <div class="account-content">
             <h2 class="transfer-tit">{{ $t('page_account.transfer_log') }}</h2>
-            <div class="transfer-log">
-                <template v-for="item in accountInfo.tx_list">
+            <div class="transfer-log" v-loading="loadingSwitch">
+                <template v-for="item in accountInfo.currentTxList">
                     <div v-if="item.to == address">
                         <div class="transfer-item b-flex b-flex-justify tx-item plus-assets" @click="showTxInfo(item)">
                             <div class="icon-wrap">
@@ -68,9 +68,9 @@
                         </div>
                     </div>
                 </template>
-                <div class="pagin-wrap b-flex b-flex-justify" v-if="accountInfo.tx_list.length>2">
-                    <el-button :disabled="pagingSwitch.before" class="before-btn">上一页</el-button>
-                    <el-button :disabled="pagingSwitch.next" class="next-btn">下一页</el-button>
+                <div class="pagin-wrap b-flex b-flex-justify" v-if="accountInfo.tx_list.length>=pagingSwitch.limit">
+                    <el-button :disabled="pagingSwitch.beforeDisabled" @click="beforeList" class="before-btn">上一页</el-button>
+                    <el-button :disabled="pagingSwitch.nextDisabled" @click="nextList" class="next-btn">下一页</el-button>
                 </div>
             </div>
 
@@ -116,7 +116,7 @@
             <ul class="dialog-tx-wap">
                 <li class="b-flex b-flex-justify tx-item tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.block_hash')}}</strong>
-                    <span class="tx-item-info">{{transactionInfo.blockHash}}</span>
+                    <span class="tx-item-info">{{transactionInfo.hash}}</span>
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.status')}}</strong>
@@ -149,7 +149,7 @@
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.data')}}</strong>
-                    <span class="tx-item-info">{{transactionInfo.data}}</span>
+                    <span class="tx-item-info">{{transactionInfo.data || '-'}}</span>
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.send_time')}}</strong>
@@ -183,15 +183,18 @@ export default {
                 txInfo: false
             },
             pagingSwitch: {
-                before: true,
-                next: false
+                limit: 10,
+                beforeDisabled: true,
+                nextDisabled: false
             },
+            loadingSwitch: true,
             address: this.$route.params.id,
             accountInfo: null,
             transactionInfo: null,
             pollingAry: null,
             qrImgUrl: "",
             txStatus: "-",
+            lastBlockHash: "",
             editTag: ""
         };
     },
@@ -220,13 +223,137 @@ export default {
     methods: {
         //get List
         getTxList() {
-            console.log("开始getTxList > ",self.accountInfo.address,10)
+            // console.log("开始请求 lastBlockHash > ", self.lastBlockHash);
             self.$czr.request
-                .blockList(self.accountInfo.address,10)
+                .blockList(
+                    self.accountInfo.address,
+                    self.pagingSwitch.limit,
+                    self.lastBlockHash
+                )
                 .then(function(data) {
-                    console.log("收到啦",data)
-                    // return data.json;
+                    self.loadingSwitch = false;
+                    if (data.list.length > 0) {
+                        self.accountInfo.currentTxList = data.list;
+                        data.list.forEach(element => {
+                            self.accountInfo.tx_list.push(element);
+                        });
+                    }
+
+                    //是否有下页
+                    if (data.list.length < self.pagingSwitch.limit) {
+                        self.pagingSwitch.nextDisabled = true;
+                    } else {
+                        self.pagingSwitch.nextDisabled = false;
+                        self.lastBlockHash =
+                            data.list[data.list.length - 1].hash; //需要拿新的HASH，准备下次请求
+                    }
+                });
+        },
+        getNextList() {
+            /* 
+                currentTxList最后一个hash是否 等于 tx_list 最后一个hash；
+                - 等于   需要获取
+                - 不等   从tx_list中获取
+            */
+            var _currentTxList = self.accountInfo.currentTxList;
+            var currentTxListHashBlock = _currentTxList[_currentTxList.length - 1].hash;
+            var _txList = self.accountInfo.tx_list;
+            var lastTxListHashBlock = _txList[_txList.length - 1].hash;
+            // console.log("currentTxListHashBlock == lastTxListHashBlock",currentTxListHashBlock == lastTxListHashBlock)
+            if (currentTxListHashBlock == lastTxListHashBlock) {
+                //获取
+                // console.log("获取")
+                self.lastBlockHash = lastTxListHashBlock;
+                self.getTxList();
+            } else {
+                //不获取
+                // console.log("不获取")
+                //先把当前的哈希，替换为下一个hash
+                var startHash=currentTxListHashBlock;
+                var tempAry=[];
+                _txList.forEach((ele,index)=>{
+                    var _isSet= ele.hash==startHash;
+                    var _isGoOn=tempAry.length < self.pagingSwitch.limit;
+                    // console.log("_isSet _isGoOn",_isSet,_isGoOn)
+                    if( _isSet && _isGoOn){
+                        startHash=_txList[index+1].hash;
+                        tempAry.push(_txList[index+1]);
+                    }
                 })
+                // console.log("tempAry",tempAry)
+                self.loadingSwitch = false;
+                self.accountInfo.currentTxList = tempAry;
+                self.lastBlockHash = tempAry[tempAry.length-1].hash;
+            }
+        },
+        getBeforeList() {
+            //TODO 从 tx_list 中取一些值给currentTxLList
+            /* 
+            1.当前有 lastBlockHash 开始循环找
+            2.可以取值，并且可以继续，则取值
+                - 取值同时，设置l astBlockHash 为前一个Hash,如果是第一个item了，则astBlockHash 为""
+
+            = 开始 > 结束   返回
+            = 开始 > 中间   返回
+            */
+            var localList = self.accountInfo.tx_list;
+            var targetAry = [];
+            // console.log("tx_list", self.accountInfo.tx_list);
+            // console.log("lastBlockHash", self.lastBlockHash);
+            if (self.lastBlockHash) {
+                //当前list最后数据的hashBlock 就是当前hash；这时候需要换,换成上一页最后一个hash；
+                var _currentTxList = self.accountInfo.currentTxList;
+                var currentTxListHashBlock =
+                    _currentTxList[_currentTxList.length - 1].hash;
+                if (self.lastBlockHash == currentTxListHashBlock) {
+                    //当前 lastBlockHash 在 tx_list 中的索引
+                    var currentIndexInTxLixt = 0;
+                    localList.forEach((ele, index) => {
+                        if (ele.hash == self.lastBlockHash) {
+                            currentIndexInTxLixt = index;
+                        }
+                    });
+                    var targetIndex =
+                        currentIndexInTxLixt - self.pagingSwitch.limit;
+                    // console.log("换blockHash", targetIndex);
+                    self.lastBlockHash = localList[targetIndex].hash;
+                }
+
+                //如果有lastBlockHash
+                for (var i = localList.length - 1; i >= 0; i--) {
+                    //如果当前Hash 等于 循环的哈希,开始取值
+                    var isSet = localList[i].hash == self.lastBlockHash; //是否取值
+                    var isGoOn = targetAry.length < self.pagingSwitch.limit; //是否继续取值
+                    if (isSet && isGoOn) {
+                        targetAry.unshift(localList[i]);
+                        self.lastBlockHash = i > 0 ? localList[i - 1].hash : "";
+                        if (i == 0) {
+                            self.pagingSwitch.beforeDisabled = true;
+                        }
+                    }
+                    //如果数据读取完毕，不需要循环
+                    if (!isGoOn) {
+                        break;
+                    }
+                }
+            }
+            if (targetAry.length > 0) {
+                self.accountInfo.currentTxList = targetAry;
+            } else {
+                //不能上翻
+                self.pagingSwitch.beforeDisabled = true;
+            }
+            self.loadingSwitch = false;
+        },
+        nextList() {
+            self.loadingSwitch = true;
+            self.getNextList();
+            self.pagingSwitch.beforeDisabled = false; //释放 前翻
+        },
+        beforeList() {
+            self.loadingSwitch = true;
+            self.getBeforeList();
+            self.pagingSwitch.nextDisabled = false; //释放 后翻
         },
         //Ini
         initTag: function() {
@@ -234,7 +361,7 @@ export default {
         },
         initTransactionInfo() {
             this.transactionInfo = {
-                blockHash: "", //哈希值
+                hash: "", //哈希值
                 from: "",
                 to: "",
                 amount: "",
@@ -250,9 +377,13 @@ export default {
             };
         },
         initDatabase() {
-            var keystoreFile;
+            var keystoreFile,
+                txListAry = [],
+                currentList = [];
             if (this.accountInfo) {
                 keystoreFile = this.accountInfo.keystore;
+                txListAry = this.accountInfo.tx_list;
+                currentList = self.accountInfo.currentTxList;
             }
             this.accountInfo = this.$db
                 .read()
@@ -260,10 +391,8 @@ export default {
                 .filter({ address: this.address })
                 .value()[0];
             this.accountInfo.keystore = keystoreFile;
-            this.accountInfo.tx_list = [];
-            // this.accountInfo.tx_list = [
-            //     //get List
-            // ];
+            this.accountInfo.tx_list = txListAry;
+            self.accountInfo.currentTxList = currentList;
         },
 
         //Copy Address
@@ -503,7 +632,7 @@ export default {
     -webkit-user-select: none;
 }
 .account-content .transfer-log .transfer-info {
-    width: 480px;
+    width: 485px;
     text-align: left;
 }
 .transfer-log .icon-wrap {
@@ -566,7 +695,7 @@ export default {
 
 .dialog-tx-wap .tx-item {
     padding: 10px 0 10px;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px dashed #f3f3f3;
 }
 .tx-item-des {
     width: 160px;
