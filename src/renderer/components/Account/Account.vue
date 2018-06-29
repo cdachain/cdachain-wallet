@@ -70,7 +70,7 @@
                 </template>
                 <div class="pagin-wrap b-flex b-flex-justify" v-if="accountInfo.tx_list.length>2">
                     <el-button :disabled="pagingSwitch.before" class="before-btn">上一页</el-button>
-                    <el-button  :disabled="pagingSwitch.next" class="next-btn">下一页</el-button>
+                    <el-button :disabled="pagingSwitch.next" class="next-btn">下一页</el-button>
                 </div>
             </div>
 
@@ -183,8 +183,8 @@ export default {
                 txInfo: false
             },
             pagingSwitch: {
-                before:true,
-                next:false
+                before: true,
+                next: false
             },
             address: this.$route.params.id,
             accountInfo: null,
@@ -205,6 +205,7 @@ export default {
             self.qrImgUrl = url;
         });
         self.initDatabase();
+        self.getTxList();
         self.initTag();
         self.initTransactionInfo();
 
@@ -217,6 +218,16 @@ export default {
         clearInterval(this.accountIntervalId);
     },
     methods: {
+        //get List
+        getTxList() {
+            console.log("开始getTxList > ",self.accountInfo.address,10)
+            self.$czr.request
+                .blockList(self.accountInfo.address,10)
+                .then(function(data) {
+                    console.log("收到啦",data)
+                    // return data.json;
+                })
+        },
         //Ini
         initTag: function() {
             this.editTag = this.accountInfo.tag;
@@ -249,6 +260,7 @@ export default {
                 .filter({ address: this.address })
                 .value()[0];
             this.accountInfo.keystore = keystoreFile;
+            this.accountInfo.tx_list = [];
             // this.accountInfo.tx_list = [
             //     //get List
             // ];
