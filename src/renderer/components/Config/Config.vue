@@ -16,7 +16,7 @@ const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
 // const banner=require("@/assets/img/banner.png")
-var self=null;
+var self = null;
 export default {
     name: "Config",
     data() {
@@ -26,12 +26,12 @@ export default {
             node_info: {},
             userDataPath: "",
             conMsg: "",
-            backgroundImage:"url(" + require("@/assets/img/banner.png") + ")",
+            backgroundImage: "url(" + require("@/assets/img/banner.png") + ")",
             binariesIsDownloaded: false
         };
     },
     created() {
-        self=this;
+        self = this;
         const APP = process.type === "renderer" ? remote.app : app;
         this.userDataPath = APP.getPath("userData");
         this.initConfig();
@@ -40,10 +40,13 @@ export default {
     computed: {},
     methods: {
         initConfig() {
-            var radom=Math.random();
+            var radom = Math.random();
             this.latest_config = {
                 content: "",
-                BINARY_URL:"http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json"+"?radom="+radom
+                BINARY_URL:
+                    "http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json" +
+                    "?radom=" +
+                    radom
             };
             this.node_info = {
                 NODE_TYPE: "CanonChain",
@@ -102,7 +105,9 @@ export default {
         writeLocalConfig(json) {
             this.conMsg =
                 "将Github上获取的客户端二进制配置文件，写入磁盘的本地配";
-                self.$logger.info("将Github上获取的客户端二进制配置文件，写入磁盘的本地配");
+            self.$logger.info(
+                "将Github上获取的客户端二进制配置文件，写入磁盘的本地配"
+            );
 
             fs.writeFileSync(
                 path.join(this.userDataPath, "clientBinaries.json"),
@@ -117,7 +122,7 @@ export default {
             var localVer = this.local_config.clients[this.node_info.NODE_TYPE]
                 .version;
             this.conMsg = "检测是否需要更新";
-            self.$logger.info("检测是否需要更新",latestVer,localVer);
+            self.$logger.info("检测是否需要更新", latestVer, localVer);
             if (latestVer == localVer) {
                 this.conMsg = "本地 CanonChain 配置是最新的";
                 self.$logger.info("本地 CanonChain 配置是最新的");
@@ -153,10 +158,13 @@ export default {
             this.conMsg = "判断是否有 CanonChain 应用程序";
             self.$logger.info("判断是否有 CanonChain 应用程序");
             try {
-                self.$logger.info("本地的节点文件",path.join(
+                self.$logger.info(
+                    "本地的节点文件",
+                    path.join(
                         options.directory,
                         this.node_info.binaryVersion.bin
-                    ))
+                    )
+                );
                 var stats = fs.statSync(
                     path.join(
                         options.directory,
@@ -168,8 +176,11 @@ export default {
                 self.runCanonChain();
             } catch (err) {
                 this.conMsg = "正在下载节点程序,请耐心等待";
-                self.$logger.info("正在下载节点程序,请耐心等待",this.node_info.binaryVersion.url,
-                    options.directory);
+                self.$logger.info(
+                    "正在下载节点程序,请耐心等待",
+                    this.node_info.binaryVersion.url,
+                    options.directory
+                );
 
                 download(
                     this.node_info.binaryVersion.url,
@@ -183,17 +194,31 @@ export default {
             }
         },
         runCanonChain() {
-            self.$logger.info("启动 CanonChain :",this.userDataPath,
-                    "download", this.node_info.binaryVersion.bin);
-            this.conMsg = "启动 CanonChain";
-            spawn(
-                path.join(
-                    this.userDataPath,
-                    "download",
-                    this.node_info.binaryVersion.bin
-                ),
-                ["--daemon","--rpc_enable","--rpc_enable_control"]
+            self.$logger.info(
+                "准备启动 CanonChain :",
+                this.userDataPath,
+                "download",
+                this.node_info.binaryVersion.bin
             );
+            this.conMsg = "启动 CanonChain";
+            var ls;
+            if (!this.$CanonChainPid) {
+                //如果已经启动了 
+                self.$logger.info("准备启动:" + this.$CanonChainPid);
+                ls = spawn(
+                    path.join(
+                        this.userDataPath,
+                        "download",
+                        this.node_info.binaryVersion.bin
+                    ),
+                    ["--daemon", "--rpc_enable", "--rpc_enable_control"]
+                );
+                this.$CanonChainPid = ls.pid;
+            } else {
+                self.$logger.info(
+                    "已经运行 CanonChain 不需要再启动 :" + this.$CanonChainPid
+                );
+            }
             this.conMsg = "CanonChain 已经启动 ";
             this.$router.push({ path: "home" });
         }
@@ -212,7 +237,7 @@ export default {
     /* background-image: radial-gradient(50% 50%, #57509E 29%, #353469 93%, #333366 100%); */
     /* background-color: #333366; */
     /* background: url("../img/banner.png") no-repeat center center; */
-    background:  no-repeat center center;
+    background: no-repeat center center;
 
     color: #000;
     width: 100%;

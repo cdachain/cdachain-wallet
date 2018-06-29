@@ -58,6 +58,7 @@ function createWindow () {
 function windowAllClose() {
     if (process.platform !== 'darwin') {
         app.quit()
+        process.kill(this.$CanonChainPid);
     }
 }
 function activateFn() {

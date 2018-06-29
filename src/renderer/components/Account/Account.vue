@@ -231,6 +231,14 @@ export default {
                     self.lastBlockHash
                 )
                 .then(function(data) {
+                    if (data.error) {
+                        self.$message({
+                            message: data.error,
+                            type: "error"
+                        });
+                        return;
+                    }
+                    data = !!data ? data : { list: [] };
                     self.loadingSwitch = false;
                     if (data.list.length > 0) {
                         self.accountInfo.currentTxList = data.list;
@@ -256,7 +264,8 @@ export default {
                 - 不等   从tx_list中获取
             */
             var _currentTxList = self.accountInfo.currentTxList;
-            var currentTxListHashBlock = _currentTxList[_currentTxList.length - 1].hash;
+            var currentTxListHashBlock =
+                _currentTxList[_currentTxList.length - 1].hash;
             var _txList = self.accountInfo.tx_list;
             var lastTxListHashBlock = _txList[_txList.length - 1].hash;
             // console.log("currentTxListHashBlock == lastTxListHashBlock",currentTxListHashBlock == lastTxListHashBlock)
@@ -269,21 +278,40 @@ export default {
                 //不获取
                 // console.log("不获取")
                 //先把当前的哈希，替换为下一个hash
-                var startHash=currentTxListHashBlock;
-                var tempAry=[];
-                _txList.forEach((ele,index)=>{
-                    var _isSet= ele.hash==startHash;
-                    var _isGoOn=tempAry.length < self.pagingSwitch.limit;
+                var startHash = currentTxListHashBlock;
+                var tempAry = [];
+                var ele;
+                for (var j = 0; j < _txList.length; j++) {
+                    ele = _txList[j];
+                    var _isSet = ele.hash == startHash;
+                    var _isGoOn = tempAry.length < self.pagingSwitch.limit;
                     // console.log("_isSet _isGoOn",_isSet,_isGoOn)
-                    if( _isSet && _isGoOn){
-                        startHash=_txList[index+1].hash;
-                        tempAry.push(_txList[index+1]);
+                    if (_isSet && _isGoOn) {
+                        //如果是最后一个item，就不要循环了
+                        if (
+                            _txList[j].hash == _txList[_txList.length - 1].hash
+                        ) {
+                            console.log("不能循环拉");
+                            self.pagingSwitch.nextDisabled = true; //释放 后翻
+                            break;
+                        }
+                        startHash = _txList[j + 1].hash;
+                        tempAry.push(_txList[j + 1]);
                     }
-                })
+                }
+                // _txList.forEach((ele, index) => {
+                //     var _isSet = ele.hash == startHash;
+                //     var _isGoOn = tempAry.length < self.pagingSwitch.limit;
+                //     // console.log("_isSet _isGoOn",_isSet,_isGoOn)
+                //     if (_isSet && _isGoOn) {
+                //         startHash = _txList[index + 1].hash;
+                //         tempAry.push(_txList[index + 1]);
+                //     }
+                // });
                 // console.log("tempAry",tempAry)
                 self.loadingSwitch = false;
                 self.accountInfo.currentTxList = tempAry;
-                self.lastBlockHash = tempAry[tempAry.length-1].hash;
+                self.lastBlockHash = tempAry[tempAry.length - 1].hash;
             }
         },
         getBeforeList() {
@@ -313,8 +341,15 @@ export default {
                             currentIndexInTxLixt = index;
                         }
                     });
-                    var targetIndex =
-                        currentIndexInTxLixt - self.pagingSwitch.limit;
+
+                    var currentTxLeng = self.accountInfo.currentTxList.length;
+                    var lessNum =
+                        self.pagingSwitch.limit > currentTxLeng
+                            ? currentTxLeng
+                            : self.pagingSwitch.limit;
+                    var targetIndex = currentIndexInTxLixt - lessNum;
+
+                    // var targetIndex = currentIndexInTxLixt - self.pagingSwitch.limit;
                     // console.log("换blockHash", targetIndex);
                     self.lastBlockHash = localList[targetIndex].hash;
                 }
