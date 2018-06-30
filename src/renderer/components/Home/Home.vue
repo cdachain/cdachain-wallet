@@ -140,20 +140,22 @@ export default {
         this.intervalId = setInterval(() => {
             self.initDatabase();
         }, 1500);
-        this.hasPiTimer = setInterval(() => {
-            var currentPid = JSON.parse(
-                sessionStorage.getItem("CanonChainPid")
-            );
-            if (!currentPid) {
-                // //需要再启动Node(未知原因挂了)
-                ls = spawn(sessionStorage.getItem("CanonChainNode"), [
-                    "--daemon",
-                    "--rpc_enable",
-                    "--rpc_enable_control"
-                ]);
-                sessionStorage.setItem("CanonChainPid", ls.pid);
-            }
-        }, 2000);
+        // this.hasPiTimer = setInterval(() => {
+        //     var currentPid = JSON.parse(
+        //         sessionStorage.getItem("CanonChainPid")
+        //     );
+        //     // console.log("currentPid", cluster.isWorker);
+        //     if (!currentPid) {
+        //         // //需要再启动Node(未知原因挂了)
+        //         ls = spawn(sessionStorage.getItem("CanonChainNode"), [
+        //             "--daemon",
+        //             "--rpc_enable",
+        //             "--rpc_enable_control"
+        //         ]);
+        //         sessionStorage.setItem("CanonChainPid", ls.pid);
+        //         console.log("currentPid new", sessionStorage.getItem("CanonChainPid"));
+        //     }
+        // }, 2000);
     },
     computed: {},
     beforeDestroy() {

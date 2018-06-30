@@ -259,6 +259,18 @@ export default {
                 self.$logger.info("已经运行 CanonChain 不需要再启动:");
             }
             this.conMsg = "CanonChain 已经启动 ";
+
+            //进程守护
+            ls.on("exit", function() {
+                console.log("GO,再启动拉+++++++");
+                ls = spawn(
+                    path.join(
+                        nodePath
+                    ),
+                    ["--daemon", "--rpc_enable", "--rpc_enable_control"]
+                );
+            });
+
             this.$router.push({ path: "home" });
         }
     }
