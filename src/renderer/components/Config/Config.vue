@@ -232,25 +232,22 @@ export default {
         "--rpc_enable_control"
       ]);
       this.conMsg = "CanonChain 已经启动 ";
-      sessionStorage.setItem("CanonChainPid", ls.pid);
-      console.log("ls.pid",ls.pid)
-      global.czr_pid=ls.pid;
-      console.log("global",global.czr_pid)
+      // sessionStorage.setItem("CanonChainPid", ls.pid);
       //进程守护
       this.guardNode(ls, nodePath);
       this.$router.push({ path: "home" });
     },
     guardNode(ls, nodePath) {
       var self = this;
-      ls.on("exit", function() {
-        ls = spawn(path.join(nodePath), [
-          "--daemon",
-          "--rpc_enable",
-          "--rpc_enable_control"
-        ]);
-        sessionStorage.setItem("CanonChainPid", ls.pid);
-        self.guardNode(ls, nodePath);
-      });
+      // ls.on("exit", function() {
+      //   ls = spawn(path.join(nodePath), [
+      //     "--daemon",
+      //     "--rpc_enable",
+      //     "--rpc_enable_control"
+      //   ]);
+      //   sessionStorage.setItem("CanonChainPid", ls.pid);
+      //   self.guardNode(ls, nodePath);
+      // });
     }
   }
 };

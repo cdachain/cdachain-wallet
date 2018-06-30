@@ -26,7 +26,6 @@ const winWidth = process.env.NODE_ENV === 'development' ? (815 + 580) : 815;
 app.on('ready', createWindow);// Called when Electron finishes, initializes and prepares to create a browser window. Some APIs can only be used after this event occurs.
 app.on('window-all-closed', windowAllClose);// Exit when all windows are closed.
 app.on('activate', activateFn);//On OS X, when you click the Dock icon and no other window is open, a window is usually recreated in the application.
-app.on('will-quit', quitFn);//当应用程序正在退出时触发。
 
 function createWindow() {
   // Create browser window
@@ -53,45 +52,19 @@ function createWindow() {
     //   var currentPid = sessionStorage.getItem("CanonChainPid")
     //   process.kill(currentPid);
     // } catch (err) {
-
     // }
-
   })
 
   createMenu()
 }
 
 function windowAllClose() {
-  // if (process.platform !== 'darwin') {
-  //   app.quit()
-  // }
-  // try {
-  //   var currentPid = sessionStorage.getItem("CanonChainPid");
-  //   process.kill(currentPid);
-  // } catch (err) {
-
-  // }
   app.quit()
 }
 function activateFn() {
   if (mainWindow === null) {
     createWindow()
   }
-}
-
-function quitFn(){
-  // var wind= new BrowserWindow({
-  //   width: 300,
-  //   height: 200,
-  //   title:"==="+global.czr_pid+"==="
-  // });
-  // dialog.showMessageBox(wind)
-  // try {
-  //   var currentPid = sessionStorage.getItem("CanonChainPid")
-  //   process.kill(currentPid);
-  // } catch (err) {
-
-  // }
 }
 
 //Solve the production environment can not use copy and paste
