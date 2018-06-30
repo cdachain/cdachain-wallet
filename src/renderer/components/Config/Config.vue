@@ -226,27 +226,29 @@ export default {
         "download",
         this.node_info.binaryVersion.bin
       );
-      console.log("nodePath", nodePath);
       var ls = spawn(nodePath, [
         "--daemon",
         "--rpc_enable",
         "--rpc_enable_control"
       ]);
       this.conMsg = "CanonChain 已经启动 ";
+      sessionStorage.setItem("CanonChainPid", ls.pid);
+      console.log("ls.pid",ls.pid)
+      global.czr_pid=ls.pid;
+      console.log("global",global.czr_pid)
       //进程守护
       this.guardNode(ls, nodePath);
       this.$router.push({ path: "home" });
     },
     guardNode(ls, nodePath) {
       var self = this;
-      console.log("开启守护");
       ls.on("exit", function() {
-        console.log("守护生效拉+++++++");
         ls = spawn(path.join(nodePath), [
           "--daemon",
           "--rpc_enable",
           "--rpc_enable_control"
         ]);
+        sessionStorage.setItem("CanonChainPid", ls.pid);
         self.guardNode(ls, nodePath);
       });
     }
