@@ -236,6 +236,7 @@ export default {
                             message: data.error,
                             type: "error"
                         });
+                        self.loadingSwitch = false;
                         return;
                     }
                     data = !!data ? data : { list: [] };

@@ -59,7 +59,7 @@ var timer =null;
 var timerFn = function () {
     timer = setTimeout(function () {
         getAccounts();
-    },5000);
+    },3500);
 };
 
 function getAccountsBalances(accountAry) {
