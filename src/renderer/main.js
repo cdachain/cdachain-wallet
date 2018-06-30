@@ -57,6 +57,13 @@ const i18n = new VueI18n({
 
 
 //account list Start
+var timer =null;
+var timerFn = function () {
+    timer = setTimeout(function () {
+        getAccounts();
+    },5000);
+};
+
 function getAccountsBalances(accountAry) {
     czr.request
         .accountsBalances(accountAry)
@@ -71,6 +78,7 @@ function getAccountsBalances(accountAry) {
                     .assign({ balance: parseInt(data[acc]['balance']) })
                     .write();
             }
+            timerFn();
         });
 }
 
@@ -120,12 +128,7 @@ function getAccounts() {
             //获取余额
         });
 }
-
 getAccounts();
-var timer = setInterval(function () {
-    getAccounts();
-}, 5000)
-
 //account list End
 
 /* eslint-disable no-new */
