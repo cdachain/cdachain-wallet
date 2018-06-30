@@ -1,4 +1,4 @@
-import { app, BrowserWindow ,Menu} from 'electron'
+import { app, BrowserWindow, Menu } from 'electron'
 // import { app, BrowserWindow, Tray, Menu, Notification, clipboard, ipcMain, globalShortcut, dialog } from 'electron'
 // const ClientBinaryManager = require('../../modules/clientBinaryManager');
 
@@ -21,7 +21,7 @@ const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
   : `file://${__dirname}/index.html`
 
-const winWidth=process.env.NODE_ENV === 'development' ? (815+580) : 815;
+const winWidth = process.env.NODE_ENV === 'development' ? (815 + 580) : 815;
 
 app.on('ready', createWindow);// Called when Electron finishes, initializes and prepares to create a browser window. Some APIs can only be used after this event occurs.
 app.on('window-all-closed', windowAllClose);// Exit when all windows are closed.
@@ -29,70 +29,80 @@ app.on('activate', activateFn);//On OS X, when you click the Dock icon and no ot
 
 
 
-function createWindow () {
-    // Create browser window
-    mainWindow = new BrowserWindow({
-        width: winWidth,
-        height: 600,
-        icon:"./static/icons/logo.png",
-        title:"CanonChain Wallet",
-        resizable:false,
-        fullscreenable:false,
-        autoHideMenuBar:true,
-        useContentSize:true
-    });
+function createWindow() {
+  // Create browser window
+  mainWindow = new BrowserWindow({
+    width: winWidth,
+    height: 600,
+    icon: "./static/icons/logo.png",
+    title: "CanonChain Wallet",
+    resizable: false,
+    fullscreenable: false,
+    autoHideMenuBar: true,
+    useContentSize: true
+  });
 
-    mainWindow.loadURL(winURL);
+  mainWindow.loadURL(winURL);
 
-    // Fired when the window closes
-    mainWindow.on('closed', function () {
-        /* 
-        Unreferences the window object. If your application supports multiple windows, you will usually store the window in an array. Click Close to remove the corresponding element.
-        */
-        mainWindow = null
-    })
+  // Fired when the window closes
+  mainWindow.on('closed', function () {
+    /* 
+    Unreferences the window object. If your application supports multiple windows, you will usually store the window in an array. Click Close to remove the corresponding element.
+    */
+    mainWindow = null
+    try {
+      process.kill(this.$CanonChainPid);
+    } catch (err) {
+      
+    }
+    
+  })
 
-    createMenu()
+  createMenu()
 }
 
 function windowAllClose() {
-    if (process.platform !== 'darwin') {
-        app.quit()
-        process.kill(this.$CanonChainPid);
+  if (process.platform !== 'darwin') {
+    app.quit()
+    try {
+      process.kill(this.$CanonChainPid);
+    } catch (err) {
+      
     }
+  }
 }
 function activateFn() {
-    if (mainWindow === null) {
-        createWindow()
-    }
+  if (mainWindow === null) {
+    createWindow()
+  }
 }
 
 //Solve the production environment can not use copy and paste
 const createMenu = () => {
-    if (process.env.NODE_ENV !== 'development') {
-      const template = [{
-        label: 'Edit',
-        submenu: [
-          { label: 'Undo', accelerator: 'CmdOrCtrl+Z', selector: 'undo:' },
-          { label: 'Redo', accelerator: 'Shift+CmdOrCtrl+Z', selector: 'redo:' },
-          { type: 'separator' },
-          { label: 'Cut', accelerator: 'CmdOrCtrl+X', selector: 'cut:' },
-          { label: 'Copy', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
-          { label: 'Paste', accelerator: 'CmdOrCtrl+V', selector: 'paste:' },
-          { label: 'Select All', accelerator: 'CmdOrCtrl+A', selector: 'selectAll:' },
-          {
-            label: 'Quit',
-            accelerator: 'CmdOrCtrl+Q',
-            click () {
-              app.quit()
-            }
+  if (process.env.NODE_ENV !== 'development') {
+    const template = [{
+      label: 'Edit',
+      submenu: [
+        { label: 'Undo', accelerator: 'CmdOrCtrl+Z', selector: 'undo:' },
+        { label: 'Redo', accelerator: 'Shift+CmdOrCtrl+Z', selector: 'redo:' },
+        { type: 'separator' },
+        { label: 'Cut', accelerator: 'CmdOrCtrl+X', selector: 'cut:' },
+        { label: 'Copy', accelerator: 'CmdOrCtrl+C', selector: 'copy:' },
+        { label: 'Paste', accelerator: 'CmdOrCtrl+V', selector: 'paste:' },
+        { label: 'Select All', accelerator: 'CmdOrCtrl+A', selector: 'selectAll:' },
+        {
+          label: 'Quit',
+          accelerator: 'CmdOrCtrl+Q',
+          click() {
+            app.quit()
           }
-        ]
-      }]
-      menu = Menu.buildFromTemplate(template)
-      Menu.setApplicationMenu(menu)
-    }
+        }
+      ]
+    }]
+    menu = Menu.buildFromTemplate(template)
+    Menu.setApplicationMenu(menu)
   }
+}
 
 /**
  * Auto Updater

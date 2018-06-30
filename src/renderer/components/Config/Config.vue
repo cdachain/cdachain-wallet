@@ -5,13 +5,24 @@
             <p class="config-test">配置检测中…</p>
             <p class="message">{{conMsg}}</p>
         </div>
+        <el-dialog title="版本更新提示" :visible.sync="versionDialogSwitch" width="60%" 
+        :close-on-click-modal="false"
+        :close-on-press-escape="false"
+        :show-close="false"
+        :modal="false">
+            <span>CanonChain Wallet 已经有新版本，当前版本已停用，请至官网下载最新版钱包。</span>
+            <span slot="footer" class="dialog-footer">
+                <!-- <el-button @click="dropOut">退出钱包 </el-button> -->
+                <el-button type="primary" @click="downloadWallet">去官网下载最新版钱包</el-button>
+            </span>
+        </el-dialog>
     </div>
 </template>
 
 <script>
 const fs = require("fs");
 const path = require("path");
-const { remote, app } = require("electron");
+const { remote, app, shell} = require("electron");
 const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
@@ -21,10 +32,12 @@ export default {
     name: "Config",
     data() {
         return {
+            versionDialogSwitch:false,
             latest_config: {},
             local_config: {},
             node_info: {},
             userDataPath: "",
+            walletVer: "0.8.0",
             conMsg: "",
             backgroundImage: "url(" + require("@/assets/img/banner.png") + ")",
             binariesIsDownloaded: false
@@ -35,10 +48,29 @@ export default {
         const APP = process.type === "renderer" ? remote.app : app;
         this.userDataPath = APP.getPath("userData");
         this.initConfig();
-        this.checkForNewConfig();
+        this.validity();
     },
     computed: {},
     methods: {
+        validity() {
+            var self = this;
+            var targeyUrl =
+                "http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json";
+            axios.get(targeyUrl).then(function(response) {
+                var dataInfo = response.data;
+                var remoteVer = dataInfo.clients.CanonChain.version;
+                if (self.walletVer == remoteVer) {
+                    self.checkForNewConfig();
+                } else {
+                    self.versionDialogSwitch=true;
+                }
+            });
+        },
+        dropOut(){
+        },
+        downloadWallet(){
+            shell.openExternal('http://www.canonchain.com/zh-CN')
+        },
         initConfig() {
             var radom = Math.random();
             this.latest_config = {
@@ -203,7 +235,7 @@ export default {
             this.conMsg = "启动 CanonChain";
             var ls;
             if (!this.$CanonChainPid) {
-                //如果已经启动了 
+                //如果已经启动了
                 self.$logger.info("准备启动:" + this.$CanonChainPid);
                 ls = spawn(
                     path.join(
