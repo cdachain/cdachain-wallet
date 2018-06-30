@@ -113,7 +113,8 @@
 
 <script>
 const fs = require("fs");
-import { setInterval ,clearInterval} from "timers";
+import { setInterval, clearInterval } from "timers";
+const { spawn, spawnSync } = require("child_process");
 let self = null;
 
 export default {
@@ -133,11 +134,26 @@ export default {
     },
     created() {
         self = this;
+        var ls;
         this.database = this.$db.get("czr_accounts").value();
         self.initDatabase();
         this.intervalId = setInterval(() => {
             self.initDatabase();
         }, 1500);
+        this.hasPiTimer = setInterval(() => {
+            var currentPid = JSON.parse(
+                sessionStorage.getItem("CanonChainPid")
+            );
+            if (!currentPid) {
+                // //需要再启动Node(未知原因挂了)
+                ls = spawn(sessionStorage.getItem("CanonChainNode"), [
+                    "--daemon",
+                    "--rpc_enable",
+                    "--rpc_enable_control"
+                ]);
+                sessionStorage.setItem("CanonChainPid", ls.pid);
+            }
+        }, 2000);
     },
     computed: {},
     beforeDestroy() {

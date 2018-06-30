@@ -5,11 +5,7 @@
             <p class="config-test">配置检测中…</p>
             <p class="message">{{conMsg}}</p>
         </div>
-        <el-dialog title="版本更新提示" :visible.sync="versionDialogSwitch" width="60%" 
-        :close-on-click-modal="false"
-        :close-on-press-escape="false"
-        :show-close="false"
-        :modal="false">
+        <el-dialog title="版本更新提示" :visible.sync="versionDialogSwitch" width="60%" :close-on-click-modal="false" :close-on-press-escape="false" :show-close="false" :modal="false">
             <span>CanonChain Wallet 已经有新版本，当前版本已停用，请至官网下载最新版钱包。</span>
             <span slot="footer" class="dialog-footer">
                 <!-- <el-button @click="dropOut">退出钱包 </el-button> -->
@@ -22,7 +18,7 @@
 <script>
 const fs = require("fs");
 const path = require("path");
-const { remote, app, shell} = require("electron");
+const { remote, app, shell } = require("electron");
 const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
@@ -32,12 +28,12 @@ export default {
     name: "Config",
     data() {
         return {
-            versionDialogSwitch:false,
+            versionDialogSwitch: false,
             latest_config: {},
             local_config: {},
             node_info: {},
             userDataPath: "",
-            walletVer: "0.8.0",
+            walletVer: "0.1.0",
             conMsg: "",
             backgroundImage: "url(" + require("@/assets/img/banner.png") + ")",
             binariesIsDownloaded: false
@@ -58,18 +54,17 @@ export default {
                 "http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json";
             axios.get(targeyUrl).then(function(response) {
                 var dataInfo = response.data;
-                var remoteVer = dataInfo.clients.CanonChain.version;
-                if (self.walletVer == remoteVer) {
+                var remoteVer = dataInfo.version;
+                if (self.walletVer !== remoteVer) {
                     self.checkForNewConfig();
                 } else {
-                    self.versionDialogSwitch=true;
+                    self.versionDialogSwitch = true;
                 }
             });
         },
-        dropOut(){
-        },
-        downloadWallet(){
-            shell.openExternal('http://www.canonchain.com/zh-CN')
+        dropOut() {},
+        downloadWallet() {
+            shell.openExternal("http://www.canonchain.com/zh-CN");
         },
         initConfig() {
             var radom = Math.random();
@@ -233,10 +228,22 @@ export default {
                 this.node_info.binaryVersion.bin
             );
             this.conMsg = "启动 CanonChain";
+
+            var nodePath = path.join(
+                this.userDataPath,
+                "download",
+                this.node_info.binaryVersion.bin
+            );
+            sessionStorage.setItem("CanonChainNode", nodePath);
+
             var ls;
-            if (!this.$CanonChainPid) {
+            var currentChainPid = JSON.parse(
+                sessionStorage.getItem("CanonChainPid")
+            );
+
+            //如果不存在，就开启
+            if (!currentChainPid) {
                 //如果已经启动了
-                self.$logger.info("准备启动:" + this.$CanonChainPid);
                 ls = spawn(
                     path.join(
                         this.userDataPath,
@@ -245,11 +252,10 @@ export default {
                     ),
                     ["--daemon", "--rpc_enable", "--rpc_enable_control"]
                 );
-                this.$CanonChainPid = ls.pid;
+                sessionStorage.setItem("CanonChainPid", ls.pid);
+                self.$logger.info("准备启动:" + ls.pid);
             } else {
-                self.$logger.info(
-                    "已经运行 CanonChain 不需要再启动 :" + this.$CanonChainPid
-                );
+                self.$logger.info("已经运行 CanonChain 不需要再启动:");
             }
             this.conMsg = "CanonChain 已经启动 ";
             this.$router.push({ path: "home" });

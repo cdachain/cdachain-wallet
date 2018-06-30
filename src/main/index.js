@@ -51,11 +51,14 @@ function createWindow() {
     */
     mainWindow = null
     try {
-      process.kill(this.$CanonChainPid);
+      var currentPid = JSON.parse(
+        sessionStorage.getItem("CanonChainPid")
+      );
+      process.kill(currentPid);
     } catch (err) {
-      
+
     }
-    
+
   })
 
   createMenu()
@@ -65,9 +68,12 @@ function windowAllClose() {
   if (process.platform !== 'darwin') {
     app.quit()
     try {
-      process.kill(this.$CanonChainPid);
+      var currentPid = JSON.parse(
+        sessionStorage.getItem("CanonChainPid")
+      );
+      process.kill(currentPid);
     } catch (err) {
-      
+
     }
   }
 }

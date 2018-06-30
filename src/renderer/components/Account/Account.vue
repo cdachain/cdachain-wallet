@@ -291,7 +291,7 @@ export default {
                         if (
                             _txList[j].hash == _txList[_txList.length - 1].hash
                         ) {
-                            console.log("不能循环拉");
+                            // console.log("不能循环拉");
                             self.pagingSwitch.nextDisabled = true; //释放 后翻
                             break;
                         }

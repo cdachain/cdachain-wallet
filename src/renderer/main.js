@@ -40,8 +40,6 @@ Vue.czr = Vue.prototype.$czr = czr;
 Vue.prototype.$db = db
 Vue.prototype.$logger = logger
 
-Vue.prototype.$CanonChainPid = 0;
-
 
 // Loading i18 language
 const messages = {};
