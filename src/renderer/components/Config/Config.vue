@@ -51,11 +51,12 @@ export default {
         validity() {
             var self = this;
             var targeyUrl =
-                "http://www.canonchain.com/resource/file/canonchain/latest/clientBinaries.json";
+                "http://www.canonchain.com/resource/file/canonchain/latest/czrVersion.json";
             axios.get(targeyUrl).then(function(response) {
                 var dataInfo = response.data;
                 var remoteVer = dataInfo.version;
-                if (self.walletVer !== remoteVer) {
+                //如果钱包版本和远程一致,就继续执行
+                if (self.walletVer == remoteVer) {
                     self.checkForNewConfig();
                 } else {
                     self.versionDialogSwitch = true;
