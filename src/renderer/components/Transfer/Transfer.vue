@@ -189,17 +189,18 @@ export default {
         //确认验证
         validateForm: function() {
             var self = this;
-            //金额为0不可以发
-            // if (!parseFloat(self.amount)) {
-            //     self.$message.error(
-            //         self.$t("page_transfer.msg_info.amount_zero")
-            //     );
-            //     return;
-            // }
 
             if (!self.toAccount) {
                 self.$message.error(
                     self.$t("page_transfer.msg_info.address_null")
+                );
+                return;
+            }
+
+            //金额为0不可以发
+            if (!parseFloat(self.amount)) {
+                self.$message.error(
+                    self.$t("page_transfer.msg_info.amount_zero")
                 );
                 return;
             }
@@ -219,8 +220,6 @@ export default {
                     }
                 });
         },
-
-        //send transaction
         sendTransaction: function() {
             let self = this;
 
