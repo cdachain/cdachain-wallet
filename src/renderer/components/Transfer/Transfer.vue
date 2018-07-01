@@ -28,7 +28,7 @@
 
                     </el-checkbox>
                 </el-form-item>
-                <el-form-item :label="$t('page_transfer.data')">
+                <el-form-item >
                     <el-input type="textarea" :placeholder="$t('page_transfer.data_placeholder')" v-model="extraData"></el-input>
                 </el-form-item>
 
