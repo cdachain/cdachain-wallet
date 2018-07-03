@@ -51,7 +51,9 @@ export default {
     validity() {
       var self = this;
       var targeyUrl =
-        "http://www.canonchain.com/resource/file/canonchain/latest/czrVersion.json";
+        "http://www.canonchain.com/resource/file/canonchain/latest/czrVersion.json" +
+          "?radom=" +
+          radom
       axios.get(targeyUrl).then(function(response) {
         var dataInfo = response.data;
         var remoteVer = dataInfo.version;
