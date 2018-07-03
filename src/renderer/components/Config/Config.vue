@@ -33,7 +33,7 @@ export default {
       local_config: {},
       node_info: {},
       userDataPath: "",
-      walletVer: "0.1.0",
+      walletVer: "0.1.1",
       conMsg: "",
       backgroundImage: "url(" + require("@/assets/img/banner.png") + ")",
       binariesIsDownloaded: false
