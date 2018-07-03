@@ -50,6 +50,7 @@ export default {
   methods: {
     validity() {
       var self = this;
+      var radom = Math.random();
       var targeyUrl =
         "http://www.canonchain.com/resource/file/canonchain/latest/czrVersion.json" +
           "?radom=" +
