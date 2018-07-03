@@ -116,7 +116,6 @@ const fs = require("fs");
 import { setInterval, clearInterval } from "timers";
 const { spawn, spawnSync } = require("child_process");
 let self = null;
-
 export default {
     name: "Bodyer",
     data() {
@@ -140,6 +139,12 @@ export default {
         this.intervalId = setInterval(() => {
             self.initDatabase();
         }, 1500);
+
+        //getAccounts();
+        self.getAccounts();
+        this.getAccountTimer = setInterval(() => {
+            self.getAccounts();
+        }, 3500);
     },
     computed: {},
     beforeDestroy() {
@@ -388,8 +393,76 @@ export default {
                         self.$message.error(self.$t(data.error));
                     }
                 });
-        }
+        },
         // Remove End
+
+        //get Account start
+        getAccountsBalances(accountAry) {
+            self.$czr.request
+                .accountsBalances(accountAry)
+                .then(function(data) {
+                    return data.balances;
+                })
+                .then(function(data) {
+                    for (var acc in data) {
+                        self.$db
+                            .read()
+                            .get("czr_accounts")
+                            .find({ address: acc })
+                            .assign({ balance: parseInt(data[acc]["balance"]) })
+                            .write();
+                    }
+                });
+        },
+        getAccounts() {
+            self.$czr.request
+                .accountList()
+                .then(function(data) {
+                    return data.accounts;
+                })
+                .then(function(data) {
+                    if (data == "") {
+                        data = [];
+                    }
+                    //先把本地数据库存在，但是 data 里不存在的账户 删除
+                    var database = self.$db.get("czr_accounts").value();
+                    var databaseAry = [];
+                    var localAcc;
+                    for (var i = 0; i < database.length; i++) {
+                        localAcc = database[i];
+                        if (data.indexOf(localAcc.address) < 0) {
+                            //不存在
+                            self.$db
+                                .get("czr_accounts")
+                                .remove({ address: localAcc.address })
+                                .write();
+                            i--;
+                        } else {
+                            databaseAry.push(localAcc.address);
+                        }
+                    }
+
+                    var flagLeng = databaseAry.length;
+                    data.forEach((reqAry, index) => {
+                        if (databaseAry.indexOf(reqAry) < 0) {
+                            //数据库不存 在
+                            let params = {
+                                address: reqAry,
+                                tag: "账号-" + ++flagLeng,
+                                balance: 0
+                            };
+                            self.$db
+                                .get("czr_accounts")
+                                .push(params)
+                                .write();
+                        }
+                    });
+                    //再把data中有，但是数据库里没有的账户添 加
+                    self.getAccountsBalances(data);
+                    //获取余额
+                });
+        }
+        //get Account End
     },
     filters: {
         toCzrVal: function(val) {
