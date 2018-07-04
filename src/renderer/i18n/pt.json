@@ -1,8 +1,8 @@
 {
-    "confirm":"Confirmação",
-    "cancel":"Cancelamento",
+    "confirm":"Confirmar",
+    "cancel":"Cancelar",
     "dialog_tit":"Prompt",
-    "close":"Fechado",
+    "close":"Fechar",
     "confirm_you_active":"Por favor, confirme sua operação",
     "unit": {
         "czr":"CZR"
@@ -10,21 +10,22 @@
     "model_header": {
         "home":"Home",
         "transfer":"Transferir",
-        "contacts":"Contatos",
-        "setting":"Configurações",
-        "total":"Total"
+        "contacts":"Entre em contato",
+        "setting":"Configuração",
+        "total":"Total",
+        "testnet":"Rede de teste"
     },
     "page_setting": {
-        "tit":"Configurações",
+        "tit":"Configuração",
         "lang":"Idioma",
-        "select":"Por favor selecione"
+        "select":"Por favor escolha"
     },
     "page_contacts": {
-        "tit":"Contatos",
+        "tit":"Entre em contato",
         "add_dialog":"Novo contato",
         "add_cont": {
             "tit":"Novo contato",
-            "tag":"Contatos",
+            "tag":"Entre em contato",
             "address":"Endereço da conta",
             "tag_placeholder":"Por favor, digite o nome do contato",
             "address_placeholder":"Por favor insira o endereço da conta do contato"
@@ -33,8 +34,8 @@
             "title":"Você está removendo"
         },
         "msg_info": {
-            "no_tag":"Por favor insira o nome da conta",
-            "no_address":"Por favor insira o endereço da conta",
+            "no_tag":"Por favor insira uma nota de conta",
+            "no_address":"Por favor insira o endereço da sua conta",
             "valid_address":"O endereço do contato é ilegal",
             "exist":"O contato já existe"
         }
@@ -44,14 +45,14 @@
         "to_address":"Para",
         "amount":"Quantidade",
         "send_all":"Enviar tudo",
-        "data":"Data",
+        "data":"Dados",
         "data_placeholder":"Dados hexadecimais",
-        "fees":"Taxas",
+        "fees":"Taxa de manuseio",
         "total":"Total",
-        "select":"Por favor selecione",
-        "no_account_info":"Nenhuma conta, por favor crie ou importe conta",
+        "select":"Por favor escolha",
+        "no_account_info":"Ainda não tem conta, por favor crie ou importe uma conta",
         "contacts_dig": {
-            "select_placeholder":"Por favor selecione"
+            "select_placeholder":"Por favor escolha"
         },
         "confirm_dia": {
             "title":"Por favor confirme",
@@ -60,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"A análise da carteira falhou, pode ser um erro de senha",
-            "amount_zero":"Saldo insuficiente para continuar",
-            "address_null":"Por favor insira a conta",
-            "address_err":"Formato de endereço de entrada é ilegal",
-            "send_success":"Envie sucesso",
-            "send_error":"Falha na transação: verifique se há saldo suficiente e taxa do mineiro"
+            "amount_zero":"Saldo insuficiente, incapaz de continuar",
+            "address_null":"Por favor, insira a conta da outra parte",
+            "address_err":"O formato do endereço transferido é inválido.",
+            "send_success":"Enviado com sucesso",
+            "send_error":"Falha na transação: verifique se há saldo suficiente e taxa de mineração"
         }
     },
     "page_account": {
-        "transfer_log":"Histórico de transações",
+        "transfer_log":"Registro de transação",
         "transfer_log_null":"Nenhum histórico de transações",
         "active_icon": {
-            "go_transfer":"Iniciar transferência",
+            "go_transfer":"Iniciar uma transferência",
             "import_keystore":"Arquivo de conta",
             "qrcode":"Código QR"
         },
@@ -82,9 +83,9 @@
         "dia_tx":{
             "tit":"Informações de transação",
             "block_hash":"Número da transação",
-            "status":"Status",
-            "from":"Remetente",
-            "to":"Receptor",
+            "status":"Estado",
+            "from":"Festa de envio",
+            "to":"Beneficiário",
             "amount":"Quantidade",
             "data":"Os dados",
             "send_time":"Tempo de envio",
@@ -92,12 +93,12 @@
         },
         "keystore": {
             "tit":"Arquivo de carteira de backup",
-            "copy":"Duplicar",
+            "copy":"Copiar",
             "download":"Baixar arquivo de carteira"
         },
         "msg_info": {
             "ads_copy_success":"Endereço foi copiado",
-            "key_copy_success":"Copiado com sucesso"
+            "key_copy_success":"Cópia bem sucedida"
         }
     },
     "page_home": {
@@ -107,44 +108,50 @@
         "create_dia": {
             "create_tit":"Crie uma conta",
             "backup_tit":"Faça backup de sua nova conta",
-            "create_tag":"Nome da conta",
+            "create_tag":"Nota da conta",
             "create_pwd":"Definir senha",
             "create_repwd":"Confirme a senha",
-            "placeholder_tag":"Por favor, defina o nome da conta",
+            "placeholder_tag":"Por favor, defina o nome da nota da conta",
             "placeholder_pwd":"Por favor, defina a senha da conta",
             "placeholder_repwd":"Por favor, confirme a senha da conta",
-            "strong_password":"Digite uma senha com pelo menos 8 dígitos",
-            "account_address":"Conta",
-            "account_privateKey":"Chave privada",
-            "account_download_keystore":"Faça o download do arquivo da conta"
+            
+            
+            "account_download_keystore":"Faça o download do arquivo da conta",
+
+            "validate_tag":"Por favor insira o nome da nota da conta",
+            "validate_tag_length":"O nome do nome da nota não pode ser maior que 8 caracteres.",
+
+            "validate_password":"Por favor insira a senha que você definiu",
+            "validate_re_password":"Por favor, digite a senha que você definiu novamente",
+            "validate_strong_password":"Por favor digite uma senha de pelo menos 8 dígitos",
+            "validate_password_length":"Senha inconsistente digitada duas vezes",
+
+            "create_success":"Criado com sucesso",
+            "create_success_des":"Por favor, salve seu arquivo de conta e não o compartilhe com ninguém!"
         },
         "import_dia": {
             "tit":"Importar conta",    
             "placeholder_keystore":"Por favor arraste o arquivo da conta aqui",
-            "create_tag":"Nome da conta",
-            "placeholder_tag":"Por favor, defina o nome da conta"
+            "create_tag":"Nota da conta",
+            "placeholder_tag":"Por favor, defina o nome da nota da conta",
+
+            "validate_tag":"Por favor insira o nome da nota da conta",
+            "validate_tag_length":"O nome do nome da nota não pode ser maior que 8 caracteres.",
+            "validate_enter_keystore":"Por favor, importe o arquivo da conta primeiro",
+            "validate_error_keystore":"A importação de conta falhou, pode ser um erro no arquivo de conta",
+            "imported_account_success":"Importado com sucesso",
+            "exist":"Esta conta já existe, a nota é",
+            "keystore_error":"Erro:",
+            "imported_success":"Importar arquivo com sucesso"
         },
         "remove_dia": {
             "tit":"Tem certeza de que deseja removê-lo?",
             "remove_confrim":"Tenho certeza de remover",
-            "backup":"Por favor, observe o backup desta conta para evitar danos à propriedade.",
+            "backup":"Por favor, preste atenção ao backup desta conta para evitar danos à propriedade.",
             "input_pwd":"Senha",
-            "placeholder_pwd":"Por favor insira a senha para esta conta"
-        },
-        "msg_info": {
-            "exist":"Esta conta já existe, o nome é",
-            "enter_password":"Por favor digite sua senha",
-            "incons_password":"A senha digitada duas vezes é inconsistente",
-            "error":"Erro:",
-            "imported_success":"Importar arquivo com sucesso",
-            "imported_account_success":"Importado com sucesso",
-            "enter_private":"Por favor insira a chave",
-            "error_keystore":"Falha ao importar a conta, pode ser um erro no arquivo da conta",
-            "enter_keystore":"Por favor, importe o arquivo da conta primeiro",
-            "error_password":"Falha ao importar conta, pode ser uma senha errada",
-            "remove_success":"Removido com sucesso",
-            "create_success":"Criado com sucesso",
-            "save":"Por favor, salve seu arquivo de conta e não o compartilhe com ninguém!"
+            "placeholder_pwd":"Por favor insira a senha para esta conta",
+            "validate_password":"Por favor insira a senha da conta",
+            "remove_success":"Removido com sucesso"
         }
     }
 }

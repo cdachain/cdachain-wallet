@@ -1,8 +1,8 @@
 {
-    "confirm":"Konfirmo",
-    "cancel":"Nuligo",
+    "confirm":"Konfirmu",
+    "cancel":"Nuligi",
     "dialog_tit":"Prompt",
-    "close":"Fermita",
+    "close":"Fermi",
     "confirm_you_active":"Bonvolu konfirmi vian operacion",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Hejmo",
         "transfer":"Translokigo",
-        "contacts":"Kontaktoj",
-        "setting":"Agordoj",
+        "contacts":"Kontakto",
+        "setting":"Agordo",
         "total":"Tuta",
         "testnet":"Testa reto"
     },
     "page_setting": {
-        "tit":"Agordoj",
+        "tit":"Agordo",
         "lang":"Lingvo",
         "select":"Bonvolu elekti"
     },
     "page_contacts": {
-        "tit":"Kontaktoj",
+        "tit":"Kontakto",
         "add_dialog":"Nova kontakto",
         "add_cont": {
             "tit":"Nova kontakto",
-            "tag":"Kontaktoj",
+            "tag":"Kontakto",
             "address":"Konta adreso",
             "tag_placeholder":"Bonvolu eniri la nomon de la kontakto",
             "address_placeholder":"Bonvolu eniri la adreson de kontakto de la kontakto"
@@ -34,23 +34,23 @@
             "title":"Vi forigas"
         },
         "msg_info": {
-            "no_tag":"Bonvolu enmeti la kontonnomon",
-            "no_address":"Bonvolu eniri la adreson",
+            "no_tag":"Bonvolu enmeti konton-noton",
+            "no_address":"Bonvolu eniri vian adreson",
             "valid_address":"La adreso de la kontakto estas neleĝa",
             "exist":"La kontakto jam ekzistas,"
         }
     },
     "page_transfer": {
         "from_address":"Translokiĝi",
-        "to_address":"Into",
+        "to_address":"Translokigo",
         "amount":"Kvanto",
         "send_all":"Sendu ĉion",
-        "data":"Dato",
+        "data":"Datumoj",
         "data_placeholder":"Heksadektemaj datumoj",
-        "fees":"Kotizoj",
+        "fees":"Pritraktanta kotizon",
         "total":"Tuta",
         "select":"Bonvolu elekti",
-        "no_account_info":"Neniu konto, bonvolu krei aŭ importi konton",
+        "no_account_info":"Ankoraŭ neniu konton, bonvolu krei aŭ importi konton",
         "contacts_dig": {
             "select_placeholder":"Bonvolu elekti"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
         },
         "msg_info": {
-            "decrypt_err":"Malkrapa prizorgado malsukcesis, eble pasvorto eraro",
-            "amount_zero":"Ne sufiĉa ekvilibro por daŭrigi",
-            "address_null":"Bonvolu eniri la konton",
-            "address_err":"La formato de venonta adreso estas neleĝa",
-            "send_success":"Sendu sukceson",
-            "send_error":"Transakcio malsukcesis: Bonvolu kontroli ĉu estas sufiĉa ekvilibro kaj la salajro de la ministo"
+            "decrypt_err":"Malkrapa analizo malsukcesis, ĝi eble povas esti pasvorta eraro",
+            "amount_zero":"Ne sufiĉa ekvilibro, nekapabla daŭrigi",
+            "address_null":"Bonvolu eniri la konton de la alia partio",
+            "address_err":"La formato de la translokita adreso estas nevalida.",
+            "send_success":"Sukcese sendis",
+            "send_error":"Transakcio malsukcesis: bonvolu kontroli ĉu ekzistas sufiĉa ekvilibro kaj ministo-kotizo"
         }
     },
     "page_account": {
-        "transfer_log":"Transakcio-historio",
+        "transfer_log":"Transakcio-rekordo",
         "transfer_log_null":"Neniu transakcia historio",
         "active_icon": {
-            "go_transfer":"Komenca translokigo",
+            "go_transfer":"Komenci translokigon",
             "import_keystore":"Konta dosiero",
             "qrcode":"QR-kodo"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Informo pri transakcio",
             "block_hash":"Numero de transakcio",
-            "status":"Statuso",
-            "from":"Sendinto",
-            "to":"Ricevilo",
+            "status":"Ŝtato",
+            "from":"Sendante partio",
+            "to":"Pagu",
             "amount":"Kvanto",
-            "data":"La datumoj",
+            "data":"Datumoj",
             "send_time":"Sendante tempon",
             "mac_time":"Ĉefa reto tempo"
         },
         "keystore": {
             "tit":"Rezerva barata dosiero",
-            "copy":"Dupliku",
+            "copy":"Kopiu",
             "download":"Elŝuti monujo-dosieron"
         },
         "msg_info": {
             "ads_copy_success":"Direkto estis kopiita",
-            "key_copy_success":"Sukcese kopiis"
+            "key_copy_success":"Sukcesa kopio"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Krei konton",
             "backup_tit":"Subtenu vian novan konton",
-            "create_tag":"Konto nomo",
+            "create_tag":"Rimarko",
             "create_pwd":"Ŝanĝu pasvorton",
             "create_repwd":"Konfirmu pasvorton",
-            "placeholder_tag":"Bonvolu agordi nomon",
-            "placeholder_pwd":"Bonvolu agordi pasvorton",
+            "placeholder_tag":"Bonvolu agordi la konton",
+            "placeholder_pwd":"Bonvolu agordi la konton-pasvorton",
             "placeholder_repwd":"Bonvolu konfirmi la konton-pasvorton",
-            "strong_password":"Enmetu pasvorton de almenaŭ 8 ciferoj",
-            "account_address":"Konto",
-            "account_privateKey":"Privata ŝlosilo",
-            "account_download_keystore":"Elŝuti konto-dosieron"
+            
+            
+            "account_download_keystore":"Elŝuti konto-dosieron",
+
+            "validate_tag":"Bonvolu enmeti la konton-nomon",
+            "validate_tag_length":"La nomo de la nota nomo ne povas esti pli ol 8 karakteroj.",
+
+            "validate_password":"Bonvolu enmeti la pasvorton, kiun vi starigis",
+            "validate_re_password":"Bonvolu enmeti la pasvorton, kiun vi starigis denove",
+            "validate_strong_password":"Bonvolu enmeti pasvorton de almenaŭ 8 ciferoj",
+            "validate_password_length":"Nekonforma pasvorto eniris dufoje",
+
+            "create_success":"Kreita sukcese",
+            "create_success_des":"Bonvolu konservi vian konton-dosieron kaj ne dividu ĝin kun iu ajn!"
         },
         "import_dia": {
             "tit":"Importi konton",    
             "placeholder_keystore":"Bonvolu treni la konton-dosieron ĉi tie",
-            "create_tag":"Konto nomo",
-            "placeholder_tag":"Bonvolu agordi nomon"
+            "create_tag":"Rimarko",
+            "placeholder_tag":"Bonvolu agordi la konton",
+
+            "validate_tag":"Bonvolu enmeti la konton-nomon",
+            "validate_tag_length":"La nomo de la nota nomo ne povas esti pli ol 8 karakteroj.",
+            "validate_enter_keystore":"Bonvolu importi la konton-dosieron unue",
+            "validate_error_keystore":"Kalkulita importado malsukcesis, eble estu dosiero eraro",
+            "imported_account_success":"Sukcese importita",
+            "exist":"Ĉi tiu konto jam ekzistas, la noto estas",
+            "keystore_error":"Eraro:",
+            "imported_success":"Importi dosieron sukcese"
         },
         "remove_dia": {
             "tit":"Ĉu vi certas, ke vi volas forigi ĝin?",
             "remove_confrim":"Mi certe forigas",
-            "backup":"Bonvolu noti la rezervon de ĉi tiu konto por eviti nemoveblaĵojn",
+            "backup":"Bonvolu prunti atenton al la rezervo de ĉi tiu konto por eviti nemoveblaĵojn.",
             "input_pwd":"Pasvorto",
-            "placeholder_pwd":"Bonvolu enmeti la pasvorton por ĉi tiu konto"
-        },
-        "msg_info": {
-            "exist":"Ĉi tiu konto jam ekzistas, la nomo estas",
-            "enter_password":"Bonvolu enmeti vian pasvorton",
-            "incons_password":"La pasvorto enirita dufoje estas nekonsistente",
-            "error":"Eraro:",
-            "imported_success":"Importi dosieron sukcese",
-            "imported_account_success":"Importita sukcese",
-            "enter_private":"Bonvolu enmeti la ŝlosilon",
-            "error_keystore":"Malsukcesis importi konton, ĝi eble estas kontenta dosiero eraro",
-            "enter_keystore":"Bonvolu importi la konton-dosieron unue",
-            "error_password":"Malsukcesis importi konton, eble ĝi estas malĝusta pasvorto",
-            "remove_success":"Forigita sukcese",
-            "create_success":"Kreita sukcese",
-            "save":"Bonvolu konservi vian konton-dosieron kaj ne dividu ĝin kun iu ajn!"
+            "placeholder_pwd":"Bonvolu enmeti la pasvorton por ĉi tiu konto",
+            "validate_password":"Bonvolu enmeti la pasvorton por la konto",
+            "remove_success":"Sukcese forigita"
         }
     }
 }

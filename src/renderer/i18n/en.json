@@ -11,12 +11,12 @@
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Contacts",
-        "setting":"Settings",
+        "setting":"Setting",
         "total":"total",
         "testnet":"Test network"
     },
     "page_setting": {
-        "tit":"Settings",
+        "tit":"Setting",
         "lang":"Language",
         "select":"please choose"
     },
@@ -27,16 +27,16 @@
             "tit":"New contact",
             "tag":"Contacts",
             "address":"Account address",
-            "tag_placeholder":"Please enter the contact's name",
+            "tag_placeholder":"Please enter the name of the contact",
             "address_placeholder":"Please enter the contact's account address"
         },
         "delete_dialog": {
             "title":"You are removing"
         },
         "msg_info": {
-            "no_tag":"Please enter the account name",
-            "no_address":"Please enter the account address",
-            "valid_address":"The contact's address is illegal",
+            "no_tag":"Please enter an account note",
+            "no_address":"Please enter your account address",
+            "valid_address":"The address of the contact is illegal",
             "exist":"The contact already exists,"
         }
     },
@@ -45,12 +45,12 @@
         "to_address":"Into",
         "amount":"Amount",
         "send_all":"Send all",
-        "data":"Date",
+        "data":"Data",
         "data_placeholder":"Hexadecimal data",
         "fees":"Fees",
         "total":"total",
         "select":"please choose",
-        "no_account_info":"No account, please create or import account",
+        "no_account_info":"No account yet, please create or import account",
         "contacts_dig": {
             "select_placeholder":"please choose"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Please enter your password"
         },
         "msg_info": {
-            "decrypt_err":"Wallet parsing failed, may be a password error",
-            "amount_zero":"Insufficient balance to continue",
-            "address_null":"Please enter the account",
-            "address_err":"Incoming address format is illegal",
+            "decrypt_err":"Wallet parsing failed, it may be a password error",
+            "amount_zero":"Insufficient balance, unable to continue",
+            "address_null":"Please enter the other party's account",
+            "address_err":"The format of the transferred address is invalid.",
             "send_success":"Sent successfully",
-            "send_error":"Transaction failed: Please check if there is sufficient balance and miner’s fee"
+            "send_error":"Transaction failed: please check if there is sufficient balance and miner fee"
         }
     },
     "page_account": {
         "transfer_log":"Transaction Record",
         "transfer_log_null":"No transaction history",
         "active_icon": {
-            "go_transfer":"Initiate transfer",
+            "go_transfer":"Initiate a transfer",
             "import_keystore":"Account file",
             "qrcode":"QR code"
         },
@@ -84,7 +84,7 @@
             "tit":"Trading Information",
             "block_hash":"Transaction number",
             "status":"status",
-            "from":"Sender",
+            "from":"Sending party",
             "to":"Beneficiary",
             "amount":"Amount",
             "data":"data",
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Address has been copied",
-            "key_copy_success":"Successfully copied"
+            "key_copy_success":"Successful copy"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"create Account",
             "backup_tit":"Back up your new account",
-            "create_tag":"account name",
+            "create_tag":"Account note",
             "create_pwd":"set password",
             "create_repwd":"confirm password",
-            "placeholder_tag":"Please set account name",
-            "placeholder_pwd":"Please set account password",
+            "placeholder_tag":"Please set the account note name",
+            "placeholder_pwd":"Please set the account password",
             "placeholder_repwd":"Please confirm the account password",
-            "strong_password":"Enter a password of at least 8 digits",
-            "account_address":"Account",
-            "account_privateKey":"Private key",
-            "account_download_keystore":"Download account file"
+            
+            
+            "account_download_keystore":"Download account file",
+
+            "validate_tag":"Please enter the account note name",
+            "validate_tag_length":"Memo name cannot be longer than 8 characters",
+
+            "validate_password":"Please enter the password you set",
+            "validate_re_password":"Please enter the password you set again",
+            "validate_strong_password":"Please enter a password of at least 8 digits",
+            "validate_password_length":"Inconsistent password entered twice",
+
+            "create_success":"Created successfully",
+            "create_success_des":"Please save your account file and don't share it with anyone!"
         },
         "import_dia": {
             "tit":"Import account",    
             "placeholder_keystore":"Please drag the account file here",
-            "create_tag":"account name",
-            "placeholder_tag":"Please set account name"
+            "create_tag":"Account note",
+            "placeholder_tag":"Please set the account note name",
+
+            "validate_tag":"Please enter the account note name",
+            "validate_tag_length":"Memo name cannot be longer than 8 characters",
+            "validate_enter_keystore":"Please import the account file first",
+            "validate_error_keystore":"Account import failed, may be account file error",
+            "imported_account_success":"Successfully imported",
+            "exist":"This account already exists, the note is",
+            "keystore_error":"error:",
+            "imported_success":"Import file successfully"
         },
         "remove_dia": {
             "tit":"Are you sure you want to remove it?",
             "remove_confrim":"I am sure to remove",
-            "backup":"Please note the backup of this account to avoid property damage",
+            "backup":"Please pay attention to the backup of this account to avoid property damage.",
             "input_pwd":"password",
-            "placeholder_pwd":"Please enter the password for this account"
-        },
-        "msg_info": {
-            "exist":"This account already exists, the name is",
-            "enter_password":"Please enter your password",
-            "incons_password":"The password entered twice is inconsistent",
-            "error":"error:",
-            "imported_success":"Import file successfully",
-            "imported_account_success":"Imported successfully",
-            "enter_private":"Please enter the key",
-            "error_keystore":"Failed to import account, it may be an account file error",
-            "enter_keystore":"Please import the account file first",
-            "error_password":"Failed to import account, it may be a wrong password",
-            "remove_success":"Removed successfully",
-            "create_success":"Created successfully",
-            "save":"Please save your account file and don't share it with anyone!"
+            "placeholder_pwd":"Please enter the password for this account",
+            "validate_password":"Please enter the password for the account",
+            "remove_success":"Successfully removed"
         }
     }
 }

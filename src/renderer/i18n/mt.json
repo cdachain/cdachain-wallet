@@ -1,8 +1,8 @@
 {
-    "confirm":"Konferma",
-    "cancel":"Kanċellazzjoni",
+    "confirm":"Ikkonferma",
+    "cancel":"Ikkanċella",
     "dialog_tit":"Pront",
-    "close":"Magħluq",
+    "close":"Agħlaq",
     "confirm_you_active":"Jekk jogħġbok ikkonferma l-operazzjoni tiegħek",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Dar",
         "transfer":"Trasferiment",
-        "contacts":"Kuntatti",
-        "setting":"Settings",
+        "contacts":"Kuntatt",
+        "setting":"Twaqqif",
         "total":"Totali",
         "testnet":"Netwerk tat-test"
     },
     "page_setting": {
-        "tit":"Settings",
+        "tit":"Twaqqif",
         "lang":"Lingwa",
         "select":"Jekk jogħġbok agħżel"
     },
     "page_contacts": {
-        "tit":"Kuntatti",
+        "tit":"Kuntatt",
         "add_dialog":"Kuntatt ġdid",
         "add_cont": {
             "tit":"Kuntatt ġdid",
-            "tag":"Kuntatti",
+            "tag":"Kuntatt",
             "address":"L-indirizz tal-kont",
             "tag_placeholder":"Jekk jogħġbok ikteb l-isem tal-kuntatt",
             "address_placeholder":"Jekk jogħġbok idħol l-indirizz tal-kont tal-kuntatt"
@@ -34,23 +34,23 @@
             "title":"Int qed tneħħi"
         },
         "msg_info": {
-            "no_tag":"Jekk jogħġbok daħħal l-isem tal-kont",
-            "no_address":"Jekk jogħġbok daħħal l-indirizz tal-kont",
+            "no_tag":"Jekk jogħġbok daħħal in-nota tal-kont",
+            "no_address":"Jekk jogħġbok idħol l-indirizz tal-kont tiegħek",
             "valid_address":"L-indirizz tal-kuntatt huwa illegali",
             "exist":"Il-kuntatt diġà jeżisti,"
         }
     },
     "page_transfer": {
         "from_address":"Trasferiment barra",
-        "to_address":"Into",
+        "to_address":"Trasferiment",
         "amount":"Ammont",
         "send_all":"Ibgħat kollha",
-        "data":"Data",
+        "data":"Dejta",
         "data_placeholder":"Dejta hexadecimali",
-        "fees":"Drittijiet",
+        "fees":"Ħlas għall-immaniġġjar",
         "total":"Totali",
         "select":"Jekk jogħġbok agħżel",
-        "no_account_info":"L-ebda kont, jekk joħolqu jew jimportaw il-kont",
+        "no_account_info":"Għad m'hemmx kont, jekk jogħġbok toħloq jew timporta kont",
         "contacts_dig": {
             "select_placeholder":"Jekk jogħġbok agħżel"
         },
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
-            "amount_zero":"Bilanċ insuffiċjenti biex titkompla",
-            "address_null":"Jekk jogħġbok daħħal il-kont",
-            "address_err":"Il-format ta 'l-indirizz li jmiss huwa illegali",
-            "send_success":"Ibgħat suċċess",
-            "send_error":"Tranżizzjoni naqset: Jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u l-miżata tal-minatur"
+            "amount_zero":"Bilanċ insuffiċjenti, li ma jistax ikompli",
+            "address_null":"Jekk jogħġbok ikteb il-kont tal-parti l-oħra",
+            "address_err":"Il-format tal-indirizz ittrasferit huwa invalidu.",
+            "send_success":"Messaġġ mibgħut b'suċċess",
+            "send_error":"In-nuqqas ta 'transazzjoni: jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u miżata ta' minaturi"
         }
     },
     "page_account": {
-        "transfer_log":"L-istorja tat-tranżazzjoni",
+        "transfer_log":"Rekord tat-tranżazzjoni",
         "transfer_log_null":"L-ebda storja ta 'transazzjoni",
         "active_icon": {
-            "go_transfer":"Ibda t-trasferiment",
+            "go_transfer":"Ibda trasferiment",
             "import_keystore":"Fajl ta 'kont",
             "qrcode":"Kodiċi QR"
         },
@@ -83,17 +83,17 @@
         "dia_tx":{
             "tit":"Informazzjoni dwar it-tranżazzjonijiet",
             "block_hash":"In-numru tat-tranżazzjoni",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Riċevitur",
+            "status":"Stat",
+            "from":"Parti li tibgħat",
+            "to":"Payee",
             "amount":"Ammont",
-            "data":"Id-data",
+            "data":"Dejta",
             "send_time":"Ħin li jintbagħat",
             "mac_time":"Żmien ewlieni tan-netwerk"
         },
         "keystore": {
             "tit":"Fajl ta 'portafoll ta' riżerva",
-            "copy":"Duplikat",
+            "copy":"Kopja",
             "download":"Niżżel il-fajl tal-kartiera"
         },
         "msg_info": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Oħloq kont",
             "backup_tit":"Iffrankar il-kont il-ġdid tiegħek",
-            "create_tag":"Isem tal-kont",
+            "create_tag":"Nota tal-kont",
             "create_pwd":"Set password",
             "create_repwd":"Ikkonferma l-password",
-            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont",
+            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont nota",
             "placeholder_pwd":"Jekk jogħġbok issettja l-password tal-kont",
             "placeholder_repwd":"Jekk jogħġbok ikkonferma l-password tal-kont",
-            "strong_password":"Daħħal password ta 'mill-inqas 8 ċifri",
-            "account_address":"Kont",
-            "account_privateKey":"Ċavetta privata",
-            "account_download_keystore":"Fajl tal-kont Download"
+            
+            
+            "account_download_keystore":"Fajl tal-kont Download",
+
+            "validate_tag":"Jekk jogħġbok daħħal l-isem tal-kont tal-kont",
+            "validate_tag_length":"L-isem tal-memo ma jistax ikun itwal minn 8 karattri",
+
+            "validate_password":"Jekk jogħġbok daħħal il-password li ssettja",
+            "validate_re_password":"Jekk jogħġbok daħħal il-password li tissettja mill-ġdid",
+            "validate_strong_password":"Jekk jogħġbok daħħal password ta 'mill-inqas 8 ċifri",
+            "validate_password_length":"Il-password inkonsistenti daħal darbtejn",
+
+            "create_success":"Maħluq b'suċċess",
+            "create_success_des":"Jekk jogħġbok salva l-fajl tal-kont tiegħek u ma taqsamha ma 'ħaddieħor!"
         },
         "import_dia": {
             "tit":"Kont ta 'importazzjoni",    
             "placeholder_keystore":"Jekk jogħġbok drag il-fajl tal-kont hawn",
-            "create_tag":"Isem tal-kont",
-            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont"
+            "create_tag":"Nota tal-kont",
+            "placeholder_tag":"Jekk jogħġbok issettja l-isem tal-kont nota",
+
+            "validate_tag":"Jekk jogħġbok daħħal l-isem tal-kont tal-kont",
+            "validate_tag_length":"L-isem tal-memo ma jistax ikun itwal minn 8 karattri",
+            "validate_enter_keystore":"Jekk jogħġbok importa l-fajl tal-kont l-ewwel",
+            "validate_error_keystore":"L-importazzjoni tal-kont falliet, tista 'tkun żball fil-fajl tal-kont",
+            "imported_account_success":"Importat b'suċċess",
+            "exist":"Dan il-kont diġà jeżisti, in-nota hija",
+            "keystore_error":"Żball:",
+            "imported_success":"Importa fajl b'suċċess"
         },
         "remove_dia": {
             "tit":"Int żgur li trid tneħħih?",
             "remove_confrim":"Jiena ċert li tneħħi",
-            "backup":"Jekk jogħġbok innota l-backup ta 'dan il-kont biex tevita ħsara fil-proprjetà",
+            "backup":"Jekk jogħġbok agħti attenzjoni fuq il-backup ta 'dan il-kont biex tevita ħsara fil-proprjetà.",
             "input_pwd":"Password",
-            "placeholder_pwd":"Jekk jogħġbok daħħal il-password għal dan il-kont"
-        },
-        "msg_info": {
-            "exist":"Dan il-kont diġà jeżisti, l-isem huwa",
-            "enter_password":"Jekk jogħġbok daħħal il-password tiegħek",
-            "incons_password":"Il-password mdaħħla darbtejn hija inkonsistenti",
-            "error":"Żball:",
-            "imported_success":"Importa fajl b'suċċess",
-            "imported_account_success":"Importat b'suċċess",
-            "enter_private":"Jekk jogħġbok daħħal iċ-ċavetta",
-            "error_keystore":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun żball fil-fajl tal-kont",
-            "enter_keystore":"Jekk jogħġbok importa l-fajl tal-kont l-ewwel",
-            "error_password":"Fin-nuqqas ta 'kont ta' importazzjoni, jista 'jkun password ħażina",
-            "remove_success":"Mneħħija b'suċċess",
-            "create_success":"Maħluq b'suċċess",
-            "save":"Jekk jogħġbok salva l-fajl tal-kont tiegħek u ma taqsamha ma 'ħaddieħor!"
+            "placeholder_pwd":"Jekk jogħġbok daħħal il-password għal dan il-kont",
+            "validate_password":"Jekk jogħġbok daħħal il-password għall-kont",
+            "remove_success":"Tneħħiet b'suċċess"
         }
     }
 }

@@ -1,8 +1,8 @@
 {
-    "confirm":"Bestätegung",
-    "cancel":"Annulatioun",
+    "confirm":"Confirm",
+    "cancel":"Ofbriechen",
     "dialog_tit":"Prompéiert",
-    "close":"Zou",
+    "close":"Zoumaachen",
     "confirm_you_active":"Bestätegt Är Operatioun confirméiert",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Kontakter",
-        "setting":"Astellungen",
+        "contacts":"Kontakt",
+        "setting":"Setzen",
         "total":"Total",
         "testnet":"Testnetz"
     },
     "page_setting": {
-        "tit":"Astellungen",
+        "tit":"Setzen",
         "lang":"Sprooch",
-        "select":"Wielt we g"
+        "select":"Wielt weg"
     },
     "page_contacts": {
-        "tit":"Kontakter",
+        "tit":"Kontakt",
         "add_dialog":"Neie Kontakt",
         "add_cont": {
             "tit":"Neie Kontakt",
-            "tag":"Kontakter",
+            "tag":"Kontakt",
             "address":"Konto Adress",
             "tag_placeholder":"Gidd weg den Numm vum Kontakt",
             "address_placeholder":"Gidd weg d'Kontoun Adress"
@@ -34,25 +34,25 @@
             "title":"Dir sidd ewechhuelen"
         },
         "msg_info": {
-            "no_tag":"Gidd weg den Numm vum Kont un",
-            "no_address":"Gidd weg d'Adress Adress",
-            "valid_address":"D'Adress vun der Persoun ass illegal",
+            "no_tag":"Gidd weg eng Konto Notiz",
+            "no_address":"Gidd weg Är Kontoun Adress",
+            "valid_address":"D'Adress vum Kontakt ass illegal",
             "exist":"De Kontakt existéiert schonn,"
         }
     },
     "page_transfer": {
         "from_address":"Transfer aus",
-        "to_address":"Into",
+        "to_address":"Transfer",
         "amount":"Betrag",
         "send_all":"Schéckt all",
-        "data":"Datum",
+        "data":"Daten",
         "data_placeholder":"Hexadezimal Daten",
-        "fees":"Bénévolat",
+        "fees":"Handlungsgebitt",
         "total":"Total",
-        "select":"Wielt we g",
-        "no_account_info":"Keen Account, erfëllt oder Konto kaafen",
+        "select":"Wielt weg",
+        "no_account_info":"Kuckt nach kee Kont, erstellen oder Konto kaafen",
         "contacts_dig": {
-            "select_placeholder":"Wielt we g"
+            "select_placeholder":"Wielt weg"
         },
         "confirm_dia": {
             "title":"Confirméiert weg",
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Gidd weg Äert Passwuert"
         },
         "msg_info": {
-            "decrypt_err":"Portemonnaie vu Portemonnaie konnt net e Passwuertfehler sinn",
-            "amount_zero":"Net genuch Balance fir weider ze maachen",
-            "address_null":"Gidd weg den Account",
-            "address_err":"Incoming Adressform ass illegal",
-            "send_success":"Sende Erfolleg",
-            "send_error":"Transaktioun ofgeschalt: Préift weg, ob et genuch Ausbezuelen a Biergermesser ass"
+            "decrypt_err":"Portemonnaie vun der Portemonnaie konnt net geännert ginn, et ass e Passwuertfehler",
+            "amount_zero":"Net genuch Waasserkapazitéit, konnt net weiderfueren",
+            "address_null":"Gidd weg d'Kont vun der anerer Partei",
+            "address_err":"De Format vun der iwwerschriwwe Adress ass ongëlteg.",
+            "send_success":"Réussite erfollegräich verschéckt",
+            "send_error":"Transaktioun ofgeschalt: Iwwerpréift weg ob d'Ausbezuelung vun der Waasserstoff a Minerie bezuele muss"
         }
     },
     "page_account": {
-        "transfer_log":"Transaktiounsgeschicht",
+        "transfer_log":"Transaktiounsplang",
         "transfer_log_null":"Keng Transaktiounsgeschicht",
         "active_icon": {
             "go_transfer":"Initiatioun transferéieren",
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Transaktiounsinformatioun",
             "block_hash":"Transaktiounsnummer",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Receiver",
+            "status":"Staat",
+            "from":"Sending Party",
+            "to":"Payee",
             "amount":"Betrag",
-            "data":"D 'Daten",
+            "data":"Daten",
             "send_time":"Sending time",
             "mac_time":"Haaptnetz Zäit"
         },
         "keystore": {
             "tit":"Backup - Portemonnaie",
-            "copy":"Duplizéieren",
+            "copy":"Kopéieren",
             "download":"Download vun der Portemonnaie"
         },
         "msg_info": {
             "ads_copy_success":"Adress gouf kopéiert",
-            "key_copy_success":"Erfolleg kopéiert"
+            "key_copy_success":"Erfolleg Kopie"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Account erstellen",
             "backup_tit":"Reservéiert Äre neie Kont",
-            "create_tag":"Account Numm",
+            "create_tag":"Account Notiz",
             "create_pwd":"Passwuert aginn",
             "create_repwd":"Confirmatioun vum Passwuert",
-            "placeholder_tag":"Nëmme Kontosnumm umellen",
-            "placeholder_pwd":"Passwuert Passwuert aginn",
+            "placeholder_tag":"Gitt weg den Account Notiznamen",
+            "placeholder_pwd":"Pass op de Kontpasswuert",
             "placeholder_repwd":"Bestätegt de Kontpasswuert",
-            "strong_password":"Gitt e Passwuert vun mindestens 8 Zifferen",
-            "account_address":"Account",
-            "account_privateKey":"Privatsphär",
-            "account_download_keystore":"Luet de Kont Datei"
+            
+            
+            "account_download_keystore":"Luet de Kont Datei",
+
+            "validate_tag":"Gidd weg den Kontnummnumm",
+            "validate_tag_length":"Numm vum Memo kann net méi wéi 8 Zeechen sinn",
+
+            "validate_password":"Gidd weg den Passwuert, deen Dir agefouert hutt",
+            "validate_re_password":"Gidd weg den Passwuert, deen Dir erëm gesat hutt",
+            "validate_strong_password":"Gitt weg e Passwuert vun mindestens 8 Zifferen",
+            "validate_password_length":"Inconsistent Passwuert zweemol getraff",
+
+            "create_success":"Erfolleg gemaach",
+            "create_success_des":"Dir kënnt Är Kontaccount späicheren an net mat jiddereen ze deelen!"
         },
         "import_dia": {
             "tit":"Konto importéieren",    
             "placeholder_keystore":"Zéckt weg d'Accountfichier hier",
-            "create_tag":"Account Numm",
-            "placeholder_tag":"Nëmme Kontosnumm umellen"
+            "create_tag":"Account Notiz",
+            "placeholder_tag":"Gitt weg den Account Notiznamen",
+
+            "validate_tag":"Gidd weg den Kontnummnumm",
+            "validate_tag_length":"Numm vum Memo kann net méi wéi 8 Zeechen sinn",
+            "validate_enter_keystore":"Kuckt d'Eklicken first ofzehalen",
+            "validate_error_keystore":"Kont importéiert ass falsch, ka Kont Filet vu Feeler",
+            "imported_account_success":"Erfolleg importéiert",
+            "exist":"Dëse Account existéiert schonns, d'Note",
+            "keystore_error":"Feeler:",
+            "imported_success":"Datei importéieren Successioun"
         },
         "remove_dia": {
             "tit":"Sidd Dir sécher, datt Dir se ewechhuelt?",
             "remove_confrim":"Ech si sécher si ze läschen",
-            "backup":"Den Notzung vun dësem Kont bemierkt fir e Schued ze verhënneren",
+            "backup":"Gitt op d'Auteur vun dësem Kont op, fir e Schued ze verhënneren.",
             "input_pwd":"Passwuert",
-            "placeholder_pwd":"Gidd weg Äert Passwuert fir dësen Account"
-        },
-        "msg_info": {
-            "exist":"Dëse Kont gëtt schonn existéiert an de Numm heescht",
-            "enter_password":"Gidd weg Äert Passwuert",
-            "incons_password":"De Passwuert bäi zweemol ass onkonsequent",
-            "error":"Feeler:",
-            "imported_success":"Datei importéieren Successioun",
-            "imported_account_success":"Wichteg importéiert",
-            "enter_private":"Gidd weg d'Schlëssel",
-            "error_keystore":"Konnt de Konto kaafen, kann et e Kontoenderefehler sinn",
-            "enter_keystore":"Kuckt d'Eklicken first ofzehalen",
-            "error_password":"Konnt de Konto kaafen, ass et e falsche Passwuert",
-            "remove_success":"Erofgeholl",
-            "create_success":"Erfolleg gemaach",
-            "save":"Dir kënnt Är Kontaccount späicheren an net mat jiddereen ze deelen!"
+            "placeholder_pwd":"Gidd weg Äert Passwuert fir dësen Account",
+            "validate_password":"Gidd weg den Passwuert fir de Kont",
+            "remove_success":"Erfolleg ofgëtt"
         }
     }
 }

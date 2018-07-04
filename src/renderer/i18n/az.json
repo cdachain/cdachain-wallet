@@ -1,8 +1,8 @@
 {
-    "confirm":"Təsdiqləmə",
+    "confirm":"Təsdiq edin",
     "cancel":"Ləğv et",
     "dialog_tit":"Sövq et",
-    "close":"Bağlıdır",
+    "close":"Bağla",
     "confirm_you_active":"Xahiş edirik əməliyyatınızı təsdiq edin",
     "unit": {
         "czr":"CZR"
@@ -11,12 +11,12 @@
         "home":"Ev",
         "transfer":"Transfer",
         "contacts":"Əlaqə",
-        "setting":"Ayarlar",
+        "setting":"Ayarlama",
         "total":"Ümumi",
         "testnet":"Test şəbəkəsi"
     },
     "page_setting": {
-        "tit":"Ayarlar",
+        "tit":"Ayarlama",
         "lang":"Dil",
         "select":"Xahiş edirik seçin"
     },
@@ -27,30 +27,30 @@
             "tit":"Yeni əlaqə",
             "tag":"Əlaqə",
             "address":"Hesab ünvanı",
-            "tag_placeholder":"Əlaqə sahibinin adını daxil edin",
+            "tag_placeholder":"Əlaqənin adını daxil edin",
             "address_placeholder":"Xahiş edirik əlaqə hesabının ünvanını daxil edin"
         },
         "delete_dialog": {
             "title":"Siz çıxarırsınız"
         },
         "msg_info": {
-            "no_tag":"Xahiş edirik hesab adını daxil edin",
-            "no_address":"Xahiş edirik hesab ünvanını daxil edin",
-            "valid_address":"Əlaqə ünvanı qeyri-qanunidir",
+            "no_tag":"Xahiş edirik bir hesab qeydini daxil edin",
+            "no_address":"Xahiş edirik hesab ünvanınızı daxil edin",
+            "valid_address":"Kontaktın ünvanı qanunsuzdur",
             "exist":"Əlaqə artıq mövcuddur,"
         }
     },
     "page_transfer": {
         "from_address":"Transfer et",
-        "to_address":"İnto",
+        "to_address":"Transfer",
         "amount":"Məbləğ",
         "send_all":"Hamısını göndər",
-        "data":"Tarix",
+        "data":"Məlumatlar",
         "data_placeholder":"Hexadecimal data",
-        "fees":"Ücretler",
+        "fees":"Taşıma haqqı",
         "total":"Ümumi",
         "select":"Xahiş edirik seçin",
-        "no_account_info":"Hesabınız yoxdur, hesab yaradın və ya idxal edin",
+        "no_account_info":"Hələ hesab yoxdur, hesab yarat və ya idxal edin",
         "contacts_dig": {
             "select_placeholder":"Xahiş edirik seçin"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Şifrənizi daxil edin"
         },
         "msg_info": {
-            "decrypt_err":"Cüzdan ayırma başarısız oldu, parol hatası ola bilər",
-            "amount_zero":"Davam etməmək üçün kifayət qədər tarazlıq",
-            "address_null":"Xahiş edirik hesabı daxil edin",
-            "address_err":"Gələn ünvan formatı qanunsuzdur",
-            "send_success":"Uğur göndərin",
-            "send_error":"Əməliyyat başarısız: Xahiş edirik balansın və madencinin haqqını yoxlayın"
+            "decrypt_err":"Wallet ayrıştırma başarısız oldu, bu parol hatası ola bilər",
+            "amount_zero":"Balansın çatışmazlığı, davam edə bilmir",
+            "address_null":"Digər tərəfin hesabını daxil edin",
+            "address_err":"Köçürülmüş ünvanın formatı etibarsızdır.",
+            "send_success":"Müvəffəqiyyətlə göndərildi",
+            "send_error":"Əməliyyat başarısız oldu: kifayət qədər balans və miner haqlarının olmadığını yoxlayın"
         }
     },
     "page_account": {
-        "transfer_log":"Əməliyyat tarixi",
+        "transfer_log":"Əməliyyat qeydləri",
         "transfer_log_null":"Əməliyyat tarixi yoxdur",
         "active_icon": {
-            "go_transfer":"Transferin təşəbbüsü",
+            "go_transfer":"Transferin təşkili",
             "import_keystore":"Hesab faylı",
             "qrcode":"QR kodu"
         },
@@ -83,8 +83,8 @@
         "dia_tx":{
             "tit":"Əməliyyat məlumatları",
             "block_hash":"Əməliyyat nömrəsi",
-            "status":"Status",
-            "from":"Göndərən",
+            "status":"Dövlət",
+            "from":"Partiyanı göndərmək",
             "to":"Alıcı",
             "amount":"Məbləğ",
             "data":"Məlumatlar",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Backup cüzdan fayl",
-            "copy":"Dublikat",
+            "copy":"Kopyala",
             "download":"Cüzdan faylını yükləyin"
         },
         "msg_info": {
             "ads_copy_success":"Ünvanı kopyalandı",
-            "key_copy_success":"Müvəffəqiyyətlə kopyalanır"
+            "key_copy_success":"Uğurlu surəti"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Hesab yaratmaq",
             "backup_tit":"Yeni hesabınızı zənginləşdirin",
-            "create_tag":"Haqq-hesab adı",
+            "create_tag":"Hesab qeydləri",
             "create_pwd":"Şifrəni seçin",
             "create_repwd":"Şifrəni təsdiqləyin",
-            "placeholder_tag":"Hesabın adını təyin edin",
-            "placeholder_pwd":"Hesab parolunu təyin edin",
+            "placeholder_tag":"Xahiş edirik hesabın notunu təyin edin",
+            "placeholder_pwd":"Xahiş edirik hesab parolunu təyin edin",
             "placeholder_repwd":"Hesab parolunu təsdiqləyin",
-            "strong_password":"Ən azı 8 rəqəmli parol daxil edin",
-            "account_address":"Hesab",
-            "account_privateKey":"Şəxsi açar",
-            "account_download_keystore":"Hesab hesabını yükləyin"
+            
+            
+            "account_download_keystore":"Hesab hesabını yükləyin",
+
+            "validate_tag":"Xahiş edirik hesabın notunun adını daxil edin",
+            "validate_tag_length":"Memo adı 8 simvoldan artıq ola bilməz",
+
+            "validate_password":"Xahiş etdiyiniz parol daxil edin",
+            "validate_re_password":"Yenidən təyin etdiyiniz parolunuzu daxil edin",
+            "validate_strong_password":"Ən azı 8 rəqəmli parol daxil edin",
+            "validate_password_length":"Tutarsız parol iki dəfə girdi",
+
+            "create_success":"Tərəqqi yaradılıb",
+            "create_success_des":"Xahiş edirik hesab dosyanızı saxlasın və onu hər kəslə bölüşməyin!"
         },
         "import_dia": {
             "tit":"İdxal hesabı",    
             "placeholder_keystore":"Xahiş edirik burada hesab faylını sürükleyin",
-            "create_tag":"Haqq-hesab adı",
-            "placeholder_tag":"Hesabın adını təyin edin"
+            "create_tag":"Hesab qeydləri",
+            "placeholder_tag":"Xahiş edirik hesabın notunu təyin edin",
+
+            "validate_tag":"Xahiş edirik hesabın notunun adını daxil edin",
+            "validate_tag_length":"Memo adı 8 simvoldan artıq ola bilməz",
+            "validate_enter_keystore":"Əvvəlcə hesab faylını idxal edin",
+            "validate_error_keystore":"Hesabın idxalı uğursuz olub, hesab faylı səhv ola bilər",
+            "imported_account_success":"Uğurla idxal edilib",
+            "exist":"Bu hesab artıq mövcuddur, not deyil",
+            "keystore_error":"Hata:",
+            "imported_success":"Faylı uğurla gətir"
         },
         "remove_dia": {
             "tit":"Bunu aradan qaldırmaq istədiyinizə əminsiniz?",
             "remove_confrim":"Çıxaracağınızdan əminəm",
-            "backup":"Zərərin qarşısını almaq üçün bu hesabın zəmanətini nəzərə alın",
+            "backup":"Zərərin qarşısını almaq üçün bu hesabın zəmanətinə diqqət yetirin.",
             "input_pwd":"Şifrə",
-            "placeholder_pwd":"Bu hesab üçün parol daxil edin"
-        },
-        "msg_info": {
-            "exist":"Bu hesab artıq mövcuddur və adıdır",
-            "enter_password":"Şifrənizi daxil edin",
-            "incons_password":"Parolun iki dəfə girilməməsi ziddiyyətlidir",
-            "error":"Hata:",
-            "imported_success":"Faylı uğurla gətir",
-            "imported_account_success":"Uğurla alındı",
-            "enter_private":"Xahiş edirik düyməni daxil edin",
-            "error_keystore":"Hesabı idxal etmədikdə, hesab faylı səhv ola bilər",
-            "enter_keystore":"Əvvəlcə hesab faylını idxal edin",
-            "error_password":"Hesabı idxal etmədikdə, yanlış parol ola bilər",
-            "remove_success":"Uğurla silindi",
-            "create_success":"Tərəqqi yaradılıb",
-            "save":"Xahiş edirik hesab dosyanızı saxlasın və onu hər kəslə bölüşməyin!"
+            "placeholder_pwd":"Bu hesab üçün parol daxil edin",
+            "validate_password":"Xahiş edirik hesab üçün parol daxil edin",
+            "remove_success":"Uğurla silindi"
         }
     }
 }

@@ -1,8 +1,8 @@
 {
-    "confirm":"Cunfirmazione",
-    "cancel":"Annullazione",
+    "confirm":"Confirmate",
+    "cancel":"Annulla",
     "dialog_tit":"Avvirtendu",
-    "close":"Chjucu",
+    "close":"Chiudere",
     "confirm_you_active":"Cunfirmà a vostra operazione",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Home",
         "transfer":"Trasferimentu",
-        "contacts":"Cuntatti",
-        "setting":"Settings",
+        "contacts":"Cuntattate",
+        "setting":"Parcu",
         "total":"Tuttu",
         "testnet":"Test Network"
     },
     "page_setting": {
-        "tit":"Settings",
+        "tit":"Parcu",
         "lang":"Lingua",
-        "select":"Sceglite puru"
+        "select":"Sceglite u vostru"
     },
     "page_contacts": {
-        "tit":"Cuntatti",
+        "tit":"Cuntattate",
         "add_dialog":"Novu contactu",
         "add_cont": {
             "tit":"Novu contactu",
-            "tag":"Cuntatti",
+            "tag":"Cuntattate",
             "address":"Indirizzu di cunnessione",
             "tag_placeholder":"Pudite u nome di u cuntattu",
             "address_placeholder":"Per piacè entre in l'indirizzu di u cuntattu di u cuntattu"
@@ -34,25 +34,25 @@
             "title":"Vulete sguassà"
         },
         "msg_info": {
-            "no_tag":"Per piacè inserite u nome di u nome",
-            "no_address":"Per piacè inseritu u indirizzu di e contu",
+            "no_tag":"Per piacè inserisce una nota di cunta",
+            "no_address":"Intrazate l'indirizzu vostru indirizzu",
             "valid_address":"L'indirizzu di u cuntattu hè illegale",
             "exist":"U cuntattu hè digià esiste,"
         }
     },
     "page_transfer": {
         "from_address":"Trasmissione",
-        "to_address":"Into",
+        "to_address":"Trasferimentu",
         "amount":"Amount",
         "send_all":"Mandate tuttu",
-        "data":"Data",
+        "data":"Dati",
         "data_placeholder":"Hexadecimal data",
-        "fees":"Puli",
+        "fees":"Tariffu impurtante",
         "total":"Tuttu",
-        "select":"Sceglite puru",
-        "no_account_info":"Nisun compte, create cumentu o impurtà importatu",
+        "select":"Sceglite u vostru",
+        "no_account_info":"Ùn avete micca scuntratu, create o impurtà importatu",
         "contacts_dig": {
-            "select_placeholder":"Sceglite puru"
+            "select_placeholder":"Sceglite u vostru"
         },
         "confirm_dia": {
             "title":"Cunfirmà",
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
-            "amount_zero":"Un equilibru insufficientu per continuà",
-            "address_null":"Per piacè inserite u cuntu",
-            "address_err":"A forma di indirizzu entrant hè illegale",
-            "send_success":"Fate successu",
-            "send_error":"A transaczione falleva: Verificate puru si ci hè u bilanciu equilibru è a crescita di minore"
+            "amount_zero":"Un equilibru insufficient, incapaci di cuntinuà",
+            "address_null":"Per piacè entre in contu di l'altru",
+            "address_err":"U formatu di l'indirizzu trasferitore hè invalidu.",
+            "send_success":"Mandatu bè",
+            "send_error":"A transaczione falleva: cuntene qualchì bastanza di equilibriu è minore"
         }
     },
     "page_account": {
-        "transfer_log":"Storia di a transacità",
+        "transfer_log":"Récord transaccionale",
         "transfer_log_null":"Nisuna storia di transaczione",
         "active_icon": {
-            "go_transfer":"Inizià trasferimentu",
+            "go_transfer":"Inizio una trasferimentu",
             "import_keystore":"Archive per u cuntestu",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Informazioni transaccione",
             "block_hash":"Unità di transaccione",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Receiver",
+            "status":"Statu",
+            "from":"Mandatu",
+            "to":"Payee",
             "amount":"Amount",
-            "data":"I dati",
+            "data":"Dati",
             "send_time":"Mandatu à tempu",
             "mac_time":"Tempu di a retazione principali"
         },
         "keystore": {
             "tit":"Backup wallet file",
-            "copy":"Duplicate",
+            "copy":"Copia",
             "download":"Scaricate un cartulare"
         },
         "msg_info": {
             "ads_copy_success":"L'indirizzu hè statu copiatu",
-            "key_copy_success":"Copiatu cun copia"
+            "key_copy_success":"Copia acerita"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Crià una contu",
             "backup_tit":"Back up your new account",
-            "create_tag":"Nome di cunta",
+            "create_tag":"Note note",
             "create_pwd":"Set password",
             "create_repwd":"Confirmate password",
-            "placeholder_tag":"Determinate u nome di cunnessione",
-            "placeholder_pwd":"Per settighite u password",
+            "placeholder_tag":"Fate u vostru nome di nota",
+            "placeholder_pwd":"Fate puru u password",
             "placeholder_repwd":"Mandate cunfirmà a password",
-            "strong_password":"Ingrese una password di almenu 8 i numeri",
-            "account_address":"Cuntu",
-            "account_privateKey":"Chjave privata",
-            "account_download_keystore":"Scaricate un schedariu di resa"
+            
+            
+            "account_download_keystore":"Scaricate un schedariu di resa",
+
+            "validate_tag":"Per piacè inserite u nome in nota",
+            "validate_tag_length":"U nome di Memo ùn pò esse più di più di 8 caratteri",
+
+            "validate_password":"Per piacè inserite u password chjode",
+            "validate_re_password":"Per piacè inserite u password si trova à novu",
+            "validate_strong_password":"Per piacè inserite una password di almenu 8i numeri",
+            "validate_password_length":"A password in modu cuntenutu hè intesa in duie volte",
+
+            "create_success":"Creatu successu",
+            "create_success_des":"Sàlvate u vostru articulu di u cuntestu è ùn ne micca sparte cù qualcosa!"
         },
         "import_dia": {
             "tit":"Impurtante u compte",    
             "placeholder_keystore":"Per arrigguà u schedariu di u cliente",
-            "create_tag":"Nome di cunta",
-            "placeholder_tag":"Determinate u nome di cunnessione"
+            "create_tag":"Note note",
+            "placeholder_tag":"Fate u vostru nome di nota",
+
+            "validate_tag":"Per piacè inserite u nome in nota",
+            "validate_tag_length":"U nome di Memo ùn pò esse più di più di 8 caratteri",
+            "validate_enter_keystore":"Importama u vostru file cum'è prima",
+            "validate_error_keystore":"A importe di una cuntrullata fallita, pò esse l'errore di u registratu",
+            "imported_account_success":"Impurtatu importatu",
+            "exist":"Stu cuntu esiste digià, a nota hè",
+            "keystore_error":"Errore:",
+            "imported_success":"Prughjettu impurtazione successa"
         },
         "remove_dia": {
             "tit":"Sè sicuru chì vulete sguassà?",
             "remove_confrim":"Sò sicuru d'eliminà",
-            "backup":"Innota a copia di questa copia per evità di danni à a pruprietà",
+            "backup":"Pè attentu à a copia di salvezza di stu cuntu per evità di danni à a pruprietà.",
             "input_pwd":"Password",
-            "placeholder_pwd":"Per piacè inserite u password per stu cuntu"
-        },
-        "msg_info": {
-            "exist":"Stu account hè digià esiste, u nomu hè",
-            "enter_password":"Per piacè inserite u vostru password",
-            "incons_password":"A password hè inturnuata duie volte hè inconsistente",
-            "error":"Errore:",
-            "imported_success":"Prughjettu impurtazione successa",
-            "imported_account_success":"Impurtata bè",
-            "enter_private":"Per piacè inserite u chjave",
-            "error_keystore":"Ùn avianu impurtatu u vostru contu, pò esse un errore di u registratu",
-            "enter_keystore":"Importama u vostru file cum'è prima",
-            "error_password":"Ùn avianu impurtatu u vostru contu, pò esse una password erretta",
-            "remove_success":"Removedu successu",
-            "create_success":"Creatu successu",
-            "save":"Sàlvate u vostru articulu di u vostru contu è micca sparte cù qualcosa!"
+            "placeholder_pwd":"Per piacè inserite u password per stu cuntu",
+            "validate_password":"Per piacè inserite u password per u contu",
+            "remove_success":"Successfully eliminata"
         }
     }
 }

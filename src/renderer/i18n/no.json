@@ -27,16 +27,16 @@
             "tit":"Ny kontakt",
             "tag":"Kontakt",
             "address":"Kontoadresse",
-            "tag_placeholder":"Vennligst skriv inn kontaktens navn",
+            "tag_placeholder":"Vennligst skriv inn navnet på kontakten",
             "address_placeholder":"Vennligst skriv inn kontaktens kontoadresse"
         },
         "delete_dialog": {
             "title":"Du fjerner"
         },
         "msg_info": {
-            "no_tag":"Vennligst skriv inn kontonavnet",
-            "no_address":"Vennligst skriv inn kontoadressen",
-            "valid_address":"Kontaktens adresse er ulovlig",
+            "no_tag":"Vennligst skriv inn et kontonotat",
+            "no_address":"Vennligst skriv inn din kontoadresse",
+            "valid_address":"Adressen til kontakten er ulovlig",
             "exist":"Kontakten eksisterer allerede,"
         }
     },
@@ -45,12 +45,12 @@
         "to_address":"til",
         "amount":"penger",
         "send_all":"Send alle",
-        "data":"dato",
+        "data":"data",
         "data_placeholder":"Hexadecimal data",
-        "fees":"avgifter",
+        "fees":"Håndteringsavgift",
         "total":"total",
         "select":"Vennligst velg",
-        "no_account_info":"Ingen konto, vennligst opprett eller importer konto",
+        "no_account_info":"Ingen konto ennå, vennligst opprett eller importer konto",
         "contacts_dig": {
             "select_placeholder":"Vennligst velg"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Vennligst skriv inn passordet ditt"
         },
         "msg_info": {
-            "decrypt_err":"Wallet-parsing mislyktes, kan være en passordfeil",
-            "amount_zero":"Mangelfull balanse for å fortsette",
-            "address_null":"Vennligst skriv inn kontoen",
-            "address_err":"Innkommende adresseformat er ulovlig",
-            "send_success":"Send suksess",
-            "send_error":"Transaksjonen feilet: Vennligst sjekk om det er tilstrekkelig balanse og minerens gebyr"
+            "decrypt_err":"Wallet-parsing mislyktes, det kan være en passordfeil",
+            "amount_zero":"Utilstrekkelig balanse, ikke i stand til å fortsette",
+            "address_null":"Vennligst skriv inn den annen partens konto",
+            "address_err":"Formatet på den overførte adressen er ugyldig.",
+            "send_success":"Vellykket sendt",
+            "send_error":"Transaksjonen mislyktes: sjekk om det er tilstrekkelig saldo og gruveavgift"
         }
     },
     "page_account": {
-        "transfer_log":"Transaksjonshistorikk",
+        "transfer_log":"Transaksjonsrekord",
         "transfer_log_null":"Ingen transaksjonshistorikk",
         "active_icon": {
-            "go_transfer":"Start overføring",
+            "go_transfer":"Start en overføring",
             "import_keystore":"Kontofil",
             "qrcode":"QR-kode"
         },
@@ -84,10 +84,10 @@
             "tit":"Transaksjonsinformasjon",
             "block_hash":"Transaksjonsnummer",
             "status":"stat",
-            "from":"Send penger fest",
+            "from":"Sendeparti",
             "to":"betalingsmottaker",
             "amount":"penger",
-            "data":"Dataene",
+            "data":"data",
             "send_time":"Sende tid",
             "mac_time":"Hovednettverkstid"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adressen er kopiert",
-            "key_copy_success":"Kopieres vellykket"
+            "key_copy_success":"Vellykket kopi"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Opprett en konto",
             "backup_tit":"Sikkerhetskopier din nye konto",
-            "create_tag":"Kontonavn",
+            "create_tag":"Konto notat",
             "create_pwd":"Angi passord",
             "create_repwd":"Bekreft passord",
-            "placeholder_tag":"Vennligst sett inn kontonavn",
-            "placeholder_pwd":"Vennligst sett inn konto passord",
+            "placeholder_tag":"Vennligst sett inn kontonotasjonsnavnet",
+            "placeholder_pwd":"Vennligst sett inn kontopassordet",
             "placeholder_repwd":"Vennligst bekreft kontopassordet",
-            "strong_password":"Skriv inn et passord med minst 8 sifre",
-            "account_address":"konto",
-            "account_privateKey":"Privat nøkkel",
-            "account_download_keystore":"Last ned kontofilen"
+            
+            
+            "account_download_keystore":"Last ned kontofilen",
+
+            "validate_tag":"Vennligst skriv inn kontonotasjonsnavnet",
+            "validate_tag_length":"Navnet på notatnavnet kan ikke være større enn 8 tegn.",
+
+            "validate_password":"Vennligst skriv inn passordet du angir",
+            "validate_re_password":"Vennligst skriv inn passordet du angir igjen",
+            "validate_strong_password":"Vennligst oppgi et passord med minst 8 sifre",
+            "validate_password_length":"Inkonsistent passord innført to ganger",
+
+            "create_success":"Opprettet med hell",
+            "create_success_des":"Vennligst lagre kontofilen din og ikke del den med noen!"
         },
         "import_dia": {
             "tit":"Import konto",    
             "placeholder_keystore":"Vennligst dra kontofilen her",
-            "create_tag":"Kontonavn",
-            "placeholder_tag":"Vennligst sett inn kontonavn"
+            "create_tag":"Konto notat",
+            "placeholder_tag":"Vennligst sett inn kontonotasjonsnavnet",
+
+            "validate_tag":"Vennligst skriv inn kontonotasjonsnavnet",
+            "validate_tag_length":"Navnet på notatnavnet kan ikke være større enn 8 tegn.",
+            "validate_enter_keystore":"Vennligst importer kontofilen først",
+            "validate_error_keystore":"Kontoimporten mislyktes, kan være en kontofilfeil",
+            "imported_account_success":"Importert suksess",
+            "exist":"Denne kontoen eksisterer allerede, notatet er",
+            "keystore_error":"feil:",
+            "imported_success":"Importer filen vellykket"
         },
         "remove_dia": {
             "tit":"Er du sikker på at du vil fjerne den?",
             "remove_confrim":"Jeg er sikker på å fjerne",
-            "backup":"Vær oppmerksom på sikkerhetskopien av denne kontoen for å unngå skade på eiendom",
+            "backup":"Vær oppmerksom på sikkerhetskopien av denne kontoen for å unngå skade på eiendom.",
             "input_pwd":"passord",
-            "placeholder_pwd":"Vennligst skriv inn passordet for denne kontoen"
-        },
-        "msg_info": {
-            "exist":"Denne kontoen eksisterer allerede, navnet er",
-            "enter_password":"Vennligst skriv inn passordet ditt",
-            "incons_password":"Passordet som er skrevet inn to ganger, er inkonsekvent",
-            "error":"feil:",
-            "imported_success":"Importer filen vellykket",
-            "imported_account_success":"Importert med hell",
-            "enter_private":"Vennligst skriv inn tasten",
-            "error_keystore":"Kan ikke importere konto, det kan være en kontofilfeil",
-            "enter_keystore":"Vennligst importer kontofilen først",
-            "error_password":"Kan ikke importere konto, det kan være et feil passord",
-            "remove_success":"Fjernet vellykket",
-            "create_success":"Opprettet med hell",
-            "save":"Vennligst lagre kontofilen din og ikke del den med noen!"
+            "placeholder_pwd":"Vennligst skriv inn passordet for denne kontoen",
+            "validate_password":"Vennligst skriv inn passordet for kontoen",
+            "remove_success":"Ble fjernet"
         }
     }
 }

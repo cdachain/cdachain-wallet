@@ -1,8 +1,8 @@
 {
-    "confirm":"Whakaaturanga",
+    "confirm":"Whakaae",
     "cancel":"Whakakore",
     "dialog_tit":"Whakataka",
-    "close":"Kua kati",
+    "close":"Katia",
     "confirm_you_active":"Tena koa koa to mahi",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Home",
         "transfer":"Whakawhiti",
-        "contacts":"Ngā Hoapā",
-        "setting":"Tautuhinga",
+        "contacts":"Whakapā",
+        "setting":"Tautuhi",
         "total":"Te tapeke",
         "testnet":"He whatunga whakamatautau"
     },
     "page_setting": {
-        "tit":"Tautuhinga",
+        "tit":"Tautuhi",
         "lang":"Reo",
         "select":"Tono koa"
     },
     "page_contacts": {
-        "tit":"Ngā Hoapā",
+        "tit":"Whakapā",
         "add_dialog":"Whakawhitinga hou",
         "add_cont": {
             "tit":"Whakawhitinga hou",
-            "tag":"Ngā Hoapā",
+            "tag":"Whakapā",
             "address":"Wāhitau Pūkete",
             "tag_placeholder":"Tēnā koa whakauruhia te ingoa o te whakapā",
             "address_placeholder":"Tēnā koa whakauruhia te wāhitau pūkete o te whakapā"
@@ -34,23 +34,23 @@
             "title":"Kei te tango koe"
         },
         "msg_info": {
-            "no_tag":"Tomo koa koa te ingoa o te kaute",
-            "no_address":"Tomo koa ki te urunga korero",
-            "valid_address":"He ture te paera o te whakapā",
+            "no_tag":"Tomo koa koa he tuhi kaute",
+            "no_address":"Tomo koa koa ki to tautuhinga putea",
+            "valid_address":"Ko te waahi o te whakapā he ture kore",
             "exist":"Kua noho tonu te whakapiri,"
         }
     },
     "page_transfer": {
         "from_address":"Whakawhiti atu",
-        "to_address":"Haere ki roto",
+        "to_address":"Whakawhiti",
         "amount":"Te nui",
         "send_all":"Tukua katoatia",
-        "data":"Rā",
+        "data":"Raraunga",
         "data_placeholder":"He raraunga Hexadecimal",
-        "fees":"Nga utu",
+        "fees":"Nga utu utu",
         "total":"Te tapeke",
         "select":"Tono koa",
-        "no_account_info":"Kaore he kaute, maatua te waihanga, te kawemai ranei i te putea",
+        "no_account_info":"Kaore he korero i nga wa katoa, he pai te waihanga, te kawemai ranei i te putea",
         "contacts_dig": {
             "select_placeholder":"Tono koa"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Tomohia koa to kupuhipa"
         },
         "msg_info": {
-            "decrypt_err":"Kua rahua te taraipa taraiwa, he hapa hapa kupuhipa",
-            "amount_zero":"He iti te toenga ki te haere tonu",
-            "address_null":"Tomo koa mai ki te kaute",
-            "address_err":"Ko te hōputu wāhitau taumai he ture",
-            "send_success":"Tukua he angitu",
-            "send_error":"Kua rahua te mahi: Titiro koa mēnā he nui te utu me te utu a te minita"
+            "decrypt_err":"I rahua te taraipa a te putea, he hapa kupuhipa pea",
+            "amount_zero":"He iti rawa te pauna, e kore e taea te haere tonu",
+            "address_null":"Tēnā koa whakauruhia te pūkete a te rōpū atu",
+            "address_err":"He muhu te whakatakotoranga o te wāhitau whakawhitinga.",
+            "send_success":"I tono angitu",
+            "send_error":"I rahua te mahi: tirohia mehemea he nui te utu me te utu minita"
         }
     },
     "page_account": {
-        "transfer_log":"Te hītori mahi",
+        "transfer_log":"Tuhituhi mahi",
         "transfer_log_null":"Kāore he hītori tukanga",
         "active_icon": {
-            "go_transfer":"Tīmatahia te whakawhitinga",
+            "go_transfer":"Me timata he whakawhitinga",
             "import_keystore":"Kōnae Pūkete",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Mōhiohio mahi",
             "block_hash":"Tau nama",
-            "status":"Tūnga",
-            "from":"Kaituku",
-            "to":"Kaiwhiwhi",
+            "status":"State",
+            "from":"Tukuna te rōpū",
+            "to":"Payee",
             "amount":"Te nui",
-            "data":"Ko te raraunga",
+            "data":"Raraunga",
             "send_time":"Tukuna te wa",
             "mac_time":"Te waitohu matua"
         },
         "keystore": {
             "tit":"Kōnae putea putea",
-            "copy":"Tāruarua",
+            "copy":"Tārua",
             "download":"Tikiake te putea putea"
         },
         "msg_info": {
             "ads_copy_success":"Kua tohua te korero",
-            "key_copy_success":"I tāruatia te angitu"
+            "key_copy_success":"He kape angitu"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Waihangahia he kaute",
             "backup_tit":"Whakahokihia tō pūkete hou",
-            "create_tag":"Ingoa Pūkete",
+            "create_tag":"Tuhi kaute",
             "create_pwd":"Tautuhia te kupuhipa",
             "create_repwd":"Whakaae i te kupuhipa",
-            "placeholder_tag":"Tautuhia koa te ingoa o te kaute",
-            "placeholder_pwd":"Tēnā koa tuhia te kupuhipa pūkete",
+            "placeholder_tag":"Tautuhia koa te ingoa tuhipoka",
+            "placeholder_pwd":"Tautuhia koa te kupuhipa pūkete",
             "placeholder_repwd":"Tena koa koa te kupuhipa pūkete",
-            "strong_password":"Tāurutia he kupuhipa o te iti rawa 8 tau",
-            "account_address":"Pūkete",
-            "account_privateKey":"Kī motuhake",
-            "account_download_keystore":"Tikiake kōnae kaute"
+            
+            
+            "account_download_keystore":"Tikiake kōnae kaute",
+
+            "validate_tag":"Tomo koa koa te ingoa tuhipoka",
+            "validate_tag_length":"Kaore pea te ingoa Memo e roa ake i te 8 nga tahua",
+
+            "validate_password":"Tomohia koa te kupuhipa i whakaturia e koe",
+            "validate_re_password":"Tomohia koa te kupuhipa ka tautuhi ano koe",
+            "validate_strong_password":"Tomohia he kupuhipa o te iti rawa atu i te 8 tau",
+            "validate_password_length":"I whakauruhia te kupuhipa e rua",
+
+            "create_success":"I waihangatia pai",
+            "create_success_des":"Whakaorangia koa te kōnae pūkete me te kore e tuwha atu ki tetahi!"
         },
         "import_dia": {
             "tit":"Kawemai i te kaute",    
             "placeholder_keystore":"Tēnā toia te kōnae pūkete i konei",
-            "create_tag":"Ingoa Pūkete",
-            "placeholder_tag":"Tautuhia koa te ingoa o te kaute"
+            "create_tag":"Tuhi kaute",
+            "placeholder_tag":"Tautuhia koa te ingoa tuhipoka",
+
+            "validate_tag":"Tomo koa koa te ingoa tuhipoka",
+            "validate_tag_length":"Kaore pea te ingoa Memo e roa ake i te 8 nga tahua",
+            "validate_enter_keystore":"Me kawemai i te kōnae putea tuatahi",
+            "validate_error_keystore":"I rahua te kawemai o te kaute, ka waiho pea he hapa kōnae kaute",
+            "imported_account_success":"I uru mai ki te angitu",
+            "exist":"Kua oti tenei kaute, ko te tuhi",
+            "keystore_error":"Hapa:",
+            "imported_success":"Ka pai te kawemai i te kōnae"
         },
         "remove_dia": {
             "tit":"Kei te hiahia koe kia tangohia?",
             "remove_confrim":"E mohio ana ahau ki te tango",
-            "backup":"Tirohia koa te tahua o tenei kaute hei karo i nga painga o nga rawa",
+            "backup":"Tena koa whakarongo ki te tahua o tenei kaute hei karo i nga kino o te whare.",
             "input_pwd":"Kupuhipa",
-            "placeholder_pwd":"Tomohia te kupuhipa mo tenei kaute"
-        },
-        "msg_info": {
-            "exist":"Kei te ngaro tenei kaute, ko te ingoa",
-            "enter_password":"Tomohia koa to kupuhipa",
-            "incons_password":"Ko te kupuhipa i whakauruhia e rua kaore i te rereke",
-            "error":"Hapa:",
-            "imported_success":"Ka pai te kawemai i te kōnae",
-            "imported_account_success":"He pai te kawemai",
-            "enter_private":"Tomo koahia te matua",
-            "error_keystore":"I rahua te kawemai i te putea, ka waiho he hapa kōnae kaute",
-            "enter_keystore":"Me kawemai i te kōnae putea tuatahi",
-            "error_password":"I rahua te kawemai i te pūkete, he kupuhipa he",
-            "remove_success":"Tangohia angitu",
-            "create_success":"I waihangatia pai",
-            "save":"Whakaorangia koa te kōnae pūkete me te kore e tuwha atu ki tetahi!"
+            "placeholder_pwd":"Tomohia te kupuhipa mo tenei kaute",
+            "validate_password":"Tomohia koa te kupuhipa mo te kaute",
+            "remove_success":"Tangohia angitu ana"
         }
     }
 }

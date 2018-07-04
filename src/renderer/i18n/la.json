@@ -34,7 +34,7 @@
             "title":"Movens igitur tu es"
         },
         "msg_info": {
-            "no_tag":"Intra propter nomen tuum",
+            "no_tag":"PDF rationem Disputatio",
             "no_address":"Oratio pro PDF",
             "valid_address":"Oratio contactus, non est legitimum scriptor",
             "exist":"Iam enim Contact:"
@@ -45,7 +45,7 @@
         "to_address":"in",
         "amount":"pecunia",
         "send_all":"omnes Mitte",
-        "data":"Date",
+        "data":"Data",
         "data_placeholder":"data veste hexadecimali ostendentur",
         "fees":"fees",
         "total":"summa",
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Create an account",
             "backup_tit":"Novus tergum sursum vestri ratio",
-            "create_tag":"ratio nominis",
+            "create_tag":"Ratio dicta",
             "create_pwd":"Password",
             "create_repwd":"Affirmo password",
-            "placeholder_tag":"Set propter nomen tuum",
+            "placeholder_tag":"Constitue super propter nomen Disputatio",
             "placeholder_pwd":"Set propter password",
             "placeholder_repwd":"Vide rationis password",
-            "strong_password":"Intra octo minus de a password",
-            "account_address":"ratio",
-            "account_privateKey":"privata clavem",
-            "account_download_keystore":"Download file rationis"
+            
+            
+            "account_download_keystore":"Download file rationis",
+
+            "validate_tag":"Name PDF Epistola",
+            "validate_tag_length":"Nomen eius notas non longior quam VIII characters",
+
+            "validate_password":"PDF ponis signum",
+            "validate_re_password":"PDF ponis signum est",
+            "validate_strong_password":"Tesseram saltem octo PDF",
+            "validate_password_length":"Passwords non aequare",
+
+            "create_success":"partum victoria",
+            "create_success_des":"Placere nisi ob gratiam tui file: ne participes quis est?"
         },
         "import_dia": {
             "tit":"propter Import",    
             "placeholder_keystore":"Hic Please file inputatur",
-            "create_tag":"ratio nominis",
-            "placeholder_tag":"Set propter nomen tuum"
+            "create_tag":"Ratio dicta",
+            "placeholder_tag":"Constitue super propter nomen Disputatio",
+
+            "validate_tag":"Name PDF Epistola",
+            "validate_tag_length":"Nomen eius notas non longior quam VIII characters",
+            "validate_enter_keystore":"Placere importare rationem file",
+            "validate_error_keystore":"Ratio import, defecit germen, sit causa mali file",
+            "imported_account_success":"Import victoria",
+            "exist":"Iam hoc notat",
+            "keystore_error":"Error:",
+            "imported_success":"Import file Success"
         },
         "remove_dia": {
             "tit":"Tu es certus sit removere vis?",
             "remove_confrim":"Im 'certus ad removendum",
             "backup":"Lorem quod rursum ob rem ne patiamini",
             "input_pwd":"Password",
-            "placeholder_pwd":"Hoc enim signum PDF"
-        },
-        "msg_info": {
-            "exist":"Haec ratio Iam enim et hoc nomine",
-            "enter_password":"Please enter vestri password",
-            "incons_password":"Passwords non aequare",
-            "error":"Error:",
-            "imported_success":"Import file Success",
-            "imported_account_success":"Import victoria",
-            "enter_private":"Please enter the key",
-            "error_keystore":"Ratio import, defecit germen, sit causa mali file",
-            "enter_keystore":"Placere importare rationem file",
-            "error_password":"Ratio import incassum fit, ut malum quod password",
-            "remove_success":"remota feliciter",
-            "create_success":"partum victoria",
-            "save":"Placere nisi ob gratiam tui file: ne participes quis est?"
+            "placeholder_pwd":"Hoc enim signum PDF",
+            "validate_password":"PDF rationem ignoro",
+            "remove_success":"remota feliciter"
         }
     }
 }

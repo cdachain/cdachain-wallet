@@ -34,7 +34,7 @@
             "title":"သငျသညျမဖယ်ရှားကြသည်"
         },
         "msg_info": {
-            "no_tag":"အကောင့်နာမည်ရိုက်ထည့်ပါ",
+            "no_tag":"အကောင့်မှတ်ချက်ရိုက်ထည့်ပေးပါ",
             "no_address":"အကောင့်လိပ်စာရိုက်ထည့်ပေးပါ",
             "valid_address":"ဆက်သွယ်ပါရဲ့လိပ်စာတရားဝင်မဟုတ်ပါဘူး",
             "exist":"ဆက်သွယ်ပါရှိထားပြီးသား,"
@@ -45,7 +45,7 @@
         "to_address":"သို့",
         "amount":"ပိုက်ဆံ",
         "send_all":"အားလုံး Send",
-        "data":"နေ့စှဲ",
+        "data":"ဒေတာများ",
         "data_placeholder":"hexadecimal ဒေတာ",
         "fees":"အဖိုးအခ",
         "total":"စုစုပေါငျး",
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"အကောင့်တစ်ခု Create",
             "backup_tit":"သင့်အကောင့်အသစ်ဖွင့် back",
-            "create_tag":"Account Name ကို",
+            "create_tag":"မှတ်ချက်တွေအကောင့်",
             "create_pwd":"Password ကို",
             "create_repwd":"စကားဝှက်ကိုအတည်ပြုပါ",
-            "placeholder_tag":"Set အကောင့်အမည်ကို",
+            "placeholder_tag":"အကောင့်အမည်ကိုမှတ်ချက် Set",
             "placeholder_pwd":"Set အကောင့် password ကို",
             "placeholder_repwd":"သေချာအကောင့် password ကို Make",
-            "strong_password":"အနည်းဆုံးရှစ်တစ် password ကိုရိုက်ထည့်ပါ",
-            "account_address":"အကောင့်",
-            "account_privateKey":"private key ကို",
-            "account_download_keystore":"အကောင့်ဖိုင်ကို Download"
+            
+            
+            "account_download_keystore":"အကောင့်ဖိုင်ကို Download",
+
+            "validate_tag":"အကောင့်အမည်ကိုမှတ်ချက်ရိုက်ထည့်ပေးပါ",
+            "validate_tag_length":"မှတ်စုများအမည်ဖြင့်အက္ခရာ 8 လုံးထက်မရှည်နိုင်",
+
+            "validate_password":"သငျသညျ set password ကိုရိုက်ထည့်ပေးပါ",
+            "validate_re_password":"သငျသညျတဖနျ set password ကိုရိုက်ထည့်ပေးပါ",
+            "validate_strong_password":"အနည်းဆုံးရှစ်တစ် password ကိုရိုက်ထည့်ပေးပါ",
+            "validate_password_length":"Passwords များကိုမတိုက်ဆိုင်ကြဘူး",
+
+            "create_success":"အောင်မြင်မှု Creating",
+            "create_success_des":"မည်သူမဆိုအတူမျှဝေပါဘူး, သင့်ရဲ့အကောင့်ကိုဖိုင်ကို save ပါ"
         },
         "import_dia": {
             "tit":"သွင်းကုန်အကောင့်",    
             "placeholder_keystore":"ဒီနေရာမှာအကောင့်သို့ file ကို ကျေးဇူးပြု.",
-            "create_tag":"Account Name ကို",
-            "placeholder_tag":"Set အကောင့်အမည်ကို"
+            "create_tag":"မှတ်ချက်တွေအကောင့်",
+            "placeholder_tag":"အကောင့်အမည်ကိုမှတ်ချက် Set",
+
+            "validate_tag":"အကောင့်အမည်ကိုမှတ်ချက်ရိုက်ထည့်ပေးပါ",
+            "validate_tag_length":"မှတ်စုများအမည်ဖြင့်အက္ခရာ 8 လုံးထက်မရှည်နိုင်",
+            "validate_enter_keystore":"အကောင့်ဖိုင်ကို import ကျေးဇူးပြု.",
+            "validate_error_keystore":"အကောင့်တင်သွင်းပျက်ကွက်, အကောင့်ကိုမှားယွင်းတဲ့ဖိုင်ဖြစ်နိုင်သည်",
+            "imported_account_success":"သွင်းကုန်အောင်မြင်မှု",
+            "exist":"ဒီအကောင့်ကိုပြီးသားကြောင်းမှတ်ချက်ပြု, တည်ရှိ",
+            "keystore_error":"အမှား:",
+            "imported_success":"သွင်းကုန် file ကိုအောင်မြင်"
         },
         "remove_dia": {
             "tit":"သင်ကသင်ဖယ်ရှားလိုတာသေချာလား?",
             "remove_confrim":"ငါဖယ်ရှားပစ်ရန်သေချာပါတယ်",
             "backup":"ပစ္စည်းဥစ္စာပိုင်ဆိုင်မှုပျက်စီးဆုံးရှုံးမှုရှောင်ရှားရန်, ဒီအကောင့်ဖွင့်ကြောင်းပြန် ကျေးဇူးပြု. သတိပြုပါ",
             "input_pwd":"Password ကို",
-            "placeholder_pwd":"ဒီအကောင့်စကားဝှက်ကိုရိုက်ထည့်ပေးပါ"
-        },
-        "msg_info": {
-            "exist":"ဒီအကောင့်ကိုပြီးသားဘွဲ့နာမတော်သည်တည်ရှိ",
-            "enter_password":"သင့်ရဲ့စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
-            "incons_password":"Passwords များကိုမတိုက်ဆိုင်ကြဘူး",
-            "error":"အမှား:",
-            "imported_success":"သွင်းကုန် file ကိုအောင်မြင်",
-            "imported_account_success":"သွင်းကုန်အောင်မြင်မှု",
-            "enter_private":"သော့ကိုရိုက်ထည့်ပေးပါ",
-            "error_keystore":"အကောင့်တင်သွင်းပျက်ကွက်, အကောင့်ကိုမှားယွင်းတဲ့ဖိုင်ဖြစ်နိုင်သည်",
-            "enter_keystore":"အကောင့်ဖိုင်ကို import ကျေးဇူးပြု.",
-            "error_password":"အကောင့်တင်သွင်းပျက်ကွက်ပါကမှားယွင်းတဲ့ password ကိုဖြစ်စေခြင်းငှါ",
-            "remove_success":"အောင်မြင်စွာဖယ်ရှား",
-            "create_success":"အောင်မြင်မှု Creating",
-            "save":"မည်သူမဆိုအတူမျှဝေပါဘူး, သင့်ရဲ့အကောင့်ကိုဖိုင်ကို save ပါ"
+            "placeholder_pwd":"ဒီအကောင့်စကားဝှက်ကိုရိုက်ထည့်ပေးပါ",
+            "validate_password":"အကောင့် password ကိုရိုက်ထည့်ပေးပါ",
+            "remove_success":"အောင်မြင်စွာဖယ်ရှား"
         }
     }
 }

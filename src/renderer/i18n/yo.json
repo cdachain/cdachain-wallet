@@ -1,8 +1,8 @@
 {
-    "confirm":"Ijẹrisi",
-    "cancel":"Cancellation",
+    "confirm":"Jẹrisi",
+    "cancel":"Fagilee",
     "dialog_tit":"Gbọ",
-    "close":"Ti pa",
+    "close":"Pa",
     "confirm_you_active":"Jọwọ jẹrisi isẹ rẹ",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Ile",
         "transfer":"Gbigbe lọ",
-        "contacts":"Awọn olubasọrọ",
+        "contacts":"Kan si",
         "setting":"Eto",
         "total":"Lapapọ",
         "testnet":"Nẹtiwọki idanwo"
@@ -21,36 +21,36 @@
         "select":"Jọwọ yan"
     },
     "page_contacts": {
-        "tit":"Awọn olubasọrọ",
+        "tit":"Kan si",
         "add_dialog":"Olubasọrọtitun",
         "add_cont": {
             "tit":"Olubasọrọtitun",
-            "tag":"Awọn olubasọrọ",
+            "tag":"Kan si",
             "address":"Adirẹsi iroyin",
-            "tag_placeholder":"Jowo tẹ orukọ olubasọrọ naa",
+            "tag_placeholder":"Jowo tẹ orukọ olubasọrọ naa sii",
             "address_placeholder":"Jowo tẹ adirẹsi adirẹsi ti olubasọrọ naa"
         },
         "delete_dialog": {
             "title":"O n yọ kuro"
         },
         "msg_info": {
-            "no_tag":"Jowo tẹ orukọ iroyin naa",
-            "no_address":"Jọwọ tẹ adirẹsi adirẹsi sii",
-            "valid_address":"Adirẹsi olubasọrọ naa jẹ arufin",
+            "no_tag":"Jowo tẹ akọsilẹ akọsilẹ",
+            "no_address":"Jowo tẹ adirẹsi adirẹsi rẹ sii",
+            "valid_address":"Adirẹsi ti olubasọrọ naa jẹ arufin",
             "exist":"Olubasọrọ naa ti wa tẹlẹ,"
         }
     },
     "page_transfer": {
         "from_address":"Gbe jade",
-        "to_address":"Sinu",
+        "to_address":"Gbigbe lọ",
         "amount":"Iye",
         "send_all":"Firanṣẹ gbogbo",
-        "data":"Ọjọ",
+        "data":"Data",
         "data_placeholder":"Data hexadecimal",
-        "fees":"Owo sisan",
+        "fees":"Owo ọya",
         "total":"Lapapọ",
         "select":"Jọwọ yan",
-        "no_account_info":"Ko si iroyin, jọwọ ṣẹda tabi gbe iroyin wọle",
+        "no_account_info":"Ko si iroyin sibẹ, jọwọ ṣẹda tabi gbe iroyin wọle",
         "contacts_dig": {
             "select_placeholder":"Jọwọ yan"
         },
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
-            "amount_zero":"Iwontunwonsi ti ko to lati tẹsiwaju",
-            "address_null":"Jowo tẹ iroyin naa wọle",
-            "address_err":"Orukọ adiresi ti nwọle jẹ arufin",
-            "send_success":"Firanṣẹ aseyori",
-            "send_error":"Ti kuna iṣẹ-ṣiṣe: Jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
+            "amount_zero":"Iwontunwosi ti ko niye, lagbara lati tẹsiwaju",
+            "address_null":"Jowo tẹ akọsilẹ ẹnikẹta miiran",
+            "address_err":"Awọn kika ti adirẹsi ti o ti gbe jẹ aišišẹ.",
+            "send_success":"Ti firanṣẹ daradara",
+            "send_error":"Ti kuna iṣẹ-ṣiṣe: jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }
     },
     "page_account": {
-        "transfer_log":"Itan iṣowo",
+        "transfer_log":"Igbasilẹ ọrọ-ṣiṣe",
         "transfer_log_null":"Ko si idunadura itan",
         "active_icon": {
-            "go_transfer":"Bẹrẹ gbigbe",
+            "go_transfer":"Bẹrẹ iṣeto kan",
             "import_keystore":"Iwe iroyin",
             "qrcode":"QR koodu"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Alaye iṣowo",
             "block_hash":"Nọmba iṣiro",
-            "status":"Ipo",
-            "from":"Oluṣẹ",
-            "to":"Gbigba",
+            "status":"Ipinle",
+            "from":"Fifiranṣẹ keta",
+            "to":"Payee",
             "amount":"Iye",
-            "data":"Awọn data",
+            "data":"Data",
             "send_time":"Fifiranṣẹ akoko",
             "mac_time":"Aago nẹtiwọki akọkọ"
         },
         "keystore": {
             "tit":"Iwe apamọwọ apamọwọ",
-            "copy":"Duplicate",
+            "copy":"Daakọ",
             "download":"Gba faili apamọwọ"
         },
         "msg_info": {
             "ads_copy_success":"Adirẹsi ti dakọ",
-            "key_copy_success":"Ti ṣe ayẹwo daradara"
+            "key_copy_success":"Aṣeyọṣe to dara julọ"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Ṣẹda iroyin kan",
             "backup_tit":"Ṣe afẹyinti iroyin titun rẹ",
-            "create_tag":"Orukọ iroyin",
+            "create_tag":"Akọsilẹ akọsilẹ",
             "create_pwd":"Ṣeto ọrọigbaniwọle",
             "create_repwd":"Jẹrisi ọrọ igbaniwọle",
-            "placeholder_tag":"Jowo ṣeto orukọ iroyin",
-            "placeholder_pwd":"Jowo ṣeto ọrọ igbaniwọle iroyin",
+            "placeholder_tag":"Jọwọ ṣeto akọsilẹ akọsilẹ akọsilẹ",
+            "placeholder_pwd":"Jowo ṣeto ọrọigbaniwọle iroyin",
             "placeholder_repwd":"Jọwọ jẹrisi ọrọigbaniwọle iroyin",
-            "strong_password":"Tẹ ọrọigbaniwọle kan ti o kere ju nọmba 8 lọ",
-            "account_address":"Iroyin",
-            "account_privateKey":"Bọtini aladani",
-            "account_download_keystore":"Gba faili akọọlẹ"
+            
+            
+            "account_download_keystore":"Gba faili akọọlẹ",
+
+            "validate_tag":"Jọwọ tẹ orukọ akọsilẹ akọsilẹ",
+            "validate_tag_length":"Orukọ akọsilẹ ko le jẹ gun ju awọn ohun kikọ 8 lọ",
+
+            "validate_password":"Jowo tẹ ọrọigbaniwọle ti o ṣeto",
+            "validate_re_password":"Jọwọ tẹ ọrọigbaniwọle ti o tun ṣeto sii",
+            "validate_strong_password":"Jowo tẹ ọrọ igbaniwọle ti o kere ju nọmba mẹjọ",
+            "validate_password_length":"Ọrọ aṣina ti ko tọ si tẹ lẹẹmeji",
+
+            "create_success":"Ṣẹda ni ifijišẹ",
+            "create_success_des":"Jowo fi faili akọọlẹ rẹ pamọ ki o ma ṣe pin pẹlu ẹnikẹni!"
         },
         "import_dia": {
             "tit":"Ṣe akọọlẹ akọọlẹ",    
             "placeholder_keystore":"Jowo fa faili faili nibi",
-            "create_tag":"Orukọ iroyin",
-            "placeholder_tag":"Jowo ṣeto orukọ iroyin"
+            "create_tag":"Akọsilẹ akọsilẹ",
+            "placeholder_tag":"Jọwọ ṣeto akọsilẹ akọsilẹ akọsilẹ",
+
+            "validate_tag":"Jọwọ tẹ orukọ akọsilẹ akọsilẹ",
+            "validate_tag_length":"Orukọ akọsilẹ ko le jẹ gun ju awọn ohun kikọ 8 lọ",
+            "validate_enter_keystore":"Jọwọ gbe faili faili ni akọkọ",
+            "validate_error_keystore":"Akọsilẹ ti iṣowo ti kuna, le jẹ aṣiṣe faili aṣiṣe",
+            "imported_account_success":"Ni ifiṣeyọri wọle",
+            "exist":"Iroyin yii ti wa tẹlẹ, akọsilẹ jẹ",
+            "keystore_error":"Aṣiṣe:",
+            "imported_success":"Faijade faili ni ifijišẹ"
         },
         "remove_dia": {
             "tit":"Ṣe o da ọ loju pe o fẹ yọ kuro?",
             "remove_confrim":"Mo daju lati yọ kuro",
-            "backup":"Jọwọ ṣe akiyesi afẹyinti ti iroyin yii lati yago fun bibajẹ ohun-ini",
+            "backup":"Jọwọ ṣe akiyesi afẹyinti ti iroyin yii lati yago fun bibajẹ ohun-ini.",
             "input_pwd":"Ọrọigbaniwọle",
-            "placeholder_pwd":"Jọwọ tẹ ọrọigbaniwọle sii fun iroyin yii"
-        },
-        "msg_info": {
-            "exist":"Iroyin yii ti wa tẹlẹ ati orukọ naa jẹ",
-            "enter_password":"Jọwọ tẹ ọrọigbaniwọle rẹ sii",
-            "incons_password":"Ọrọigbaniwọle ti tẹ lẹẹmeji jẹ aisedede",
-            "error":"Aṣiṣe:",
-            "imported_success":"Faijade faili ni ifijišẹ",
-            "imported_account_success":"Ti gbejade ni ifijišẹ",
-            "enter_private":"Jowo tẹ bọtini naa",
-            "error_keystore":"Ti kùnà lati gbe iroyin wọle, o le jẹ aṣiṣe faili faili",
-            "enter_keystore":"Jọwọ gbe faili faili ni akọkọ",
-            "error_password":"Ti kùnà lati gbe iroyin wọle, o le jẹ ọrọigbaniwọle aṣiṣe",
-            "remove_success":"Pa kuro ni ifijišẹ",
-            "create_success":"Ṣẹda ni ifijišẹ",
-            "save":"Jowo fi faili akọọlẹ rẹ pamọ ki o ma ṣe pin pẹlu ẹnikẹni!"
+            "placeholder_pwd":"Jọwọ tẹ ọrọigbaniwọle sii fun iroyin yii",
+            "validate_password":"Jọwọ tẹ ọrọigbaniwọle sii fun iroyin naa",
+            "remove_success":"Ti yọ kuro ni ifijišẹ"
         }
     }
 }

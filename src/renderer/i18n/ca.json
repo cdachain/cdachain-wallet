@@ -1,8 +1,8 @@
 {
-    "confirm":"Confirmació",
-    "cancel":"Cancel·lació",
+    "confirm":"Confirma",
+    "cancel":"Cancel·la",
     "dialog_tit":"Preguntar",
-    "close":"Tancat",
+    "close":"Tanca",
     "confirm_you_active":"Confirmeu el vostre funcionament",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Inici",
         "transfer":"Transferència",
-        "contacts":"Contactes",
+        "contacts":"Contacte",
         "setting":"Configuració",
         "total":"Total",
         "testnet":"Xarxa de proves"
@@ -18,14 +18,14 @@
     "page_setting": {
         "tit":"Configuració",
         "lang":"Llengua",
-        "select":"Seleccioneu"
+        "select":"Trieu"
     },
     "page_contacts": {
-        "tit":"Contactes",
+        "tit":"Contacte",
         "add_dialog":"Nou contacte",
         "add_cont": {
             "tit":"Nou contacte",
-            "tag":"Contactes",
+            "tag":"Contacte",
             "address":"Adreça del compte",
             "tag_placeholder":"Introduïu el nom del contacte",
             "address_placeholder":"Introduïu l'adreça del compte del contacte"
@@ -34,25 +34,25 @@
             "title":"Estàs eliminant"
         },
         "msg_info": {
-            "no_tag":"Introduïu el nom del compte",
-            "no_address":"Introduïu l'adreça del compte",
+            "no_tag":"Introduïu una nota del compte",
+            "no_address":"Introduïu l'adreça del vostre compte",
             "valid_address":"L'adreça del contacte és il·legal",
             "exist":"El contacte ja existeix,"
         }
     },
     "page_transfer": {
         "from_address":"Trasllat",
-        "to_address":"Into",
+        "to_address":"Transferència",
         "amount":"Import",
         "send_all":"Envieu-ho tot",
-        "data":"Data",
+        "data":"Dades",
         "data_placeholder":"Dades hexadecimals",
-        "fees":"Honoraris",
+        "fees":"Tarifa de gestió",
         "total":"Total",
-        "select":"Seleccioneu",
-        "no_account_info":"Sense compte, creeu o importeu un compte",
+        "select":"Trieu",
+        "no_account_info":"Encara no teniu cap compte, creieu o importeu un compte",
         "contacts_dig": {
-            "select_placeholder":"Seleccioneu"
+            "select_placeholder":"Trieu"
         },
         "confirm_dia": {
             "title":"Confirma",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Introduïu la vostra contrasenya"
         },
         "msg_info": {
-            "decrypt_err":"Error en l'anàlisi de la cartera, pot ser un error de contrasenya",
-            "amount_zero":"Balanç insuficient per continuar",
-            "address_null":"Introduïu el compte",
-            "address_err":"El format d'adreça entrant és il·legal",
-            "send_success":"Enviar èxit",
-            "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i la tarifa del miner"
+            "decrypt_err":"L'anàlisi de la cartera ha fallat, pot ser un error de contrasenya",
+            "amount_zero":"Balanç insuficient, incapaç de continuar",
+            "address_null":"Introduïu el compte de la tercera part",
+            "address_err":"El format de l'adreça transferida no és vàlida.",
+            "send_success":"S'ha enviat correctament",
+            "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i una tarifa de minera"
         }
     },
     "page_account": {
-        "transfer_log":"Historial de transaccions",
+        "transfer_log":"Registre de transaccions",
         "transfer_log_null":"Sense historial de transaccions",
         "active_icon": {
-            "go_transfer":"Inicieu la transferència",
+            "go_transfer":"Inicieu una transferència",
             "import_keystore":"Fitxer del compte",
             "qrcode":"Codi QR"
         },
@@ -84,21 +84,21 @@
             "tit":"Informació sobre la transacció",
             "block_hash":"Número de transacció",
             "status":"Estat",
-            "from":"Remitent",
-            "to":"Receptor",
+            "from":"Part enviadora",
+            "to":"Pagador",
             "amount":"Import",
-            "data":"Les dades",
+            "data":"Dades",
             "send_time":"S'està enviant el temps",
             "mac_time":"Temps principal de la xarxa"
         },
         "keystore": {
             "tit":"Arxiu de cartera de còpia de seguretat",
-            "copy":"Duplicat",
+            "copy":"Copia",
             "download":"Descarregar el fitxer de cartera"
         },
         "msg_info": {
             "ads_copy_success":"S'ha copiat l'adreça",
-            "key_copy_success":"S'ha copiat correctament"
+            "key_copy_success":"Còpia amb èxit"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Crea un compte",
             "backup_tit":"Feu una còpia de seguretat del vostre compte nou",
-            "create_tag":"Nom del compte",
+            "create_tag":"Nota del compte",
             "create_pwd":"Estableix la contrasenya",
             "create_repwd":"Confirma la contrasenya",
-            "placeholder_tag":"Estableix el nom del compte",
-            "placeholder_pwd":"Estableix la contrasenya del compte",
+            "placeholder_tag":"Establiu el nom de la nota del compte",
+            "placeholder_pwd":"Establiu la contrasenya del compte",
             "placeholder_repwd":"Confirmeu la contrasenya del compte",
-            "strong_password":"Introduïu una contrasenya d'almenys 8 dígits",
-            "account_address":"Compte",
-            "account_privateKey":"Clau privada",
-            "account_download_keystore":"Baixeu el fitxer del compte"
+            
+            
+            "account_download_keystore":"Baixeu el fitxer del compte",
+
+            "validate_tag":"Introduïu el nom de la nota del compte",
+            "validate_tag_length":"El nom de memòria no pot superar els 8 caràcters",
+
+            "validate_password":"Introduïu la contrasenya que heu definit",
+            "validate_re_password":"Introduïu la contrasenya que heu configurat de nou",
+            "validate_strong_password":"Introduïu una contrasenya d'almenys 8 dígits",
+            "validate_password_length":"S'ha introduït una contrasenya inconsistent dues vegades",
+
+            "create_success":"Creat amb èxit",
+            "create_success_des":"Deseu el fitxer del vostre compte i no el compartiu amb ningú."
         },
         "import_dia": {
             "tit":"Importar compte",    
             "placeholder_keystore":"Arrossegueu aquí el fitxer del compte",
-            "create_tag":"Nom del compte",
-            "placeholder_tag":"Estableix el nom del compte"
+            "create_tag":"Nota del compte",
+            "placeholder_tag":"Establiu el nom de la nota del compte",
+
+            "validate_tag":"Introduïu el nom de la nota del compte",
+            "validate_tag_length":"El nom de memòria no pot superar els 8 caràcters",
+            "validate_enter_keystore":"Importeu primer el fitxer del compte",
+            "validate_error_keystore":"La importació del compte ha fallat, pot ser un error del fitxer de compte",
+            "imported_account_success":"S'ha importat correctament",
+            "exist":"Aquest compte ja existeix, la nota és",
+            "keystore_error":"Error:",
+            "imported_success":"Importa el fitxer amb èxit"
         },
         "remove_dia": {
             "tit":"Esteu segur que voleu eliminar-lo?",
             "remove_confrim":"Estic segur d'eliminar",
-            "backup":"Tingueu en compte la còpia de seguretat d'aquest compte per evitar danys a la propietat",
+            "backup":"Poseu atenció a la còpia de seguretat d'aquest compte per evitar danys a la propietat.",
             "input_pwd":"Contrasenya",
-            "placeholder_pwd":"Introduïu la contrasenya d'aquest compte"
-        },
-        "msg_info": {
-            "exist":"Aquest compte ja existeix, el nom és",
-            "enter_password":"Introduïu la vostra contrasenya",
-            "incons_password":"La contrasenya introduïda dues vegades és inconsistent",
-            "error":"Error:",
-            "imported_success":"Importa el fitxer amb èxit",
-            "imported_account_success":"S'ha importat correctament",
-            "enter_private":"Introduïu la clau",
-            "error_keystore":"No s'ha pogut importar el compte, pot ser un error del fitxer de compte",
-            "enter_keystore":"Importeu primer el fitxer del compte",
-            "error_password":"No s'ha pogut importar el compte, pot ser que sigui una contrasenya incorrecta",
-            "remove_success":"S'ha eliminat correctament",
-            "create_success":"Creat amb èxit",
-            "save":"Deseu el fitxer del vostre compte i no el compartiu amb ningú."
+            "placeholder_pwd":"Introduïu la contrasenya d'aquest compte",
+            "validate_password":"Introduïu la contrasenya del compte",
+            "remove_success":"S'ha eliminat correctament"
         }
     }
 }

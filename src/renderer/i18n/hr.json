@@ -34,8 +34,8 @@
             "title":"Uklanjate"
         },
         "msg_info": {
-            "no_tag":"Unesite naziv računa",
-            "no_address":"Unesite adresu računa",
+            "no_tag":"Unesite bilješku o računu",
+            "no_address":"Unesite adresu svog računa",
             "valid_address":"Adresa kontakta je ilegalna",
             "exist":"Kontakt već postoji,"
         }
@@ -45,12 +45,12 @@
         "to_address":"u",
         "amount":"novac",
         "send_all":"Pošalji sve",
-        "data":"datum",
+        "data":"podaci",
         "data_placeholder":"Hexadecimalni podaci",
-        "fees":"naknade",
+        "fees":"Naknada za rukovanje",
         "total":"ukupno",
         "select":"Molimo odaberite",
-        "no_account_info":"Nema računa, izradite ili uvezite račun",
+        "no_account_info":"Još nema računa, izradite ili uvezite račun",
         "contacts_dig": {
             "select_placeholder":"Molimo odaberite"
         },
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Unesite zaporku"
         },
         "msg_info": {
-            "decrypt_err":"Analiza novčanika nije uspjela, može biti pogreška u zaporci",
-            "amount_zero":"Nedovoljna ravnoteža za nastavak",
-            "address_null":"Unesite račun",
-            "address_err":"Format dolazne adrese je ilegalan",
-            "send_success":"Pošaljite uspjeh",
-            "send_error":"Transakcija nije uspjela: provjerite ima li dovoljno ravnoteže i naknadu rudara"
+            "decrypt_err":"Raščlanjivanje novčanika nije uspjelo, možda je pogreška zaporke",
+            "amount_zero":"Nedovoljna ravnoteža, ne može se nastaviti",
+            "address_null":"Unesite račun druge strane",
+            "address_err":"Format prenesene adrese nije valjan.",
+            "send_success":"Uspješno je poslana",
+            "send_error":"Transakcija nije uspjela: provjerite postoji li dovoljan iznos salda i rudara"
         }
     },
     "page_account": {
-        "transfer_log":"Povijest transakcija",
+        "transfer_log":"Zapis transakcije",
         "transfer_log_null":"Nema povijesti transakcija",
         "active_icon": {
             "go_transfer":"Pokrenite prijenos",
@@ -84,10 +84,10 @@
             "tit":"Informacije o transakciji",
             "block_hash":"Broj transakcije",
             "status":"stanje",
-            "from":"Slanje novca zabavu",
+            "from":"Slanje stranke",
             "to":"primalac",
             "amount":"novac",
-            "data":"Podaci",
+            "data":"podaci",
             "send_time":"Slanje vremena",
             "mac_time":"Glavno vrijeme mreže"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adresa je kopirana",
-            "key_copy_success":"Uspješno kopirano"
+            "key_copy_success":"Uspješna kopija"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Stvorite račun",
             "backup_tit":"Izradite sigurnosnu kopiju svog novog računa",
-            "create_tag":"Naziv računa",
+            "create_tag":"Bilješka o računu",
             "create_pwd":"Postavi lozinku",
             "create_repwd":"Potvrdite lozinku",
-            "placeholder_tag":"Postavite naziv računa",
+            "placeholder_tag":"Postavite naziv bilješke računa",
             "placeholder_pwd":"Postavite zaporku računa",
             "placeholder_repwd":"Potvrdite zaporku računa",
-            "strong_password":"Unesite zaporku od najmanje 8 znamenaka",
-            "account_address":"račun",
-            "account_privateKey":"Privatni ključ",
-            "account_download_keystore":"Preuzmite datoteku računa"
+            
+            
+            "account_download_keystore":"Preuzmite datoteku računa",
+
+            "validate_tag":"Unesite naziv bilješke računa",
+            "validate_tag_length":"Memo ime ne može biti duže od 8 znakova",
+
+            "validate_password":"Unesite zaporku koju ste postavili",
+            "validate_re_password":"Unesite zaporku koju ste ponovno postavili",
+            "validate_strong_password":"Unesite zaporku od najmanje 8 znamenaka",
+            "validate_password_length":"Nedosljedna lozinka unijeta dva puta",
+
+            "create_success":"Izrađeno je uspješno",
+            "create_success_des":"Spremite datoteku svog računa i nemojte ga dijeliti s nikim!"
         },
         "import_dia": {
             "tit":"Uvoz računa",    
             "placeholder_keystore":"Povucite datoteku računa ovdje",
-            "create_tag":"Naziv računa",
-            "placeholder_tag":"Postavite naziv računa"
+            "create_tag":"Bilješka o računu",
+            "placeholder_tag":"Postavite naziv bilješke računa",
+
+            "validate_tag":"Unesite naziv bilješke računa",
+            "validate_tag_length":"Memo ime ne može biti duže od 8 znakova",
+            "validate_enter_keystore":"Najprije uvezite datoteku računa",
+            "validate_error_keystore":"Uvoz računa nije uspio, možda je pogreška u datoteci računa",
+            "imported_account_success":"Uspješno uvezeno",
+            "exist":"Taj račun već postoji, bilješka je",
+            "keystore_error":"pogreška:",
+            "imported_success":"Uvezi datoteku uspješno"
         },
         "remove_dia": {
             "tit":"Jeste li sigurni da ga želite ukloniti?",
             "remove_confrim":"Sigurno ću ukloniti",
-            "backup":"Imajte na umu sigurnosnu kopiju ovog računa kako biste izbjegli oštećenje imovine",
+            "backup":"Obratite pažnju na sigurnosnu kopiju ovog računa kako biste izbjegli oštećenje imovine.",
             "input_pwd":"lozinka",
-            "placeholder_pwd":"Unesite zaporku za ovaj račun"
-        },
-        "msg_info": {
-            "exist":"Taj račun već postoji, naziv je",
-            "enter_password":"Unesite zaporku",
-            "incons_password":"Unosom lozinke dvaput nije konzistentan",
-            "error":"pogreška:",
-            "imported_success":"Uvezi datoteku uspješno",
-            "imported_account_success":"Uvezeno je uspješno",
-            "enter_private":"Unesite ključ",
-            "error_keystore":"Uvoz računa nije uspio, možda je pogreška u datoteci računa",
-            "enter_keystore":"Najprije uvezite datoteku računa",
-            "error_password":"Uvoz računa nije uspio, možda je pogrešna lozinka",
-            "remove_success":"Uklonjeno je uspješno",
-            "create_success":"Izrađeno je uspješno",
-            "save":"Spremite datoteku svog računa i nemojte ga dijeliti s nikim!"
+            "placeholder_pwd":"Unesite zaporku za ovaj račun",
+            "validate_password":"Unesite zaporku za račun",
+            "remove_success":"Uspješno uklonjeno"
         }
     }
 }

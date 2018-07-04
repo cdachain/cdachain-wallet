@@ -1,8 +1,8 @@
 {
-    "confirm":"Potwierdzenie",
-    "cancel":"Anulowanie",
+    "confirm":"Potwierdź",
+    "cancel":"Anuluj",
     "dialog_tit":"Pytaj",
-    "close":"Zamknięte",
+    "close":"Zamknij",
     "confirm_you_active":"Proszę potwierdzić swoją operację",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Strona główna",
         "transfer":"Przenieś",
-        "contacts":"Kontakty",
-        "setting":"Ustawienia",
+        "contacts":"Kontakt",
+        "setting":"Ustawienie",
         "total":"Razem",
         "testnet":"Sieć testowa"
     },
     "page_setting": {
-        "tit":"Ustawienia",
+        "tit":"Ustawienie",
         "lang":"Język",
         "select":"Proszę wybrać"
     },
     "page_contacts": {
-        "tit":"Kontakty",
+        "tit":"Kontakt",
         "add_dialog":"Nowy kontakt",
         "add_cont": {
             "tit":"Nowy kontakt",
-            "tag":"Kontakty",
+            "tag":"Kontakt",
             "address":"Adres konta",
             "tag_placeholder":"Wprowadź nazwę kontaktu",
             "address_placeholder":"Wprowadź adres konta kontaktu"
@@ -34,20 +34,20 @@
             "title":"Usuwasz"
         },
         "msg_info": {
-            "no_tag":"Wprowadź nazwę konta",
-            "no_address":"Proszę podać adres konta",
-            "valid_address":"Adres kontaktowy jest nielegalny",
+            "no_tag":"Proszę wprowadzić uwagę na koncie",
+            "no_address":"Wprowadź adres swojego konta",
+            "valid_address":"Adres kontaktu jest niezgodny z prawem",
             "exist":"Kontakt już istnieje,"
         }
     },
     "page_transfer": {
         "from_address":"Przenieś",
-        "to_address":"Do",
+        "to_address":"Przenieś",
         "amount":"Kwota",
         "send_all":"Wyślij wszystko",
-        "data":"Data",
+        "data":"Dane",
         "data_placeholder":"Dane szesnastkowe",
-        "fees":"Opłaty",
+        "fees":"Opłata manipulacyjna",
         "total":"Razem",
         "select":"Proszę wybrać",
         "no_account_info":"Brak konta, proszę utworzyć lub zaimportować konto",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Wprowadź swoje hasło"
         },
         "msg_info": {
-            "decrypt_err":"Przetwarzanie portfela nie powiodło się, może to być błąd hasła",
-            "amount_zero":"Niewystarczające saldo do kontynuowania",
-            "address_null":"Proszę podać konto",
-            "address_err":"Format przychodzącego adresu jest nielegalny",
-            "send_success":"Wyślij sukces",
-            "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy jest wystarczająca opłata bilansowa i górnicza"
+            "decrypt_err":"Nie udało się przetworzyć portfela, może to być błąd hasła",
+            "amount_zero":"Niewystarczające saldo, nie można kontynuować",
+            "address_null":"Proszę podać konto drugiej strony",
+            "address_err":"Format przesłanego adresu jest nieprawidłowy.",
+            "send_success":"Pomyślnie wysłano",
+            "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy istnieje wystarczająca opłata bilansowa i górnicza"
         }
     },
     "page_account": {
-        "transfer_log":"Historia transakcji",
+        "transfer_log":"Rejestr transakcji",
         "transfer_log_null":"Brak historii transakcji",
         "active_icon": {
-            "go_transfer":"Rozpocznij transfer",
+            "go_transfer":"Rozpocznij przelew",
             "import_keystore":"Plik konta",
             "qrcode":"Kod QR"
         },
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Informacje o transakcji",
             "block_hash":"Numer transakcji",
-            "status":"Status",
-            "from":"Nadawca",
-            "to":"Odbiornik",
+            "status":"Państwo",
+            "from":"Wysyłanie strony",
+            "to":"Płatnik",
             "amount":"Kwota",
             "data":"Dane",
             "send_time":"Wysyłanie czasu",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Utwórz kopię zapasową pliku portfela",
-            "copy":"Duplikat",
+            "copy":"Kopiuj",
             "download":"Pobierz plik portfela"
         },
         "msg_info": {
             "ads_copy_success":"Adres został skopiowany",
-            "key_copy_success":"Z powodzeniem skopiowane"
+            "key_copy_success":"Pomyślna kopia"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Utwórz konto",
             "backup_tit":"Utwórz kopię zapasową nowego konta",
-            "create_tag":"Nazwa konta",
+            "create_tag":"Notatka konta",
             "create_pwd":"Ustaw hasło",
             "create_repwd":"Potwierdź hasło",
-            "placeholder_tag":"Ustaw nazwę konta",
+            "placeholder_tag":"Ustaw nazwę notatki konta",
             "placeholder_pwd":"Ustaw hasło do konta",
             "placeholder_repwd":"Potwierdź hasło do konta",
-            "strong_password":"Wprowadź hasło składające się z co najmniej 8 cyfr",
-            "account_address":"Konto",
-            "account_privateKey":"Klucz prywatny",
-            "account_download_keystore":"Pobierz plik konta"
+            
+            
+            "account_download_keystore":"Pobierz plik konta",
+
+            "validate_tag":"Wprowadź nazwę notatki konta",
+            "validate_tag_length":"Nazwa nazwy notatki nie może być większa niż 8 znaków.",
+
+            "validate_password":"Wprowadź ustawione hasło",
+            "validate_re_password":"Wprowadź ponownie ustawione hasło",
+            "validate_strong_password":"Wprowadź hasło składające się z co najmniej 8 cyfr",
+            "validate_password_length":"Niespójne hasło wpisane dwukrotnie",
+
+            "create_success":"Utworzono pomyślnie",
+            "create_success_des":"Zapisz plik konta i nie udostępniaj go nikomu!"
         },
         "import_dia": {
             "tit":"Importuj konto",    
             "placeholder_keystore":"Przeciągnij tutaj plik konta",
-            "create_tag":"Nazwa konta",
-            "placeholder_tag":"Ustaw nazwę konta"
+            "create_tag":"Notatka konta",
+            "placeholder_tag":"Ustaw nazwę notatki konta",
+
+            "validate_tag":"Wprowadź nazwę notatki konta",
+            "validate_tag_length":"Nazwa nazwy notatki nie może być większa niż 8 znaków.",
+            "validate_enter_keystore":"Najpierw zaimportuj plik konta",
+            "validate_error_keystore":"Import konta nie powiódł się, może to być błąd pliku konta",
+            "imported_account_success":"Pomyślnie zaimportowano",
+            "exist":"To konto już istnieje, notatka jest",
+            "keystore_error":"Błąd:",
+            "imported_success":"Importuj plik pomyślnie"
         },
         "remove_dia": {
             "tit":"Czy na pewno chcesz go usunąć?",
             "remove_confrim":"Jestem pewien, że usunę",
-            "backup":"Zwróć uwagę na kopię zapasową tego konta, aby uniknąć uszkodzenia własności",
+            "backup":"Zwróć uwagę na kopię zapasową tego konta, aby uniknąć uszkodzenia własności.",
             "input_pwd":"Hasło",
-            "placeholder_pwd":"Wprowadź hasło do tego konta"
-        },
-        "msg_info": {
-            "exist":"To konto już istnieje, jest to nazwa",
-            "enter_password":"Wprowadź swoje hasło",
-            "incons_password":"Wprowadzone dwukrotnie hasło jest niespójne",
-            "error":"Błąd:",
-            "imported_success":"Importuj plik pomyślnie",
-            "imported_account_success":"Zaimportowane pomyślnie",
-            "enter_private":"Wprowadź klucz",
-            "error_keystore":"Nie można zaimportować konta, może to być błąd pliku konta",
-            "enter_keystore":"Najpierw zaimportuj plik konta",
-            "error_password":"Nie można zaimportować konta, może to być nieprawidłowe hasło",
-            "remove_success":"Usunięto pomyślnie",
-            "create_success":"Utworzono pomyślnie",
-            "save":"Zapisz plik konta i nie udostępniaj go nikomu!"
+            "placeholder_pwd":"Wprowadź hasło do tego konta",
+            "validate_password":"Wprowadź hasło do konta",
+            "remove_success":"Pomyślnie usunięto"
         }
     }
 }

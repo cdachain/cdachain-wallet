@@ -2,7 +2,7 @@
     "confirm":"Konfirmasi",
     "cancel":"Pembatalan",
     "dialog_tit":"Prompt",
-    "close":"Tertutup",
+    "close":"Tutup",
     "confirm_you_active":"Harap konfirmasi operasi Anda",
     "unit": {
         "czr":"CZR"
@@ -34,23 +34,23 @@
             "title":"Anda menghapus"
         },
         "msg_info": {
-            "no_tag":"Silakan masukkan nama akun",
-            "no_address":"Silakan masukkan alamat akun",
+            "no_tag":"Harap masukkan catatan akun",
+            "no_address":"Silakan masukkan alamat akun Anda",
             "valid_address":"Alamat kontak itu ilegal",
             "exist":"Kontak sudah ada,"
         }
     },
     "page_transfer": {
         "from_address":"Transfer keluar",
-        "to_address":"Ke",
+        "to_address":"Transfer",
         "amount":"Jumlah",
         "send_all":"Kirim semua",
-        "data":"Date",
+        "data":"Data",
         "data_placeholder":"Data heksadesimal",
-        "fees":"Biaya",
+        "fees":"Biaya penanganan",
         "total":"Total",
         "select":"Silakan pilih",
-        "no_account_info":"Tanpa akun, silakan buat atau impor akun",
+        "no_account_info":"Belum punya akun, silakan buat atau impor akun",
         "contacts_dig": {
             "select_placeholder":"Silakan pilih"
         },
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Silakan masukkan kata sandi Anda"
         },
         "msg_info": {
-            "decrypt_err":"Gagal menguraikan dompet, mungkin merupakan kesalahan kata sandi",
-            "amount_zero":"Saldo tidak mencukupi untuk melanjutkan",
-            "address_null":"Silakan masukkan akun",
-            "address_err":"Format alamat masuk adalah ilegal",
-            "send_success":"Kirim sukses",
-            "send_error":"Transaksi gagal: Silakan periksa apakah ada saldo yang cukup dan biaya penambang"
+            "decrypt_err":"Gagal menguraikan dompet, mungkin ini adalah kesalahan kata sandi",
+            "amount_zero":"Saldo tidak mencukupi, tidak dapat dilanjutkan",
+            "address_null":"Silakan masukkan akun pihak lain",
+            "address_err":"Format alamat yang ditransfer tidak valid.",
+            "send_success":"Berhasil dikirim",
+            "send_error":"Transaksi gagal: silakan periksa apakah ada saldo yang cukup dan biaya penambang"
         }
     },
     "page_account": {
-        "transfer_log":"Riwayat transaksi",
+        "transfer_log":"Catatan transaksi",
         "transfer_log_null":"Tidak ada riwayat transaksi",
         "active_icon": {
             "go_transfer":"Mulai transfer",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Informasi transaksi",
             "block_hash":"Nomor transaksi",
-            "status":"Status",
-            "from":"Pengirim",
-            "to":"Penerima",
+            "status":"Negara",
+            "from":"Mengirim pihak",
+            "to":"Penerima pembayaran",
             "amount":"Jumlah",
             "data":"Datanya",
             "send_time":"Waktu pengiriman",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Cadangkan file dompet",
-            "copy":"Duplikat",
+            "copy":"Salin",
             "download":"Unduh file dompet"
         },
         "msg_info": {
             "ads_copy_success":"Alamat telah disalin",
-            "key_copy_success":"Berhasil disalin"
+            "key_copy_success":"Salinan yang berhasil"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Buat akun",
             "backup_tit":"Cadangkan akun baru Anda",
-            "create_tag":"Nama akun",
+            "create_tag":"Catatan akun",
             "create_pwd":"Setel kata sandi",
             "create_repwd":"Konfirmasi kata sandi",
-            "placeholder_tag":"Silakan tentukan nama akun",
-            "placeholder_pwd":"Silakan atur kata sandi akun",
+            "placeholder_tag":"Silakan mengatur nama catatan akun",
+            "placeholder_pwd":"Silakan mengatur kata sandi akun",
             "placeholder_repwd":"Silakan konfirmasi kata sandi akun",
-            "strong_password":"Masukkan kata sandi minimal 8 digit",
-            "account_address":"Akun",
-            "account_privateKey":"Kunci pribadi",
-            "account_download_keystore":"Unduh file akun"
+            
+            
+            "account_download_keystore":"Unduh file akun",
+
+            "validate_tag":"Harap masukkan nama catatan akun",
+            "validate_tag_length":"Nama memo tidak boleh lebih dari 8 karakter",
+
+            "validate_password":"Silakan masukkan kata sandi yang Anda tetapkan",
+            "validate_re_password":"Silakan masukkan kata sandi yang Anda atur lagi",
+            "validate_strong_password":"Masukkan kata sandi minimal 8 digit",
+            "validate_password_length":"Kata sandi tidak konsisten dimasukkan dua kali",
+
+            "create_success":"Berhasil dibuat",
+            "create_success_des":"Harap simpan file akun Anda dan jangan bagikan dengan siapa pun!"
         },
         "import_dia": {
             "tit":"Impor akun",    
             "placeholder_keystore":"Silakan seret file akun di sini",
-            "create_tag":"Nama akun",
-            "placeholder_tag":"Silakan tentukan nama akun"
+            "create_tag":"Catatan akun",
+            "placeholder_tag":"Silakan mengatur nama catatan akun",
+
+            "validate_tag":"Harap masukkan nama catatan akun",
+            "validate_tag_length":"Nama memo tidak boleh lebih dari 8 karakter",
+            "validate_enter_keystore":"Harap impor file akun terlebih dahulu",
+            "validate_error_keystore":"Impor akun gagal, mungkin kesalahan file akun",
+            "imported_account_success":"Berhasil diimpor",
+            "exist":"Akun ini sudah ada, catatannya adalah",
+            "keystore_error":"Galat:",
+            "imported_success":"Impor file berhasil"
         },
         "remove_dia": {
             "tit":"Anda yakin ingin menghapusnya?",
             "remove_confrim":"Saya yakin untuk menghapus",
-            "backup":"Harap catat cadangan akun ini untuk menghindari kerusakan properti",
+            "backup":"Harap perhatikan cadangan akun ini untuk menghindari kerusakan properti.",
             "input_pwd":"Kata sandi",
-            "placeholder_pwd":"Silakan masukkan kata sandi untuk akun ini"
-        },
-        "msg_info": {
-            "exist":"Akun ini sudah ada, namanya",
-            "enter_password":"Silakan masukkan kata sandi Anda",
-            "incons_password":"Kata sandi yang dimasukkan dua kali tidak konsisten",
-            "error":"Galat:",
-            "imported_success":"Impor file berhasil",
-            "imported_account_success":"Berhasil diimpor",
-            "enter_private":"Silakan masukkan kunci",
-            "error_keystore":"Gagal mengimpor akun, ini mungkin merupakan kesalahan file akun",
-            "enter_keystore":"Harap impor file akun terlebih dahulu",
-            "error_password":"Gagal mengimpor akun, itu mungkin kata sandi yang salah",
-            "remove_success":"Berhasil dihapus",
-            "create_success":"Berhasil dibuat",
-            "save":"Harap simpan file akun Anda dan jangan bagikan dengan siapa pun!"
+            "placeholder_pwd":"Silakan masukkan kata sandi untuk akun ini",
+            "validate_password":"Silakan masukkan kata sandi untuk akun tersebut",
+            "remove_success":"Berhasil dihapus"
         }
     }
 }

@@ -56,10 +56,9 @@
                 </div>
             </template>
             <template v-else-if="createInfo.step === 1">
-                <el-alert :title="$t('page_home.msg_info.create_success')" :description="$t('page_home.msg_info.save')" :closable="false" type="success" show-icon>
+                <el-alert :title="$t('page_home.create_dia.create_success')" :description="$t('page_home.create_dia.create_success_des')" :closable="false" type="success" show-icon>
                 </el-alert>
                 <el-input type="textarea" :rows="2" :value="createInfo.address">
-                    <template slot="prepend">{{$t('page_home.create_dia.account_address')}}</template>
                 </el-input>
                 <div slot="footer">
                     <el-button type="primary" @click="downloadKeystore(createInfo.address)">{{$t('page_home.create_dia.account_download_keystore')}}</el-button>
@@ -165,8 +164,7 @@ export default {
                 error: "",
 
                 address: "",
-                keystore: null,
-                privateKey: ""
+                keystore: null
             };
         },
         initImportInfo() {
@@ -183,14 +181,13 @@ export default {
         //Init End
 
         initAccount: function(params) {
-            let self = this;
             let account = this.$db
                 .get("czr_accounts")
                 .find({ address: params.address })
                 .value();
             if (account) {
                 this.$message.error(
-                    this.$t("page_home.msg_info.exist") +
+                    this.$t("page_home.import_dia.exist") +
                         '"' +
                         account.tag +
                         '"'
@@ -206,16 +203,33 @@ export default {
 
         // Create Account Start
         createAccount: function() {
-            var self = this;
-            if (!this.createInfo.pwd || !this.createInfo.repwd) {
+            if (!this.createInfo.tag) {
                 this.createInfo.error = this.$t(
-                    "page_home.msg_info.enter_password"
+                    "page_home.create_dia.validate_tag"
+                );
+                return;
+            }
+            if (this.createInfo.tag.length > 8) {
+                this.createInfo.error = this.$t(
+                    "page_home.create_dia.validate_tag_length"
+                );
+                return;
+            }
+            if (!this.createInfo.pwd) {
+                this.createInfo.error = this.$t(
+                    "page_home.create_dia.validate_password"
+                );
+                return;
+            }
+            if (!this.createInfo.repwd) {
+                this.createInfo.error = this.$t(
+                    "page_home.create_dia.validate_re_password"
                 );
                 return;
             }
             if (this.createInfo.pwd !== this.createInfo.repwd) {
                 this.createInfo.error = this.$t(
-                    "page_home.msg_info.incons_password"
+                    "page_home.create_dia.validate_password_length"
                 );
                 return;
             }
@@ -224,7 +238,7 @@ export default {
                 this.createInfo.repwd.length < 8
             ) {
                 this.createInfo.error = this.$t(
-                    "page_home.create_dia.strong_password"
+                    "page_home.create_dia.validate_strong_password"
                 );
                 return;
             }
@@ -250,7 +264,6 @@ export default {
                 });
         },
         downloadKeystore(accVal) {
-            var self = this;
             self.$czr.request
                 .accountExport(accVal)
                 .then(function(data) {
@@ -295,23 +308,37 @@ export default {
             fs.readFile(path, "utf8", (err, data) => {
                 if (err) {
                     this.$message.error(
-                        this.$t("page_home.msg_info.error") + ":" + err
+                        this.$t("page_home.import_dia.keystore_error") + ":" + err
                     );
                 }
                 // this.importInfo.keystore = JSON.parse(data);
                 this.importInfo.keystore = data;
                 this.importInfo.alert = {
-                    content: this.$t("page_home.msg_info.imported_success"),
+                    content: this.$t("page_home.import_dia.imported_success"),
                     type: "success"
                 };
             });
         },
         importAccount() {
-            var self = this;
+            if (!this.importInfo.tag) {
+                this.importInfo.alert = {
+                    content: this.$t("page_home.import_dia.validate_tag"),
+                    type: "error"
+                };
+                return;
+            }
+            if (this.importInfo.tag.length > 8) {
+                this.importInfo.alert = {
+                    content: this.$t("page_home.import_dia.validate_tag_length"),
+                    type: "error"
+                };
+                return;
+            }
+
             let account = null;
             if (!this.importInfo.keystore) {
                 this.importInfo.alert = {
-                    content: this.$t("page_home.msg_info.enter_keystore"),
+                    content: this.$t("page_home.import_dia.validate_enter_keystore"),
                     type: "error"
                 };
                 return;
@@ -331,7 +358,7 @@ export default {
                     if (data === 0) {
                         //TODO Error
                         self.$message.error(
-                            self.$t("page_home.msg_info.error_keystore")
+                            self.$t("page_home.import_dia.validate_error_keystore")
                         );
                     } else {
                         let params = {
@@ -347,7 +374,7 @@ export default {
                         self.dialogSwitch.import = false;
                         self.$message.success(
                             self.$t(
-                                "page_home.msg_info.imported_account_success"
+                                "page_home.import_dia.imported_account_success"
                             )
                         );
                     }
@@ -365,10 +392,9 @@ export default {
             this.dialogSwitch.remove = true;
         },
         removeAccountFn: function() {
-            var self = this;
             if (!this.removeInfo.pwd) {
                 this.removeInfo.alert = {
-                    content: this.$t("page_home.msg_info.enter_password"),
+                    content: this.$t("page_home.remove_dia.validate_password"),
                     type: "error"
                 };
                 return;
@@ -385,7 +411,7 @@ export default {
                             .remove({ address: self.removeInfo.address })
                             .write();
                         self.$message.success(
-                            self.$t("page_home.msg_info.remove_success")
+                            self.$t("page_home.remove_dia.remove_success")
                         );
                         self.initDatabase();
                         self.dialogSwitch.remove = false;
@@ -659,5 +685,12 @@ export default {
 }
 .import-type-wrap {
     text-align: center;
+}
+.account-remark {
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 </style>

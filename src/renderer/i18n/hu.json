@@ -27,16 +27,16 @@
             "tit":"Új kapcsolat",
             "tag":"érintkezés",
             "address":"Fiókcím",
-            "tag_placeholder":"Adja meg a névjegy nevét",
+            "tag_placeholder":"Kérjük, adja meg a partner nevét",
             "address_placeholder":"Kérjük, adja meg a kapcsolattartó fiókcímét"
         },
         "delete_dialog": {
             "title":"Ön eltávolít"
         },
         "msg_info": {
-            "no_tag":"Adja meg a fiók nevét",
-            "no_address":"Kérjük, adja meg a fiókcímét",
-            "valid_address":"A kapcsolattartó címe illegális",
+            "no_tag":"Kérjük, írjon be egy bankjegyet",
+            "no_address":"Kérjük, adja meg fiókjának címét",
+            "valid_address":"A kapcsolat címe illegális",
             "exist":"A kapcsolat már létezik,"
         }
     },
@@ -45,12 +45,12 @@
         "to_address":"bele",
         "amount":"pénz",
         "send_all":"Küldj mindent",
-        "data":"dátum",
+        "data":"adat",
         "data_placeholder":"Hexadecimális adatok",
-        "fees":"díjak",
+        "fees":"Kezelési díj",
         "total":"teljes",
         "select":"Kérem válasszon",
-        "no_account_info":"Nincs számla, kérjük, hozzon létre vagy importáljon fiókot",
+        "no_account_info":"Még nincs számla, kérjük, hozzon létre vagy importáljon fiókot",
         "contacts_dig": {
             "select_placeholder":"Kérem válasszon"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Kérjük, adja meg jelszavát"
         },
         "msg_info": {
-            "decrypt_err":"A Wallet-elemzés sikertelen, jelszóhiba lehet",
-            "amount_zero":"Nem megfelelő egyensúly a folytatáshoz",
-            "address_null":"Kérjük, adja meg a fiókot",
-            "address_err":"A bejövő címformátum illegális",
-            "send_success":"Küldje el sikerét",
-            "send_error":"A tranzakció sikertelen: Ellenőrizze, van-e elegendő egyensúly és bányász díja"
+            "decrypt_err":"A Wallet-elemzés sikertelen, lehet, hogy jelszóhiba",
+            "amount_zero":"Nem megfelelő egyensúly, képtelen folytatni",
+            "address_null":"Kérjük, adja meg a másik fél fiókját",
+            "address_err":"Az átvitt cím formátuma érvénytelen.",
+            "send_success":"Sikeresen elküldve",
+            "send_error":"A tranzakció sikertelen: ellenőrizze, van-e elegendő egyensúly és a bányászdíj"
         }
     },
     "page_account": {
-        "transfer_log":"Tranzakciók előzményei",
+        "transfer_log":"Tranzakciós rekord",
         "transfer_log_null":"Nincs tranzakcióelőzmény",
         "active_icon": {
-            "go_transfer":"Átirányítás kezdeményezése",
+            "go_transfer":"Indítsa el az átadást",
             "import_keystore":"Fiókfájl",
             "qrcode":"QR kód"
         },
@@ -84,10 +84,10 @@
             "tit":"Tranzakciós információk",
             "block_hash":"Tranzakció száma",
             "status":"állami",
-            "from":"Küldjön pénzt party",
+            "from":"Küldő fél",
             "to":"kedvezményezett",
             "amount":"pénz",
-            "data":"Az adatok",
+            "data":"adat",
             "send_time":"Küldési idő",
             "mac_time":"Fő hálózati idő"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"A cím át lett másolva",
-            "key_copy_success":"Sikeresen másolt"
+            "key_copy_success":"Sikeres másolat"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Hozzon létre egy fiókot",
             "backup_tit":"Hozza létre az új fiókot",
-            "create_tag":"Fiók neve",
+            "create_tag":"Fiókjegyzék",
             "create_pwd":"Jelszó beállítása",
             "create_repwd":"Jelszó megerősítése",
-            "placeholder_tag":"Állítsa be a fiók nevét",
-            "placeholder_pwd":"Kérjük, állítsa be a fiók jelszavát",
+            "placeholder_tag":"Kérjük, állítsa be a fiók megjegyzésének nevét",
+            "placeholder_pwd":"Állítsa be a fiók jelszavát",
             "placeholder_repwd":"Kérjük, erősítse meg a fiók jelszavát",
-            "strong_password":"Adjon meg legalább 8 számjegyből álló jelszót",
-            "account_address":"számla",
-            "account_privateKey":"Privát kulcs",
-            "account_download_keystore":"Számlafájl letöltése"
+            
+            
+            "account_download_keystore":"Számlafájl letöltése",
+
+            "validate_tag":"Kérjük, adja meg a fiók megjegyzésének nevét",
+            "validate_tag_length":"Az emlékeztetõ név legfeljebb 8 karakter lehet",
+
+            "validate_password":"Adja meg a megadott jelszót",
+            "validate_re_password":"Adja meg újra a beállított jelszót",
+            "validate_strong_password":"Adjon meg legalább 8 számjegyből álló jelszót",
+            "validate_password_length":"Nem kétséges jelszó kétszer beírva",
+
+            "create_success":"Létrehozva sikeresen",
+            "create_success_des":"Kérjük, mentse fiókfájlját, és ne ossza meg senkivel!"
         },
         "import_dia": {
             "tit":"Számla importálása",    
             "placeholder_keystore":"Kérjük, húzza át a fiókfájlt",
-            "create_tag":"Fiók neve",
-            "placeholder_tag":"Állítsa be a fiók nevét"
+            "create_tag":"Fiókjegyzék",
+            "placeholder_tag":"Kérjük, állítsa be a fiók megjegyzésének nevét",
+
+            "validate_tag":"Kérjük, adja meg a fiók megjegyzésének nevét",
+            "validate_tag_length":"Az emlékeztetõ név legfeljebb 8 karakter lehet",
+            "validate_enter_keystore":"Kérjük, először importálja a fiókfájlt",
+            "validate_error_keystore":"Fiók importálása sikertelen, lehet, hogy fiókfájl hiba",
+            "imported_account_success":"Sikeresen importálva",
+            "exist":"Ez a fiók már létezik, a megjegyzés",
+            "keystore_error":"Hiba:",
+            "imported_success":"Fájl importálása sikeresen"
         },
         "remove_dia": {
             "tit":"Biztosan eltávolítja?",
             "remove_confrim":"Biztos vagyok benne, hogy eltávolítom",
-            "backup":"Kérjük, vegye figyelembe a fiók biztonsági másolatát az anyagi károk elkerülése érdekében",
+            "backup":"Kérjük, vegye figyelembe a fiók biztonsági mentését, hogy elkerülje az anyagi károkat.",
             "input_pwd":"jelszó",
-            "placeholder_pwd":"Kérjük, adja meg a fiókhoz tartozó jelszót"
-        },
-        "msg_info": {
-            "exist":"Ez a fiók már létezik, a név",
-            "enter_password":"Kérjük, adja meg jelszavát",
-            "incons_password":"A kétszer beírt jelszó következetlen",
-            "error":"Hiba:",
-            "imported_success":"Fájl importálása sikeresen",
-            "imported_account_success":"Importált sikeresen",
-            "enter_private":"Kérjük, adja meg a kulcsot",
-            "error_keystore":"Nem sikerült importálni a fiókot, lehet, hogy fiókfájlhiba",
-            "enter_keystore":"Kérjük, először importálja a fiókfájlt",
-            "error_password":"A fiók importálása sikertelen, lehet, hogy rossz jelszó",
-            "remove_success":"Sikeresen eltávolítva",
-            "create_success":"Létrehozva sikeresen",
-            "save":"Kérjük, mentse fiókfájlját, és ne ossza meg senkivel!"
+            "placeholder_pwd":"Kérjük, adja meg a fiókhoz tartozó jelszót",
+            "validate_password":"Adja meg a fiókhoz tartozó jelszót",
+            "remove_success":"Sikeresen eltávolították"
         }
     }
 }

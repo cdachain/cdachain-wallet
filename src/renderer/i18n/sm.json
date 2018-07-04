@@ -1,8 +1,8 @@
 {
-    "confirm":"Faamauga",
-    "cancel":"Faaleaogaina",
+    "confirm":"Faʻamaonia",
+    "cancel":"Faaleaoga",
     "dialog_tit":"Usiusitai",
-    "close":"Tapunia",
+    "close":"Katia",
     "confirm_you_active":"Faʻamolemole faʻamaonia lau taotoga",
     "unit": {
         "czr":"CZR"
@@ -11,12 +11,12 @@
         "home":"Aiga",
         "transfer":"Fesuiaiga",
         "contacts":"Fesoʻotaʻiga",
-        "setting":"Faʻasologa",
+        "setting":"Faʻatonu",
         "total":"Aofaʻi",
         "testnet":"Tofiga o suʻega"
     },
     "page_setting": {
-        "tit":"Faʻasologa",
+        "tit":"Faʻatonu",
         "lang":"Gagana",
         "select":"Faamolemole filifili"
     },
@@ -27,30 +27,30 @@
             "tit":"Fesootaiga fou",
             "tag":"Fesoʻotaʻiga",
             "address":"Tuatusi o tala",
-            "tag_placeholder":"Faʻamolemole tuʻu le igoa o le tagata",
+            "tag_placeholder":"Faʻamolemole tuʻu le igoa o le fesoʻotaʻiga",
             "address_placeholder":"Faʻamolemole faʻafesoʻotaʻi le tuatusi o le faʻamatalaga a le tagata"
         },
         "delete_dialog": {
             "title":"O loʻo e vaʻavaʻa"
         },
         "msg_info": {
-            "no_tag":"Faamolemole ia tusia le igoa o le tala",
-            "no_address":"Faamolemole ia ulufale i le tuatusi o le tala",
-            "valid_address":"O le tuatusi o le tuatusi e le tusa ai ma le tulafono",
+            "no_tag":"Faʻamolemole tuʻu se tusi tala",
+            "no_address":"Faʻamolemole ulufale i lau tuatusi faʻamatalaga",
+            "valid_address":"O le tuatusi o le faafesootaiga e le tusa ai ma le tulafono",
             "exist":"Ua i ai nei le fesootaiga,"
         }
     },
     "page_transfer": {
         "from_address":"Fesiitaʻi",
-        "to_address":"Totonu",
+        "to_address":"Fesuiaiga",
         "amount":"Aofaʻi",
         "send_all":"Auina uma",
-        "data":"Aso",
+        "data":"Faʻamatalaga",
         "data_placeholder":"Hexadecimal data",
-        "fees":"Totogi",
+        "fees":"Totogi taulimaina",
         "total":"Aofaʻi",
         "select":"Faamolemole filifili",
-        "no_account_info":"Leai se faʻamatalaga, faamolemole ia fatuina pe faaulufale mai le teugatupe",
+        "no_account_info":"Leai se tala, faamolemole ia fatuina pe faaulufale mai le teugatupe",
         "contacts_dig": {
             "select_placeholder":"Faamolemole filifili"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Faʻamolemole ulufale i lau faʻaupuga"
         },
         "msg_info": {
-            "decrypt_err":"Ua le manuia le faila o le faila, atonu o se faʻasologa sese",
-            "amount_zero":"Le paleni le lava e faaauau",
-            "address_null":"Faʻamolemole tuʻu le tala",
-            "address_err":"O le faʻauigaina o le tuatusi o le tuatusi e le tulafono",
-            "send_success":"Auina atu le manuia",
-            "send_error":"Ua le manuia le gaioiga: Faamolemole siaki pe a lava le paleni paleni ma le totogi o le tagata"
+            "decrypt_err":"Ua le manuia le pusa faila, atonu o se sese ole palakalafa",
+            "amount_zero":"Le paleni le lava, le mafai ona faaauau",
+            "address_null":"Faʻamolemole tuʻu le tala a le isi pati",
+            "address_err":"O le faatulagaga o le tuatusi o le tuatusi ua le aoga.",
+            "send_success":"Na auina atu ma le manuia",
+            "send_error":"Ua le manuia le gaioiga: faamolemole siaki pe a lava le paleni paleni ma le tau o le miner"
         }
     },
     "page_account": {
-        "transfer_log":"Talaʻaga o galuega",
+        "transfer_log":"Faʻamaumauga o galuega",
         "transfer_log_null":"Leai se tala faʻasolopito",
         "active_icon": {
-            "go_transfer":"Amata le fesiitaiga",
+            "go_transfer":"Amata se suiga",
             "import_keystore":"Faʻamaumauga faila",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Faamatalaga o galuega",
             "block_hash":"Numera o galuega",
-            "status":"Tulaga",
-            "from":"Tagata e auina atu",
-            "to":"Taliaina",
+            "status":"Malo",
+            "from":"Tuuina atu o le pati",
+            "to":"Payee",
             "amount":"Aofaʻi",
-            "data":"O faʻamatalaga",
+            "data":"Faʻamatalaga",
             "send_time":"Tuuina atu taimi",
             "mac_time":"Taimi autu fesoʻotaiga"
         },
         "keystore": {
             "tit":"Lautusi faila tuatusi",
-            "copy":"Faʻasologa",
+            "copy":"Kopi",
             "download":"Maua le faila faila"
         },
         "msg_info": {
             "ads_copy_success":"Ua uma ona kopi le tuatusi",
-            "key_copy_success":"Suʻeina ma le manuia"
+            "key_copy_success":"Taga manuia"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Fausia se tala",
             "backup_tit":"Faʻasolo i luga lau tala fou",
-            "create_tag":"Igoa o le tala",
+            "create_tag":"Faʻamatalaga tusi",
             "create_pwd":"Seti le upu faʻamaonia",
             "create_repwd":"Faʻamaonia le faʻamaonia",
-            "placeholder_tag":"Faamolemole faatulaga le igoa o le tala",
-            "placeholder_pwd":"Faʻamolemole tuʻu le faʻamatalaga faʻamatalaga",
+            "placeholder_tag":"Faʻamolemole seti le igoa o le tala",
+            "placeholder_pwd":"Faʻamolemole seti le upega tafaʻi tala",
             "placeholder_repwd":"Faʻamolemole faʻamaonia le upega tafailautusi o tala",
-            "strong_password":"Ulufale mai se faʻaupuga o le itiiti ifo ma le 8 numera",
-            "account_address":"Tala",
-            "account_privateKey":"Faʻamatalaga tumaoti",
-            "account_download_keystore":"Tikiala faila faila"
+            
+            
+            "account_download_keystore":"Tikiala faila faila",
+
+            "validate_tag":"Faamolemole ia tusia le igoa o le tala o le tala",
+            "validate_tag_length":"O le igoa o le igoa tusi e le mafai ona sili atu nai lo le 8 mataitusi.",
+
+            "validate_password":"Faamolemole ia ulufale i le uputatala na e seti",
+            "validate_re_password":"Faamolemole ia ulufale mai i le uputatala na e toe faatulagaina",
+            "validate_strong_password":"Faʻamolemole tuʻu mai se faʻaupuga o le itiiti ifo ma le 8 numera",
+            "validate_password_length":"Faʻasalalau le faʻamaoni e le ogatasi",
+
+            "create_success":"Fausia lelei",
+            "create_success_des":"Faʻamolemole faʻasaʻo lau faila faila ma aua nei faʻasoa atu i soʻo se tasi!"
         },
         "import_dia": {
             "tit":"Faʻamatalaga o oloa mai fafo",    
             "placeholder_keystore":"Faamolemole toso mai le faila faila iinei",
-            "create_tag":"Igoa o le tala",
-            "placeholder_tag":"Faamolemole faatulaga le igoa o le tala"
+            "create_tag":"Faʻamatalaga tusi",
+            "placeholder_tag":"Faʻamolemole seti le igoa o le tala",
+
+            "validate_tag":"Faamolemole ia tusia le igoa o le tala o le tala",
+            "validate_tag_length":"O le igoa o le igoa tusi e le mafai ona sili atu nai lo le 8 mataitusi.",
+            "validate_enter_keystore":"Faamolemole faaulu muamua le faila faila",
+            "validate_error_keystore":"Faʻataunuʻu le faʻamatalaga o tala, atonu o le faʻailoga faila faila",
+            "imported_account_success":"Suʻe ma le manuia",
+            "exist":"O loʻo iai nei tala, o le tusi",
+            "keystore_error":"Laʻasaga:",
+            "imported_success":"Faʻamatalaga lelei le faletupe"
         },
         "remove_dia": {
             "tit":"E te mautinoa e te manaʻo e aveese?",
             "remove_confrim":"Ou te mautinoa e aveese",
-            "backup":"Faamolemole ia matau le teuina o lenei teugatupe ina ia aloese mai le faaleagaina o meatotino",
+            "backup":"Faʻamolemole faʻalogo i le faʻamaumauga o lenei tala e aloese ai mai le faʻaleagaina o meatotino.",
             "input_pwd":"Motugaafa",
-            "placeholder_pwd":"Faamolemole ia ulufale i le upega tafailagi mo lenei tala"
-        },
-        "msg_info": {
-            "exist":"O loʻo iai nei tala ma o le igoa",
-            "enter_password":"Faʻamolemole ulufale i lau faʻaupuga",
-            "incons_password":"O le faʻaulufaleina faʻalua e lua e le ogatasi",
-            "error":"Laʻasaga:",
-            "imported_success":"Faʻamatalaga lelei le faletupe",
-            "imported_account_success":"Faʻasalaga lelei",
-            "enter_private":"Faʻamolemole tuʻu le ki",
-            "error_keystore":"Ua le mafai ona faaulufaleina le teugatupe, atonu o se faila o faila faila",
-            "enter_keystore":"Faamolemole faaulu muamua le faila faila",
-            "error_password":"Ua le mafai ona faaulufale mai le teugatupe, atonu o se sese sese",
-            "remove_success":"Aveese ma le manuia",
-            "create_success":"Fausia lelei",
-            "save":"Faʻamolemole faʻasaʻo lau faila faila ma aua nei faʻasoa atu i soʻo se tasi!"
+            "placeholder_pwd":"Faamolemole ia ulufale i le upega tafailagi mo lenei tala",
+            "validate_password":"Faʻamolemole tuʻu mai le faʻaupuga mo le teugatupe",
+            "remove_success":"Aveese ma le manuia"
         }
     }
 }

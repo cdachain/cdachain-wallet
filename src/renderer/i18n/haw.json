@@ -1,8 +1,8 @@
 {
-    "confirm":"Hōʻoia",
+    "confirm":"E hōʻoia",
     "cancel":"Hoʻokahuli",
     "dialog_tit":"Hoʻonui",
-    "close":"Pauʻia",
+    "close":"Kūkā",
     "confirm_you_active":"Eʻoluʻolu e hōʻoia i kāu hana",
     "unit": {
         "czr":"CZR"
@@ -10,47 +10,47 @@
     "model_header": {
         "home":"Home",
         "transfer":"Hoʻololi",
-        "contacts":"Nāʻike",
-        "setting":"Nā Papa",
+        "contacts":"Hoʻokaʻaʻike",
+        "setting":"Hoʻonohonoho",
         "total":"Hōʻuluʻulu",
         "testnet":"Ka ho'āʻo ho'āʻo"
     },
     "page_setting": {
-        "tit":"Nā Papa",
+        "tit":"Hoʻonohonoho",
         "lang":"'Ōlelo",
         "select":"E koho"
     },
     "page_contacts": {
-        "tit":"Nāʻike",
+        "tit":"Hoʻokaʻaʻike",
         "add_dialog":"Hoʻohui hou",
         "add_cont": {
             "tit":"Hoʻohui hou",
-            "tag":"Nāʻike",
+            "tag":"Hoʻokaʻaʻike",
             "address":"Ka helu pūnaewele",
-            "tag_placeholder":"Eʻoluʻolu e hoʻokahua i ka inoa o ka mea hoʻopuka",
+            "tag_placeholder":"Eʻoluʻolu e hōʻoia i ka inoa o ka hulina",
             "address_placeholder":"Eʻoluʻolu eʻoluʻolu e hoʻokomo i ka helu helu pūnaewele"
         },
         "delete_dialog": {
             "title":"Ke wehe neiʻoe"
         },
         "msg_info": {
-            "no_tag":"Eʻoluʻolu e helu i ka inoa inoa",
-            "no_address":"Eʻoluʻolu e komo i kahi helu wahi helu",
-            "valid_address":"He kūponoʻole ke kūlana o ka leka",
+            "no_tag":"Eʻoluʻolu e komo i ka helu moʻokāki",
+            "no_address":"Eʻoluʻolu e tomo i kāu helu helu pūnaewele",
+            "valid_address":"ʻO ke kūlana o ka hulina he kānāwaiʻole",
             "exist":"Loaʻa ka hulina,"
         }
     },
     "page_transfer": {
         "from_address":"E hoʻololi i kahi",
-        "to_address":"Komo i loko",
+        "to_address":"Hoʻololi",
         "amount":"Ka nui",
         "send_all":"Hoʻouna i nā mea a pau",
-        "data":"ʻO ka lā",
+        "data":"ʻIkepili",
         "data_placeholder":"Heʻikeʻike hexadecimal",
-        "fees":"Nā uku",
+        "fees":"Ka uku lima lima",
         "total":"Hōʻuluʻulu",
         "select":"E koho",
-        "no_account_info":"ʻAʻohe pūnaewele, e hoʻokomo a hoʻokomo i ka pūnaewele",
+        "no_account_info":"'Aʻohe mea i loaʻa, eʻoluʻolu e hoʻokumu a hoʻokomo i kaʻike",
         "contacts_dig": {
             "select_placeholder":"E koho"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Eʻoluʻolu e kau i kāu hua'ōlelo"
         },
         "msg_info": {
-            "decrypt_err":"ʻAʻole i pohō ka wallet, hiki paha i kahi kuhi hewa",
-            "amount_zero":"ʻO ka palekana kūponoʻole e hoʻomau",
-            "address_null":"Eʻoluʻolu e helu i ka helu",
-            "address_err":"He kūponoʻole ka hōʻailona kuhi",
-            "send_success":"E hoʻouna i ka holomua",
-            "send_error":"Ua pau ka hana: Eʻoluʻolu e nānā inā loaʻa ka uku kūpono a me ka uku o ka miner"
+            "decrypt_err":"Ua lakaʻole ka wallet, kahi hewa paha",
+            "amount_zero":"Loaʻa ka palekana, hikiʻole ke hoʻomau",
+            "address_null":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i ka pūʻuluʻaoʻao'ē aʻe",
+            "address_err":"ʻAʻole pono keʻano o ka helu i hoʻololiʻia.",
+            "send_success":"Ua hoʻounaʻia ma ka hoʻouna",
+            "send_error":"Ua pau ka hana: eʻoluʻolu e nānā inā loaʻa ka uku kaulike a me ka uku miner"
         }
     },
     "page_account": {
-        "transfer_log":"Ka hana kuhi puke",
+        "transfer_log":"Ka palapala 'ana i ka palapala",
         "transfer_log_null":"ʻAʻohe kūkena maʻamau",
         "active_icon": {
-            "go_transfer":"E hoʻomaka i ka hoʻololi",
+            "go_transfer":"E hoʻomaka i kahi hoʻololi",
             "import_keystore":"Pūnae pūnaewele",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Kaʻike pilina",
             "block_hash":"Helu helu",
-            "status":"Kūlana",
-            "from":"Hoʻouna",
-            "to":"Loaʻa",
+            "status":"Moku'āina",
+            "from":"Hāʻawi i ka hui",
+            "to":"Payee",
             "amount":"Ka nui",
-            "data":"ʻO kaʻikepili",
+            "data":"ʻIkepili",
             "send_time":"Hāʻawi manawa",
             "mac_time":"Ka manawa pūnaewele nui"
         },
         "keystore": {
             "tit":"Kōnae putele pūnaewele",
-            "copy":"Pālua",
+            "copy":"E kope",
             "download":"E kiʻi i kahi faile putele"
         },
         "msg_info": {
             "ads_copy_success":"Ua kāpiliʻia ka helu",
-            "key_copy_success":"Hoʻoponopono kopeʻia"
+            "key_copy_success":"Kaomi hoʻopuka"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Hana i kahi moʻokāki",
             "backup_tit":"E mālama i kāu moʻokāki hou",
-            "create_tag":"Helu inoa",
+            "create_tag":"Kākauʻike",
             "create_pwd":"E hoʻonoho i ka memo",
             "create_repwd":"Hōʻoia i ka memo",
-            "placeholder_tag":"Eʻoluʻolu e hoʻonoho inoa inoa",
-            "placeholder_pwd":"Eʻoluʻolu e hōʻolo i ka hua'ōlelo pilina",
+            "placeholder_tag":"Eʻoluʻolu e hōʻoia i ka inoa inoa inoa",
+            "placeholder_pwd":"Eʻoluʻolu e hoʻopaʻa i ka'ōlelo kuhi pūnaewele",
             "placeholder_repwd":"Eʻoluʻolu e hōʻoia i ka'ōlelo'ōlelo pūnaewele",
-            "strong_password":"E hoʻokomo i kahi hua'ōlelo o 8 mau helu",
-            "account_address":"Pūnaewele",
-            "account_privateKey":"Kelekele kiko'ī",
-            "account_download_keystore":"Hoʻoiho i ka waihona pūnaewele"
+            
+            
+            "account_download_keystore":"Hoʻoiho i ka waihona pūnaewele",
+
+            "validate_tag":"Eʻoluʻolu e hōʻoia i ka inoa inoa memo",
+            "validate_tag_length":"ʻO ka Memo inoaʻaʻole hiki ke lōʻihi ma mua o 8 mau kikowaena",
+
+            "validate_password":"Eʻoluʻolu e hoʻokau i ka hua'ōlelo āu e hoʻonoho ai",
+            "validate_re_password":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i ka hua'ōlelo āu e hoʻonoho hou",
+            "validate_strong_password":"Eʻoluʻolu eʻoluʻoluʻoe e hoʻokomo i kahi hua'ōlelo o 8 mau hua",
+            "validate_password_length":"ʻO ka'ōlelo kuhihewa i pāpāluaʻia",
+
+            "create_success":"Hanaʻia me ka maikaʻi",
+            "create_success_des":"Eʻoluʻolu e mālama i kāu pūnaewele pūnaewele a 'aʻole e puʻunaue i kekahi me kekahi!"
         },
         "import_dia": {
             "tit":"Ka lawe pūʻana i kaʻike",    
             "placeholder_keystore":"Eʻoluʻolu e kiʻi i kahi waihona pūnaewele iʻaneʻi",
-            "create_tag":"Helu inoa",
-            "placeholder_tag":"Eʻoluʻolu e hoʻonoho inoa inoa"
+            "create_tag":"Kākauʻike",
+            "placeholder_tag":"Eʻoluʻolu e hōʻoia i ka inoa inoa inoa",
+
+            "validate_tag":"Eʻoluʻolu e hōʻoia i ka inoa inoa memo",
+            "validate_tag_length":"ʻO ka Memo inoaʻaʻole hiki ke lōʻihi ma mua o 8 mau kikowaena",
+            "validate_enter_keystore":"E hoʻokomo i ka waihona pūnaewele mua",
+            "validate_error_keystore":"Ua laka ka hōʻoia kālā, hiki ke hana hewa i ka pūnaewele",
+            "imported_account_success":"Ua hoʻokomo 'ia i kahi komo",
+            "exist":"Ua hala kēia pūʻulu,ʻo ka pane",
+            "keystore_error":"Kuhi:",
+            "imported_success":"E hoʻokahua pono i kahi pūnaewele"
         },
         "remove_dia": {
             "tit":"Makemakeʻoe makemake e wehe i kahi?",
             "remove_confrim":"Makemake wau e wehe",
-            "backup":"Eʻoluʻolu e hoʻomanaʻo i ka pūnaewele o kēia pūnaewele e pale i ka poino waiwai",
+            "backup":"Eʻoluʻolu e nānā i ka waihona o kēia moʻokāki e pale i kaʻinoʻino o ka waiwai.",
             "input_pwd":"Manaʻo",
-            "placeholder_pwd":"Eʻoluʻolu, e hoʻokomo i ka hua'ōlelo no kēia pūnaewele"
-        },
-        "msg_info": {
-            "exist":"Ua hala kēia pūʻulu,ʻo ka inoa",
-            "enter_password":"Eʻoluʻolu e kau i kāu hua'ōlelo",
-            "incons_password":"ʻO ka hua'ōlelo i komoʻelua manawa kuhi",
-            "error":"Kuhi:",
-            "imported_success":"E hoʻokahua pono i kahi pūnaewele",
-            "imported_account_success":"Kauʻia mai i ka holomua",
-            "enter_private":"Eʻoluʻolu e komo i ka kī",
-            "error_keystore":"ʻAʻole iʻae i ka laweʻana i kaʻike, hiki paha i kahi hapa hewa waihona pūnaewele",
-            "enter_keystore":"E hoʻokomo i ka waihona pūnaewele mua",
-            "error_password":"ʻAʻole i hiki iā ia ke hoʻokomo i ka pūnaewele, pono paha he'ōlelo hewa",
-            "remove_success":"Ua hoʻopau 'ia iā ia",
-            "create_success":"Hanaʻia me ka maikaʻi",
-            "save":"Eʻoluʻolu e mālama i kāu pūnaewele pūnaewele a 'aʻole e puʻunaue i kekahi me kekahi!"
+            "placeholder_pwd":"Eʻoluʻolu, e hoʻokomo i ka hua'ōlelo no kēia pūnaewele",
+            "validate_password":"Eʻoluʻolu eʻoluʻolu e hoʻokomo i ka hua'ōlelo no ka helu",
+            "remove_success":"Ua hoʻopau 'ia me ka hoʻoholo"
         }
     }
 }

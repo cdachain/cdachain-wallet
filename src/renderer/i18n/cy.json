@@ -1,8 +1,8 @@
 {
-    "confirm":"Cadarnhad",
-    "cancel":"Canslo",
+    "confirm":"Cadarnhau",
+    "cancel":"Diddymu",
     "dialog_tit":"Yn brydlon",
-    "close":"Ar gau",
+    "close":"Yn agos",
     "confirm_you_active":"Cadarnhewch eich gweithrediad",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Cartref",
         "transfer":"Trosglwyddo",
-        "contacts":"Cysylltiadau",
-        "setting":"Gosodiadau",
+        "contacts":"Cyswllt",
+        "setting":"Gosod",
         "total":"Cyfanswm",
         "testnet":"Rhwydwaith profi"
     },
     "page_setting": {
-        "tit":"Gosodiadau",
+        "tit":"Gosod",
         "lang":"Iaith",
         "select":"Dewiswch"
     },
     "page_contacts": {
-        "tit":"Cysylltiadau",
+        "tit":"Cyswllt",
         "add_dialog":"Cysylltiad newydd",
         "add_cont": {
             "tit":"Cysylltiad newydd",
-            "tag":"Cysylltiadau",
+            "tag":"Cyswllt",
             "address":"Cyfeiriad cyfrif",
             "tag_placeholder":"Rhowch enw'r cyswllt",
             "address_placeholder":"Rhowch gyfeiriad cyfrif y cyswllt"
@@ -34,23 +34,23 @@
             "title":"Rydych chi'n cael gwared"
         },
         "msg_info": {
-            "no_tag":"Rhowch enw'r cyfrif",
-            "no_address":"Rhowch y cyfeiriad cyfrif",
+            "no_tag":"Nodwch nodyn cyfrif",
+            "no_address":"Rhowch eich cyfeiriad cyfrif",
             "valid_address":"Mae cyfeiriad y cyswllt yn anghyfreithlon",
             "exist":"Mae'r cyswllt eisoes yn bodoli,"
         }
     },
     "page_transfer": {
         "from_address":"Trosglwyddo allan",
-        "to_address":"I mewn",
+        "to_address":"Trosglwyddo",
         "amount":"Swm",
         "send_all":"Anfonwch bawb",
-        "data":"Dyddiad",
+        "data":"Data",
         "data_placeholder":"Data hecsadegol",
-        "fees":"Ffioedd",
+        "fees":"Tâl trin",
         "total":"Cyfanswm",
         "select":"Dewiswch",
-        "no_account_info":"Dim cyfrif, creu neu fewnforio cyfrif",
+        "no_account_info":"Dim cyfrif eto, os gwelwch yn dda creu neu fewnforio cyfrif",
         "contacts_dig": {
             "select_placeholder":"Dewiswch"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Rhowch eich cyfrinair"
         },
         "msg_info": {
-            "decrypt_err":"Efallai y bydd dadliad gwaledi yn methu cyfrinair",
-            "amount_zero":"Balans annigonol i barhau",
-            "address_null":"Rhowch y cyfrif",
-            "address_err":"Mae'r fformat cyfeiriad sy'n dod i mewn yn anghyfreithlon",
-            "send_success":"Anfon llwyddiant",
-            "send_error":"Methodd y trafodiad: Gwiriwch a oes digon o gydbwysedd a ffioedd y glowyr"
+            "decrypt_err":"Methodd dadliad gwaledi, gall fod yn gamgymeriad cyfrinair",
+            "amount_zero":"Balans annigonol, yn gallu parhau",
+            "address_null":"Rhowch gyfrif y parti arall",
+            "address_err":"Mae fformat y cyfeiriad trosglwyddedig yn annilys.",
+            "send_success":"Wedi'i anfon yn llwyddiannus",
+            "send_error":"Methodd y trafodiad: gwiriwch a oes digon o gydbwysedd a ffi glowyr"
         }
     },
     "page_account": {
-        "transfer_log":"Hanes trafodion",
+        "transfer_log":"Cofnod trafodion",
         "transfer_log_null":"Dim hanes trafodion",
         "active_icon": {
-            "go_transfer":"Cychwyn trosglwyddo",
+            "go_transfer":"Cychwyn trosglwyddiad",
             "import_keystore":"Ffeil cyfrif",
             "qrcode":"QR cod"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Gwybodaeth am drafodion",
             "block_hash":"Rhif trafodion",
-            "status":"Statws",
-            "from":"Anfonwr",
-            "to":"Derbynnydd",
+            "status":"Wladwriaeth",
+            "from":"Anfon plaid",
+            "to":"Payee",
             "amount":"Swm",
-            "data":"Y data",
+            "data":"Data",
             "send_time":"Anfon amser",
             "mac_time":"Prif amser y rhwydwaith"
         },
         "keystore": {
             "tit":"Ffeil waled wrth gefn",
-            "copy":"Dyblyg",
+            "copy":"Copi",
             "download":"Lawrlwythwch ffeil waled"
         },
         "msg_info": {
             "ads_copy_success":"Mae'r cyfeiriad wedi ei gopïo",
-            "key_copy_success":"Wedi'i gopïo'n llwyddiannus"
+            "key_copy_success":"Copi llwyddiannus"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Creu cyfrif",
             "backup_tit":"Yn ôl i fyny eich cyfrif newydd",
-            "create_tag":"Enw'r cyfrif",
+            "create_tag":"Nodyn cyfrif",
             "create_pwd":"Gosod cyfrinair",
             "create_repwd":"Cadarnhau cyfrinair",
-            "placeholder_tag":"Rhowch enw'r cyfrif",
-            "placeholder_pwd":"Rhowch gyfrinair cyfrif",
+            "placeholder_tag":"Rhowch enw'r nodyn cyfrif",
+            "placeholder_pwd":"Rhowch gyfrinair y cyfrif",
             "placeholder_repwd":"Cadarnhewch y cyfrinair cyfrif",
-            "strong_password":"Rhowch gyfrinair o o leiaf 8 digid",
-            "account_address":"Cyfrif",
-            "account_privateKey":"Allwedd breifat",
-            "account_download_keystore":"Lawrlwythwch y ffeil cyfrif"
+            
+            
+            "account_download_keystore":"Lawrlwythwch y ffeil cyfrif",
+
+            "validate_tag":"Rhowch enw'r nodyn cyfrif",
+            "validate_tag_length":"Ni all enw cofio fod yn hwy na 8 nod",
+
+            "validate_password":"Rhowch y cyfrinair a osodwyd gennych",
+            "validate_re_password":"Rhowch y cyfrinair a osodwyd gennych eto",
+            "validate_strong_password":"Rhowch gyfrinair o o leiaf 8 digid",
+            "validate_password_length":"Cyfrinair anghyson wedi ei roi ddwywaith",
+
+            "create_success":"Crëwyd yn llwyddiannus",
+            "create_success_des":"Arbedwch eich ffeil cyfrif a pheidiwch â'i rannu ag unrhyw un!"
         },
         "import_dia": {
             "tit":"Cyfrif mewnforio",    
             "placeholder_keystore":"Llusgwch y ffeil cyfrif yma",
-            "create_tag":"Enw'r cyfrif",
-            "placeholder_tag":"Rhowch enw'r cyfrif"
+            "create_tag":"Nodyn cyfrif",
+            "placeholder_tag":"Rhowch enw'r nodyn cyfrif",
+
+            "validate_tag":"Rhowch enw'r nodyn cyfrif",
+            "validate_tag_length":"Ni all enw cofio fod yn hwy na 8 nod",
+            "validate_enter_keystore":"Mewnosodwch y ffeil cyfrif yn gyntaf",
+            "validate_error_keystore":"Mewnforio cyfrif wedi methu, gall fod yn gwall ffeil cyfrif",
+            "imported_account_success":"Mewnforio yn llwyddiannus",
+            "exist":"Mae'r cyfrif hwn yn bodoli eisoes, y nodyn yw",
+            "keystore_error":"Gwall:",
+            "imported_success":"Mewnforio ffeil yn llwyddiannus"
         },
         "remove_dia": {
             "tit":"Ydych chi'n siŵr eich bod am ei dynnu?",
             "remove_confrim":"Yr wyf yn siŵr fy mod yn cael gwared",
-            "backup":"Nodwch wrth gefn y cyfrif hwn er mwyn osgoi niwed i eiddo",
+            "backup":"Rhowch sylw i gefn y cyfrif hwn er mwyn osgoi niwed i eiddo.",
             "input_pwd":"Cyfrinair",
-            "placeholder_pwd":"Rhowch y cyfrinair ar gyfer y cyfrif hwn"
-        },
-        "msg_info": {
-            "exist":"Mae'r cyfrif hwn eisoes yn bodoli, yr enw yw",
-            "enter_password":"Rhowch eich cyfrinair",
-            "incons_password":"Mae'r cyfrinair a gofnodwyd ddwywaith yn anghyson",
-            "error":"Gwall:",
-            "imported_success":"Mewnforio ffeil yn llwyddiannus",
-            "imported_account_success":"Wedi'i fewnforio'n llwyddiannus",
-            "enter_private":"Rhowch yr allwedd",
-            "error_keystore":"Wedi methu â mewnforio cyfrif, gall fod yn gwall ffeil cyfrif",
-            "enter_keystore":"Mewnosodwch y ffeil cyfrif yn gyntaf",
-            "error_password":"Wedi methu â mewnforio cyfrif, gall fod yn gyfrinair anghywir",
-            "remove_success":"Wedi'i dynnu'n llwyddiannus",
-            "create_success":"Crëwyd yn llwyddiannus",
-            "save":"Arbedwch eich ffeil cyfrif a pheidiwch â'i rannu ag unrhyw un!"
+            "placeholder_pwd":"Rhowch y cyfrinair ar gyfer y cyfrif hwn",
+            "validate_password":"Rhowch y cyfrinair ar gyfer y cyfrif",
+            "remove_success":"Wedi'i dynnu'n llwyddiannus"
         }
     }
 }

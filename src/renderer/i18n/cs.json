@@ -1,8 +1,8 @@
 {
-    "confirm":"Potvrzení",
-    "cancel":"Zrušení",
+    "confirm":"Potvrďte",
+    "cancel":"Zrušit",
     "dialog_tit":"Prompt",
-    "close":"Zavřeno",
+    "close":"Zavřete",
     "confirm_you_active":"Potvrďte svou činnost",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Domů",
         "transfer":"Přenos",
-        "contacts":"Kontakty",
+        "contacts":"Kontakt",
         "setting":"Nastavení",
         "total":"Celkem",
         "testnet":"Testovací síť"
@@ -21,36 +21,36 @@
         "select":"Vyberte prosím"
     },
     "page_contacts": {
-        "tit":"Kontakty",
+        "tit":"Kontakt",
         "add_dialog":"Nový kontakt",
         "add_cont": {
             "tit":"Nový kontakt",
-            "tag":"Kontakty",
+            "tag":"Kontakt",
             "address":"Adresa účtu",
-            "tag_placeholder":"Zadejte jméno kontaktu",
+            "tag_placeholder":"Zadejte prosím jméno kontaktu",
             "address_placeholder":"Zadejte adresu účtu kontaktu"
         },
         "delete_dialog": {
             "title":"Odstraňujete"
         },
         "msg_info": {
-            "no_tag":"Zadejte název účtu",
-            "no_address":"Zadejte adresu účtu",
+            "no_tag":"Zadejte poznámku k účtu",
+            "no_address":"Zadejte adresu svého účtu",
             "valid_address":"Adresa kontaktu je neplatná",
             "exist":"Kontakt již existuje,"
         }
     },
     "page_transfer": {
         "from_address":"Přejděte ven",
-        "to_address":"Into",
+        "to_address":"Přenos",
         "amount":"Částka",
         "send_all":"Pošlete vše",
-        "data":"Datum",
+        "data":"Data",
         "data_placeholder":"Hexadecimální data",
-        "fees":"Poplatky",
+        "fees":"Poplatek za zpracování",
         "total":"Celkem",
         "select":"Vyberte prosím",
-        "no_account_info":"Žádný účet, prosím, vytvořte nebo importujte účet",
+        "no_account_info":"Zatím nemáte účet, vytvořte nebo importujte účet",
         "contacts_dig": {
             "select_placeholder":"Vyberte prosím"
         },
@@ -61,15 +61,15 @@
         },
         "msg_info": {
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
-            "amount_zero":"Nedostatečný zůstatek pokračujte",
-            "address_null":"Zadejte prosím účet",
-            "address_err":"Formát příchozí adresy je neplatný",
-            "send_success":"Pošlete úspěch",
-            "send_error":"Transakce se nezdařila: Zkontrolujte prosím, zda je dostatečný zůstatek a hornický poplatek"
+            "amount_zero":"Nedostatečná rovnováha, nemůže pokračovat",
+            "address_null":"Zadejte prosím účet druhé strany",
+            "address_err":"Formát přenesené adresy je neplatný.",
+            "send_success":"Úspěšně odeslána",
+            "send_error":"Transakce selhala: zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za mince"
         }
     },
     "page_account": {
-        "transfer_log":"Historie transakcí",
+        "transfer_log":"Transakční záznam",
         "transfer_log_null":"Žádná historie transakcí",
         "active_icon": {
             "go_transfer":"Zahajte převod",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Informace o transakcích",
             "block_hash":"Číslo transakce",
-            "status":"Stav",
-            "from":"Odesílatel",
-            "to":"Přijímač",
+            "status":"Stát",
+            "from":"Odesílající strana",
+            "to":"Příjemce platby",
             "amount":"Částka",
             "data":"Data",
             "send_time":"Odeslání času",
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adresa byla zkopírována",
-            "key_copy_success":"Úspěšně zkopírován"
+            "key_copy_success":"Úspěšná kopie"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Vytvořte si účet",
             "backup_tit":"Zálohujte nový účet",
-            "create_tag":"Název účtu",
+            "create_tag":"Poznámka k účtu",
             "create_pwd":"Nastavte heslo",
             "create_repwd":"Potvrďte heslo",
             "placeholder_tag":"Nastavte prosím název účtu",
-            "placeholder_pwd":"Nastavte prosím heslo účtu",
+            "placeholder_pwd":"Nastavte heslo účtu",
             "placeholder_repwd":"Potvrďte heslo účtu",
-            "strong_password":"Zadejte heslo alespoň 8 číslic",
-            "account_address":"Účet",
-            "account_privateKey":"Soukromý klíč",
-            "account_download_keystore":"Stáhněte soubor účtu"
+            
+            
+            "account_download_keystore":"Stáhněte soubor účtu",
+
+            "validate_tag":"Zadejte název bankovky účtu",
+            "validate_tag_length":"Memo jméno nesmí být delší než 8 znaků",
+
+            "validate_password":"Zadejte prosím heslo, které jste nastavili",
+            "validate_re_password":"Zadejte znovu zadané heslo",
+            "validate_strong_password":"Zadejte heslo alespoň 8 číslic",
+            "validate_password_length":"Nekonzistentní zadání hesla dvakrát",
+
+            "create_success":"Vytvořeno úspěšně",
+            "create_success_des":"Uložte si soubor účtu a nesdílejte ho nikomu!"
         },
         "import_dia": {
             "tit":"Importní účet",    
             "placeholder_keystore":"Zde prosím přetáhněte soubor účtu",
-            "create_tag":"Název účtu",
-            "placeholder_tag":"Nastavte prosím název účtu"
+            "create_tag":"Poznámka k účtu",
+            "placeholder_tag":"Nastavte prosím název účtu",
+
+            "validate_tag":"Zadejte název bankovky účtu",
+            "validate_tag_length":"Memo jméno nesmí být delší než 8 znaků",
+            "validate_enter_keystore":"Nejprve importujte soubor účtu",
+            "validate_error_keystore":"Import importu účtu selhal, může to být chyba souboru účtu",
+            "imported_account_success":"Úspěšně importováno",
+            "exist":"Tento účet již existuje, poznámka je",
+            "keystore_error":"Chyba:",
+            "imported_success":"Importovat soubor úspěšně"
         },
         "remove_dia": {
             "tit":"Opravdu ji chcete odstranit?",
             "remove_confrim":"Určitě odstraním",
-            "backup":"Nezapomeňte na zálohu tohoto účtu, abyste zabránili poškození majetku",
+            "backup":"Věnujte prosím pozornost zálohám tohoto účtu, abyste zabránili poškození majetku.",
             "input_pwd":"Heslo",
-            "placeholder_pwd":"Zadejte heslo pro tento účet"
-        },
-        "msg_info": {
-            "exist":"Tento účet již existuje, název je",
-            "enter_password":"Zadejte své heslo",
-            "incons_password":"Zadané heslo dvakrát je nekonzistentní",
-            "error":"Chyba:",
-            "imported_success":"Importovat soubor úspěšně",
-            "imported_account_success":"Úspěšně importováno",
-            "enter_private":"Zadejte klíč",
-            "error_keystore":"Účet nebyl importován, může se jednat o chybu souboru účtu",
-            "enter_keystore":"Nejprve importujte soubor účtu",
-            "error_password":"Nemožno importovat účet, může to být nesprávné heslo",
-            "remove_success":"Úspěšně byla odebrána",
-            "create_success":"Vytvořeno úspěšně",
-            "save":"Uložte si soubor účtu a nesdílejte ho nikomu!"
+            "placeholder_pwd":"Zadejte heslo pro tento účet",
+            "validate_password":"Zadejte prosím heslo pro účet",
+            "remove_success":"Úspěšně byla odebrána"
         }
     }
 }

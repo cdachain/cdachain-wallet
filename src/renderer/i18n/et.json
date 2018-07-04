@@ -1,8 +1,8 @@
 {
-    "confirm":"Kinnitus",
-    "cancel":"Tühistamine",
+    "confirm":"Kinnita",
+    "cancel":"Loobu",
     "dialog_tit":"Küsi",
-    "close":"Suletud",
+    "close":"Sulgeda",
     "confirm_you_active":"Palun kinnitage oma toiming",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Kodu",
         "transfer":"Üleandmine",
-        "contacts":"Kontaktid",
-        "setting":"Seaded",
+        "contacts":"Kontakt",
+        "setting":"Seadistus",
         "total":"Kokku",
         "testnet":"Testvõrk"
     },
     "page_setting": {
-        "tit":"Seaded",
+        "tit":"Seadistus",
         "lang":"Keel",
         "select":"Palun vali"
     },
     "page_contacts": {
-        "tit":"Kontaktid",
+        "tit":"Kontakt",
         "add_dialog":"Uus kontakt",
         "add_cont": {
             "tit":"Uus kontakt",
-            "tag":"Kontaktid",
+            "tag":"Kontakt",
             "address":"Konto aadress",
             "tag_placeholder":"Palun sisestage kontakti nimi",
             "address_placeholder":"Palun sisestage kontakti konto aadress"
@@ -34,23 +34,23 @@
             "title":"Te eemaldate"
         },
         "msg_info": {
-            "no_tag":"Palun sisestage konto nimi",
-            "no_address":"Palun sisestage konto aadress",
+            "no_tag":"Palun sisesta konto märkus",
+            "no_address":"Palun sisesta oma konto aadress",
             "valid_address":"Kontaktisiku aadress on ebaseaduslik",
             "exist":"Kontakti on juba olemas"
         }
     },
     "page_transfer": {
         "from_address":"Üle kanda",
-        "to_address":"Into",
+        "to_address":"Üleandmine",
         "amount":"Summa",
         "send_all":"Saada kõik",
-        "data":"Kuupäev",
+        "data":"Andmed",
         "data_placeholder":"Kuueteistkümnendsüsteemilised andmed",
-        "fees":"Tasud",
+        "fees":"Käitlemislõiv",
         "total":"Kokku",
         "select":"Palun vali",
-        "no_account_info":"Konto pole, looge või importige konto",
+        "no_account_info":"Konto veel pole, palun looge või importige konto",
         "contacts_dig": {
             "select_placeholder":"Palun vali"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Palun sisesta oma parool"
         },
         "msg_info": {
-            "decrypt_err":"Rahakoti parsing ebaõnnestus, võib olla parooli viga",
-            "amount_zero":"Ebapiisav tasakaalu jätkamine",
-            "address_null":"Palun sisestage konto",
-            "address_err":"Saabuva aadressi formaat on ebaseaduslik",
-            "send_success":"Saada edu",
-            "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja kaevandamise tasu"
+            "decrypt_err":"Rahakoti parsing ebaõnnestus, võib see olla parooli viga",
+            "amount_zero":"Ebapiisav tasakaal, jätkamine pole võimalik",
+            "address_null":"Palun sisestage teise poole konto",
+            "address_err":"Edastatud aadressi formaat on kehtetu.",
+            "send_success":"Edukalt saadetud",
+            "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja mineraali tasu"
         }
     },
     "page_account": {
-        "transfer_log":"Tehinguajalugu",
+        "transfer_log":"Tehinguaruanne",
         "transfer_log_null":"Tehingute ajalugu pole",
         "active_icon": {
-            "go_transfer":"Käivita üleandmine",
+            "go_transfer":"Ülekande algatamine",
             "import_keystore":"Konto fail",
             "qrcode":"QR-kood"
         },
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Tehingu teave",
             "block_hash":"Tehingu number",
-            "status":"Olek",
+            "status":"Riik",
             "from":"Saatja",
-            "to":"Vastuvõtja",
+            "to":"Saaja",
             "amount":"Summa",
             "data":"Andmed",
             "send_time":"Saatmise aeg",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Backup rahakoti fail",
-            "copy":"Duplicate",
+            "copy":"Kopeeri",
             "download":"Laadige fail alla"
         },
         "msg_info": {
             "ads_copy_success":"Aadress on kopeeritud",
-            "key_copy_success":"Edukalt kopeeritud"
+            "key_copy_success":"Edukas koopia"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Loo konto",
             "backup_tit":"Varundage oma uus konto",
-            "create_tag":"Konto nimi",
+            "create_tag":"Konto märkus",
             "create_pwd":"Määra parool",
             "create_repwd":"Kinnitage parool",
-            "placeholder_tag":"Palun määra konto nimi",
+            "placeholder_tag":"Palun määrake konto märkme nimi",
             "placeholder_pwd":"Palun määrake konto parool",
             "placeholder_repwd":"Kinnitage konto parool",
-            "strong_password":"Sisestage vähemalt kaheksa numbrit sisaldav parool",
-            "account_address":"Konto",
-            "account_privateKey":"Privaatvõti",
-            "account_download_keystore":"Konto faili allalaadimine"
+            
+            
+            "account_download_keystore":"Konto faili allalaadimine",
+
+            "validate_tag":"Palun sisesta konto märkme nimi",
+            "validate_tag_length":"Memo nimi ei tohi olla pikem kui 8 tähemärki",
+
+            "validate_password":"Palun sisesta parool, mille olete seadistanud",
+            "validate_re_password":"Palun sisesta uuesti parool",
+            "validate_strong_password":"Palun sisesta vähemalt 8 numbriga parool",
+            "validate_password_length":"Ebatõenäoline parool sisestatakse kaks korda",
+
+            "create_success":"Loodud edukalt",
+            "create_success_des":"Palun salvestage oma konto fail ja ärge seda kellelgigi jagage!"
         },
         "import_dia": {
             "tit":"Impordi konto",    
             "placeholder_keystore":"Palun lohistage konto fail siit",
-            "create_tag":"Konto nimi",
-            "placeholder_tag":"Palun määra konto nimi"
+            "create_tag":"Konto märkus",
+            "placeholder_tag":"Palun määrake konto märkme nimi",
+
+            "validate_tag":"Palun sisesta konto märkme nimi",
+            "validate_tag_length":"Memo nimi ei tohi olla pikem kui 8 tähemärki",
+            "validate_enter_keystore":"Palun importige konto faili kõigepealt",
+            "validate_error_keystore":"Konto import nurjus, võib olla konto failiviga",
+            "imported_account_success":"Edukalt imporditud",
+            "exist":"See konto on juba olemas, märkus on",
+            "keystore_error":"Viga:",
+            "imported_success":"Impordi fail edukalt"
         },
         "remove_dia": {
             "tit":"Kas olete kindel, et soovite selle eemaldada?",
             "remove_confrim":"Ma kindlasti eemaldan",
-            "backup":"Pange tähele selle konto varukoopia, et vältida varalise kahju tekkimist",
+            "backup":"Pöörake tähelepanu selle konto varundamisele, et vältida varalise kahju tekkimist.",
             "input_pwd":"Parool",
-            "placeholder_pwd":"Palun sisesta selle konto parool"
-        },
-        "msg_info": {
-            "exist":"See konto on juba olemas ja nimi on",
-            "enter_password":"Palun sisesta oma parool",
-            "incons_password":"Kahe korraga sisestatud parool on vastuoluline",
-            "error":"Viga:",
-            "imported_success":"Impordi fail edukalt",
-            "imported_account_success":"Imporditud edukalt",
-            "enter_private":"Palun sisestage võti",
-            "error_keystore":"Konto importimine ebaõnnestus, võib see olla konto failiviga",
-            "enter_keystore":"Palun importige konto faili kõigepealt",
-            "error_password":"Konto importimine ebaõnnestus, see võib olla vale parool",
-            "remove_success":"Eemaldati edukalt",
-            "create_success":"Loodud edukalt",
-            "save":"Palun salvestage oma konto fail ja ärge seda kellelgigi jagage!"
+            "placeholder_pwd":"Palun sisesta selle konto parool",
+            "validate_password":"Palun sisestage konto parool",
+            "remove_success":"Edukalt eemaldatud"
         }
     }
 }

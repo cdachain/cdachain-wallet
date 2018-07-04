@@ -34,7 +34,7 @@
             "title":"Сиз алып жатышат"
         },
         "msg_info": {
-            "no_tag":"эсеп атын",
+            "no_tag":"Сураныч, эсеп Эскертүүлөр кирет",
             "no_address":"Сураныч, эсеп дарегин киргизүү",
             "valid_address":"Байланыш дареги мыйзамдуу эмес,",
             "exist":"Байланыш мурунтан эле бар,"
@@ -45,7 +45,7 @@
         "to_address":"эске",
         "amount":"акча",
         "send_all":"бардык жөнөтүү",
-        "data":"дата",
+        "data":"маалыматтар",
         "data_placeholder":"алтылык маалыматтар",
         "fees":"Алымдар",
         "total":"Бардыгы болуп",
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Эсеп жазуусун жаратуу",
             "backup_tit":"Сиздин жаңы эсеп камдык",
-            "create_tag":"каттоо эсебинин аталышы",
+            "create_tag":"Эскертүүлөр каттоо",
             "create_pwd":"пароль",
             "create_repwd":"Сырсөздү ырастоо",
-            "placeholder_tag":"Set эсеп аты",
+            "placeholder_tag":"эсеп аты Эскертүүлөр коюу",
             "placeholder_pwd":"Set эсеп пароль",
             "placeholder_repwd":"эсеп-сөздү баамдагыла",
-            "strong_password":"жок эле дегенде сегиз сырсөз киргизүү",
-            "account_address":"каттоо",
-            "account_privateKey":"жеке ачкыч",
-            "account_download_keystore":"эсеп билэни Download"
+            
+            
+            "account_download_keystore":"эсеп билэни Download",
+
+            "validate_tag":"Сураныч, эсеп аты Эскертүүлөр кирет",
+            "validate_tag_length":"Заметки аты ары 8 белгиден болушу мүмкүн эмес",
+
+            "validate_password":"Эгер белгиленген сырсөз",
+            "validate_re_password":"Сураныч, сиз кайра сырсөз",
+            "validate_strong_password":"Сураныч, жок дегенде сегиз сырсөз киргизгени",
+            "validate_password_length":"Сырсөздөр дал келген жок",
+
+            "create_success":"ийгилик түзүлүүдө",
+            "create_success_des":"Сураныч, сиздин каттоо сактап, эч ким менен бөлүшө жок!"
         },
         "import_dia": {
             "tit":"Import каттоо эсеби",    
             "placeholder_keystore":"Сураныч, бул жерде эске берүүгө",
-            "create_tag":"каттоо эсебинин аталышы",
-            "placeholder_tag":"Set эсеп аты"
+            "create_tag":"Эскертүүлөр каттоо",
+            "placeholder_tag":"эсеп аты Эскертүүлөр коюу",
+
+            "validate_tag":"Сураныч, эсеп аты Эскертүүлөр кирет",
+            "validate_tag_length":"Заметки аты ары 8 белгиден болушу мүмкүн эмес",
+            "validate_enter_keystore":"Эсебин билэни импорттоо",
+            "validate_error_keystore":"Каттоо импорт албаса, эсеп туура билэ болушу мүмкүн",
+            "imported_account_success":"Import ийгилик",
+            "exist":"Бул каттоо эсеби мурунтан эле бар, жазып да",
+            "keystore_error":"Error:",
+            "imported_success":"Import билэ Ийгилик"
         },
         "remove_dia": {
             "tit":"Чын эле, аны алып келеби?",
             "remove_confrim":"Мен алып ишенем",
             "backup":"Бул билдирүүдөн кайра кетчү нерсе, мүлктүк зыянга учуратпоо үчүн",
             "input_pwd":"пароль",
-            "placeholder_pwd":"Бул каттоо эсеби үчүн сырсөз"
-        },
-        "msg_info": {
-            "exist":"Бул каттоо эсеби мурунтан эле бар, аты",
-            "enter_password":"Сураныч, сөздү киргизип",
-            "incons_password":"Сырсөздөр дал келген жок",
-            "error":"Error:",
-            "imported_success":"Import билэ Ийгилик",
-            "imported_account_success":"Import ийгилик",
-            "enter_private":"Сураныч, ачкычты кирет",
-            "error_keystore":"Каттоо импорт албаса, эсеп туура билэ болушу мүмкүн",
-            "enter_keystore":"Эсебин билэни импорттоо",
-            "error_password":"Каттоо импорт албаса, бул туура эмес сөз болушу мүмкүн",
-            "remove_success":"ийгиликтүү алынып салынды",
-            "create_success":"ийгилик түзүлүүдө",
-            "save":"Сураныч, сиздин каттоо сактап, эч ким менен бөлүшө жок!"
+            "placeholder_pwd":"Бул каттоо эсеби үчүн сырсөз",
+            "validate_password":"Сураныч, эсеп сырсөз",
+            "remove_success":"ийгиликтүү алынып салынды"
         }
     }
 }

@@ -1,8 +1,8 @@
 {
-    "confirm":"Apstiprinājums",
-    "cancel":"Anulēšana",
+    "confirm":"Apstiprini",
+    "cancel":"Atcelt",
     "dialog_tit":"Uzvedne",
-    "close":"Slēgts",
+    "close":"Aizvērt",
     "confirm_you_active":"Lūdzu, apstipriniet savu darbību",
     "unit": {
         "czr":"CZR"
@@ -11,14 +11,14 @@
         "home":"Mājas",
         "transfer":"Pārsūtīšana",
         "contacts":"Kontakti",
-        "setting":"Iestatījumi",
+        "setting":"Iestatījums",
         "total":"Kopā",
         "testnet":"Pārbaudes tīkls"
     },
     "page_setting": {
-        "tit":"Iestatījumi",
+        "tit":"Iestatījums",
         "lang":"Valoda",
-        "select":"Lūdzu, izvēlieties"
+        "select":"Lūdzu, izvēlies"
     },
     "page_contacts": {
         "tit":"Kontakti",
@@ -34,25 +34,25 @@
             "title":"Jūs noņemat"
         },
         "msg_info": {
-            "no_tag":"Lūdzu, ievadiet konta nosaukumu",
-            "no_address":"Lūdzu, ievadiet konta adresi",
+            "no_tag":"Lūdzu, ievadiet konta piezīmi",
+            "no_address":"Lūdzu, ievadiet sava konta adresi",
             "valid_address":"Kontaktpersonas adrese ir nelikumīga",
             "exist":"Kontaktpersona jau pastāv"
         }
     },
     "page_transfer": {
         "from_address":"Pārskaitīt",
-        "to_address":"Into",
+        "to_address":"Pārsūtīšana",
         "amount":"Summa",
         "send_all":"Sūtīt visus",
-        "data":"Datums",
+        "data":"Dati",
         "data_placeholder":"Heksadecimālie dati",
-        "fees":"Maksas",
+        "fees":"Maksas par apstrādi",
         "total":"Kopā",
-        "select":"Lūdzu, izvēlieties",
-        "no_account_info":"Nav konta, lūdzu, izveidojiet vai importējiet kontu",
+        "select":"Lūdzu, izvēlies",
+        "no_account_info":"Vēl nav konta, lūdzu, izveidojiet vai importējiet kontu",
         "contacts_dig": {
-            "select_placeholder":"Lūdzu, izvēlieties"
+            "select_placeholder":"Lūdzu, izvēlies"
         },
         "confirm_dia": {
             "title":"Lūdzu, apstipriniet",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
         },
         "msg_info": {
-            "decrypt_err":"Nevarēja veikt maketa parsēšanu, iespējams, ir paroles kļūda",
-            "amount_zero":"Nepietiekams atlikums, lai turpinātu",
-            "address_null":"Lūdzu, ievadiet kontu",
-            "address_err":"Ienākošā adreses formāts ir nelikumīgs",
-            "send_success":"Nosūtiet veiksmi",
-            "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekams atlikums un ieguvējs maksa"
+            "decrypt_err":"Maka sinizēšana neizdevās, tā var būt paroles kļūda",
+            "amount_zero":"Nepietiekams līdzsvars, nespēja turpināt",
+            "address_null":"Lūdzu, ievadiet otras puses kontu",
+            "address_err":"Pārvietotās adreses formāts nav derīgs.",
+            "send_success":"Veiksmīgi nosūtīts",
+            "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekama atlikuma un minerāžas maksa"
         }
     },
     "page_account": {
-        "transfer_log":"Darījumu vēsture",
+        "transfer_log":"Darījuma ieraksts",
         "transfer_log_null":"Nav darījumu vēstures",
         "active_icon": {
-            "go_transfer":"Uzsākt pārskaitījumu;",
+            "go_transfer":"Sāciet pārskaitījumu",
             "import_keystore":"Konta fails",
             "qrcode":"QR kods"
         },
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Darījuma informācija",
             "block_hash":"Darījuma numurs",
-            "status":"Statuss",
-            "from":"Sūtītājs",
-            "to":"Uztvērējs",
+            "status":"Valsts",
+            "from":"Nosūtītāja puse",
+            "to":"Saņēmējs",
             "amount":"Summa",
             "data":"Dati",
             "send_time":"Nosūtīšanas laiks",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Rezerves seifa fails",
-            "copy":"Dublikāts",
+            "copy":"Kopēt",
             "download":"Lejupielādējiet seifa failu"
         },
         "msg_info": {
             "ads_copy_success":"Adrese ir kopēta",
-            "key_copy_success":"Veiksmīgi nokopēts"
+            "key_copy_success":"Veiksmīga kopija"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Izveidot kontu",
             "backup_tit":"Dublējat savu jauno kontu",
-            "create_tag":"Konta nosaukums",
+            "create_tag":"Konta piezīme",
             "create_pwd":"Iestatīt paroli",
             "create_repwd":"Apstipriniet paroli",
-            "placeholder_tag":"Lūdzu, norādiet konta nosaukumu",
+            "placeholder_tag":"Lūdzu, iestatiet konta piezīmes nosaukumu",
             "placeholder_pwd":"Lūdzu, iestatiet konta paroli",
             "placeholder_repwd":"Lūdzu, apstipriniet konta paroli",
-            "strong_password":"Ievadiet vismaz 8 ciparu paroli",
-            "account_address":"Konts",
-            "account_privateKey":"Privātā atslēga",
-            "account_download_keystore":"Lejupielādējiet konta failu"
+            
+            
+            "account_download_keystore":"Lejupielādējiet konta failu",
+
+            "validate_tag":"Lūdzu, ievadiet konta piezīmes nosaukumu",
+            "validate_tag_length":"Atgādinājuma nosaukums nedrīkst būt garāks par 8 rakstzīmēm",
+
+            "validate_password":"Lūdzu, ievadiet iestatīto paroli",
+            "validate_re_password":"Lūdzu, ievadiet vēlreiz iestatīto paroli",
+            "validate_strong_password":"Lūdzu, ievadiet vismaz astoņu ciparu paroli",
+            "validate_password_length":"Nepareiza parole tiek ievadīta divas reizes",
+
+            "create_success":"Veidots veiksmīgi",
+            "create_success_des":"Lūdzu, saglabājiet sava konta failu un nedodiet to citiem!"
         },
         "import_dia": {
             "tit":"Importēt kontu",    
             "placeholder_keystore":"Lūdzu, velciet konta failu šeit",
-            "create_tag":"Konta nosaukums",
-            "placeholder_tag":"Lūdzu, norādiet konta nosaukumu"
+            "create_tag":"Konta piezīme",
+            "placeholder_tag":"Lūdzu, iestatiet konta piezīmes nosaukumu",
+
+            "validate_tag":"Lūdzu, ievadiet konta piezīmes nosaukumu",
+            "validate_tag_length":"Atgādinājuma nosaukums nedrīkst būt garāks par 8 rakstzīmēm",
+            "validate_enter_keystore":"Vispirms importējiet konta failu",
+            "validate_error_keystore":"Konta importēšana neizdevās, iespējams, ir konta faila kļūda",
+            "imported_account_success":"Veiksmīgi importēts",
+            "exist":"Šis konts jau eksistē, piezīme ir",
+            "keystore_error":"Kļūda:",
+            "imported_success":"Importēt failu veiksmīgi"
         },
         "remove_dia": {
             "tit":"Vai tiešām vēlaties to noņemt?",
             "remove_confrim":"Es esmu pārliecināts, ka noņems",
-            "backup":"Lūdzu, ņemiet vērā šī konta dublējumu, lai izvairītos no īpašuma bojājumiem",
+            "backup":"Lūdzu, ievērojiet šī konta dublējumu, lai izvairītos no īpašuma bojājumiem.",
             "input_pwd":"Parole",
-            "placeholder_pwd":"Lūdzu, ievadiet šī konta paroli"
-        },
-        "msg_info": {
-            "exist":"Šis konts jau pastāv, vārds ir",
-            "enter_password":"Lūdzu, ievadiet savu paroli",
-            "incons_password":"Divreiz ievadītā parole ir pretrunā",
-            "error":"Kļūda:",
-            "imported_success":"Importēt failu veiksmīgi",
-            "imported_account_success":"Importēti veiksmīgi",
-            "enter_private":"Lūdzu, ievadiet atslēgu",
-            "error_keystore":"Nevar importēt kontu, iespējams, tas ir konta faila kļūda",
-            "enter_keystore":"Vispirms importējiet konta failu",
-            "error_password":"Neizdevās importēt kontu, tā var būt nepareiza parole",
-            "remove_success":"Noņemta veiksmīgi",
-            "create_success":"Veidots veiksmīgi",
-            "save":"Lūdzu, saglabājiet sava konta failu un nedodiet to citiem!"
+            "placeholder_pwd":"Lūdzu, ievadiet šī konta paroli",
+            "validate_password":"Lūdzu, ievadiet konta paroli",
+            "remove_success":"Veiksmīgi noņemts"
         }
     }
 }

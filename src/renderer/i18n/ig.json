@@ -1,8 +1,8 @@
 {
-    "confirm":"Nkwenye",
-    "cancel":"Ịkagbu",
+    "confirm":"Kwenye",
+    "cancel":"Kwụsị",
     "dialog_tit":"Mee ngwa ngwa",
-    "close":"Emechiri",
+    "close":"Mechie",
     "confirm_you_active":"Biko gosi ọrụ gị",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Home",
         "transfer":"Nyefee",
-        "contacts":"Ndi ana-akpo",
+        "contacts":"Kpọtụrụ",
         "setting":"Ntọala",
         "total":"Ọnụ",
         "testnet":"Ule nyocha"
@@ -21,36 +21,36 @@
         "select":"Biko họrọ"
     },
     "page_contacts": {
-        "tit":"Ndi ana-akpo",
+        "tit":"Kpọtụrụ",
         "add_dialog":"Kọntaktị ọhụrụ",
         "add_cont": {
             "tit":"Kọntaktị ọhụrụ",
-            "tag":"Ndi ana-akpo",
+            "tag":"Kpọtụrụ",
             "address":"Adreesị akaụntụ",
-            "tag_placeholder":"Biko tinye aha onye ahụ",
+            "tag_placeholder":"Biko tinye aha nke kọntaktị ahụ",
             "address_placeholder":"Biko tinye adreesị akaụntụ onye ahụ"
         },
         "delete_dialog": {
             "title":"Ị na-ewepụ"
         },
         "msg_info": {
-            "no_tag":"Biko tinye aha akaụntụ",
-            "no_address":"Biko tinye adreesị akaụntụ",
-            "valid_address":"Adreesị ụlọ ọrụ ahụ akwadoghị",
+            "no_tag":"Biko tinye ederede akaụntụ",
+            "no_address":"Biko tinye adreesị akaụntụ gị",
+            "valid_address":"Adreesị nke kọntaktị ahụ bụ iwu na-akwadoghị",
             "exist":"Kpọtụrụ onye ahụ,"
         }
     },
     "page_transfer": {
         "from_address":"Nyefee",
-        "to_address":"Banye",
+        "to_address":"Nyefee",
         "amount":"Ọnụ",
         "send_all":"Ziga niile",
-        "data":"Ụbọchị",
+        "data":"Data",
         "data_placeholder":"Data hexadecimal",
-        "fees":"Ụgwọ",
+        "fees":"Ego na-edozi ego",
         "total":"Ọnụ",
         "select":"Biko họrọ",
-        "no_account_info":"Enweghị akaụntụ, biko mepụta ma ọ bụ bubata akaụntụ",
+        "no_account_info":"Enweghị akaụntụ ma, biko mepụta ma ọ bụ bubata akaụntụ",
         "contacts_dig": {
             "select_placeholder":"Biko họrọ"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Biko tinye paswọọdụ gị"
         },
         "msg_info": {
-            "decrypt_err":"Ikwusi obere akpa wuru, nwere ike ịbụ njehie paswọọdụ",
-            "amount_zero":"Enweghi ike ịkwagide",
-            "address_null":"Biko tinye akaụntụ ahụ",
-            "address_err":"Ụdị adreesị abata na-akwadoghị",
-            "send_success":"Zipụ ihe ịga nke ọma",
-            "send_error":"Azụmahịa ejirila: Biko lelee ma ọ bụrụ na ego zuru oke na ego onye na-egwuputa ego"
+            "decrypt_err":"Obere obere akpa wuru, o nwere ike ịbụ njehie paswọọdụ",
+            "amount_zero":"Enweghi ike, enweghi ike ịga n'ihu",
+            "address_null":"Biko tinye akaụntụ nke ọzọ",
+            "address_err":"Ọdịdị nke adreesị ebufe adighi mma.",
+            "send_success":"E zigara nke ọma",
+            "send_error":"Ozigbo ego ejirila: biko jụọ ma ọ bụrụ na e nwere nkwụnye ego zuru oke na ụgwọ ọrụ"
         }
     },
     "page_account": {
-        "transfer_log":"Akụkọ azụmahịa",
+        "transfer_log":"Ndekọ azụmahịa",
         "transfer_log_null":"Ọ dịghị akụkọ ihe mere eme",
         "active_icon": {
-            "go_transfer":"Buru ụzọ nyefee",
+            "go_transfer":"Bido inyefe",
             "import_keystore":"Akaụntụ",
             "qrcode":"QR koodu"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Ozi ahia",
             "block_hash":"Nọmba ọnụahịa",
-            "status":"Ọnọdụ",
-            "from":"Sender",
-            "to":"Onye natara",
+            "status":"State",
+            "from":"Na-eziga otu",
+            "to":"Payee",
             "amount":"Ọnụ",
-            "data":"Ihe data",
+            "data":"Data",
             "send_time":"Na-eziga oge",
             "mac_time":"Oge nhazi oge"
         },
         "keystore": {
             "tit":"Akpa akpa ego",
-            "copy":"Ntughari",
+            "copy":"Detuo",
             "download":"Download obere akpa"
         },
         "msg_info": {
             "ads_copy_success":"E depụtala adreesị",
-            "key_copy_success":"E depụtaghachiri nke ọma"
+            "key_copy_success":"Ụdị mmeri"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Mepụta akaụntụ",
             "backup_tit":"Debe akaụntụ ọhụrụ gị",
-            "create_tag":"Aha aha",
+            "create_tag":"Ihe ndekọ akaụntụ",
             "create_pwd":"Debe paswọọdụ",
             "create_repwd":"Kwenye paswọọdụ",
-            "placeholder_tag":"Biko debe aha akaụntụ",
+            "placeholder_tag":"Biko debe aha aha akaụntụ ahụ",
             "placeholder_pwd":"Biko debe paswọọdụ akaụntụ",
             "placeholder_repwd":"Biko gosipụta paswọọdụ akaụntụ",
-            "strong_password":"Tinye paswọọdụ nke ọ dịkarịa ala 8 nọmba",
-            "account_address":"Akaụntụ",
-            "account_privateKey":"Igodo nkeonwe",
-            "account_download_keystore":"Download faịlụ akaụntụ"
+            
+            
+            "account_download_keystore":"Download faịlụ akaụntụ",
+
+            "validate_tag":"Biko tinye aha aha akaụntụ ahụ",
+            "validate_tag_length":"Aha aha akwukwo apughi ibu ihe kariri ihe odide asatọ.",
+
+            "validate_password":"Biko tinye paswọọdụ ị debere",
+            "validate_re_password":"Biko tinye paswọọdụ ị debere ọzọ",
+            "validate_strong_password":"Biko tinye paswọọdụ nke ọbụlagodi 8 nọmba",
+            "validate_password_length":"Enweghi ike itinye paswọọdụ ugboro abụọ",
+
+            "create_success":"Ejiri nke ọma",
+            "create_success_des":"Biko chekwaa faịlụ akaụntụ gị ma ghara ịkekọrịta ya na onye ọ bụla!"
         },
         "import_dia": {
             "tit":"Bubata akaụntụ",    
             "placeholder_keystore":"Biko dọrọ faịlụ ndekọ a ebe a",
-            "create_tag":"Aha aha",
-            "placeholder_tag":"Biko debe aha akaụntụ"
+            "create_tag":"Ihe ndekọ akaụntụ",
+            "placeholder_tag":"Biko debe aha aha akaụntụ ahụ",
+
+            "validate_tag":"Biko tinye aha aha akaụntụ ahụ",
+            "validate_tag_length":"Aha aha akwukwo apughi ibu ihe kariri ihe odide asatọ.",
+            "validate_enter_keystore":"Biko bubata mbido faịlụ ahụ na mbu",
+            "validate_error_keystore":"Enweghi ego ọbịbịa, nwere ike ịbụ njehie akaụntụ akaụntụ",
+            "imported_account_success":"Na-arụ ọrụ nke ọma",
+            "exist":"Ihe ndekọ a adịlarịrị, ihe edeturu bụ",
+            "keystore_error":"Njehie:",
+            "imported_success":"Nbunye faịlụ na-aga nke ọma"
         },
         "remove_dia": {
             "tit":"Ị ji n'aka na ịchọrọ iwepụ ya?",
             "remove_confrim":"Enwere m n'aka iwepụ",
-            "backup":"Biko lee nkwado ndabere nke akaụntụ a iji zere mmebi ihe onwunwe",
+            "backup":"Biko ṅaa ntị na ndabere nke akaụntụ a iji zere mmebi ihe onwunwe.",
             "input_pwd":"Okwuntughe",
-            "placeholder_pwd":"Biko tinye paswọọdụ maka akaụntụ a"
-        },
-        "msg_info": {
-            "exist":"Ihe ndekọ a adịlarị ma aha ahụ bụ",
-            "enter_password":"Biko tinye paswọọdụ gị",
-            "incons_password":"Okwuntughe abanye ugboro abuo ekwenyeghi",
-            "error":"Njehie:",
-            "imported_success":"Nbunye faịlụ na-aga nke ọma",
-            "imported_account_success":"Biputere ya nke ọma",
-            "enter_private":"Biko tinye igodo",
-            "error_keystore":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ faịlụ ezighi ezi akaụntụ",
-            "enter_keystore":"Biko bubata mbido faịlụ ahụ na mbu",
-            "error_password":"Emezughị ibubata akaụntụ, ọ nwere ike ịbụ paswọọdụ na-ezighị ezi",
-            "remove_success":"Wepụ ya nke ọma",
-            "create_success":"Ejiri nke ọma",
-            "save":"Biko chekwaa faịlụ akaụntụ gị ma ghara ịkekọrịta ya na onye ọ bụla!"
+            "placeholder_pwd":"Biko tinye paswọọdụ maka akaụntụ a",
+            "validate_password":"Biko tinye paswọọdụ maka akaụntụ ahụ",
+            "remove_success":"Wepụrụ nke ọma"
         }
     }
 }

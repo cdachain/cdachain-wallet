@@ -34,8 +34,8 @@
             "title":"Kendu egiten ari zara"
         },
         "msg_info": {
-            "no_tag":"Idatzi kontuaren izena",
-            "no_address":"Idatzi kontuaren helbidea",
+            "no_tag":"Idatzi kontuaren oharra",
+            "no_address":"Sartu zure kontuaren helbidea",
             "valid_address":"Kontaktuaren helbidea legez kanpokoa da",
             "exist":"Kontaktua lehendik ere badago,"
         }
@@ -45,12 +45,12 @@
         "to_address":"sartu",
         "amount":"Dirua",
         "send_all":"Bidali dena",
-        "data":"data",
+        "data":"Datuak",
         "data_placeholder":"Hexadecimal datuak",
-        "fees":"Tarifak",
+        "fees":"Karga kudeatzea",
         "total":"Guztira",
         "select":"Aukeratu ezazu",
-        "no_account_info":"Konturik ez, sortu edo inportatu kontua",
+        "no_account_info":"Oraindik ez duzu kontua sortu edo inportatu",
         "contacts_dig": {
             "select_placeholder":"Aukeratu ezazu"
         },
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Idatzi zure pasahitza"
         },
         "msg_info": {
-            "decrypt_err":"Ezin izan da horma-paperaren azterketa egin. Pasahitzaren errorea izan daiteke",
-            "amount_zero":"Ez dago saldo nahikoa jarraitzeko",
-            "address_null":"Idatzi kontua",
-            "address_err":"Sarrerako helbide formatua ez da legez kanpokoa",
-            "send_success":"Bidali arrakasta",
-            "send_error":"Transakzioak huts egin du: Egiaztatu oreka nahikoa eta mineraren kuota dagoela"
+            "decrypt_err":"Huts egin du parekatzeak huts egin du, pasahitzaren errorea izan daiteke",
+            "amount_zero":"Ez da nahikoa oreka, ezin da jarraitu",
+            "address_null":"Sartu beste alderdiaren kontua",
+            "address_err":"Transferitutako helbidea formatua baliogabea da.",
+            "send_success":"Ongi bidali da",
+            "send_error":"Transakzioak huts egin du: egiaztatu oreka nahikoa dagoela eta meatzaritza kuota"
         }
     },
     "page_account": {
-        "transfer_log":"Transakzioaren historia",
+        "transfer_log":"Transakzio erregistroa",
         "transfer_log_null":"Ez dago transakzioaren historia",
         "active_icon": {
             "go_transfer":"Hasi transferentzia",
@@ -84,7 +84,7 @@
             "tit":"Transakzio informazioa",
             "block_hash":"Transakzio zenbakia",
             "status":"Estatuko",
-            "from":"Bidali dirua festa",
+            "from":"Bidaltzailea",
             "to":"payee",
             "amount":"Dirua",
             "data":"Datuak",
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Helbidea kopiatu da",
-            "key_copy_success":"Ongi kopiatu da"
+            "key_copy_success":"Kopia arrakastatsua"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Sortu kontua",
             "backup_tit":"Egin kontu berriaren babeskopia",
-            "create_tag":"Kontuaren izena",
+            "create_tag":"Kontuaren oharra",
             "create_pwd":"Ezarri pasahitza",
             "create_repwd":"Berretsi pasahitza",
-            "placeholder_tag":"Ezarri kontuaren izena",
+            "placeholder_tag":"Ezarri kontuaren oharraren izena",
             "placeholder_pwd":"Ezarri kontuaren pasahitza",
             "placeholder_repwd":"Berretsi kontuaren pasahitza",
-            "strong_password":"Idatzi gutxienez 8 digituko pasahitza",
-            "account_address":"Kontu-",
-            "account_privateKey":"Gako pribatua",
-            "account_download_keystore":"Deskargatu kontu fitxategia"
+            
+            
+            "account_download_keystore":"Deskargatu kontu fitxategia",
+
+            "validate_tag":"Idatzi kontuaren oharraren izena",
+            "validate_tag_length":"Memo izenik ezin da 8 karaktere baino gehiago izan",
+
+            "validate_password":"Idatzi zehaztutako pasahitza",
+            "validate_re_password":"Sartu berriro ezarri duzun pasahitza",
+            "validate_strong_password":"Sartu gutxienez 8 digituko pasahitza",
+            "validate_password_length":"Inconsistent password entered twice",
+
+            "create_success":"Sortu arrakastaz",
+            "create_success_des":"Mesedez, gorde zure kontuaren fitxategia eta ez partekatu inorekin!"
         },
         "import_dia": {
             "tit":"Inportatu kontua",    
             "placeholder_keystore":"Arrastatu kontuaren fitxategia hemen",
-            "create_tag":"Kontuaren izena",
-            "placeholder_tag":"Ezarri kontuaren izena"
+            "create_tag":"Kontuaren oharra",
+            "placeholder_tag":"Ezarri kontuaren oharraren izena",
+
+            "validate_tag":"Idatzi kontuaren oharraren izena",
+            "validate_tag_length":"Memo izenik ezin da 8 karaktere baino gehiago izan",
+            "validate_enter_keystore":"Inportatu kontu fitxategia lehenik",
+            "validate_error_keystore":"Kontuaren inportazioa huts egin du, kontu fitxategiaren errorea izan daiteke",
+            "imported_account_success":"Ondo inportatu da",
+            "exist":"Kontua badago lehendik ere, oharra da",
+            "keystore_error":"Akatsa:",
+            "imported_success":"Inportatu fitxategia behar bezala"
         },
         "remove_dia": {
             "tit":"Ziur al zaude ezabatu nahi duzula?",
             "remove_confrim":"Ziur kendu egin behar dudala",
-            "backup":"Kontu honen babeskopia kontuan izan jabetza kalteak saihesteko",
+            "backup":"Kontu honen babeskopia egin arretaz kalteak saihesteko.",
             "input_pwd":"Pasahitza",
-            "placeholder_pwd":"Sartu pasahitza kontu honetarako"
-        },
-        "msg_info": {
-            "exist":"Kontua badago lehendik ere, izena da",
-            "enter_password":"Idatzi zure pasahitza",
-            "incons_password":"Bihurtutako pasahitza ez da bateragarria",
-            "error":"Akatsa:",
-            "imported_success":"Inportatu fitxategia behar bezala",
-            "imported_account_success":"Inportatu behar bezala",
-            "enter_private":"Sartu tekla",
-            "error_keystore":"Kontua inportatzean huts egin du, kontu fitxategiaren errorea izan daiteke",
-            "enter_keystore":"Inportatu kontu fitxategia lehenik",
-            "error_password":"Ezin izan da kontua inportatu, pasahitza okerra izan daiteke",
-            "remove_success":"Behar bezala kendu da",
-            "create_success":"Sortu arrakastaz",
-            "save":"Mesedez, gorde zure kontuaren fitxategia eta ez partekatu inorekin!"
+            "placeholder_pwd":"Sartu pasahitza kontu honetarako",
+            "validate_password":"Idatzi kontuaren pasahitza",
+            "remove_success":"Behar bezala kendu da"
         }
     }
 }

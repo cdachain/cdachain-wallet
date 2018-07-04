@@ -1,8 +1,8 @@
 {
-    "confirm":"Befêstiging",
-    "cancel":"Annulearje",
+    "confirm":"Befestigje",
+    "cancel":"Ôfbrekke",
     "dialog_tit":"Prompt",
-    "close":"Closed",
+    "close":"Slute",
     "confirm_you_active":"Besykje jo operaasje befêstigje",
     "unit": {
         "czr":"CZR"
@@ -10,49 +10,49 @@
     "model_header": {
         "home":"Thús",
         "transfer":"Oerstap",
-        "contacts":"Kontakten",
-        "setting":"Ynstellings",
+        "contacts":"Kontakt",
+        "setting":"Setting",
         "total":"Totaal",
         "testnet":"Testnetwurk"
     },
     "page_setting": {
-        "tit":"Ynstellings",
+        "tit":"Setting",
         "lang":"Taal",
-        "select":"Please select"
+        "select":"Kies hjirfoar"
     },
     "page_contacts": {
-        "tit":"Kontakten",
+        "tit":"Kontakt",
         "add_dialog":"Nij kontakt",
         "add_cont": {
             "tit":"Nij kontakt",
-            "tag":"Kontakten",
+            "tag":"Kontakt",
             "address":"Akkount adres",
-            "tag_placeholder":"Fier de namme fan 'e kontakt yn",
+            "tag_placeholder":"Fier de namme fan it kontakt yn",
             "address_placeholder":"Fier it kontresadres fan it kontakt yn"
         },
         "delete_dialog": {
             "title":"Jo binne fuorthelle"
         },
         "msg_info": {
-            "no_tag":"Fier de accountnamme yn",
-            "no_address":"Fier de accountadres yn",
-            "valid_address":"It adres fan 'e kontakt is illegal",
+            "no_tag":"Fier in akkount oan",
+            "no_address":"Fier jo adresadres yn",
+            "valid_address":"It adres fan it kontakt is illegal",
             "exist":"It kontakt is al bestiet,"
         }
     },
     "page_transfer": {
         "from_address":"Gean út",
-        "to_address":"Yntocht",
+        "to_address":"Oerstap",
         "amount":"Beleanne",
         "send_all":"Alle stjoere",
-        "data":"Datum",
+        "data":"Data",
         "data_placeholder":"Hexadezimal gegevens",
-        "fees":"Fees",
+        "fees":"Wetter - Agrarwetter",
         "total":"Totaal",
-        "select":"Please select",
-        "no_account_info":"Gjin akkount, skeakelje of ymportearje ymportearje",
+        "select":"Kies hjirfoar",
+        "no_account_info":"Gjin account yet, skeakelje of ymportearje ymportearje",
         "contacts_dig": {
-            "select_placeholder":"Please select"
+            "select_placeholder":"Kies hjirfoar"
         },
         "confirm_dia": {
             "title":"Besykje befêstigje",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Fier jo wachtwurd ynfiere"
         },
         "msg_info": {
-            "decrypt_err":"Portemonneare parsing mislearre, kin in wachtwurd fout wêze",
-            "amount_zero":"Net genôch balâns om troch te gean",
-            "address_null":"Fier it akkount yn",
-            "address_err":"Ynkommend adresformaat is illegaal",
-            "send_success":"Stjoer sukses",
-            "send_error":"Ferkearing mislearre: Kontrolearje oft der foldwaande balâns en mineraske fergoeding is"
+            "decrypt_err":"Portemonneare parsing mislearre, it kin in wachtwurd fout wêze",
+            "amount_zero":"Net genôch balâns, net kinne trochgean",
+            "address_null":"Fier it akkount fan 'e oare partij yn",
+            "address_err":"It formaat fan it oerlevere adres is ûnjildich.",
+            "send_success":"Op sukses ferstjoerd",
+            "send_error":"Ferkearing mislearre: kontrolearje of as der genôch balâns en minder fergoeding is"
         }
     },
     "page_account": {
-        "transfer_log":"Triemhistoarje",
+        "transfer_log":"Triembehearder",
         "transfer_log_null":"Gjin transaksjekiednis",
         "active_icon": {
-            "go_transfer":"Inisjatyf fan oerdracht",
+            "go_transfer":"In oerstap te begjinnen",
             "import_keystore":"Akkount triem",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Ferkearings ynformaasje",
             "block_hash":"Transaksje nûmer",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Receiver",
+            "status":"Steat",
+            "from":"Ferstjoere partij",
+            "to":"Payee",
             "amount":"Beleanne",
-            "data":"De gegevens",
+            "data":"Data",
             "send_time":"Stjoere tiid",
             "mac_time":"Main netwurk tiid"
         },
         "keystore": {
             "tit":"Backup wallet bestân",
-            "copy":"Dûbele",
+            "copy":"Kopiearje",
             "download":"Download wallet bestân"
         },
         "msg_info": {
             "ads_copy_success":"Adres is kopiearre",
-            "key_copy_success":"Nei sukses kopieare"
+            "key_copy_success":"Súksesfol eksimplaar"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"In akkount oanmeitsje",
             "backup_tit":"Werom nei jo nije akkount",
-            "create_tag":"Akkountnamme",
+            "create_tag":"Akkount notysje",
             "create_pwd":"Set wachtwurd yn",
             "create_repwd":"Befêstigje wachtwurd",
-            "placeholder_tag":"Kontrolearje asjebleaft",
-            "placeholder_pwd":"Set wachtwurd op",
+            "placeholder_tag":"Please set de akkountnotnamme",
+            "placeholder_pwd":"Set it akkount wachtwurd yn",
             "placeholder_repwd":"Besykje it akkount wachtwurd befêstigje",
-            "strong_password":"Fier in wachtwurd yn op syn minst 8 sifers",
-            "account_address":"Akkount",
-            "account_privateKey":"Private key",
-            "account_download_keystore":"Download akkount triem"
+            
+            
+            "account_download_keystore":"Download akkount triem",
+
+            "validate_tag":"Fier de account nota-namme yn",
+            "validate_tag_length":"De namme fan de notysje namme kin net grutter wêze as 8 tekens.",
+
+            "validate_password":"Fier hjir it wachtwurd yn",
+            "validate_re_password":"Fier hjir it wachtwurd yn wêr jo wer opsette",
+            "validate_strong_password":"Fier in wachtwurd yn op syn minst 8 sifers",
+            "validate_password_length":"Inkonsistint wachtwurd is twa kear ynfierd",
+
+            "create_success":"Súkses is makke",
+            "create_success_des":"Graach jo akkount triem bewarje en jo it net mei elk te dielen!"
         },
         "import_dia": {
             "tit":"Ymportearje akkount",    
             "placeholder_keystore":"Graad asjebleaft de akte bestân hjir",
-            "create_tag":"Akkountnamme",
-            "placeholder_tag":"Kontrolearje asjebleaft"
+            "create_tag":"Akkount notysje",
+            "placeholder_tag":"Please set de akkountnotnamme",
+
+            "validate_tag":"Fier de account nota-namme yn",
+            "validate_tag_length":"De namme fan de notysje namme kin net grutter wêze as 8 tekens.",
+            "validate_enter_keystore":"Please first the account file file import",
+            "validate_error_keystore":"It ymportearjen fan akkount mislearre, misk bydrage triemfout",
+            "imported_account_success":"Súksesfol ymportearre",
+            "exist":"Dit akkount bestiet al, de nota is",
+            "keystore_error":"Flater:",
+            "imported_success":"Triem ynfiere mei suksesfol"
         },
         "remove_dia": {
             "tit":"Binne jo wis dat jo it fuortsmite wolle?",
             "remove_confrim":"Ik bin wis wis om te fuortsmite",
-            "backup":"Tink derom dat de reservekopy fan dit akkount is om foarkomt te foarkommen",
+            "backup":"Kontrolearje asjebleaft nei it reservearjen fan dit akkount om foarkomt te foarkommen.",
             "input_pwd":"Wachtwurd",
-            "placeholder_pwd":"Fier hjir it wachtwurd yn foar dizze akkount"
-        },
-        "msg_info": {
-            "exist":"Dit akkount bestiet al, de namme is",
-            "enter_password":"Fier jo wachtwurd ynfiere",
-            "incons_password":"It wachtwurd dy't twa kear ynfierd is net inkonsistint",
-            "error":"Flater:",
-            "imported_success":"Triem ynfiere mei suksesfol",
-            "imported_account_success":"Ymportearre mei súkses",
-            "enter_private":"Fier de kaai yn",
-            "error_keystore":"It mislearre akkount mislearre, it kin in akkount triemfermelding wêze",
-            "enter_keystore":"Please first the account file file import",
-            "error_password":"It mislearre akkount mislearre, it kin in ferkeard wachtwurd wêze",
-            "remove_success":"Fuortsmite mei sukses",
-            "create_success":"Súkses is makke",
-            "save":"Graach jo akkount triem bewarje en jo it net mei elk te dielen!"
+            "placeholder_pwd":"Fier hjir it wachtwurd yn foar dizze akkount",
+            "validate_password":"Fier it wachtwurd yn foar it akkount yn",
+            "remove_success":"Op sukses ferwidere"
         }
     }
 }

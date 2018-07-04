@@ -1,6 +1,6 @@
 {
-    "confirm":"אישור",
-    "cancel":"ביטול",
+    "confirm":"אשר",
+    "cancel":"בטל",
     "dialog_tit":"הפקודה",
     "close":"סגור",
     "confirm_you_active":"אשר את הפעולה שלך",
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"בית",
         "transfer":"העברה",
-        "contacts":"מגעים",
-        "setting":"הגדרות",
+        "contacts":"צור קשר",
+        "setting":"הגדרה",
         "total":"סך הכל",
         "testnet":"בדוק את הרשת"
     },
     "page_setting": {
-        "tit":"הגדרות",
+        "tit":"הגדרה",
         "lang":"שפה",
-        "select":"בחר"
+        "select":"אנא בחר"
     },
     "page_contacts": {
-        "tit":"מגעים",
+        "tit":"צור קשר",
         "add_dialog":"איש קשר חדש",
         "add_cont": {
             "tit":"איש קשר חדש",
-            "tag":"מגעים",
+            "tag":"צור קשר",
             "address":"כתובת חשבון",
             "tag_placeholder":"הזן את שם איש הקשר",
             "address_placeholder":"הזן את כתובת החשבון של איש הקשר"
@@ -34,25 +34,25 @@
             "title":"אתה מסיר"
         },
         "msg_info": {
-            "no_tag":"הזן את שם החשבון",
-            "no_address":"הזן את כתובת החשבון",
+            "no_tag":"הזן הערה לחשבון",
+            "no_address":"הזן את כתובת החשבון שלך",
             "valid_address":"הכתובת של איש הקשר אינה חוקית",
             "exist":"איש הקשר כבר קיים,"
         }
     },
     "page_transfer": {
         "from_address":"העברה החוצה",
-        "to_address":"לתוך",
+        "to_address":"העברה",
         "amount":"סכום",
         "send_all":"שלח הכל",
-        "data":"תאריך",
+        "data":"נתונים",
         "data_placeholder":"נתונים הקסדצימליים",
-        "fees":"אגרות",
+        "fees":"דמי טיפול",
         "total":"סך הכל",
-        "select":"בחר",
-        "no_account_info":"אין חשבון, צור או ייבא חשבון",
+        "select":"אנא בחר",
+        "no_account_info":"אין עדיין חשבון, צור או ייבא חשבון",
         "contacts_dig": {
-            "select_placeholder":"בחר"
+            "select_placeholder":"אנא בחר"
         },
         "confirm_dia": {
             "title":"אשר",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"הזן את הסיסמה שלך"
         },
         "msg_info": {
-            "decrypt_err":"ניתוח הארנק נכשל, עשויה להיות שגיאת סיסמה",
-            "amount_zero":"איזון מספיק כדי להמשיך",
-            "address_null":"הזן את החשבון",
-            "address_err":"פורמט הכתובת הנכנסת אינו חוקי",
-            "send_success":"שלח הצלחה",
+            "decrypt_err":"ניתוח הארנק נכשל, ייתכן שזו שגיאת סיסמה",
+            "amount_zero":"איזון מספיק, לא מסוגל להמשיך",
+            "address_null":"הזן את החשבון של הצד השני",
+            "address_err":"הפורמט של הכתובת המועברת אינו חוקי.",
+            "send_success":"נשלח בהצלחה",
             "send_error":"העסקה נכשלה: בדוק אם יש מספיק איזון ודמי כורה"
         }
     },
     "page_account": {
-        "transfer_log":"היסטוריית עסקאות",
+        "transfer_log":"רשומת עסקאות",
         "transfer_log_null":"אין היסטוריית עסקאות",
         "active_icon": {
-            "go_transfer":"התחל את ההעברה",
+            "go_transfer":"התחל העברה",
             "import_keystore":"קובץ חשבון",
             "qrcode":"קוד QR"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"מידע על עסקאות",
             "block_hash":"מספר עסקה",
-            "status":"סטטוס",
-            "from":"סנדר",
-            "to":"מקלט",
+            "status":"מדינה",
+            "from":"שולח מסיבה",
+            "to":"מקבל תשלום",
             "amount":"סכום",
-            "data":"הנתונים",
+            "data":"נתונים",
             "send_time":"שולח זמן",
             "mac_time":"זמן רשת ראשי"
         },
         "keystore": {
             "tit":"גיבוי קובץ הארנק",
-            "copy":"שכפל",
+            "copy":"העתק",
             "download":"הורד את קובץ הארנק"
         },
         "msg_info": {
             "ads_copy_success":"הכתובת הועתקה",
-            "key_copy_success":"הועתק בהצלחה"
+            "key_copy_success":"עותק מוצלח"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"צור חשבון",
             "backup_tit":"גבה את החשבון החדש שלך",
-            "create_tag":"שם החשבון",
+            "create_tag":"פתק חשבון",
             "create_pwd":"הגדר סיסמה",
             "create_repwd":"אשר סיסמה",
-            "placeholder_tag":"הזן שם חשבון",
-            "placeholder_pwd":"הגדר סיסמת חשבון",
+            "placeholder_tag":"הגדר את שם ההערה בחשבון",
+            "placeholder_pwd":"הגדר את סיסמת החשבון",
             "placeholder_repwd":"אשר את סיסמת החשבון",
-            "strong_password":"הזן סיסמה של 8 ספרות לפחות",
-            "account_address":"חשבון",
-            "account_privateKey":"מפתח פרטי",
-            "account_download_keystore":"הורד את קובץ החשבון"
+            
+            
+            "account_download_keystore":"הורד את קובץ החשבון",
+
+            "validate_tag":"הזן את שם ההערה בחשבון",
+            "validate_tag_length":"שם התזכורת לא יכול להיות ארוך מ -8 תווים",
+
+            "validate_password":"הזן את הסיסמה שהגדרת",
+            "validate_re_password":"הזן את הסיסמה שהגדרת שוב",
+            "validate_strong_password":"הזן סיסמה של 8 ספרות לפחות",
+            "validate_password_length":"סיסמא לא עקבית נכנסה פעמיים",
+
+            "create_success":"נוצר בהצלחה",
+            "create_success_des":"שמור את קובץ החשבון שלך ואל תשתף אותו עם אף אחד!"
         },
         "import_dia": {
             "tit":"ייבא חשבון",    
             "placeholder_keystore":"אנא גרור את קובץ החשבון כאן",
-            "create_tag":"שם החשבון",
-            "placeholder_tag":"הזן שם חשבון"
+            "create_tag":"פתק חשבון",
+            "placeholder_tag":"הגדר את שם ההערה בחשבון",
+
+            "validate_tag":"הזן את שם ההערה בחשבון",
+            "validate_tag_length":"שם התזכורת לא יכול להיות ארוך מ -8 תווים",
+            "validate_enter_keystore":"תחילה ייבא את קובץ החשבון",
+            "validate_error_keystore":"ייבוא ​​החשבון נכשל, עשוי להיות שגיאת קובץ חשבון",
+            "imported_account_success":"ייבא בהצלחה",
+            "exist":"חשבון זה כבר קיים, הפתק הוא",
+            "keystore_error":"שגיאה:",
+            "imported_success":"ייבוא ​​הקובץ בהצלחה"
         },
         "remove_dia": {
             "tit":"האם אתה בטוח שברצונך להסיר אותו?",
             "remove_confrim":"אני בטוח להסיר",
-            "backup":"שים לב לגיבוי של חשבון זה כדי למנוע נזק לרכוש",
+            "backup":"אנא שים לב לגיבוי של חשבון זה כדי למנוע נזק לרכוש.",
             "input_pwd":"סיסמה",
-            "placeholder_pwd":"הזן את הסיסמה עבור חשבון זה"
-        },
-        "msg_info": {
-            "exist":"חשבון זה כבר קיים, השם הוא",
-            "enter_password":"הזן את הסיסמה שלך",
-            "incons_password":"הסיסמה שהוזנה פעמיים אינה עקבית",
-            "error":"שגיאה:",
-            "imported_success":"ייבוא ​​הקובץ בהצלחה",
-            "imported_account_success":"יובא בהצלחה",
-            "enter_private":"הזן את המפתח",
-            "error_keystore":"ייבוא ​​החשבון נכשל, ייתכן שזו שגיאה בקובץ החשבון",
-            "enter_keystore":"תחילה ייבא את קובץ החשבון",
-            "error_password":"ייבוא ​​החשבון נכשל, ייתכן שזו סיסמה שגויה",
-            "remove_success":"הוסר בהצלחה",
-            "create_success":"נוצר בהצלחה",
-            "save":"שמור את קובץ החשבון שלך ואל תשתף אותו עם אף אחד!"
+            "placeholder_pwd":"הזן את הסיסמה עבור חשבון זה",
+            "validate_password":"הזן את הסיסמה עבור החשבון",
+            "remove_success":"הוסר בהצלחה"
         }
     }
 }

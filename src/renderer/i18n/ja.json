@@ -34,23 +34,23 @@
             "title":"あなたは削除しています"
         },
         "msg_info": {
-            "no_tag":"アカウント名を入力してください",
-            "no_address":"アカウントのアドレスを入力してください",
-            "valid_address":"連絡先のアドレスが不正です",
+            "no_tag":"アカウントのメモを入力してください",
+            "no_address":"あなたのアカウントアドレスを入力してください",
+            "valid_address":"連絡先の住所が不正です",
             "exist":"連絡先は既に存在しますが、"
         }
     },
     "page_transfer": {
         "from_address":"転送する",
-        "to_address":"入る",
+        "to_address":"転送",
         "amount":"金額",
         "send_all":"すべてを送る",
-        "data":"日付",
+        "data":"データ",
         "data_placeholder":"16進データ",
         "fees":"料金",
         "total":"合計",
         "select":"選択してください",
-        "no_account_info":"アカウントがありません。アカウントを作成またはインポートしてください",
+        "no_account_info":"アカウントはまだ作成されていません。アカウントを作成またはインポートしてください",
         "contacts_dig": {
             "select_placeholder":"選択してください"
         },
@@ -61,15 +61,15 @@
         },
         "msg_info": {
             "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
-            "amount_zero":"続行が不十分です",
-            "address_null":"アカウントを入力してください",
-            "address_err":"着信アドレス形式が不正です",
-            "send_success":"成功を送る",
-            "send_error":"取引に失敗しました：十分な残高と鉱夫の手数料があるかどうか確認してください"
+            "amount_zero":"バランスが不十分で、続行できません",
+            "address_null":"相手のアカウントを入力してください",
+            "address_err":"転送されたアドレスの形式が無効です。",
+            "send_success":"正常に送信されました",
+            "send_error":"取引に失敗しました：十分な残高と鉱山手数料があるかどうか確認してください"
         }
     },
     "page_account": {
-        "transfer_log":"取引履歴",
+        "transfer_log":"取引記録",
         "transfer_log_null":"取引履歴はありません",
         "active_icon": {
             "go_transfer":"転送を開始する",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"取引情報",
             "block_hash":"取引番号",
-            "status":"ステータス",
-            "from":"送信者",
-            "to":"受信機",
+            "status":"州",
+            "from":"送信側",
+            "to":"受取人",
             "amount":"金額",
             "data":"データ",
             "send_time":"送信時間",
@@ -93,7 +93,7 @@
         },
         "keystore": {
             "tit":"バックアップ・ウォレット・ファイル",
-            "copy":"重複",
+            "copy":"コピー",
             "download":"ウォレットファイルをダウンロードする"
         },
         "msg_info": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"アカウントを作成する",
             "backup_tit":"新しいアカウントをバックアップする",
-            "create_tag":"アカウント名",
+            "create_tag":"勘定科目",
             "create_pwd":"パスワードを設定する",
             "create_repwd":"パスワードを確認する",
-            "placeholder_tag":"アカウント名を設定してください",
+            "placeholder_tag":"口座名を設定してください",
             "placeholder_pwd":"アカウントのパスワードを設定してください",
             "placeholder_repwd":"アカウントのパスワードを確認してください",
-            "strong_password":"少なくとも8桁のパスワードを入力してください",
-            "account_address":"アカウント",
-            "account_privateKey":"秘密鍵",
-            "account_download_keystore":"アカウントファイルをダウンロードする"
+            
+            
+            "account_download_keystore":"アカウントファイルをダウンロードする",
+
+            "validate_tag":"口座名を入力してください",
+            "validate_tag_length":"ノート名の名前は8文字以下でなければなりません。",
+
+            "validate_password":"設定したパスワードを入力してください",
+            "validate_re_password":"再度設定したパスワードを入力してください",
+            "validate_strong_password":"少なくとも8桁のパスワードを入力してください",
+            "validate_password_length":"不一致のパスワードが2回入力されました",
+
+            "create_success":"作成済み",
+            "create_success_des":"あなたのアカウントファイルを保存し、誰とも共有しないでください！"
         },
         "import_dia": {
             "tit":"アカウントをインポートする",    
             "placeholder_keystore":"ここにアカウントファイルをドラッグしてください",
-            "create_tag":"アカウント名",
-            "placeholder_tag":"アカウント名を設定してください"
+            "create_tag":"勘定科目",
+            "placeholder_tag":"口座名を設定してください",
+
+            "validate_tag":"口座名を入力してください",
+            "validate_tag_length":"ノート名の名前は8文字以下でなければなりません。",
+            "validate_enter_keystore":"最初にアカウントファイルをインポートしてください",
+            "validate_error_keystore":"アカウントのインポートに失敗しました。アカ​​ウントファイルのエラーです",
+            "imported_account_success":"インポートに成功しました",
+            "exist":"このアカウントは既に存在し、メモは",
+            "keystore_error":"エラー：",
+            "imported_success":"ファイルを正常にインポートする"
         },
         "remove_dia": {
             "tit":"それを削除してもよろしいですか？",
             "remove_confrim":"私は必ず削除します",
-            "backup":"物的損害を避けるため、このアカウントのバックアップに注意してください",
+            "backup":"物的損害を避けるため、このアカウントのバックアップに注意してください。",
             "input_pwd":"パスワード",
-            "placeholder_pwd":"このアカウントのパスワードを入力してください"
-        },
-        "msg_info": {
-            "exist":"このアカウントは既に存在し、その名前は",
-            "enter_password":"パスワードを入力してください",
-            "incons_password":"2回入力したパスワードが矛盾しています",
-            "error":"エラー：",
-            "imported_success":"ファイルを正常にインポートする",
-            "imported_account_success":"正しくインポートされました",
-            "enter_private":"キーを入力してください",
-            "error_keystore":"アカウントのインポートに失敗しました。アカ​​ウントファイルエラーである可能性があります",
-            "enter_keystore":"最初にアカウントファイルをインポートしてください",
-            "error_password":"アカウントのインポートに失敗しました。パスワードが間違っている可能性があります",
-            "remove_success":"削除されました",
-            "create_success":"作成済み",
-            "save":"あなたのアカウントファイルを保存し、誰とも共有しないでください！"
+            "placeholder_pwd":"このアカウントのパスワードを入力してください",
+            "validate_password":"アカウントのパスワードを入力してください",
+            "remove_success":"削除されました"
         }
     }
 }

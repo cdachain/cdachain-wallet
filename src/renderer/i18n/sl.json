@@ -1,8 +1,8 @@
 {
-    "confirm":"Potrditev",
-    "cancel":"Odpoved",
+    "confirm":"Potrdi",
+    "cancel":"Prekliči",
     "dialog_tit":"Poziv",
-    "close":"Zaprto",
+    "close":"Zapri",
     "confirm_you_active":"Potrdite svoje delovanje",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Domov",
         "transfer":"Prenos",
-        "contacts":"Stiki",
-        "setting":"Nastavitve",
+        "contacts":"Stik",
+        "setting":"Nastavitev",
         "total":"Skupaj",
         "testnet":"Preskusno omrežje"
     },
     "page_setting": {
-        "tit":"Nastavitve",
+        "tit":"Nastavitev",
         "lang":"Jezik",
-        "select":"Prosim izberite"
+        "select":"Prosimo, izberite"
     },
     "page_contacts": {
-        "tit":"Stiki",
+        "tit":"Stik",
         "add_dialog":"Nov stik",
         "add_cont": {
             "tit":"Nov stik",
-            "tag":"Stiki",
+            "tag":"Stik",
             "address":"Naslov računa",
             "tag_placeholder":"Vnesite ime stika",
             "address_placeholder":"Vnesite naslov računa za stik"
@@ -34,25 +34,25 @@
             "title":"Odstranite"
         },
         "msg_info": {
-            "no_tag":"Vnesite ime računa",
-            "no_address":"Vnesite naslov računa",
+            "no_tag":"Vnesite beležko računa",
+            "no_address":"Vnesite svoj naslov računa",
             "valid_address":"Naslov stika je nezakonit",
             "exist":"Stik že obstaja,"
         }
     },
     "page_transfer": {
         "from_address":"Prenesi ven",
-        "to_address":"Into",
+        "to_address":"Prenos",
         "amount":"Znesek",
         "send_all":"Pošlji vse",
-        "data":"Datum",
+        "data":"Podatki",
         "data_placeholder":"Šestnajstiški podatki",
-        "fees":"Pristojbine",
+        "fees":"Pristojbina za ravnanje",
         "total":"Skupaj",
-        "select":"Prosim izberite",
-        "no_account_info":"Brez računa, ustvarite ali uvozite račun",
+        "select":"Prosimo, izberite",
+        "no_account_info":"Še nimate računa, ustvarite ali uvozite račun",
         "contacts_dig": {
-            "select_placeholder":"Prosim izberite"
+            "select_placeholder":"Prosimo, izberite"
         },
         "confirm_dia": {
             "title":"Prosimo, potrdite",
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Vnesite geslo"
         },
         "msg_info": {
-            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, je lahko napaka gesla",
-            "amount_zero":"Nadaljevati je treba premalo ravnotežja",
-            "address_null":"Vnesite račun",
-            "address_err":"Oblika naslova naslova je nezakonita",
-            "send_success":"Pošlji uspeh",
+            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, morda je napaka gesla",
+            "amount_zero":"Nezadostno ravnovesje, ne more nadaljevati",
+            "address_null":"Prosimo, vnesite račun druge stranke",
+            "address_err":"Oblika prenesenega naslova je neveljavna.",
+            "send_success":"Uspešno poslana",
             "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
         }
     },
     "page_account": {
-        "transfer_log":"Zgodovina transakcij",
+        "transfer_log":"Transakcijski zapis",
         "transfer_log_null":"Brez zgodovine transakcij",
         "active_icon": {
             "go_transfer":"Začnite prenos",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Podatki o transakcijah",
             "block_hash":"Številka transakcije",
-            "status":"Stanje",
+            "status":"Država",
             "from":"Pošiljatelj",
-            "to":"Sprejemnik",
+            "to":"Prejemnik plačila",
             "amount":"Znesek",
             "data":"Podatki",
             "send_time":"Pošiljanje časa",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Datoteka varnostne kopije",
-            "copy":"Podvoji",
+            "copy":"Kopiraj",
             "download":"Prenesi denarnico"
         },
         "msg_info": {
             "ads_copy_success":"Naslov je bil kopiran",
-            "key_copy_success":"Uspešno kopiran"
+            "key_copy_success":"Uspešna kopija"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Ustvarite račun",
             "backup_tit":"Varnostno kopirajte svoj novi račun",
-            "create_tag":"Ime računa",
+            "create_tag":"Opomba računa",
             "create_pwd":"Nastavite geslo",
             "create_repwd":"Potrdite geslo",
-            "placeholder_tag":"Nastavite ime računa",
+            "placeholder_tag":"Nastavite ime beležke računa",
             "placeholder_pwd":"Nastavite geslo za račun",
             "placeholder_repwd":"Potrdite geslo za račun",
-            "strong_password":"Vnesite geslo z najmanj 8 števkami",
-            "account_address":"Račun",
-            "account_privateKey":"Zasebni ključ",
-            "account_download_keystore":"Prenos datoteke računa"
+            
+            
+            "account_download_keystore":"Prenos datoteke računa",
+
+            "validate_tag":"Vnesite ime beležke računa",
+            "validate_tag_length":"Ime beležke ne sme biti daljše od 8 znakov",
+
+            "validate_password":"Vnesite geslo, ki ste ga nastavili",
+            "validate_re_password":"Vnesite geslo, ki ste ga ponovno nastavili",
+            "validate_strong_password":"Vnesite geslo z najmanj 8 števkami",
+            "validate_password_length":"Vstavljeno dvokliknite dvokliknite",
+
+            "create_success":"Ustvarjeno je uspešno",
+            "create_success_des":"Prosimo, shranite datoteko računa in ne delite z nikomer!"
         },
         "import_dia": {
             "tit":"Uvoz računa",    
             "placeholder_keystore":"Tukaj povlecite datoteko računa",
-            "create_tag":"Ime računa",
-            "placeholder_tag":"Nastavite ime računa"
+            "create_tag":"Opomba računa",
+            "placeholder_tag":"Nastavite ime beležke računa",
+
+            "validate_tag":"Vnesite ime beležke računa",
+            "validate_tag_length":"Ime beležke ne sme biti daljše od 8 znakov",
+            "validate_enter_keystore":"Najprej uvozite datoteko računa",
+            "validate_error_keystore":"Uvoz računa ni uspel, morda je napaka v računu",
+            "imported_account_success":"Uspešno uvoženo",
+            "exist":"Ta račun že obstaja, je opomba",
+            "keystore_error":"Napaka:",
+            "imported_success":"Uvozite datoteko uspešno"
         },
         "remove_dia": {
             "tit":"Ali ste prepričani, da ga želite odstraniti?",
             "remove_confrim":"Prepričan sem, da ga odstranim",
-            "backup":"Upoštevajte varnostno kopijo tega računa, da se izognete nepremoženjski škodi",
+            "backup":"Prosimo, bodite pozorni na varnostno kopijo tega računa, da se izognete nepremoženjski škodi.",
             "input_pwd":"Geslo",
-            "placeholder_pwd":"Vnesite geslo za ta račun"
-        },
-        "msg_info": {
-            "exist":"Ta račun že obstaja, ime je",
-            "enter_password":"Vnesite geslo",
-            "incons_password":"Dvakrat vneseno geslo ni v skladu",
-            "error":"Napaka:",
-            "imported_success":"Uvozite datoteko uspešno",
-            "imported_account_success":"Uvoženo uspešno",
-            "enter_private":"Vnesite ključ",
-            "error_keystore":"Ni bilo mogoče uvoziti računa, morda je prišlo do napake v računu",
-            "enter_keystore":"Najprej uvozite datoteko računa",
-            "error_password":"Ni bilo mogoče uvoziti računa, morda je napačno geslo",
-            "remove_success":"Uspešno je bil odstranjen",
-            "create_success":"Ustvarjeno je uspešno",
-            "save":"Prosimo, shranite datoteko računa in ne delite z nikomer!"
+            "placeholder_pwd":"Vnesite geslo za ta račun",
+            "validate_password":"Vnesite geslo za račun",
+            "remove_success":"Uspešno je bil odstranjen"
         }
     }
 }

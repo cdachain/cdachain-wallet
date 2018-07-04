@@ -1,8 +1,8 @@
 {
-    "confirm":"Pengesahan",
-    "cancel":"Pembatalan",
+    "confirm":"Sahkan",
+    "cancel":"Batalkan",
     "dialog_tit":"Prompt",
-    "close":"Tertutup",
+    "close":"Tutup",
     "confirm_you_active":"Sila sahkan operasi anda",
     "unit": {
         "czr":"CZR"
@@ -10,47 +10,47 @@
     "model_header": {
         "home":"Rumah",
         "transfer":"Pemindahan",
-        "contacts":"Kenalan",
-        "setting":"Tetapan",
+        "contacts":"Hubungi",
+        "setting":"Menetapkan",
         "total":"Jumlah",
         "testnet":"Rangkaian ujian"
     },
     "page_setting": {
-        "tit":"Tetapan",
+        "tit":"Menetapkan",
         "lang":"Bahasa",
         "select":"Sila pilih"
     },
     "page_contacts": {
-        "tit":"Kenalan",
+        "tit":"Hubungi",
         "add_dialog":"Kenalan baru",
         "add_cont": {
             "tit":"Kenalan baru",
-            "tag":"Kenalan",
+            "tag":"Hubungi",
             "address":"Alamat akaun",
-            "tag_placeholder":"Sila masukkan nama kenalan itu",
+            "tag_placeholder":"Sila masukkan nama kenalan tersebut",
             "address_placeholder":"Sila masukkan alamat akaun kenalan"
         },
         "delete_dialog": {
             "title":"Anda membuang"
         },
         "msg_info": {
-            "no_tag":"Sila masukkan nama akaun",
-            "no_address":"Sila masukkan alamat akaun",
+            "no_tag":"Sila masukkan nota akaun",
+            "no_address":"Sila masukkan alamat akaun anda",
             "valid_address":"Alamat kenalan adalah haram",
             "exist":"Kenalan sudah wujud,"
         }
     },
     "page_transfer": {
         "from_address":"Pindahan",
-        "to_address":"Ke dalam",
+        "to_address":"Pemindahan",
         "amount":"Jumlah",
         "send_all":"Hantar semua",
-        "data":"Tarikh",
+        "data":"Data",
         "data_placeholder":"Data heksadesimal",
-        "fees":"Bayaran",
+        "fees":"Bayaran pengendalian",
         "total":"Jumlah",
         "select":"Sila pilih",
-        "no_account_info":"Tiada akaun, sila buat atau import akaun",
+        "no_account_info":"Tiada akaun lagi, sila buat atau import akaun",
         "contacts_dig": {
             "select_placeholder":"Sila pilih"
         },
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
-            "amount_zero":"Baki tidak mencukupi untuk diteruskan",
-            "address_null":"Sila masukkan akaun",
-            "address_err":"Format alamat masuk adalah tidak sah",
-            "send_success":"Hantar kejayaan",
-            "send_error":"Transaksi gagal: Sila semak jika terdapat baki yang mencukupi dan yuran penambang"
+            "amount_zero":"Baki tidak mencukupi, tidak dapat diteruskan",
+            "address_null":"Sila masukkan akaun pihak lain",
+            "address_err":"Format alamat yang dipindahkan tidak sah.",
+            "send_success":"Berhasil dihantar",
+            "send_error":"Urus niaga gagal: sila semak jika ada baki yang mencukupi dan yuran pelombong"
         }
     },
     "page_account": {
-        "transfer_log":"Sejarah urus niaga",
+        "transfer_log":"Rekod transaksi",
         "transfer_log_null":"Tiada sejarah transaksi",
         "active_icon": {
-            "go_transfer":"Pindahan awal",
+            "go_transfer":"Memulakan pemindahan",
             "import_keystore":"Fail akaun",
             "qrcode":"Kod QR"
         },
@@ -83,8 +83,8 @@
         "dia_tx":{
             "tit":"Maklumat urus niaga",
             "block_hash":"Nombor urus niaga",
-            "status":"Status",
-            "from":"Pengirim",
+            "status":"Negeri",
+            "from":"Menghantar pesta",
             "to":"Penerima",
             "amount":"Jumlah",
             "data":"Data",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Fail dompet sandaran",
-            "copy":"Duplikat",
+            "copy":"Salin",
             "download":"Muat turun fail dompet"
         },
         "msg_info": {
             "ads_copy_success":"Alamat telah disalin",
-            "key_copy_success":"Berjaya disalin"
+            "key_copy_success":"Salin berjaya"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Buat akaun",
             "backup_tit":"Sandarkan akaun baru anda",
-            "create_tag":"Nama akaun",
+            "create_tag":"Nota akaun",
             "create_pwd":"Tetapkan kata laluan",
             "create_repwd":"Sahkan kata laluan",
-            "placeholder_tag":"Sila nyatakan nama akaun",
+            "placeholder_tag":"Sila nyatakan nama nota akaun",
             "placeholder_pwd":"Sila nyatakan kata laluan akaun",
             "placeholder_repwd":"Sila sahkan kata laluan akaun",
-            "strong_password":"Masukkan kata laluan sekurang-kurangnya 8 digit",
-            "account_address":"Akaun",
-            "account_privateKey":"Kunci persendirian",
-            "account_download_keystore":"Muat turun fail akaun"
+            
+            
+            "account_download_keystore":"Muat turun fail akaun",
+
+            "validate_tag":"Sila masukkan nama nota akaun",
+            "validate_tag_length":"Nama memo tidak boleh melebihi 8 aksara",
+
+            "validate_password":"Sila masukkan kata laluan yang anda tetapkan",
+            "validate_re_password":"Sila masukkan kata laluan yang anda tetapkan semula",
+            "validate_strong_password":"Sila masukkan kata laluan sekurang-kurangnya 8 digit",
+            "validate_password_length":"Kata laluan tidak konsisten dimasukkan dua kali",
+
+            "create_success":"Dibuat berjaya",
+            "create_success_des":"Sila simpan fail akaun anda dan jangan kongsi dengan sesiapa!"
         },
         "import_dia": {
             "tit":"Import akaun",    
             "placeholder_keystore":"Sila seret fail akaun di sini",
-            "create_tag":"Nama akaun",
-            "placeholder_tag":"Sila nyatakan nama akaun"
+            "create_tag":"Nota akaun",
+            "placeholder_tag":"Sila nyatakan nama nota akaun",
+
+            "validate_tag":"Sila masukkan nama nota akaun",
+            "validate_tag_length":"Nama memo tidak boleh melebihi 8 aksara",
+            "validate_enter_keystore":"Sila masukkan fail akaun terlebih dahulu",
+            "validate_error_keystore":"Import akaun gagal, mungkin ralat fail akaun",
+            "imported_account_success":"Berjaya diimport",
+            "exist":"Akaun ini sudah ada, nota itu",
+            "keystore_error":"Ralat:",
+            "imported_success":"Import fail berjaya"
         },
         "remove_dia": {
             "tit":"Adakah anda pasti mahu mengeluarkannya?",
             "remove_confrim":"Saya pasti akan mengeluarkannya",
-            "backup":"Sila ambil perhatian tentang sandaran akaun ini untuk mengelakkan kerosakan harta benda",
+            "backup":"Sila beri perhatian kepada sandaran akaun ini untuk mengelakkan kerosakan harta benda.",
             "input_pwd":"Kata laluan",
-            "placeholder_pwd":"Sila masukkan kata laluan untuk akaun ini"
-        },
-        "msg_info": {
-            "exist":"Akaun ini sudah wujud, namanya",
-            "enter_password":"Sila masukkan kata laluan anda",
-            "incons_password":"Kata laluan yang dimasukkan dua kali tidak konsisten",
-            "error":"Ralat:",
-            "imported_success":"Import fail berjaya",
-            "imported_account_success":"Diimport dengan jayanya",
-            "enter_private":"Sila masukkan kekunci",
-            "error_keystore":"Gagal mengimport akaun, ia mungkin ralat fail akaun",
-            "enter_keystore":"Sila masukkan fail akaun terlebih dahulu",
-            "error_password":"Gagal mengimport akaun, mungkin kata laluan yang salah",
-            "remove_success":"Dihapuskan berjaya",
-            "create_success":"Dibuat berjaya",
-            "save":"Sila simpan fail akaun anda dan jangan kongsi dengan sesiapa!"
+            "placeholder_pwd":"Sila masukkan kata laluan untuk akaun ini",
+            "validate_password":"Sila masukkan kata laluan untuk akaun tersebut",
+            "remove_success":"Berjaya dikeluarkan"
         }
     }
 }

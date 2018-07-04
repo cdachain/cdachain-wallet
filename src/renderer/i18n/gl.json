@@ -1,8 +1,8 @@
 {
-    "confirm":"Confirmación",
-    "cancel":"Cancelación",
+    "confirm":"Confirmar",
+    "cancel":"Cancelar",
     "dialog_tit":"Preguntar",
-    "close":"Pechado",
+    "close":"Pechar",
     "confirm_you_active":"Confirma a túa operación",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Inicio",
         "transfer":"Transferencia",
-        "contacts":"Contactos",
+        "contacts":"Contacto",
         "setting":"Configuración",
         "total":"Total",
         "testnet":"Rede de probas"
@@ -18,14 +18,14 @@
     "page_setting": {
         "tit":"Configuración",
         "lang":"Linguaxe",
-        "select":"Selecciona"
+        "select":"Elixe"
     },
     "page_contacts": {
-        "tit":"Contactos",
+        "tit":"Contacto",
         "add_dialog":"Novo contacto",
         "add_cont": {
             "tit":"Novo contacto",
-            "tag":"Contactos",
+            "tag":"Contacto",
             "address":"Enderezo da conta",
             "tag_placeholder":"Introduce o nome do contacto",
             "address_placeholder":"Introduce o enderezo da conta do contacto"
@@ -34,25 +34,25 @@
             "title":"Estás a eliminar"
         },
         "msg_info": {
-            "no_tag":"Introduce o nome da conta",
-            "no_address":"Introduce o enderezo da conta",
+            "no_tag":"Insira unha nota de conta",
+            "no_address":"Introduce o enderezo da túa conta",
             "valid_address":"O enderezo do contacto é ilegal",
             "exist":"O contacto xa existe,"
         }
     },
     "page_transfer": {
         "from_address":"Transferir",
-        "to_address":"Into",
+        "to_address":"Transferencia",
         "amount":"Cantidade",
         "send_all":"Enviar todo",
-        "data":"Data",
+        "data":"Datos",
         "data_placeholder":"Datos hexadecimales",
-        "fees":"Taxas",
+        "fees":"Tarifa de manutención",
         "total":"Total",
-        "select":"Selecciona",
-        "no_account_info":"Sen conta, crea ou importa unha conta",
+        "select":"Elixe",
+        "no_account_info":"Aínda non hai ningunha conta, crea ou importa unha conta",
         "contacts_dig": {
-            "select_placeholder":"Selecciona"
+            "select_placeholder":"Elixe"
         },
         "confirm_dia": {
             "title":"Confirma",
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
-            "amount_zero":"Insuficiente equilibrio para continuar",
-            "address_null":"Introduce a conta",
-            "address_err":"O formato de enderezo entrante é ilegal",
-            "send_success":"Enviar éxito",
+            "amount_zero":"Balance insuficiente, incapaz de continuar",
+            "address_null":"Insira a conta doutra parte",
+            "address_err":"O formato do enderezo transferido non é válido.",
+            "send_success":"Enviouse con éxito",
             "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
         }
     },
     "page_account": {
-        "transfer_log":"Historial de transaccións",
+        "transfer_log":"Rexistro de transaccións",
         "transfer_log_null":"Sen historial de transaccións",
         "active_icon": {
-            "go_transfer":"Iniciar transferencia",
+            "go_transfer":"Iniciar unha transferencia",
             "import_keystore":"Ficheiro da conta",
             "qrcode":"Código QR"
         },
@@ -84,21 +84,21 @@
             "tit":"Información de transaccións",
             "block_hash":"Número de transacción",
             "status":"Estado",
-            "from":"Remitente",
-            "to":"Receptor",
+            "from":"Festa enviada",
+            "to":"Beneficiario",
             "amount":"Cantidade",
-            "data":"Os datos",
+            "data":"Datos",
             "send_time":"Enviando tempo",
             "mac_time":"Tempo de rede principal"
         },
         "keystore": {
             "tit":"Ficheiro de carteira de respaldo",
-            "copy":"Duplicar",
+            "copy":"Copiar",
             "download":"Descargar o ficheiro de carteira"
         },
         "msg_info": {
             "ads_copy_success":"Copiouse a dirección",
-            "key_copy_success":"Copiada con éxito"
+            "key_copy_success":"Copia exitosa"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Crea unha conta",
             "backup_tit":"Fai unha copia de seguridade da túa nova conta",
-            "create_tag":"Nome da conta",
+            "create_tag":"Nota de conta",
             "create_pwd":"Establecer o contrasinal",
             "create_repwd":"Confirmar o contrasinal",
-            "placeholder_tag":"Establece o nome da conta",
+            "placeholder_tag":"Configure o nome da nota da conta",
             "placeholder_pwd":"Configure o contrasinal da conta",
             "placeholder_repwd":"Confirma o contrasinal da conta",
-            "strong_password":"Introduza un contrasinal de polo menos 8 díxitos",
-            "account_address":"Conta",
-            "account_privateKey":"Tecla privada",
-            "account_download_keystore":"Descargar o ficheiro da conta"
+            
+            
+            "account_download_keystore":"Descargar o ficheiro da conta",
+
+            "validate_tag":"Introduce o nome da nota de conta",
+            "validate_tag_length":"O nome da nota non pode ter máis de 8 caracteres",
+
+            "validate_password":"Introduza o contrasinal que configurou",
+            "validate_re_password":"Introduza o contrasinal que configurou de novo",
+            "validate_strong_password":"Introduza un contrasinal de polo menos 8 díxitos",
+            "validate_password_length":"Contrasinal inconsistente introducido dúas veces",
+
+            "create_success":"Creado con éxito",
+            "create_success_des":"Garda o ficheiro da túa conta e non o comparte con ninguén."
         },
         "import_dia": {
             "tit":"Importar conta",    
             "placeholder_keystore":"Arrastra aquí o ficheiro da conta",
-            "create_tag":"Nome da conta",
-            "placeholder_tag":"Establece o nome da conta"
+            "create_tag":"Nota de conta",
+            "placeholder_tag":"Configure o nome da nota da conta",
+
+            "validate_tag":"Introduce o nome da nota de conta",
+            "validate_tag_length":"O nome da nota non pode ter máis de 8 caracteres",
+            "validate_enter_keystore":"Importe primeiro o ficheiro da conta",
+            "validate_error_keystore":"Fallou a importación da conta, pode ser un erro de ficheiro de conta",
+            "imported_account_success":"Importada con éxito",
+            "exist":"Esta conta xa existe, a nota é",
+            "keystore_error":"Erro:",
+            "imported_success":"Importar ficheiro con éxito"
         },
         "remove_dia": {
             "tit":"Estás seguro de que queres eliminar?",
             "remove_confrim":"Estou seguro de eliminar",
-            "backup":"Ten en conta a copia de seguridade desta conta para evitar danos á propiedade",
+            "backup":"Preste atención á copia de seguridade desta conta para evitar danos á propiedade.",
             "input_pwd":"Contrasinal",
-            "placeholder_pwd":"Introduza o contrasinal para esta conta"
-        },
-        "msg_info": {
-            "exist":"Esta conta xa existe eo nome é",
-            "enter_password":"Introduce o teu contrasinal",
-            "incons_password":"O contrasinal introducido dúas veces é inconsistente",
-            "error":"Erro:",
-            "imported_success":"Importar ficheiro con éxito",
-            "imported_account_success":"Importouse con éxito",
-            "enter_private":"Introduce a tecla",
-            "error_keystore":"Non se puido importar a conta, pode ser un erro de ficheiro de conta",
-            "enter_keystore":"Importe primeiro o ficheiro da conta",
-            "error_password":"Fallou a importación de conta, pode ser un contrasinal incorrecto",
-            "remove_success":"Eliminouse con éxito",
-            "create_success":"Creado con éxito",
-            "save":"Garda o ficheiro da túa conta e non o comparte con ninguén."
+            "placeholder_pwd":"Introduza o contrasinal para esta conta",
+            "validate_password":"Introduce o contrasinal da conta",
+            "remove_success":"Eliminouse con éxito"
         }
     }
 }

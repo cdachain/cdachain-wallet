@@ -1,5 +1,5 @@
 {
-    "confirm":"Kev lees paub",
+    "confirm":"Tshawb xyuas",
     "cancel":"Tshem tawm",
     "dialog_tit":"Sij hawm",
     "close":"Kaw",
@@ -11,12 +11,12 @@
         "home":"Tsev",
         "transfer":"Hloov mus",
         "contacts":"Hu rau",
-        "setting":"Chaw",
+        "setting":"Qhov chaw",
         "total":"Tag nrho",
         "testnet":"Kuaj kev sib tw"
     },
     "page_setting": {
-        "tit":"Chaw",
+        "tit":"Qhov chaw",
         "lang":"Lus",
         "select":"Thov xaiv"
     },
@@ -27,30 +27,30 @@
             "tit":"Sib cuag tshiab",
             "tag":"Hu rau",
             "address":"Tus account chaw nyob",
-            "tag_placeholder":"Thov sau tus neeg teb xov tooj",
+            "tag_placeholder":"Thov sau lub npe ntawm tus neeg hu",
             "address_placeholder":"Thov sau tus neeg hu tus account"
         },
         "delete_dialog": {
             "title":"Koj tshem tawm"
         },
         "msg_info": {
-            "no_tag":"Thov sau lub npe nyiaj",
-            "no_address":"Thov sau chaw nyob",
-            "valid_address":"Qhov chaw nyob yog qhov txhaum cai",
+            "no_tag":"Thov sau ib daim ntawv qhia nyiaj",
+            "no_address":"Thov sau koj tus account chaw nyob",
+            "valid_address":"Qhov chaw nyob ntawm tus xov tooj yog tsis raug cai",
             "exist":"Qhov kev sib cuag twb tshwm sim lawm,"
         }
     },
     "page_transfer": {
         "from_address":"Tshem tawm",
-        "to_address":"Rau hauv",
+        "to_address":"Hloov mus",
         "amount":"Tus nqi",
         "send_all":"Xa tag nrho",
-        "data":"Hnub tim",
+        "data":"Cov ntaub ntawv",
         "data_placeholder":"Hexadecimal cov ntaub ntawv",
-        "fees":"Tus Nqi",
+        "fees":"Kev them nqi",
         "total":"Tag nrho",
         "select":"Thov xaiv",
-        "no_account_info":"Tsis muaj dab tsi, thov tsim lossis rho nyiaj",
+        "no_account_info":"Tsis muaj dab tsi ntxiv, thov tsim lossis rho nyiaj",
         "contacts_dig": {
             "select_placeholder":"Thov xaiv"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Thov sau koj tus password"
         },
         "msg_info": {
-            "decrypt_err":"Cov hnab parsing puav tsis tau, tej zaum yuav ua yuam kev password",
-            "amount_zero":"Kev txaus siab tsis txaus siv mus ntxiv",
-            "address_null":"Thov sau tus account",
-            "address_err":"Cov chaw nyob tuaj yeem tsis raug cai",
-            "send_success":"Xa ntawv zoo",
-            "send_error":"Kev Them Xam Xaj: Thov saib xyuas seb puas muaj nyiaj txaus thiab me me tus nqi"
+            "decrypt_err":"Cov hnab parsing puav tsis tau, nws yuav ua tau yuam kev password",
+            "amount_zero":"Kev tsis txaus, tsis tuaj yeem mus ntxiv",
+            "address_null":"Thov sau rau lwm tog neeg tus account",
+            "address_err":"Cov hom ntawv ntawm qhov chaw nyob xa mus yog invalid.",
+            "send_success":"Hloov tau zoo",
+            "send_error":"Hloov ua tsis tau zoo: thov xyuas seb puas muaj nqi txaus thiab cov nqi me me"
         }
     },
     "page_account": {
-        "transfer_log":"Tuaj hauv keeb kwm",
+        "transfer_log":"Cov ntaub ntawv xov xwm",
         "transfer_log_null":"Tsis muaj keeb kwm ua lag luam",
         "active_icon": {
-            "go_transfer":"Pib hloov chaw",
+            "go_transfer":"Pib ib qho kev hloov",
             "import_keystore":"Txhab nyiaj",
             "qrcode":"QR code"
         },
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Cov ntaub ntawv xov xwm",
             "block_hash":"Tus xov tooj lw",
-            "status":"Raws li txoj cai",
-            "from":"Xa ntawv",
-            "to":"Txais neeg",
+            "status":"Xeev",
+            "from":"Xa tog",
+            "to":"Tus neeg txais kev pab",
             "amount":"Tus nqi",
             "data":"Cov ntaub ntawv",
             "send_time":"Xa sij hawm",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Cov hnab ntawv thaub qab",
-            "copy":"Duplicate",
+            "copy":"Luam",
             "download":"Download tau lub hnab nyiaj"
         },
         "msg_info": {
             "ads_copy_success":"Chaw nyob tau luam tawm",
-            "key_copy_success":"Hloov tau zoo"
+            "key_copy_success":"Daim ntawv zoo"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Tsim ib tug account",
             "backup_tit":"Rov sau koj tus account tshiab",
-            "create_tag":"Account npe",
+            "create_tag":"Txhab ntawv sau npe",
             "create_pwd":"Teem password",
             "create_repwd":"Confirm password",
-            "placeholder_tag":"Thov teem caij lub npe",
+            "placeholder_tag":"Thov teem caij rau lub npe nyiaj",
             "placeholder_pwd":"Thov teem caij tus password",
             "placeholder_repwd":"Thov paub meej tias tus account password",
-            "strong_password":"Sau tus password ntawm yam tsawg 8 tus lej",
-            "account_address":"Account",
-            "account_privateKey":"Tus yuam sij",
-            "account_download_keystore":"Download tau tus account file"
+            
+            
+            "account_download_keystore":"Download tau tus account file",
+
+            "validate_tag":"Thov sau tus cim npe lub npe",
+            "validate_tag_length":"Lub npe ntawm lub npe ntawv tsis tuaj yeem ua ntau tshaj 8 cim.",
+
+            "validate_password":"Thov sau tus password koj tau teev tseg",
+            "validate_re_password":"Thov sau tus password koj tau teem dua",
+            "validate_strong_password":"Thov sau ib tug password ntawm yam tsawg 8 tus lej",
+            "validate_password_length":"Inconsistent password nkag ob zaug",
+
+            "create_success":"Tsim tau zoo",
+            "create_success_des":"Thov txuag koj cov ntaub ntawv nyiaj thiab tsis txhob koom nrog leej twg!"
         },
         "import_dia": {
             "tit":"Ntshuam nyiaj",    
             "placeholder_keystore":"Thov cab cov ntaub ntawv ntawm no",
-            "create_tag":"Account npe",
-            "placeholder_tag":"Thov teem caij lub npe"
+            "create_tag":"Txhab ntawv sau npe",
+            "placeholder_tag":"Thov teem caij rau lub npe nyiaj",
+
+            "validate_tag":"Thov sau tus cim npe lub npe",
+            "validate_tag_length":"Lub npe ntawm lub npe ntawv tsis tuaj yeem ua ntau tshaj 8 cim.",
+            "validate_enter_keystore":"Thov import cov ntaub ntawv ua ntej",
+            "validate_error_keystore":"Tus account tsis tuaj yeem ua tsis tau tiav, tej zaum yuav yog tus neeg ua yuam kev",
+            "imported_account_success":"Hloov tau zoo",
+            "exist":"Cov nyiaj no twb muaj lawm, daim ntawv no yog",
+            "keystore_error":"Yuam kev:",
+            "imported_success":"Ntshis ntawv tau zoo"
         },
         "remove_dia": {
             "tit":"Koj puas paub tseeb tias koj xav muab nws tshem?",
             "remove_confrim":"Kuv nco ntsoov tshem tawm",
-            "backup":"Thov nco ntsoov thaub qab ntawm qhov nyiaj no kom tsis txhob muaj kev puas tsuaj",
+            "backup":"Thov them nyiaj rau lub thaub qab ntawm no kom tsis txhob muaj kev puas tsuaj khoom.",
             "input_pwd":"Lo lus zais",
-            "placeholder_pwd":"Thov sau tus password rau qhov no"
-        },
-        "msg_info": {
-            "exist":"Cov nyiaj no twb muaj lawm thiab lub npe yog",
-            "enter_password":"Thov sau koj tus password",
-            "incons_password":"Tus password nkag ob yog inconsistent",
-            "error":"Yuam kev:",
-            "imported_success":"Ntshis ntawv tau zoo",
-            "imported_account_success":"Hloov tau zoo",
-            "enter_private":"Thov sau tus yuam sij",
-            "error_keystore":"Ua tsis tau tejyam nyiaj, nws yuav yog qhov ua yuam kev",
-            "enter_keystore":"Thov import cov ntaub ntawv ua ntej",
-            "error_password":"Ua tsis tau tejyam nyiaj, nws yuav yog tus password",
-            "remove_success":"Tshem tawm suab",
-            "create_success":"Tsim tau zoo",
-            "save":"Thov txuag koj cov ntaub ntawv nyiaj thiab tsis txhob koom nrog leej twg!"
+            "placeholder_pwd":"Thov sau tus password rau qhov no",
+            "validate_password":"Thov sau tus password rau tus as khauj",
+            "remove_success":"Hloov tawm zoo"
         }
     }
 }

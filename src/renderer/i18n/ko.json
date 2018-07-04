@@ -2,7 +2,7 @@
     "confirm":"확인",
     "cancel":"취소",
     "dialog_tit":"프롬프트",
-    "close":"휴무일",
+    "close":"닫기",
     "confirm_you_active":"당신의 수술을 확인해주세요.",
     "unit": {
         "czr":"CZR"
@@ -27,30 +27,30 @@
             "tit":"새 연락처",
             "tag":"연락처",
             "address":"계정 주소",
-            "tag_placeholder":"담당자의 이름을 입력하십시오.",
+            "tag_placeholder":"연락처 이름을 입력하십시오.",
             "address_placeholder":"연락처의 계정 주소를 입력하십시오."
         },
         "delete_dialog": {
             "title":"제거하고 있습니다."
         },
         "msg_info": {
-            "no_tag":"계정 이름을 입력하십시오.",
+            "no_tag":"계정 메모를 입력하십시오.",
             "no_address":"계정 주소를 입력하십시오.",
-            "valid_address":"담당자의 주소가 불법입니다.",
+            "valid_address":"연락처의 주소가 불법입니다.",
             "exist":"연락처가 이미 있습니다."
         }
     },
     "page_transfer": {
         "from_address":"전송",
-        "to_address":"들어가기",
+        "to_address":"전송",
         "amount":"금액",
         "send_all":"모두 보내기",
-        "data":"날짜",
+        "data":"데이터",
         "data_placeholder":"16 진수 데이터",
         "fees":"수수료",
         "total":"합계",
         "select":"선택하십시오",
-        "no_account_info":"계정이 없습니다. 계정을 만들거나 가져 오십시오.",
+        "no_account_info":"아직 계정이 없으므로 계정을 만들거나 가져 오십시오.",
         "contacts_dig": {
             "select_placeholder":"선택하십시오"
         },
@@ -61,15 +61,15 @@
         },
         "msg_info": {
             "decrypt_err":"월렛 파싱에 실패했습니다. 비밀번호 오류 일 수 있습니다.",
-            "amount_zero":"계속하기에 불충분 한 균형",
-            "address_null":"계정을 입력하십시오.",
-            "address_err":"받는 주소 형식이 잘못되었습니다.",
-            "send_success":"성공을 보낸다.",
-            "send_error":"거래 실패 : 충분한 잔액 및 광부 수수료가 있는지 확인하십시오."
+            "amount_zero":"불충분 한 균형, 계속할 수 없음",
+            "address_null":"상대방의 계정을 입력하십시오.",
+            "address_err":"전송 된 주소의 형식이 잘못되었습니다.",
+            "send_success":"성공적으로 보냈습니다.",
+            "send_error":"거래 실패 : 잔액 및 광부 수수료가 충분한 지 확인하십시오."
         }
     },
     "page_account": {
-        "transfer_log":"거래 내역",
+        "transfer_log":"거래 기록",
         "transfer_log_null":"거래 내역 없음",
         "active_icon": {
             "go_transfer":"전송 시작",
@@ -84,8 +84,8 @@
             "tit":"거래 정보",
             "block_hash":"거래 번호",
             "status":"상태",
-            "from":"보낸 사람",
-            "to":"수신기",
+            "from":"발신자",
+            "to":"수취인",
             "amount":"금액",
             "data":"데이터",
             "send_time":"보내는 시간",
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"주소가 복사되었습니다.",
-            "key_copy_success":"복사 완료"
+            "key_copy_success":"성공적인 사본"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"계정 만들기",
             "backup_tit":"새 계정 백업",
-            "create_tag":"계정 이름",
+            "create_tag":"계정 메모",
             "create_pwd":"비밀번호 설정",
             "create_repwd":"암호 확인",
-            "placeholder_tag":"계정 이름을 설정하십시오.",
-            "placeholder_pwd":"계정 비밀번호를 설정하십시오.",
+            "placeholder_tag":"계정 메모 이름을 설정하십시오.",
+            "placeholder_pwd":"계정 암호를 설정하십시오.",
             "placeholder_repwd":"계정 비밀번호를 확인하십시오.",
-            "strong_password":"암호를 8 자리 이상 입력하십시오.",
-            "account_address":"계정",
-            "account_privateKey":"개인 키",
-            "account_download_keystore":"계정 파일 다운로드"
+            
+            
+            "account_download_keystore":"계정 파일 다운로드",
+
+            "validate_tag":"계정 메모 이름을 입력하십시오.",
+            "validate_tag_length":"메모 이름은 8자를 초과 할 수 없습니다.",
+
+            "validate_password":"설정 한 암호를 입력하십시오.",
+            "validate_re_password":"다시 설정 한 암호를 입력하십시오.",
+            "validate_strong_password":"암호를 8 자리 이상 입력하십시오.",
+            "validate_password_length":"일치하지 않는 암호가 두 번 입력되었습니다.",
+
+            "create_success":"성공적으로 생성되었습니다.",
+            "create_success_des":"계정 파일을 저장하고 누구와도 공유하지 마십시오!"
         },
         "import_dia": {
             "tit":"수입 계정",    
             "placeholder_keystore":"계정 파일을 여기로 드래그하십시오.",
-            "create_tag":"계정 이름",
-            "placeholder_tag":"계정 이름을 설정하십시오."
+            "create_tag":"계정 메모",
+            "placeholder_tag":"계정 메모 이름을 설정하십시오.",
+
+            "validate_tag":"계정 메모 이름을 입력하십시오.",
+            "validate_tag_length":"메모 이름은 8자를 초과 할 수 없습니다.",
+            "validate_enter_keystore":"먼저 계정 파일을 가져 오십시오.",
+            "validate_error_keystore":"계정 가져 오기에 실패했습니다. 계정 파일 오류 일 수 있습니다.",
+            "imported_account_success":"수입 성공",
+            "exist":"이 계정은 이미 존재하며 메모는",
+            "keystore_error":"오류 :",
+            "imported_success":"파일 가져 오기가 완료되었습니다."
         },
         "remove_dia": {
             "tit":"제거 하시겠습니까?",
             "remove_confrim":"나는 반드시 제거해야한다.",
-            "backup":"재산 피해를 방지하기 위해이 계좌의 백업에 유의하십시오.",
+            "backup":"재산 피해를 막기 위해이 계좌의 백업에주의하십시오.",
             "input_pwd":"비밀번호",
-            "placeholder_pwd":"이 계정의 비밀번호를 입력하십시오."
-        },
-        "msg_info": {
-            "exist":"이 계정은 이미 존재하며 이름은입니다.",
-            "enter_password":"비밀번호를 입력하십시오.",
-            "incons_password":"두 번 입력 한 암호가 일치하지 않습니다.",
-            "error":"오류 :",
-            "imported_success":"파일 가져 오기가 완료되었습니다.",
-            "imported_account_success":"성공적으로 가져 왔습니다.",
-            "enter_private":"열쇠를 입력하십시오.",
-            "error_keystore":"계정을 가져 오지 못했습니다. 계정 파일 오류 일 수 있습니다.",
-            "enter_keystore":"먼저 계정 파일을 가져 오십시오.",
-            "error_password":"계정을 가져 오지 못했습니다. 잘못된 비밀번호 일 수 있습니다.",
-            "remove_success":"성공적으로 제거되었습니다.",
-            "create_success":"성공적으로 생성되었습니다.",
-            "save":"계정 파일을 저장하고 누구와도 공유하지 마십시오!"
+            "placeholder_pwd":"이 계정의 비밀번호를 입력하십시오.",
+            "validate_password":"계정의 비밀번호를 입력하십시오.",
+            "remove_success":"삭제 완료"
         }
     }
 }

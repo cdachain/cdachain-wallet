@@ -1,5 +1,5 @@
 {
-    "confirm":"Confirmation",
+    "confirm":"Confirmer",
     "cancel":"Annulation",
     "dialog_tit":"Demander",
     "close":"Fermé",
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Accueil",
         "transfer":"Transfert",
-        "contacts":"Contacts",
-        "setting":"Paramètres",
+        "contacts":"Contact",
+        "setting":"Réglage",
         "total":"Total",
         "testnet":"Réseau de test"
     },
     "page_setting": {
-        "tit":"Paramètres",
+        "tit":"Réglage",
         "lang":"Langue",
-        "select":"Veuillez sélectionner"
+        "select":"Veuillez choisir"
     },
     "page_contacts": {
-        "tit":"Contacts",
+        "tit":"Contact",
         "add_dialog":"Nouveau contact",
         "add_cont": {
             "tit":"Nouveau contact",
-            "tag":"Contacts",
+            "tag":"Contact",
             "address":"Adresse du compte",
             "tag_placeholder":"Veuillez entrer le nom du contact",
             "address_placeholder":"Veuillez entrer l'adresse du compte du contact"
@@ -34,25 +34,25 @@
             "title":"Vous supprimez"
         },
         "msg_info": {
-            "no_tag":"Veuillez entrer le nom du compte",
-            "no_address":"Veuillez entrer l'adresse du compte",
+            "no_tag":"Veuillez entrer une note de compte",
+            "no_address":"Veuillez entrer votre adresse de compte",
             "valid_address":"L'adresse du contact est illégale",
             "exist":"Le contact existe déjà,"
         }
     },
     "page_transfer": {
         "from_address":"Transférer",
-        "to_address":"Dans",
+        "to_address":"Transfert",
         "amount":"Montant",
         "send_all":"Envoyer tout",
-        "data":"Date",
+        "data":"Données",
         "data_placeholder":"Données hexadécimales",
-        "fees":"Les frais",
+        "fees":"Frais de manutention",
         "total":"Total",
-        "select":"Veuillez sélectionner",
-        "no_account_info":"Pas de compte, veuillez créer ou importer un compte",
+        "select":"Veuillez choisir",
+        "no_account_info":"Pas encore de compte, veuillez créer ou importer un compte",
         "contacts_dig": {
-            "select_placeholder":"Veuillez sélectionner"
+            "select_placeholder":"Veuillez choisir"
         },
         "confirm_dia": {
             "title":"Veuillez confirmer",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Veuillez entrer votre mot de passe"
         },
         "msg_info": {
-            "decrypt_err":"Échec de l'analyse du portefeuille, peut être une erreur de mot de passe",
-            "amount_zero":"Solde insuffisant pour continuer",
-            "address_null":"S'il vous plaît entrer le compte",
-            "address_err":"Le format d'adresse entrante est illégal",
-            "send_success":"Envoyer le succès",
-            "send_error":"La transaction a échoué: Veuillez vérifier s'il y a un solde suffisant et les frais de mineur"
+            "decrypt_err":"Échec de l'analyse du portefeuille, il peut s'agir d'une erreur de mot de passe",
+            "amount_zero":"Solde insuffisant, incapable de continuer",
+            "address_null":"Veuillez entrer le compte de l'autre partie",
+            "address_err":"Le format de l'adresse transférée est invalide.",
+            "send_success":"Envoyé avec succès",
+            "send_error":"La transaction a échoué: veuillez vérifier s'il y a un solde suffisant et des frais de mineur"
         }
     },
     "page_account": {
-        "transfer_log":"Historique des transactions",
+        "transfer_log":"Enregistrement de transaction",
         "transfer_log_null":"Aucun historique de transaction",
         "active_icon": {
-            "go_transfer":"Initier le transfert",
+            "go_transfer":"Initier un transfert",
             "import_keystore":"Fichier de compte",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Informations sur la transaction",
             "block_hash":"Numéro de transaction",
-            "status":"Statut",
-            "from":"Expéditeur",
-            "to":"Récepteur",
+            "status":"Etat",
+            "from":"Partie d'envoi",
+            "to":"Bénéficiaire",
             "amount":"Montant",
-            "data":"Les données",
+            "data":"Données",
             "send_time":"Envoi de temps",
             "mac_time":"Heure du réseau principal"
         },
         "keystore": {
             "tit":"Fichier de portefeuille de sauvegarde",
-            "copy":"Dupliquer",
+            "copy":"Copier",
             "download":"Télécharger le fichier du portefeuille"
         },
         "msg_info": {
             "ads_copy_success":"L'adresse a été copiée",
-            "key_copy_success":"Copié avec succès"
+            "key_copy_success":"Copie réussie"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Créer un compte",
             "backup_tit":"Sauvegarder votre nouveau compte",
-            "create_tag":"Nom du compte",
+            "create_tag":"Note de compte",
             "create_pwd":"Définir le mot",
             "create_repwd":"Confirmer le mot",
-            "placeholder_tag":"Veuillez définir le nom du compte",
+            "placeholder_tag":"Veuillez définir le nom de la note de compte",
             "placeholder_pwd":"Veuillez définir le mot de passe du compte",
             "placeholder_repwd":"Veuillez confirmer le mot de passe du compte",
-            "strong_password":"Entrez un mot de passe d'au moins 8 chiffres",
-            "account_address":"Compte",
-            "account_privateKey":"Clé privée",
-            "account_download_keystore":"Télécharger le fichier de compte"
+            
+            
+            "account_download_keystore":"Télécharger le fichier de compte",
+
+            "validate_tag":"Veuillez entrer le nom de la note de compte",
+            "validate_tag_length":"Le nom du mémo ne peut pas dépasser 8 caractères",
+
+            "validate_password":"Veuillez entrer le mot de passe que vous avez défini",
+            "validate_re_password":"Veuillez entrer le mot de passe que vous avez défini à nouveau",
+            "validate_strong_password":"Veuillez entrer un mot de passe d'au moins 8 chiffres",
+            "validate_password_length":"Mot de passe incohérent entré deux fois",
+
+            "create_success":"Créé avec succès",
+            "create_success_des":"Veuillez sauvegarder votre fichier de compte et ne le partagez avec personne!"
         },
         "import_dia": {
             "tit":"Importer un compte",    
             "placeholder_keystore":"Faites glisser le fichier de compte ici",
-            "create_tag":"Nom du compte",
-            "placeholder_tag":"Veuillez définir le nom du compte"
+            "create_tag":"Note de compte",
+            "placeholder_tag":"Veuillez définir le nom de la note de compte",
+
+            "validate_tag":"Veuillez entrer le nom de la note de compte",
+            "validate_tag_length":"Le nom du mémo ne peut pas dépasser 8 caractères",
+            "validate_enter_keystore":"Veuillez d'abord importer le fichier de compte",
+            "validate_error_keystore":"L'importation du compte a échoué, peut être une erreur de fichier de compte",
+            "imported_account_success":"Importé avec succès",
+            "exist":"Ce compte existe déjà, la note est",
+            "keystore_error":"Erreur:",
+            "imported_success":"Importer le fichier avec succès"
         },
         "remove_dia": {
             "tit":"Êtes-vous sûr de vouloir l'enlever?",
             "remove_confrim":"Je suis sûr d'enlever",
-            "backup":"S'il vous plaît noter la sauvegarde de ce compte pour éviter les dommages matériels",
+            "backup":"S'il vous plaît prêter attention à la sauvegarde de ce compte pour éviter les dommages matériels.",
             "input_pwd":"Password",
-            "placeholder_pwd":"Veuillez entrer le mot de passe pour ce compte"
-        },
-        "msg_info": {
-            "exist":"Ce compte existe déjà, le nom est",
-            "enter_password":"Veuillez entrer votre mot de passe",
-            "incons_password":"Le mot de passe entré deux fois est incohérent",
-            "error":"Erreur:",
-            "imported_success":"Importer le fichier avec succès",
-            "imported_account_success":"Importé avec succès",
-            "enter_private":"Veuillez entrer la clé",
-            "error_keystore":"Impossible d'importer le compte, il peut s'agir d'une erreur de fichier de compte",
-            "enter_keystore":"Veuillez d'abord importer le fichier de compte",
-            "error_password":"Impossible d'importer le compte, il peut s'agir d'un mot de passe incorrect",
-            "remove_success":"Retiré avec succès",
-            "create_success":"Créé avec succès",
-            "save":"Veuillez sauvegarder votre fichier de compte et ne le partagez avec personne!"
+            "placeholder_pwd":"Veuillez entrer le mot de passe pour ce compte",
+            "validate_password":"Veuillez entrer le mot de passe pour le compte",
+            "remove_success":"Supprimé avec succès"
         }
     }
 }

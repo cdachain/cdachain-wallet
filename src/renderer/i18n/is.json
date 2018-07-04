@@ -1,8 +1,8 @@
 {
-    "confirm":"Staðfesting",
-    "cancel":"Afpöntun",
+    "confirm":"Staðfestu",
+    "cancel":"Hætta við",
     "dialog_tit":"Hvetja",
-    "close":"Lokað",
+    "close":"Loka",
     "confirm_you_active":"Vinsamlegast staðfestu aðgerðina þína",
     "unit": {
         "czr":"CZR"
@@ -10,7 +10,7 @@
     "model_header": {
         "home":"Heim",
         "transfer":"Flytja",
-        "contacts":"Tengiliðir",
+        "contacts":"Hafa samband",
         "setting":"Stillingar",
         "total":"Samtals",
         "testnet":"Prófunarnet"
@@ -18,14 +18,14 @@
     "page_setting": {
         "tit":"Stillingar",
         "lang":"Tungumál",
-        "select":"Vinsamlegast veldu"
+        "select":"Vinsamlegast veljið"
     },
     "page_contacts": {
-        "tit":"Tengiliðir",
+        "tit":"Hafa samband",
         "add_dialog":"Nýr tengiliður",
         "add_cont": {
             "tit":"Nýr tengiliður",
-            "tag":"Tengiliðir",
+            "tag":"Hafa samband",
             "address":"Reikningsnúmer",
             "tag_placeholder":"Vinsamlegast sláðu inn nafn tengiliðar",
             "address_placeholder":"Vinsamlegast sláðu inn netfang tengiliðarins"
@@ -34,25 +34,25 @@
             "title":"Þú ert að fjarlægja"
         },
         "msg_info": {
-            "no_tag":"Vinsamlegast sláðu inn nafn reikningsins",
-            "no_address":"Vinsamlegast sláðu inn netfangið",
-            "valid_address":"Heimilisfang tengiliðar er ólöglegt",
+            "no_tag":"Vinsamlegast sláðu inn reikningsskýringu",
+            "no_address":"Vinsamlegast sláðu inn netfangið þitt",
+            "valid_address":"Heimilisfang tengiliðs er ólöglegt",
             "exist":"Tengiliðurinn er þegar til,"
         }
     },
     "page_transfer": {
         "from_address":"Flytja út",
-        "to_address":"Inn í",
+        "to_address":"Flytja",
         "amount":"Upphæð",
         "send_all":"Senda allt",
-        "data":"Dagsetning",
+        "data":"Gögn",
         "data_placeholder":"Hexadecimal gögn",
-        "fees":"Gjöld",
+        "fees":"Meðhöndlunargjald",
         "total":"Samtals",
-        "select":"Vinsamlegast veldu",
-        "no_account_info":"Engin reikningur, vinsamlegast búðu til eða flytja inn reikning",
+        "select":"Vinsamlegast veljið",
+        "no_account_info":"Engar reikningar ennþá, vinsamlegast búðu til eða flytja inn reikning",
         "contacts_dig": {
-            "select_placeholder":"Vinsamlegast veldu"
+            "select_placeholder":"Vinsamlegast veljið"
         },
         "confirm_dia": {
             "title":"Vinsamlegast staðfestu",
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Vinsamlegast sláðu inn lykilorðið þitt"
         },
         "msg_info": {
-            "decrypt_err":"Pappaþáttun mistókst, gæti verið lykilorðsvilla",
-            "amount_zero":"Ófullnægjandi jafnvægi til að halda áfram",
-            "address_null":"Vinsamlegast sláðu inn reikninginn",
-            "address_err":"Móttekið heimilisfang snið er ólöglegt",
-            "send_success":"Senda velgengni",
-            "send_error":"Breyting mistókst: Vinsamlegast athugaðu hvort það sé nægjanlegt jafnvægi og gjaldþrota"
+            "decrypt_err":"Pappaþáttun mistókst, það gæti verið lykilorðsvilla",
+            "amount_zero":"Ófullnægjandi jafnvægi, ófær um að halda áfram",
+            "address_null":"Vinsamlegast sláðu inn reikning annarra aðila",
+            "address_err":"Sniðið á yfirfærðu heimilisfangi er ógilt.",
+            "send_success":"Tilkynnt með góðum árangri",
+            "send_error":"Viðskipti mistókst: Vinsamlegast athugaðu hvort það sé nægjanlegt jafnvægi og jarðvegsgjald"
         }
     },
     "page_account": {
-        "transfer_log":"Viðskiptasaga",
+        "transfer_log":"Viðskiptaskrá",
         "transfer_log_null":"Engin viðskiptasaga",
         "active_icon": {
             "go_transfer":"Hefja flutning",
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Upplýsingar um viðskipti",
             "block_hash":"Viðskiptarnúmer",
-            "status":"Staða",
-            "from":"Sendandi",
-            "to":"Móttakari",
+            "status":"Ríki",
+            "from":"Sendandi aðila",
+            "to":"Greiðanda",
             "amount":"Upphæð",
-            "data":"Gögnin",
+            "data":"Gögn",
             "send_time":"Sendingartími",
             "mac_time":"Aðal net tími"
         },
         "keystore": {
             "tit":"Veggfóður fyrir öryggisafrit",
-            "copy":"Afrit",
+            "copy":"Afrita",
             "download":"Hlaða niður veskisskrá"
         },
         "msg_info": {
             "ads_copy_success":"Heimilisfang hefur verið afritað",
-            "key_copy_success":"Tókst að afrita"
+            "key_copy_success":"Árangursrík afrit"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Búðu til reikning",
             "backup_tit":"Afritaðu nýja reikninginn þinn",
-            "create_tag":"Reikningsheiti",
+            "create_tag":"Reikningur minnispunktur",
             "create_pwd":"Stilltu lykilorð",
             "create_repwd":"Staðfestu lykilorð",
-            "placeholder_tag":"Vinsamlegast settu inn heiti reiknings",
-            "placeholder_pwd":"Vinsamlegast settu lykilorð fyrir reikninginn",
+            "placeholder_tag":"Vinsamlegast settu nafn reikningsnota",
+            "placeholder_pwd":"Vinsamlegast settu lykilorð reikningsins",
             "placeholder_repwd":"Vinsamlegast staðfestu lykilorð reikningsins",
-            "strong_password":"Sláðu inn lykilorð sem er að minnsta kosti 8 tölustafir",
-            "account_address":"Reikningur",
-            "account_privateKey":"Einkalykill",
-            "account_download_keystore":"Hlaða niður reikningsskrá"
+            
+            
+            "account_download_keystore":"Hlaða niður reikningsskrá",
+
+            "validate_tag":"Vinsamlegast sláðu inn nafn reikningsins",
+            "validate_tag_length":"Minnispunktur getur ekki verið lengri en 8 stafir",
+
+            "validate_password":"Vinsamlegast sláðu inn lykilorðið sem þú setur",
+            "validate_re_password":"Vinsamlegast sláðu inn lykilorðið sem þú stillir aftur",
+            "validate_strong_password":"Vinsamlegast sláðu inn lykilorð að minnsta kosti 8 tölustafir",
+            "validate_password_length":"Ósamræmi lykilorð slóst inn tvisvar",
+
+            "create_success":"Búið til með góðum árangri",
+            "create_success_des":"Vinsamlegast vista reikningsskrána þína og deildu því ekki með neinum!"
         },
         "import_dia": {
             "tit":"Innflutningur reikningur",    
             "placeholder_keystore":"Vinsamlegast dragðu inn reikningsskrána hér",
-            "create_tag":"Reikningsheiti",
-            "placeholder_tag":"Vinsamlegast settu inn heiti reiknings"
+            "create_tag":"Reikningur minnispunktur",
+            "placeholder_tag":"Vinsamlegast settu nafn reikningsnota",
+
+            "validate_tag":"Vinsamlegast sláðu inn nafn reikningsins",
+            "validate_tag_length":"Minnispunktur getur ekki verið lengri en 8 stafir",
+            "validate_enter_keystore":"Vinsamlegast flytðu inn reikningsskráin fyrst",
+            "validate_error_keystore":"Reikningur innflutnings mistókst, gæti verið villa skráar villa",
+            "imported_account_success":"Innflutt með góðum árangri",
+            "exist":"Þessi reikningur er þegar til, minnismiðinn er",
+            "keystore_error":"Villa:",
+            "imported_success":"Flytja inn skrá með góðum árangri"
         },
         "remove_dia": {
             "tit":"Ertu viss um að þú viljir fjarlægja það?",
             "remove_confrim":"Ég er viss um að fjarlægja",
-            "backup":"Vinsamlegast athugaðu öryggisafrit af þessum reikningi til að koma í veg fyrir eignatjón",
+            "backup":"Vinsamlegast athugaðu öryggisafrit af þessum reikningi til að koma í veg fyrir eignatjón.",
             "input_pwd":"Lykilorð",
-            "placeholder_pwd":"Vinsamlegast sláðu inn lykilorðið fyrir þennan reikning"
-        },
-        "msg_info": {
-            "exist":"Þessi reikningur er þegar til, nafnið er",
-            "enter_password":"Vinsamlegast sláðu inn lykilorðið þitt",
-            "incons_password":"Lykilorðið sem slóst inn tvisvar er ósamræmi",
-            "error":"Villa:",
-            "imported_success":"Flytja inn skrá með góðum árangri",
-            "imported_account_success":"Innflutt með góðum árangri",
-            "enter_private":"Vinsamlegast sláðu inn lykilinn",
-            "error_keystore":"Mistókst að flytja inn reikning, það gæti verið villa við skráarskrá",
-            "enter_keystore":"Vinsamlegast flytðu inn reikningsskráin fyrst",
-            "error_password":"Mistókst að flytja inn reikning, það gæti verið rangt lykilorð",
-            "remove_success":"Fjarlægt með góðum árangri",
-            "create_success":"Búið til með góðum árangri",
-            "save":"Vinsamlegast vista reikningsskrána þína og deildu því ekki með neinum!"
+            "placeholder_pwd":"Vinsamlegast sláðu inn lykilorðið fyrir þennan reikning",
+            "validate_password":"Vinsamlegast sláðu inn lykilorðið fyrir reikninginn",
+            "remove_success":"Tókst að fjarlægja"
         }
     }
 }

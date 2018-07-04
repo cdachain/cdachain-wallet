@@ -18,7 +18,7 @@
     "page_setting": {
         "tit":"kurmak",
         "lang":"dil",
-        "select":"Seçiniz"
+        "select":"Lütfen seçiniz"
     },
     "page_contacts": {
         "tit":"temas",
@@ -34,8 +34,8 @@
             "title":"Sen kaldırıyorsun"
         },
         "msg_info": {
-            "no_tag":"Lütfen hesap adını giriniz",
-            "no_address":"Lütfen hesap adresini giriniz",
+            "no_tag":"Lütfen bir hesap notu girin",
+            "no_address":"Lütfen hesap adresinizi giriniz",
             "valid_address":"Kişinin adresi yasa dışı",
             "exist":"Kişi zaten var,"
         }
@@ -45,14 +45,14 @@
         "to_address":"içine",
         "amount":"para",
         "send_all":"Tümünü gönder",
-        "data":"tarih",
+        "data":"veri",
         "data_placeholder":"Onaltılık veri",
-        "fees":"harç",
+        "fees":"Taşıma ücreti",
         "total":"toplam",
-        "select":"Seçiniz",
-        "no_account_info":"Hesap yok, lütfen hesabı oluştur veya içe aktar",
+        "select":"Lütfen seçiniz",
+        "no_account_info":"Henüz bir hesap yok, lütfen hesabı oluşturun veya içe aktarın",
         "contacts_dig": {
-            "select_placeholder":"Seçiniz"
+            "select_placeholder":"Lütfen seçiniz"
         },
         "confirm_dia": {
             "title":"Lütfen onaylayın",
@@ -61,15 +61,15 @@
         },
         "msg_info": {
             "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
-            "amount_zero":"Devam etmek için yeterli bakiye yok",
-            "address_null":"Lütfen hesabı giriniz",
-            "address_err":"Gelen adres biçimi yasa dışı",
-            "send_success":"Başarı gönder",
-            "send_error":"İşlem başarısız oldu: Lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
+            "amount_zero":"Yetersiz bakiye, devam edemiyor",
+            "address_null":"Lütfen diğer tarafın hesabını girin",
+            "address_err":"Aktarılan adresin biçimi geçersiz.",
+            "send_success":"Başarıyla gönderildi",
+            "send_error":"İşlem başarısız oldu: lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
         }
     },
     "page_account": {
-        "transfer_log":"İşlem geçmişi",
+        "transfer_log":"İşlem kaydı",
         "transfer_log_null":"İşlem geçmişi yok",
         "active_icon": {
             "go_transfer":"Aktarımı başlat",
@@ -84,10 +84,10 @@
             "tit":"İşlem bilgisi",
             "block_hash":"Işlem numarası",
             "status":"devlet",
-            "from":"Para parti gönder",
+            "from":"Parti gönderme",
             "to":"alacaklı",
             "amount":"para",
-            "data":"Veri",
+            "data":"veri",
             "send_time":"Zaman gönderme",
             "mac_time":"Ana ağ zamanı"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adres kopyalandı",
-            "key_copy_success":"Başarıyla kopyalandı"
+            "key_copy_success":"Başarılı kopya"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Bir hesap oluştur",
             "backup_tit":"Yeni hesabınızı yedekleyin",
-            "create_tag":"Hesap adı",
+            "create_tag":"Hesap notu",
             "create_pwd":"Şifre ayarla",
             "create_repwd":"Şifreyi onayla",
-            "placeholder_tag":"Lütfen hesap adını giriniz",
+            "placeholder_tag":"Lütfen hesap notunun adını belirtin",
             "placeholder_pwd":"Lütfen hesap şifresini ayarla",
             "placeholder_repwd":"Lütfen hesap şifresini onaylayın",
-            "strong_password":"En az 8 basamaklı bir şifre girin",
-            "account_address":"hesap",
-            "account_privateKey":"Özel anahtar",
-            "account_download_keystore":"Hesap dosyasını indir"
+            
+            
+            "account_download_keystore":"Hesap dosyasını indir",
+
+            "validate_tag":"Lütfen hesap notunun adını girin",
+            "validate_tag_length":"Not adı 8 karakterden uzun olamaz",
+
+            "validate_password":"Lütfen belirlediğiniz şifreyi girin",
+            "validate_re_password":"Lütfen tekrar belirlediğiniz şifreyi girin",
+            "validate_strong_password":"Lütfen en az 8 basamaklı bir şifre girin",
+            "validate_password_length":"Tutarsız şifre iki kez girildi",
+
+            "create_success":"Başarıyla oluşturuldu",
+            "create_success_des":"Lütfen hesap dosyanızı kaydedin ve kimseyle paylaşmayın!"
         },
         "import_dia": {
             "tit":"İthalat hesabı",    
             "placeholder_keystore":"Lütfen hesap dosyasını buraya sürükleyin",
-            "create_tag":"Hesap adı",
-            "placeholder_tag":"Lütfen hesap adını giriniz"
+            "create_tag":"Hesap notu",
+            "placeholder_tag":"Lütfen hesap notunun adını belirtin",
+
+            "validate_tag":"Lütfen hesap notunun adını girin",
+            "validate_tag_length":"Not adı 8 karakterden uzun olamaz",
+            "validate_enter_keystore":"Lütfen önce hesap dosyasını içe aktarın",
+            "validate_error_keystore":"Hesap içe aktarma başarısız oldu, hesap dosyası hatası olabilir",
+            "imported_account_success":"Başarıyla içe aktarıldı",
+            "exist":"Bu hesap zaten mevcut, not",
+            "keystore_error":"Hata:",
+            "imported_success":"Dosyayı başarıyla içe aktar"
         },
         "remove_dia": {
             "tit":"Onu kaldırmak istediğinden emin misin?",
             "remove_confrim":"Çıkarmak için eminim",
-            "backup":"Mülkün zarar görmesini önlemek için bu hesabın yedeğini alınız.",
+            "backup":"Mülkün zarar görmesini önlemek için lütfen bu hesabın yedeğine dikkat edin.",
             "input_pwd":"şifre",
-            "placeholder_pwd":"Lütfen bu hesabın şifresini girin"
-        },
-        "msg_info": {
-            "exist":"Bu hesap zaten var, isim",
-            "enter_password":"Lütfen şifrenizi giriniz",
-            "incons_password":"İki kez girilen şifre tutarsız",
-            "error":"Hata:",
-            "imported_success":"Dosyayı başarıyla içe aktar",
-            "imported_account_success":"Başarıyla içe aktarıldı",
-            "enter_private":"Lütfen anahtarı giriniz",
-            "error_keystore":"Hesap içe aktarılamadı, bir hesap dosyası hatası olabilir",
-            "enter_keystore":"Lütfen önce hesap dosyasını içe aktarın",
-            "error_password":"Hesap içe aktarılamadı, yanlış şifre olabilir",
-            "remove_success":"Başarıyla kaldırıldı",
-            "create_success":"Başarıyla oluşturuldu",
-            "save":"Lütfen hesap dosyanızı kaydedin ve kimseyle paylaşmayın!"
+            "placeholder_pwd":"Lütfen bu hesabın şifresini girin",
+            "validate_password":"Lütfen hesabın şifresini girin",
+            "remove_success":"Başarıyla kaldırıldı"
         }
     }
 }

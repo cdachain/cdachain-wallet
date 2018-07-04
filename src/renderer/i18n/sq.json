@@ -27,15 +27,15 @@
             "tit":"Kontakt i ri",
             "tag":"kontakt",
             "address":"Adresa e llogarisë",
-            "tag_placeholder":"Ju lutemi shkruani emrin e kontaktit",
+            "tag_placeholder":"Futni emrin e kontaktit",
             "address_placeholder":"Ju lutemi shkruani adresën e llogarisë së kontaktit"
         },
         "delete_dialog": {
             "title":"Po heq"
         },
         "msg_info": {
-            "no_tag":"Futni emrin e llogarisë",
-            "no_address":"Ju lutemi shkruani adresën e llogarisë",
+            "no_tag":"Futni një shënim llogarie",
+            "no_address":"Ju lutemi shkruani adresën tuaj të llogarisë",
             "valid_address":"Adresa e kontaktit është e paligjshme",
             "exist":"Kontakti tashmë ekziston,"
         }
@@ -45,12 +45,12 @@
         "to_address":"në",
         "amount":"para",
         "send_all":"Dërgo te gjitha",
-        "data":"data",
+        "data":"të dhëna",
         "data_placeholder":"Të dhëna hexadecimal",
-        "fees":"tarifat",
+        "fees":"Tarifa e trajtimit",
         "total":"total",
         "select":"Ju lutem zgjidhni",
-        "no_account_info":"Nuk ka llogari, të lutem krijoni ose importoni llogarinë",
+        "no_account_info":"Asnjë llogari ende, të lutem krijoni ose importoni llogarinë",
         "contacts_dig": {
             "select_placeholder":"Ju lutem zgjidhni"
         },
@@ -61,18 +61,18 @@
         },
         "msg_info": {
             "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
-            "amount_zero":"Bilanci i pamjaftueshëm për të vazhduar",
-            "address_null":"Ju lutemi shkruani llogarinë",
-            "address_err":"Formati i adresës së hyrjes është i paligjshëm",
-            "send_success":"Dërgo sukses",
-            "send_error":"Transaksioni dështoi: Ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
+            "amount_zero":"Bilanci i pamjaftueshëm, i paaftë për të vazhduar",
+            "address_null":"Ju lutemi shkruani llogarinë e palës tjetër",
+            "address_err":"Formati i adresës së transferuar është i pavlefshëm.",
+            "send_success":"U dërgua me sukses",
+            "send_error":"Transaksioni dështoi: ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }
     },
     "page_account": {
-        "transfer_log":"Historiku i transaksionit",
+        "transfer_log":"Regjistrimi i transaksionit",
         "transfer_log_null":"Asnjë histori transaksioni",
         "active_icon": {
-            "go_transfer":"Nise transferimin",
+            "go_transfer":"Nisni një transferim",
             "import_keystore":"Dosje e llogarisë",
             "qrcode":"QR kodi"
         },
@@ -84,10 +84,10 @@
             "tit":"Informacion mbi transaksionet",
             "block_hash":"Numri i transaksionit",
             "status":"shtet",
-            "from":"Dërgo parti parave",
+            "from":"Dërgimi i partisë",
             "to":"i paguari",
             "amount":"para",
-            "data":"Të dhënat",
+            "data":"të dhëna",
             "send_time":"Dërgimi i kohës",
             "mac_time":"Koha e rrjetit kryesor"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adresa është kopjuar",
-            "key_copy_success":"Kopjoi me sukses"
+            "key_copy_success":"Kopje e suksesshme"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Krijo një llogari",
             "backup_tit":"Ruaje llogarinë tënde të re",
-            "create_tag":"Emri i llogarisë",
+            "create_tag":"Shënim i llogarisë",
             "create_pwd":"Cakto fjalëkalimin",
             "create_repwd":"Konfirmo fjalëkalimin",
-            "placeholder_tag":"Vendosni emrin e llogarisë",
+            "placeholder_tag":"Vendosni emrin e shënimit të llogarisë",
             "placeholder_pwd":"Vendosni fjalëkalimin e llogarisë",
             "placeholder_repwd":"Ju lutemi konfirmoni fjalëkalimin e llogarisë",
-            "strong_password":"Futni një fjalëkalim prej të paktën 8 shifrash",
-            "account_address":"llogari",
-            "account_privateKey":"Çelësi privat",
-            "account_download_keystore":"Shkarko skedarin e llogarisë"
+            
+            
+            "account_download_keystore":"Shkarko skedarin e llogarisë",
+
+            "validate_tag":"Ju lutemi shkruani emrin e shënimit të llogarisë",
+            "validate_tag_length":"Emri memo nuk mund të jetë më i gjatë se 8 shkronja",
+
+            "validate_password":"Ju lutemi shkruani fjalëkalimin që keni vendosur",
+            "validate_re_password":"Ju lutemi shkruani fjalëkalimin që keni vendosur përsëri",
+            "validate_strong_password":"Ju lutemi shkruani një fjalëkalim të paktën 8 shifrorësh",
+            "validate_password_length":"Fjalëkalimi i paqëndrueshëm hyri dy herë",
+
+            "create_success":"Krijuar me sukses",
+            "create_success_des":"Ruani skedarin tuaj të llogarisë dhe mos e ndani me askënd!"
         },
         "import_dia": {
             "tit":"Llogaria e importit",    
             "placeholder_keystore":"Ju lutemi drageni skedarin e llogarisë këtu",
-            "create_tag":"Emri i llogarisë",
-            "placeholder_tag":"Vendosni emrin e llogarisë"
+            "create_tag":"Shënim i llogarisë",
+            "placeholder_tag":"Vendosni emrin e shënimit të llogarisë",
+
+            "validate_tag":"Ju lutemi shkruani emrin e shënimit të llogarisë",
+            "validate_tag_length":"Emri memo nuk mund të jetë më i gjatë se 8 shkronja",
+            "validate_enter_keystore":"Ju lutemi të importoni skedarin e llogarisë së parë",
+            "validate_error_keystore":"Importi i llogarisë dështoi, mund të jetë gabim në skedarin e llogarisë",
+            "imported_account_success":"Importuar me sukses",
+            "exist":"Kjo llogari tashmë ekziston, shënimi është",
+            "keystore_error":"gabim:",
+            "imported_success":"Dosja e importit me sukses"
         },
         "remove_dia": {
             "tit":"Jeni i sigurt se doni ta hiqni atë?",
             "remove_confrim":"Unë jam i sigurt për të hequr",
-            "backup":"Ju lutem vini re backup të kësaj llogarie për të shmangur dëmtimin e pronës",
+            "backup":"Ju lutemi, i kushtoni vëmendje backupit të kësaj llogarie për të shmangur dëmtimin e pronës.",
             "input_pwd":"fjalëkalim",
-            "placeholder_pwd":"Ju lutemi shkruani fjalëkalimin për këtë llogari"
-        },
-        "msg_info": {
-            "exist":"Kjo llogari tashmë ekziston, emri është",
-            "enter_password":"Ju lutemi shkruani fjalëkalimin tuaj",
-            "incons_password":"Fjalëkalimi i futur dy herë është i paqëndrueshëm",
-            "error":"gabim:",
-            "imported_success":"Dosja e importit me sukses",
-            "imported_account_success":"Importuar me sukses",
-            "enter_private":"Futni çelësin",
-            "error_keystore":"Dështoi në importimin e llogarisë, mund të jetë një gabim i skedarit të llogarisë",
-            "enter_keystore":"Ju lutemi të importoni skedarin e llogarisë së parë",
-            "error_password":"Dështoi në importimin e llogarisë, mund të jetë një fjalëkalim i gabuar",
-            "remove_success":"Heqja me sukses",
-            "create_success":"Krijuar me sukses",
-            "save":"Ruani skedarin tuaj të llogarisë dhe mos e ndani me askënd!"
+            "placeholder_pwd":"Ju lutemi shkruani fjalëkalimin për këtë llogari",
+            "validate_password":"Ju lutemi shkruani fjalëkalimin për llogarinë",
+            "remove_success":"Hiqe me sukses"
         }
     }
 }

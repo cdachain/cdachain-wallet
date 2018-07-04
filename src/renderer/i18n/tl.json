@@ -1,8 +1,8 @@
 {
-    "confirm":"Kumpirmasyon",
-    "cancel":"Pagkansela",
+    "confirm":"Kumpirmahin",
+    "cancel":"Kanselahin",
     "dialog_tit":"Prompt",
-    "close":"Isinara",
+    "close":"Isara",
     "confirm_you_active":"Mangyaring kumpirmahin ang iyong operasyon",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Bahay",
         "transfer":"Maglipat",
-        "contacts":"Mga contact",
-        "setting":"Mga Setting",
+        "contacts":"Makipag-ugnay sa",
+        "setting":"Pagtatakda",
         "total":"Kabuuang",
         "testnet":"Test network"
     },
     "page_setting": {
-        "tit":"Mga Setting",
+        "tit":"Pagtatakda",
         "lang":"Wika",
-        "select":"Mangyaring piliin"
+        "select":"Mangyaring pumili"
     },
     "page_contacts": {
-        "tit":"Mga contact",
+        "tit":"Makipag-ugnay sa",
         "add_dialog":"Bagong contact",
         "add_cont": {
             "tit":"Bagong contact",
-            "tag":"Mga contact",
+            "tag":"Makipag-ugnay sa",
             "address":"Address ng account",
             "tag_placeholder":"Mangyaring ipasok ang pangalan ng contact",
             "address_placeholder":"Mangyaring ipasok ang address account ng contact"
@@ -34,25 +34,25 @@
             "title":"Inaalis mo"
         },
         "msg_info": {
-            "no_tag":"Mangyaring ipasok ang pangalan ng account",
-            "no_address":"Pakipasok ang address ng account",
+            "no_tag":"Mangyaring magpasok ng tala ng account",
+            "no_address":"Mangyaring ipasok ang iyong account address",
             "valid_address":"Ang address ng contact ay ilegal",
             "exist":"Ang contact ay umiiral na,"
         }
     },
     "page_transfer": {
         "from_address":"Maglipat ng out",
-        "to_address":"Sa",
+        "to_address":"Maglipat",
         "amount":"Halaga",
         "send_all":"Ipadala lahat",
-        "data":"Petsa",
+        "data":"Data",
         "data_placeholder":"Hexadecimal data",
-        "fees":"Bayad",
+        "fees":"Bayarin sa paghawak",
         "total":"Kabuuang",
-        "select":"Mangyaring piliin",
-        "no_account_info":"Walang account, mangyaring lumikha o mag-import ng account",
+        "select":"Mangyaring pumili",
+        "no_account_info":"Wala pang account, mangyaring lumikha o mag-import ng account",
         "contacts_dig": {
-            "select_placeholder":"Mangyaring piliin"
+            "select_placeholder":"Mangyaring pumili"
         },
         "confirm_dia": {
             "title":"Mangyaring kumpirmahin",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Pakipasok ang iyong password"
         },
         "msg_info": {
-            "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring isang error sa password",
-            "amount_zero":"Hindi sapat ang balanse upang magpatuloy",
-            "address_null":"Mangyaring ipasok ang account",
-            "address_err":"Ang papalapit na format ng address ay labag sa batas",
-            "send_success":"Magpadala ng tagumpay",
-            "send_error":"Nabigo ang transaksyon: Mangyaring suriin kung may sapat na balanse at bayad sa minero"
+            "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring ito ay isang error sa password",
+            "amount_zero":"Hindi sapat ang balanse, hindi na magpatuloy",
+            "address_null":"Mangyaring ipasok ang account ng iba pang partido",
+            "address_err":"Di-wasto ang format ng nailipat na address.",
+            "send_success":"Matagumpay na naipadala",
+            "send_error":"Nabigo ang transaksyon: pakitingnan kung may sapat na balanse at bayad sa minero"
         }
     },
     "page_account": {
-        "transfer_log":"Kasaysayan ng transaksyon",
+        "transfer_log":"Rekord ng transaksyon",
         "transfer_log_null":"Walang kasaysayan ng transaksyon",
         "active_icon": {
-            "go_transfer":"Magsimula ng paglipat",
+            "go_transfer":"Magpasimula ng isang transfer",
             "import_keystore":"File ng account",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Impormasyon sa transaksyon",
             "block_hash":"Numero ng transaksyon",
-            "status":"Katayuan",
-            "from":"Nagpadala",
-            "to":"Tatanggap",
+            "status":"Estado",
+            "from":"Nagpapadala ng partido",
+            "to":"Pagbabayad",
             "amount":"Halaga",
-            "data":"Ang data",
+            "data":"Data",
             "send_time":"Nagpapadala ng oras",
             "mac_time":"Pangunahing oras ng network"
         },
         "keystore": {
             "tit":"Backup wallet file",
-            "copy":"Doblehin",
+            "copy":"Kopyahin",
             "download":"Mag-download ng wallet file"
         },
         "msg_info": {
             "ads_copy_success":"Nakopya ang address",
-            "key_copy_success":"Matagumpay na kinopya"
+            "key_copy_success":"Ang matagumpay na kopya"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Gumawa ng isang account",
             "backup_tit":"I-back up ang iyong bagong account",
-            "create_tag":"Pangalan ng account",
+            "create_tag":"Tala ng account",
             "create_pwd":"Itakda ang password",
             "create_repwd":"Kumpirmahin ang password",
-            "placeholder_tag":"Mangyaring itakda ang pangalan ng account",
+            "placeholder_tag":"Mangyaring itakda ang pangalan ng tala ng account",
             "placeholder_pwd":"Mangyaring itakda ang password ng account",
             "placeholder_repwd":"Mangyaring kumpirmahin ang password ng account",
-            "strong_password":"Magpasok ng isang password ng hindi bababa sa 8 digit",
-            "account_address":"Account",
-            "account_privateKey":"Pribadong key",
-            "account_download_keystore":"Mag-download ng file ng account"
+            
+            
+            "account_download_keystore":"Mag-download ng file ng account",
+
+            "validate_tag":"Mangyaring ipasok ang pangalan ng tala ng account",
+            "validate_tag_length":"Ang pangalan ng memo ay hindi maaaring mas mahaba sa 8 character",
+
+            "validate_password":"Pakipasok ang password na itinakda mo",
+            "validate_re_password":"Pakipasok ang password na iyong itinakda muli",
+            "validate_strong_password":"Mangyaring magpasok ng isang password ng hindi bababa sa 8 digit",
+            "validate_password_length":"Ang hindi pantay na password ay ipinasok nang dalawang beses",
+
+            "create_success":"Matagumpay na nalikha",
+            "create_success_des":"Mangyaring i-save ang file ng iyong account at huwag ibahagi ito sa sinuman!"
         },
         "import_dia": {
             "tit":"Mag-import ng account",    
             "placeholder_keystore":"Mangyaring i-drag ang file ng account dito",
-            "create_tag":"Pangalan ng account",
-            "placeholder_tag":"Mangyaring itakda ang pangalan ng account"
+            "create_tag":"Tala ng account",
+            "placeholder_tag":"Mangyaring itakda ang pangalan ng tala ng account",
+
+            "validate_tag":"Mangyaring ipasok ang pangalan ng tala ng account",
+            "validate_tag_length":"Ang pangalan ng memo ay hindi maaaring mas mahaba sa 8 character",
+            "validate_enter_keystore":"Mangyaring i-import muna ang file ng account",
+            "validate_error_keystore":"Nabigo ang pag-import ng account, maaaring error sa file ng account",
+            "imported_account_success":"Matagumpay na na-import",
+            "exist":"Mayroon nang account na ito, ang tala ay",
+            "keystore_error":"Error:",
+            "imported_success":"Matagumpay na i-import ang file"
         },
         "remove_dia": {
             "tit":"Sigurado ka bang gusto mong alisin ito?",
             "remove_confrim":"Sigurado ako na mag-alis",
-            "backup":"Pakitandaan ang backup ng account na ito upang maiwasan ang pinsala sa ari-arian",
+            "backup":"Mangyaring bigyang-pansin ang backup ng account na ito upang maiwasan ang pinsala sa ari-arian.",
             "input_pwd":"Password",
-            "placeholder_pwd":"Pakipasok ang password para sa account na ito"
-        },
-        "msg_info": {
-            "exist":"Mayroon nang account na ito, ang pangalan ay",
-            "enter_password":"Pakipasok ang iyong password",
-            "incons_password":"Ang dalawang beses na ipinasok ang password ay hindi naaayon",
-            "error":"Error:",
-            "imported_success":"Matagumpay na i-import ang file",
-            "imported_account_success":"Matagumpay na na-import",
-            "enter_private":"Mangyaring ipasok ang susi",
-            "error_keystore":"Nabigong mag-import ng account, maaaring ito ay isang error sa file ng account",
-            "enter_keystore":"Mangyaring i-import muna ang file ng account",
-            "error_password":"Nabigong mag-import ng account, maaaring ito ay isang maling password",
-            "remove_success":"Matagumpay na naalis",
-            "create_success":"Matagumpay na nalikha",
-            "save":"Mangyaring i-save ang file ng iyong account at huwag ibahagi ito sa sinuman!"
+            "placeholder_pwd":"Pakipasok ang password para sa account na ito",
+            "validate_password":"Pakipasok ang password para sa account",
+            "remove_success":"Matagumpay na naalis"
         }
     }
 }

@@ -34,7 +34,7 @@
             "title":"您正在移除"
         },
         "msg_info": {
-            "no_tag":"請輸入賬戶名稱",
+            "no_tag":"請輸入賬戶備註",
             "no_address":"請輸入賬戶地址",
             "valid_address":"聯繫人的地址不合法",
             "exist":"聯繫人已經存在,"
@@ -45,7 +45,7 @@
         "to_address":"轉入",
         "amount":"金額",
         "send_all":"發送全部",
-        "data":"Date",
+        "data":"Data",
         "data_placeholder":"十六進制數據",
         "fees":"手續費",
         "total":"合計",
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"創建賬戶",
             "backup_tit":"備份您的新賬戶",
-            "create_tag":"賬戶名稱",
+            "create_tag":"賬戶備註",
             "create_pwd":"設置密碼",
             "create_repwd":"確認密碼",
-            "placeholder_tag":"請設置賬戶名稱",
+            "placeholder_tag":"請設置賬戶備註名",
             "placeholder_pwd":"請設置賬戶密碼",
             "placeholder_repwd":"請確認賬戶密碼",
-            "strong_password":"輸入一個至少8位的密碼",
-            "account_address":"賬戶",
-            "account_privateKey":"私鑰",
-            "account_download_keystore":"下載賬戶文件"
+            
+            
+            "account_download_keystore":"下載賬戶文件",
+
+            "validate_tag":"請輸入賬戶備註名",
+            "validate_tag_length":"備註名長度不能大於8個字符",
+
+            "validate_password":"請輸入您設置的密碼",
+            "validate_re_password":"請再次輸入您設置的密碼",
+            "validate_strong_password":"請輸入一個至少8位的密碼",
+            "validate_password_length":"兩次輸入的密碼不一致",
+
+            "create_success":"創建成功",
+            "create_success_des":"請保存你的賬戶文件，不要分享給任何人！"
         },
         "import_dia": {
             "tit":"導入賬戶",    
             "placeholder_keystore":"請將賬戶文件拖入此處",
-            "create_tag":"賬戶名稱",
-            "placeholder_tag":"請設置賬戶名稱"
+            "create_tag":"賬戶備註",
+            "placeholder_tag":"請設置賬戶備註名",
+
+            "validate_tag":"請輸入賬戶備註名",
+            "validate_tag_length":"備註名長度不能大於8個字符",
+            "validate_enter_keystore":"請先導入賬戶文件",
+            "validate_error_keystore":"賬戶導入失敗，可能是賬戶文件錯誤",
+            "imported_account_success":"導入成功",
+            "exist":"此賬戶已經存在,備註是",
+            "keystore_error":"錯誤：",
+            "imported_success":"導入文件成功"
         },
         "remove_dia": {
             "tit":"你確定要移除嗎？",
             "remove_confrim":"我確定移除",
             "backup":"請注意此賬號的備份，避免財產損失",
             "input_pwd":"密碼",
-            "placeholder_pwd":"請輸入此賬戶的密碼"
-        },
-        "msg_info": {
-            "exist":"此賬戶已經存在,名稱是",
-            "enter_password":"請輸入密碼",
-            "incons_password":"兩次輸入的密碼不一致",
-            "error":"錯誤：",
-            "imported_success":"導入文件成功",
-            "imported_account_success":"導入成功",
-            "enter_private":"請輸入密鑰",
-            "error_keystore":"賬戶導入失敗，可能是賬戶文件錯誤",
-            "enter_keystore":"請先導入賬戶文件",
-            "error_password":"賬戶導入失敗，可能是密碼錯誤",
-            "remove_success":"移除成功",
-            "create_success":"創建成功",
-            "save":"請保存你的賬戶文件，不要分享給任何人！"
+            "placeholder_pwd":"請輸入此賬戶的密碼",
+            "validate_password":"請輸入賬戶的密碼",
+            "remove_success":"移除成功"
         }
     }
 }

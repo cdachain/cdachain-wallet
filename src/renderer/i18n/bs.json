@@ -1,8 +1,8 @@
 {
-    "confirm":"Potvrda",
-    "cancel":"Otkazivanje",
+    "confirm":"Potvrdi",
+    "cancel":"Otkaži",
     "dialog_tit":"Prompt",
-    "close":"Zatvoreno",
+    "close":"Zatvori",
     "confirm_you_active":"Potvrdite svoju operaciju",
     "unit": {
         "czr":"CZR"
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"Home",
         "transfer":"Transfer",
-        "contacts":"Kontakti",
-        "setting":"Postavke",
+        "contacts":"Kontakt",
+        "setting":"Postavljanje",
         "total":"Ukupno",
         "testnet":"Test mreža"
     },
     "page_setting": {
-        "tit":"Postavke",
+        "tit":"Postavljanje",
         "lang":"Jezik",
-        "select":"Molimo izaberite"
+        "select":"Molimo vas da izaberete"
     },
     "page_contacts": {
-        "tit":"Kontakti",
+        "tit":"Kontakt",
         "add_dialog":"Novi kontakt",
         "add_cont": {
             "tit":"Novi kontakt",
-            "tag":"Kontakti",
+            "tag":"Kontakt",
             "address":"Adresa računa",
             "tag_placeholder":"Molimo unesite ime kontakta",
             "address_placeholder":"Molimo unesite adresu naloga kontakta"
@@ -34,25 +34,25 @@
             "title":"Vi uklanjate"
         },
         "msg_info": {
-            "no_tag":"Molimo unesite ime računa",
-            "no_address":"Molimo unesite adresu računa",
+            "no_tag":"Molimo unesite notu za račun",
+            "no_address":"Molimo unesite adresu svog računa",
             "valid_address":"Adresa kontakta je nelegalna",
             "exist":"Kontakt već postoji,"
         }
     },
     "page_transfer": {
         "from_address":"Prenesi",
-        "to_address":"Into",
+        "to_address":"Transfer",
         "amount":"Iznos",
         "send_all":"Pošaljite sve",
-        "data":"Datum",
+        "data":"Podaci",
         "data_placeholder":"Hexadecimalni podaci",
-        "fees":"Naknade",
+        "fees":"Naknada za rukovanje",
         "total":"Ukupno",
-        "select":"Molimo izaberite",
-        "no_account_info":"Nema naloga, kreirajte ili uvezite račun",
+        "select":"Molimo vas da izaberete",
+        "no_account_info":"Još nijedan nalog, molimo vas da kreirate ili uvezete račun",
         "contacts_dig": {
-            "select_placeholder":"Molimo izaberite"
+            "select_placeholder":"Molimo vas da izaberete"
         },
         "confirm_dia": {
             "title":"Potvrdite",
@@ -60,16 +60,16 @@
             "enter_passworld_place":"Unesite svoju lozinku"
         },
         "msg_info": {
-            "decrypt_err":"Propisivanje novčanika nije uspelo, možda greška greške",
-            "amount_zero":"Nedostatak balansa se nastavlja",
-            "address_null":"Unesite račun",
-            "address_err":"Format ulazne adrese je nezakonit",
-            "send_success":"Pošalji uspeh",
-            "send_error":"Transakcija nije uspela: provjerite da li postoji dovoljna ravnoteža i rudarska naknada"
+            "decrypt_err":"Analiziranje novčanika nije uspelo, možda greška greške",
+            "amount_zero":"Nedovoljna ravnoteža, nesposobna za nastavak",
+            "address_null":"Molimo unesite račun druge strane",
+            "address_err":"Format prenete adrese je nevažeći.",
+            "send_success":"Uspješno poslat",
+            "send_error":"Transakcija nije uspela: proverite da li postoji dovoljna ravnoteža i rudarska naknada"
         }
     },
     "page_account": {
-        "transfer_log":"Istorija transakcija",
+        "transfer_log":"Transakcijski zapis",
         "transfer_log_null":"Nema istorije transakcija",
         "active_icon": {
             "go_transfer":"Pokrenite transfer",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Informacije o transakciji",
             "block_hash":"Broj transakcije",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Prijemnik",
+            "status":"Država",
+            "from":"Slanje zabave",
+            "to":"Primalac",
             "amount":"Iznos",
             "data":"Podaci",
             "send_time":"Vrijeme slanja",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Datoteka za kopiranje novčanika",
-            "copy":"Duplikat",
+            "copy":"Kopiraj",
             "download":"Preuzmite datoteku novčanika"
         },
         "msg_info": {
             "ads_copy_success":"Adresa je kopirana",
-            "key_copy_success":"Uspešno kopiran"
+            "key_copy_success":"Uspešna kopija"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Napravite nalog",
             "backup_tit":"Napravite rezervnu kopiju novog naloga",
-            "create_tag":"Ime naloga",
+            "create_tag":"Napomena o računu",
             "create_pwd":"Postavite lozinku",
             "create_repwd":"Potvrdite lozinku",
-            "placeholder_tag":"Molimo postavite ime naloga",
-            "placeholder_pwd":"Molimo postavite lozinku za račun",
+            "placeholder_tag":"Postavite ime beleške računa",
+            "placeholder_pwd":"Molimo postavite lozinku naloga",
             "placeholder_repwd":"Potvrdite lozinku naloga",
-            "strong_password":"Unesite lozinku od najmanje 8 cifara",
-            "account_address":"Račun",
-            "account_privateKey":"Privatni ključ",
-            "account_download_keystore":"Preuzmite datoteku naloga"
+            
+            
+            "account_download_keystore":"Preuzmite datoteku naloga",
+
+            "validate_tag":"Molimo unesite ime beleške računa",
+            "validate_tag_length":"Ime beleške ne može biti duže od 8 znakova",
+
+            "validate_password":"Unesite lozinku koju ste postavili",
+            "validate_re_password":"Molimo unesite lozinku koju ste ponovo postavili",
+            "validate_strong_password":"Molimo unesite lozinku od najmanje 8 cifara",
+            "validate_password_length":"Neusaglašena lozinka je upisana dva puta",
+
+            "create_success":"Kreiran uspešno",
+            "create_success_des":"Molimo sačuvajte datoteku naloga i ne delite je sa nikom!"
         },
         "import_dia": {
             "tit":"Uvoz naloga",    
             "placeholder_keystore":"Molim vas prevucite datoteku naloga ovde",
-            "create_tag":"Ime naloga",
-            "placeholder_tag":"Molimo postavite ime naloga"
+            "create_tag":"Napomena o računu",
+            "placeholder_tag":"Postavite ime beleške računa",
+
+            "validate_tag":"Molimo unesite ime beleške računa",
+            "validate_tag_length":"Ime beleške ne može biti duže od 8 znakova",
+            "validate_enter_keystore":"Molimo prvo prvo uvezite datoteku naloga",
+            "validate_error_keystore":"Uvoz naloga nije uspio, možda je greška datoteke naloga",
+            "imported_account_success":"Uspešno je uvezeno",
+            "exist":"Ovaj račun već postoji, napomena je",
+            "keystore_error":"Greška:",
+            "imported_success":"Uvezite datoteku uspešno"
         },
         "remove_dia": {
             "tit":"Da li ste sigurni da ga želite ukloniti?",
             "remove_confrim":"Siguran sam da ga uklonim",
-            "backup":"Imajte na umu sigurnosnu kopiju ovog naloga kako biste izbjegli oštećenja imovine",
+            "backup":"Obratite pažnju na rezervnu kopiju ovog naloga kako biste izbjegli oštećenja imovine.",
             "input_pwd":"Lozinka",
-            "placeholder_pwd":"Unesite lozinku za ovaj nalog"
-        },
-        "msg_info": {
-            "exist":"Ovaj nalog već postoji, ime je",
-            "enter_password":"Unesite svoju lozinku",
-            "incons_password":"Lozinka koja je uneta dva puta je nedosljedna",
-            "error":"Greška:",
-            "imported_success":"Uvezite datoteku uspešno",
-            "imported_account_success":"Uvezeno uspešno",
-            "enter_private":"Molimo unesite ključ",
-            "error_keystore":"Nije uspelo uvoziti račun, možda je greška datoteke",
-            "enter_keystore":"Molimo prvo prvo uvezite datoteku naloga",
-            "error_password":"Nije uspela uvoziti račun, možda je pogrešna lozinka",
-            "remove_success":"Uspešno uklonjeno",
-            "create_success":"Kreiran uspešno",
-            "save":"Molimo sačuvajte datoteku naloga i ne delite je sa nikom!"
+            "placeholder_pwd":"Unesite lozinku za ovaj nalog",
+            "validate_password":"Unesite lozinku za račun",
+            "remove_success":"Uspešno je uklonjen"
         }
     }
 }

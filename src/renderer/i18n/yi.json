@@ -1,8 +1,8 @@
 {
-    "confirm":"באַשטעטיקונג",
-    "cancel":"Cancellation",
+    "confirm":"באַשטעטיקן",
+    "cancel":"Cancel",
     "dialog_tit":"פּינטלעך",
-    "close":"קלאָוזד",
+    "close":"Close",
     "confirm_you_active":"ביטע באַשטעטיקן דיין אָפּעראַציע",
     "unit": {
         "czr":"CZR"
@@ -10,49 +10,49 @@
     "model_header": {
         "home":"היים",
         "transfer":"אַריבערפירן",
-        "contacts":"קאָנטאַקטן",
-        "setting":"Settings",
+        "contacts":"קאָנטאַקט",
+        "setting":"באַשטעטיקן",
         "total":"גאַנץ",
         "testnet":"פּרובירן נעץ"
     },
     "page_setting": {
-        "tit":"Settings",
+        "tit":"באַשטעטיקן",
         "lang":"שפּראַך",
-        "select":"ביטע אויסקלייַבן"
+        "select":"ביטע קלייַבן"
     },
     "page_contacts": {
-        "tit":"קאָנטאַקטן",
+        "tit":"קאָנטאַקט",
         "add_dialog":"New contact",
         "add_cont": {
             "tit":"New contact",
-            "tag":"קאָנטאַקטן",
+            "tag":"קאָנטאַקט",
             "address":"חשבון אַדרעס",
-            "tag_placeholder":"ביטע אַרייַן די קאָנטאַקט נאָמען",
+            "tag_placeholder":"ביטע אַרייַן די נאָמען פון די קאָנטאַקט",
             "address_placeholder":"ביטע אַרייַן די קאָנטעקסט אַדרעס פון דיין קאָנטאַקט"
         },
         "delete_dialog": {
             "title":"איר זענען רימוווינג"
         },
         "msg_info": {
-            "no_tag":"ביטע אַרייַן די חשבון נאָמען",
-            "no_address":"ביטע אַרייַן די חשבון אַדרעס",
-            "valid_address":"דער אַדרעס פון דער קאָנטאַקט איז ומלעגאַל",
+            "no_tag":"ביטע אַרייַן אַ חשבון טאָן",
+            "no_address":"ביטע אַרייַן דיין חשבון אַדרעס",
+            "valid_address":"די אַדרעס פון די קאָנטאַקט איז ומלעגאַל",
             "exist":"דער קאָנטאַקט שוין עקסיסטירט,"
         }
     },
     "page_transfer": {
         "from_address":"אַריבערפירן אויס",
-        "to_address":"אין",
+        "to_address":"אַריבערפירן",
         "amount":"Amount",
         "send_all":"שיקן אַלע",
-        "data":"דאַטע",
+        "data":"Data",
         "data_placeholder":"העקסאַדעסימאַל דאַטע",
-        "fees":"Fees",
+        "fees":"האַנדלינג אָפּצאָל",
         "total":"גאַנץ",
-        "select":"ביטע אויסקלייַבן",
-        "no_account_info":"קיין חשבון, ביטע שאַפֿן אָדער אַרייַנפיר חשבון",
+        "select":"ביטע קלייַבן",
+        "no_account_info":"קיין אַקאַונט נאָך, ביטע שאַפֿן אָדער אַרייַנפיר חשבון",
         "contacts_dig": {
-            "select_placeholder":"ביטע אויסקלייַבן"
+            "select_placeholder":"ביטע קלייַבן"
         },
         "confirm_dia": {
             "title":"ביטע באַשטעטיקן",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"ביטע אַרייַן דיין פּאַראָל"
         },
         "msg_info": {
-            "decrypt_err":"וואַללעט פּאַרסינג אַנדערש, קען זיין אַ פּאַראָל טעות",
-            "amount_zero":"ניט גענוגיק וואָג צו פאָרזעצן",
-            "address_null":"ביטע אַרייַן די חשבון",
-            "address_err":"ינקאָמינג אַדרעס פֿאָרמאַט איז ומלעגאַל",
-            "send_success":"שיקן הצלחה",
-            "send_error":"אָפּמאַך אַנדערש: ביטע טשעק אויב עס איז גענוג וואָג און מיינער ס אָפּצאָל"
+            "decrypt_err":"וואַללעט פּאַרסינג אַנדערש, עס קען זיין אַ פּאַראָל טעות",
+            "amount_zero":"ניט גענוג וואָג, ניט געקענט פאָרזעצן",
+            "address_null":"ביטע אַרייַן די אנדערע פּאַרטיי 'ס חשבון",
+            "address_err":"דער פֿאָרמאַט פון די טראַנספערד אַדרעס איז פאַרקריפּלט.",
+            "send_success":"הצלחה געשיקט",
+            "send_error":"אָפּמאַך אַנדערש: ביטע טשעק אויב עס איז גענוג וואָג און מיינער אָפּצאָל"
         }
     },
     "page_account": {
-        "transfer_log":"ויספאָרשונג געשיכטע",
+        "transfer_log":"Transaction record",
         "transfer_log_null":"קיין דורכפאָר געשיכטע",
         "active_icon": {
-            "go_transfer":"אָנהייבן אַריבערפירן",
+            "go_transfer":"אָנהייבן אַ אַריבערפירן",
             "import_keystore":"Account file",
             "qrcode":"QR code"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"טראַנסאַקטיאָן אינפֿאָרמאַציע",
             "block_hash":"טראַנסאַקטיאָן נומער",
-            "status":"סטאַטוס",
-            "from":"סענדער",
-            "to":"Receiver",
+            "status":"שטאַט",
+            "from":"שיקט אַ פּאַרטיי",
+            "to":"Payee",
             "amount":"Amount",
-            "data":"די דאַטן",
+            "data":"Data",
             "send_time":"שיקט צייט",
             "mac_time":"הויפּט נעץ צייַט"
         },
         "keystore": {
             "tit":"באַקקופּ בייַטל טעקע",
-            "copy":"דופּליקאַט",
+            "copy":"Copy",
             "download":"Download wallet file"
         },
         "msg_info": {
             "ads_copy_success":"אַדרעס איז קאַפּיד",
-            "key_copy_success":"Successfully copied"
+            "key_copy_success":"Successful copy"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"שאַפֿן אַ חשבון",
             "backup_tit":"צוריק דיין נייַ חשבון",
-            "create_tag":"חשבון נאָמען",
+            "create_tag":"Account note",
             "create_pwd":"באַשטעטיק פּאַראָל",
             "create_repwd":"באַשטעטיקן שפּריכוואָרט",
-            "placeholder_tag":"ביטע שטעלן חשבון נאָמען",
-            "placeholder_pwd":"ביטע שטעלן פּאַראָל פּאַראָל",
+            "placeholder_tag":"ביטע שטעלן די חשבון נאָטיץ נאָמען",
+            "placeholder_pwd":"ביטע שטעלן די חשבון פּאַראָל",
             "placeholder_repwd":"ביטע באַשטעטיקן די חשבון פּאַראָל",
-            "strong_password":"אַרייַן אַ פּאַראָל פון בייַ מינדסטער 8 דידזשאַץ",
-            "account_address":"Account",
-            "account_privateKey":"פּריוואַט שליסל",
-            "account_download_keystore":"אראפקאפיע חשבון טעקע"
+            
+            
+            "account_download_keystore":"אראפקאפיע חשבון טעקע",
+
+            "validate_tag":"ביטע אַרייַן די חשבון נאָטיץ נאָמען",
+            "validate_tag_length":"מעמאָ נאָמען קענען נישט זיין מער ווי 8 אותיות",
+
+            "validate_password":"ביטע אַרייַן די פּאַראָל איר שטעלן",
+            "validate_re_password":"ביטע אַרייַן די פּאַראָל איר שטעלן ווידער",
+            "validate_strong_password":"ביטע אַרייַן אַ פּאַראָל פון לפּחות 8 דידזשאַץ",
+            "validate_password_length":"ינקאַנסיסטאַנט פּאַראָל איז צוויי מאָל",
+
+            "create_success":"Created successfully",
+            "create_success_des":"ביטע ראַטעווען דיין חשבון טעקע און טאָן ניט טיילן עס מיט ווער עס יז!"
         },
         "import_dia": {
             "tit":"אַרייַנפיר חשבון",    
             "placeholder_keystore":"ביטע שלעפּן די חשבון טעקע דאָ",
-            "create_tag":"חשבון נאָמען",
-            "placeholder_tag":"ביטע שטעלן חשבון נאָמען"
+            "create_tag":"Account note",
+            "placeholder_tag":"ביטע שטעלן די חשבון נאָטיץ נאָמען",
+
+            "validate_tag":"ביטע אַרייַן די חשבון נאָטיץ נאָמען",
+            "validate_tag_length":"מעמאָ נאָמען קענען נישט זיין מער ווי 8 אותיות",
+            "validate_enter_keystore":"ביטע אַרייַנפיר די חשבון טעקע ערשטער",
+            "validate_error_keystore":"אַקאַונט אַרייַנפיר דורכפאַל, קען זיין אַקאַונט טעקע טעות",
+            "imported_account_success":"הצלחה ימפּאָרטיד",
+            "exist":"דעם חשבון איז שוין יגזיסץ",
+            "keystore_error":"Error:",
+            "imported_success":"אַרייַנפיר טעקע הצלחה"
         },
         "remove_dia": {
             "tit":"ביסט איר זיכער איר ווילן צו באַזייַטיקן עס?",
             "remove_confrim":"איך בין זיכער צו באַזייַטיקן",
-            "backup":"ביטע טאָן די באַקאַפּ פון דעם חשבון צו ויסמייַדן פאַרמאָג שעדיקן",
+            "backup":"ביטע באַצאָלן ופמערקזאַמקייַט צו די באַקאַפּ פון דעם חשבון צו פאַרמייַדן פאַרמאָג שעדיקן.",
             "input_pwd":"Password",
-            "placeholder_pwd":"ביטע אַרייַן די פּאַראָל פֿאַר דעם חשבון"
-        },
-        "msg_info": {
-            "exist":"דעם חשבון איז שוין יגזיסץ, די נאָמען איז",
-            "enter_password":"ביטע אַרייַן דיין פּאַראָל",
-            "incons_password":"די פּאַראָל אין צוויי מאָל איז סתירה",
-            "error":"Error:",
-            "imported_success":"אַרייַנפיר טעקע הצלחה",
-            "imported_account_success":"ימפּאָרטיד הצלחה",
-            "enter_private":"ביטע אַרייַן די שליסל",
-            "error_keystore":"ניט אַנדערש צו אַרייַנפיר חשבון, עס קען זיין אַ אַקאַונט טעקע טעות",
-            "enter_keystore":"ביטע אַרייַנפיר די חשבון טעקע ערשטער",
-            "error_password":"ניט אַנדערש צו אַרייַנפיר חשבון, עס קען זיין אַ פאַלש פּאַראָל",
-            "remove_success":"Removed successfully",
-            "create_success":"Created successfully",
-            "save":"ביטע ראַטעווען דיין חשבון טעקע און טאָן ניט טיילן עס מיט ווער עס יז!"
+            "placeholder_pwd":"ביטע אַרייַן די פּאַראָל פֿאַר דעם חשבון",
+            "validate_password":"ביטע אַרייַן חשבון פּאַראָל",
+            "remove_success":"געשווינד אַוועקגענומען"
         }
     }
 }

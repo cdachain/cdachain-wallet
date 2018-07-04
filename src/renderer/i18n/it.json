@@ -18,7 +18,7 @@
     "page_setting": {
         "tit":"impostare",
         "lang":"lingua",
-        "select":"Per favore seleziona"
+        "select":"Per favore scegli"
     },
     "page_contacts": {
         "tit":"contatto",
@@ -34,8 +34,8 @@
             "title":"Stai rimuovendo"
         },
         "msg_info": {
-            "no_tag":"Si prega di inserire il nome dell'account",
-            "no_address":"Si prega di inserire l'indirizzo del conto",
+            "no_tag":"Si prega di inserire una nota dell'account",
+            "no_address":"Per favore inserisci il tuo indirizzo",
             "valid_address":"L'indirizzo del contatto è illegale",
             "exist":"Il contatto esiste già,"
         }
@@ -45,14 +45,14 @@
         "to_address":"in",
         "amount":"soldi",
         "send_all":"Invia tutto",
-        "data":"data",
+        "data":"dati",
         "data_placeholder":"Dati esadecimali",
-        "fees":"tasse",
+        "fees":"Tassa di gestione",
         "total":"totale",
-        "select":"Per favore seleziona",
-        "no_account_info":"Nessun account, crea o importa un account",
+        "select":"Per favore scegli",
+        "no_account_info":"Nessun account ancora, crea o importa un account",
         "contacts_dig": {
-            "select_placeholder":"Per favore seleziona"
+            "select_placeholder":"Per favore scegli"
         },
         "confirm_dia": {
             "title":"Per favore conferma",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Per favore inserisci la tua password"
         },
         "msg_info": {
-            "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe essere un errore della password",
-            "amount_zero":"Equilibrio insufficiente per continuare",
-            "address_null":"Si prega di inserire l'account",
-            "address_err":"Il formato degli indirizzi in arrivo è illegale",
-            "send_success":"Invia successo",
-            "send_error":"Transazione fallita: si prega di verificare se vi è sufficiente equilibrio e tassa del minatore"
+            "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe trattarsi di un errore della password",
+            "amount_zero":"Equilibrio insufficiente, incapace di continuare",
+            "address_null":"Si prega di inserire l'account della controparte",
+            "address_err":"Il formato dell'indirizzo trasferito non è valido.",
+            "send_success":"Inviato con successo",
+            "send_error":"Transazione fallita: si prega di verificare se vi è una quota sufficiente di equilibrio e minatore"
         }
     },
     "page_account": {
-        "transfer_log":"Cronologia delle transazioni",
+        "transfer_log":"Record di transazione",
         "transfer_log_null":"Nessuna cronologia delle transazioni",
         "active_icon": {
-            "go_transfer":"Inizia trasferimento",
+            "go_transfer":"Iniziare un trasferimento",
             "import_keystore":"File dell'account",
             "qrcode":"Codice QR"
         },
@@ -84,10 +84,10 @@
             "tit":"Informazioni sulla transazione",
             "block_hash":"Numero di transazione",
             "status":"stato",
-            "from":"Invia partito denaro",
+            "from":"Invio di festa",
             "to":"beneficiario",
             "amount":"soldi",
-            "data":"I dati",
+            "data":"dati",
             "send_time":"Invio del tempo",
             "mac_time":"Tempo di rete principale"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"L'indirizzo è stato copiato",
-            "key_copy_success":"Copiato con successo"
+            "key_copy_success":"Copia riuscita"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Crea un account",
             "backup_tit":"Esegui il backup del tuo nuovo account",
-            "create_tag":"Nome dell'account",
+            "create_tag":"Nota del conto",
             "create_pwd":"Imposta la password",
             "create_repwd":"Conferma password",
-            "placeholder_tag":"Si prega di impostare il nome dell'account",
+            "placeholder_tag":"Si prega di impostare il nome della nota dell'account",
             "placeholder_pwd":"Si prega di impostare la password dell'account",
             "placeholder_repwd":"Si prega di confermare la password dell'account",
-            "strong_password":"Inserire una password di almeno 8 cifre",
-            "account_address":"conto",
-            "account_privateKey":"Chiave privata",
-            "account_download_keystore":"Scarica il file dell'account"
+            
+            
+            "account_download_keystore":"Scarica il file dell'account",
+
+            "validate_tag":"Inserisci il nome della nota dell'account",
+            "validate_tag_length":"Il nome del memo non può essere più lungo di 8 caratteri",
+
+            "validate_password":"Per favore inserisci la password che hai impostato",
+            "validate_re_password":"Inserisci la password che hai impostato di nuovo",
+            "validate_strong_password":"Si prega di inserire una password di almeno 8 cifre",
+            "validate_password_length":"Password incoerente inserita due volte",
+
+            "create_success":"Creato con successo",
+            "create_success_des":"Si prega di salvare il file dell'account e non condividerlo con nessuno!"
         },
         "import_dia": {
             "tit":"Importa account",    
             "placeholder_keystore":"Trascina qui il file dell'account",
-            "create_tag":"Nome dell'account",
-            "placeholder_tag":"Si prega di impostare il nome dell'account"
+            "create_tag":"Nota del conto",
+            "placeholder_tag":"Si prega di impostare il nome della nota dell'account",
+
+            "validate_tag":"Inserisci il nome della nota dell'account",
+            "validate_tag_length":"Il nome del memo non può essere più lungo di 8 caratteri",
+            "validate_enter_keystore":"Per prima cosa, importa il file dell'account",
+            "validate_error_keystore":"L'importazione dell'account non è riuscita, potrebbe essere un errore del file dell'account",
+            "imported_account_success":"Importato con successo",
+            "exist":"Questo account esiste già, la nota è",
+            "keystore_error":"Errore:",
+            "imported_success":"Importa file con successo"
         },
         "remove_dia": {
             "tit":"Sei sicuro di volerlo rimuovere?",
             "remove_confrim":"Sono sicuro di rimuovere",
-            "backup":"Si prega di notare il backup di questo account per evitare danni alla proprietà",
+            "backup":"Si prega di prestare attenzione al backup di questo account per evitare danni alla proprietà.",
             "input_pwd":"password",
-            "placeholder_pwd":"Si prega di inserire la password per questo account"
-        },
-        "msg_info": {
-            "exist":"Questo account esiste già, il nome è",
-            "enter_password":"Per favore inserisci la tua password",
-            "incons_password":"La password inserita due volte è incoerente",
-            "error":"Errore:",
-            "imported_success":"Importa file con successo",
-            "imported_account_success":"Importato con successo",
-            "enter_private":"Si prega di inserire la chiave",
-            "error_keystore":"Impossibile importare un account, potrebbe trattarsi di un errore nel file dell'account",
-            "enter_keystore":"Per prima cosa, importa il file dell'account",
-            "error_password":"Impossibile importare l'account, potrebbe essere una password errata",
-            "remove_success":"Rimosso con successo",
-            "create_success":"Creato con successo",
-            "save":"Si prega di salvare il file dell'account e non condividerlo con nessuno!"
+            "placeholder_pwd":"Si prega di inserire la password per questo account",
+            "validate_password":"Si prega di inserire la password per l'account",
+            "remove_success":"Rimosso con successo"
         }
     }
 }

@@ -12,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Config',//Config
-      component: Config
+      name: 'Home',//Config
+      component: Home
     },
     {
       path: '/home',

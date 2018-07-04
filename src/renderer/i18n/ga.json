@@ -1,8 +1,8 @@
 {
-    "confirm":"Dearbhú",
-    "cancel":"Cealú",
+    "confirm":"Deimhnigh",
+    "cancel":"Cealaigh",
     "dialog_tit":"Pras",
-    "close":"Dúnta",
+    "close":"Dún",
     "confirm_you_active":"Deimhnigh d'oibriú le do thoil",
     "unit": {
         "czr":"CZR"
@@ -10,47 +10,47 @@
     "model_header": {
         "home":"Baile",
         "transfer":"Aistriú",
-        "contacts":"Teagmhálacha",
-        "setting":"Socruithe",
+        "contacts":"Teagmháil",
+        "setting":"Socrú",
         "total":"Iomlán",
         "testnet":"Líonra tástála"
     },
     "page_setting": {
-        "tit":"Socruithe",
+        "tit":"Socrú",
         "lang":"Teanga",
         "select":"Roghnaigh"
     },
     "page_contacts": {
-        "tit":"Teagmhálacha",
+        "tit":"Teagmháil",
         "add_dialog":"Teagmhála nua",
         "add_cont": {
             "tit":"Teagmhála nua",
-            "tag":"Teagmhálacha",
+            "tag":"Teagmháil",
             "address":"Seoladh cuntais",
-            "tag_placeholder":"Cuir ainm an teagmhála isteach",
+            "tag_placeholder":"Cuir isteach ainm an teagmhála",
             "address_placeholder":"Cuir isteach seoladh cuntas an teagmhála"
         },
         "delete_dialog": {
             "title":"Tá tú ag baint úsáide as"
         },
         "msg_info": {
-            "no_tag":"Cuir isteach ainm an chuntas",
-            "no_address":"Cuir isteach an seoladh cuntas",
+            "no_tag":"Cuir nóta cuntas isteach",
+            "no_address":"Cuir isteach do sheoladh chuntais",
             "valid_address":"Tá seoladh an teagmhála neamhdhleathach",
             "exist":"Tá an teagmháil ann cheana féin,"
         }
     },
     "page_transfer": {
         "from_address":"Aistriú amach",
-        "to_address":"Isteach",
+        "to_address":"Aistriú",
         "amount":"Méid",
         "send_all":"Seol go léir",
-        "data":"Dáta",
+        "data":"Sonraí",
         "data_placeholder":"Sonraí heicteachta",
-        "fees":"Táillí",
+        "fees":"Táille láimhseála",
         "total":"Iomlán",
         "select":"Roghnaigh",
-        "no_account_info":"Níl aon chuntas agat, le do thoil cruthaigh nó cuntas a allmhairiú",
+        "no_account_info":"Níl cuntas agat go fóill, déan cuntas a chruthú nó a iompórtáil",
         "contacts_dig": {
             "select_placeholder":"Roghnaigh"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Cuir isteach do phasfhocal"
         },
         "msg_info": {
-            "decrypt_err":"D'fhéadfadh earráid phasfhocal a bheith i gceist le parsáil sa sparán",
-            "amount_zero":"Gan cothrom leordhóthanach leanúint ar aghaidh",
-            "address_null":"Cuir isteach an cuntas",
-            "address_err":"Tá formáid seoladh isteach mídhleathach",
-            "send_success":"Seol rath",
-            "send_error":"Theip ar an Idirbheart: Seiceáil le do thoil má tá cothromaíocht leordhóthanach agus táille an mhinéir"
+            "decrypt_err":"Theip ar parsáil sparán, d'fhéadfadh sé gur earráid focal faire é",
+            "amount_zero":"Comhardú neamhleor, in ann leanúint ar aghaidh",
+            "address_null":"Cuir isteach cuntas an pháirtí eile",
+            "address_err":"Tá formáid an seoladh aistrithe neamhbhailí.",
+            "send_success":"Seoladh go rathúil",
+            "send_error":"Theip ar an Idirbheart: seiceáil an bhfuil dóthain cothromaíochta agus táille miner ann"
         }
     },
     "page_account": {
-        "transfer_log":"Stair na hidirbhearta",
+        "transfer_log":"Taifead idirbheart",
         "transfer_log_null":"Uimh stair idirbheart",
         "active_icon": {
-            "go_transfer":"Aistriú a thosú",
+            "go_transfer":"Aistriú a thionscnamh",
             "import_keystore":"Comhad cuntais",
             "qrcode":"QR cód"
         },
@@ -83,22 +83,22 @@
         "dia_tx":{
             "tit":"Faisnéis idirbhirt",
             "block_hash":"Uimhir idirbhirt",
-            "status":"Stádas",
-            "from":"Seoltóir",
-            "to":"Glacadóir",
+            "status":"Stáit",
+            "from":"Páirtí seolta",
+            "to":"Íocaíocht",
             "amount":"Méid",
-            "data":"Na sonraí",
+            "data":"Sonraí",
             "send_time":"Am seolta",
             "mac_time":"Príomh-am líonra"
         },
         "keystore": {
             "tit":"Comhad sparán cúltaca",
-            "copy":"Dúblach",
+            "copy":"Cóip",
             "download":"Íoslódáil comhad sparán"
         },
         "msg_info": {
             "ads_copy_success":"Tá an seoladh cóipeáilte",
-            "key_copy_success":"Cóipeáil go rathúil"
+            "key_copy_success":"Cóip rathúil"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Cruthaigh cuntas",
             "backup_tit":"Cuir suas do chuntas nua ar ais",
-            "create_tag":"Ainm an chuntas",
+            "create_tag":"Nóta cuntais",
             "create_pwd":"Socraigh focal faire",
             "create_repwd":"Dearbhaigh focal faire",
-            "placeholder_tag":"Socraigh ainm an chuntas le do thoil",
+            "placeholder_tag":"Socraigh ainm nóta an chuntas le do thoil",
             "placeholder_pwd":"Socraigh an focal faire cuntas le do thoil",
             "placeholder_repwd":"Dearbhaigh an focal faire chuntais",
-            "strong_password":"Cuir isteach focal faire de 8 dhigit ar a laghad",
-            "account_address":"Cuntas",
-            "account_privateKey":"Eochair phríobháideach",
-            "account_download_keystore":"Íoslódáil an comhad cuntais"
+            
+            
+            "account_download_keystore":"Íoslódáil an comhad cuntais",
+
+            "validate_tag":"Cuir isteach an t-ainm nóta cuntais",
+            "validate_tag_length":"Ní féidir ainm an nóta a bheith níos mó ná 8 carachtar.",
+
+            "validate_password":"Cuir isteach an focal faire a leagtar tú",
+            "validate_re_password":"Cuir isteach an focal faire a leagtar tú arís",
+            "validate_strong_password":"Cuir isteach focal faire de 8 dhigit ar a laghad",
+            "validate_password_length":"Cuireadh pasfhocal neamhréireach isteach faoi dhó",
+
+            "create_success":"Cruthaithe go rathúil",
+            "create_success_des":"Sábháil do chomhad cuntais le do thoil agus ná é a roinnt le duine ar bith!"
         },
         "import_dia": {
             "tit":"Cuntas iompórtála",    
             "placeholder_keystore":"Tarraing an comhad cuntais anseo",
-            "create_tag":"Ainm an chuntas",
-            "placeholder_tag":"Socraigh ainm an chuntas le do thoil"
+            "create_tag":"Nóta cuntais",
+            "placeholder_tag":"Socraigh ainm nóta an chuntas le do thoil",
+
+            "validate_tag":"Cuir isteach an t-ainm nóta cuntais",
+            "validate_tag_length":"Ní féidir ainm an nóta a bheith níos mó ná 8 carachtar.",
+            "validate_enter_keystore":"Cuir isteach an comhad cuntas ar dtús",
+            "validate_error_keystore":"Theip ar allmhairiú an chuntas, d'fhéadfadh earráid comhaid a bheith san áireamh",
+            "imported_account_success":"Iompórtáil go rathúil",
+            "exist":"Tá an cuntas seo ann cheana féin, is é an nóta",
+            "keystore_error":"Earráid:",
+            "imported_success":"Iompórtáil comhad go rath"
         },
         "remove_dia": {
             "tit":"An bhfuil tú cinnte gur mhaith leat é a bhaint?",
             "remove_confrim":"Táim cinnte go mbainfí as",
-            "backup":"Tabhair faoi deara le cúltaca an chuntas seo chun damáiste maoine a sheachaint",
+            "backup":"Tabhair aird ar chúltaca an chuntas seo chun damáiste maoine a sheachaint.",
             "input_pwd":"Pasfhocal",
-            "placeholder_pwd":"Cuir isteach an focal faire don chuntas seo"
-        },
-        "msg_info": {
-            "exist":"Tá an cuntas seo ann cheana féin, is é an t-ainm",
-            "enter_password":"Cuir isteach do phasfhocal",
-            "incons_password":"Tá an focal faire isteach dhá uair neamhréireach",
-            "error":"Earráid:",
-            "imported_success":"Iompórtáil comhad go rath",
-            "imported_account_success":"Iompórtáil go rathúil",
-            "enter_private":"Cuir isteach an eochair",
-            "error_keystore":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur earráid comhaid cuntas é",
-            "enter_keystore":"Cuir isteach an comhad cuntas ar dtús",
-            "error_password":"Theip ar chuntas a allmhairiú, d'fhéadfadh sé gur focal faire mícheart é",
-            "remove_success":"Bainte go rathúil",
-            "create_success":"Cruthaithe go rathúil",
-            "save":"Sábháil do chomhad cuntais le do thoil agus ná é a roinnt le duine ar bith!"
+            "placeholder_pwd":"Cuir isteach an focal faire don chuntas seo",
+            "validate_password":"Cuir isteach an focal faire don chuntas",
+            "remove_success":"Bainte amach go rathúil"
         }
     }
 }

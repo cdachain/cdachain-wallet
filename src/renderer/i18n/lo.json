@@ -1,6 +1,6 @@
 {
     "confirm":"ການຢືນຢັນ",
-    "cancel":"ການຍົກເລີກ",
+    "cancel":"ຍົກເລີກ",
     "dialog_tit":"Prompt",
     "close":"ປິດ",
     "confirm_you_active":"ກະລຸນາຢືນຢັນການເຮັດວຽກຂອງທ່ານ",
@@ -10,22 +10,22 @@
     "model_header": {
         "home":"ຫນ້າທໍາອິດ",
         "transfer":"ການໂອນເງິນ",
-        "contacts":"ຕິດຕໍ່ພົວພັນ",
-        "setting":"Settings",
+        "contacts":"ຕິດຕໍ່",
+        "setting":"ການຕັ້ງຄ່າ",
         "total":"ລວມ",
         "testnet":"ທົດສອບເຄືອຂ່າຍ"
     },
     "page_setting": {
-        "tit":"Settings",
+        "tit":"ການຕັ້ງຄ່າ",
         "lang":"ພາສາ",
         "select":"ກະລຸນາເລືອກ"
     },
     "page_contacts": {
-        "tit":"ຕິດຕໍ່ພົວພັນ",
+        "tit":"ຕິດຕໍ່",
         "add_dialog":"ຕິດຕໍ່ໃຫມ່",
         "add_cont": {
             "tit":"ຕິດຕໍ່ໃຫມ່",
-            "tag":"ຕິດຕໍ່ພົວພັນ",
+            "tag":"ຕິດຕໍ່",
             "address":"ທີ່ຢູ່ບັນຊີ",
             "tag_placeholder":"ກະລຸນາໃສ່ຊື່ຂອງຜູ້ຕິດຕໍ່",
             "address_placeholder":"ກະລຸນາໃສ່ທີ່ຢູ່ບັນຊີຂອງຜູ້ຕິດຕໍ່"
@@ -34,23 +34,23 @@
             "title":"ທ່ານກໍາລັງຖອນເອົາ"
         },
         "msg_info": {
-            "no_tag":"ກະລຸນາໃສ່ຊື່ບັນຊີ",
-            "no_address":"ກະລຸນາໃສ່ທີ່ຢູ່ບັນຊີ",
-            "valid_address":"ສະຖານທີ່ຕິດຕໍ່ແມ່ນຜິດກົດຫມາຍ",
+            "no_tag":"ກະລຸນາໃສ່ຫມາຍເຫດບັນຊີ",
+            "no_address":"ກະລຸນາໃສ່ທີ່ຢູ່ບັນຊີຂອງທ່ານ",
+            "valid_address":"ທີ່ຢູ່ຂອງຕິດຕໍ່ແມ່ນຜິດກົດຫມາຍ",
             "exist":"ຕິດຕໍ່ພົວພັນແລ້ວ,"
         }
     },
     "page_transfer": {
         "from_address":"ໂອນອອກ",
-        "to_address":"Into",
+        "to_address":"ການໂອນເງິນ",
         "amount":"ຈໍານວນເງິນ",
         "send_all":"ສົ່ງທັງຫມົດ",
-        "data":"Date",
+        "data":"ຂໍ້ມູນ",
         "data_placeholder":"Hexadecimal data",
         "fees":"ຄ່າທໍານຽມ",
         "total":"ລວມ",
         "select":"ກະລຸນາເລືອກ",
-        "no_account_info":"ບໍ່ມີບັນຊີ, ກະລຸນາສ້າງຫຼືນໍາເຂົ້າບັນຊີ",
+        "no_account_info":"ບໍ່ມີບັນຊີເທື່ອ, ກະລຸນາສ້າງຫຼືນໍາເຂົ້າບັນຊີ",
         "contacts_dig": {
             "select_placeholder":"ກະລຸນາເລືອກ"
         },
@@ -60,16 +60,16 @@
             "enter_passworld_place":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ"
         },
         "msg_info": {
-            "decrypt_err":"ການວິເຄາະຂອງ Wallet ລົ້ມເຫລວອາດຈະເປັນຂໍ້ຜິດພາດລະຫັດຜ່ານ",
-            "amount_zero":"ຄວາມດຸ່ນດ່ຽງບໍ່ພຽງພໍທີ່ຈະສືບຕໍ່",
-            "address_null":"ກະລຸນາໃສ່ບັນຊີ",
-            "address_err":"ຮູບແບບທີ່ຢູ່ມາແມ່ນຜິດກົດຫມາຍ",
+            "decrypt_err":"ການວິເຄາະຂອງ Wallet ລົ້ມເຫລວ, ມັນອາດຈະເປັນຂໍ້ຜິດພາດລະຫັດຜ່ານ",
+            "amount_zero":"ຄວາມດຸ່ນດ່ຽງບໍ່ພຽງພໍ, ບໍ່ສາມາດສືບຕໍ່",
+            "address_null":"ກະລຸນາເຂົ້າບັນຊີຂອງບຸກຄົນອື່ນ",
+            "address_err":"ຮູບແບບຂອງທີ່ຢູ່ໂອນແມ່ນບໍ່ຖືກຕ້ອງ.",
             "send_success":"ສົ່ງຜົນສໍາເລັດ",
-            "send_error":"ບັນຊີການເຮັດທຸລະກິດລົ້ມເຫລວ: ກະລຸນາກວດເບິ່ງວ່າມີຍອດເງິນສົມທົບແລະຄ່າທໍານຽມຂອງແຮ່ທາດຢ່າງພຽງພໍ"
+            "send_error":"ການເຮັດທຸລະກິດລົ້ມເຫລວ: ກະລຸນາກວດສອບວ່າມີຍອດເງິນແລະແຮ່ທາດທີ່ພຽງພໍ"
         }
     },
     "page_account": {
-        "transfer_log":"ປະວັດການເຮັດທຸລະກໍາ",
+        "transfer_log":"ບັນທຶກການເຮັດທຸລະກໍາ",
         "transfer_log_null":"ບໍ່ມີປະຫວັດການຊື້ຂາຍ",
         "active_icon": {
             "go_transfer":"ເລີ່ມຕົ້ນການໂອນ",
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"ຂໍ້ມູນການເຮັດທຸລະກໍາ",
             "block_hash":"ຈໍານວນການເຮັດທຸລະກໍາ",
-            "status":"ສະຖານະພາບ",
-            "from":"ຜູ້ສົ່ງ",
-            "to":"Receiver",
+            "status":"ລັດ",
+            "from":"ການສົ່ງພັກ",
+            "to":"Payee",
             "amount":"ຈໍານວນເງິນ",
             "data":"ຂໍ້ມູນ",
             "send_time":"ສົ່ງເວລາ",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"File wallet ສໍາຮອງ",
-            "copy":"Duplicate",
+            "copy":"ຄັດລອກ",
             "download":"ດາວໂຫລດໄຟລ໌ປື້ມ"
         },
         "msg_info": {
             "ads_copy_success":"ທີ່ຢູ່ໄດ້ຖືກຄັດລອກ",
-            "key_copy_success":"ຄັດລອກສົບຜົນສໍາເລັດ"
+            "key_copy_success":"ການສໍາເນົາສົບຜົນສໍາເລັດ"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"ສ້າງບັນຊີ",
             "backup_tit":"ກັບຄືນໄປບ່ອນບັນຊີໃຫມ່ຂອງທ່ານ",
-            "create_tag":"ຊື່ບັນຊີ",
+            "create_tag":"ຫມາຍເຫດບັນຊີ",
             "create_pwd":"ຕັ້ງຄ່າລະຫັດຜ່ານ",
             "create_repwd":"ຢືນຢັນລະຫັດຜ່ານ",
-            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນຊີ",
+            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນທຶກບັນຊີ",
             "placeholder_pwd":"ກະລຸນາຕັ້ງລະຫັດຜ່ານບັນຊີ",
             "placeholder_repwd":"ກະລຸນາຢືນຢັນລະຫັດຜ່ານບັນຊີ",
-            "strong_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານຢ່າງນ້ອຍ 8 ໂຕ",
-            "account_address":"ບັນຊີ",
-            "account_privateKey":"ຄີເອກກະຊົນ",
-            "account_download_keystore":"ດາວໂຫລດໄຟລ໌ບັນຊີ"
+            
+            
+            "account_download_keystore":"ດາວໂຫລດໄຟລ໌ບັນຊີ",
+
+            "validate_tag":"ກະລຸນາໃສ່ຊື່ບັນທຶກຂອງບັນຊີ",
+            "validate_tag_length":"ຊື່ຄວາມຫມາຍບໍ່ສາມາດຍາວກວ່າ 8 ອັກຂະລະ",
+
+            "validate_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານທີ່ທ່ານຕັ້ງໄວ້",
+            "validate_re_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານທີ່ທ່ານກໍານົດອີກເທື່ອຫນຶ່ງ",
+            "validate_strong_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານຢ່າງຫນ້ອຍ 8 ໂຕເລກ",
+            "validate_password_length":"ລະຫັດຜ່ານທີ່ບໍ່ສອດຄ່ອງເຂົ້າມາສອງຄັ້ງ",
+
+            "create_success":"ສ້າງສົບຜົນສໍາເລັດ",
+            "create_success_des":"ກະລຸນາບັນທຶກເອກະສານບັນຊີຂອງທ່ານແລະຢ່າແບ່ງປັນມັນກັບໃຜ!"
         },
         "import_dia": {
             "tit":"ບັນຊີນໍາເຂົ້າ",    
             "placeholder_keystore":"ກະລຸນາລາກໄຟລ໌ບັນຊີຢູ່ທີ່ນີ້",
-            "create_tag":"ຊື່ບັນຊີ",
-            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນຊີ"
+            "create_tag":"ຫມາຍເຫດບັນຊີ",
+            "placeholder_tag":"ກະລຸນາຕັ້ງຊື່ບັນທຶກບັນຊີ",
+
+            "validate_tag":"ກະລຸນາໃສ່ຊື່ບັນທຶກຂອງບັນຊີ",
+            "validate_tag_length":"ຊື່ຄວາມຫມາຍບໍ່ສາມາດຍາວກວ່າ 8 ອັກຂະລະ",
+            "validate_enter_keystore":"ກະລຸນານໍາໃຊ້ໄຟລ໌ບັນຊີກ່ອນ",
+            "validate_error_keystore":"ການນໍາເຂົ້າບັນຊີລົ້ມເຫລວ, ອາດຈະມີຂໍ້ຜິດພາດໄຟລ໌ບັນຊີ",
+            "imported_account_success":"ປະສົບຄວາມສໍາເລັດນໍາເຂົ້າ",
+            "exist":"ບັນຊີນີ້ມີຢູ່ແລ້ວ, ຫມາຍເຫດແມ່ນ",
+            "keystore_error":"ຂໍ້ຜິດພາດ:",
+            "imported_success":"Import file successfully"
         },
         "remove_dia": {
             "tit":"ທ່ານແນ່ໃຈວ່າທ່ານຕ້ອງການເອົາມັນອອກ?",
             "remove_confrim":"ຂ້າພະເຈົ້າແນ່ໃຈວ່າຈະເອົາອອກ",
-            "backup":"ກະລຸນາສັງເກດການສໍາຮອງຂອງບັນຊີນີ້ເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ",
+            "backup":"ກະລຸນາເອົາໃຈໃສ່ກັບການສໍາຮອງຂອງບັນຊີນີ້ເພື່ອຫຼີກເວັ້ນຄວາມເສຍຫາຍຂອງຊັບສິນ.",
             "input_pwd":"ລະຫັດຜ່ານ",
-            "placeholder_pwd":"ກະລຸນາໃສ່ລະຫັດຜ່ານສໍາລັບບັນຊີນີ້"
-        },
-        "msg_info": {
-            "exist":"ບັນຊີນີ້ມີຢູ່ແລ້ວ, ຊື່ແມ່ນ",
-            "enter_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານຂອງທ່ານ",
-            "incons_password":"ລະຫັດຜ່ານເຂົ້າສອງເທື່ອແມ່ນບໍ່ສອດຄ່ອງ",
-            "error":"ຂໍ້ຜິດພາດ:",
-            "imported_success":"Import file successfully",
-            "imported_account_success":"Imported successfully",
-            "enter_private":"ກະລຸນາໃສ່ຄີ",
-            "error_keystore":"ບໍ່ສາມາດນໍາເຂົ້າບັນຊີໄດ້, ມັນອາດຈະເປັນຂໍ້ຜິດພາດຂອງບັນຊີ",
-            "enter_keystore":"ກະລຸນານໍາໃຊ້ໄຟລ໌ບັນຊີກ່ອນ",
-            "error_password":"ບໍ່ສາມາດເຂົ້າບັນຊີໄດ້, ມັນອາດເປັນລະຫັດຜ່ານທີ່ບໍ່ຖືກຕ້ອງ",
-            "remove_success":"ລຶບລ້າງຄວາມສໍາເລັດ",
-            "create_success":"ສ້າງສົບຜົນສໍາເລັດ",
-            "save":"ກະລຸນາບັນທຶກເອກະສານບັນຊີຂອງທ່ານແລະຢ່າແບ່ງປັນມັນກັບໃຜ!"
+            "placeholder_pwd":"ກະລຸນາໃສ່ລະຫັດຜ່ານສໍາລັບບັນຊີນີ້",
+            "validate_password":"ກະລຸນາໃສ່ລະຫັດຜ່ານສໍາລັບບັນຊີ",
+            "remove_success":"ລົບອອກຢ່າງປະສົບຜົນສໍາເລັດ"
         }
     }
 }

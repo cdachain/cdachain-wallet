@@ -18,7 +18,7 @@
     "page_setting": {
         "tit":"oprichten",
         "lang":"taal",
-        "select":"Selecteer alstublieft"
+        "select":"Kies alstublieft"
     },
     "page_contacts": {
         "tit":"contact",
@@ -34,9 +34,9 @@
             "title":"Je verwijdert"
         },
         "msg_info": {
-            "no_tag":"Voer de accountnaam in",
-            "no_address":"Voer het accountadres in",
-            "valid_address":"Het adres van de contactpersoon is illegaal",
+            "no_tag":"Voer een accountnotitie in",
+            "no_address":"Voer alstublieft uw accountadres in",
+            "valid_address":"Het adres van het contact is illegaal",
             "exist":"De contactpersoon bestaat al,"
         }
     },
@@ -45,14 +45,14 @@
         "to_address":"in",
         "amount":"geld",
         "send_all":"Stuur alles",
-        "data":"datum",
+        "data":"gegevens",
         "data_placeholder":"Hexadecimale gegevens",
-        "fees":"vergoedingen",
+        "fees":"Verwerkingskosten",
         "total":"totaal",
-        "select":"Selecteer alstublieft",
-        "no_account_info":"Geen account, maak of importeer een account",
+        "select":"Kies alstublieft",
+        "no_account_info":"Nog geen account, maak of importeer een account",
         "contacts_dig": {
-            "select_placeholder":"Selecteer alstublieft"
+            "select_placeholder":"Kies alstublieft"
         },
         "confirm_dia": {
             "title":"Bevestig alstublieft",
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Voer uw wachtwoord in"
         },
         "msg_info": {
-            "decrypt_err":"Portefeuille parseren mislukt, mogelijk een wachtwoordfout",
-            "amount_zero":"Onvoldoende saldo om door te gaan",
-            "address_null":"Voer alstublieft het account in",
-            "address_err":"Inkomend adresformaat is illegaal",
-            "send_success":"Stuur succes",
-            "send_error":"Transactie mislukt: controleer of er voldoende saldo en mijnwerkerskosten zijn"
+            "decrypt_err":"Portefeuille parseren mislukt, dit kan een wachtwoordfout zijn",
+            "amount_zero":"Onvoldoende saldo, kan niet doorgaan",
+            "address_null":"Voer het account van de andere partij in",
+            "address_err":"Het formaat van het overgedragen adres is ongeldig.",
+            "send_success":"Verzonden",
+            "send_error":"Transactie mislukt: controleer of er voldoende saldo en mineerkosten zijn"
         }
     },
     "page_account": {
-        "transfer_log":"Transactiegeschiedenis",
+        "transfer_log":"Transactierecord",
         "transfer_log_null":"Geen transactiegeschiedenis",
         "active_icon": {
-            "go_transfer":"Start overdracht",
+            "go_transfer":"Start een overdracht",
             "import_keystore":"Accountbestand",
             "qrcode":"QR-code"
         },
@@ -84,10 +84,10 @@
             "tit":"Transactie informatie",
             "block_hash":"Transactienummer",
             "status":"staat",
-            "from":"Stuur geld partij",
+            "from":"Het verzenden van een feestje",
             "to":"begunstigde",
             "amount":"geld",
-            "data":"De gegevens",
+            "data":"gegevens",
             "send_time":"Het verzenden van tijd",
             "mac_time":"Belangrijkste netwerk tijd"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adres is gekopieerd",
-            "key_copy_success":"Succesvol gekopieerd"
+            "key_copy_success":"Succesvolle kopie"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Maak een account aan",
             "backup_tit":"Maak een back-up van uw nieuwe account",
-            "create_tag":"Account naam",
+            "create_tag":"Account opmerking",
             "create_pwd":"Wachtwoord instellen",
             "create_repwd":"Bevestig wachtwoord",
-            "placeholder_tag":"Stel de accountnaam in",
-            "placeholder_pwd":"Stel uw wachtwoord in",
+            "placeholder_tag":"Stel de accountnotitienaam in",
+            "placeholder_pwd":"Stel het wachtwoord van uw account in",
             "placeholder_repwd":"Bevestig het wachtwoord van je account",
-            "strong_password":"Voer een wachtwoord in van minimaal 8 cijfers",
-            "account_address":"rekening",
-            "account_privateKey":"Privésleutel",
-            "account_download_keystore":"Download het accountbestand"
+            
+            
+            "account_download_keystore":"Download het accountbestand",
+
+            "validate_tag":"Voer de accountnotitienaam in",
+            "validate_tag_length":"Memo-naam mag niet langer zijn dan 8 tekens",
+
+            "validate_password":"Voer het wachtwoord in dat u heeft ingesteld",
+            "validate_re_password":"Voer het wachtwoord dat u opnieuw hebt ingesteld opnieuw in",
+            "validate_strong_password":"Voer een wachtwoord in van minimaal 8 cijfers",
+            "validate_password_length":"Inconsistent wachtwoord twee keer ingevoerd",
+
+            "create_success":"Met succes gemaakt",
+            "create_success_des":"Bewaar uw accountbestand en deel het met niemand!"
         },
         "import_dia": {
             "tit":"Account importeren",    
             "placeholder_keystore":"Sleep het accountbestand hierheen",
-            "create_tag":"Account naam",
-            "placeholder_tag":"Stel de accountnaam in"
+            "create_tag":"Account opmerking",
+            "placeholder_tag":"Stel de accountnotitienaam in",
+
+            "validate_tag":"Voer de accountnotitienaam in",
+            "validate_tag_length":"Memo-naam mag niet langer zijn dan 8 tekens",
+            "validate_enter_keystore":"Importeer eerst het accountbestand",
+            "validate_error_keystore":"Accountimport mislukt, mogelijk accountfout",
+            "imported_account_success":"Succesvol geïmporteerd",
+            "exist":"Dit account bestaat al, de notitie is",
+            "keystore_error":"fout:",
+            "imported_success":"Bestand met succes importeren"
         },
         "remove_dia": {
             "tit":"Weet je zeker dat je het wilt verwijderen?",
             "remove_confrim":"Ik ben zeker om te verwijderen",
-            "backup":"Let op de back-up van dit account om schade aan eigendommen te voorkomen",
+            "backup":"Let op de back-up van dit account om schade aan eigendommen te voorkomen.",
             "input_pwd":"wachtwoord",
-            "placeholder_pwd":"Voer het wachtwoord in voor dit account"
-        },
-        "msg_info": {
-            "exist":"Dit account bestaat al, de naam is",
-            "enter_password":"Voer uw wachtwoord in",
-            "incons_password":"Het wachtwoord dat tweemaal is ingevoerd, is inconsistent",
-            "error":"fout:",
-            "imported_success":"Bestand met succes importeren",
-            "imported_account_success":"Met succes geïmporteerd",
-            "enter_private":"Voer de sleutel in",
-            "error_keystore":"Importeren van account mislukt, dit kan een accountbestandfout zijn",
-            "enter_keystore":"Importeer eerst het accountbestand",
-            "error_password":"Het importeren van een account is mislukt, dit kan een verkeerd wachtwoord zijn",
-            "remove_success":"Met succes verwijderd",
-            "create_success":"Met succes gemaakt",
-            "save":"Bewaar uw accountbestand en deel het met niemand!"
+            "placeholder_pwd":"Voer het wachtwoord in voor dit account",
+            "validate_password":"Voer het wachtwoord voor het account in",
+            "remove_success":"Succesvol verwijderd"
         }
     }
 }

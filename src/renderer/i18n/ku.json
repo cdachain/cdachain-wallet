@@ -1,8 +1,8 @@
 {
     "confirm":"Pejirandin",
-    "cancel":"Daxistinê",
+    "cancel":"Cancel",
     "dialog_tit":"Bêguman",
-    "close":"Girtin",
+    "close":"Close",
     "confirm_you_active":"Ji kerema xwe operasyonê xwe bipejirîne",
     "unit": {
         "czr":"CZR"
@@ -11,12 +11,12 @@
         "home":"Home",
         "transfer":"Transfer",
         "contacts":"Têkilî",
-        "setting":"Mîhengên",
+        "setting":"Setting",
         "total":"Tevahî",
         "testnet":"Torê testê"
     },
     "page_setting": {
-        "tit":"Mîhengên",
+        "tit":"Setting",
         "lang":"Ziman",
         "select":"Ji kerema xwe hilbijêrin"
     },
@@ -34,23 +34,23 @@
             "title":"Tu derxistin"
         },
         "msg_info": {
-            "no_tag":"Ji kerema xwe navê navnîşê hesab bike",
+            "no_tag":"Ji kerema xwe ji bîr nekin",
             "no_address":"Ji kerema xwe navnîşana hesabê xwe binivîse",
-            "valid_address":"Navnîşa têkiliyê neqanûn e",
+            "valid_address":"Navnîşa têkiliyê ne qanûn e",
             "exist":"Têkilî niha heye,"
         }
     },
     "page_transfer": {
         "from_address":"Veguherînin",
-        "to_address":"Li",
+        "to_address":"Transfer",
         "amount":"Amount",
         "send_all":"Hemî bişînin",
-        "data":"Dîrok",
+        "data":"Daneyên",
         "data_placeholder":"Daneyên hexadecimal",
-        "fees":"Fees",
+        "fees":"Xerca Harmendiyê",
         "total":"Tevahî",
         "select":"Ji kerema xwe hilbijêrin",
-        "no_account_info":"Hesab nîne, kerema xwe çêbikin an hesabê bikirse",
+        "no_account_info":"Hê hesab nehatiye dayîn, kerema xwe çêbikin yan hesab bike",
         "contacts_dig": {
             "select_placeholder":"Ji kerema xwe hilbijêrin"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Ji kerema xwe şîfreya xwe binivîse"
         },
         "msg_info": {
-            "decrypt_err":"Parsing failed, dibe ku çewtiyek şîfre be",
-            "amount_zero":"Bêguman ne hêsantir berdewam dike",
-            "address_null":"Ji kerema xwe re hesab bike",
-            "address_err":"Forma adresa neyê qanûn e",
-            "send_success":"Serkeftî bişînin",
-            "send_error":"Veguhastin têkelî: Ji kerema xwe hebe ku heger heya heqê heqê û heqê minerek hebe"
+            "decrypt_err":"Parsing failed, ew dibe ku çewtiyek şîfre be",
+            "amount_zero":"Bînavê nayê, nikarin berdewam bikin",
+            "address_null":"Ji kerema xwe re hesabê partiya din",
+            "address_err":"Forma şîfreya veguhestinê ne çewt e.",
+            "send_success":"Serkeftî şandin",
+            "send_error":"Veguhastin têkelî: ger ji kerema xwe hebe ku heqê heqê heqê û heqê minerî ye"
         }
     },
     "page_account": {
-        "transfer_log":"Dîroka danûstendinê",
+        "transfer_log":"Qeydkirina Transaction",
         "transfer_log_null":"Dîroka danûstandinê tune",
         "active_icon": {
-            "go_transfer":"Veguherîna destpêkirinê",
+            "go_transfer":"Destûra veguherînê",
             "import_keystore":"Pelê hesab bike",
             "qrcode":"QR code"
         },
@@ -83,9 +83,9 @@
         "dia_tx":{
             "tit":"Agahdariya danûstendinê",
             "block_hash":"Hejmara Transaction",
-            "status":"Status",
-            "from":"Sender",
-            "to":"Receiver",
+            "status":"Dewlet",
+            "from":"Partiya şandin",
+            "to":"Payee",
             "amount":"Amount",
             "data":"Daneyên",
             "send_time":"Wext şandin",
@@ -93,12 +93,12 @@
         },
         "keystore": {
             "tit":"Pelê wallet",
-            "copy":"Duplicate",
+            "copy":"Copy",
             "download":"Pelê wallet hilbijêre"
         },
         "msg_info": {
             "ads_copy_success":"Navnîşan qeydkirî ye",
-            "key_copy_success":"Serkeftî kopî kirin"
+            "key_copy_success":"Kopiyek serkeftî"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Hesab bike",
             "backup_tit":"Vegerînek nû ya nû bike",
-            "create_tag":"Navê navê",
+            "create_tag":"Navnîşa Hesabê",
             "create_pwd":"Şîfreya xwe bişîne",
             "create_repwd":"Şîfreya piştrast bikin",
-            "placeholder_tag":"Ji kerema xwe navê navnîşan bigire",
+            "placeholder_tag":"Ji kerema xwe navê navnîşa hesabê binivîse",
             "placeholder_pwd":"Ji kerema xwe şîfreyek hesab bike",
             "placeholder_repwd":"Ji kerema xwe şîfreya hesabê piştrast bikin",
-            "strong_password":"Şîfreyek herî kêm 8 hejmara navnîşan binivîse",
-            "account_address":"Hesabê",
-            "account_privateKey":"Key key",
-            "account_download_keystore":"Pelê hesab bike"
+            
+            
+            "account_download_keystore":"Pelê hesab bike",
+
+            "validate_tag":"Ji kerema xwe navê navnîşa hesabê xwe binivîse",
+            "validate_tag_length":"Navê navnîşê navnîşê 8 ji hêla mezintirîn ne.",
+
+            "validate_password":"Ji kerema xwe hûn şîfreya xwe binivîse",
+            "validate_re_password":"Ji kerema xwe hûn şîfreya xwe binivîse ku hûn dîsa careke din bikin",
+            "validate_strong_password":"Ji kerema xwe şîfreyek herî kêm 8 hejmara navnîşan bike",
+            "validate_password_length":"Şîfreyek nehevkirî du caran ket",
+
+            "create_success":"Serkeftî çêkir",
+            "create_success_des":"Ji kerema xwe pelê xwe re tomar bike û ne bi kesek re parve bike!"
         },
         "import_dia": {
             "tit":"Hesabê Import",    
             "placeholder_keystore":"Ji kerema xwe vir pelê hesab bike",
-            "create_tag":"Navê navê",
-            "placeholder_tag":"Ji kerema xwe navê navnîşan bigire"
+            "create_tag":"Navnîşa Hesabê",
+            "placeholder_tag":"Ji kerema xwe navê navnîşa hesabê binivîse",
+
+            "validate_tag":"Ji kerema xwe navê navnîşa hesabê xwe binivîse",
+            "validate_tag_length":"Navê navnîşê navnîşê 8 ji hêla mezintirîn ne.",
+            "validate_enter_keystore":"Ji kerema xwe pelê yekem hesab bike",
+            "validate_error_keystore":"Import import failed, dibe ku çewtiyek pelê hesab bike",
+            "imported_account_success":"Bi serkeftî veguhestin",
+            "exist":"Ev hesab jixwe heye, ev e",
+            "keystore_error":"Çewtiya",
+            "imported_success":"Import file successfully"
         },
         "remove_dia": {
             "tit":"Ma hûn bawer dikin ku hûn dixwazin jêbirin?",
             "remove_confrim":"Ez bawer dikim ku jêbirin",
-            "backup":"Ji kerema xwe veguhastina vê hesabê binivîse ku ji ber zirarê zirarê bistînin",
+            "backup":"Ji kerema xwe veguhestina vê hesabê bikişîne ku ji ber zirarê zirarê bistînin.",
             "input_pwd":"Şîfreya",
-            "placeholder_pwd":"Ji kerema xwe ji vê hesabê şîfreya xwe binivîse"
-        },
-        "msg_info": {
-            "exist":"Ev hesab jixwe heye, navê wî ye",
-            "enter_password":"Ji kerema xwe şîfreya xwe binivîse",
-            "incons_password":"Şîfreya du caran têkildar e",
-            "error":"Çewtiya",
-            "imported_success":"Import file successfully",
-            "imported_account_success":"Girêdanê serkeftî",
-            "enter_private":"Ji kerema xwe re kilît bike",
-            "error_keystore":"Ji bo hesabê firotanê nekarin, dibe ku çewtiyek pelê hesab be",
-            "enter_keystore":"Ji kerema xwe pelê yekem hesab bike",
-            "error_password":"Ji bo hesabê veguhastin, dibe ku şîfreya çewt e",
-            "remove_success":"Serkeftî hat",
-            "create_success":"Serkeftî çêkir",
-            "save":"Ji kerema xwe pelê xwe re tomar bike û ne bi kesek re parve bike!"
+            "placeholder_pwd":"Ji kerema xwe ji vê hesabê şîfreya xwe binivîse",
+            "validate_password":"Ji kerema xwe ji hesabê şîfreya xwe binivîse",
+            "remove_success":"Serkeftî jêbirin"
         }
     }
 }

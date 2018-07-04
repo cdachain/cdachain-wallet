@@ -34,8 +34,8 @@
             "title":"Odstraňujete"
         },
         "msg_info": {
-            "no_tag":"Zadajte názov účtu",
-            "no_address":"Zadajte adresu účtu",
+            "no_tag":"Zadajte poznámku k účtu",
+            "no_address":"Zadajte adresu svojho účtu",
             "valid_address":"Adresa kontaktu je neplatná",
             "exist":"Kontakt už existuje,"
         }
@@ -45,12 +45,12 @@
         "to_address":"do",
         "amount":"peniaze",
         "send_all":"Odoslať všetko",
-        "data":"dátum",
+        "data":"údaje",
         "data_placeholder":"Hexadecimálne údaje",
-        "fees":"poplatky",
+        "fees":"Poplatok za spracovanie",
         "total":"totálnej",
         "select":"Vyberte prosím",
-        "no_account_info":"Žiadny účet, vytvorte alebo importujte účet",
+        "no_account_info":"Zatiaľ nemáte účet, vytvorte alebo importujte účet",
         "contacts_dig": {
             "select_placeholder":"Vyberte prosím"
         },
@@ -60,19 +60,19 @@
             "enter_passworld_place":"Zadajte svoje heslo"
         },
         "msg_info": {
-            "decrypt_err":"Parsovanie služby Peňaženka zlyhalo, môže to byť chyba hesla",
-            "amount_zero":"Nepokračujte v nedostatku",
-            "address_null":"Zadajte účet",
-            "address_err":"Formát prichádzajúcej adresy je nezákonný",
-            "send_success":"Poslať úspech",
-            "send_error":"Transakcia zlyhala: skontrolujte, či je dostatočný zostatok a horník"
+            "decrypt_err":"Analýza peňaženky zlyhala, môže to byť chyba v hesle",
+            "amount_zero":"Nedostatočný zostatok, nemožno pokračovať",
+            "address_null":"Zadajte účet druhej strany",
+            "address_err":"Formát prenesenej adresy je neplatný.",
+            "send_success":"Úspešne odoslaná",
+            "send_error":"Transakcia zlyhala: skontrolujte, či existuje dostatočný zostatok a poplatok za horník"
         }
     },
     "page_account": {
-        "transfer_log":"História transakcií",
+        "transfer_log":"Transakčný záznam",
         "transfer_log_null":"Žiadna história transakcií",
         "active_icon": {
-            "go_transfer":"Spustenie prenosu",
+            "go_transfer":"Spustite prevod",
             "import_keystore":"Súbor účtu",
             "qrcode":"QR kód"
         },
@@ -84,10 +84,10 @@
             "tit":"Transakčné informácie",
             "block_hash":"Číslo transakcie",
             "status":"stáť",
-            "from":"Poslať peniaze párty",
+            "from":"Vysielajúca strana",
             "to":"veriteľ",
             "amount":"peniaze",
-            "data":"Údaje",
+            "data":"údaje",
             "send_time":"Čas odoslania",
             "mac_time":"Hlavný čas siete"
         },
@@ -98,7 +98,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Adresa bola skopírovaná",
-            "key_copy_success":"Úspešné skopírovanie"
+            "key_copy_success":"Úspešná kópia"
         }
     },
     "page_home": {
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit":"Vytvorte si účet",
             "backup_tit":"Zálohujte nový účet",
-            "create_tag":"Názov účtu",
+            "create_tag":"Poznámka k účtu",
             "create_pwd":"Nastavte heslo",
             "create_repwd":"Potvrďte heslo",
-            "placeholder_tag":"Zadajte názov účtu",
-            "placeholder_pwd":"Nastavte heslo účtu",
+            "placeholder_tag":"Nastavte prosím názov poznámky účtu",
+            "placeholder_pwd":"Prosím nastavte heslo účtu",
             "placeholder_repwd":"Potvrďte heslo účtu",
-            "strong_password":"Zadajte heslo s minimálne 8 číslicami",
-            "account_address":"účet",
-            "account_privateKey":"Súkromný kľúč",
-            "account_download_keystore":"Stiahnite si súbor účtu"
+            
+            
+            "account_download_keystore":"Stiahnite si súbor účtu",
+
+            "validate_tag":"Zadajte názov účtu",
+            "validate_tag_length":"Názov mena mena nemôže byť väčší ako 8 znakov.",
+
+            "validate_password":"Zadajte heslo, ktoré ste nastavili",
+            "validate_re_password":"Zadajte znova zadané heslo",
+            "validate_strong_password":"Zadajte heslo s minimálne 8 číslicami",
+            "validate_password_length":"Nekonzistentné zadanie hesla dvakrát",
+
+            "create_success":"Vytvorené úspešne",
+            "create_success_des":"Uložte súbor svojho účtu a neskúšajte ho nikomu!"
         },
         "import_dia": {
             "tit":"Importný účet",    
             "placeholder_keystore":"Prevezmite súbor účtu tu",
-            "create_tag":"Názov účtu",
-            "placeholder_tag":"Zadajte názov účtu"
+            "create_tag":"Poznámka k účtu",
+            "placeholder_tag":"Nastavte prosím názov poznámky účtu",
+
+            "validate_tag":"Zadajte názov účtu",
+            "validate_tag_length":"Názov mena mena nemôže byť väčší ako 8 znakov.",
+            "validate_enter_keystore":"Najprv import súbor súboru",
+            "validate_error_keystore":"Import importu účtu zlyhal, môže to byť chyba súboru účtu",
+            "imported_account_success":"Úspešne importované",
+            "exist":"Tento účet už existuje, je to poznámka",
+            "keystore_error":"chyba:",
+            "imported_success":"Importovať súbor úspešne"
         },
         "remove_dia": {
             "tit":"Naozaj chcete odstrániť?",
             "remove_confrim":"Určite odstrániť",
-            "backup":"Nezabudnite si zálohovať tento účet, aby ste predišli poškodeniu majetku",
+            "backup":"Dbajte na zálohu tohto účtu, aby ste predišli poškodeniu majetku.",
             "input_pwd":"heslo",
-            "placeholder_pwd":"Zadajte heslo pre tento účet"
-        },
-        "msg_info": {
-            "exist":"Tento účet už existuje, názov je",
-            "enter_password":"Zadajte svoje heslo",
-            "incons_password":"Zadané dvojité heslo je nekonzistentné",
-            "error":"chyba:",
-            "imported_success":"Importovať súbor úspešne",
-            "imported_account_success":"Úspešne importované",
-            "enter_private":"Zadajte kľúč",
-            "error_keystore":"Nepodarilo sa importovať účet, môže to byť chyba súboru účtu",
-            "enter_keystore":"Najprv import súbor súboru",
-            "error_password":"Nepodarilo sa importovať účet, môže to byť nesprávne heslo",
-            "remove_success":"Úspešne odstránené",
-            "create_success":"Vytvorené úspešne",
-            "save":"Uložte súbor svojho účtu a neskúšajte ho nikomu!"
+            "placeholder_pwd":"Zadajte heslo pre tento účet",
+            "validate_password":"Zadajte heslo pre účet",
+            "remove_success":"Úspešne odstránené"
         }
     }
 }

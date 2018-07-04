@@ -34,7 +34,7 @@
             "title": "您正在移除"
         },
         "msg_info": {
-            "no_tag": "请输入账户名称",
+            "no_tag": "请输入账户备注",
             "no_address": "请输入账户地址",
             "valid_address": "联系人的地址不合法",
             "exist": "联系人已经存在,"
@@ -108,44 +108,50 @@
         "create_dia": {
             "create_tit": "创建账户",
             "backup_tit": "备份您的新账户",
-            "create_tag": "账户名称",
+            "create_tag": "账户备注",
             "create_pwd": "设置密码",
             "create_repwd": "确认密码",
-            "placeholder_tag": "请设置账户名称",
+            "placeholder_tag": "请设置账户备注名",
             "placeholder_pwd": "请设置账户密码",
             "placeholder_repwd": "请确认账户密码",
-            "strong_password": "输入一个至少8位的密码",
-            "account_address": "账户",
-            "account_privateKey": "私钥",
-            "account_download_keystore": "下载账户文件"
+            
+            
+            "account_download_keystore": "下载账户文件",
+
+            "validate_tag": "请输入账户备注名",
+            "validate_tag_length": "备注名长度不能大于8个字符",
+
+            "validate_password": "请输入您设置的密码",
+            "validate_re_password": "请再次输入您设置的密码",
+            "validate_strong_password": "请输入一个至少8位的密码",
+            "validate_password_length": "两次输入的密码不一致",
+
+            "create_success": "创建成功",
+            "create_success_des": "请保存你的账户文件，不要分享给任何人！"
         },
         "import_dia": {
             "tit": "导入账户",    
             "placeholder_keystore": "请将账户文件拖入此处",
-            "create_tag": "账户名称",
-            "placeholder_tag": "请设置账户名称"
+            "create_tag": "账户备注",
+            "placeholder_tag": "请设置账户备注名",
+
+            "validate_tag": "请输入账户备注名",
+            "validate_tag_length": "备注名长度不能大于8个字符",
+            "validate_enter_keystore": "请先导入账户文件",
+            "validate_error_keystore": "账户导入失败，可能是账户文件错误",
+            "imported_account_success": "导入成功",
+            "exist": "此账户已经存在,备注是",
+            "keystore_error": "错误：",
+            "imported_success":"导入文件成功"
         },
         "remove_dia": {
             "tit": "你确定要移除吗？",
             "remove_confrim": "我确定移除",
             "backup": "请注意此账号的备份，避免财产损失",
             "input_pwd":"密码",
-            "placeholder_pwd":"请输入此账户的密码"
-        },
-        "msg_info": {
-            "exist": "此账户已经存在,名称是",
-            "enter_password": "请输入密码",
-            "incons_password": "两次输入的密码不一致",
-            "error": "错误：",
-            "imported_success": "导入文件成功",
-            "imported_account_success": "导入成功",
-            "enter_private": "请输入密钥",
-            "error_keystore": "账户导入失败，可能是账户文件错误",
-            "enter_keystore": "请先导入账户文件",
-            "error_password": "账户导入失败，可能是密码错误",
-            "remove_success": "移除成功",
-            "create_success": "创建成功",
-            "save": "请保存你的账户文件，不要分享给任何人！"
+            "placeholder_pwd":"请输入此账户的密码",
+            "validate_password": "请输入账户的密码",
+            "remove_success": "移除成功"
         }
     }
 }
