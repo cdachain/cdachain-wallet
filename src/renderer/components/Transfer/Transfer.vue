@@ -18,12 +18,12 @@
                 </el-form-item>
 
                 <el-form-item :label="$t('page_transfer.amount')">
-                    <el-input v-model="amount" min="0" :max="accountInfo.balance" class="width-180"></el-input>
+                    <el-input v-model="amount" :min="0" :max="accountInfo.balance" class="width-180"></el-input>
                     <span>{{$t('unit.czr')}}</span>
                     <el-checkbox v-model="checkedAll" @change='sendAllAmount' class="send-all-assets">
                         {{$t('page_transfer.send_all')}}&nbsp;
                         <span class="czr-txt-muted">
-                            (&nbsp;{{accountInfo.balance | toEthVal}} {{$t('unit.czr')}}&nbsp;)
+                            (&nbsp;{{accountInfo.balance | toCzrVal}} {{$t('unit.czr')}}&nbsp;)
                         </span>
 
                     </el-checkbox>
@@ -256,10 +256,9 @@ export default {
         }
     },
     filters: {
-        toEthVal: function(val) {
-            // let tempVal = self.$czr.utils.fromWei(val.toString(), "czr");
+        toCzrVal: function(val) {
             let tempVal = self.$czr.utils.fromWei(val, "czr");
-            return tempVal; //TODO Keep 4 decimal places
+            return tempVal; 
         }
     }
 };

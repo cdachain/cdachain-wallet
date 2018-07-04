@@ -145,7 +145,7 @@
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.amount')}}</strong>
-                    <span class="tx-item-info">{{transactionInfo.amount| toCZRVal}} {{ $t('unit.czr') }}</span>
+                    <span class="tx-item-info">{{transactionInfo.amount| toCZRFull}} {{ $t('unit.czr') }}</span>
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.data')}}</strong>
@@ -540,8 +540,24 @@ export default {
     },
     filters: {
         toCZRVal: function(val) {
+            if (!val) {
+                return 0;
+            }
             let tempVal = self.$czr.utils.fromWei(val, "czr");
-            return tempVal; //TODO Keep 4 decimal places
+            var reg = /(\d+(?:\.)?)(\d{0,4})/;
+            var regAry = reg.exec(tempVal);
+            var integer = regAry[1];
+            var decimal = regAry[2];
+            if (decimal) {
+                while (decimal.length < 4) {
+                    decimal += "0";
+                }
+            }
+            return integer + decimal; //TODO Keep 4 decimal places
+        },
+        toCZRFull:function(val){
+            let tempVal = self.$czr.utils.fromWei(val, "czr");
+            return tempVal; 
         },
         toDate: function(val) {
             if (val == "0" || !val) {
@@ -692,6 +708,7 @@ export default {
 .transfer-log .by-address {
     width: 100%;
     color: #9a9c9d;
+    width: 64ch;
     table-layout: fixed;
     word-break: break-all;
     overflow: hidden;

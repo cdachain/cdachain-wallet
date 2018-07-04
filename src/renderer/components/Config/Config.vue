@@ -242,15 +242,17 @@ export default {
     },
     guardNode(ls, nodePath) {
       var self = this;
-      // ls.on("exit", function() {
-      //   ls = spawn(path.join(nodePath), [
-      //     "--daemon",
-      //     "--rpc_enable",
-      //     "--rpc_enable_control"
-      //   ]);
-      //   sessionStorage.setItem("CanonChainPid", ls.pid);
-      //   self.guardNode(ls, nodePath);
-      // });
+      console.log("守护中")
+      ls.on("exit", function() {
+        ls = spawn(path.join(nodePath), [
+          "--daemon",
+          "--rpc_enable",
+          "--rpc_enable_control"
+        ]);
+        sessionStorage.setItem("CanonChainPid", ls.pid);
+        console.log("重启节点")
+        self.guardNode(ls, nodePath);
+      });
     }
   }
 };

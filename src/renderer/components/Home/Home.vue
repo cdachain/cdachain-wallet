@@ -116,6 +116,7 @@ const fs = require("fs");
 import { setInterval, clearInterval } from "timers";
 const { spawn, spawnSync } = require("child_process");
 let self = null;
+
 export default {
     name: "Bodyer",
     data() {
@@ -128,7 +129,9 @@ export default {
             database: [],
             createInfo: {},
             importInfo: {},
-            removeInfo: {}
+            removeInfo: {},
+            intervalId: null,
+            getAccountTimer: null
         };
     },
     created() {
@@ -140,11 +143,8 @@ export default {
             self.initDatabase();
         }, 1500);
 
-        //getAccounts();
+        //获取账号信息
         self.getAccounts();
-        this.getAccountTimer = setInterval(() => {
-            self.getAccounts();
-        }, 3500);
     },
     computed: {},
     beforeDestroy() {
@@ -397,6 +397,11 @@ export default {
         // Remove End
 
         //get Account start
+        runAccountsTimer() {
+            self.getAccountTimer = setTimeout(function() {
+                self.getAccounts();
+            }, 3500);
+        },
         getAccountsBalances(accountAry) {
             self.$czr.request
                 .accountsBalances(accountAry)
@@ -412,6 +417,7 @@ export default {
                             .assign({ balance: parseInt(data[acc]["balance"]) })
                             .write();
                     }
+                    self.runAccountsTimer();
                 });
         },
         getAccounts() {
@@ -466,9 +472,20 @@ export default {
     },
     filters: {
         toCzrVal: function(val) {
+            if (!val) {
+                return 0;
+            }
             let tempVal = self.$czr.utils.fromWei(val, "czr");
-            return tempVal; //TODO Keep 4 decimal places
-            // return 2222;
+            var reg = /(\d+(?:\.)?)(\d{0,4})/;
+            var regAry = reg.exec(tempVal);
+            var integer = regAry[1];
+            var decimal = regAry[2];
+            if (decimal) {
+                while (decimal.length < 4) {
+                    decimal += "0";
+                }
+            }
+            return integer + decimal; //TODO Keep 4 decimal places
         }
     }
 };
