@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Translokiĝi",
-        "to_address":"Translokigo",
+        "from_address":"Sendante partio",
+        "to_address":"Pagu",
         "amount":"Kvanto",
         "send_all":"Sendu ĉion",
         "data":"Datumoj",
@@ -52,6 +52,7 @@
         "select":"Bonvolu elekti",
         "no_account_info":"Ankoraŭ neniu konton, bonvolu krei aŭ importi konton",
         "contacts_dig": {
+            "title":"Elektu kontaktan konton",
             "select_placeholder":"Bonvolu elekti"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Bonvolu enmeti vian pasvorton"
         },
         "msg_info": {
-            "decrypt_err":"Malkrapa analizo malsukcesis, ĝi eble povas esti pasvorta eraro",
-            "amount_zero":"Ne sufiĉa ekvilibro, nekapabla daŭrigi",
             "address_null":"Bonvolu eniri la konton de la alia partio",
+            "balance_zero":"Ne sufiĉa ekvilibro, nekapabla daŭrigi",
+            "amount_zero":"Transdono devas esti pli granda ol 0",
+            "amount_error":"Bonvolu enmeti leĝan kvanton",
             "address_err":"La formato de la translokita adreso estas nevalida.",
+
+            "decrypt_err":"Malkrapa analizo malsukcesis, ĝi eble povas esti pasvorta eraro",
+            
+            
+            
+            
             "send_success":"Sukcese sendis",
             "send_error":"Transakcio malsukcesis: bonvolu kontroli ĉu ekzistas sufiĉa ekvilibro kaj ministo-kotizo"
         }

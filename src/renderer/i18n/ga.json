@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Aistriú amach",
-        "to_address":"Aistriú",
+        "from_address":"Páirtí seolta",
+        "to_address":"Íocaíocht",
         "amount":"Méid",
         "send_all":"Seol go léir",
         "data":"Sonraí",
@@ -52,6 +52,7 @@
         "select":"Roghnaigh",
         "no_account_info":"Níl cuntas agat go fóill, déan cuntas a chruthú nó a iompórtáil",
         "contacts_dig": {
+            "title":"Roghnaigh cuntas teagmhála",
             "select_placeholder":"Roghnaigh"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Cuir isteach do phasfhocal"
         },
         "msg_info": {
-            "decrypt_err":"Theip ar parsáil sparán, d'fhéadfadh sé gur earráid focal faire é",
-            "amount_zero":"Comhardú neamhleor, in ann leanúint ar aghaidh",
             "address_null":"Cuir isteach cuntas an pháirtí eile",
+            "balance_zero":"Comhardú neamhleor, in ann leanúint ar aghaidh",
+            "amount_zero":"Ní mór an méid aistrithe a bheith níos mó ná 0",
+            "amount_error":"Cuir isteach méid idirbhearta dlíthiúil",
             "address_err":"Tá formáid an seoladh aistrithe neamhbhailí.",
+
+            "decrypt_err":"Theip ar parsáil sparán, d'fhéadfadh sé gur earráid focal faire é",
+            
+            
+            
+            
             "send_success":"Seoladh go rathúil",
             "send_error":"Theip ar an Idirbheart: seiceáil an bhfuil dóthain cothromaíochta agus táille miner ann"
         }

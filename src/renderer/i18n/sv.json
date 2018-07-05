@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Överför",
-        "to_address":"till",
+        "from_address":"Sändande parti",
+        "to_address":"Betalningsmottagare",
         "amount":"pengar",
         "send_all":"Skicka allt",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Vänligen välj",
         "no_account_info":"Inget konto än, var god skapa eller importera konto",
         "contacts_dig": {
+            "title":"Välj ett kontaktkonto",
             "select_placeholder":"Vänligen välj"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Vänligen ange ditt lösenord"
         },
         "msg_info": {
-            "decrypt_err":"Pappersparsning misslyckades, det kan vara ett lösenordsfel",
-            "amount_zero":"Otillräcklig balans, kan inte fortsätta",
             "address_null":"Vänligen ange den andra partens konto",
+            "balance_zero":"Otillräcklig balans, kan inte fortsätta",
+            "amount_zero":"Överföringsbeloppet måste vara större än 0",
+            "amount_error":"Ange ett juridiskt transaktionsbelopp",
             "address_err":"Formatet på den överförda adressen är ogiltig.",
+
+            "decrypt_err":"Pappersparsning misslyckades, det kan vara ett lösenordsfel",
+            
+            
+            
+            
             "send_success":"Skickas framgångsrikt",
             "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och gruvavgift"
         }

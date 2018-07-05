@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Übertragen Sie aus",
-        "to_address":"Übertragung",
+        "from_address":"Sendepartei",
+        "to_address":"Zahlungsempfänger",
         "amount":"Betrag",
         "send_all":"Sende alles",
         "data":"Daten",
@@ -52,6 +52,7 @@
         "select":"Bitte wählen",
         "no_account_info":"Noch kein Konto, bitte Konto erstellen oder importieren",
         "contacts_dig": {
+            "title":"Wählen Sie ein Kontaktkonto",
             "select_placeholder":"Bitte wählen"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Bitte geben Sie Ihr Passwort ein"
         },
         "msg_info": {
-            "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise liegt ein Kennwortfehler vor",
-            "amount_zero":"Unzureichendes Gleichgewicht, unfähig fortzufahren",
             "address_null":"Bitte geben Sie das Konto des anderen Teilnehmers ein",
+            "balance_zero":"Unzureichendes Gleichgewicht, unfähig fortzufahren",
+            "amount_zero":"Der Überweisungsbetrag muss größer als 0 sein",
+            "amount_error":"Bitte geben Sie einen legalen Transaktionsbetrag ein",
             "address_err":"Das Format der übertragenen Adresse ist ungültig.",
+
+            "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise liegt ein Kennwortfehler vor",
+            
+            
+            
+            
             "send_success":"Erfolgreich gesendet",
             "send_error":"Transaktion fehlgeschlagen: Bitte prüfen Sie, ob genügend Guthaben und Bergarbeitergebühr vorhanden sind"
         }

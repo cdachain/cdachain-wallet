@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transferați-vă",
-        "to_address":"în",
+        "from_address":"Trimite părții",
+        "to_address":"Payee",
         "amount":"bani",
         "send_all":"Trimiteți-le pe toate",
         "data":"date",
@@ -52,6 +52,7 @@
         "select":"Vă rugăm să alegeți",
         "no_account_info":"Nu aveți încă cont, vă rugăm să creați sau să importați un cont",
         "contacts_dig": {
+            "title":"Selectați un cont de contact",
             "select_placeholder":"Vă rugăm să alegeți"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Introduceți parola"
         },
         "msg_info": {
-            "decrypt_err":"Parcelarea parolei nu a reușit, poate fi o eroare de parolă",
-            "amount_zero":"Balanță insuficientă, imposibilitatea continuării",
             "address_null":"Introduceți contul celeilalte părți",
+            "balance_zero":"Balanță insuficientă, imposibilitatea continuării",
+            "amount_zero":"Suma transferului trebuie să fie mai mare de 0",
+            "amount_error":"Introduceți o sumă legată de tranzacție",
             "address_err":"Formatul adresei transferate este nevalid.",
+
+            "decrypt_err":"Parcelarea parolei nu a reușit, poate fi o eroare de parolă",
+            
+            
+            
+            
             "send_success":"Trimiteți cu succes",
             "send_error":"Tranzacția a eșuat: verificați dacă există un echilibru suficient și taxa de miner"
         }

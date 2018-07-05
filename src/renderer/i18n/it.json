@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Trasferire",
-        "to_address":"in",
+        "from_address":"Invio di festa",
+        "to_address":"beneficiario",
         "amount":"soldi",
         "send_all":"Invia tutto",
         "data":"dati",
@@ -52,6 +52,7 @@
         "select":"Per favore scegli",
         "no_account_info":"Nessun account ancora, crea o importa un account",
         "contacts_dig": {
+            "title":"Seleziona un account di contatto",
             "select_placeholder":"Per favore scegli"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Per favore inserisci la tua password"
         },
         "msg_info": {
-            "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe trattarsi di un errore della password",
-            "amount_zero":"Equilibrio insufficiente, incapace di continuare",
             "address_null":"Si prega di inserire l'account della controparte",
+            "balance_zero":"Equilibrio insufficiente, incapace di continuare",
+            "amount_zero":"L'importo del trasferimento deve essere maggiore di 0",
+            "amount_error":"Si prega di inserire un importo di transazione legale",
             "address_err":"Il formato dell'indirizzo trasferito non è valido.",
+
+            "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe trattarsi di un errore della password",
+            
+            
+            
+            
             "send_success":"Inviato con successo",
             "send_error":"Transazione fallita: si prega di verificare se vi è una quota sufficiente di equilibrio e minatore"
         }

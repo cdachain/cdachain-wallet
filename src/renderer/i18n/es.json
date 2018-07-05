@@ -1,6 +1,6 @@
 {
-    "confirm":"Confirmación",
-    "cancel":"Cancelación",
+    "confirm":"Confirmar",
+    "cancel":"Cancelar",
     "dialog_tit":"Prompt",
     "close":"Cerrar",
     "confirm_you_active":"Por favor confirme su operación",
@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transferir fuera",
-        "to_address":"Transferir",
+        "from_address":"Fiesta de envío",
+        "to_address":"Beneficiario",
         "amount":"Monto",
         "send_all":"Enviar todo",
         "data":"Datos",
@@ -52,6 +52,7 @@
         "select":"Por favor elija",
         "no_account_info":"Sin cuenta todavía, crea o importa una cuenta",
         "contacts_dig": {
+            "title":"Seleccione una cuenta de contacto",
             "select_placeholder":"Por favor elija"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Por favor ingrese su contraseña"
         },
         "msg_info": {
-            "decrypt_err":"El análisis de Wallet falló, puede ser un error de contraseña",
-            "amount_zero":"Equilibrio insuficiente, incapaz de continuar",
             "address_null":"Por favor ingrese la cuenta de la otra parte",
+            "balance_zero":"Equilibrio insuficiente, incapaz de continuar",
+            "amount_zero":"La cantidad de transferencia debe ser mayor que 0",
+            "amount_error":"Ingrese un monto de transacción legal",
             "address_err":"El formato de la dirección transferida no es válido.",
+
+            "decrypt_err":"El análisis de Wallet falló, puede ser un error de contraseña",
+            
+            
+            
+            
             "send_success":"Enviado con éxito",
             "send_error":"Transacción fallida: compruebe si hay saldo suficiente y comisión minera"
         }
@@ -87,7 +95,7 @@
             "from":"Fiesta de envío",
             "to":"Beneficiario",
             "amount":"Monto",
-            "data":"Los datos",
+            "data":"Datos",
             "send_time":"Tiempo de envío",
             "mac_time":"Hora de la red principal"
         },

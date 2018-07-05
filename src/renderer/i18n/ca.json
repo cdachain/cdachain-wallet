@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Trasllat",
-        "to_address":"Transferència",
+        "from_address":"Part enviadora",
+        "to_address":"Pagador",
         "amount":"Import",
         "send_all":"Envieu-ho tot",
         "data":"Dades",
@@ -52,6 +52,7 @@
         "select":"Trieu",
         "no_account_info":"Encara no teniu cap compte, creieu o importeu un compte",
         "contacts_dig": {
+            "title":"Seleccioneu un compte de contacte",
             "select_placeholder":"Trieu"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Introduïu la vostra contrasenya"
         },
         "msg_info": {
-            "decrypt_err":"L'anàlisi de la cartera ha fallat, pot ser un error de contrasenya",
-            "amount_zero":"Balanç insuficient, incapaç de continuar",
             "address_null":"Introduïu el compte de la tercera part",
+            "balance_zero":"Balanç insuficient, incapaç de continuar",
+            "amount_zero":"L'import de la transferència ha de ser superior a 0",
+            "amount_error":"Introduïu un import de transacció legal",
             "address_err":"El format de l'adreça transferida no és vàlida.",
+
+            "decrypt_err":"L'anàlisi de la cartera ha fallat, pot ser un error de contrasenya",
+            
+            
+            
+            
             "send_success":"S'ha enviat correctament",
             "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i una tarifa de minera"
         }

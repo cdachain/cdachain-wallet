@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Overdracht",
-        "to_address":"in",
+        "from_address":"Het verzenden van een feestje",
+        "to_address":"begunstigde",
         "amount":"geld",
         "send_all":"Stuur alles",
         "data":"gegevens",
@@ -52,6 +52,7 @@
         "select":"Kies alstublieft",
         "no_account_info":"Nog geen account, maak of importeer een account",
         "contacts_dig": {
+            "title":"Selecteer een contactaccount",
             "select_placeholder":"Kies alstublieft"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Voer uw wachtwoord in"
         },
         "msg_info": {
-            "decrypt_err":"Portefeuille parseren mislukt, dit kan een wachtwoordfout zijn",
-            "amount_zero":"Onvoldoende saldo, kan niet doorgaan",
             "address_null":"Voer het account van de andere partij in",
+            "balance_zero":"Onvoldoende saldo, kan niet doorgaan",
+            "amount_zero":"Overboeking moet groter zijn dan 0",
+            "amount_error":"Voer een wettelijk transactiebedrag in",
             "address_err":"Het formaat van het overgedragen adres is ongeldig.",
+
+            "decrypt_err":"Portefeuille parseren mislukt, dit kan een wachtwoordfout zijn",
+            
+            
+            
+            
             "send_success":"Verzonden",
             "send_error":"Transactie mislukt: controleer of er voldoende saldo en mineerkosten zijn"
         }

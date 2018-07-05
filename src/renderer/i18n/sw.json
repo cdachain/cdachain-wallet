@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Tuma",
-        "to_address":"Uhamisho",
+        "from_address":"Inatuma chama",
+        "to_address":"Payee",
         "amount":"Kiasi",
         "send_all":"Tuma yote",
         "data":"Takwimu",
@@ -52,6 +52,7 @@
         "select":"Tafadhali chagua",
         "no_account_info":"Hakuna akaunti bado, tafadhali unda au uingize akaunti",
         "contacts_dig": {
+            "title":"Chagua akaunti ya kuwasiliana",
             "select_placeholder":"Tafadhali chagua"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Tafadhali ingiza nenosiri lako"
         },
         "msg_info": {
-            "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
-            "amount_zero":"Usawa usio na ufanisi, hauwezi kuendelea",
             "address_null":"Tafadhali ingiza akaunti ya chama kingine",
+            "balance_zero":"Usawa usio na ufanisi, hauwezi kuendelea",
+            "amount_zero":"Kiasi cha uhamisho lazima kiwe zaidi ya 0",
+            "amount_error":"Tafadhali ingiza kiasi cha malipo ya kisheria",
             "address_err":"Faili ya anwani ya kuhamishiwa ni batili.",
+
+            "decrypt_err":"Mchanganyiko wa Wallet umeshindwa, inaweza kuwa kosa la nenosiri",
+            
+            
+            
+            
             "send_success":"Imepelekwa kwa ufanisi",
             "send_error":"Shughuli imeshindwa: tafadhali angalia ikiwa kuna usawa wa kutosha na ada ya mchimbaji"
         }

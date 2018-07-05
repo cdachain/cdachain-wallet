@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transfer aus",
-        "to_address":"Transfer",
+        "from_address":"Sending Party",
+        "to_address":"Payee",
         "amount":"Betrag",
         "send_all":"Schéckt all",
         "data":"Daten",
@@ -52,6 +52,7 @@
         "select":"Wielt weg",
         "no_account_info":"Kuckt nach kee Kont, erstellen oder Konto kaafen",
         "contacts_dig": {
+            "title":"Wielt e Konto Kont",
             "select_placeholder":"Wielt weg"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Gidd weg Äert Passwuert"
         },
         "msg_info": {
-            "decrypt_err":"Portemonnaie vun der Portemonnaie konnt net geännert ginn, et ass e Passwuertfehler",
-            "amount_zero":"Net genuch Waasserkapazitéit, konnt net weiderfueren",
             "address_null":"Gidd weg d'Kont vun der anerer Partei",
+            "balance_zero":"Net genuch Waasserkapazitéit, konnt net weiderfueren",
+            "amount_zero":"Transfermaart muss méi grouss sinn wéi 0",
+            "amount_error":"Gitt eng legal Transaktioun",
             "address_err":"De Format vun der iwwerschriwwe Adress ass ongëlteg.",
+
+            "decrypt_err":"Portemonnaie vun der Portemonnaie konnt net geännert ginn, et ass e Passwuertfehler",
+            
+            
+            
+            
             "send_success":"Réussite erfollegräich verschéckt",
             "send_error":"Transaktioun ofgeschalt: Iwwerpréift weg ob d'Ausbezuelung vun der Waasserstoff a Minerie bezuele muss"
         }

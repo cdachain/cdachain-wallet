@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Trasmissione",
-        "to_address":"Trasferimentu",
+        "from_address":"Mandatu",
+        "to_address":"Payee",
         "amount":"Amount",
         "send_all":"Mandate tuttu",
         "data":"Dati",
@@ -52,6 +52,7 @@
         "select":"Sceglite u vostru",
         "no_account_info":"Ùn avete micca scuntratu, create o impurtà importatu",
         "contacts_dig": {
+            "title":"Select a contact account",
             "select_placeholder":"Sceglite u vostru"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Per piacè inserite u vostru password"
         },
         "msg_info": {
-            "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
-            "amount_zero":"Un equilibru insufficient, incapaci di cuntinuà",
             "address_null":"Per piacè entre in contu di l'altru",
+            "balance_zero":"Un equilibru insufficient, incapaci di cuntinuà",
+            "amount_zero":"U cantu di trasferimentu deve esse più grande ca 0",
+            "amount_error":"Per piacè inserisce una quantità di transazzione legali",
             "address_err":"U formatu di l'indirizzu trasferitore hè invalidu.",
+
+            "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
+            
+            
+            
+            
             "send_success":"Mandatu bè",
             "send_error":"A transaczione falleva: cuntene qualchì bastanza di equilibriu è minore"
         }

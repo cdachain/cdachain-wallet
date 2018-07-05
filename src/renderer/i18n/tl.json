@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Maglipat ng out",
-        "to_address":"Maglipat",
+        "from_address":"Nagpapadala ng partido",
+        "to_address":"Pagbabayad",
         "amount":"Halaga",
         "send_all":"Ipadala lahat",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Mangyaring pumili",
         "no_account_info":"Wala pang account, mangyaring lumikha o mag-import ng account",
         "contacts_dig": {
+            "title":"Pumili ng contact account",
             "select_placeholder":"Mangyaring pumili"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Pakipasok ang iyong password"
         },
         "msg_info": {
-            "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring ito ay isang error sa password",
-            "amount_zero":"Hindi sapat ang balanse, hindi na magpatuloy",
             "address_null":"Mangyaring ipasok ang account ng iba pang partido",
+            "balance_zero":"Hindi sapat ang balanse, hindi na magpatuloy",
+            "amount_zero":"Ang halaga ng paglipat ay dapat na higit sa 0",
+            "amount_error":"Mangyaring magpasok ng isang legal na halaga ng transaksyon",
             "address_err":"Di-wasto ang format ng nailipat na address.",
+
+            "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring ito ay isang error sa password",
+            
+            
+            
+            
             "send_success":"Matagumpay na naipadala",
             "send_error":"Nabigo ang transaksyon: pakitingnan kung may sapat na balanse at bayad sa minero"
         }

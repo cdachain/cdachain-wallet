@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Pindahan",
-        "to_address":"Pemindahan",
+        "from_address":"Menghantar pesta",
+        "to_address":"Penerima",
         "amount":"Jumlah",
         "send_all":"Hantar semua",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Sila pilih",
         "no_account_info":"Tiada akaun lagi, sila buat atau import akaun",
         "contacts_dig": {
+            "title":"Pilih akaun kenalan",
             "select_placeholder":"Sila pilih"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Sila masukkan kata laluan anda"
         },
         "msg_info": {
-            "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
-            "amount_zero":"Baki tidak mencukupi, tidak dapat diteruskan",
             "address_null":"Sila masukkan akaun pihak lain",
+            "balance_zero":"Baki tidak mencukupi, tidak dapat diteruskan",
+            "amount_zero":"Jumlah pemindahan mesti melebihi 0",
+            "amount_error":"Sila masukkan jumlah urus niaga yang sah",
             "address_err":"Format alamat yang dipindahkan tidak sah.",
+
+            "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
+            
+            
+            
+            
             "send_success":"Berhasil dihantar",
             "send_error":"Urus niaga gagal: sila semak jika ada baki yang mencukupi dan yuran pelombong"
         }

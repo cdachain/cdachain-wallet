@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Whakawhiti atu",
-        "to_address":"Whakawhiti",
+        "from_address":"Tukuna te rōpū",
+        "to_address":"Payee",
         "amount":"Te nui",
         "send_all":"Tukua katoatia",
         "data":"Raraunga",
@@ -52,6 +52,7 @@
         "select":"Tono koa",
         "no_account_info":"Kaore he korero i nga wa katoa, he pai te waihanga, te kawemai ranei i te putea",
         "contacts_dig": {
+            "title":"Tīpakohia he pūkete whakapā",
             "select_placeholder":"Tono koa"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Tomohia koa to kupuhipa"
         },
         "msg_info": {
-            "decrypt_err":"I rahua te taraipa a te putea, he hapa kupuhipa pea",
-            "amount_zero":"He iti rawa te pauna, e kore e taea te haere tonu",
             "address_null":"Tēnā koa whakauruhia te pūkete a te rōpū atu",
+            "balance_zero":"He iti rawa te pauna, e kore e taea te haere tonu",
+            "amount_zero":"Ko te nui whakawhiti me nui atu i te 0",
+            "amount_error":"Tēnā koa whakauruhia he moni whakawhitinga ture",
             "address_err":"He muhu te whakatakotoranga o te wāhitau whakawhitinga.",
+
+            "decrypt_err":"I rahua te taraipa a te putea, he hapa kupuhipa pea",
+            
+            
+            
+            
             "send_success":"I tono angitu",
             "send_error":"I rahua te mahi: tirohia mehemea he nui te utu me te utu minita"
         }

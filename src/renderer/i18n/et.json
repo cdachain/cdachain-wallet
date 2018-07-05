@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Üle kanda",
-        "to_address":"Üleandmine",
+        "from_address":"Saatja",
+        "to_address":"Saaja",
         "amount":"Summa",
         "send_all":"Saada kõik",
         "data":"Andmed",
@@ -52,6 +52,7 @@
         "select":"Palun vali",
         "no_account_info":"Konto veel pole, palun looge või importige konto",
         "contacts_dig": {
+            "title":"Valige kontakti konto",
             "select_placeholder":"Palun vali"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Palun sisesta oma parool"
         },
         "msg_info": {
-            "decrypt_err":"Rahakoti parsing ebaõnnestus, võib see olla parooli viga",
-            "amount_zero":"Ebapiisav tasakaal, jätkamine pole võimalik",
             "address_null":"Palun sisestage teise poole konto",
+            "balance_zero":"Ebapiisav tasakaal, jätkamine pole võimalik",
+            "amount_zero":"Ülekande summa peab olema suurem kui 0",
+            "amount_error":"Palun sisestage õigusliku tehingu summa",
             "address_err":"Edastatud aadressi formaat on kehtetu.",
+
+            "decrypt_err":"Rahakoti parsing ebaõnnestus, võib see olla parooli viga",
+            
+            
+            
+            
             "send_success":"Edukalt saadetud",
             "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja mineraali tasu"
         }

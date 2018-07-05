@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Prenesi ven",
-        "to_address":"Prenos",
+        "from_address":"Pošiljatelj",
+        "to_address":"Prejemnik plačila",
         "amount":"Znesek",
         "send_all":"Pošlji vse",
         "data":"Podatki",
@@ -52,6 +52,7 @@
         "select":"Prosimo, izberite",
         "no_account_info":"Še nimate računa, ustvarite ali uvozite račun",
         "contacts_dig": {
+            "title":"Izberite kontaktni račun",
             "select_placeholder":"Prosimo, izberite"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Vnesite geslo"
         },
         "msg_info": {
-            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, morda je napaka gesla",
-            "amount_zero":"Nezadostno ravnovesje, ne more nadaljevati",
             "address_null":"Prosimo, vnesite račun druge stranke",
+            "balance_zero":"Nezadostno ravnovesje, ne more nadaljevati",
+            "amount_zero":"Znesek prenosa mora biti večji od 0",
+            "amount_error":"Vnesite znesek pravne transakcije",
             "address_err":"Oblika prenesenega naslova je neveljavna.",
+
+            "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, morda je napaka gesla",
+            
+            
+            
+            
             "send_success":"Uspešno poslana",
             "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
         }

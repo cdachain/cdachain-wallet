@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Prijenos",
-        "to_address":"u",
+        "from_address":"Slanje stranke",
+        "to_address":"primalac",
         "amount":"novac",
         "send_all":"Pošalji sve",
         "data":"podaci",
@@ -52,6 +52,7 @@
         "select":"Molimo odaberite",
         "no_account_info":"Još nema računa, izradite ili uvezite račun",
         "contacts_dig": {
+            "title":"Odaberite kontakt račun",
             "select_placeholder":"Molimo odaberite"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Unesite zaporku"
         },
         "msg_info": {
-            "decrypt_err":"Raščlanjivanje novčanika nije uspjelo, možda je pogreška zaporke",
-            "amount_zero":"Nedovoljna ravnoteža, ne može se nastaviti",
             "address_null":"Unesite račun druge strane",
+            "balance_zero":"Nedovoljna ravnoteža, ne može se nastaviti",
+            "amount_zero":"Iznos prijenosa mora biti veći od 0",
+            "amount_error":"Unesite iznos pravne transakcije",
             "address_err":"Format prenesene adrese nije valjan.",
+
+            "decrypt_err":"Raščlanjivanje novčanika nije uspjelo, možda je pogreška zaporke",
+            
+            
+            
+            
             "send_success":"Uspješno je poslana",
             "send_error":"Transakcija nije uspjela: provjerite postoji li dovoljan iznos salda i rudara"
         }

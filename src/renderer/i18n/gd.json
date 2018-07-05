@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Aistrich a-mach",
-        "to_address":"Aistridh",
+        "from_address":"Pàrtaidh a 'cur a-mach",
+        "to_address":"Payee",
         "amount":"Suim",
         "send_all":"Cuir a h-uile càil",
         "data":"Dàta",
@@ -52,6 +52,7 @@
         "select":"Tagh",
         "no_account_info":"Chan eil cunntas sam bith ann fhathast, cruthaich no cuir thu a-steach cunntas",
         "contacts_dig": {
+            "title":"Tagh cunntas conaltraidh",
             "select_placeholder":"Tagh"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Cuir a-steach am facal-faire agad"
         },
         "msg_info": {
-            "decrypt_err":"Dh'fhàillig parsadh barain, is dòcha gur e mearachd facal-faire a th 'ann",
-            "amount_zero":"Co-chothromachadh gu leòr, nach urrainn leantainn air adhart",
             "address_null":"Cuir a-steach cunntas a 'phàrtaidh eile",
+            "balance_zero":"Co-chothromachadh gu leòr, nach urrainn leantainn air adhart",
+            "amount_zero":"Feumaidh sùim a bhith nas motha na 0",
+            "amount_error":"Cuir a-steach suim laghail laghail",
             "address_err":"Tha cruth an t-seòlaidh air a ghluasad mì-dhligheach.",
+
+            "decrypt_err":"Dh'fhàillig parsadh barain, is dòcha gur e mearachd facal-faire a th 'ann",
+            
+            
+            
+            
             "send_success":"Chaidh a chuir gu soirbheachail",
             "send_error":"Dh'fhàillig an t-atharrachadh: feuch a bheil cothromachadh gu leòr agus cìs mèinnearach"
         }

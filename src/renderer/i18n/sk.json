@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Odstúpte",
-        "to_address":"do",
+        "from_address":"Vysielajúca strana",
+        "to_address":"veriteľ",
         "amount":"peniaze",
         "send_all":"Odoslať všetko",
         "data":"údaje",
@@ -52,6 +52,7 @@
         "select":"Vyberte prosím",
         "no_account_info":"Zatiaľ nemáte účet, vytvorte alebo importujte účet",
         "contacts_dig": {
+            "title":"Vyberte kontakt konta",
             "select_placeholder":"Vyberte prosím"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Zadajte svoje heslo"
         },
         "msg_info": {
-            "decrypt_err":"Analýza peňaženky zlyhala, môže to byť chyba v hesle",
-            "amount_zero":"Nedostatočný zostatok, nemožno pokračovať",
             "address_null":"Zadajte účet druhej strany",
+            "balance_zero":"Nedostatočný zostatok, nemožno pokračovať",
+            "amount_zero":"Prevodná suma musí byť väčšia ako 0",
+            "amount_error":"Zadajte sumu právnej transakcie",
             "address_err":"Formát prenesenej adresy je neplatný.",
+
+            "decrypt_err":"Analýza peňaženky zlyhala, môže to byť chyba v hesle",
+            
+            
+            
+            
             "send_success":"Úspešne odoslaná",
             "send_error":"Transakcia zlyhala: skontrolujte, či existuje dostatočný zostatok a poplatok za horník"
         }

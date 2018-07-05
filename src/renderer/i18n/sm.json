@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Fesiitaʻi",
-        "to_address":"Fesuiaiga",
+        "from_address":"Tuuina atu o le pati",
+        "to_address":"Payee",
         "amount":"Aofaʻi",
         "send_all":"Auina uma",
         "data":"Faʻamatalaga",
@@ -52,6 +52,7 @@
         "select":"Faamolemole filifili",
         "no_account_info":"Leai se tala, faamolemole ia fatuina pe faaulufale mai le teugatupe",
         "contacts_dig": {
+            "title":"Filifili se faʻamatalaga fesoʻotaʻiga",
             "select_placeholder":"Faamolemole filifili"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Faʻamolemole ulufale i lau faʻaupuga"
         },
         "msg_info": {
-            "decrypt_err":"Ua le manuia le pusa faila, atonu o se sese ole palakalafa",
-            "amount_zero":"Le paleni le lava, le mafai ona faaauau",
             "address_null":"Faʻamolemole tuʻu le tala a le isi pati",
+            "balance_zero":"Le paleni le lava, le mafai ona faaauau",
+            "amount_zero":"Tupe faʻaalu e tatau ona sili atu i le 0",
+            "amount_error":"Faʻamolemole ulufale i se tau faʻatulafonoina",
             "address_err":"O le faatulagaga o le tuatusi o le tuatusi ua le aoga.",
+
+            "decrypt_err":"Ua le manuia le pusa faila, atonu o se sese ole palakalafa",
+            
+            
+            
+            
             "send_success":"Na auina atu ma le manuia",
             "send_error":"Ua le manuia le gaioiga: faamolemole siaki pe a lava le paleni paleni ma le tau o le miner"
         }

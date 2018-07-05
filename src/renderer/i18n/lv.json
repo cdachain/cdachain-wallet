@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Pārskaitīt",
-        "to_address":"Pārsūtīšana",
+        "from_address":"Nosūtītāja puse",
+        "to_address":"Saņēmējs",
         "amount":"Summa",
         "send_all":"Sūtīt visus",
         "data":"Dati",
@@ -52,6 +52,7 @@
         "select":"Lūdzu, izvēlies",
         "no_account_info":"Vēl nav konta, lūdzu, izveidojiet vai importējiet kontu",
         "contacts_dig": {
+            "title":"Izvēlieties kontakta kontu",
             "select_placeholder":"Lūdzu, izvēlies"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Lūdzu, ievadiet savu paroli"
         },
         "msg_info": {
-            "decrypt_err":"Maka sinizēšana neizdevās, tā var būt paroles kļūda",
-            "amount_zero":"Nepietiekams līdzsvars, nespēja turpināt",
             "address_null":"Lūdzu, ievadiet otras puses kontu",
+            "balance_zero":"Nepietiekams līdzsvars, nespēja turpināt",
+            "amount_zero":"Pārskaitījuma summa ir lielāka par 0",
+            "amount_error":"Lūdzu, ievadiet juridisko darījuma summu",
             "address_err":"Pārvietotās adreses formāts nav derīgs.",
+
+            "decrypt_err":"Maka sinizēšana neizdevās, tā var būt paroles kļūda",
+            
+            
+            
+            
             "send_success":"Veiksmīgi nosūtīts",
             "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekama atlikuma un minerāžas maksa"
         }

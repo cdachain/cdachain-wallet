@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Ko'chiring",
-        "to_address":"Transfer",
+        "from_address":"Partiya yuborish",
+        "to_address":"Xaridor",
         "amount":"Miqdori",
         "send_all":"Barchasini jo'natish",
         "data":"Ma'lumotlar",
@@ -52,6 +52,7 @@
         "select":"Marhamat, tanlang",
         "no_account_info":"Hali hisobi yo'q, hisobni yaratib, import qiling",
         "contacts_dig": {
+            "title":"Kontakt hisobini tanlang",
             "select_placeholder":"Marhamat, tanlang"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Iltimos, parolingizni kiriting"
         },
         "msg_info": {
-            "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, bu parol xato bo'lishi mumkin",
-            "amount_zero":"Balans yetarsiz bo'lib, davom eta olmadi",
             "address_null":"Iltimos, boshqa tomon hisobini kiriting",
+            "balance_zero":"Balans yetarsiz bo'lib, davom eta olmadi",
+            "amount_zero":"Pul o'tkazmasining miqdori 0dan katta bo'lishi kerak",
+            "amount_error":"Iltimos, qonuniy jurnali miqdorini kiriting",
             "address_err":"O'tkazilgan manzilning formati noto'g'ri.",
+
+            "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, bu parol xato bo'lishi mumkin",
+            
+            
+            
+            
             "send_success":"Muvaffaqiyatli yuborildi",
             "send_error":"Jurnal muvaffaqiyatsiz tugadi: iltimos balans va miner ish haqi borligini tekshiring"
         }

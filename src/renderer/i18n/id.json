@@ -1,6 +1,6 @@
 {
-    "confirm":"Konfirmasi",
-    "cancel":"Pembatalan",
+    "confirm":"Konfirmasikan",
+    "cancel":"Batalkan",
     "dialog_tit":"Prompt",
     "close":"Tutup",
     "confirm_you_active":"Harap konfirmasi operasi Anda",
@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transfer keluar",
-        "to_address":"Transfer",
+        "from_address":"Mengirim pihak",
+        "to_address":"Penerima pembayaran",
         "amount":"Jumlah",
         "send_all":"Kirim semua",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Silakan pilih",
         "no_account_info":"Belum punya akun, silakan buat atau impor akun",
         "contacts_dig": {
+            "title":"Pilih akun kontak",
             "select_placeholder":"Silakan pilih"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Silakan masukkan kata sandi Anda"
         },
         "msg_info": {
-            "decrypt_err":"Gagal menguraikan dompet, mungkin ini adalah kesalahan kata sandi",
-            "amount_zero":"Saldo tidak mencukupi, tidak dapat dilanjutkan",
             "address_null":"Silakan masukkan akun pihak lain",
+            "balance_zero":"Saldo tidak mencukupi, tidak dapat dilanjutkan",
+            "amount_zero":"Jumlah transfer harus lebih besar dari 0",
+            "amount_error":"Harap masukkan jumlah transaksi hukum",
             "address_err":"Format alamat yang ditransfer tidak valid.",
+
+            "decrypt_err":"Gagal menguraikan dompet, mungkin ini adalah kesalahan kata sandi",
+            
+            
+            
+            
             "send_success":"Berhasil dikirim",
             "send_error":"Transaksi gagal: silakan periksa apakah ada saldo yang cukup dan biaya penambang"
         }
@@ -87,7 +95,7 @@
             "from":"Mengirim pihak",
             "to":"Penerima pembayaran",
             "amount":"Jumlah",
-            "data":"Datanya",
+            "data":"Data",
             "send_time":"Waktu pengiriman",
             "mac_time":"Waktu jaringan utama"
         },

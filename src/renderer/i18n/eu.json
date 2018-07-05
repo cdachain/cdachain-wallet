@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transferitu",
-        "to_address":"sartu",
+        "from_address":"Bidaltzailea",
+        "to_address":"payee",
         "amount":"Dirua",
         "send_all":"Bidali dena",
         "data":"Datuak",
@@ -52,6 +52,7 @@
         "select":"Aukeratu ezazu",
         "no_account_info":"Oraindik ez duzu kontua sortu edo inportatu",
         "contacts_dig": {
+            "title":"Hautatu kontaktu-kontu bat",
             "select_placeholder":"Aukeratu ezazu"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Idatzi zure pasahitza"
         },
         "msg_info": {
-            "decrypt_err":"Huts egin du parekatzeak huts egin du, pasahitzaren errorea izan daiteke",
-            "amount_zero":"Ez da nahikoa oreka, ezin da jarraitu",
             "address_null":"Sartu beste alderdiaren kontua",
+            "balance_zero":"Ez da nahikoa oreka, ezin da jarraitu",
+            "amount_zero":"Transferentzia zenbatekoa 0 baino handiagoa izan behar da",
+            "amount_error":"Sartu transakzio juridikoko zenbatekoa",
             "address_err":"Transferitutako helbidea formatua baliogabea da.",
+
+            "decrypt_err":"Huts egin du parekatzeak huts egin du, pasahitzaren errorea izan daiteke",
+            
+            
+            
+            
             "send_success":"Ongi bidali da",
             "send_error":"Transakzioak huts egin du: egiaztatu oreka nahikoa dagoela eta meatzaritza kuota"
         }

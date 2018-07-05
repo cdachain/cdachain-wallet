@@ -2,7 +2,7 @@
     "confirm":"確認",
     "cancel":"キャンセル",
     "dialog_tit":"プロンプト",
-    "close":"クローズド",
+    "close":"閉じる",
     "confirm_you_active":"あなたの操作を確認してください",
     "unit": {
         "czr":"CZR"
@@ -41,17 +41,18 @@
         }
     },
     "page_transfer": {
-        "from_address":"転送する",
-        "to_address":"転送",
+        "from_address":"送信側",
+        "to_address":"受取人",
         "amount":"金額",
         "send_all":"すべてを送る",
         "data":"データ",
         "data_placeholder":"16進データ",
-        "fees":"料金",
+        "fees":"手数料",
         "total":"合計",
         "select":"選択してください",
         "no_account_info":"アカウントはまだ作成されていません。アカウントを作成またはインポートしてください",
         "contacts_dig": {
+            "title":"連絡先アカウントを選択",
             "select_placeholder":"選択してください"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"パスワードを入力してください"
         },
         "msg_info": {
-            "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
-            "amount_zero":"バランスが不十分で、続行できません",
             "address_null":"相手のアカウントを入力してください",
+            "balance_zero":"バランスが不十分で、続行できません",
+            "amount_zero":"転送量は0より大きくなければなりません",
+            "amount_error":"法的な取引金額を入力してください",
             "address_err":"転送されたアドレスの形式が無効です。",
+
+            "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
+            
+            
+            
+            
             "send_success":"正常に送信されました",
             "send_error":"取引に失敗しました：十分な残高と鉱山手数料があるかどうか確認してください"
         }

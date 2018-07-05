@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"U soo wareeji",
-        "to_address":"Bedelka",
+        "from_address":"U dirista xaflad",
+        "to_address":"Lacag bixiye",
         "amount":"Tirada",
         "send_all":"Soo dir dhammaan",
         "data":"Macluumaadka",
@@ -52,6 +52,7 @@
         "select":"Fadlan dooro",
         "no_account_info":"Weli lama xisaabin, fadlan soo dheji ama xisaab furan",
         "contacts_dig": {
+            "title":"Xulo xisaabta xidhiidhka",
             "select_placeholder":"Fadlan dooro"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Fadlan gali sirtaada"
         },
         "msg_info": {
-            "decrypt_err":"Qalabaynta jeebka ayaa ku fashilmay, waxay noqon kartaa qalad sir ah",
-            "amount_zero":"Miisaan aan ku filnayn, oo aan awoodin inuu sii wado",
             "address_null":"Fadlan gali koontada kale ee xisaabta",
+            "balance_zero":"Miisaan aan ku filnayn, oo aan awoodin inuu sii wado",
+            "amount_zero":"Xaddiga wareejinta waa inuu ka weyn yahay 0",
+            "amount_error":"Fadlan gali qadar lacageed oo sharci ah",
             "address_err":"Nidaamka cinwaanka la soo wareejiyay waa mid aan sharci ahayn.",
+
+            "decrypt_err":"Qalabaynta jeebka ayaa ku fashilmay, waxay noqon kartaa qalad sir ah",
+            
+            
+            
+            
             "send_success":"Si guul leh ayaa loo soo diray",
             "send_error":"Hawlgalku wuu ku fashilmay: fadlan iska hubi haddii ay jirto dheelitir ku filan iyo qarash yar"
         }

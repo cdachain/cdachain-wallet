@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Gbe jade",
-        "to_address":"Gbigbe lọ",
+        "from_address":"Fifiranṣẹ keta",
+        "to_address":"Payee",
         "amount":"Iye",
         "send_all":"Firanṣẹ gbogbo",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Jọwọ yan",
         "no_account_info":"Ko si iroyin sibẹ, jọwọ ṣẹda tabi gbe iroyin wọle",
         "contacts_dig": {
+            "title":"Yan iroyin olubasọrọ kan",
             "select_placeholder":"Jọwọ yan"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Jọwọ tẹ ọrọigbaniwọle rẹ sii"
         },
         "msg_info": {
-            "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
-            "amount_zero":"Iwontunwosi ti ko niye, lagbara lati tẹsiwaju",
             "address_null":"Jowo tẹ akọsilẹ ẹnikẹta miiran",
+            "balance_zero":"Iwontunwosi ti ko niye, lagbara lati tẹsiwaju",
+            "amount_zero":"Gbeye iye gbọdọ jẹ tobi ju 0 lọ",
+            "amount_error":"Jowo tẹ iye idunadura ofin kan",
             "address_err":"Awọn kika ti adirẹsi ti o ti gbe jẹ aišišẹ.",
+
+            "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
+            
+            
+            
+            
             "send_success":"Ti firanṣẹ daradara",
             "send_error":"Ti kuna iṣẹ-ṣiṣe: jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }

@@ -28,8 +28,8 @@
 
                     </el-checkbox>
                 </el-form-item>
-                <el-form-item >
-                    <el-input type="textarea" :placeholder="$t('page_transfer.data_placeholder')" v-model="extraData"></el-input>
+                <el-form-item>
+                    <el-input type="textarea" :rows="4" :placeholder="$t('page_transfer.data_placeholder')" v-model="extraData"></el-input>
                 </el-form-item>
 
                 <el-form-item>
@@ -44,7 +44,7 @@
         </div>
 
         <!-- Dialog select contacts -->
-        <el-dialog :title="$t('dialog_tit')" :visible.sync="dialogSwitch.contacts" width="70%">
+        <el-dialog :title="$t('page_transfer.contacts_dig.title')" :visible.sync="dialogSwitch.contacts" width="70%">
             <span>
                 <el-select v-model="selectedContact" :placeholder="$t('page_transfer.contacts_dig.select_placeholder')" style="width:100%;">
                     <el-option v-for="item in contacts" :key="item.address" :label="item.tag" :value="item.address">
@@ -82,7 +82,7 @@
                     <el-button type="primary" @click="dialogSwitch.password = true">{{$t('confirm')}}</el-button>
                 </div>
 
-                <el-dialog width="60%" :title="$t('page_transfer.confirm_dia.enter_passworld_tit')" :visible.sync="dialogSwitch.password" append-to-body>
+                <el-dialog width="60%" :title="$t('page_transfer.confirm_dia.enter_passworld_tit')" :visible.sync="dialogSwitch.password" @open='openPwd' append-to-body>
                     <el-form ref="form" label-width="100px">
                         <el-input v-model="fromInfo.password" :placeholder="$t('page_transfer.confirm_dia.enter_passworld_place')" type="password"></el-input>
                     </el-form>
@@ -189,6 +189,11 @@ export default {
         //确认验证
         validateForm: function() {
             var self = this;
+            var reg = /^\d+(\.\d{1,18})?$/;
+            var regObj = reg.exec(self.amount);
+            var czrAmount = parseFloat(
+                self.$czr.utils.toWei(self.amount, "czr")
+            );
 
             if (!self.toAccount) {
                 self.$message.error(
@@ -197,10 +202,26 @@ export default {
                 return;
             }
 
-            //金额为0不可以发
-            if (!parseFloat(self.amount)) {
+            // 账户余额为0不可以发
+            if (!parseFloat(self.accountInfo.balance)) {
+                self.$message.error(
+                    self.$t("page_transfer.msg_info.balance_zero")
+                );
+                return;
+            }
+
+            //发送金额 为0 或负，不可发送
+            if (czrAmount <= 0) {
                 self.$message.error(
                     self.$t("page_transfer.msg_info.amount_zero")
+                );
+                return;
+            }
+
+            //发送金额 非数字，不可发送
+            if (!regObj) {
+                self.$message.error(
+                    self.$t("page_transfer.msg_info.amount_error")
                 );
                 return;
             }
@@ -219,6 +240,9 @@ export default {
                         );
                     }
                 });
+        },
+        openPwd:function(){
+            self.fromInfo.password='';
         },
         sendTransaction: function() {
             let self = this;
@@ -258,7 +282,7 @@ export default {
     filters: {
         toCzrVal: function(val) {
             let tempVal = self.$czr.utils.fromWei(val, "czr");
-            return tempVal; 
+            return tempVal;
         }
     }
 };

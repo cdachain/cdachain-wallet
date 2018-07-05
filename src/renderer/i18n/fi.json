@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Siirrä ulos",
-        "to_address":"osaksi",
+        "from_address":"Lähettäjä",
+        "to_address":"saaja",
         "amount":"raha",
         "send_all":"Lähetä kaikki",
         "data":"data",
@@ -52,6 +52,7 @@
         "select":"Valitse",
         "no_account_info":"Ei vielä tiliä, luo tili tai luo tili",
         "contacts_dig": {
+            "title":"Valitse yhteystili",
             "select_placeholder":"Valitse"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Anna salasanasi"
         },
         "msg_info": {
-            "decrypt_err":"Lompakon jäsentäminen epäonnistui, se voi olla salasanavirhe",
-            "amount_zero":"Riittämätön tasapaino, ei voi jatkaa",
             "address_null":"Anna toisen osapuolen tili",
+            "balance_zero":"Riittämätön tasapaino, ei voi jatkaa",
+            "amount_zero":"Siirron määrä on suurempi kuin 0",
+            "amount_error":"Anna laillinen maksutapa",
             "address_err":"Siirretyn osoitteen muoto on virheellinen.",
+
+            "decrypt_err":"Lompakon jäsentäminen epäonnistui, se voi olla salasanavirhe",
+            
+            
+            
+            
             "send_success":"Lähetetty onnistuneesti",
             "send_error":"Tapahtuma epäonnistui: tarkista, onko riittävä tasapaino ja mineraalimaksu"
         }

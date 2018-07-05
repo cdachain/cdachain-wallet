@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Overfør ut",
-        "to_address":"til",
+        "from_address":"Sendeparti",
+        "to_address":"betalingsmottaker",
         "amount":"penger",
         "send_all":"Send alle",
         "data":"data",
@@ -52,6 +52,7 @@
         "select":"Vennligst velg",
         "no_account_info":"Ingen konto ennå, vennligst opprett eller importer konto",
         "contacts_dig": {
+            "title":"Velg en kontaktkonto",
             "select_placeholder":"Vennligst velg"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Vennligst skriv inn passordet ditt"
         },
         "msg_info": {
-            "decrypt_err":"Wallet-parsing mislyktes, det kan være en passordfeil",
-            "amount_zero":"Utilstrekkelig balanse, ikke i stand til å fortsette",
             "address_null":"Vennligst skriv inn den annen partens konto",
+            "balance_zero":"Utilstrekkelig balanse, ikke i stand til å fortsette",
+            "amount_zero":"Overføringsbeløpet må være større enn 0",
+            "amount_error":"Vennligst oppgi et juridisk transaksjonsbeløp",
             "address_err":"Formatet på den overførte adressen er ugyldig.",
+
+            "decrypt_err":"Wallet-parsing mislyktes, det kan være en passordfeil",
+            
+            
+            
+            
             "send_success":"Vellykket sendt",
             "send_error":"Transaksjonen mislyktes: sjekk om det er tilstrekkelig saldo og gruveavgift"
         }

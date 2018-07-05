@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Pagbalhin",
-        "to_address":"Pagbalhin",
+        "from_address":"Pagpadala sa partido",
+        "to_address":"Pagbayad",
         "amount":"Amgo",
         "send_all":"Ipadala ang tanan",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Palihug pagpili",
         "no_account_info":"Wala pa'y account, palihug paghimo o pag-import nga account",
         "contacts_dig": {
+            "title":"Pagpili og usa ka contact account",
             "select_placeholder":"Palihug pagpili"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Palihug pasabta ang imong password"
         },
         "msg_info": {
-            "decrypt_err":"Ang pagwagtang sa pitaka napakyas, kini mahimong usa ka sayop nga password",
-            "amount_zero":"Dili igo ang pagkabalanse, dili makapadayon",
             "address_null":"Palihug pagsulod sa asoy sa laing partido",
+            "balance_zero":"Dili igo ang pagkabalanse, dili makapadayon",
+            "amount_zero":"Ang pagbalhin nga kantidad kinahanglan nga labaw pa kay sa 0",
+            "amount_error":"Palihog pagsulod sa kantidad sa legal nga transaksiyon",
             "address_err":"Ang format sa gibalhin nga address dili balido.",
+
+            "decrypt_err":"Ang pagwagtang sa pitaka napakyas, kini mahimong usa ka sayop nga password",
+            
+            
+            
+            
             "send_success":"Malampuson nga gipadala",
             "send_error":"Napakyas ang transaksyon: palihug susiha kung adunay igong balanse ug bayad sa minero"
         }

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transfè soti",
-        "to_address":"Transfè",
+        "from_address":"Voye pati",
+        "to_address":"Peye",
         "amount":"Kantite lajan",
         "send_all":"Voye tout",
         "data":"Done",
@@ -52,6 +52,7 @@
         "select":"Tanpri chwazi",
         "no_account_info":"Pa gen kont ankò, tanpri kreye oswa enpòte kont",
         "contacts_dig": {
+            "title":"Chwazi yon kont kontak",
             "select_placeholder":"Tanpri chwazi"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Tanpri antre modpas ou"
         },
         "msg_info": {
-            "decrypt_err":"Bous analyse echwe, li ka yon erè modpas",
-            "amount_zero":"Ensifizan balans, kapab kontinye",
             "address_null":"Tanpri antre nan kont lòt pati a",
+            "balance_zero":"Ensifizan balans, kapab kontinye",
+            "amount_zero":"Kantite transfè dwe pi gran pase 0",
+            "amount_error":"Tanpri antre yon kantite tranzaksyon legal",
             "address_err":"Fòma a nan adrès la transfere se valab.",
+
+            "decrypt_err":"Bous analyse echwe, li ka yon erè modpas",
+            
+            
+            
+            
             "send_success":"Siksè voye",
             "send_error":"Tranzaksyon echwe: tanpri tcheke si gen ase balans ak frè minè"
         }

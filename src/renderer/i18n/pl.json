@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Przenieś",
-        "to_address":"Przenieś",
+        "from_address":"Wysyłanie strony",
+        "to_address":"Płatnik",
         "amount":"Kwota",
         "send_all":"Wyślij wszystko",
         "data":"Dane",
@@ -52,6 +52,7 @@
         "select":"Proszę wybrać",
         "no_account_info":"Brak konta, proszę utworzyć lub zaimportować konto",
         "contacts_dig": {
+            "title":"Wybierz konto kontaktowe",
             "select_placeholder":"Proszę wybrać"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Wprowadź swoje hasło"
         },
         "msg_info": {
-            "decrypt_err":"Nie udało się przetworzyć portfela, może to być błąd hasła",
-            "amount_zero":"Niewystarczające saldo, nie można kontynuować",
             "address_null":"Proszę podać konto drugiej strony",
+            "balance_zero":"Niewystarczające saldo, nie można kontynuować",
+            "amount_zero":"Kwota transferu musi być większa niż 0",
+            "amount_error":"Wprowadź kwotę transakcji prawnej",
             "address_err":"Format przesłanego adresu jest nieprawidłowy.",
+
+            "decrypt_err":"Nie udało się przetworzyć portfela, może to być błąd hasła",
+            
+            
+            
+            
             "send_success":"Pomyślnie wysłano",
             "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy istnieje wystarczająca opłata bilansowa i górnicza"
         }

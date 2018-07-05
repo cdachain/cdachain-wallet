@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Overførsel",
-        "to_address":"ind i",
+        "from_address":"Afsendelsesparti",
+        "to_address":"betalingsmodtager",
         "amount":"penge",
         "send_all":"Send alle",
         "data":"data",
@@ -52,6 +52,7 @@
         "select":"Vælg venligst",
         "no_account_info":"Ingen konto endnu, vær venlig at oprette eller importere konto",
         "contacts_dig": {
+            "title":"Vælg en kontaktkonto",
             "select_placeholder":"Vælg venligst"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Indtast venligst dit kodeord"
         },
         "msg_info": {
-            "decrypt_err":"Palletparsing mislykkedes, det kan være et kodeordfejl",
-            "amount_zero":"Manglende balance, ude af stand til at fortsætte",
             "address_null":"Indtast venligst den anden parts konto",
+            "balance_zero":"Manglende balance, ude af stand til at fortsætte",
+            "amount_zero":"Overførselsbeløbet skal være større end 0",
+            "amount_error":"Indtast venligst et juridisk transaktionsbeløb",
             "address_err":"Formatet på den overførte adresse er ugyldig.",
+
+            "decrypt_err":"Palletparsing mislykkedes, det kan være et kodeordfejl",
+            
+            
+            
+            
             "send_success":"Sendt med succes",
             "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejder gebyr"
         }

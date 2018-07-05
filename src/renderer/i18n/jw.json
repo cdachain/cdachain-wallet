@@ -1,6 +1,6 @@
 {
     "confirm":"Konfirmasi",
-    "cancel":"Pembatalan",
+    "cancel":"Mbusak",
     "dialog_tit":"Prompt",
     "close":"Nutup",
     "confirm_you_active":"Mangga konfirmasi operasi sampeyan",
@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Nransfer metu",
-        "to_address":"Transfer",
+        "from_address":"Ngirim partai",
+        "to_address":"Payee",
         "amount":"Jumlah",
         "send_all":"Kirim kabeh",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Mangga milih",
         "no_account_info":"Ora ana akun, mangga nggawe utawa ngimpor akun",
         "contacts_dig": {
+            "title":"Pilih akun kontak",
             "select_placeholder":"Mangga milih"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Mangga ketik sandhi"
         },
         "msg_info": {
-            "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
-            "amount_zero":"Imbangan ora cukup, ora bisa dilanjutake",
             "address_null":"Mangga ketik akun pihak liyane",
+            "balance_zero":"Imbangan ora cukup, ora bisa dilanjutake",
+            "amount_zero":"Jumlah transfer kudu luwih saka 0",
+            "amount_error":"Mangga nglebokna jumlah transaksi legal",
             "address_err":"Format alamat sing ditransfer ora bener.",
+
+            "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
+            
+            
+            
+            
             "send_success":"Sukses dikirim",
             "send_error":"Transaksi gagal: mangga dipriksa manawa ana keseimbangan sing cukup lan ragad penambang"
         }

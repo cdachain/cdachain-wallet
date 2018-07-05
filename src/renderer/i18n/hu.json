@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Átutalás",
-        "to_address":"bele",
+        "from_address":"Küldő fél",
+        "to_address":"kedvezményezett",
         "amount":"pénz",
         "send_all":"Küldj mindent",
         "data":"adat",
@@ -52,6 +52,7 @@
         "select":"Kérem válasszon",
         "no_account_info":"Még nincs számla, kérjük, hozzon létre vagy importáljon fiókot",
         "contacts_dig": {
+            "title":"Válasszon egy kapcsolati fiókot",
             "select_placeholder":"Kérem válasszon"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Kérjük, adja meg jelszavát"
         },
         "msg_info": {
-            "decrypt_err":"A Wallet-elemzés sikertelen, lehet, hogy jelszóhiba",
-            "amount_zero":"Nem megfelelő egyensúly, képtelen folytatni",
             "address_null":"Kérjük, adja meg a másik fél fiókját",
+            "balance_zero":"Nem megfelelő egyensúly, képtelen folytatni",
+            "amount_zero":"A transzfer összegének 0-nál nagyobbnak kell lennie",
+            "amount_error":"Kérjük, adjon meg egy jogi tranzakció összegét",
             "address_err":"Az átvitt cím formátuma érvénytelen.",
+
+            "decrypt_err":"A Wallet-elemzés sikertelen, lehet, hogy jelszóhiba",
+            
+            
+            
+            
             "send_success":"Sikeresen elküldve",
             "send_error":"A tranzakció sikertelen: ellenőrizze, van-e elegendő egyensúly és a bányászdíj"
         }

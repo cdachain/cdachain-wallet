@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Chuyển ra",
-        "to_address":"Vào",
+        "from_address":"Gửi bên",
+        "to_address":"Người nhận tiền",
         "amount":"Số tiền",
         "send_all":"Gửi tất cả",
         "data":"Dữ liệu",
@@ -52,6 +52,7 @@
         "select":"Vui lòng chọn",
         "no_account_info":"Chưa có tài khoản, hãy tạo hoặc nhập tài khoản",
         "contacts_dig": {
+            "title":"Chọn tài khoản liên hệ",
             "select_placeholder":"Vui lòng chọn"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Vui lòng nhập mật khẩu của bạn"
         },
         "msg_info": {
-            "decrypt_err":"Phân tích cú pháp trên Wallet không thành công, đó có thể là lỗi mật khẩu",
-            "amount_zero":"Không đủ số dư, không thể tiếp tục",
             "address_null":"Vui lòng nhập tài khoản của bên kia",
+            "balance_zero":"Không đủ số dư, không thể tiếp tục",
+            "amount_zero":"Số tiền chuyển khoản phải lớn hơn 0",
+            "amount_error":"Vui lòng nhập số tiền giao dịch hợp pháp",
             "address_err":"Định dạng của địa chỉ được chuyển không hợp lệ.",
+
+            "decrypt_err":"Phân tích cú pháp trên Wallet không thành công, đó có thể là lỗi mật khẩu",
+            
+            
+            
+            
             "send_success":"Đã gửi thành công",
             "send_error":"Giao dịch không thành công: vui lòng kiểm tra xem có đủ số dư và phí thợ mỏ không"
         }
@@ -83,7 +91,7 @@
         "dia_tx":{
             "tit":"Thông tin giao dịch",
             "block_hash":"Số giao dịch",
-            "status":"Tình trạng",
+            "status":"Tiểu bang",
             "from":"Gửi bên",
             "to":"Người nhận tiền",
             "amount":"Số tiền",
@@ -98,7 +106,7 @@
         },
         "msg_info": {
             "ads_copy_success":"Địa chỉ đã được sao chép",
-            "key_copy_success":"Đã sao chép thành công"
+            "key_copy_success":"Sao chép thành công"
         }
     },
     "page_home": {

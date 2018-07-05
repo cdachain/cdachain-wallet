@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Dlulisa",
-        "to_address":"U tshintshelo",
+        "from_address":"Ukuthumela umcimbi",
+        "to_address":"Umvuzo",
         "amount":"Isixa",
         "send_all":"Thumela konke",
         "data":"Iinkcukacha",
@@ -52,6 +52,7 @@
         "select":"Nceda ukhethe",
         "no_account_info":"Akukho i-akhawunti okwangoku, nceda udale okanye ungenise i-akhawunti",
         "contacts_dig": {
+            "title":"Khetha i-akhawunti yomnxeba",
             "select_placeholder":"Nceda ukhethe"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Nceda faka iphasiwedi yakho"
         },
         "msg_info": {
-            "decrypt_err":"Ukutshatyalaliswa kwe-Wallet kwehlulekile, kusenokuba yimpazamo yephasiwedi",
-            "amount_zero":"Ibhalansi enganeleyo, ayikwazi ukuqhubeka",
             "address_null":"Nceda ufake i-akhawunti yomnye umntu",
+            "balance_zero":"Ibhalansi enganeleyo, ayikwazi ukuqhubeka",
+            "amount_zero":"Imali yokutshintsha kufuneka ibe ngaphezu kwe-0",
+            "amount_error":"Nceda ufake inani lokuthengiselana ngokomthetho",
             "address_err":"Ifomathi yedilesi edluliselweyo ayivumelekanga.",
+
+            "decrypt_err":"Ukutshatyalaliswa kwe-Wallet kwehlulekile, kusenokuba yimpazamo yephasiwedi",
+            
+            
+            
+            
             "send_success":"Thunyelwe ngempumelelo",
             "send_error":"Ukuthengiswa kwehlulekile: nceda uqaphele ukuba kukho ukulingana okwaneleyo kunye nemirhumo yemayini"
         }

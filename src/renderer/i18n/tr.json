@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transfer",
-        "to_address":"içine",
+        "from_address":"Parti gönderme",
+        "to_address":"alacaklı",
         "amount":"para",
         "send_all":"Tümünü gönder",
         "data":"veri",
@@ -52,6 +52,7 @@
         "select":"Lütfen seçiniz",
         "no_account_info":"Henüz bir hesap yok, lütfen hesabı oluşturun veya içe aktarın",
         "contacts_dig": {
+            "title":"Bir iletişim hesabı seçin",
             "select_placeholder":"Lütfen seçiniz"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Lütfen şifrenizi giriniz"
         },
         "msg_info": {
-            "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
-            "amount_zero":"Yetersiz bakiye, devam edemiyor",
             "address_null":"Lütfen diğer tarafın hesabını girin",
+            "balance_zero":"Yetersiz bakiye, devam edemiyor",
+            "amount_zero":"Aktarım miktarı 0'dan büyük olmalıdır",
+            "amount_error":"Lütfen bir yasal işlem tutarı girin",
             "address_err":"Aktarılan adresin biçimi geçersiz.",
+
+            "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
+            
+            
+            
+            
             "send_success":"Başarıyla gönderildi",
             "send_error":"İşlem başarısız oldu: lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
         }

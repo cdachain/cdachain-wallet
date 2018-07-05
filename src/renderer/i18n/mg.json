@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Mialà eo",
-        "to_address":"Eo an-",
+        "from_address":"Fandefasana antoko",
+        "to_address":"Payee",
         "amount":"Money",
         "send_all":"Alefaso ny rehetra",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Mifidiana azafady",
         "no_account_info":"Tsy misy kaonty intsony, azafady manamboara na manafatra kaonty",
         "contacts_dig": {
+            "title":"Mifidiana kaonty fifandraisana",
             "select_placeholder":"Mifidiana azafady"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Ampidiro azafady ny tenimiafinao"
         },
         "msg_info": {
-            "decrypt_err":"Tsy nahomby ny fanadihadiana ny kitapo, mety ho fahadisoana anaty tenimiafina izany",
-            "amount_zero":"Tsy mahay mandanjalanja, tsy afaka manohy",
             "address_null":"Ampidiro azafady ny kaonty hafa",
+            "balance_zero":"Tsy mahay mandanjalanja, tsy afaka manohy",
+            "amount_zero":"Ny habetsaky ny famindrana dia tsy tokony hihoatra ny 0",
+            "amount_error":"Mampidira sanda ara-dalàna ny volavolan-dalàna",
             "address_err":"Tsy mety ny endriky ny adiresy nadika.",
+
+            "decrypt_err":"Tsy nahomby ny fanadihadiana ny kitapo, mety ho fahadisoana anaty tenimiafina izany",
+            
+            
+            
+            
             "send_success":"Nalefa tamim-pahombiazana",
             "send_error":"Tsy nahomby ny fanatanterahana: azafady raha ampy ny sanda sy ny sara-mineraly"
         }

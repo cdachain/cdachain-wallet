@@ -18,7 +18,7 @@
     "page_setting": {
         "tit":"설정",
         "lang":"언어",
-        "select":"선택하십시오"
+        "select":"선택해주세요."
     },
     "page_contacts": {
         "tit":"연락처",
@@ -41,18 +41,19 @@
         }
     },
     "page_transfer": {
-        "from_address":"전송",
-        "to_address":"전송",
+        "from_address":"발신자",
+        "to_address":"수취인",
         "amount":"금액",
         "send_all":"모두 보내기",
         "data":"데이터",
         "data_placeholder":"16 진수 데이터",
         "fees":"수수료",
         "total":"합계",
-        "select":"선택하십시오",
+        "select":"선택해주세요.",
         "no_account_info":"아직 계정이 없으므로 계정을 만들거나 가져 오십시오.",
         "contacts_dig": {
-            "select_placeholder":"선택하십시오"
+            "title":"연락처 계정 선택",
+            "select_placeholder":"선택해주세요."
         },
         "confirm_dia": {
             "title":"확인해주세요.",
@@ -60,10 +61,17 @@
             "enter_passworld_place":"비밀번호를 입력하십시오."
         },
         "msg_info": {
-            "decrypt_err":"월렛 파싱에 실패했습니다. 비밀번호 오류 일 수 있습니다.",
-            "amount_zero":"불충분 한 균형, 계속할 수 없음",
             "address_null":"상대방의 계정을 입력하십시오.",
+            "balance_zero":"불충분 한 균형, 계속할 수 없음",
+            "amount_zero":"전송 금액은 0보다 커야합니다.",
+            "amount_error":"법적 거래 금액을 입력하십시오.",
             "address_err":"전송 된 주소의 형식이 잘못되었습니다.",
+
+            "decrypt_err":"월렛 파싱에 실패했습니다. 비밀번호 오류 일 수 있습니다.",
+            
+            
+            
+            
             "send_success":"성공적으로 보냈습니다.",
             "send_error":"거래 실패 : 잔액 및 광부 수수료가 충분한 지 확인하십시오."
         }
@@ -83,7 +91,7 @@
         "dia_tx":{
             "tit":"거래 정보",
             "block_hash":"거래 번호",
-            "status":"상태",
+            "status":"주",
             "from":"발신자",
             "to":"수취인",
             "amount":"금액",
@@ -93,7 +101,7 @@
         },
         "keystore": {
             "tit":"백업 지갑 파일",
-            "copy":"중복",
+            "copy":"복사",
             "download":"지갑 파일 다운로드"
         },
         "msg_info": {

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"አስተላልፍ",
-        "to_address":"ዝውውር",
+        "from_address":"ድግስ በመላክ ላይ",
+        "to_address":"Payee",
         "amount":"መጠን",
         "send_all":"ሁሉንም ላክ",
         "data":"ውሂብ",
@@ -52,6 +52,7 @@
         "select":"እባክዎ ይምረጡ",
         "no_account_info":"ገና ምንም መለያ የለም, እባክዎ መለያ ይፍጠሩ ወይም ያስመጡ",
         "contacts_dig": {
+            "title":"የእውቂያ መለያ ይምረጡ",
             "select_placeholder":"እባክዎ ይምረጡ"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"እባክዎ የይለፍ ቃልዎን ያስገቡ"
         },
         "msg_info": {
-            "decrypt_err":"Wallet መሰራት አልተሳካም, ምናልባት የይለፍ ቃል ስህተት ሊሆን ይችላል",
-            "amount_zero":"በቂ ያልሆነ ሂሳብ, ለመቀጠል አልቻለም",
             "address_null":"እባክህ የሌላኛውን አካል አካውንት አስገባ",
+            "balance_zero":"በቂ ያልሆነ ሂሳብ, ለመቀጠል አልቻለም",
+            "amount_zero":"የማስተላለፍ መጠን ከ 0 በላይ መሆን አለበት",
+            "amount_error":"እባክዎ የህጋዊ ግብይት መጠን ያስገቡ",
             "address_err":"የተሰጠው አድራሻ ቅርጸት ልክ ያልሆነ ነው.",
+
+            "decrypt_err":"Wallet መሰራት አልተሳካም, ምናልባት የይለፍ ቃል ስህተት ሊሆን ይችላል",
+            
+            
+            
+            
             "send_success":"በተሳካ ሁኔታ ተልኳል",
             "send_error":"ግብይቱ አልተሳካም እባክዎን በቂ የሆነ ሚዛን እና የአምራቾች ክፍያ ካለ ያረጋግጡ"
         }

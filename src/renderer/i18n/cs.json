@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Přejděte ven",
-        "to_address":"Přenos",
+        "from_address":"Odesílající strana",
+        "to_address":"Příjemce platby",
         "amount":"Částka",
         "send_all":"Pošlete vše",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Vyberte prosím",
         "no_account_info":"Zatím nemáte účet, vytvořte nebo importujte účet",
         "contacts_dig": {
+            "title":"Vyberte účet kontaktu",
             "select_placeholder":"Vyberte prosím"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Zadejte své heslo"
         },
         "msg_info": {
-            "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
-            "amount_zero":"Nedostatečná rovnováha, nemůže pokračovat",
             "address_null":"Zadejte prosím účet druhé strany",
+            "balance_zero":"Nedostatečná rovnováha, nemůže pokračovat",
+            "amount_zero":"Převod musí být větší než 0",
+            "amount_error":"Zadejte částku právní transakce",
             "address_err":"Formát přenesené adresy je neplatný.",
+
+            "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
+            
+            
+            
+            
             "send_success":"Úspěšně odeslána",
             "send_error":"Transakce selhala: zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za mince"
         }
@@ -93,7 +101,7 @@
         },
         "keystore": {
             "tit":"Záložní soubor peněženky",
-            "copy":"Duplikovat",
+            "copy":"Kopírovat",
             "download":"Stáhnout soubor peněľenky"
         },
         "msg_info": {

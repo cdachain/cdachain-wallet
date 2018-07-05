@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Shandura",
-        "to_address":"Dhinda",
+        "from_address":"Kutumira chikamu",
+        "to_address":"Payee",
         "amount":"Nhamba",
         "send_all":"Tumira zvose",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Ndapota sarudza",
         "no_account_info":"Kwete nhoroondo asi, chinyorwa iwe kana unyore account",
         "contacts_dig": {
+            "title":"Sarudza kambani yekubatana",
             "select_placeholder":"Ndapota sarudza"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Ndapota nyora password yako"
         },
         "msg_info": {
-            "decrypt_err":"Kurapa kwechikwata kwakakundikana, ingangodaro isiri iyo password",
-            "amount_zero":"Kusakwana kwakakwana, kusakwanisa kuramba",
             "address_null":"Ndapota pinda mukana yekamwe",
+            "balance_zero":"Kusakwana kwakakwana, kusakwanisa kuramba",
+            "amount_zero":"Kudhinda chikamu chinofanira kuva chikuru kupfuura 0",
+            "amount_error":"Ndapota nyora mukana wekutengesa mutemo",
             "address_err":"Mhando yekodzero yekutambirwa haina kuwanikwa.",
+
+            "decrypt_err":"Kurapa kwechikwata kwakakundikana, ingangodaro isiri iyo password",
+            
+            
+            
+            
             "send_success":"Akabudirira kutumwa",
             "send_error":"Transaction yakakundikana: tapota tarisai kana pane mari yakakwana uye mari yevashandi"
         }

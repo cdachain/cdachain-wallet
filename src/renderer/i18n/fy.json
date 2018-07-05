@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Gean út",
-        "to_address":"Oerstap",
+        "from_address":"Ferstjoere partij",
+        "to_address":"Payee",
         "amount":"Beleanne",
         "send_all":"Alle stjoere",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Kies hjirfoar",
         "no_account_info":"Gjin account yet, skeakelje of ymportearje ymportearje",
         "contacts_dig": {
+            "title":"Selektearje in kontaktkontro",
             "select_placeholder":"Kies hjirfoar"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Fier jo wachtwurd ynfiere"
         },
         "msg_info": {
-            "decrypt_err":"Portemonneare parsing mislearre, it kin in wachtwurd fout wêze",
-            "amount_zero":"Net genôch balâns, net kinne trochgean",
             "address_null":"Fier it akkount fan 'e oare partij yn",
+            "balance_zero":"Net genôch balâns, net kinne trochgean",
+            "amount_zero":"Transfermuseur moat grutter wêze as 0",
+            "amount_error":"Fier in juridyske transaksjild yn",
             "address_err":"It formaat fan it oerlevere adres is ûnjildich.",
+
+            "decrypt_err":"Portemonneare parsing mislearre, it kin in wachtwurd fout wêze",
+            
+            
+            
+            
             "send_success":"Op sukses ferstjoerd",
             "send_error":"Ferkearing mislearre: kontrolearje of as der genôch balâns en minder fergoeding is"
         }

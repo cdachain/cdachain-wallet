@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Prenesi",
-        "to_address":"Transfer",
+        "from_address":"Slanje zabave",
+        "to_address":"Primalac",
         "amount":"Iznos",
         "send_all":"Pošaljite sve",
         "data":"Podaci",
@@ -52,6 +52,7 @@
         "select":"Molimo vas da izaberete",
         "no_account_info":"Još nijedan nalog, molimo vas da kreirate ili uvezete račun",
         "contacts_dig": {
+            "title":"Izaberite kontaktni nalog",
             "select_placeholder":"Molimo vas da izaberete"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Unesite svoju lozinku"
         },
         "msg_info": {
-            "decrypt_err":"Analiziranje novčanika nije uspelo, možda greška greške",
-            "amount_zero":"Nedovoljna ravnoteža, nesposobna za nastavak",
             "address_null":"Molimo unesite račun druge strane",
+            "balance_zero":"Nedovoljna ravnoteža, nesposobna za nastavak",
+            "amount_zero":"Suma transfera mora biti veća od 0",
+            "amount_error":"Molimo unesite iznos pravne transakcije",
             "address_err":"Format prenete adrese je nevažeći.",
+
+            "decrypt_err":"Analiziranje novčanika nije uspelo, možda greška greške",
+            
+            
+            
+            
             "send_success":"Uspješno poslat",
             "send_error":"Transakcija nije uspela: proverite da li postoji dovoljna ravnoteža i rudarska naknada"
         }

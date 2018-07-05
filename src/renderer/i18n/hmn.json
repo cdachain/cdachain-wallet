@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Tshem tawm",
-        "to_address":"Hloov mus",
+        "from_address":"Xa tog",
+        "to_address":"Tus neeg txais kev pab",
         "amount":"Tus nqi",
         "send_all":"Xa tag nrho",
         "data":"Cov ntaub ntawv",
@@ -52,6 +52,7 @@
         "select":"Thov xaiv",
         "no_account_info":"Tsis muaj dab tsi ntxiv, thov tsim lossis rho nyiaj",
         "contacts_dig": {
+            "title":"Xaiv tus xovtooj",
             "select_placeholder":"Thov xaiv"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Thov sau koj tus password"
         },
         "msg_info": {
-            "decrypt_err":"Cov hnab parsing puav tsis tau, nws yuav ua tau yuam kev password",
-            "amount_zero":"Kev tsis txaus, tsis tuaj yeem mus ntxiv",
             "address_null":"Thov sau rau lwm tog neeg tus account",
+            "balance_zero":"Kev tsis txaus, tsis tuaj yeem mus ntxiv",
+            "amount_zero":"Tus nqi xa mus yuav tsum ntau dua 0",
+            "amount_error":"Thov sau tus nqi raws li txoj cai",
             "address_err":"Cov hom ntawv ntawm qhov chaw nyob xa mus yog invalid.",
+
+            "decrypt_err":"Cov hnab parsing puav tsis tau, nws yuav ua tau yuam kev password",
+            
+            
+            
+            
             "send_success":"Hloov tau zoo",
             "send_error":"Hloov ua tsis tau zoo: thov xyuas seb puas muaj nqi txaus thiab cov nqi me me"
         }

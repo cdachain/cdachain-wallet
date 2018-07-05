@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transferir",
-        "to_address":"Transferencia",
+        "from_address":"Festa enviada",
+        "to_address":"Beneficiario",
         "amount":"Cantidade",
         "send_all":"Enviar todo",
         "data":"Datos",
@@ -52,6 +52,7 @@
         "select":"Elixe",
         "no_account_info":"Aínda non hai ningunha conta, crea ou importa unha conta",
         "contacts_dig": {
+            "title":"Seleccione unha conta de contacto",
             "select_placeholder":"Elixe"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Introduce o teu contrasinal"
         },
         "msg_info": {
-            "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
-            "amount_zero":"Balance insuficiente, incapaz de continuar",
             "address_null":"Insira a conta doutra parte",
+            "balance_zero":"Balance insuficiente, incapaz de continuar",
+            "amount_zero":"O importe da transferencia debe ser superior a 0",
+            "amount_error":"Introduce un importe de transacción legal",
             "address_err":"O formato do enderezo transferido non é válido.",
+
+            "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
+            
+            
+            
+            
             "send_success":"Enviouse con éxito",
             "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
         }

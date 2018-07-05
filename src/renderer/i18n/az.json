@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Transfer et",
-        "to_address":"Transfer",
+        "from_address":"Partiyanı göndərmək",
+        "to_address":"Alıcı",
         "amount":"Məbləğ",
         "send_all":"Hamısını göndər",
         "data":"Məlumatlar",
@@ -52,6 +52,7 @@
         "select":"Xahiş edirik seçin",
         "no_account_info":"Hələ hesab yoxdur, hesab yarat və ya idxal edin",
         "contacts_dig": {
+            "title":"Əlaqə hesabı seçin",
             "select_placeholder":"Xahiş edirik seçin"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Şifrənizi daxil edin"
         },
         "msg_info": {
-            "decrypt_err":"Wallet ayrıştırma başarısız oldu, bu parol hatası ola bilər",
-            "amount_zero":"Balansın çatışmazlığı, davam edə bilmir",
             "address_null":"Digər tərəfin hesabını daxil edin",
+            "balance_zero":"Balansın çatışmazlığı, davam edə bilmir",
+            "amount_zero":"Transferin məbləği 0-dən çox olmalıdır",
+            "amount_error":"Xahiş edirik hüquqi əməliyyat məbləğini daxil edin",
             "address_err":"Köçürülmüş ünvanın formatı etibarsızdır.",
+
+            "decrypt_err":"Wallet ayrıştırma başarısız oldu, bu parol hatası ola bilər",
+            
+            
+            
+            
             "send_success":"Müvəffəqiyyətlə göndərildi",
             "send_error":"Əməliyyat başarısız oldu: kifayət qədər balans və miner haqlarının olmadığını yoxlayın"
         }

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Hurungkeun kaluar",
-        "to_address":"kana",
+        "from_address":"Kirim surélék pihak duit",
+        "to_address":"Payee",
         "amount":"duit",
         "send_all":"Kirim sadaya",
         "data":"data",
@@ -52,6 +52,7 @@
         "select":"Mangga pilih",
         "no_account_info":"No Rekening, mangga jieun rekening atawa impor",
         "contacts_dig": {
+            "title":"Pilih akun kontak",
             "select_placeholder":"Mangga pilih"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Mangga lebetkeun sandi anjeun"
         },
         "msg_info": {
-            "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
-            "amount_zero":"baki anu cukup, teu tiasa neraskeun",
             "address_null":"Mangga lebetkeun rekening silih urang",
+            "balance_zero":"baki anu cukup, teu tiasa neraskeun",
+            "amount_zero":"Jumlah mindahkeun kudu leuwih gede ti 0",
+            "amount_error":"Mangga lebetkeun jumlah urus valid",
             "address_err":"Kana format alamat henteu sah",
+
+            "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
+            
+            
+            
+            
             "send_success":"Kirim surélék ayaan",
             "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"
         }

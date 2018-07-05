@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Veguherînin",
-        "to_address":"Transfer",
+        "from_address":"Partiya şandin",
+        "to_address":"Payee",
         "amount":"Amount",
         "send_all":"Hemî bişînin",
         "data":"Daneyên",
@@ -52,6 +52,7 @@
         "select":"Ji kerema xwe hilbijêrin",
         "no_account_info":"Hê hesab nehatiye dayîn, kerema xwe çêbikin yan hesab bike",
         "contacts_dig": {
+            "title":"Hesabek peywendiyê hilbijêre",
             "select_placeholder":"Ji kerema xwe hilbijêrin"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Ji kerema xwe şîfreya xwe binivîse"
         },
         "msg_info": {
-            "decrypt_err":"Parsing failed, ew dibe ku çewtiyek şîfre be",
-            "amount_zero":"Bînavê nayê, nikarin berdewam bikin",
             "address_null":"Ji kerema xwe re hesabê partiya din",
+            "balance_zero":"Bînavê nayê, nikarin berdewam bikin",
+            "amount_zero":"Hejmara derbasbûnê divê ji 0 re mezintir be",
+            "amount_error":"Ji kerema xwe heqê veguherandina qanûnek qanûnî bike",
             "address_err":"Forma şîfreya veguhestinê ne çewt e.",
+
+            "decrypt_err":"Parsing failed, ew dibe ku çewtiyek şîfre be",
+            
+            
+            
+            
             "send_success":"Serkeftî şandin",
             "send_error":"Veguhastin têkelî: ger ji kerema xwe hebe ku heqê heqê heqê û heqê minerî ye"
         }

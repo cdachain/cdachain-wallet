@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Dlulisa",
-        "to_address":"Kudluliselwa",
+        "from_address":"Ithumela iqembu",
+        "to_address":"Umkhokheli",
         "amount":"Inani",
         "send_all":"Thumela konke",
         "data":"Idatha",
@@ -52,6 +52,7 @@
         "select":"Sicela ukhethe",
         "no_account_info":"Ayikho i-akhawunti okwamanje, sicela udale noma ungenise i-akhawunti",
         "contacts_dig": {
+            "title":"Khetha i-akhawunti yokuxhumana",
             "select_placeholder":"Sicela ukhethe"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Sicela ufake iphasiwedi yakho"
         },
         "msg_info": {
-            "decrypt_err":"I-Wallet parsing ihlulekile, kungenzeka kube yiphutha lephasiwedi",
-            "amount_zero":"Ibhalansi enganele, ayikwazi ukuqhubeka",
             "address_null":"Sicela ufake i-akhawunti yomunye umuntu",
+            "balance_zero":"Ibhalansi enganele, ayikwazi ukuqhubeka",
+            "amount_zero":"Ukudluliswa kwemali kumele kube mkhulu kunezingu-0",
+            "amount_error":"Sicela ufake inani lokuthengiselana ngokomthetho",
             "address_err":"Ifomethi yekheli elidlulisiwe alivumelekile.",
+
+            "decrypt_err":"I-Wallet parsing ihlulekile, kungenzeka kube yiphutha lephasiwedi",
+            
+            
+            
+            
             "send_success":"Kuthunyelwe ngempumelelo",
             "send_error":"Ukuthengwa kwehlulekile: sicela uhlole uma kukhona imali ebhalansi neyamaminerali okwanele"
         }

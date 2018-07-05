@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Nyefee",
-        "to_address":"Nyefee",
+        "from_address":"Na-eziga otu",
+        "to_address":"Payee",
         "amount":"Ọnụ",
         "send_all":"Ziga niile",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Biko họrọ",
         "no_account_info":"Enweghị akaụntụ ma, biko mepụta ma ọ bụ bubata akaụntụ",
         "contacts_dig": {
+            "title":"Họrọ akaụntụ kọntaktị",
             "select_placeholder":"Biko họrọ"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Biko tinye paswọọdụ gị"
         },
         "msg_info": {
-            "decrypt_err":"Obere obere akpa wuru, o nwere ike ịbụ njehie paswọọdụ",
-            "amount_zero":"Enweghi ike, enweghi ike ịga n'ihu",
             "address_null":"Biko tinye akaụntụ nke ọzọ",
+            "balance_zero":"Enweghi ike, enweghi ike ịga n'ihu",
+            "amount_zero":"Ọnụ ego ga-ebu ibu karịa 0",
+            "amount_error":"Biko tinye ego ego",
             "address_err":"Ọdịdị nke adreesị ebufe adighi mma.",
+
+            "decrypt_err":"Obere obere akpa wuru, o nwere ike ịbụ njehie paswọọdụ",
+            
+            
+            
+            
             "send_success":"E zigara nke ọma",
             "send_error":"Ozigbo ego ejirila: biko jụọ ma ọ bụrụ na e nwere nkwụnye ego zuru oke na ụgwọ ọrụ"
         }

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Tlosa",
-        "to_address":"Fetisetsa",
+        "from_address":"Ho romella mokga",
+        "to_address":"Payee",
         "amount":"Chelete",
         "send_all":"Romela tsohle",
         "data":"Lintlha",
@@ -52,6 +52,7 @@
         "select":"Ka kopo khetha",
         "no_account_info":"Ha ho na leha ho le joalo, ka kōpo u bōpe kapa u kene akhaonto",
         "contacts_dig": {
+            "title":"Khetha akhaonto ea puisano",
             "select_placeholder":"Ka kopo khetha"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Ka kopo kenya phasewete ea hau"
         },
         "msg_info": {
-            "decrypt_err":"Ho tsamaisa lichelete ho hlōlehile, e ka 'na ea e-ba phoso ea password",
-            "amount_zero":"Ho leka-lekaneng ho lekane, ho sitoa ho tsoela pele",
             "address_null":"Ka kopo kenya tlaleho ea motho e mong",
+            "balance_zero":"Ho leka-lekaneng ho lekane, ho sitoa ho tsoela pele",
+            "amount_zero":"Chelete ea ho fetisa e tlameha ho ba kholo ho feta 0",
+            "amount_error":"Ka kopo kenya chelete ea tefiso ea molao",
             "address_err":"Sebopeho sa aterese e fetisitsoeng ha e na thuso.",
+
+            "decrypt_err":"Ho tsamaisa lichelete ho hlōlehile, e ka 'na ea e-ba phoso ea password",
+            
+            
+            
+            
             "send_success":"E rometsoe ka katleho",
             "send_error":"Transaction e ile ea hlōleha: ka kōpo hlahloba hore na ho na le tekanyo e leka-lekaneng le tefo ea merafo"
         }

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Trasferiment barra",
-        "to_address":"Trasferiment",
+        "from_address":"Parti li tibgħat",
+        "to_address":"Payee",
         "amount":"Ammont",
         "send_all":"Ibgħat kollha",
         "data":"Dejta",
@@ -52,6 +52,7 @@
         "select":"Jekk jogħġbok agħżel",
         "no_account_info":"Għad m'hemmx kont, jekk jogħġbok toħloq jew timporta kont",
         "contacts_dig": {
+            "title":"Agħżel kont ta 'kuntatt",
             "select_placeholder":"Jekk jogħġbok agħżel"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Jekk jogħġbok daħħal il-password tiegħek"
         },
         "msg_info": {
-            "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
-            "amount_zero":"Bilanċ insuffiċjenti, li ma jistax ikompli",
             "address_null":"Jekk jogħġbok ikteb il-kont tal-parti l-oħra",
+            "balance_zero":"Bilanċ insuffiċjenti, li ma jistax ikompli",
+            "amount_zero":"L-ammont tat-trasferiment għandu jkun akbar minn 0",
+            "amount_error":"Jekk jogħġbok daħħal ammont ta 'transazzjoni legali",
             "address_err":"Il-format tal-indirizz ittrasferit huwa invalidu.",
+
+            "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
+            
+            
+            
+            
             "send_success":"Messaġġ mibgħut b'suċċess",
             "send_error":"In-nuqqas ta 'transazzjoni: jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u miżata ta' minaturi"
         }

@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Oordrag",
-        "to_address":"in",
+        "from_address":"Stuurpartytjie",
+        "to_address":"nemer",
         "amount":"geld",
         "send_all":"Stuur alles",
         "data":"data",
@@ -52,6 +52,7 @@
         "select":"Kies asseblief",
         "no_account_info":"Nog geen rekening, skep of invoer rekening",
         "contacts_dig": {
+            "title":"Kies 'n kontakrekening",
             "select_placeholder":"Kies asseblief"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Voer asseblief u wagwoord in"
         },
         "msg_info": {
-            "decrypt_err":"Wallet parsing het misluk, dit kan 'n wagwoord fout wees",
-            "amount_zero":"Onvoldoende balans, kan nie voortgaan nie",
             "address_null":"Voer asseblief die ander party se rekening in",
+            "balance_zero":"Onvoldoende balans, kan nie voortgaan nie",
+            "amount_zero":"Oordragbedrag moet groter as 0 wees",
+            "amount_error":"Voer asseblief 'n wettige transaksiesbedrag in",
             "address_err":"Die formaat van die oorgeplaasde adres is ongeldig.",
+
+            "decrypt_err":"Wallet parsing het misluk, dit kan 'n wagwoord fout wees",
+            
+            
+            
+            
             "send_success":"Suksesvol gestuur",
             "send_error":"Transaksie misluk: kyk asseblief of daar genoegsame balans en mynwerkersfooi is"
         }

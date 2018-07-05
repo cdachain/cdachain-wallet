@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Shpërndajeni",
-        "to_address":"në",
+        "from_address":"Dërgimi i partisë",
+        "to_address":"i paguari",
         "amount":"para",
         "send_all":"Dërgo te gjitha",
         "data":"të dhëna",
@@ -52,6 +52,7 @@
         "select":"Ju lutem zgjidhni",
         "no_account_info":"Asnjë llogari ende, të lutem krijoni ose importoni llogarinë",
         "contacts_dig": {
+            "title":"Zgjidh një llogari kontakti",
             "select_placeholder":"Ju lutem zgjidhni"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Ju lutemi shkruani fjalëkalimin tuaj"
         },
         "msg_info": {
-            "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
-            "amount_zero":"Bilanci i pamjaftueshëm, i paaftë për të vazhduar",
             "address_null":"Ju lutemi shkruani llogarinë e palës tjetër",
+            "balance_zero":"Bilanci i pamjaftueshëm, i paaftë për të vazhduar",
+            "amount_zero":"Shuma e transferimit duhet të jetë më e madhe se 0",
+            "amount_error":"Ju lutemi shkruani shumën e një transaksioni ligjor",
             "address_err":"Formati i adresës së transferuar është i pavlefshëm.",
+
+            "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
+            
+            
+            
+            
             "send_success":"U dërgua me sukses",
             "send_error":"Transaksioni dështoi: ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }

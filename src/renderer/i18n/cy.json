@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Trosglwyddo allan",
-        "to_address":"Trosglwyddo",
+        "from_address":"Anfon plaid",
+        "to_address":"Payee",
         "amount":"Swm",
         "send_all":"Anfonwch bawb",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Dewiswch",
         "no_account_info":"Dim cyfrif eto, os gwelwch yn dda creu neu fewnforio cyfrif",
         "contacts_dig": {
+            "title":"Dewiswch gyfrif cyswllt",
             "select_placeholder":"Dewiswch"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Rhowch eich cyfrinair"
         },
         "msg_info": {
-            "decrypt_err":"Methodd dadliad gwaledi, gall fod yn gamgymeriad cyfrinair",
-            "amount_zero":"Balans annigonol, yn gallu parhau",
             "address_null":"Rhowch gyfrif y parti arall",
+            "balance_zero":"Balans annigonol, yn gallu parhau",
+            "amount_zero":"Rhaid i'r swm trosglwyddo fod yn fwy na 0",
+            "amount_error":"Rhowch swm trafodiad cyfreithiol",
             "address_err":"Mae fformat y cyfeiriad trosglwyddedig yn annilys.",
+
+            "decrypt_err":"Methodd dadliad gwaledi, gall fod yn gamgymeriad cyfrinair",
+            
+            
+            
+            
             "send_success":"Wedi'i anfon yn llwyddiannus",
             "send_error":"Methodd y trafodiad: gwiriwch a oes digon o gydbwysedd a ffi glowyr"
         }

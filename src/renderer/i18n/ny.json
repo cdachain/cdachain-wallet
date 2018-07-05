@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Tumizani",
-        "to_address":"Tumizani",
+        "from_address":"Kutumiza phwando",
+        "to_address":"Payee",
         "amount":"Zambiri",
         "send_all":"Tumizani zonse",
         "data":"Deta",
@@ -52,6 +52,7 @@
         "select":"Chonde sankhani",
         "no_account_info":"Palibe akaunti komabe, chonde pangani kapena tumizani akaunti",
         "contacts_dig": {
+            "title":"Sankhani akaunti yothandizira",
             "select_placeholder":"Chonde sankhani"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Chonde lowetsani mawu anu achinsinsi"
         },
         "msg_info": {
-            "decrypt_err":"Kusungidwa kwa ngongole kunalephera, ikhoza kukhala cholakwika chachinsinsi",
-            "amount_zero":"Kusayenerera kokwanira, kosakhoza kupitiriza",
             "address_null":"Chonde lowetsani akaunti ya chipani china",
+            "balance_zero":"Kusayenerera kokwanira, kosakhoza kupitiriza",
+            "amount_zero":"Kutumiza ndalama ziyenera kukhala zazikulu kuposa 0",
+            "amount_error":"Chonde lowetsani kuchuluka kwa malamulo",
             "address_err":"Maonekedwe a adiresi yosamutsidwa ndi ofunika.",
+
+            "decrypt_err":"Kusungidwa kwa ngongole kunalephera, ikhoza kukhala cholakwika chachinsinsi",
+            
+            
+            
+            
             "send_success":"Kutumizidwa bwino",
             "send_error":"Kugulitsa kunalephera: chonde onani ngati pali malipiro okwanira ndi malipiro a minera"
         }

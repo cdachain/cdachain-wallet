@@ -41,8 +41,8 @@
         }
     },
     "page_transfer": {
-        "from_address":"Canja wurin fita",
-        "to_address":"Canja wurin",
+        "from_address":"Aika jam'iyyar",
+        "to_address":"Payee",
         "amount":"Adadin",
         "send_all":"Aika duk",
         "data":"Data",
@@ -52,6 +52,7 @@
         "select":"Don Allah a zaɓi",
         "no_account_info":"Babu asusun duk da haka, don Allah ƙirƙirar ko shigo da asusu",
         "contacts_dig": {
+            "title":"Zaɓi lissafin lamba",
             "select_placeholder":"Don Allah a zaɓi"
         },
         "confirm_dia": {
@@ -60,10 +61,17 @@
             "enter_passworld_place":"Da fatan a shigar da kalmar sirri"
         },
         "msg_info": {
-            "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
-            "amount_zero":"Balance mara inganci, kasa iya ci gaba",
             "address_null":"Da fatan a shigar da asusun na sauran ƙungiyoyi",
+            "balance_zero":"Balance mara inganci, kasa iya ci gaba",
+            "amount_zero":"Canja wuri dole ne ya fi 0",
+            "amount_error":"Da fatan a shigar da adadin ma'amalar shari'a",
             "address_err":"Tsarin adireshin da aka canja shi ba daidai ba ne.",
+
+            "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
+            
+            
+            
+            
             "send_success":"An aika da nasarar",
             "send_error":"An gama aiki: don Allah a duba idan akwai daidaitattun daidaitaka da nauyin kuɗi"
         }
