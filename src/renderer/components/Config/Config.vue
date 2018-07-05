@@ -235,14 +235,14 @@ export default {
         "--rpc_enable_control"
       ]);
       this.conMsg = "CanonChain 已经启动 ";
-      // sessionStorage.setItem("CanonChainPid", ls.pid);
+      self.$logger.info("CanonChainPid",ls.pid);
+      sessionStorage.setItem("CanonChainPid", ls.pid);
       //进程守护
       this.guardNode(ls, nodePath);
       this.$router.push({ path: "home" });
     },
     guardNode(ls, nodePath) {
       var self = this;
-      console.log("守护中")
       ls.on("exit", function() {
         ls = spawn(path.join(nodePath), [
           "--daemon",
@@ -250,7 +250,7 @@ export default {
           "--rpc_enable_control"
         ]);
         sessionStorage.setItem("CanonChainPid", ls.pid);
-        console.log("重启节点")
+        self.$logger.info("守护进程，新的CanonChainPid",ls.pid);
         self.guardNode(ls, nodePath);
       });
     }

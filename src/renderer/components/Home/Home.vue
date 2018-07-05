@@ -116,6 +116,14 @@ import { setInterval, clearInterval } from "timers";
 const { spawn, spawnSync } = require("child_process");
 let self = null;
 
+const app = require("electron").remote.app;
+
+app.on("will-quit", function() {
+    var currentPid = sessionStorage.getItem("CanonChainPid");
+    process.kill(currentPid);
+    self.$logger.info("app quit kill canonchain:", currentPid);
+});
+
 export default {
     name: "Bodyer",
     data() {
@@ -308,7 +316,9 @@ export default {
             fs.readFile(path, "utf8", (err, data) => {
                 if (err) {
                     this.$message.error(
-                        this.$t("page_home.import_dia.keystore_error") + ":" + err
+                        this.$t("page_home.import_dia.keystore_error") +
+                            ":" +
+                            err
                     );
                 }
                 // this.importInfo.keystore = JSON.parse(data);
@@ -329,7 +339,9 @@ export default {
             }
             if (this.importInfo.tag.length > 8) {
                 this.importInfo.alert = {
-                    content: this.$t("page_home.import_dia.validate_tag_length"),
+                    content: this.$t(
+                        "page_home.import_dia.validate_tag_length"
+                    ),
                     type: "error"
                 };
                 return;
@@ -338,7 +350,9 @@ export default {
             let account = null;
             if (!this.importInfo.keystore) {
                 this.importInfo.alert = {
-                    content: this.$t("page_home.import_dia.validate_enter_keystore"),
+                    content: this.$t(
+                        "page_home.import_dia.validate_enter_keystore"
+                    ),
                     type: "error"
                 };
                 return;
@@ -358,7 +372,9 @@ export default {
                     if (data === 0) {
                         //TODO Error
                         self.$message.error(
-                            self.$t("page_home.import_dia.validate_error_keystore")
+                            self.$t(
+                                "page_home.import_dia.validate_error_keystore"
+                            )
                         );
                     } else {
                         let params = {
