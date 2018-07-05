@@ -28,15 +28,18 @@
             "tag":"Whakapā",
             "address":"Wāhitau Pūkete",
             "tag_placeholder":"Tēnā koa whakauruhia te ingoa o te whakapā",
-            "address_placeholder":"Tēnā koa whakauruhia te wāhitau pūkete o te whakapā"
+            "address_placeholder":"Tēnā koa whakauruhia te wāhitau pūkete o te whakapā",
+            "add_success":"Kua tapiritia angitu"
         },
         "delete_dialog": {
-            "title":"Kei te tango koe"
+            "title":"Kei te tango koe",
+            "remove_success":"Tangohia angitu ana"
         },
         "msg_info": {
             "no_tag":"Tomo koa koa he tuhi kaute",
             "no_address":"Tomo koa koa ki to tautuhinga putea",
             "valid_address":"Ko te waahi o te whakapā he ture kore",
+            "validate_tag_length":"Kaore pea te ingoa Memo e roa ake i te 8 nga tahua",
             "exist":"Kua noho tonu te whakapiri,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ko te nui whakawhiti me nui atu i te 0",
             "amount_error":"Tēnā koa whakauruhia he moni whakawhitinga ture",
             "address_err":"He muhu te whakatakotoranga o te wāhitau whakawhitinga.",
+            "send_success":"I tono angitu",
 
             "decrypt_err":"I rahua te taraipa a te putea, he hapa kupuhipa pea",
-            
-            
-            
-            
-            "send_success":"I tono angitu",
             "send_error":"I rahua te mahi: tirohia mehemea he nui te utu me te utu minita"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Te nui",
             "data":"Raraunga",
             "send_time":"Tukuna te wa",
-            "mac_time":"Te waitohu matua"
+            "mac_time":"Te waina matua"
         },
         "keystore": {
             "tit":"Kōnae putea putea",

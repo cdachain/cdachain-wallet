@@ -28,15 +28,18 @@
             "tag":"Hubungi",
             "address":"Alamat akaun",
             "tag_placeholder":"Sila masukkan nama kenalan tersebut",
-            "address_placeholder":"Sila masukkan alamat akaun kenalan"
+            "address_placeholder":"Sila masukkan alamat akaun kenalan",
+            "add_success":"Ditambah berjaya"
         },
         "delete_dialog": {
-            "title":"Anda membuang"
+            "title":"Anda membuang",
+            "remove_success":"Berjaya dikeluarkan"
         },
         "msg_info": {
             "no_tag":"Sila masukkan nota akaun",
             "no_address":"Sila masukkan alamat akaun anda",
             "valid_address":"Alamat kenalan adalah haram",
+            "validate_tag_length":"Nama memo tidak boleh melebihi 8 aksara",
             "exist":"Kenalan sudah wujud,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Jumlah pemindahan mesti melebihi 0",
             "amount_error":"Sila masukkan jumlah urus niaga yang sah",
             "address_err":"Format alamat yang dipindahkan tidak sah.",
+            "send_success":"Berhasil dihantar",
 
             "decrypt_err":"Parsing Wallet gagal, mungkin ralat kata laluan",
-            
-            
-            
-            
-            "send_success":"Berhasil dihantar",
             "send_error":"Urus niaga gagal: sila semak jika ada baki yang mencukupi dan yuran pelombong"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Jumlah",
             "data":"Data",
             "send_time":"Menghantar masa",
-            "mac_time":"Masa rangkaian utama"
+            "mac_time":"Masa rantaian utama"
         },
         "keystore": {
             "tit":"Fail dompet sandaran",

@@ -28,15 +28,18 @@
             "tag":"Kuntatt",
             "address":"L-indirizz tal-kont",
             "tag_placeholder":"Jekk jogħġbok ikteb l-isem tal-kuntatt",
-            "address_placeholder":"Jekk jogħġbok idħol l-indirizz tal-kont tal-kuntatt"
+            "address_placeholder":"Jekk jogħġbok idħol l-indirizz tal-kont tal-kuntatt",
+            "add_success":"Miżjud b'suċċess"
         },
         "delete_dialog": {
-            "title":"Int qed tneħħi"
+            "title":"Int qed tneħħi",
+            "remove_success":"Tneħħiet b'suċċess"
         },
         "msg_info": {
             "no_tag":"Jekk jogħġbok daħħal in-nota tal-kont",
             "no_address":"Jekk jogħġbok idħol l-indirizz tal-kont tiegħek",
             "valid_address":"L-indirizz tal-kuntatt huwa illegali",
+            "validate_tag_length":"L-isem tal-memo ma jistax ikun itwal minn 8 karattri",
             "exist":"Il-kuntatt diġà jeżisti,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"L-ammont tat-trasferiment għandu jkun akbar minn 0",
             "amount_error":"Jekk jogħġbok daħħal ammont ta 'transazzjoni legali",
             "address_err":"Il-format tal-indirizz ittrasferit huwa invalidu.",
+            "send_success":"Messaġġ mibgħut b'suċċess",
 
             "decrypt_err":"L-analiżi tal-kartiera fallew, jista 'jkun żball tal-password",
-            
-            
-            
-            
-            "send_success":"Messaġġ mibgħut b'suċċess",
             "send_error":"In-nuqqas ta 'transazzjoni: jekk jogħġbok iċċekkja jekk hemmx biżżejjed bilanċ u miżata ta' minaturi"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Ammont",
             "data":"Dejta",
             "send_time":"Ħin li jintbagħat",
-            "mac_time":"Żmien ewlieni tan-netwerk"
+            "mac_time":"Ħin ewlieni tal-katina"
         },
         "keystore": {
             "tit":"Fajl ta 'portafoll ta' riżerva",

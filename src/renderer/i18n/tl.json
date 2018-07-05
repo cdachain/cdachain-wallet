@@ -28,15 +28,18 @@
             "tag":"Makipag-ugnay sa",
             "address":"Address ng account",
             "tag_placeholder":"Mangyaring ipasok ang pangalan ng contact",
-            "address_placeholder":"Mangyaring ipasok ang address account ng contact"
+            "address_placeholder":"Mangyaring ipasok ang address account ng contact",
+            "add_success":"Matagumpay na naidagdag"
         },
         "delete_dialog": {
-            "title":"Inaalis mo"
+            "title":"Inaalis mo",
+            "remove_success":"Matagumpay na naalis"
         },
         "msg_info": {
             "no_tag":"Mangyaring magpasok ng tala ng account",
             "no_address":"Mangyaring ipasok ang iyong account address",
             "valid_address":"Ang address ng contact ay ilegal",
+            "validate_tag_length":"Ang pangalan ng memo ay hindi maaaring mas mahaba sa 8 character",
             "exist":"Ang contact ay umiiral na,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ang halaga ng paglipat ay dapat na higit sa 0",
             "amount_error":"Mangyaring magpasok ng isang legal na halaga ng transaksyon",
             "address_err":"Di-wasto ang format ng nailipat na address.",
+            "send_success":"Matagumpay na naipadala",
 
             "decrypt_err":"Nabigo ang pag-parse ng Wallet, maaaring ito ay isang error sa password",
-            
-            
-            
-            
-            "send_success":"Matagumpay na naipadala",
             "send_error":"Nabigo ang transaksyon: pakitingnan kung may sapat na balanse at bayad sa minero"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Halaga",
             "data":"Data",
             "send_time":"Nagpapadala ng oras",
-            "mac_time":"Pangunahing oras ng network"
+            "mac_time":"Pangunahing oras ng kadena"
         },
         "keystore": {
             "tit":"Backup wallet file",

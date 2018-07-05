@@ -28,15 +28,18 @@
             "tag":"Harremanetarako",
             "address":"Kontu helbidea",
             "tag_placeholder":"Sartu kontaktuaren izena",
-            "address_placeholder":"Sartu kontaktuaren kontuaren helbidea"
+            "address_placeholder":"Sartu kontaktuaren kontuaren helbidea",
+            "add_success":"Ondo gehitu da"
         },
         "delete_dialog": {
-            "title":"Kendu egiten ari zara"
+            "title":"Kendu egiten ari zara",
+            "remove_success":"Behar bezala kendu da"
         },
         "msg_info": {
             "no_tag":"Idatzi kontuaren oharra",
             "no_address":"Sartu zure kontuaren helbidea",
             "valid_address":"Kontaktuaren helbidea legez kanpokoa da",
+            "validate_tag_length":"Memo izenik ezin da 8 karaktere baino gehiago izan",
             "exist":"Kontaktua lehendik ere badago,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Transferentzia zenbatekoa 0 baino handiagoa izan behar da",
             "amount_error":"Sartu transakzio juridikoko zenbatekoa",
             "address_err":"Transferitutako helbidea formatua baliogabea da.",
+            "send_success":"Ongi bidali da",
 
             "decrypt_err":"Huts egin du parekatzeak huts egin du, pasahitzaren errorea izan daiteke",
-            
-            
-            
-            
-            "send_success":"Ongi bidali da",
             "send_error":"Transakzioak huts egin du: egiaztatu oreka nahikoa dagoela eta meatzaritza kuota"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Dirua",
             "data":"Datuak",
             "send_time":"Denbora bidaltzen",
-            "mac_time":"Sarearen denbora nagusia"
+            "mac_time":"Katearen denbora nagusia"
         },
         "keystore": {
             "tit":"Babeskopiaren zorro fitxategia",

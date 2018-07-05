@@ -28,15 +28,18 @@
             "tag":"Əlaqə",
             "address":"Hesab ünvanı",
             "tag_placeholder":"Əlaqənin adını daxil edin",
-            "address_placeholder":"Xahiş edirik əlaqə hesabının ünvanını daxil edin"
+            "address_placeholder":"Xahiş edirik əlaqə hesabının ünvanını daxil edin",
+            "add_success":"Uğurla əlavə edildi"
         },
         "delete_dialog": {
-            "title":"Siz çıxarırsınız"
+            "title":"Siz çıxarırsınız",
+            "remove_success":"Uğurla silindi"
         },
         "msg_info": {
             "no_tag":"Xahiş edirik bir hesab qeydini daxil edin",
             "no_address":"Xahiş edirik hesab ünvanınızı daxil edin",
             "valid_address":"Kontaktın ünvanı qanunsuzdur",
+            "validate_tag_length":"Memo adı 8 simvoldan artıq ola bilməz",
             "exist":"Əlaqə artıq mövcuddur,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Transferin məbləği 0-dən çox olmalıdır",
             "amount_error":"Xahiş edirik hüquqi əməliyyat məbləğini daxil edin",
             "address_err":"Köçürülmüş ünvanın formatı etibarsızdır.",
+            "send_success":"Müvəffəqiyyətlə göndərildi",
 
             "decrypt_err":"Wallet ayrıştırma başarısız oldu, bu parol hatası ola bilər",
-            
-            
-            
-            
-            "send_success":"Müvəffəqiyyətlə göndərildi",
             "send_error":"Əməliyyat başarısız oldu: kifayət qədər balans və miner haqlarının olmadığını yoxlayın"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Məbləğ",
             "data":"Məlumatlar",
             "send_time":"Vaxt göndərmə",
-            "mac_time":"Əsas şəbəkə saatı"
+            "mac_time":"Əsas zəncirləmə vaxtı"
         },
         "keystore": {
             "tit":"Backup cüzdan fayl",

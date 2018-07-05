@@ -28,15 +28,18 @@
             "tag":"Contact",
             "address":"Adresi yeAunti",
             "tag_placeholder":"Ndapota tumira zita rekutaura",
-            "address_placeholder":"Ndapota tumira iyo kero yekambani yekutaura"
+            "address_placeholder":"Ndapota tumira iyo kero yekambani yekutaura",
+            "add_success":"Yakawedzera kubudirira"
         },
         "delete_dialog": {
-            "title":"Iwe uri kubvisa"
+            "title":"Iwe uri kubvisa",
+            "remove_success":"Akabudirira kubudirira"
         },
         "msg_info": {
             "no_tag":"Ndapota nyora chinyorwa chebhuku",
             "no_address":"Ndapota nyora kero yako kero",
             "valid_address":"Kero yekutaurirana haisi pamutemo",
+            "validate_tag_length":"Memo zita harigoni kuva rakapfuvura kupfuura mazita 8",
             "exist":"Kukurukurirana kwave kuripo,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Kudhinda chikamu chinofanira kuva chikuru kupfuura 0",
             "amount_error":"Ndapota nyora mukana wekutengesa mutemo",
             "address_err":"Mhando yekodzero yekutambirwa haina kuwanikwa.",
+            "send_success":"Akabudirira kutumwa",
 
             "decrypt_err":"Kurapa kwechikwata kwakakundikana, ingangodaro isiri iyo password",
-            
-            
-            
-            
-            "send_success":"Akabudirira kutumwa",
             "send_error":"Transaction yakakundikana: tapota tarisai kana pane mari yakakwana uye mari yevashandi"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Nhamba",
             "data":"Data",
             "send_time":"Kutumira nguva",
-            "mac_time":"Main network network"
+            "mac_time":"Main chain time"
         },
         "keystore": {
             "tit":"Backup wallet file",

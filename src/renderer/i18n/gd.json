@@ -28,15 +28,18 @@
             "tag":"Cuir fios thugainn",
             "address":"Seòladh cunntais",
             "tag_placeholder":"Cuir a-steach ainm a 'chonaltraidh",
-            "address_placeholder":"Cuir a-steach seòladh cunntais an neach-aithne"
+            "address_placeholder":"Cuir a-steach seòladh cunntais an neach-aithne",
+            "add_success":"Air adhart gu soirbheachail"
         },
         "delete_dialog": {
-            "title":"Tha thu a 'toirt air falbh"
+            "title":"Tha thu a 'toirt air falbh",
+            "remove_success":"Chaidh a thoirt air falbh gu soirbheachail"
         },
         "msg_info": {
             "no_tag":"Cuir a-steach nòta cunntais",
             "no_address":"Cuir a-steach do sheòladh cunntais",
             "valid_address":"Tha seòladh a 'chonaltraidh mì-laghail",
+            "validate_tag_length":"Chan fhaod ainm meòrachan a bhith nas fhaide na 8 caractaran",
             "exist":"Tha an ceangal a-cheana ann,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Feumaidh sùim a bhith nas motha na 0",
             "amount_error":"Cuir a-steach suim laghail laghail",
             "address_err":"Tha cruth an t-seòlaidh air a ghluasad mì-dhligheach.",
+            "send_success":"Chaidh a chuir gu soirbheachail",
 
             "decrypt_err":"Dh'fhàillig parsadh barain, is dòcha gur e mearachd facal-faire a th 'ann",
-            
-            
-            
-            
-            "send_success":"Chaidh a chuir gu soirbheachail",
             "send_error":"Dh'fhàillig an t-atharrachadh: feuch a bheil cothromachadh gu leòr agus cìs mèinnearach"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Suim",
             "data":"Dàta",
             "send_time":"A 'cur seachad ùine",
-            "mac_time":"Prìomh ùine lìonra"
+            "mac_time":"Prìomh ùine slabhraidh"
         },
         "keystore": {
             "tit":"Faidhle cùl-taice",

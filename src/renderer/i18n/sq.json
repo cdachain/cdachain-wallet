@@ -28,15 +28,18 @@
             "tag":"kontakt",
             "address":"Adresa e llogarisë",
             "tag_placeholder":"Futni emrin e kontaktit",
-            "address_placeholder":"Ju lutemi shkruani adresën e llogarisë së kontaktit"
+            "address_placeholder":"Ju lutemi shkruani adresën e llogarisë së kontaktit",
+            "add_success":"U shtua me sukses"
         },
         "delete_dialog": {
-            "title":"Po heq"
+            "title":"Po heq",
+            "remove_success":"Hiqe me sukses"
         },
         "msg_info": {
             "no_tag":"Futni një shënim llogarie",
             "no_address":"Ju lutemi shkruani adresën tuaj të llogarisë",
             "valid_address":"Adresa e kontaktit është e paligjshme",
+            "validate_tag_length":"Emri memo nuk mund të jetë më i gjatë se 8 shkronja",
             "exist":"Kontakti tashmë ekziston,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Shuma e transferimit duhet të jetë më e madhe se 0",
             "amount_error":"Ju lutemi shkruani shumën e një transaksioni ligjor",
             "address_err":"Formati i adresës së transferuar është i pavlefshëm.",
+            "send_success":"U dërgua me sukses",
 
             "decrypt_err":"Analizimi i portofolit dështoi, mund të jetë një gabim fjalëkalimi",
-            
-            
-            
-            
-            "send_success":"U dërgua me sukses",
             "send_error":"Transaksioni dështoi: ju lutemi kontrolloni nëse ka ekuilibër të mjaftueshëm dhe tarifë minatorësh"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"para",
             "data":"të dhëna",
             "send_time":"Dërgimi i kohës",
-            "mac_time":"Koha e rrjetit kryesor"
+            "mac_time":"Koha kryesore e zinxhirit"
         },
         "keystore": {
             "tit":"Dosja e portofolit të kopjimit",

@@ -28,15 +28,18 @@
             "tag":"Cyswllt",
             "address":"Cyfeiriad cyfrif",
             "tag_placeholder":"Rhowch enw'r cyswllt",
-            "address_placeholder":"Rhowch gyfeiriad cyfrif y cyswllt"
+            "address_placeholder":"Rhowch gyfeiriad cyfrif y cyswllt",
+            "add_success":"Ychwanegwyd yn llwyddiannus"
         },
         "delete_dialog": {
-            "title":"Rydych chi'n cael gwared"
+            "title":"Rydych chi'n cael gwared",
+            "remove_success":"Wedi'i dynnu'n llwyddiannus"
         },
         "msg_info": {
             "no_tag":"Nodwch nodyn cyfrif",
             "no_address":"Rhowch eich cyfeiriad cyfrif",
             "valid_address":"Mae cyfeiriad y cyswllt yn anghyfreithlon",
+            "validate_tag_length":"Ni all enw cofio fod yn hwy na 8 nod",
             "exist":"Mae'r cyswllt eisoes yn bodoli,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Rhaid i'r swm trosglwyddo fod yn fwy na 0",
             "amount_error":"Rhowch swm trafodiad cyfreithiol",
             "address_err":"Mae fformat y cyfeiriad trosglwyddedig yn annilys.",
+            "send_success":"Wedi'i anfon yn llwyddiannus",
 
             "decrypt_err":"Methodd dadliad gwaledi, gall fod yn gamgymeriad cyfrinair",
-            
-            
-            
-            
-            "send_success":"Wedi'i anfon yn llwyddiannus",
             "send_error":"Methodd y trafodiad: gwiriwch a oes digon o gydbwysedd a ffi glowyr"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Swm",
             "data":"Data",
             "send_time":"Anfon amser",
-            "mac_time":"Prif amser y rhwydwaith"
+            "mac_time":"Prif amser y gadwyn"
         },
         "keystore": {
             "tit":"Ffeil waled wrth gefn",

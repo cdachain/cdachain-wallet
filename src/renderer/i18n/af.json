@@ -28,15 +28,18 @@
             "tag":"Kontak",
             "address":"Rekeningadres",
             "tag_placeholder":"Voer asseblief die naam van die kontak in",
-            "address_placeholder":"Voer asseblief die kontak se rekening adres in"
+            "address_placeholder":"Voer asseblief die kontak se rekening adres in",
+            "add_success":"Bygevoeg suksesvol"
         },
         "delete_dialog": {
-            "title":"Jy verwyder"
+            "title":"Jy verwyder",
+            "remove_success":"Suksesvol verwyder"
         },
         "msg_info": {
             "no_tag":"Voer asseblief 'n rekeningnota in",
             "no_address":"Voer asseblief jou rekening adres in",
             "valid_address":"Die adres van die kontak is onwettig",
+            "validate_tag_length":"Memo naam kan nie langer as 8 karakters wees nie",
             "exist":"Die kontak bestaan ​​reeds,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Oordragbedrag moet groter as 0 wees",
             "amount_error":"Voer asseblief 'n wettige transaksiesbedrag in",
             "address_err":"Die formaat van die oorgeplaasde adres is ongeldig.",
+            "send_success":"Suksesvol gestuur",
 
             "decrypt_err":"Wallet parsing het misluk, dit kan 'n wagwoord fout wees",
-            
-            
-            
-            
-            "send_success":"Suksesvol gestuur",
             "send_error":"Transaksie misluk: kyk asseblief of daar genoegsame balans en mynwerkersfooi is"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"geld",
             "data":"data",
             "send_time":"Stuur tyd",
-            "mac_time":"Hoofnetwerk tyd"
+            "mac_time":"Hoofketting tyd"
         },
         "keystore": {
             "tit":"Rugsteun-beursie-lêer",

@@ -28,15 +28,18 @@
             "tag":"Contacte",
             "address":"Adreça del compte",
             "tag_placeholder":"Introduïu el nom del contacte",
-            "address_placeholder":"Introduïu l'adreça del compte del contacte"
+            "address_placeholder":"Introduïu l'adreça del compte del contacte",
+            "add_success":"S'ha afegit correctament"
         },
         "delete_dialog": {
-            "title":"Estàs eliminant"
+            "title":"Estàs eliminant",
+            "remove_success":"S'ha eliminat correctament"
         },
         "msg_info": {
             "no_tag":"Introduïu una nota del compte",
             "no_address":"Introduïu l'adreça del vostre compte",
             "valid_address":"L'adreça del contacte és il·legal",
+            "validate_tag_length":"El nom de memòria no pot superar els 8 caràcters",
             "exist":"El contacte ja existeix,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"L'import de la transferència ha de ser superior a 0",
             "amount_error":"Introduïu un import de transacció legal",
             "address_err":"El format de l'adreça transferida no és vàlida.",
+            "send_success":"S'ha enviat correctament",
 
             "decrypt_err":"L'anàlisi de la cartera ha fallat, pot ser un error de contrasenya",
-            
-            
-            
-            
-            "send_success":"S'ha enviat correctament",
             "send_error":"Ha fallat la transacció: si us plau, comproveu si hi ha un saldo suficient i una tarifa de minera"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Import",
             "data":"Dades",
             "send_time":"S'està enviant el temps",
-            "mac_time":"Temps principal de la xarxa"
+            "mac_time":"Temps de cadena principal"
         },
         "keystore": {
             "tit":"Arxiu de cartera de còpia de seguretat",

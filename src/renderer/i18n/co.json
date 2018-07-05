@@ -28,15 +28,18 @@
             "tag":"Cuntattate",
             "address":"Indirizzu di cunnessione",
             "tag_placeholder":"Pudite u nome di u cuntattu",
-            "address_placeholder":"Per piacè entre in l'indirizzu di u cuntattu di u cuntattu"
+            "address_placeholder":"Per piacè entre in l'indirizzu di u cuntattu di u cuntattu",
+            "add_success":"Muditu bè"
         },
         "delete_dialog": {
-            "title":"Vulete sguassà"
+            "title":"Vulete sguassà",
+            "remove_success":"Successfully eliminata"
         },
         "msg_info": {
             "no_tag":"Per piacè inserisce una nota di cunta",
             "no_address":"Intrazate l'indirizzu vostru indirizzu",
             "valid_address":"L'indirizzu di u cuntattu hè illegale",
+            "validate_tag_length":"U nome di Memo ùn pò esse più di più di 8 caratteri",
             "exist":"U cuntattu hè digià esiste,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"U cantu di trasferimentu deve esse più grande ca 0",
             "amount_error":"Per piacè inserisce una quantità di transazzione legali",
             "address_err":"U formatu di l'indirizzu trasferitore hè invalidu.",
+            "send_success":"Mandatu bè",
 
             "decrypt_err":"L'analizazione di Wallet falla, pò esse un errore di password",
-            
-            
-            
-            
-            "send_success":"Mandatu bè",
             "send_error":"A transaczione falleva: cuntene qualchì bastanza di equilibriu è minore"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Amount",
             "data":"Dati",
             "send_time":"Mandatu à tempu",
-            "mac_time":"Tempu di a retazione principali"
+            "mac_time":"U tempu di a catena principali"
         },
         "keystore": {
             "tit":"Backup wallet file",

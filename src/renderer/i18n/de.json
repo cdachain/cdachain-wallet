@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Kontoadresse",
             "tag_placeholder":"Bitte geben Sie den Namen des Kontakts ein",
-            "address_placeholder":"Bitte geben Sie die Kontonummer des Kontakts ein"
+            "address_placeholder":"Bitte geben Sie die Kontonummer des Kontakts ein",
+            "add_success":"Erfolgreich hinzugefügt"
         },
         "delete_dialog": {
-            "title":"Sie entfernen"
+            "title":"Sie entfernen",
+            "remove_success":"Erfolgreich entfernt"
         },
         "msg_info": {
             "no_tag":"Bitte geben Sie eine Kontonummer ein",
             "no_address":"Bitte geben Sie Ihre Kontoadresse ein",
             "valid_address":"Die Adresse des Kontakts ist illegal",
+            "validate_tag_length":"Der Memo-Name darf nicht länger als 8 Zeichen sein",
             "exist":"Der Kontakt existiert bereits,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Der Überweisungsbetrag muss größer als 0 sein",
             "amount_error":"Bitte geben Sie einen legalen Transaktionsbetrag ein",
             "address_err":"Das Format der übertragenen Adresse ist ungültig.",
+            "send_success":"Erfolgreich gesendet",
 
             "decrypt_err":"Das Parsen von Briefen ist fehlgeschlagen, möglicherweise liegt ein Kennwortfehler vor",
-            
-            
-            
-            
-            "send_success":"Erfolgreich gesendet",
             "send_error":"Transaktion fehlgeschlagen: Bitte prüfen Sie, ob genügend Guthaben und Bergarbeitergebühr vorhanden sind"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Betrag",
             "data":"Daten",
             "send_time":"Sendezeit",
-            "mac_time":"Hauptnetzwerkzeit"
+            "mac_time":"Hauptzeit der Kette"
         },
         "keystore": {
             "tit":"Backup-Brieftasche-Datei",

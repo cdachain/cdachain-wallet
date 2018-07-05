@@ -28,15 +28,18 @@
             "tag":"Saduwa",
             "address":"Adireshin lissafin",
             "tag_placeholder":"Da fatan a shigar da sunan sunan",
-            "address_placeholder":"Da fatan a shigar da adireshin adireshin mai lamba"
+            "address_placeholder":"Da fatan a shigar da adireshin adireshin mai lamba",
+            "add_success":"Ƙara nasara"
         },
         "delete_dialog": {
-            "title":"Ana cirewa"
+            "title":"Ana cirewa",
+            "remove_success":"An cire shi da nasara"
         },
         "msg_info": {
             "no_tag":"Da fatan a shigar da bayanin kula",
             "no_address":"Da fatan a shigar adireshin adireshinku",
             "valid_address":"Adireshin lambar sadarwa ba bisa doka ba ne",
+            "validate_tag_length":"Sunan sunan martaba ba zai iya girma fiye da haruffa 8 ba.",
             "exist":"Lambar ta rigaya ta kasance,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Canja wuri dole ne ya fi 0",
             "amount_error":"Da fatan a shigar da adadin ma'amalar shari'a",
             "address_err":"Tsarin adireshin da aka canja shi ba daidai ba ne.",
+            "send_success":"An aika da nasarar",
 
             "decrypt_err":"Kuskuren takalma ya kasa, yana iya zama kuskuren sirri",
-            
-            
-            
-            
-            "send_success":"An aika da nasarar",
             "send_error":"An gama aiki: don Allah a duba idan akwai daidaitattun daidaitaka da nauyin kuɗi"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Adadin",
             "data":"Data",
             "send_time":"Aika lokaci",
-            "mac_time":"Babban lokaci na cibiyar sadarwa"
+            "mac_time":"Main sarkar lokaci"
         },
         "keystore": {
             "tit":"Fayil ɗin ajiyayyen ajiya",

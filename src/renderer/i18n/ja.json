@@ -28,15 +28,18 @@
             "tag":"連絡先",
             "address":"アカウントアドレス",
             "tag_placeholder":"連絡先の名前を入力してください",
-            "address_placeholder":"連絡先のアカウントアドレスを入力してください"
+            "address_placeholder":"連絡先のアカウントアドレスを入力してください",
+            "add_success":"追加されました"
         },
         "delete_dialog": {
-            "title":"あなたは削除しています"
+            "title":"あなたは削除しています",
+            "remove_success":"削除されました"
         },
         "msg_info": {
             "no_tag":"アカウントのメモを入力してください",
             "no_address":"あなたのアカウントアドレスを入力してください",
             "valid_address":"連絡先の住所が不正です",
+            "validate_tag_length":"ノート名の名前は8文字以下でなければなりません。",
             "exist":"連絡先は既に存在しますが、"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"転送量は0より大きくなければなりません",
             "amount_error":"法的な取引金額を入力してください",
             "address_err":"転送されたアドレスの形式が無効です。",
+            "send_success":"正常に送信されました",
 
             "decrypt_err":"ウォレットの解析に失敗しました。パスワードエラーの可能性があります",
-            
-            
-            
-            
-            "send_success":"正常に送信されました",
             "send_error":"取引に失敗しました：十分な残高と鉱山手数料があるかどうか確認してください"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"金額",
             "data":"データ",
             "send_time":"送信時間",
-            "mac_time":"メインネットワーク時間"
+            "mac_time":"主鎖の時間"
         },
         "keystore": {
             "tit":"バックアップ・ウォレット・ファイル",

@@ -28,15 +28,18 @@
             "tag":"Uqhagamshelwano",
             "address":"Idilesi yeAkhawunti",
             "tag_placeholder":"Nceda ufake igama loqhagamshelwano",
-            "address_placeholder":"Nceda faka idilesi yeakhawunti yomnxeba"
+            "address_placeholder":"Nceda faka idilesi yeakhawunti yomnxeba",
+            "add_success":"Yongezwe ngempumelelo"
         },
         "delete_dialog": {
-            "title":"U kususa"
+            "title":"U kususa",
+            "remove_success":"Ususwe ngempumelelo"
         },
         "msg_info": {
             "no_tag":"Nceda ufake inqaku le-akhawunti",
             "no_address":"Nceda ufake idilesi yeakhawunti yakho",
             "valid_address":"Idilesi yoqhagamshelwano ayikho mthethweni",
+            "validate_tag_length":"Igama leMemo alikwazi ukuba lide kunezinhlamvu ezingu-8",
             "exist":"Uqhagamshelwano lukhona kakade,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Imali yokutshintsha kufuneka ibe ngaphezu kwe-0",
             "amount_error":"Nceda ufake inani lokuthengiselana ngokomthetho",
             "address_err":"Ifomathi yedilesi edluliselweyo ayivumelekanga.",
+            "send_success":"Thunyelwe ngempumelelo",
 
             "decrypt_err":"Ukutshatyalaliswa kwe-Wallet kwehlulekile, kusenokuba yimpazamo yephasiwedi",
-            
-            
-            
-            
-            "send_success":"Thunyelwe ngempumelelo",
             "send_error":"Ukuthengiswa kwehlulekile: nceda uqaphele ukuba kukho ukulingana okwaneleyo kunye nemirhumo yemayini"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Isixa",
             "data":"Iinkcukacha",
             "send_time":"Ukuthumela ixesha",
-            "mac_time":"Ixesha lenethiwekhi"
+            "mac_time":"Ixesha elide lokudibanisa"
         },
         "keystore": {
             "tit":"Ifayile yekhredithi yecala",

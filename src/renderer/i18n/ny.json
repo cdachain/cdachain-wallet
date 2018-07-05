@@ -28,15 +28,18 @@
             "tag":"Lumikizanani",
             "address":"Adilesi ya akaunti",
             "tag_placeholder":"Chonde lowetsani dzina la okhudza",
-            "address_placeholder":"Chonde lowetsani adilesi ya akaunti yanu"
+            "address_placeholder":"Chonde lowetsani adilesi ya akaunti yanu",
+            "add_success":"Kuwonjezeka bwino"
         },
         "delete_dialog": {
-            "title":"Mukuchotsa"
+            "title":"Mukuchotsa",
+            "remove_success":"Ichotsedwa bwino"
         },
         "msg_info": {
             "no_tag":"Chonde lowetsani ndemanga ya akaunti",
             "no_address":"Chonde lowetsani adilesi yanu ya akaunti",
             "valid_address":"Adilesi yothandizirayi ndi yotsutsa",
+            "validate_tag_length":"Dzina la memo silingakhale lalitali kuposa malemba 8",
             "exist":"Ulalowo ulipo kale,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Kutumiza ndalama ziyenera kukhala zazikulu kuposa 0",
             "amount_error":"Chonde lowetsani kuchuluka kwa malamulo",
             "address_err":"Maonekedwe a adiresi yosamutsidwa ndi ofunika.",
+            "send_success":"Kutumizidwa bwino",
 
             "decrypt_err":"Kusungidwa kwa ngongole kunalephera, ikhoza kukhala cholakwika chachinsinsi",
-            
-            
-            
-            
-            "send_success":"Kutumizidwa bwino",
             "send_error":"Kugulitsa kunalephera: chonde onani ngati pali malipiro okwanira ndi malipiro a minera"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Zambiri",
             "data":"Deta",
             "send_time":"Kutumiza nthawi",
-            "mac_time":"Nthawi yambiri yogwiritsira ntchito"
+            "mac_time":"Nthawi yayitali yachitsulo"
         },
         "keystore": {
             "tit":"Zosungira thumba lapale fayilo",

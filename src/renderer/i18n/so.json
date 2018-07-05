@@ -28,15 +28,18 @@
             "tag":"La xiriir",
             "address":"Cinwaanka xisaabta",
             "tag_placeholder":"Fadlan qor magaca xiriirka",
-            "address_placeholder":"Fadlan gali cinwaanka koontada akoonka"
+            "address_placeholder":"Fadlan gali cinwaanka koontada akoonka",
+            "add_success":"Ku guuleystey guul"
         },
         "delete_dialog": {
-            "title":"Adigu waad ka saartaa"
+            "title":"Adigu waad ka saartaa",
+            "remove_success":"Si guul leh ayaa loo saaray"
         },
         "msg_info": {
             "no_tag":"Fadlan qor qoraalka xisaabta",
             "no_address":"Fadlan gali cinwaanka koontadaada",
             "valid_address":"Cinwaanka xidhiidhka waa sharci darro",
+            "validate_tag_length":"Magaca xasuusta ma noqon karto wax ka badan 8 characters",
             "exist":"Xiriirkii hore u jirey,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Xaddiga wareejinta waa inuu ka weyn yahay 0",
             "amount_error":"Fadlan gali qadar lacageed oo sharci ah",
             "address_err":"Nidaamka cinwaanka la soo wareejiyay waa mid aan sharci ahayn.",
+            "send_success":"Si guul leh ayaa loo soo diray",
 
             "decrypt_err":"Qalabaynta jeebka ayaa ku fashilmay, waxay noqon kartaa qalad sir ah",
-            
-            
-            
-            
-            "send_success":"Si guul leh ayaa loo soo diray",
             "send_error":"Hawlgalku wuu ku fashilmay: fadlan iska hubi haddii ay jirto dheelitir ku filan iyo qarash yar"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Tirada",
             "data":"Macluumaadka",
             "send_time":"Waqtiga dirista",
-            "mac_time":"Wakhtiga shabakadda ee ugu weyn"
+            "mac_time":"Wakhtiga weyn ee silsiladda"
         },
         "keystore": {
             "tit":"Faylka canshuur celinta",

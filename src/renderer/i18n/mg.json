@@ -28,15 +28,18 @@
             "tag":"Contact",
             "address":"Adiresy kaonty",
             "tag_placeholder":"Azafady azafady ny anaran'ny fifandraisana",
-            "address_placeholder":"Ampidiro azafady ny adiresin'ilay kaonty"
+            "address_placeholder":"Ampidiro azafady ny adiresin'ilay kaonty",
+            "add_success":"Added successfully"
         },
         "delete_dialog": {
-            "title":"Miala ianao"
+            "title":"Miala ianao",
+            "remove_success":"Nesorina tamim-pahombiazana"
         },
         "msg_info": {
             "no_tag":"Mampidira fanamarihana ny kaonty azafady",
             "no_address":"Ampidiro azafady ny adiresinao",
             "valid_address":"Tsy ara-dalàna ny adiresin'ny fifandraisana",
+            "validate_tag_length":"Ny anaran'ny memo dia tsy mety maharitra mihoatra ny 8",
             "exist":"Efa misy ny fifandraisana,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ny habetsaky ny famindrana dia tsy tokony hihoatra ny 0",
             "amount_error":"Mampidira sanda ara-dalàna ny volavolan-dalàna",
             "address_err":"Tsy mety ny endriky ny adiresy nadika.",
+            "send_success":"Nalefa tamim-pahombiazana",
 
             "decrypt_err":"Tsy nahomby ny fanadihadiana ny kitapo, mety ho fahadisoana anaty tenimiafina izany",
-            
-            
-            
-            
-            "send_success":"Nalefa tamim-pahombiazana",
             "send_error":"Tsy nahomby ny fanatanterahana: azafady raha ampy ny sanda sy ny sara-mineraly"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Money",
             "data":"Data",
             "send_time":"Mandefa fotoana",
-            "mac_time":"Ny tambajotra lehibe indrindra"
+            "mac_time":"Fandraisana anjara lehibe amin'ny fotoana"
         },
         "keystore": {
             "tit":"Kitapo backup backup",

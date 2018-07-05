@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Akkount adres",
             "tag_placeholder":"Fier de namme fan it kontakt yn",
-            "address_placeholder":"Fier it kontresadres fan it kontakt yn"
+            "address_placeholder":"Fier it kontresadres fan it kontakt yn",
+            "add_success":"Added successfully"
         },
         "delete_dialog": {
-            "title":"Jo binne fuorthelle"
+            "title":"Jo binne fuorthelle",
+            "remove_success":"Op sukses ferwidere"
         },
         "msg_info": {
             "no_tag":"Fier in akkount oan",
             "no_address":"Fier jo adresadres yn",
             "valid_address":"It adres fan it kontakt is illegal",
+            "validate_tag_length":"De namme fan de notysje namme kin net grutter wêze as 8 tekens.",
             "exist":"It kontakt is al bestiet,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Transfermuseur moat grutter wêze as 0",
             "amount_error":"Fier in juridyske transaksjild yn",
             "address_err":"It formaat fan it oerlevere adres is ûnjildich.",
+            "send_success":"Op sukses ferstjoerd",
 
             "decrypt_err":"Portemonneare parsing mislearre, it kin in wachtwurd fout wêze",
-            
-            
-            
-            
-            "send_success":"Op sukses ferstjoerd",
             "send_error":"Ferkearing mislearre: kontrolearje of as der genôch balâns en minder fergoeding is"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Beleanne",
             "data":"Data",
             "send_time":"Stjoere tiid",
-            "mac_time":"Main netwurk tiid"
+            "mac_time":"Haadketen tiid"
         },
         "keystore": {
             "tit":"Backup wallet bestân",

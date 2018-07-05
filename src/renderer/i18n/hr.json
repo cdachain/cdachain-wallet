@@ -28,15 +28,18 @@
             "tag":"kontakt",
             "address":"Adresa računa",
             "tag_placeholder":"Unesite ime kontakta",
-            "address_placeholder":"Unesite adresu računa kontakta"
+            "address_placeholder":"Unesite adresu računa kontakta",
+            "add_success":"Uspješno dodano"
         },
         "delete_dialog": {
-            "title":"Uklanjate"
+            "title":"Uklanjate",
+            "remove_success":"Uspješno uklonjeno"
         },
         "msg_info": {
             "no_tag":"Unesite bilješku o računu",
             "no_address":"Unesite adresu svog računa",
             "valid_address":"Adresa kontakta je ilegalna",
+            "validate_tag_length":"Memo ime ne može biti duže od 8 znakova",
             "exist":"Kontakt već postoji,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Iznos prijenosa mora biti veći od 0",
             "amount_error":"Unesite iznos pravne transakcije",
             "address_err":"Format prenesene adrese nije valjan.",
+            "send_success":"Uspješno je poslana",
 
             "decrypt_err":"Raščlanjivanje novčanika nije uspjelo, možda je pogreška zaporke",
-            
-            
-            
-            
-            "send_success":"Uspješno je poslana",
             "send_error":"Transakcija nije uspjela: provjerite postoji li dovoljan iznos salda i rudara"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"novac",
             "data":"podaci",
             "send_time":"Slanje vremena",
-            "mac_time":"Glavno vrijeme mreže"
+            "mac_time":"Glavno vrijeme lanca"
         },
         "keystore": {
             "tit":"Sigurnosna kopija datoteke lisnice",

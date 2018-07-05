@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Konto adresse",
             "tag_placeholder":"Indtast venligst kontaktens navn",
-            "address_placeholder":"Indtast venligst kontaktens kontoadresse"
+            "address_placeholder":"Indtast venligst kontaktens kontoadresse",
+            "add_success":"Tilføjet med succes"
         },
         "delete_dialog": {
-            "title":"Du fjerner"
+            "title":"Du fjerner",
+            "remove_success":"Fjernet succesfuldt"
         },
         "msg_info": {
             "no_tag":"Indtast venligst en kontoopskrift",
             "no_address":"Indtast venligst din kontoadresse",
             "valid_address":"Adressens adresse er ulovlig",
+            "validate_tag_length":"Navnet på notenavnet må ikke være større end 8 tegn.",
             "exist":"Kontakten eksisterer allerede,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Overførselsbeløbet skal være større end 0",
             "amount_error":"Indtast venligst et juridisk transaktionsbeløb",
             "address_err":"Formatet på den overførte adresse er ugyldig.",
+            "send_success":"Sendt med succes",
 
             "decrypt_err":"Palletparsing mislykkedes, det kan være et kodeordfejl",
-            
-            
-            
-            
-            "send_success":"Sendt med succes",
             "send_error":"Transaktion mislykkedes: Kontroller, om der er tilstrækkelig balance og minearbejder gebyr"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"penge",
             "data":"data",
             "send_time":"Afsendelsestidspunkt",
-            "mac_time":"Hovednetværkstid"
+            "mac_time":"Hovedkæden tid"
         },
         "keystore": {
             "tit":"Backup wallet-fil",

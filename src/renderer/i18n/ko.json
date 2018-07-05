@@ -28,15 +28,18 @@
             "tag":"연락처",
             "address":"계정 주소",
             "tag_placeholder":"연락처 이름을 입력하십시오.",
-            "address_placeholder":"연락처의 계정 주소를 입력하십시오."
+            "address_placeholder":"연락처의 계정 주소를 입력하십시오.",
+            "add_success":"추가 완료"
         },
         "delete_dialog": {
-            "title":"제거하고 있습니다."
+            "title":"제거하고 있습니다.",
+            "remove_success":"삭제 완료"
         },
         "msg_info": {
             "no_tag":"계정 메모를 입력하십시오.",
             "no_address":"계정 주소를 입력하십시오.",
             "valid_address":"연락처의 주소가 불법입니다.",
+            "validate_tag_length":"메모 이름은 8자를 초과 할 수 없습니다.",
             "exist":"연락처가 이미 있습니다."
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"전송 금액은 0보다 커야합니다.",
             "amount_error":"법적 거래 금액을 입력하십시오.",
             "address_err":"전송 된 주소의 형식이 잘못되었습니다.",
+            "send_success":"성공적으로 보냈습니다.",
 
             "decrypt_err":"월렛 파싱에 실패했습니다. 비밀번호 오류 일 수 있습니다.",
-            
-            
-            
-            
-            "send_success":"성공적으로 보냈습니다.",
             "send_error":"거래 실패 : 잔액 및 광부 수수료가 충분한 지 확인하십시오."
         }
     },
@@ -97,7 +96,7 @@
             "amount":"금액",
             "data":"데이터",
             "send_time":"보내는 시간",
-            "mac_time":"주요 네트워크 시간"
+            "mac_time":"주요 체인 시간"
         },
         "keystore": {
             "tit":"백업 지갑 파일",

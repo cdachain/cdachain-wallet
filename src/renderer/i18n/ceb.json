@@ -28,15 +28,18 @@
             "tag":"Pagkontak",
             "address":"Address address",
             "tag_placeholder":"Palihug ibutang ang ngalan sa kontak",
-            "address_placeholder":"Palihug ibutang ang address sa account sa kontak"
+            "address_placeholder":"Palihug ibutang ang address sa account sa kontak",
+            "add_success":"Dugang nga malamposon"
         },
         "delete_dialog": {
-            "title":"Gikuha nimo"
+            "title":"Gikuha nimo",
+            "remove_success":"Malampuson nga gikuha"
         },
         "msg_info": {
             "no_tag":"Palihug pagsulat sa usa ka nota sa account",
             "no_address":"Palihug pagsulod sa imong account address",
             "valid_address":"Ang address sa contact mao ang illegal",
+            "validate_tag_length":"Ang pangalan sa memo dili mahimo nga mas taas kay sa 8 ka karakter",
             "exist":"Ang kontak nga anaa na,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ang pagbalhin nga kantidad kinahanglan nga labaw pa kay sa 0",
             "amount_error":"Palihog pagsulod sa kantidad sa legal nga transaksiyon",
             "address_err":"Ang format sa gibalhin nga address dili balido.",
+            "send_success":"Malampuson nga gipadala",
 
             "decrypt_err":"Ang pagwagtang sa pitaka napakyas, kini mahimong usa ka sayop nga password",
-            
-            
-            
-            
-            "send_success":"Malampuson nga gipadala",
             "send_error":"Napakyas ang transaksyon: palihug susiha kung adunay igong balanse ug bayad sa minero"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Amgo",
             "data":"Data",
             "send_time":"Pagpadala panahon",
-            "mac_time":"Main nga oras sa network"
+            "mac_time":"Main nga kadena nga panahon"
         },
         "keystore": {
             "tit":"I-backup ang wallet file",

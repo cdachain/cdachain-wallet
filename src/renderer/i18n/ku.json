@@ -28,15 +28,18 @@
             "tag":"Têkilî",
             "address":"Navnîşana hesabê",
             "tag_placeholder":"Ji kerema xwe navê navnîşê têkiliyê bike",
-            "address_placeholder":"Ji kerema xwe li navnîşana hesabê navnîşê têkiliyê bike"
+            "address_placeholder":"Ji kerema xwe li navnîşana hesabê navnîşê têkiliyê bike",
+            "add_success":"Bi serkeftî vekirî"
         },
         "delete_dialog": {
-            "title":"Tu derxistin"
+            "title":"Tu derxistin",
+            "remove_success":"Serkeftî jêbirin"
         },
         "msg_info": {
             "no_tag":"Ji kerema xwe ji bîr nekin",
             "no_address":"Ji kerema xwe navnîşana hesabê xwe binivîse",
             "valid_address":"Navnîşa têkiliyê ne qanûn e",
+            "validate_tag_length":"Navê navnîşê navnîşê 8 ji hêla mezintirîn ne.",
             "exist":"Têkilî niha heye,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Hejmara derbasbûnê divê ji 0 re mezintir be",
             "amount_error":"Ji kerema xwe heqê veguherandina qanûnek qanûnî bike",
             "address_err":"Forma şîfreya veguhestinê ne çewt e.",
+            "send_success":"Serkeftî şandin",
 
             "decrypt_err":"Parsing failed, ew dibe ku çewtiyek şîfre be",
-            
-            
-            
-            
-            "send_success":"Serkeftî şandin",
             "send_error":"Veguhastin têkelî: ger ji kerema xwe hebe ku heqê heqê heqê û heqê minerî ye"
         }
     },

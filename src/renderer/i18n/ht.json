@@ -28,15 +28,18 @@
             "tag":"Kontakte",
             "address":"Adrès kont",
             "tag_placeholder":"Tanpri antre non kontak la",
-            "address_placeholder":"Tanpri antre adrès kont kontak la"
+            "address_placeholder":"Tanpri antre adrès kont kontak la",
+            "add_success":"Te ajoute siksè"
         },
         "delete_dialog": {
-            "title":"Ou yo retire"
+            "title":"Ou yo retire",
+            "remove_success":"Siksè retire li"
         },
         "msg_info": {
             "no_tag":"Tanpri antre yon nòt kont",
             "no_address":"Tanpri antre adrès kont ou",
             "valid_address":"Adrès la nan kontak la se ilegal",
+            "validate_tag_length":"Non an nan non an nòt pa ka pi gran pase 8 karaktè.",
             "exist":"Kontak la deja egziste,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Kantite transfè dwe pi gran pase 0",
             "amount_error":"Tanpri antre yon kantite tranzaksyon legal",
             "address_err":"Fòma a nan adrès la transfere se valab.",
+            "send_success":"Siksè voye",
 
             "decrypt_err":"Bous analyse echwe, li ka yon erè modpas",
-            
-            
-            
-            
-            "send_success":"Siksè voye",
             "send_error":"Tranzaksyon echwe: tanpri tcheke si gen ase balans ak frè minè"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Kantite lajan",
             "data":"Done",
             "send_time":"Voye tan",
-            "mac_time":"Tan rezo prensipal la"
+            "mac_time":"Main chèn tan"
         },
         "keystore": {
             "tit":"Fichye dosye bous",

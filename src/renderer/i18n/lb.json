@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Konto Adress",
             "tag_placeholder":"Gidd weg den Numm vum Kontakt",
-            "address_placeholder":"Gidd weg d'Kontoun Adress"
+            "address_placeholder":"Gidd weg d'Kontoun Adress",
+            "add_success":"Huet Erfolleg"
         },
         "delete_dialog": {
-            "title":"Dir sidd ewechhuelen"
+            "title":"Dir sidd ewechhuelen",
+            "remove_success":"Erfolleg ofgëtt"
         },
         "msg_info": {
             "no_tag":"Gidd weg eng Konto Notiz",
             "no_address":"Gidd weg Är Kontoun Adress",
             "valid_address":"D'Adress vum Kontakt ass illegal",
+            "validate_tag_length":"Numm vum Memo kann net méi wéi 8 Zeechen sinn",
             "exist":"De Kontakt existéiert schonn,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Transfermaart muss méi grouss sinn wéi 0",
             "amount_error":"Gitt eng legal Transaktioun",
             "address_err":"De Format vun der iwwerschriwwe Adress ass ongëlteg.",
+            "send_success":"Réussite erfollegräich verschéckt",
 
             "decrypt_err":"Portemonnaie vun der Portemonnaie konnt net geännert ginn, et ass e Passwuertfehler",
-            
-            
-            
-            
-            "send_success":"Réussite erfollegräich verschéckt",
             "send_error":"Transaktioun ofgeschalt: Iwwerpréift weg ob d'Ausbezuelung vun der Waasserstoff a Minerie bezuele muss"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Betrag",
             "data":"Daten",
             "send_time":"Sending time",
-            "mac_time":"Haaptnetz Zäit"
+            "mac_time":"Haaptlängt"
         },
         "keystore": {
             "tit":"Backup - Portemonnaie",

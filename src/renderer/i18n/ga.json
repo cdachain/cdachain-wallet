@@ -28,15 +28,18 @@
             "tag":"Teagmháil",
             "address":"Seoladh cuntais",
             "tag_placeholder":"Cuir isteach ainm an teagmhála",
-            "address_placeholder":"Cuir isteach seoladh cuntas an teagmhála"
+            "address_placeholder":"Cuir isteach seoladh cuntas an teagmhála",
+            "add_success":"Curtha go rathúil"
         },
         "delete_dialog": {
-            "title":"Tá tú ag baint úsáide as"
+            "title":"Tá tú ag baint úsáide as",
+            "remove_success":"Bainte amach go rathúil"
         },
         "msg_info": {
             "no_tag":"Cuir nóta cuntas isteach",
             "no_address":"Cuir isteach do sheoladh chuntais",
             "valid_address":"Tá seoladh an teagmhála neamhdhleathach",
+            "validate_tag_length":"Ní féidir ainm an nóta a bheith níos mó ná 8 carachtar.",
             "exist":"Tá an teagmháil ann cheana féin,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ní mór an méid aistrithe a bheith níos mó ná 0",
             "amount_error":"Cuir isteach méid idirbhearta dlíthiúil",
             "address_err":"Tá formáid an seoladh aistrithe neamhbhailí.",
+            "send_success":"Seoladh go rathúil",
 
             "decrypt_err":"Theip ar parsáil sparán, d'fhéadfadh sé gur earráid focal faire é",
-            
-            
-            
-            
-            "send_success":"Seoladh go rathúil",
             "send_error":"Theip ar an Idirbheart: seiceáil an bhfuil dóthain cothromaíochta agus táille miner ann"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Méid",
             "data":"Sonraí",
             "send_time":"Am seolta",
-            "mac_time":"Príomh-am líonra"
+            "mac_time":"An t-am príomhshlabhra"
         },
         "keystore": {
             "tit":"Comhad sparán cúltaca",

@@ -28,15 +28,18 @@
             "tag":"Hu rau",
             "address":"Tus account chaw nyob",
             "tag_placeholder":"Thov sau lub npe ntawm tus neeg hu",
-            "address_placeholder":"Thov sau tus neeg hu tus account"
+            "address_placeholder":"Thov sau tus neeg hu tus account",
+            "add_success":"Ntxiv ntse"
         },
         "delete_dialog": {
-            "title":"Koj tshem tawm"
+            "title":"Koj tshem tawm",
+            "remove_success":"Hloov tawm zoo"
         },
         "msg_info": {
             "no_tag":"Thov sau ib daim ntawv qhia nyiaj",
             "no_address":"Thov sau koj tus account chaw nyob",
             "valid_address":"Qhov chaw nyob ntawm tus xov tooj yog tsis raug cai",
+            "validate_tag_length":"Lub npe ntawm lub npe ntawv tsis tuaj yeem ua ntau tshaj 8 cim.",
             "exist":"Qhov kev sib cuag twb tshwm sim lawm,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Tus nqi xa mus yuav tsum ntau dua 0",
             "amount_error":"Thov sau tus nqi raws li txoj cai",
             "address_err":"Cov hom ntawv ntawm qhov chaw nyob xa mus yog invalid.",
+            "send_success":"Hloov tau zoo",
 
             "decrypt_err":"Cov hnab parsing puav tsis tau, nws yuav ua tau yuam kev password",
-            
-            
-            
-            
-            "send_success":"Hloov tau zoo",
             "send_error":"Hloov ua tsis tau zoo: thov xyuas seb puas muaj nqi txaus thiab cov nqi me me"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Tus nqi",
             "data":"Cov ntaub ntawv",
             "send_time":"Xa sij hawm",
-            "mac_time":"Lub sij hawm hauv paus loj"
+            "mac_time":"Lub sij hawm kaw loj"
         },
         "keystore": {
             "tit":"Cov hnab ntawv thaub qab",

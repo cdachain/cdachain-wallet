@@ -28,15 +28,18 @@
             "tag":"Othintana naye",
             "address":"Ikheli le-Akhawunti",
             "tag_placeholder":"Sicela ufake igama loxhumana naye",
-            "address_placeholder":"Sicela ufake ikheli le-akhawunti yothintana naye"
+            "address_placeholder":"Sicela ufake ikheli le-akhawunti yothintana naye",
+            "add_success":"Ingezwe ngempumelelo"
         },
         "delete_dialog": {
-            "title":"Ususa"
+            "title":"Ususa",
+            "remove_success":"Kususiwe ngempumelelo"
         },
         "msg_info": {
             "no_tag":"Sicela ufake inothi le-akhawunti",
             "no_address":"Sicela ufake ikheli lakho le-akhawunti",
             "valid_address":"Ikheli loxhumana naye alivumelekile",
+            "validate_tag_length":"Igama le-Memo alikwazi ukuba lude kunezinhlamvu ezingu-8",
             "exist":"Oxhumana naye usevele usekhona,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ukudluliswa kwemali kumele kube mkhulu kunezingu-0",
             "amount_error":"Sicela ufake inani lokuthengiselana ngokomthetho",
             "address_err":"Ifomethi yekheli elidlulisiwe alivumelekile.",
+            "send_success":"Kuthunyelwe ngempumelelo",
 
             "decrypt_err":"I-Wallet parsing ihlulekile, kungenzeka kube yiphutha lephasiwedi",
-            
-            
-            
-            
-            "send_success":"Kuthunyelwe ngempumelelo",
             "send_error":"Ukuthengwa kwehlulekile: sicela uhlole uma kukhona imali ebhalansi neyamaminerali okwanele"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Inani",
             "data":"Idatha",
             "send_time":"Ithumela isikhathi",
-            "mac_time":"Isikhathi esikhulu senethiwekhi"
+            "mac_time":"Isikhathi esikhulu sezinketho"
         },
         "keystore": {
             "tit":"Ifayela lesipele lesipele",

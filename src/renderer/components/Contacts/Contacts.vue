@@ -1,74 +1,75 @@
 <template>
-  <div class="page-contacts">
+    <div class="page-contacts">
 
-    <div class="contacts-banner">
-      <div class="contacts-center">
-        <h1 class="contacts-tit">{{ $t('page_contacts.tit') }}</h1>
-      </div>
-    </div>
-
-    <div class="contacts-content">
-      <div class="contacts-wrap b-flex">
-
-        <template v-for="contact in database">
-          <div class="contacts-item ">
-            <div class="contacts-avatar">
-              <i class="iconfont ico-avatar">&#xe602;</i>
+        <div class="contacts-banner">
+            <div class="contacts-center">
+                <h1 class="contacts-tit">{{ $t('page_contacts.tit') }}</h1>
             </div>
-            <i class="iconfont delete-contacts" @click="initDeleteInfo(contact)">&#xe613;</i>
-            <div class="contacts-cont">
-              <p class="contacts-remark">{{contact.tag}}</p>
-              <p class="contacts-address">{{contact.address}}</p>
-            </div>
-          </div>
-        </template>
-        <!--  ADD  -->
-        <div class="contacts-item add-contacts" @click="dialogSwitch.create = true">
-          <div class="contacts-cont">
-            <i class="iconfont icon-add-contacts">&#xe63b;</i>
-            <p class="add-contacts-des">{{ $t('page_contacts.add_dialog') }}</p>
-          </div>
         </div>
 
-      </div>
+        <div class="contacts-content">
+            <div class="contacts-wrap b-flex">
+
+                <template v-for="contact in database">
+                    <div class="contacts-item ">
+                        <div class="contacts-avatar">
+                            <i class="iconfont ico-avatar">&#xe602;</i>
+                        </div>
+                        <i class="iconfont delete-contacts" @click="initDeleteInfo(contact)">&#xe613;</i>
+                        <div class="contacts-cont">
+                            <p class="contacts-remark">{{contact.tag}}</p>
+                            <p class="contacts-address">{{contact.address}}</p>
+                        </div>
+                    </div>
+                </template>
+                <!--  ADD  -->
+                <div class="contacts-item add-contacts" @click="dialogSwitch.create = true">
+                    <div class="contacts-cont">
+                        <i class="iconfont icon-add-contacts">&#xe63b;</i>
+                        <p class="add-contacts-des">{{ $t('page_contacts.add_dialog') }}</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- create dialog -->
+        <el-dialog :title="$t('page_contacts.add_cont.tit')" width="70%" :visible.sync="dialogSwitch.create" @open="initCreateInfo">
+
+            <el-form :model="createInfo">
+
+                <el-form-item :label="$t('page_contacts.add_cont.tag')" label-width="80px">
+                    <el-input v-model="createInfo.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
+                </el-form-item>
+
+                <el-form-item :label="$t('page_contacts.add_cont.address')" label-width="80px">
+                    <el-input v-model="createInfo.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')"></el-input>
+                </el-form-item>
+
+            </el-form>
+            <div slot="footer" class="dialog-footer">
+                <el-button @click="dialogSwitch.create = false">{{$t('cancel')}}</el-button>
+                <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
+            </div>
+        </el-dialog>
+
+        <!-- delete confirm dialog -->
+        <el-dialog :title="$t('page_contacts.delete_dialog.title')" :visible.sync="dialogSwitch.delete" width="60%">
+            <p>
+                {{deleteInfo.tag}}
+            </p>
+            <p class="remove-contact">{{deleteInfo.address}}</p>
+            <span slot="footer" class="dialog-footer">
+                <el-button @click="dialogSwitch.delete = false">{{$t('cancel')}}</el-button>
+                <el-button type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
+            </span>
+        </el-dialog>
+
     </div>
-
-    <!-- create dialog -->
-    <el-dialog :title="$t('page_contacts.add_cont.tit')" width="70%" :visible.sync="dialogSwitch.create" @open="initCreateInfo">
-
-      <el-form :model="createInfo">
-
-        <el-form-item :label="$t('page_contacts.add_cont.tag')" label-width="80px">
-          <el-input v-model="createInfo.tag" :placeholder="$t('page_contacts.add_cont.tag_placeholder')" auto-complete="off"></el-input>
-        </el-form-item>
-
-        <el-form-item :label="$t('page_contacts.add_cont.address')" label-width="80px">
-          <el-input v-model="createInfo.address" auto-complete="off" :placeholder="$t('page_contacts.add_cont.address_placeholder')"></el-input>
-        </el-form-item>
-
-      </el-form>
-      <div slot="footer" class="dialog-footer">
-        <el-button @click="dialogSwitch.create = false">{{$t('cancel')}}</el-button>
-        <el-button type="primary" @click="addContact">{{$t('confirm')}}</el-button>
-      </div>
-    </el-dialog>
-
-    <!-- delete confirm dialog -->
-    <el-dialog :title="$t('page_contacts.delete_dialog.title')" :visible.sync="dialogSwitch.delete" width="60%">
-      <p>
-        {{deleteInfo.tag}}
-      </p>
-      <p class="remove-contact">{{deleteInfo.address}}</p>
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="dialogSwitch.delete = false">{{$t('cancel')}}</el-button>
-        <el-button  type="primary" @click="deleteContact">{{$t('confirm')}}</el-button>
-      </span>
-    </el-dialog>
-
-  </div>
 </template>
 
 <script>
+var self;
 export default {
     name: "Contacts",
     data() {
@@ -83,8 +84,8 @@ export default {
         };
     },
     created() {
+        self=this;
         this.database = this.$db.get("czr_contacts.contact_ary").value();
-        this.initCreateInfo();
     },
     methods: {
         initCreateInfo() {
@@ -110,7 +111,14 @@ export default {
                 );
                 return;
             }
-            
+            //判断长度
+            if (this.createInfo.tag.length > 8) {
+                this.$message.error(
+                    this.$t("page_contacts.msg_info.validate_tag_length")
+                );
+                return;
+            }
+
             //TODO validate
             this.$czr.request
                 .accountValidate(self.createInfo.address)
@@ -136,7 +144,7 @@ export default {
                                 .write();
                         }
                         self.initAddContact(tempCon);
-                    } else if(data == "0") {
+                    } else if (data == "0") {
                         self.$message.error(
                             self.$t("page_contacts.msg_info.valid_address")
                         );
@@ -162,6 +170,10 @@ export default {
                 .push(params)
                 .write();
             this.database = this.$db.get("czr_contacts.contact_ary").value();
+            //提示成功
+            self.$message.success(
+                self.$t("page_contacts.add_cont.add_success")
+            );
             this.dialogSwitch.create = false;
         },
         deleteContact: function() {
@@ -173,6 +185,10 @@ export default {
                 .read()
                 .get("czr_contacts.contact_ary")
                 .value();
+            //提示成功
+            self.$message.success(
+                self.$t("page_contacts.delete_dialog.remove_success")
+            );
             this.dialogSwitch.delete = false;
         }
     }
@@ -261,7 +277,7 @@ export default {
     word-break: break-all;
     overflow: hidden;
 }
-.remove-contact{
+.remove-contact {
     padding: 10px 0;
     width: 100%;
     font-size: 16px;
@@ -289,5 +305,12 @@ export default {
 }
 .add-contacts:hover .add-contacts-des {
     color: #5a59a0;
+}
+.contacts-remark {
+    width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 </style>

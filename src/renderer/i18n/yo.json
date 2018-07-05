@@ -28,15 +28,18 @@
             "tag":"Kan si",
             "address":"Adirẹsi iroyin",
             "tag_placeholder":"Jowo tẹ orukọ olubasọrọ naa sii",
-            "address_placeholder":"Jowo tẹ adirẹsi adirẹsi ti olubasọrọ naa"
+            "address_placeholder":"Jowo tẹ adirẹsi adirẹsi ti olubasọrọ naa",
+            "add_success":"Fi kun ni ifijišẹ"
         },
         "delete_dialog": {
-            "title":"O n yọ kuro"
+            "title":"O n yọ kuro",
+            "remove_success":"Ti yọ kuro ni ifijišẹ"
         },
         "msg_info": {
             "no_tag":"Jowo tẹ akọsilẹ akọsilẹ",
             "no_address":"Jowo tẹ adirẹsi adirẹsi rẹ sii",
             "valid_address":"Adirẹsi ti olubasọrọ naa jẹ arufin",
+            "validate_tag_length":"Orukọ akọsilẹ ko le jẹ gun ju awọn ohun kikọ 8 lọ",
             "exist":"Olubasọrọ naa ti wa tẹlẹ,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Gbeye iye gbọdọ jẹ tobi ju 0 lọ",
             "amount_error":"Jowo tẹ iye idunadura ofin kan",
             "address_err":"Awọn kika ti adirẹsi ti o ti gbe jẹ aišišẹ.",
+            "send_success":"Ti firanṣẹ daradara",
 
             "decrypt_err":"Apamọwọ ti kuna, o le jẹ aṣiṣe aṣínà kan",
-            
-            
-            
-            
-            "send_success":"Ti firanṣẹ daradara",
             "send_error":"Ti kuna iṣẹ-ṣiṣe: jọwọ ṣayẹwo ti o ba to iwontunwonsi ati iye owo miner"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Iye",
             "data":"Data",
             "send_time":"Fifiranṣẹ akoko",
-            "mac_time":"Aago nẹtiwọki akọkọ"
+            "mac_time":"Akọkọ pq akoko"
         },
         "keystore": {
             "tit":"Iwe apamọwọ apamọwọ",

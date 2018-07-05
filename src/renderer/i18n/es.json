@@ -28,15 +28,18 @@
             "tag":"Contacto",
             "address":"Dirección de cuenta",
             "tag_placeholder":"Por favor ingrese el nombre del contacto",
-            "address_placeholder":"Por favor ingrese la dirección de la cuenta del contacto"
+            "address_placeholder":"Por favor ingrese la dirección de la cuenta del contacto",
+            "add_success":"Agregado exitosamente"
         },
         "delete_dialog": {
-            "title":"Estás eliminando"
+            "title":"Estás eliminando",
+            "remove_success":"Eliminado con éxito"
         },
         "msg_info": {
             "no_tag":"Por favor ingrese una nota de cuenta",
             "no_address":"Por favor ingrese la dirección de su cuenta",
             "valid_address":"La dirección del contacto es ilegal",
+            "validate_tag_length":"El nombre de la nota no puede tener más de 8 caracteres",
             "exist":"El contacto ya existe,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"La cantidad de transferencia debe ser mayor que 0",
             "amount_error":"Ingrese un monto de transacción legal",
             "address_err":"El formato de la dirección transferida no es válido.",
+            "send_success":"Enviado con éxito",
 
             "decrypt_err":"El análisis de Wallet falló, puede ser un error de contraseña",
-            
-            
-            
-            
-            "send_success":"Enviado con éxito",
             "send_error":"Transacción fallida: compruebe si hay saldo suficiente y comisión minera"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Monto",
             "data":"Datos",
             "send_time":"Tiempo de envío",
-            "mac_time":"Hora de la red principal"
+            "mac_time":"Hora de la cadena principal"
         },
         "keystore": {
             "tit":"Archivo de la carpeta de respaldo",

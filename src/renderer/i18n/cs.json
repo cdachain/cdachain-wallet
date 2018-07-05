@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Adresa účtu",
             "tag_placeholder":"Zadejte prosím jméno kontaktu",
-            "address_placeholder":"Zadejte adresu účtu kontaktu"
+            "address_placeholder":"Zadejte adresu účtu kontaktu",
+            "add_success":"Přidáno úspěšně"
         },
         "delete_dialog": {
-            "title":"Odstraňujete"
+            "title":"Odstraňujete",
+            "remove_success":"Úspěšně byla odebrána"
         },
         "msg_info": {
             "no_tag":"Zadejte poznámku k účtu",
             "no_address":"Zadejte adresu svého účtu",
             "valid_address":"Adresa kontaktu je neplatná",
+            "validate_tag_length":"Memo jméno nesmí být delší než 8 znaků",
             "exist":"Kontakt již existuje,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Převod musí být větší než 0",
             "amount_error":"Zadejte částku právní transakce",
             "address_err":"Formát přenesené adresy je neplatný.",
+            "send_success":"Úspěšně odeslána",
 
             "decrypt_err":"Analýza peněženky se nezdařila, může to být chyba hesla",
-            
-            
-            
-            
-            "send_success":"Úspěšně odeslána",
             "send_error":"Transakce selhala: zkontrolujte prosím, zda je dostatečný zůstatek a poplatek za mince"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Částka",
             "data":"Data",
             "send_time":"Odeslání času",
-            "mac_time":"Hlavní čas sítě"
+            "mac_time":"Hlavní čas řetězce"
         },
         "keystore": {
             "tit":"Záložní soubor peněženky",

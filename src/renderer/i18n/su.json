@@ -28,15 +28,18 @@
             "tag":"hubungan",
             "address":"alamat akun",
             "tag_placeholder":"Mangga lebetkeun nami kontak urang",
-            "address_placeholder":"Mangga lebetkeun alamat kontak tina akun"
+            "address_placeholder":"Mangga lebetkeun alamat kontak tina akun",
+            "add_success":"hasil ditambahkeun"
         },
         "delete_dialog": {
-            "title":"Anjeun nyoplokkeun"
+            "title":"Anjeun nyoplokkeun",
+            "remove_success":"dipupus junun"
         },
         "msg_info": {
             "no_tag":"Mangga lebetkeun Katerangan akun",
             "no_address":"Mangga lebetkeun alamat akun",
             "valid_address":"Alamat kontak urang henteu sah",
+            "validate_tag_length":"Ngaran Catetan moal kaci ti 8 karakter",
             "exist":"Kontak geus aya,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Jumlah mindahkeun kudu leuwih gede ti 0",
             "amount_error":"Mangga lebetkeun jumlah urus valid",
             "address_err":"Kana format alamat henteu sah",
+            "send_success":"Kirim surélék ayaan",
 
             "decrypt_err":"resolusi dompét gagal, nya meureun sandi salah",
-            
-            
-            
-            
-            "send_success":"Kirim surélék ayaan",
             "send_error":"urus gagal: cék ningali lamun aya cukup kasaimbangan sarta panambang fee"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"duit",
             "data":"data",
             "send_time":"Kirim surélék Time",
-            "mac_time":"waktos jaringan utama"
+            "mac_time":"waktos tulang tonggong"
         },
         "keystore": {
             "tit":"file dompét cadangan",

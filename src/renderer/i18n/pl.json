@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Adres konta",
             "tag_placeholder":"Wprowadź nazwę kontaktu",
-            "address_placeholder":"Wprowadź adres konta kontaktu"
+            "address_placeholder":"Wprowadź adres konta kontaktu",
+            "add_success":"Dodano pomyślnie"
         },
         "delete_dialog": {
-            "title":"Usuwasz"
+            "title":"Usuwasz",
+            "remove_success":"Pomyślnie usunięto"
         },
         "msg_info": {
             "no_tag":"Proszę wprowadzić uwagę na koncie",
             "no_address":"Wprowadź adres swojego konta",
             "valid_address":"Adres kontaktu jest niezgodny z prawem",
+            "validate_tag_length":"Nazwa nazwy notatki nie może być większa niż 8 znaków.",
             "exist":"Kontakt już istnieje,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Kwota transferu musi być większa niż 0",
             "amount_error":"Wprowadź kwotę transakcji prawnej",
             "address_err":"Format przesłanego adresu jest nieprawidłowy.",
+            "send_success":"Pomyślnie wysłano",
 
             "decrypt_err":"Nie udało się przetworzyć portfela, może to być błąd hasła",
-            
-            
-            
-            
-            "send_success":"Pomyślnie wysłano",
             "send_error":"Transakcja nie powiodła się: proszę sprawdzić, czy istnieje wystarczająca opłata bilansowa i górnicza"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Kwota",
             "data":"Dane",
             "send_time":"Wysyłanie czasu",
-            "mac_time":"Główny czas sieci"
+            "mac_time":"Czas w łańcuchu głównym"
         },
         "keystore": {
             "tit":"Utwórz kopię zapasową pliku portfela",

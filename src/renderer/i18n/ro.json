@@ -28,15 +28,18 @@
             "tag":"contact",
             "address":"Adresa contului",
             "tag_placeholder":"Introduceți numele persoanei de contact",
-            "address_placeholder":"Introduceți adresa contului de contact"
+            "address_placeholder":"Introduceți adresa contului de contact",
+            "add_success":"Adăugat cu succes"
         },
         "delete_dialog": {
-            "title":"Înlăturați"
+            "title":"Înlăturați",
+            "remove_success":"A fost eliminată cu succes"
         },
         "msg_info": {
             "no_tag":"Introduceți o notă de cont",
             "no_address":"Introduceți adresa dvs. de cont",
             "valid_address":"Adresa de contact este ilegală",
+            "validate_tag_length":"Memo numele nu poate fi mai lung de 8 caractere",
             "exist":"Contactul există deja,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Suma transferului trebuie să fie mai mare de 0",
             "amount_error":"Introduceți o sumă legată de tranzacție",
             "address_err":"Formatul adresei transferate este nevalid.",
+            "send_success":"Trimiteți cu succes",
 
             "decrypt_err":"Parcelarea parolei nu a reușit, poate fi o eroare de parolă",
-            
-            
-            
-            
-            "send_success":"Trimiteți cu succes",
             "send_error":"Tranzacția a eșuat: verificați dacă există un echilibru suficient și taxa de miner"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"bani",
             "data":"date",
             "send_time":"Trimiterea timpului",
-            "mac_time":"Durata principală a rețelei"
+            "mac_time":"Timpul principal al lanțului"
         },
         "keystore": {
             "tit":"Fișierul portofelului de rezervă",

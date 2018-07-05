@@ -28,15 +28,18 @@
             "tag":"Stik",
             "address":"Naslov računa",
             "tag_placeholder":"Vnesite ime stika",
-            "address_placeholder":"Vnesite naslov računa za stik"
+            "address_placeholder":"Vnesite naslov računa za stik",
+            "add_success":"Uspešno dodano"
         },
         "delete_dialog": {
-            "title":"Odstranite"
+            "title":"Odstranite",
+            "remove_success":"Uspešno je bil odstranjen"
         },
         "msg_info": {
             "no_tag":"Vnesite beležko računa",
             "no_address":"Vnesite svoj naslov računa",
             "valid_address":"Naslov stika je nezakonit",
+            "validate_tag_length":"Ime beležke ne sme biti daljše od 8 znakov",
             "exist":"Stik že obstaja,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Znesek prenosa mora biti večji od 0",
             "amount_error":"Vnesite znesek pravne transakcije",
             "address_err":"Oblika prenesenega naslova je neveljavna.",
+            "send_success":"Uspešno poslana",
 
             "decrypt_err":"Razčlenjevanje z denarnico ni uspelo, morda je napaka gesla",
-            
-            
-            
-            
-            "send_success":"Uspešno poslana",
             "send_error":"Transakcija ni uspela: preverite, ali obstaja dovolj ravnotežja in pristojbina za rudarje"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Znesek",
             "data":"Podatki",
             "send_time":"Pošiljanje časa",
-            "mac_time":"Glavni čas omrežja"
+            "mac_time":"Glavni čas verige"
         },
         "keystore": {
             "tit":"Datoteka varnostne kopije",

@@ -28,15 +28,18 @@
             "tag":"Kontak",
             "address":"Alamat akun",
             "tag_placeholder":"Mangga ketik jeneng kontak",
-            "address_placeholder":"Mangga ketik alamat akun kontak"
+            "address_placeholder":"Mangga ketik alamat akun kontak",
+            "add_success":"Ditambahake kanthi sukses"
         },
         "delete_dialog": {
-            "title":"Sampeyan ngilangi"
+            "title":"Sampeyan ngilangi",
+            "remove_success":"Kanthi sukses dibusak"
         },
         "msg_info": {
             "no_tag":"Mangga mlebu cathetan akun",
             "no_address":"Mangga ketik alamat akun sampeyan",
             "valid_address":"Alamat kontak iku ilegal",
+            "validate_tag_length":"Jeneng memo ora bisa luwih saka 8 karakter",
             "exist":"Kontak wis ana,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Jumlah transfer kudu luwih saka 0",
             "amount_error":"Mangga nglebokna jumlah transaksi legal",
             "address_err":"Format alamat sing ditransfer ora bener.",
+            "send_success":"Sukses dikirim",
 
             "decrypt_err":"Parsing Wallet gagal, bisa dadi kesalahan sandi",
-            
-            
-            
-            
-            "send_success":"Sukses dikirim",
             "send_error":"Transaksi gagal: mangga dipriksa manawa ana keseimbangan sing cukup lan ragad penambang"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Jumlah",
             "data":"Data",
             "send_time":"Ngirim wektu",
-            "mac_time":"Wektu jaringan utama"
+            "mac_time":"Wektu chain utama"
         },
         "keystore": {
             "tit":"Nggawe file dompet",

@@ -28,15 +28,18 @@
             "tag":"Kpọtụrụ",
             "address":"Adreesị akaụntụ",
             "tag_placeholder":"Biko tinye aha nke kọntaktị ahụ",
-            "address_placeholder":"Biko tinye adreesị akaụntụ onye ahụ"
+            "address_placeholder":"Biko tinye adreesị akaụntụ onye ahụ",
+            "add_success":"Tinye ya nke ọma"
         },
         "delete_dialog": {
-            "title":"Ị na-ewepụ"
+            "title":"Ị na-ewepụ",
+            "remove_success":"Wepụrụ nke ọma"
         },
         "msg_info": {
             "no_tag":"Biko tinye ederede akaụntụ",
             "no_address":"Biko tinye adreesị akaụntụ gị",
             "valid_address":"Adreesị nke kọntaktị ahụ bụ iwu na-akwadoghị",
+            "validate_tag_length":"Aha aha akwukwo apughi ibu ihe kariri ihe odide asatọ.",
             "exist":"Kpọtụrụ onye ahụ,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ọnụ ego ga-ebu ibu karịa 0",
             "amount_error":"Biko tinye ego ego",
             "address_err":"Ọdịdị nke adreesị ebufe adighi mma.",
+            "send_success":"E zigara nke ọma",
 
             "decrypt_err":"Obere obere akpa wuru, o nwere ike ịbụ njehie paswọọdụ",
-            
-            
-            
-            
-            "send_success":"E zigara nke ọma",
             "send_error":"Ozigbo ego ejirila: biko jụọ ma ọ bụrụ na e nwere nkwụnye ego zuru oke na ụgwọ ọrụ"
         }
     },

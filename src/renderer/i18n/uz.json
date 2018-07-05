@@ -28,15 +28,18 @@
             "tag":"Aloqa",
             "address":"Hisob manzili",
             "tag_placeholder":"Iltimos, kontaktning nomini kiriting",
-            "address_placeholder":"Iltimos, kontaktning manzilini kiriting"
+            "address_placeholder":"Iltimos, kontaktning manzilini kiriting",
+            "add_success":"Muvaffaqiyatli qo'shildi"
         },
         "delete_dialog": {
-            "title":"Siz olib tashlayapsiz"
+            "title":"Siz olib tashlayapsiz",
+            "remove_success":"Muvaffaqiyatli olib tashlandi"
         },
         "msg_info": {
             "no_tag":"Iltimos, hisob qaydnomasini kiriting",
             "no_address":"Hisob manzilingizni kiriting",
             "valid_address":"Kontakt manzili noqonuniy hisoblanadi",
+            "validate_tag_length":"Eslatma nomi 8 ta belgidan oshmasligi kerak",
             "exist":"Kontakt allaqachon mavjud,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Pul o'tkazmasining miqdori 0dan katta bo'lishi kerak",
             "amount_error":"Iltimos, qonuniy jurnali miqdorini kiriting",
             "address_err":"O'tkazilgan manzilning formati noto'g'ri.",
+            "send_success":"Muvaffaqiyatli yuborildi",
 
             "decrypt_err":"Hamyonni saralash muvaffaqiyatsiz tugadi, bu parol xato bo'lishi mumkin",
-            
-            
-            
-            
-            "send_success":"Muvaffaqiyatli yuborildi",
             "send_error":"Jurnal muvaffaqiyatsiz tugadi: iltimos balans va miner ish haqi borligini tekshiring"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Miqdori",
             "data":"Ma'lumotlar",
             "send_time":"Vaqt yuborilmoqda",
-            "mac_time":"Asosiy tarmoq vaqti"
+            "mac_time":"Asosiy zanjirli vaqt"
         },
         "keystore": {
             "tit":"Cüzdan faylini zaxiralash",

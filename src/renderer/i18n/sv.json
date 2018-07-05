@@ -28,15 +28,18 @@
             "tag":"Kontakta",
             "address":"Kontoadress",
             "tag_placeholder":"Vänligen ange kontaktens namn",
-            "address_placeholder":"Vänligen ange kontaktens kontoadress"
+            "address_placeholder":"Vänligen ange kontaktens kontoadress",
+            "add_success":"Tillagd framgångsrikt"
         },
         "delete_dialog": {
-            "title":"Du tar bort"
+            "title":"Du tar bort",
+            "remove_success":"Avlägsnades framgångsrikt"
         },
         "msg_info": {
             "no_tag":"Vänligen ange en kontouppnotation",
             "no_address":"Ange din kontonadress",
             "valid_address":"Adressens adress är olaglig",
+            "validate_tag_length":"Namn på anteckningsnamnet får inte vara större än 8 tecken.",
             "exist":"Kontakten existerar redan,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Överföringsbeloppet måste vara större än 0",
             "amount_error":"Ange ett juridiskt transaktionsbelopp",
             "address_err":"Formatet på den överförda adressen är ogiltig.",
+            "send_success":"Skickas framgångsrikt",
 
             "decrypt_err":"Pappersparsning misslyckades, det kan vara ett lösenordsfel",
-            
-            
-            
-            
-            "send_success":"Skickas framgångsrikt",
             "send_error":"Transaktionen misslyckades: Kontrollera om det finns tillräckligt med balans och gruvavgift"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"pengar",
             "data":"Data",
             "send_time":"Sändningstid",
-            "mac_time":"Huvud nätverkstid"
+            "mac_time":"Huvudkedjan tid"
         },
         "keystore": {
             "tit":"Backup-plånbokfilen",

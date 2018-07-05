@@ -28,15 +28,18 @@
             "tag":"Contact",
             "address":"Adresse du compte",
             "tag_placeholder":"Veuillez entrer le nom du contact",
-            "address_placeholder":"Veuillez entrer l'adresse du compte du contact"
+            "address_placeholder":"Veuillez entrer l'adresse du compte du contact",
+            "add_success":"Ajouté avec succès"
         },
         "delete_dialog": {
-            "title":"Vous supprimez"
+            "title":"Vous supprimez",
+            "remove_success":"Supprimé avec succès"
         },
         "msg_info": {
             "no_tag":"Veuillez entrer une note de compte",
             "no_address":"Veuillez entrer votre adresse de compte",
             "valid_address":"L'adresse du contact est illégale",
+            "validate_tag_length":"Le nom du mémo ne peut pas dépasser 8 caractères",
             "exist":"Le contact existe déjà,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Le montant du transfert doit être supérieur à 0",
             "amount_error":"Veuillez entrer un montant de transaction légale",
             "address_err":"Le format de l'adresse transférée est invalide.",
+            "send_success":"Envoyé avec succès",
 
             "decrypt_err":"Échec de l'analyse du portefeuille, il peut s'agir d'une erreur de mot de passe",
-            
-            
-            
-            
-            "send_success":"Envoyé avec succès",
             "send_error":"La transaction a échoué: veuillez vérifier s'il y a un solde suffisant et des frais de mineur"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Montant",
             "data":"Données",
             "send_time":"Envoi de temps",
-            "mac_time":"Heure du réseau principal"
+            "mac_time":"Temps de la chaîne principale"
         },
         "keystore": {
             "tit":"Fichier de portefeuille de sauvegarde",

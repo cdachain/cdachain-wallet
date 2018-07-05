@@ -28,15 +28,18 @@
             "tag":"contatto",
             "address":"Indirizzo del conto",
             "tag_placeholder":"Si prega di inserire il nome del contatto",
-            "address_placeholder":"Si prega di inserire l'indirizzo del conto del contatto"
+            "address_placeholder":"Si prega di inserire l'indirizzo del conto del contatto",
+            "add_success":"Aggiunto con successo"
         },
         "delete_dialog": {
-            "title":"Stai rimuovendo"
+            "title":"Stai rimuovendo",
+            "remove_success":"Rimosso con successo"
         },
         "msg_info": {
             "no_tag":"Si prega di inserire una nota dell'account",
             "no_address":"Per favore inserisci il tuo indirizzo",
             "valid_address":"L'indirizzo del contatto è illegale",
+            "validate_tag_length":"Il nome del memo non può essere più lungo di 8 caratteri",
             "exist":"Il contatto esiste già,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"L'importo del trasferimento deve essere maggiore di 0",
             "amount_error":"Si prega di inserire un importo di transazione legale",
             "address_err":"Il formato dell'indirizzo trasferito non è valido.",
+            "send_success":"Inviato con successo",
 
             "decrypt_err":"L'analisi del wallet non è riuscita, potrebbe trattarsi di un errore della password",
-            
-            
-            
-            
-            "send_success":"Inviato con successo",
             "send_error":"Transazione fallita: si prega di verificare se vi è una quota sufficiente di equilibrio e minatore"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"soldi",
             "data":"dati",
             "send_time":"Invio del tempo",
-            "mac_time":"Tempo di rete principale"
+            "mac_time":"Tempo di catena principale"
         },
         "keystore": {
             "tit":"File di portafoglio di backup",

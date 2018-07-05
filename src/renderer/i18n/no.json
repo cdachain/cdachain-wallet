@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Kontoadresse",
             "tag_placeholder":"Vennligst skriv inn navnet på kontakten",
-            "address_placeholder":"Vennligst skriv inn kontaktens kontoadresse"
+            "address_placeholder":"Vennligst skriv inn kontaktens kontoadresse",
+            "add_success":"Lagt til med hell"
         },
         "delete_dialog": {
-            "title":"Du fjerner"
+            "title":"Du fjerner",
+            "remove_success":"Ble fjernet"
         },
         "msg_info": {
             "no_tag":"Vennligst skriv inn et kontonotat",
             "no_address":"Vennligst skriv inn din kontoadresse",
             "valid_address":"Adressen til kontakten er ulovlig",
+            "validate_tag_length":"Navnet på notatnavnet kan ikke være større enn 8 tegn.",
             "exist":"Kontakten eksisterer allerede,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Overføringsbeløpet må være større enn 0",
             "amount_error":"Vennligst oppgi et juridisk transaksjonsbeløp",
             "address_err":"Formatet på den overførte adressen er ugyldig.",
+            "send_success":"Vellykket sendt",
 
             "decrypt_err":"Wallet-parsing mislyktes, det kan være en passordfeil",
-            
-            
-            
-            
-            "send_success":"Vellykket sendt",
             "send_error":"Transaksjonen mislyktes: sjekk om det er tilstrekkelig saldo og gruveavgift"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"penger",
             "data":"data",
             "send_time":"Sende tid",
-            "mac_time":"Hovednettverkstid"
+            "mac_time":"Hovedkjede tid"
         },
         "keystore": {
             "tit":"Sikkerhetskopi lommebokfil",

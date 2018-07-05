@@ -28,15 +28,18 @@
             "tag":"Kontakt",
             "address":"Konto aadress",
             "tag_placeholder":"Palun sisestage kontakti nimi",
-            "address_placeholder":"Palun sisestage kontakti konto aadress"
+            "address_placeholder":"Palun sisestage kontakti konto aadress",
+            "add_success":"Edukalt lisatud"
         },
         "delete_dialog": {
-            "title":"Te eemaldate"
+            "title":"Te eemaldate",
+            "remove_success":"Edukalt eemaldatud"
         },
         "msg_info": {
             "no_tag":"Palun sisesta konto märkus",
             "no_address":"Palun sisesta oma konto aadress",
             "valid_address":"Kontaktisiku aadress on ebaseaduslik",
+            "validate_tag_length":"Memo nimi ei tohi olla pikem kui 8 tähemärki",
             "exist":"Kontakti on juba olemas"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Ülekande summa peab olema suurem kui 0",
             "amount_error":"Palun sisestage õigusliku tehingu summa",
             "address_err":"Edastatud aadressi formaat on kehtetu.",
+            "send_success":"Edukalt saadetud",
 
             "decrypt_err":"Rahakoti parsing ebaõnnestus, võib see olla parooli viga",
-            
-            
-            
-            
-            "send_success":"Edukalt saadetud",
             "send_error":"Tehing ebaõnnestus: kontrollige, kas on piisavalt tasakaalu ja mineraali tasu"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Summa",
             "data":"Andmed",
             "send_time":"Saatmise aeg",
-            "mac_time":"Põhivõrgu aeg"
+            "mac_time":"Põhiahelaaeg"
         },
         "keystore": {
             "tit":"Backup rahakoti fail",

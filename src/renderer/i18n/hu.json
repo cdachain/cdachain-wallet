@@ -28,15 +28,18 @@
             "tag":"érintkezés",
             "address":"Fiókcím",
             "tag_placeholder":"Kérjük, adja meg a partner nevét",
-            "address_placeholder":"Kérjük, adja meg a kapcsolattartó fiókcímét"
+            "address_placeholder":"Kérjük, adja meg a kapcsolattartó fiókcímét",
+            "add_success":"Sikeresen hozzáadva"
         },
         "delete_dialog": {
-            "title":"Ön eltávolít"
+            "title":"Ön eltávolít",
+            "remove_success":"Sikeresen eltávolították"
         },
         "msg_info": {
             "no_tag":"Kérjük, írjon be egy bankjegyet",
             "no_address":"Kérjük, adja meg fiókjának címét",
             "valid_address":"A kapcsolat címe illegális",
+            "validate_tag_length":"Az emlékeztetõ név legfeljebb 8 karakter lehet",
             "exist":"A kapcsolat már létezik,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"A transzfer összegének 0-nál nagyobbnak kell lennie",
             "amount_error":"Kérjük, adjon meg egy jogi tranzakció összegét",
             "address_err":"Az átvitt cím formátuma érvénytelen.",
+            "send_success":"Sikeresen elküldve",
 
             "decrypt_err":"A Wallet-elemzés sikertelen, lehet, hogy jelszóhiba",
-            
-            
-            
-            
-            "send_success":"Sikeresen elküldve",
             "send_error":"A tranzakció sikertelen: ellenőrizze, van-e elegendő egyensúly és a bányászdíj"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"pénz",
             "data":"adat",
             "send_time":"Küldési idő",
-            "mac_time":"Fő hálózati idő"
+            "mac_time":"Fő lánc idő"
         },
         "keystore": {
             "tit":"Biztonsági másolat fájl",

@@ -28,15 +28,18 @@
             "tag":"temas",
             "address":"Hesap adresi",
             "tag_placeholder":"Lütfen kişinin adını giriniz",
-            "address_placeholder":"Lütfen kişinin hesap adresini giriniz"
+            "address_placeholder":"Lütfen kişinin hesap adresini giriniz",
+            "add_success":"Başarıyla eklendi"
         },
         "delete_dialog": {
-            "title":"Sen kaldırıyorsun"
+            "title":"Sen kaldırıyorsun",
+            "remove_success":"Başarıyla kaldırıldı"
         },
         "msg_info": {
             "no_tag":"Lütfen bir hesap notu girin",
             "no_address":"Lütfen hesap adresinizi giriniz",
             "valid_address":"Kişinin adresi yasa dışı",
+            "validate_tag_length":"Not adı 8 karakterden uzun olamaz",
             "exist":"Kişi zaten var,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Aktarım miktarı 0'dan büyük olmalıdır",
             "amount_error":"Lütfen bir yasal işlem tutarı girin",
             "address_err":"Aktarılan adresin biçimi geçersiz.",
+            "send_success":"Başarıyla gönderildi",
 
             "decrypt_err":"Cüzdan ayrıştırma işlemi başarısız oldu, şifre hatası olabilir",
-            
-            
-            
-            
-            "send_success":"Başarıyla gönderildi",
             "send_error":"İşlem başarısız oldu: lütfen yeterli bakiye ve maden ücreti olup olmadığını kontrol edin"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"para",
             "data":"veri",
             "send_time":"Zaman gönderme",
-            "mac_time":"Ana ağ zamanı"
+            "mac_time":"Ana zincir süresi"
         },
         "keystore": {
             "tit":"Yedekleme cüzdan dosyası",

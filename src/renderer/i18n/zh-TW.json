@@ -28,15 +28,18 @@
             "tag":"聯繫人",
             "address":"賬戶地址",
             "tag_placeholder":"請輸入聯繫人的姓名",
-            "address_placeholder":"請輸入聯繫人的賬戶地址"
+            "address_placeholder":"請輸入聯繫人的賬戶地址",
+            "add_success":"添加成功"
         },
         "delete_dialog": {
-            "title":"您正在移除"
+            "title":"您正在移除",
+            "remove_success":"移除成功"
         },
         "msg_info": {
             "no_tag":"請輸入賬戶備註",
             "no_address":"請輸入賬戶地址",
             "valid_address":"聯繫人的地址不合法",
+            "validate_tag_length":"備註名長度不能大於8個字符",
             "exist":"聯繫人已經存在,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"轉賬金額必須大於0",
             "amount_error":"請輸入合法的交易金額",
             "address_err":"轉入的地址格式不合法",
+            "send_success":"發送成功",
 
             "decrypt_err":"錢包解析失敗，可能是密碼錯誤",
-            
-            
-            
-            
-            "send_success":"發送成功",
             "send_error":"交易失敗：請檢查是否有足量餘額和礦工費"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"金額",
             "data":"數據",
             "send_time":"發送時間",
-            "mac_time":"主網時間"
+            "mac_time":"主鏈時間"
         },
         "keystore": {
             "tit":"備份錢包文件",

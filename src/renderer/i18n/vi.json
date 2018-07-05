@@ -28,15 +28,18 @@
             "tag":"Liên hệ",
             "address":"Địa chỉ tài khoản",
             "tag_placeholder":"Vui lòng nhập tên của liên hệ",
-            "address_placeholder":"Vui lòng nhập địa chỉ tài khoản của liên hệ"
+            "address_placeholder":"Vui lòng nhập địa chỉ tài khoản của liên hệ",
+            "add_success":"Đã thêm thành công"
         },
         "delete_dialog": {
-            "title":"Bạn đang xóa"
+            "title":"Bạn đang xóa",
+            "remove_success":"Đã xóa thành công"
         },
         "msg_info": {
             "no_tag":"Vui lòng nhập ghi chú tài khoản",
             "no_address":"Vui lòng nhập địa chỉ tài khoản của bạn",
             "valid_address":"Địa chỉ liên hệ là bất hợp pháp",
+            "validate_tag_length":"Tên bản ghi không thể dài hơn 8 ký tự",
             "exist":"Địa chỉ liên hệ đã tồn tại,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Số tiền chuyển khoản phải lớn hơn 0",
             "amount_error":"Vui lòng nhập số tiền giao dịch hợp pháp",
             "address_err":"Định dạng của địa chỉ được chuyển không hợp lệ.",
+            "send_success":"Đã gửi thành công",
 
             "decrypt_err":"Phân tích cú pháp trên Wallet không thành công, đó có thể là lỗi mật khẩu",
-            
-            
-            
-            
-            "send_success":"Đã gửi thành công",
             "send_error":"Giao dịch không thành công: vui lòng kiểm tra xem có đủ số dư và phí thợ mỏ không"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Số tiền",
             "data":"Dữ liệu",
             "send_time":"Gửi thời gian",
-            "mac_time":"Thời gian mạng chính"
+            "mac_time":"Chuỗi chính thời gian"
         },
         "keystore": {
             "tit":"Tệp ví tiền dự phòng",

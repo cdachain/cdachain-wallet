@@ -28,15 +28,18 @@
             "tag":"Contact",
             "address":"ratio inscriptio",
             "tag_placeholder":"Placere contactus nomen intrare",
-            "address_placeholder":"Placere contactus oratio rationis intrare"
+            "address_placeholder":"Placere contactus oratio rationis intrare",
+            "add_success":"feliciter additae"
         },
         "delete_dialog": {
-            "title":"Movens igitur tu es"
+            "title":"Movens igitur tu es",
+            "remove_success":"remota feliciter"
         },
         "msg_info": {
             "no_tag":"PDF rationem Disputatio",
             "no_address":"Oratio pro PDF",
             "valid_address":"Oratio contactus, non est legitimum scriptor",
+            "validate_tag_length":"Nomen eius notas non longior quam VIII characters",
             "exist":"Iam enim Contact:"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Serie debet esse major moles 0",
             "amount_error":"Please enter a quantum valet transaction",
             "address_err":"In forma oratio non esse legitimam,",
+            "send_success":"mitte victoria",
 
             "decrypt_err":"Peram animi fallit peccatum sit ignoro",
-            
-            
-            
-            
-            "send_success":"mitte victoria",
             "send_error":"Rei deficit: vide si satis est ut Reprehendo et fossores feodo statera"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"pecunia",
             "data":"Data",
             "send_time":"mitte Tempus",
-            "mac_time":"Principalis tempus network"
+            "mac_time":"Tempus spinam dorsi removerent"
         },
         "keystore": {
             "tit":"Vidulum tergum lima",

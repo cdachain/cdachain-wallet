@@ -28,15 +28,18 @@
             "tag": "联系人",
             "address": "账户地址",
             "tag_placeholder": "请输入联系人的姓名",
-            "address_placeholder": "请输入联系人的账户地址"
+            "address_placeholder": "请输入联系人的账户地址",
+            "add_success": "添加成功"
         },
         "delete_dialog": {
-            "title": "您正在移除"
+            "title": "您正在移除",
+            "remove_success": "移除成功"
         },
         "msg_info": {
             "no_tag": "请输入账户备注",
             "no_address": "请输入账户地址",
             "valid_address": "联系人的地址不合法",
+            "validate_tag_length": "备注名长度不能大于8个字符",
             "exist": "联系人已经存在,"
         }
     },

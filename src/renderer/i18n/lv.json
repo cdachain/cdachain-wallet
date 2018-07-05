@@ -28,15 +28,18 @@
             "tag":"Kontakti",
             "address":"Konta adrese",
             "tag_placeholder":"Lūdzu, ievadiet kontakta vārdu",
-            "address_placeholder":"Lūdzu, ievadiet kontaktpersonas konta adresi"
+            "address_placeholder":"Lūdzu, ievadiet kontaktpersonas konta adresi",
+            "add_success":"Pievienots veiksmīgi"
         },
         "delete_dialog": {
-            "title":"Jūs noņemat"
+            "title":"Jūs noņemat",
+            "remove_success":"Veiksmīgi noņemts"
         },
         "msg_info": {
             "no_tag":"Lūdzu, ievadiet konta piezīmi",
             "no_address":"Lūdzu, ievadiet sava konta adresi",
             "valid_address":"Kontaktpersonas adrese ir nelikumīga",
+            "validate_tag_length":"Atgādinājuma nosaukums nedrīkst būt garāks par 8 rakstzīmēm",
             "exist":"Kontaktpersona jau pastāv"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Pārskaitījuma summa ir lielāka par 0",
             "amount_error":"Lūdzu, ievadiet juridisko darījuma summu",
             "address_err":"Pārvietotās adreses formāts nav derīgs.",
+            "send_success":"Veiksmīgi nosūtīts",
 
             "decrypt_err":"Maka sinizēšana neizdevās, tā var būt paroles kļūda",
-            
-            
-            
-            
-            "send_success":"Veiksmīgi nosūtīts",
             "send_error":"Darījums neizdevās: lūdzu, pārbaudiet, vai ir pietiekama atlikuma un minerāžas maksa"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Summa",
             "data":"Dati",
             "send_time":"Nosūtīšanas laiks",
-            "mac_time":"Galvenā tīkla laiks"
+            "mac_time":"Galvenās ķēdes laiks"
         },
         "keystore": {
             "tit":"Rezerves seifa fails",

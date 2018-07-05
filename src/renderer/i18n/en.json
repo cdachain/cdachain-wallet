@@ -28,15 +28,18 @@
             "tag":"Contact",
             "address":"Account address",
             "tag_placeholder":"Please enter the name of the contact",
-            "address_placeholder":"Please enter the contact's account address"
+            "address_placeholder":"Please enter the contact's account address",
+            "add_success":"Added successfully"
         },
         "delete_dialog": {
-            "title":"You are removing"
+            "title":"You are removing",
+            "remove_success":"Successfully removed"
         },
         "msg_info": {
             "no_tag":"Please enter an account note",
             "no_address":"Please enter your account address",
             "valid_address":"The address of the contact is illegal",
+            "validate_tag_length":"Memo name cannot be longer than 8 characters",
             "exist":"The contact already exists,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"Transfer amount must be greater than 0",
             "amount_error":"Please enter a legal transaction amount",
             "address_err":"The format of the transferred address is invalid.",
+            "send_success":"Sent successfully",
 
             "decrypt_err":"Wallet parsing failed, it may be a password error",
-            
-            
-            
-            
-            "send_success":"Sent successfully",
             "send_error":"Transaction failed: please check if there is sufficient balance and miner fee"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Amount",
             "data":"data",
             "send_time":"Sending time",
-            "mac_time":"Main network time"
+            "mac_time":"Main chain time"
         },
         "keystore": {
             "tit":"Backup wallet file",

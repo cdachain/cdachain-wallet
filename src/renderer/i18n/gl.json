@@ -28,15 +28,18 @@
             "tag":"Contacto",
             "address":"Enderezo da conta",
             "tag_placeholder":"Introduce o nome do contacto",
-            "address_placeholder":"Introduce o enderezo da conta do contacto"
+            "address_placeholder":"Introduce o enderezo da conta do contacto",
+            "add_success":"Engadiuse con éxito"
         },
         "delete_dialog": {
-            "title":"Estás a eliminar"
+            "title":"Estás a eliminar",
+            "remove_success":"Eliminouse con éxito"
         },
         "msg_info": {
             "no_tag":"Insira unha nota de conta",
             "no_address":"Introduce o enderezo da túa conta",
             "valid_address":"O enderezo do contacto é ilegal",
+            "validate_tag_length":"O nome da nota non pode ter máis de 8 caracteres",
             "exist":"O contacto xa existe,"
         }
     },
@@ -66,13 +69,9 @@
             "amount_zero":"O importe da transferencia debe ser superior a 0",
             "amount_error":"Introduce un importe de transacción legal",
             "address_err":"O formato do enderezo transferido non é válido.",
+            "send_success":"Enviouse con éxito",
 
             "decrypt_err":"Fallou a análise de carteira, pode ser un erro de contrasinal",
-            
-            
-            
-            
-            "send_success":"Enviouse con éxito",
             "send_error":"Fallou a transacción: verifique se hai un saldo suficiente e unha taxa de mineiros"
         }
     },
@@ -97,7 +96,7 @@
             "amount":"Cantidade",
             "data":"Datos",
             "send_time":"Enviando tempo",
-            "mac_time":"Tempo de rede principal"
+            "mac_time":"Tempo de cadea principal"
         },
         "keystore": {
             "tit":"Ficheiro de carteira de respaldo",
