@@ -353,9 +353,14 @@ export default {
                             ? currentTxLeng
                             : self.pagingSwitch.limit;
                     var targetIndex = currentIndexInTxLixt - lessNum;
+                    if(targetIndex<0){
+                        self.pagingSwitch.beforeDisabled = true;
+                        self.loadingSwitch = false;
+                        return;
+                    }
 
                     // var targetIndex = currentIndexInTxLixt - self.pagingSwitch.limit;
-                    // console.log("换blockHash", targetIndex);
+                    // console.log("换blockHash", targetIndex,currentIndexInTxLixt , lessNum ,self.pagingSwitch.limit , currentTxLeng);
                     self.lastBlockHash = localList[targetIndex].hash;
                 }
 
