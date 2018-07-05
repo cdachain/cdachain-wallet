@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Badilisha maelezo",
-            "subtit":"Andika alama kwa akaunti yako"
+            "subtit":"Andika alama kwa akaunti yako",
+            "no_tag":"Tafadhali ingiza maelezo ya akaunti",
+            "validate_tag_length":"Jina la jina la kumbuka haliwezi kuwa kubwa kuliko wahusika 8."
         },
         "dia_tx":{
             "tit":"Maelezo ya ushirikiano",

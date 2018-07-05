@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Wizigje notysje",
-            "subtit":"Markje in nota foar jo akkount"
+            "subtit":"Markje in nota foar jo akkount",
+            "no_tag":"Fier in akkount oan",
+            "validate_tag_length":"De namme fan de notysje namme kin net grutter wêze as 8 tekens."
         },
         "dia_tx":{
             "tit":"Ferkearings ynformaasje",

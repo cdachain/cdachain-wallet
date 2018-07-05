@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Ṣe akọsilẹ atunṣe",
-            "subtit":"Ṣe akọsilẹ akọsilẹ kan fun akọọlẹ rẹ"
+            "subtit":"Ṣe akọsilẹ akọsilẹ kan fun akọọlẹ rẹ",
+            "no_tag":"Jowo tẹ akọsilẹ akọsilẹ",
+            "validate_tag_length":"Orukọ akọsilẹ ko le jẹ gun ju awọn ohun kikọ 8 lọ"
         },
         "dia_tx":{
             "tit":"Alaye iṣowo",

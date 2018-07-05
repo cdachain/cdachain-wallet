@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifica nota",
-            "subtit":"Marqueu una nota per al vostre compte"
+            "subtit":"Marqueu una nota per al vostre compte",
+            "no_tag":"Introduïu una nota del compte",
+            "validate_tag_length":"El nom de memòria no pot superar els 8 caràcters"
         },
         "dia_tx":{
             "tit":"Informació sobre la transacció",

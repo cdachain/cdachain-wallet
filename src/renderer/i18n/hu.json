@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Jegyzet módosítása",
-            "subtit":"Jelöljön meg egy jegyzetet fiókjához"
+            "subtit":"Jelöljön meg egy jegyzetet fiókjához",
+            "no_tag":"Kérjük, írjon be egy bankjegyet",
+            "validate_tag_length":"Az emlékeztetõ név legfeljebb 8 karakter lehet"
         },
         "dia_tx":{
             "tit":"Tranzakciós információk",

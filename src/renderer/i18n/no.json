@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Endre notat",
-            "subtit":"Merk et notat for kontoen din"
+            "subtit":"Merk et notat for kontoen din",
+            "no_tag":"Vennligst skriv inn et kontonotat",
+            "validate_tag_length":"Navnet på notatnavnet kan ikke være større enn 8 tegn."
         },
         "dia_tx":{
             "tit":"Transaksjonsinformasjon",

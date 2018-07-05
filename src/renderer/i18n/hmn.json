@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Hloov ntawv",
-            "subtit":"Kos cim rau koj tus account"
+            "subtit":"Kos cim rau koj tus account",
+            "no_tag":"Thov sau ib daim ntawv qhia nyiaj",
+            "validate_tag_length":"Lub npe ntawm lub npe ntawv tsis tuaj yeem ua ntau tshaj 8 cim."
         },
         "dia_tx":{
             "tit":"Cov ntaub ntawv xov xwm",

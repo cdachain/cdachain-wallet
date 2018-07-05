@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Suia le tusi",
-            "subtit":"Faailoga se tusi mo lau teugatupe"
+            "subtit":"Faailoga se tusi mo lau teugatupe",
+            "no_tag":"Faʻamolemole tuʻu se tusi tala",
+            "validate_tag_length":"O le igoa o le igoa tusi e le mafai ona sili atu nai lo le 8 mataitusi."
         },
         "dia_tx":{
             "tit":"Faamatalaga o galuega",

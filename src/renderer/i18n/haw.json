@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Hoʻololi i ka memo",
-            "subtit":"E kākau i kahi leka no kāu helu"
+            "subtit":"E kākau i kahi leka no kāu helu",
+            "no_tag":"Eʻoluʻolu e komo i ka helu moʻokāki",
+            "validate_tag_length":"ʻO ka Memo inoaʻaʻole hiki ke lōʻihi ma mua o 8 mau kikowaena"
         },
         "dia_tx":{
             "tit":"Kaʻike pilina",

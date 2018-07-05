@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Sauya bayanin kula",
-            "subtit":"Rubuta bayanin kula don asusunku"
+            "subtit":"Rubuta bayanin kula don asusunku",
+            "no_tag":"Da fatan a shigar da bayanin kula",
+            "validate_tag_length":"Sunan sunan martaba ba zai iya girma fiye da haruffa 8 ba."
         },
         "dia_tx":{
             "tit":"Bayaniyar bayani",

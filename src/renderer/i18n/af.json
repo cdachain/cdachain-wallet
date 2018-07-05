@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Wysig nota",
-            "subtit":"Merk 'n nota vir jou rekening"
+            "subtit":"Merk 'n nota vir jou rekening",
+            "no_tag":"Voer asseblief 'n rekeningnota in",
+            "validate_tag_length":"Memo naam kan nie langer as 8 karakters wees nie"
         },
         "dia_tx":{
             "tit":"Transaksie-inligting",

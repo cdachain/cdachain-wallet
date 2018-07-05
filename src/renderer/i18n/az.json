@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Notu dəyişdirin",
-            "subtit":"Hesabınız üçün qeyd yaz"
+            "subtit":"Hesabınız üçün qeyd yaz",
+            "no_tag":"Xahiş edirik bir hesab qeydini daxil edin",
+            "validate_tag_length":"Memo adı 8 simvoldan artıq ola bilməz"
         },
         "dia_tx":{
             "tit":"Əməliyyat məlumatları",

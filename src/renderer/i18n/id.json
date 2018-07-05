@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Ubah catatan",
-            "subtit":"Tandai catatan untuk akun Anda"
+            "subtit":"Tandai catatan untuk akun Anda",
+            "no_tag":"Harap masukkan catatan akun",
+            "validate_tag_length":"Nama memo tidak boleh lebih dari 8 karakter"
         },
         "dia_tx":{
             "tit":"Informasi transaksi",

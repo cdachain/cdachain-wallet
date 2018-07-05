@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Hanova fanamarihana",
-            "subtit":"Mariho marika ho an'ny kaontinao"
+            "subtit":"Mariho marika ho an'ny kaontinao",
+            "no_tag":"Mampidira fanamarihana ny kaonty azafady",
+            "validate_tag_length":"Ny anaran'ny memo dia tsy mety maharitra mihoatra ny 8"
         },
         "dia_tx":{
             "tit":"Fampahalalana momba ny trosa",

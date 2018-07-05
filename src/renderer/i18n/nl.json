@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Wijzig opmerking",
-            "subtit":"Markeer een notitie voor uw account"
+            "subtit":"Markeer een notitie voor uw account",
+            "no_tag":"Voer een accountnotitie in",
+            "validate_tag_length":"Memo-naam mag niet langer zijn dan 8 tekens"
         },
         "dia_tx":{
             "tit":"Transactie informatie",

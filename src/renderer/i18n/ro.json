@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modificați nota",
-            "subtit":"Marcați o notă pentru contul dvs."
+            "subtit":"Marcați o notă pentru contul dvs.",
+            "no_tag":"Introduceți o notă de cont",
+            "validate_tag_length":"Memo numele nu poate fi mai lung de 8 caractere"
         },
         "dia_tx":{
             "tit":"Informații despre tranzacții",

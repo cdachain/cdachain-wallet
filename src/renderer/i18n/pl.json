@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Zmodyfikuj notatkę",
-            "subtit":"Zaznacz notatkę dla swojego konta"
+            "subtit":"Zaznacz notatkę dla swojego konta",
+            "no_tag":"Proszę wprowadzić uwagę na koncie",
+            "validate_tag_length":"Nazwa nazwy notatki nie może być większa niż 8 znaków."
         },
         "dia_tx":{
             "tit":"Informacje o transakcji",

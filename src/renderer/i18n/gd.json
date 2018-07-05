@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Nòta atharrachaidh",
-            "subtit":"Dèan nota airson do chunntas"
+            "subtit":"Dèan nota airson do chunntas",
+            "no_tag":"Cuir a-steach nòta cunntais",
+            "validate_tag_length":"Chan fhaod ainm meòrachan a bhith nas fhaide na 8 caractaran"
         },
         "dia_tx":{
             "tit":"Fiosrachadh gluasadach",

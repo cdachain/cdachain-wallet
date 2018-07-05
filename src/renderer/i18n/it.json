@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifica nota",
-            "subtit":"Contrassegna una nota per il tuo account"
+            "subtit":"Contrassegna una nota per il tuo account",
+            "no_tag":"Si prega di inserire una nota dell'account",
+            "validate_tag_length":"Il nome del memo non può essere più lungo di 8 caratteri"
         },
         "dia_tx":{
             "tit":"Informazioni sulla transazione",

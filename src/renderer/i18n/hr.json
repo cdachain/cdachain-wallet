@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Izmijenite bilješku",
-            "subtit":"Označite bilješku za svoj račun"
+            "subtit":"Označite bilješku za svoj račun",
+            "no_tag":"Unesite bilješku o računu",
+            "validate_tag_length":"Memo ime ne može biti duže od 8 znakova"
         },
         "dia_tx":{
             "tit":"Informacije o transakciji",

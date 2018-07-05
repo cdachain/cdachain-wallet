@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Notu değiştir",
-            "subtit":"Hesabınız için bir notu işaretle"
+            "subtit":"Hesabınız için bir notu işaretle",
+            "no_tag":"Lütfen bir hesap notu girin",
+            "validate_tag_length":"Not adı 8 karakterden uzun olamaz"
         },
         "dia_tx":{
             "tit":"İşlem bilgisi",

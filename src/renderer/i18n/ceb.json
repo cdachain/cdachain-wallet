@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Usba ang mubo nga sulat",
-            "subtit":"Markahi ang usa ka mubo nga sulat alang sa imong account"
+            "subtit":"Markahi ang usa ka mubo nga sulat alang sa imong account",
+            "no_tag":"Palihug pagsulat sa usa ka nota sa account",
+            "validate_tag_length":"Ang pangalan sa memo dili mahimo nga mas taas kay sa 8 ka karakter"
         },
         "dia_tx":{
             "tit":"Impormasyon sa transaksyon",

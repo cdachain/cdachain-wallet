@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Mainīt piezīmi",
-            "subtit":"Atzīmējiet piezīmi savam kontam"
+            "subtit":"Atzīmējiet piezīmi savam kontam",
+            "no_tag":"Lūdzu, ievadiet konta piezīmi",
+            "validate_tag_length":"Atgādinājuma nosaukums nedrīkst būt garāks par 8 rakstzīmēm"
         },
         "dia_tx":{
             "tit":"Darījuma informācija",

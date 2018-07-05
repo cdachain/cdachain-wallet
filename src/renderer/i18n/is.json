@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Breyta athugasemd",
-            "subtit":"Merktu athugasemd fyrir reikninginn þinn"
+            "subtit":"Merktu athugasemd fyrir reikninginn þinn",
+            "no_tag":"Vinsamlegast sláðu inn reikningsskýringu",
+            "validate_tag_length":"Minnispunktur getur ekki verið lengri en 8 stafir"
         },
         "dia_tx":{
             "tit":"Upplýsingar um viðskipti",

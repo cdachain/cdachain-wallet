@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Änneren",
-            "subtit":"Mark eng Notiz fir Äre Kont"
+            "subtit":"Mark eng Notiz fir Äre Kont",
+            "no_tag":"Gidd weg eng Konto Notiz",
+            "validate_tag_length":"Numm vum Memo kann net méi wéi 8 Zeechen sinn"
         },
         "dia_tx":{
             "tit":"Transaktiounsinformatioun",

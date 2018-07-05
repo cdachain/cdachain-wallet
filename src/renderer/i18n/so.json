@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Bedel qoraalka",
-            "subtit":"Calaamad ku qor xisaabtaada"
+            "subtit":"Calaamad ku qor xisaabtaada",
+            "no_tag":"Fadlan qor qoraalka xisaabta",
+            "validate_tag_length":"Magaca xasuusta ma noqon karto wax ka badan 8 characters"
         },
         "dia_tx":{
             "tit":"Macluumaadka macaamilka",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Izmenite belešku",
-            "subtit":"Označite napomenu za svoj račun"
+            "subtit":"Označite napomenu za svoj račun",
+            "no_tag":"Molimo unesite notu za račun",
+            "validate_tag_length":"Ime beleške ne može biti duže od 8 znakova"
         },
         "dia_tx":{
             "tit":"Informacije o transakciji",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Edit Catetan",
-            "subtit":"Pikeun akun Anjeun nandaan nyarios a"
+            "subtit":"Pikeun akun Anjeun nandaan nyarios a",
+            "no_tag":"Mangga lebetkeun Katerangan akun",
+            "validate_tag_length":"Ngaran Catetan moal kaci ti 8 karakter"
         },
         "dia_tx":{
             "tit":"Émbaran dagang",

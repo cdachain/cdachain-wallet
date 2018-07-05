@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Addasu nodyn",
-            "subtit":"Nodwch nodyn ar gyfer eich cyfrif"
+            "subtit":"Nodwch nodyn ar gyfer eich cyfrif",
+            "no_tag":"Nodwch nodyn cyfrif",
+            "validate_tag_length":"Ni all enw cofio fod yn hwy na 8 nod"
         },
         "dia_tx":{
             "tit":"Gwybodaeth am drafodion",

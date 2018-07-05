@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Spremeni beležko",
-            "subtit":"Označite opombo za svoj račun"
+            "subtit":"Označite opombo za svoj račun",
+            "no_tag":"Vnesite beležko računa",
+            "validate_tag_length":"Ime beležke ne sme biti daljše od 8 znakov"
         },
         "dia_tx":{
             "tit":"Podatki o transakcijah",

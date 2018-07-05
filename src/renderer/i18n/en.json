@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modify note",
-            "subtit":"Mark a note for your account"
+            "subtit":"Mark a note for your account",
+            "no_tag":"Please enter an account note",
+            "validate_tag_length":"Memo name cannot be longer than 8 characters"
         },
         "dia_tx":{
             "tit":"Trading Information",

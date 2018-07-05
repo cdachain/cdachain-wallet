@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifi noton",
-            "subtit":"Marki noton por via konto"
+            "subtit":"Marki noton por via konto",
+            "no_tag":"Bonvolu enmeti konton-noton",
+            "validate_tag_length":"La nomo de la nota nomo ne povas esti pli ol 8 karakteroj."
         },
         "dia_tx":{
             "tit":"Informo pri transakcio",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit": "修改备注",
-            "subtit": "为您的账户标记一个备注"
+            "subtit": "为您的账户标记一个备注",
+            "no_tag": "请输入账户备注",
+            "validate_tag_length": "备注名长度不能大于8个字符"
         },
         "dia_tx":{
             "tit":"交易信息",

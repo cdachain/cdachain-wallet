@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Shintsha inothi",
-            "subtit":"Maka inothi ye-akhawunti yakho"
+            "subtit":"Maka inothi ye-akhawunti yakho",
+            "no_tag":"Sicela ufake inothi le-akhawunti",
+            "validate_tag_length":"Igama le-Memo alikwazi ukuba lude kunezinhlamvu ezingu-8"
         },
         "dia_tx":{
             "tit":"Ulwazi lokuthengiselana",

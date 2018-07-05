@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Ändra anteckning",
-            "subtit":"Markera en anteckning för ditt konto"
+            "subtit":"Markera en anteckning för ditt konto",
+            "no_tag":"Vänligen ange en kontouppnotation",
+            "validate_tag_length":"Namn på anteckningsnamnet får inte vara större än 8 tecken."
         },
         "dia_tx":{
             "tit":"Transaktionsinformation",

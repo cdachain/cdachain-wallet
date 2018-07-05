@@ -19,7 +19,7 @@
 
             <div class="account-center">
                 <div class="account-alias-wrap">
-                    <span class="text-sub-color">{{ accountInfo.tag }}</span>
+                    <span class="text-sub-color account-remark">{{ accountInfo.tag }}</span>
                     <i class="iconfont icon-edit-alias" @click="dialogSwitch.editName = true"> &#xe604; </i>
                 </div>
                 <div class="account-has-assets">
@@ -121,18 +121,22 @@
                 <li class="b-flex b-flex-justify tx-item">
                     <strong class="tx-item-des">{{$t('page_account.dia_tx.status')}}</strong>
                     <span class="tx-item-info">
-                        <span v-if="txStatus === -1" class="txt-warning">
-                            不稳定
-                        </span>
-                        <span v-else-if="txStatus === 200" class="txt-success">
-                            成功
-                        </span>
-                        <span v-else-if="txStatus === 300" class="txt-info">
-                            作废
-                        </span>
-                        <span v-else-if="txStatus === 400" class="txt-danger">
-                            失败
-                        </span>
+                        <template v-if='transactionInfo.is_stable == "0"'>
+                            <span class="txt-warning"> 不稳定 </span>
+                        </template>
+                        <template v-else-if='transactionInfo.is_stable == "1"'>
+                            <template v-if='transactionInfo.is_fork == "1" || transactionInfo.is_invalid == "1"'>
+                                <span class="txt-info"> 作废 </span>
+                            </template>
+                             <template v-else>
+                                 <template v-if='transactionInfo.is_fail == "1"'>
+                                     <span class="txt-danger"> 失败 </span>
+                                 </template>
+                                 <template v-else>
+                                     <span class="txt-success"> 成功 </span>
+                                 </template>
+                            </template>
+                        </template>
                     </span>
                 </li>
                 <li class="b-flex b-flex-justify tx-item">
@@ -427,8 +431,43 @@ export default {
                 .filter({ address: this.address })
                 .value()[0];
             this.accountInfo.keystore = keystoreFile;
-            this.accountInfo.tx_list = txListAry;
             self.accountInfo.currentTxList = currentList;
+            //更新list
+            txListAry.forEach((ele, index) => {
+                if (ele.is_stable == "0") {
+                    self.getBlock(ele.hash);
+                }
+            });
+            this.accountInfo.tx_list = txListAry;
+        },
+        getBlock(hash) {
+            self.$czr.request
+                .getBlock(hash)
+                .then(function(data) {
+                    return data;
+                })
+                .then(function(data) {
+                    if (data.is_stable == "1") {
+                        self.accountInfo.tx_list.forEach((ele, index) => {
+                            if (data.hash == ele.hash) {
+                                //写回去
+                                self.accountInfo.tx_list[index] = data;
+                                //如果当前是 transactionInfo 则也些过去
+                                if(data.hash = self.transactionInfo.hash){
+                                    self.transactionInfo=data;
+                                }
+                            }
+                        });
+                        //current也需要更改
+                        self.accountInfo.currentTxList.forEach((ele, index) => {
+                            if (data.hash == ele.hash) {
+                                //写回去
+                                self.accountInfo.currentTxList[index] = data;
+                            }
+                        });
+
+                    }
+                });
         },
 
         //Copy Address
@@ -443,23 +482,23 @@ export default {
         //SHOW tx info
         showTxInfo(item) {
             this.transactionInfo = item;
-            //判断 this.txStatus
-            if (item.is_stable == "0") {
-                //不稳定
-                this.txStatus = -1; //不稳定
-            } else if (item.is_stable == "1") {
-                //稳定
-                if (item.is_fork == "1" || item.is_invalid == "1") {
-                    this.txStatus = 300; //作废
-                    //
-                } else {
-                    if (item.is_fail == "1") {
-                        this.txStatus = 400; //失败
-                    } else {
-                        this.txStatus = 200; //成功
-                    }
-                }
-            }
+            // //判断 this.txStatus
+            // if (item.is_stable == "0") {
+            //     //不稳定
+            //     this.txStatus = -1; //不稳定
+            // } else if (item.is_stable == "1") {
+            //     //稳定
+            //     if (item.is_fork == "1" || item.is_invalid == "1") {
+            //         this.txStatus = 300; //作废
+            //         //
+            //     } else {
+            //         if (item.is_fail == "1") {
+            //             this.txStatus = 400; //失败
+            //         } else {
+            //             this.txStatus = 200; //成功
+            //         }
+            //     }
+            // }
 
             this.dialogSwitch.txInfo = true;
         },
@@ -471,7 +510,18 @@ export default {
 
         //Edit Tag
         setEditTag: function() {
-            var self = this;
+            if (!this.editTag) {
+                this.$message.error(this.$t("page_account.edit_dia.no_tag"));
+                return;
+            }
+
+            //判断长度
+            if (this.editTag.length > 8) {
+                this.$message.error(
+                    this.$t("page_account.edit_dia.validate_tag_length")
+                );
+                return;
+            }
             this.$db
                 .read()
                 .get("czr_accounts")
@@ -555,9 +605,9 @@ export default {
             }
             return integer + decimal; //TODO Keep 4 decimal places
         },
-        toCZRFull:function(val){
+        toCZRFull: function(val) {
             let tempVal = self.$czr.utils.fromWei(val, "czr");
-            return tempVal; 
+            return tempVal;
         },
         toDate: function(val) {
             if (val == "0" || !val) {
@@ -604,6 +654,7 @@ export default {
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 99;
 }
 .account-banner .acc-interactive {
     margin: 10px;
@@ -776,5 +827,26 @@ export default {
 }
 .txt-danger {
     color: #f56c6c;
+}
+.account-alias-wrap {
+    position: relative;
+}
+.icon-edit-alias {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    top: -6px;
+    right: 0;
+}
+.account-remark {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    max-width: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 </style>

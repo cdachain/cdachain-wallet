@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Nota Edit",
-            "subtit":"Nam designat quiddam ob gratiam tui"
+            "subtit":"Nam designat quiddam ob gratiam tui",
+            "no_tag":"PDF rationem Disputatio",
+            "validate_tag_length":"Nomen eius notas non longior quam VIII characters"
         },
         "dia_tx":{
             "tit":"Trading Information",

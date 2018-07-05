@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Nóta a mhodhnú",
-            "subtit":"Nóta a mharcáil le do chuntas"
+            "subtit":"Nóta a mharcáil le do chuntas",
+            "no_tag":"Cuir nóta cuntas isteach",
+            "validate_tag_length":"Ní féidir ainm an nóta a bheith níos mó ná 8 carachtar."
         },
         "dia_tx":{
             "tit":"Faisnéis idirbhirt",

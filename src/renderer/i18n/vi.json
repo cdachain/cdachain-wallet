@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Sửa đổi ghi chú",
-            "subtit":"Đánh dấu ghi chú cho tài khoản của bạn"
+            "subtit":"Đánh dấu ghi chú cho tài khoản của bạn",
+            "no_tag":"Vui lòng nhập ghi chú tài khoản",
+            "validate_tag_length":"Tên bản ghi không thể dài hơn 8 ký tự"
         },
         "dia_tx":{
             "tit":"Thông tin giao dịch",

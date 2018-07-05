@@ -66,7 +66,7 @@
         "msg_info": {
             "address_null":"Indtast venligst den anden parts konto",
             "balance_zero":"Manglende balance, ude af stand til at fortsætte",
-            "amount_zero":"Overførselsbeløbet skal være større end 0",
+            "amount_zero":"Overførsel beløb skal være større end 0",
             "amount_error":"Indtast venligst et juridisk transaktionsbeløb",
             "address_err":"Formatet på den overførte adresse er ugyldig.",
             "send_success":"Sendt med succes",
@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Rediger note",
-            "subtit":"Marker en note til din konto"
+            "subtit":"Marker en note til din konto",
+            "no_tag":"Indtast venligst en kontoopskrift",
+            "validate_tag_length":"Navnet på notenavnet må ikke være større end 8 tegn."
         },
         "dia_tx":{
             "tit":"Transaktionsoplysninger",
@@ -145,7 +147,7 @@
             "validate_tag":"Indtast venligst kontonodenavnet",
             "validate_tag_length":"Navnet på notenavnet må ikke være større end 8 tegn.",
             "validate_enter_keystore":"Indtast venligst kontofilen først",
-            "validate_error_keystore":"Kontoimporten mislykkedes, det kan være en kontofilfejl",
+            "validate_error_keystore":"Konto import mislykkes, kontoen kan være forkert fil",
             "imported_account_success":"Indført med succes",
             "exist":"Denne konto eksisterer allerede, notatet er",
             "keystore_error":"Fejl:",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Ubah nota",
-            "subtit":"Tandakan nota untuk akaun anda"
+            "subtit":"Tandakan nota untuk akaun anda",
+            "no_tag":"Sila masukkan nota akaun",
+            "validate_tag_length":"Nama memo tidak boleh melebihi 8 aksara"
         },
         "dia_tx":{
             "tit":"Maklumat urus niaga",

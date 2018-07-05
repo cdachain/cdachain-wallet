@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Muokkaa huomautusta",
-            "subtit":"Merkitse tiliisi merkintä"
+            "subtit":"Merkitse tiliisi merkintä",
+            "no_tag":"Anna tili-ilmoitus",
+            "validate_tag_length":"Huomautuksen nimi voi olla enintään 8 merkkiä"
         },
         "dia_tx":{
             "tit":"Tapahtumatiedot",

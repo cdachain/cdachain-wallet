@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Gbanwee ederede",
-            "subtit":"Dee ederede maka akaụntụ gị"
+            "subtit":"Dee ederede maka akaụntụ gị",
+            "no_tag":"Biko tinye ederede akaụntụ",
+            "validate_tag_length":"Aha aha akwukwo apughi ibu ihe kariri ihe odide asatọ."
         },
         "dia_tx":{
             "tit":"Ozi ahia",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifye nòt",
-            "subtit":"Make yon nòt pou kont ou"
+            "subtit":"Make yon nòt pou kont ou",
+            "no_tag":"Tanpri antre yon nòt kont",
+            "validate_tag_length":"Non an nan non an nòt pa ka pi gran pase 8 karaktè."
         },
         "dia_tx":{
             "tit":"Enfòmasyon tranzaksyon",

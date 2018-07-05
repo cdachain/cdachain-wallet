@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"修改備註",
-            "subtit":"為您的賬戶標記一個備註"
+            "subtit":"為您的賬戶標記一個備註",
+            "no_tag":"請輸入賬戶備註",
+            "validate_tag_length":"備註名長度不能大於8個字符"
         },
         "dia_tx":{
             "tit":"交易信息",

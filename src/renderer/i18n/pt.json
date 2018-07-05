@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modificar nota",
-            "subtit":"Marque uma nota para sua conta"
+            "subtit":"Marque uma nota para sua conta",
+            "no_tag":"Por favor insira uma nota de conta",
+            "validate_tag_length":"O nome do nome da nota não pode ser maior que 8 caracteres."
         },
         "dia_tx":{
             "tit":"Informações de transação",

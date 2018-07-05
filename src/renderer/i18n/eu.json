@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Aldatu oharra",
-            "subtit":"Markatu ohar bat zure konturako"
+            "subtit":"Markatu ohar bat zure konturako",
+            "no_tag":"Idatzi kontuaren oharra",
+            "validate_tag_length":"Memo izenik ezin da 8 karaktere baino gehiago izan"
         },
         "dia_tx":{
             "tit":"Transakzio informazioa",

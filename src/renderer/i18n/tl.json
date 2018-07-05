@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Baguhin ang tala",
-            "subtit":"Markahan ang isang tala para sa iyong account"
+            "subtit":"Markahan ang isang tala para sa iyong account",
+            "no_tag":"Mangyaring magpasok ng tala ng account",
+            "validate_tag_length":"Ang pangalan ng memo ay hindi maaaring mas mahaba sa 8 character"
         },
         "dia_tx":{
             "tit":"Impormasyon sa transaksyon",

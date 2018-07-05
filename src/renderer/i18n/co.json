@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifiche nota",
-            "subtit":"Marcate una nota per u vostru contu"
+            "subtit":"Marcate una nota per u vostru contu",
+            "no_tag":"Per piacè inserisce una nota di cunta",
+            "validate_tag_length":"U nome di Memo ùn pò esse più di più di 8 caratteri"
         },
         "dia_tx":{
             "tit":"Informazioni transaccione",

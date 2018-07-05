@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Whakakēhia te tuhinga",
-            "subtit":"Tuhia he tuhi mo to korero"
+            "subtit":"Tuhia he tuhi mo to korero",
+            "no_tag":"Tomo koa koa he tuhi kaute",
+            "validate_tag_length":"Kaore pea te ingoa Memo e roa ake i te 8 nga tahua"
         },
         "dia_tx":{
             "tit":"Mōhiohio mahi",

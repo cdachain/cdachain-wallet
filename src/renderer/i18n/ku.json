@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Şirovekirin",
-            "subtit":"Ji bo hesabê we re gotarek binivîse"
+            "subtit":"Ji bo hesabê we re gotarek binivîse",
+            "no_tag":"Ji kerema xwe ji bîr nekin",
+            "validate_tag_length":"Navê navnîşê navnîşê 8 ji hêla mezintirîn ne."
         },
         "dia_tx":{
             "tit":"Agahdariya danûstendinê",

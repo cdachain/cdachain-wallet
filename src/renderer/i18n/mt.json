@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Tibdel in-nota",
-            "subtit":"Immarka nota għall-kont tiegħek"
+            "subtit":"Immarka nota għall-kont tiegħek",
+            "no_tag":"Jekk jogħġbok daħħal in-nota tal-kont",
+            "validate_tag_length":"L-isem tal-memo ma jistax ikun itwal minn 8 karattri"
         },
         "dia_tx":{
             "tit":"Informazzjoni dwar it-tranżazzjonijiet",

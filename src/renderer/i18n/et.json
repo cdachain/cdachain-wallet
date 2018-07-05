@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Muuda märkmeid",
-            "subtit":"Märkige märkus oma konto jaoks"
+            "subtit":"Märkige märkus oma konto jaoks",
+            "no_tag":"Palun sisesta konto märkus",
+            "validate_tag_length":"Memo nimi ei tohi olla pikem kui 8 tähemärki"
         },
         "dia_tx":{
             "tit":"Tehingu teave",

@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifier la note",
-            "subtit":"Marquer une note pour votre compte"
+            "subtit":"Marquer une note pour votre compte",
+            "no_tag":"Veuillez entrer une note de compte",
+            "validate_tag_length":"Le nom du mémo ne peut pas dépasser 8 caractères"
         },
         "dia_tx":{
             "tit":"Informations sur la transaction",

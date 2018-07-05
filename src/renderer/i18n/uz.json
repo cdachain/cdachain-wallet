@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Qaydni o'zgartiring",
-            "subtit":"Hisobingiz uchun eslatma belgilang"
+            "subtit":"Hisobingiz uchun eslatma belgilang",
+            "no_tag":"Iltimos, hisob qaydnomasini kiriting",
+            "validate_tag_length":"Eslatma nomi 8 ta belgidan oshmasligi kerak"
         },
         "dia_tx":{
             "tit":"Jurnal haqida ma'lumot",

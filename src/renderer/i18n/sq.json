@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Modifiko shënimin",
-            "subtit":"Shënoni një shënim për llogarinë tuaj"
+            "subtit":"Shënoni një shënim për llogarinë tuaj",
+            "no_tag":"Futni një shënim llogarie",
+            "validate_tag_length":"Emri memo nuk mund të jetë më i gjatë se 8 shkronja"
         },
         "dia_tx":{
             "tit":"Informacion mbi transaksionet",

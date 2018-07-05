@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Upraviť poznámku",
-            "subtit":"Označte poznámku pre svoj účet"
+            "subtit":"Označte poznámku pre svoj účet",
+            "no_tag":"Zadajte poznámku k účtu",
+            "validate_tag_length":"Názov mena mena nemôže byť väčší ako 8 znakov."
         },
         "dia_tx":{
             "tit":"Transakčné informácie",

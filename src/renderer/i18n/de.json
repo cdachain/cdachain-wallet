@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Notiz ändern",
-            "subtit":"Markieren Sie eine Notiz für Ihr Konto"
+            "subtit":"Markieren Sie eine Notiz für Ihr Konto",
+            "no_tag":"Bitte geben Sie eine Kontonummer ein",
+            "validate_tag_length":"Der Memo-Name darf nicht länger als 8 Zeichen sein"
         },
         "dia_tx":{
             "tit":"Transaktionsinformationen",

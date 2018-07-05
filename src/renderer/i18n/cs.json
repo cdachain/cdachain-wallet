@@ -85,7 +85,9 @@
         },
         "edit_dia": {
             "tit":"Upravit poznámku",
-            "subtit":"Označte poznámku k účtu"
+            "subtit":"Označte poznámku k účtu",
+            "no_tag":"Zadejte poznámku k účtu",
+            "validate_tag_length":"Memo jméno nesmí být delší než 8 znaků"
         },
         "dia_tx":{
             "tit":"Informace o transakcích",
