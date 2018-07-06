@@ -119,7 +119,7 @@ let self = null;
 const app = require("electron").remote.app;
 
 app.on("will-quit", function() {
-    var currentPid = sessionStorage.getItem("CanonChainPid");
+    var currentPid = Number(sessionStorage.getItem("CanonChainPid"));
     var result = process.kill(currentPid,'SIGTERM');
     self.$logger.info("app quit kill canonchain:", currentPid,result);
 });
