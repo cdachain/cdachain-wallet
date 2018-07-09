@@ -22,7 +22,8 @@ const { remote, app, shell } = require("electron");
 const axios = require("axios");
 const download = require("download");
 const { spawn, spawnSync } = require("child_process");
-// const banner=require("@/assets/img/banner.png")
+const packageJson = require('../../../../package.json')
+
 var self = null;
 export default {
   name: "Config",
@@ -33,7 +34,7 @@ export default {
       local_config: {},
       node_info: {},
       userDataPath: "",
-      walletVer: "0.1.1",
+      walletVer: packageJson.version,
       conMsg: "",
       backgroundImage: "url(" + require("@/assets/img/banner.png") + ")",
       binariesIsDownloaded: false
