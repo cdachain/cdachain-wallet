@@ -206,7 +206,7 @@ export default {
         self = this;
         QRCode.toDataURL(this.address, { width: 800 }, function(err, url) {
             if (err) {
-                self.$logger.info(err);
+                self.$walletLogs.info(err);
                 return;
             }
             self.qrImgUrl = url;

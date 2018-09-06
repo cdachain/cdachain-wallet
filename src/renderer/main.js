@@ -15,19 +15,16 @@ import VueI18n from 'vue-i18n'
 import languges from '../../i18n/languges_conf'
 
 //log4js
-//testLog4.js
-const path = require("path");
-const log4js = require('log4js')
-import utility from '../setting/settings'
-
-const logPath = path.join(utility.userDataPath, 'logs', "error.log")
-log4js.configure({
-    appenders: { cheese: { type: 'file', filename: logPath } },
-    categories: { default: { appenders: ['cheese'], level: 'info' } }
-});
-Vue.log4js = Vue.prototype.$log4js = log4js
-const logger = log4js.getLogger('=>>');
-logger.info(" ********** RUN MAIN ********** ");
+let logConfig = require('../log4/log_config.js');
+let startLogs = logConfig.getLogger('start_check') ;        //此处使用category的值
+let nodeLogs = logConfig.getLogger('node_status') ;        //此处使用category的值
+let walletLogs = logConfig.getLogger('wallet_operate')    ;      //此处使用category的值 
+Vue.prototype.$startLogs = startLogs
+Vue.prototype.$nodeLogs = nodeLogs
+Vue.prototype.$walletLogs = walletLogs
+startLogs.info("********** 启动日志 记录开始 ********** ");
+nodeLogs.info("********** 节点日志 记录开始 ********** ");
+walletLogs.info("********** 钱包日志 记录开始 ********** ");
 
 Vue.use(VueI18n);
 Vue.use(ElementUI);
@@ -36,9 +33,7 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 let czr = new Czr();
 Vue.czr = Vue.prototype.$czr = czr;
 
-
 Vue.prototype.$db = db
-Vue.prototype.$logger = logger
 
 
 // Loading i18 language

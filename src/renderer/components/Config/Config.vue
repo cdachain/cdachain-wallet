@@ -69,7 +69,7 @@ export default {
     },
     dropOut() {},
     downloadWallet() {
-      shell.openExternal("http://www.canonchain.com/zh-CN");
+      shell.openExternal("http://www.canonchain.com/");
     },
     initConfig() {
       var radom = Math.random();
@@ -84,21 +84,21 @@ export default {
         NODE_TYPE: "CanonChain",
         binaryVersion: ""
       };
-      this.conMsg = "配置文件初始化完成";
-      self.$logger.info("配置文件初始化完成");
+      this.conMsg = "准备检测配置文件";
+      self.$startLogs.info("准备检测配置文件");
     },
 
     checkForNewConfig() {
       var self = this;
-      this.conMsg = "检测是否有新的 CanonChain 文件";
-      self.$logger.info("检测是否有新的 CanonChain 文件 ");
+      this.conMsg = "检测是否有新的 CanonChain 节点文件";
+      self.$startLogs.info("检测是否有新的 CanonChain 节点文件 ");
 
       axios
         .get(self.latest_config.BINARY_URL)
         .then(function(response) {
           self.latest_config.content = response.data;
-          self.conMsg = "已获取到远程配置文件";
-          self.$logger.info("已获取到远程配置文件", response.data);
+          self.conMsg = "已获取到最新的节点配置信息";
+          self.$startLogs.info("已获取到最新的节点配置信息", response.data);
           self.checkLocalConfig();
         })
         .catch(function(error) {
@@ -107,8 +107,8 @@ export default {
     },
     checkLocalConfig() {
       var self = this;
-      this.conMsg = "检测本地的配置文件";
-      self.$logger.info("检测本地的配置文件");
+      this.conMsg = "检测本地是否有节点文件";
+      self.$startLogs.info("检测本地是否有节点文件");
       //读取本地二进制配置文件
       try {
         // 现在加载本地json
@@ -117,25 +117,25 @@ export default {
             .readFileSync(path.join(self.userDataPath, "clientBinaries.json"))
             .toString()
         );
-        this.conMsg = "本地配置文件存在";
-        self.$logger.info("本地配置文件存在");
+        this.conMsg = "当前设备存在节点文件的配置信息";
+        self.$startLogs.info("当前设备存在节点文件的配置信息");
       } catch (err) {
-        this.conMsg = "没有检测到本地配置文件，可能是第一次运行";
-        self.$logger.info("没有检测到本地配置文件，可能是第一次运行");
+        this.conMsg = "没有检测到节点文件的配置信息，可能是第一次运行";
+        self.$startLogs.info("没有检测到节点文件的配置信息，可能是第一次运行");
         if (self.latest_config.content) {
           self.local_config = self.latest_config.content;
           self.writeLocalConfig(self.latest_config.content);
         } else {
           this.conMsg = "无法加载本地或远程配置 无法继续!"; //TODO 加载安装包的配置
-          self.$logger.info("无法加载本地或远程配置 无法继续!");
+          self.$startLogs.info("无法加载本地或远程配置 无法继续!");
         }
       }
       self.isUpdate();
     },
     writeLocalConfig(json) {
-      this.conMsg = "将Github上获取的客户端二进制配置文件，写入磁盘的本地配";
-      self.$logger.info(
-        "将Github上获取的客户端二进制配置文件，写入磁盘的本地配"
+      this.conMsg = "将获取的节点信息文件，写入本地磁盘";
+      self.$startLogs.info(
+        "将获取的节点信息文件，写入本地磁盘"
       );
 
       fs.writeFileSync(
@@ -151,14 +151,14 @@ export default {
       var localVer = this.local_config.clients[this.node_info.NODE_TYPE]
         .version;
       this.conMsg = "检测是否需要更新";
-      self.$logger.info("检测是否需要更新", latestVer, localVer);
+      self.$startLogs.info(`检测是否需要更新,本地${localVer},最新${latestVer}`);
       if (latestVer == localVer) {
-        this.conMsg = "本地 CanonChain 配置是最新的";
-        self.$logger.info("本地 CanonChain 配置是最新的");
+        this.conMsg = "本地 CanonChain 节点文件是最新的";
+        self.$startLogs.info("本地 CanonChain 节点文件是最新的");
         this.isDownload();
       } else {
-        this.conMsg = "本地 CanonChain 配置是老版本";
-        self.$logger.info("本地 CanonChain 配置是老版本");
+        this.conMsg = "本地 CanonChain 节点文件是老版本";
+        self.$startLogs.info("本地 CanonChain 节点文件是老版本");
         this.writeLocalConfig(this.latest_config.content);
         this.isDownload();
       }
@@ -184,22 +184,22 @@ export default {
       };
 
       //TODO 判断是否有 CanonChain
-      this.conMsg = "判断是否有 CanonChain 应用程序";
-      self.$logger.info("判断是否有 CanonChain 应用程序");
+      this.conMsg = "检测当前设备是否有 CanonChain 节点文件";
+      self.$startLogs.info("检测当前设备是否有 CanonChain 节点文件");
       try {
-        self.$logger.info(
+        self.$startLogs.info(
           "本地的节点文件",
           path.join(options.directory, this.node_info.binaryVersion.bin)
         );
         var stats = fs.statSync(
           path.join(options.directory, this.node_info.binaryVersion.bin)
         );
-        this.conMsg = "存在的";
-        self.$logger.info("存在的");
+        this.conMsg = "当前设备已存在 CanonChain 节点文件";
+        self.$startLogs.info("当前设备已存在 CanonChain 节点文件");
         self.runCanonChain();
       } catch (err) {
         this.conMsg = "正在下载节点程序,请耐心等待";
-        self.$logger.info(
+        self.$startLogs.info(
           "正在下载节点程序,请耐心等待",
           this.node_info.binaryVersion.url,
           options.directory
@@ -210,33 +210,31 @@ export default {
           options.directory,
           options
         ).then(() => {
-          this.conMsg = "节点程序已经下载好";
-          self.$logger.info("节点程序已经下载好");
+          this.conMsg = "节点程序已经下载好，准备启动";
+          self.$startLogs.info("节点程序已经下载好");
           self.runCanonChain();
         });
       }
     },
     runCanonChain() {
-      self.$logger.info(
-        "准备启动 CanonChain :",
-        this.userDataPath,
-        "download",
-        this.node_info.binaryVersion.bin
-      );
-      this.conMsg = "启动 CanonChain";
-
       var nodePath = path.join(
         this.userDataPath,
         "download",
         this.node_info.binaryVersion.bin
       );
+      self.$startLogs.info(
+        "准备启动 CanonChain :",
+        nodePath
+      );
+      this.conMsg = "准备启动节点";
+
       var ls = spawn(nodePath, [
         "--daemon",
         "--rpc_enable",
         "--rpc_enable_control"
       ]);
-      this.conMsg = "CanonChain 已经启动 ";
-      self.$logger.info("CanonChainPid",ls.pid);
+      this.conMsg = "节点启动成功，准备进入钱包";
+      self.$startLogs.info("CanonChainPid",ls.pid);
       sessionStorage.setItem("CanonChainPid", ls.pid);
       //进程守护
       this.guardNode(ls, nodePath);
@@ -244,6 +242,7 @@ export default {
     },
     guardNode(ls, nodePath) {
       var self = this;
+      self.$nodeLogs.info("守护进程开启",ls.pid);
       ls.on("exit", function() {
         ls = spawn(path.join(nodePath), [
           "--daemon",
@@ -251,7 +250,7 @@ export default {
           "--rpc_enable_control"
         ]);
         sessionStorage.setItem("CanonChainPid", ls.pid);
-        self.$logger.info("守护进程，新的CanonChainPid",ls.pid);
+        self.$nodeLogs.info("守护进程生效，新的CanonChainPid",ls.pid);
         self.guardNode(ls, nodePath);
       });
     }
@@ -282,7 +281,7 @@ export default {
   margin-top: 100px;
 }
 .icon-config .el-icon-loading {
-  font-size: 64px;
+  font-size: 42px;
   margin-bottom: 10px;
   color: #fff;
 }

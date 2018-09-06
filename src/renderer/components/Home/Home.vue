@@ -121,7 +121,7 @@ const app = require("electron").remote.app;
 app.on("will-quit", function() {
     var currentPid = Number(sessionStorage.getItem("CanonChainPid"));
     var result = process.kill(currentPid,'SIGINT');
-    self.$logger.info("app quit kill canonchain:", currentPid,result);
+    self.$nodeLogs.info("app quit kill canonchain:", currentPid,result);
 });
 
 export default {
@@ -579,9 +579,10 @@ export default {
     padding: 44px 10px 10px 10px;
     position: relative;
     margin: 40px 0 20px 20px;
-    background-color: #fff;
+    background-color: #f2f2f2;
     cursor: pointer;
     -webkit-user-select: none;
+    border-radius: 5px;
 }
 .accounrt-item.add-account {
     border: 1px dashed #dddddd;

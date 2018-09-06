@@ -230,8 +230,9 @@ export default {
     padding: 44px 10px 10px 10px;
     position: relative;
     margin: 40px 0 20px 20px;
-    background-color: #fff;
+    background-color: #f2f2f2;
     -webkit-user-select: none;
+    border-radius: 5px;
 }
 .contacts-item.add-contacts {
     border: 1px dashed #dddddd;
