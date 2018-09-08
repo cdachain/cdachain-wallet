@@ -1,3 +1,3 @@
-### Canonchain Wallet
+### CDAchain Wallet
 
-标准链钱包
+CDA链钱包
